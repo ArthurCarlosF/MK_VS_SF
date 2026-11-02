@@ -1,0 +1,51 @@
+[
+  {
+    "relative_signature": "0xc0",
+    "swap": true,
+    "bytes_matching": 3670016,
+    "total": 3670016,
+    "hadouken_tail": "1d7c000c0003422e0094422e0004422e"
+  },
+  {
+    "relative_signature": "0x332",
+    "swap": true,
+    "bytes_matching": 3670016,
+    "total": 3670016,
+    "hadouken_tail": "1d7c000c0003422e0094422e0004422e"
+  },
+  {
+    "relative_signature": "0x7fd6e",
+    "swap": true,
+    "bytes_matching": 3670016,
+    "total": 3670016,
+    "hadouken_tail": "1d7c000c0003422e0094422e0004422e"
+  },
+  {
+    "relative_signature": "0xc0",
+    "swap": false,
+    "bytes_matching": 3670016,
+    "total": 3670016,
+    "hadouken_tail": "1d7c000c0003422e0094422e0004422e"
+  },
+  {
+    "relative_signature": "0x332",
+    "swap": false,
+    "bytes_matching": 3670016,
+    "total": 3670016,
+    "hadouken_tail": "1d7c000c0003422e0094422e0004422e"
+  },
+  {
+    "relative_signature": "0x7fd6e",
+    "swap": false,
+    "bytes_matching": 3670016,
+    "total": 3670016,
+    "hadouken_tail": "1d7c000c0003422e0094422e0004422e"
+  },
+  {
+    "relative_signature": "0x7fd6e",
+    "swap": false,
+    "bytes_matching": 97955,
+    "total": 3670016,
+    "hadouken_tail": "00000000000000000000000000000000"
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "index": 0,
+      "x": 728,
+      "opponentX": 659.5,
+      "facing": -1,
+      "sourceFacing": -1,
+      "asset": "special-frame-0032",
+      "expectedFacing": -1,
+      "frame": 10,
+      "canvasScaleX": 2,
+      "status": "PASS"
+    },
+    {
+      "index": 1,
+      "x": 372,
+      "opponentX": 440.5,
+      "facing": 1,
+      "sourceFacing": -1,
+      "asset": "special-frame-0032",
+      "expectedFacing": 1,
+      "frame": 10,
+      "canvasScaleX": -2,
+      "status": "PASS"
+    }
+  ],
+  "errors": []
+}

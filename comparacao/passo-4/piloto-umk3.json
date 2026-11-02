@@ -1,0 +1,358 @@
+{
+  "cases": [
+    {
+      "id": "probe_0_far",
+      "setup": [],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              0
+            ]
+          }
+        },
+        {
+          "frames": 100,
+          "p1": {}
+        }
+      ],
+      "meta": {
+        "raw": 0,
+        "near": false
+      },
+      "all_video": true
+    },
+    {
+      "id": "probe_0_near",
+      "setup": [
+        {
+          "frames": 100,
+          "p1": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 12,
+          "p1": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              0
+            ]
+          }
+        },
+        {
+          "frames": 100,
+          "p1": {}
+        }
+      ],
+      "meta": {
+        "raw": 0,
+        "near": true
+      },
+      "all_video": true
+    },
+    {
+      "id": "probe_1_far",
+      "setup": [],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              1
+            ]
+          }
+        },
+        {
+          "frames": 100,
+          "p1": {}
+        }
+      ],
+      "meta": {
+        "raw": 1,
+        "near": false
+      },
+      "all_video": true
+    },
+    {
+      "id": "probe_1_near",
+      "setup": [
+        {
+          "frames": 100,
+          "p1": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 12,
+          "p1": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              1
+            ]
+          }
+        },
+        {
+          "frames": 100,
+          "p1": {}
+        }
+      ],
+      "meta": {
+        "raw": 1,
+        "near": true
+      },
+      "all_video": true
+    },
+    {
+      "id": "probe_8_far",
+      "setup": [],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              8
+            ]
+          }
+        },
+        {
+          "frames": 100,
+          "p1": {}
+        }
+      ],
+      "meta": {
+        "raw": 8,
+        "near": false
+      },
+      "all_video": true
+    },
+    {
+      "id": "probe_8_near",
+      "setup": [
+        {
+          "frames": 100,
+          "p1": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 12,
+          "p1": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              8
+            ]
+          }
+        },
+        {
+          "frames": 100,
+          "p1": {}
+        }
+      ],
+      "meta": {
+        "raw": 8,
+        "near": true
+      },
+      "all_video": true
+    },
+    {
+      "id": "probe_9_far",
+      "setup": [],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              9
+            ]
+          }
+        },
+        {
+          "frames": 100,
+          "p1": {}
+        }
+      ],
+      "meta": {
+        "raw": 9,
+        "near": false
+      },
+      "all_video": true
+    },
+    {
+      "id": "probe_9_near",
+      "setup": [
+        {
+          "frames": 100,
+          "p1": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 12,
+          "p1": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              9
+            ]
+          }
+        },
+        {
+          "frames": 100,
+          "p1": {}
+        }
+      ],
+      "meta": {
+        "raw": 9,
+        "near": true
+      },
+      "all_video": true
+    },
+    {
+      "id": "probe_10_far",
+      "setup": [],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              10
+            ]
+          }
+        },
+        {
+          "frames": 100,
+          "p1": {}
+        }
+      ],
+      "meta": {
+        "raw": 10,
+        "near": false
+      },
+      "all_video": true
+    },
+    {
+      "id": "probe_10_near",
+      "setup": [
+        {
+          "frames": 100,
+          "p1": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 12,
+          "p1": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              10
+            ]
+          }
+        },
+        {
+          "frames": 100,
+          "p1": {}
+        }
+      ],
+      "meta": {
+        "raw": 10,
+        "near": true
+      },
+      "all_video": true
+    },
+    {
+      "id": "probe_11_far",
+      "setup": [],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              11
+            ]
+          }
+        },
+        {
+          "frames": 100,
+          "p1": {}
+        }
+      ],
+      "meta": {
+        "raw": 11,
+        "near": false
+      },
+      "all_video": true
+    },
+    {
+      "id": "probe_11_near",
+      "setup": [
+        {
+          "frames": 100,
+          "p1": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 12,
+          "p1": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              11
+            ]
+          }
+        },
+        {
+          "frames": 100,
+          "p1": {}
+        }
+      ],
+      "meta": {
+        "raw": 11,
+        "near": true
+      },
+      "all_video": true
+    }
+  ],
+  "checkpoints": [
+    0,
+    2,
+    4,
+    8,
+    12,
+    20,
+    32,
+    48,
+    64,
+    96
+  ]
+}

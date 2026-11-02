@@ -1,0 +1,100 @@
+PASSO 2 — ACEITAÇÃO DE COMANDOS, RYU E SCORPION
+Implementação e medições concluídas em 23/10/2026.
+
+O QUE MUDOU
+- Políticas de entrada por personagem, reaproveitáveis por outros cadastros.
+- Mantendo soco ou chute: um golpe; a repetição do teclado não cria novos ataques.
+- Toques recusados durante uma ação deixam de ficar numa fila genérica de 140 ms.
+- Scorpion: janela própria para continuar os socos, alternando braço e retorno;
+  quatro quadros novos decodificados da ROM e comparados ao vídeo original.
+- Ryu: soco em pé/baixo pode reiniciar antes do fim da recuperação. Chute baixo
+  tem uma janela própria. Chute em pé não herda a regra do soco.
+- Manter cima repete o pulo após aterrissar nos dois personagens.
+- Segurar bloqueio impede o normal do Scorpion. Ryu pode atacar segurando trás.
+- Soco/chute simultâneos escolhem soco, sem deixar um chute pendente.
+- Hadouken: baixo, diagonal à frente, frente + apertar OU soltar soco.
+  A diagonal é necessária. Movimento lento não fica válido por 550 ms.
+- Teleporte: baixo, trás + chute. Lança: trás, solte, trás + soco.
+- Atalhos U/O e T/B continuam como facilidades do crossover.
+- Entradas durante a pausa de impacto são preservadas até o combate retomar.
+  A reprodução exata desse comportamento de contato ainda pertence à etapa 6.
+
+O QUE FOI MEDIDO
+110 casos por jogo, repetidos em dois processos independentes: 440 execuções.
+21 casos adicionais investigaram limites do Hadouken e toques curtíssimos.
+Uma execução adicional gravou todos os quadros de uma sequência do Scorpion.
+Total: 462 execuções de casos nos originais, sem IA e sem escrever em RAM.
+As duas baterias principais coincidiram integralmente nos campos registrados.
+Não houve controle do teclado nem das janelas do usuário durante as capturas.
+
+Os quatro quadros novos de Scorpion atingiram 100% de concordância nos pixels
+visíveis com tolerância RGB de 3, comparados ao vídeo emulado. A ancoragem
+no chão também foi conferida no desenho real do protótipo.
+
+Na contagem de poses estendidas dos 190 roteiros de normais, os resultados
+coincidentes passaram de 130 antes para 187 depois. Isso NÃO significa 98%
+de fidelidade: mede apenas uma propriedade visível em condições específicas.
+Os tempos e o dano não foram declarados equivalentes por essa contagem.
+
+DIFERENÇAS QUE CONTINUAM EXPLÍCITAS
+Três roteiros de Ryu ainda divergem na contagem das poses estendidas:
+punch_train_04, punch_low_train_06 e kick_low_train_04.
+Há também diferenças de amostras temporais em outros roteiros. Uma pose pode
+ser interrompida ou não aparecer na amostragem sem provar que o botão foi
+recusado. A relação com o relógio interno do Turbo precisa de medição adicional.
+Não esconder isso como um teste de fidelidade aprovado.
+
+O Hadouken original usa uma tabela de temporizadores entre 8 e 15 unidades;
+portanto não possui um timeout constante para todas as circunstâncias.
+A política atual usa uma janela conservadora que reproduz o corte observado
+na bateria: diagonal mantida por 7 amostras funcionou; por 8, não funcionou.
+O gerador original e sua conversão exata de relógios ainda não foram portados.
+Não afirmar que todas as janelas em qualquer fase do jogo já são idênticas.
+
+Os dados de liberação mínima do MK e as janelas de repetição são modelos
+inferidos das intervenções reproduzidas, não leitura integral da rotina nativa.
+O cancelamento entre golpe conectado e especial, defesa em stun, variantes
+perto/longe, forças de botões ainda não expostas, combate aéreo, combos,
+dano variável e regras de contato exigem as etapas seguintes.
+Não foi extraído código-fonte original completo.
+
+REA E ANÁLISE ESTÁTICA
+Reutilizado o inventário REA dos pacotes do passo 1 para identidade dos jogos.
+A inspeção direcionada deste passo leu os blocos locais previamente decodificados
+com Ghidra/Capstone e os bytes da ROM de opcodes do Ryu. Conferiu despacho,
+reconhecimento por etapas e tabela de temporizadores do Hadouken.
+Não atribuir ao REA uma nova execução ou decompilação que não ocorreu.
+Detalhes e bytes: evidencia-estatica-ryu.json.
+
+VERIFICAÇÃO
+39 testes de combate + 7 de calibração + 17 de comandos + 11 da interface
++ 3 de teclado/interface dos comandos = 77 verificações automatizadas aprovadas.
+Isso valida as regras e regressões descritas; não elimina as diferenças acima.
+O teste de teclado mantém J, injeta repetição de tecla e depois aperta/solta J;
+a sequência nova realmente é acionada pelos controles do navegador.
+
+COMO TESTAR
+Abra normalmente a arena, escolha Treino livre e use os controles existentes.
+Mantenha J: um soco. Solte e aperte J várias vezes: Scorpion alterna os socos.
+No Ryu, use F se ele estiver em 2P; o ritmo de repetição é diferente.
+Segure cima para observar pulos sucessivos e solte para interromper a repetição.
+Se a arena estava aberta antes desta etapa, recarregue a página.
+
+COMO REPRODUZIR E CONFERIR
+comparacao/passo-2/casos.json: comandos e intervalos da bateria principal.
+limites.json: bateria fina de comandos; quadros-sequencia.json: vídeo da sequência.
+ferramentas/capturar.py GAME REP DESTINO [SUITE]: execução nativa isolada.
+ferramentas/analisar.py: extrai cronologias e extensões das poses originais.
+ferramentas/verificar-paridade.cjs: gera os registros do protótipo antes/depois.
+ferramentas/verificar-quadros.py: compara os quatro novos quadros ao vídeo.
+Os scripts de teste ficam em ferramentas/testar_comandos.cjs e
+ferramentas/testar_interface_comandos.cjs, além das regressões anteriores.
+Use o Python/Node já registrados nos scripts do passo 1; nenhum download.
+Modelos antes/depois, traços brutos, imagens, hashes e resultados preservados.
+O painel antigo do passo 1 é uma execução histórica e não atualiza sozinho.
+
+PRÓXIMO
+Passo 3: deslocamento, corrida, saltos, câmera e contato entre corpos.
+Nas etapas 5 e 6, retomar as diferenças temporais e de encadeamento acima.
+Backup anterior às alterações: dados/backups/passo-2-comandos.
+As instalações originais e a coletânea isolada anterior não foram alteradas.

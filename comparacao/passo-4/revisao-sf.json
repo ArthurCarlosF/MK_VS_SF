@@ -1,0 +1,432 @@
+{
+  "cases": [
+    {
+      "id": "stand_lp_far",
+      "setup": [],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              0
+            ]
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 0,
+        "posture": "stand",
+        "context": "far",
+        "direction": 0,
+        "guard": null,
+        "approach": null
+      },
+      "all_video": true
+    },
+    {
+      "id": "airVertical_mp",
+      "setup": [
+        {
+          "frames": 3,
+          "p1": {
+            "up": true,
+            "x": 0
+          },
+          "p2": {}
+        },
+        {
+          "frames": 10,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              8
+            ]
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 8,
+        "posture": "airVertical",
+        "context": "far",
+        "direction": 0,
+        "guard": null,
+        "approach": null
+      },
+      "all_video": true
+    },
+    {
+      "id": "airForward_mp",
+      "setup": [
+        {
+          "frames": 3,
+          "p1": {
+            "up": true,
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 10,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              8
+            ]
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 8,
+        "posture": "airForward",
+        "context": "far",
+        "direction": 0,
+        "guard": null,
+        "approach": null
+      },
+      "all_video": true
+    },
+    {
+      "id": "stand_hk_far",
+      "setup": [],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              11
+            ]
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 11,
+        "posture": "stand",
+        "context": "far",
+        "direction": 0,
+        "guard": null,
+        "approach": null
+      },
+      "all_video": true
+    },
+    {
+      "id": "damage_lp_25",
+      "setup": [
+        {
+          "frames": 25,
+          "p1": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 12,
+          "p1": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              0
+            ]
+          }
+        },
+        {
+          "frames": 83,
+          "p1": {}
+        }
+      ],
+      "meta": {
+        "button": 0,
+        "posture": "stand",
+        "context": "damageProbe"
+      }
+    },
+    {
+      "id": "damage_lp_26",
+      "setup": [
+        {
+          "frames": 26,
+          "p1": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 12,
+          "p1": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              0
+            ]
+          }
+        },
+        {
+          "frames": 83,
+          "p1": {}
+        }
+      ],
+      "meta": {
+        "button": 0,
+        "posture": "stand",
+        "context": "damageProbe"
+      }
+    },
+    {
+      "id": "damage_lp_27",
+      "setup": [
+        {
+          "frames": 27,
+          "p1": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 12,
+          "p1": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              0
+            ]
+          }
+        },
+        {
+          "frames": 83,
+          "p1": {}
+        }
+      ],
+      "meta": {
+        "button": 0,
+        "posture": "stand",
+        "context": "damageProbe"
+      }
+    },
+    {
+      "id": "damage_lp_29",
+      "setup": [
+        {
+          "frames": 29,
+          "p1": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 12,
+          "p1": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              0
+            ]
+          }
+        },
+        {
+          "frames": 83,
+          "p1": {}
+        }
+      ],
+      "meta": {
+        "button": 0,
+        "posture": "stand",
+        "context": "damageProbe"
+      }
+    },
+    {
+      "id": "damage_hk_25",
+      "setup": [
+        {
+          "frames": 25,
+          "p1": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 12,
+          "p1": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              11
+            ]
+          }
+        },
+        {
+          "frames": 83,
+          "p1": {}
+        }
+      ],
+      "meta": {
+        "button": 11,
+        "posture": "stand",
+        "context": "damageProbe"
+      }
+    },
+    {
+      "id": "damage_hk_26",
+      "setup": [
+        {
+          "frames": 26,
+          "p1": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 12,
+          "p1": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              11
+            ]
+          }
+        },
+        {
+          "frames": 83,
+          "p1": {}
+        }
+      ],
+      "meta": {
+        "button": 11,
+        "posture": "stand",
+        "context": "damageProbe"
+      }
+    },
+    {
+      "id": "damage_hk_27",
+      "setup": [
+        {
+          "frames": 27,
+          "p1": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 12,
+          "p1": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              11
+            ]
+          }
+        },
+        {
+          "frames": 83,
+          "p1": {}
+        }
+      ],
+      "meta": {
+        "button": 11,
+        "posture": "stand",
+        "context": "damageProbe"
+      }
+    },
+    {
+      "id": "damage_hk_29",
+      "setup": [
+        {
+          "frames": 29,
+          "p1": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 12,
+          "p1": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              11
+            ]
+          }
+        },
+        {
+          "frames": 83,
+          "p1": {}
+        }
+      ],
+      "meta": {
+        "button": 11,
+        "posture": "stand",
+        "context": "damageProbe"
+      }
+    }
+  ],
+  "checkpoints": [
+    0,
+    2,
+    5,
+    8,
+    12,
+    20,
+    32,
+    48,
+    64,
+    84
+  ]
+}

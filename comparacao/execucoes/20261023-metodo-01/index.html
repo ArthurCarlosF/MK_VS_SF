@@ -1,0 +1,13 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Comparação — originais e protótipo</title><link rel="stylesheet" href="viewer.css"></head><body><main>
+<header><p class="eyebrow">MORTAL KOMBAT × STREET FIGHTER</p><h1>Comparação de comportamento</h1><p>Os mesmos comandos, nos originais e no protótipo.</p></header>
+<section class="choices"><label>Personagem<select id="game"><option value="umk3">Scorpion · UMK3</option><option value="ssf2tu">Ryu · Super Turbo</option></select></label><label>Teste<select id="case"></select></label><label>Reprodução<select id="speed"><option value="1">Normal</option><option value="0.5">Metade</option><option value="0.25">Um quarto</option></select></label><button id="play">Reproduzir registros</button></section>
+<div class="seek"><button id="prev" aria-label="Amostra anterior">‹</button><input id="sample" type="range" value="0" min="0" step="1"><button id="next" aria-label="Próxima amostra">›</button><span id="time"></span></div>
+<p id="input"></p><section class="screens"><article><h2>Jogo original</h2><div class="image"><img id="original" alt="Quadro capturado no jogo original"></div><p id="original-caption"></p></article><article><h2>Nosso protótipo</h2><div class="image"><img id="prototype" alt="Quadro da mesma sequência no protótipo"></div><p id="prototype-caption"></p></article></section>
+<details><summary>Registros de estado e pose desta amostra</summary><p id="raw-state"></p></details>
+<p class="note">Imagens disponíveis nos pontos de conferência. Os valores abaixo acompanham cada amostra. A apresentação visual dos jogos é diferente; não há comparação de pixels entre cenários.</p>
+<table><thead><tr><th>Medida</th><th>Original</th><th>Protótipo</th><th>Diferença</th></tr></thead><tbody id="values"></tbody></table>
+<section class="status"><h2 id="status"></h2><p id="details"></p><p id="repeat"></p></section>
+<h2>O que este método comprova</h2><p>Registra comandos, relógios, posições, vida, poses e quadros. Detecta diferenças numéricas e compara repetições. Uma execução sem erro não significa fidelidade completa.</p>
+<ul><li><b>Medido:</b> registros dos jogos e do motor.</li><li><b>Inferido:</b> interpretação de poses e diferenças.</li><li><b>Provisório:</b> regras do crossover ainda em calibração.</li></ul>
+<footer><a href="resumo.json">Resumo completo</a><a href="manifesto.json">Versões e identificação dos arquivos</a><a href="rea-umk3.json">Evidência REA · MK</a><a href="rea-ssf2tu.json">Evidência REA · SF</a></footer>
+</main><script src="dados.js"></script><script src="viewer.js"></script></body></html>

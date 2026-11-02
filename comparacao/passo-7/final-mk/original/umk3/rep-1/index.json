@@ -1,0 +1,1732 @@
+{
+  "game": "umk3",
+  "rep": 1,
+  "fps": 53.20494842529297,
+  "char_ids": [
+    18,
+    18
+  ],
+  "baseline": {
+    "players": [
+      {
+        "x": 496.0,
+        "y": 112.0,
+        "pose": "0xff9367d0",
+        "facing": 1,
+        "health": 166,
+        "state": null,
+        "boxes": []
+      },
+      {
+        "x": 703.0,
+        "y": 112.0,
+        "pose": "0xff9367d0",
+        "facing": -1,
+        "health": 166,
+        "state": null,
+        "boxes": []
+      }
+    ],
+    "camera": 400
+  },
+  "cases": [
+    {
+      "id": "backlk_25_0",
+      "file": "backlk_25_0/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "backlk_25_2",
+      "file": "backlk_25_2/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "backlk_25_4",
+      "file": "backlk_25_4/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "backlk_26_0",
+      "file": "backlk_26_0/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "backlk_26_2",
+      "file": "backlk_26_2/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "backlk_26_4",
+      "file": "backlk_26_4/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "backlk_27_0",
+      "file": "backlk_27_0/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "backlk_27_2",
+      "file": "backlk_27_2/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "backlk_27_4",
+      "file": "backlk_27_4/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "backlk_28_0",
+      "file": "backlk_28_0/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "backlk_28_2",
+      "file": "backlk_28_2/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "backlk_28_4",
+      "file": "backlk_28_4/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "backlk_29_0",
+      "file": "backlk_29_0/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "backlk_29_2",
+      "file": "backlk_29_2/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "backlk_29_4",
+      "file": "backlk_29_4/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "backlk_30_0",
+      "file": "backlk_30_0/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "backlk_30_2",
+      "file": "backlk_30_2/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "backlk_30_4",
+      "file": "backlk_30_4/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "backlk_31_0",
+      "file": "backlk_31_0/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "backlk_31_2",
+      "file": "backlk_31_2/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "backlk_31_4",
+      "file": "backlk_31_4/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "backlk_32_0",
+      "file": "backlk_32_0/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "backlk_32_2",
+      "file": "backlk_32_2/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "backlk_32_4",
+      "file": "backlk_32_4/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "backlk_33_0",
+      "file": "backlk_33_0/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "backlk_33_2",
+      "file": "backlk_33_2/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "backlk_33_4",
+      "file": "backlk_33_4/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "backlk_34_0",
+      "file": "backlk_34_0/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "backlk_34_2",
+      "file": "backlk_34_2/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "backlk_34_4",
+      "file": "backlk_34_4/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "backlk_35_0",
+      "file": "backlk_35_0/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "backlk_35_2",
+      "file": "backlk_35_2/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "backlk_35_4",
+      "file": "backlk_35_4/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "backlk_36_0",
+      "file": "backlk_36_0/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "backlk_36_2",
+      "file": "backlk_36_2/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "backlk_36_4",
+      "file": "backlk_36_4/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "backlk_37_0",
+      "file": "backlk_37_0/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "backlk_37_2",
+      "file": "backlk_37_2/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "backlk_37_4",
+      "file": "backlk_37_4/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "backlk_38_0",
+      "file": "backlk_38_0/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "backlk_38_2",
+      "file": "backlk_38_2/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "backlk_38_4",
+      "file": "backlk_38_4/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "knees_8_16",
+      "file": "knees_8_16/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "knees_8_18",
+      "file": "knees_8_18/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "knees_8_20",
+      "file": "knees_8_20/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "knees_8_22",
+      "file": "knees_8_22/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "knees_8_24",
+      "file": "knees_8_24/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "knees_8_26",
+      "file": "knees_8_26/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "knees_8_28",
+      "file": "knees_8_28/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "knees_8_30",
+      "file": "knees_8_30/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "knees_8_32",
+      "file": "knees_8_32/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "knees_8_34",
+      "file": "knees_8_34/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "knees_9_16",
+      "file": "knees_9_16/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "knees_9_18",
+      "file": "knees_9_18/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "knees_9_20",
+      "file": "knees_9_20/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "knees_9_22",
+      "file": "knees_9_22/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "knees_9_24",
+      "file": "knees_9_24/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "knees_9_26",
+      "file": "knees_9_26/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "knees_9_28",
+      "file": "knees_9_28/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "knees_9_30",
+      "file": "knees_9_30/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "knees_9_32",
+      "file": "knees_9_32/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "knees_9_34",
+      "file": "knees_9_34/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    }
+  ],
+  "options": {
+    "mame2003-plus_skip_disclaimer": "enabled",
+    "mame2003-plus_skip_warnings": "enabled",
+    "mame2003-plus_display_setup": "disabled",
+    "mame2003-plus_mame_remapping": "enabled",
+    "mame2003-plus_autosave_hiscore": "default",
+    "mame2003-plus_nvram_bootstraps": "enabled",
+    "mame2003-plus_core_sys_subfolder": "enabled",
+    "mame2003-plus_core_save_subfolder": "enabled",
+    "mame2003-plus_xy_device": "mouse",
+    "mame2003-plus_input_interface": "simultaneous",
+    "mame2003-plus_input_toggle": "enabled",
+    "mame2003-plus_digital_joy_centering": "enabled",
+    "mame2003-plus_use_samples": "enabled",
+    "mame2003-plus_sample_rate": "48000",
+    "mame2003-plus_brightness": "1.0",
+    "mame2003-plus_gamma": "1.0",
+    "mame2003-plus_tate_mode": "disabled",
+    "mame2003-plus_frameskip": "disabled",
+    "mame2003-plus_display_artwork": "enabled",
+    "mame2003-plus_art_resolution": "1",
+    "mame2003-plus_art_overlay_opacity": "default",
+    "mame2003-plus_cpu_clock_scale": "default"
+  }
+}

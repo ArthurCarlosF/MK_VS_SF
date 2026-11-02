@@ -1,0 +1,106 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "index": 0,
+      "initial": {
+        "x": 710,
+        "state": "impaled",
+        "health": 91,
+        "tether": {
+          "owner": 0,
+          "target": 1,
+          "move": "spear",
+          "phase": "impale",
+          "elapsed": 0,
+          "direction": 1,
+          "hold": 0.18,
+          "speed": 425.63958740234375,
+          "stopDistance": 65,
+          "settleStun": 0.4
+        }
+      },
+      "middle": {
+        "x": 697.5855120340982,
+        "state": "impaled",
+        "ownerState": "reel",
+        "hand": {
+          "x": 457,
+          "y": 109
+        },
+        "maxStep": 1.7734982808431141,
+        "frames": 13,
+        "tether": {
+          "owner": 0,
+          "target": 1,
+          "move": "spear",
+          "phase": "pull",
+          "elapsed": 0.20833333333333356,
+          "direction": 1,
+          "hold": 0.18,
+          "speed": 425.63958740234375,
+          "stopDistance": 65,
+          "settleStun": 0.4
+        }
+      },
+      "end": {
+        "distance": 65,
+        "tethers": 0,
+        "completed": true
+      },
+      "coilDeviation": 1.119179190831253,
+      "status": "PASS"
+    },
+    {
+      "index": 1,
+      "initial": {
+        "x": 390,
+        "state": "impaled",
+        "health": 91,
+        "tether": {
+          "owner": 1,
+          "target": 0,
+          "move": "spear",
+          "phase": "impale",
+          "elapsed": 0,
+          "direction": -1,
+          "hold": 0.18,
+          "speed": 425.63958740234375,
+          "stopDistance": 65,
+          "settleStun": 0.4
+        }
+      },
+      "middle": {
+        "x": 402.4144879659018,
+        "state": "impaled",
+        "ownerState": "reel",
+        "hand": {
+          "x": 643,
+          "y": 109
+        },
+        "maxStep": 1.7734982808431141,
+        "frames": 13,
+        "tether": {
+          "owner": 1,
+          "target": 0,
+          "move": "spear",
+          "phase": "pull",
+          "elapsed": 0.20833333333333356,
+          "direction": -1,
+          "hold": 0.18,
+          "speed": 425.63958740234375,
+          "stopDistance": 65,
+          "settleStun": 0.4
+        }
+      },
+      "end": {
+        "distance": 65,
+        "tethers": 0,
+        "completed": true
+      },
+      "coilDeviation": 1.1191791908312607,
+      "status": "PASS"
+    }
+  ],
+  "errors": []
+}

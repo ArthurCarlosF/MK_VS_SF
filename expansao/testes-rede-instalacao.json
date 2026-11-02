@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "url": "http://192.168.0.199:8765/",
+  "productionServer": true,
+  "independentContexts": 2,
+  "mobileViewport": true,
+  "joinStartGameAndReturn": true,
+  "physicalSecondDevice": false,
+  "errors": []
+}

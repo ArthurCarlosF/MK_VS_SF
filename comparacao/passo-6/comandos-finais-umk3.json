@@ -1,0 +1,263 @@
+{
+  "cases": [
+    {
+      "id": "teleport_hit__act30",
+      "setup": [],
+      "segments": [
+        {
+          "frames": 4,
+          "p1": {
+            "down": true
+          },
+          "p2": {}
+        },
+        {
+          "frames": 4,
+          "p1": {
+            "x": -1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "raw": [
+              1
+            ]
+          },
+          "p2": {}
+        },
+        {
+          "frames": 229,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "special": "teleport",
+        "posture": "stand",
+        "guard": null,
+        "actionProbeOffset": 30,
+        "probeButton": 1
+      },
+      "visual": false,
+      "all_video": false
+    },
+    {
+      "id": "teleport_hit__act31",
+      "setup": [],
+      "segments": [
+        {
+          "frames": 4,
+          "p1": {
+            "down": true
+          },
+          "p2": {}
+        },
+        {
+          "frames": 4,
+          "p1": {
+            "x": -1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "raw": [
+              1
+            ]
+          },
+          "p2": {}
+        },
+        {
+          "frames": 229,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "special": "teleport",
+        "posture": "stand",
+        "guard": null,
+        "actionProbeOffset": 31,
+        "probeButton": 1
+      },
+      "visual": false,
+      "all_video": false
+    },
+    {
+      "id": "teleport_hit__act32",
+      "setup": [],
+      "segments": [
+        {
+          "frames": 4,
+          "p1": {
+            "down": true
+          },
+          "p2": {}
+        },
+        {
+          "frames": 4,
+          "p1": {
+            "x": -1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "raw": [
+              1
+            ]
+          },
+          "p2": {}
+        },
+        {
+          "frames": 229,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "special": "teleport",
+        "posture": "stand",
+        "guard": null,
+        "actionProbeOffset": 32,
+        "probeButton": 1
+      },
+      "visual": false,
+      "all_video": false
+    },
+    {
+      "id": "teleport_hit__act33",
+      "setup": [],
+      "segments": [
+        {
+          "frames": 4,
+          "p1": {
+            "down": true
+          },
+          "p2": {}
+        },
+        {
+          "frames": 4,
+          "p1": {
+            "x": -1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "raw": [
+              1
+            ]
+          },
+          "p2": {}
+        },
+        {
+          "frames": 229,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "special": "teleport",
+        "posture": "stand",
+        "guard": null,
+        "actionProbeOffset": 33,
+        "probeButton": 1
+      },
+      "visual": false,
+      "all_video": false
+    },
+    {
+      "id": "teleport_hit__act34",
+      "setup": [],
+      "segments": [
+        {
+          "frames": 4,
+          "p1": {
+            "down": true
+          },
+          "p2": {}
+        },
+        {
+          "frames": 4,
+          "p1": {
+            "x": -1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "raw": [
+              1
+            ]
+          },
+          "p2": {}
+        },
+        {
+          "frames": 229,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "special": "teleport",
+        "posture": "stand",
+        "guard": null,
+        "actionProbeOffset": 34,
+        "probeButton": 1
+      },
+      "visual": false,
+      "all_video": false
+    },
+    {
+      "id": "teleport_hit__act35",
+      "setup": [],
+      "segments": [
+        {
+          "frames": 4,
+          "p1": {
+            "down": true
+          },
+          "p2": {}
+        },
+        {
+          "frames": 4,
+          "p1": {
+            "x": -1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "raw": [
+              1
+            ]
+          },
+          "p2": {}
+        },
+        {
+          "frames": 229,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "special": "teleport",
+        "posture": "stand",
+        "guard": null,
+        "actionProbeOffset": 35,
+        "probeButton": 1
+      },
+      "visual": false,
+      "all_video": false
+    }
+  ],
+  "checkpoints": []
+}

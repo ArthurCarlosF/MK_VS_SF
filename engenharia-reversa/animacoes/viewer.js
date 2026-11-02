@@ -1,0 +1,25 @@
+"use strict";
+const data=window.ANIMACOES,cache=new Map(),errors=[];let playing=true,speed=1,last=0,ready=false;const panels=[];
+function load(src){if(cache.has(src))return cache.get(src).promise;const im=new Image();let resolve,reject;const promise=new Promise((r,j)=>{resolve=r;reject=j});cache.set(src,{im,promise,loaded:false});im.onload=()=>{cache.get(src).loaded=true;resolve(im)};im.onerror=()=>{errors.push(src);reject(new Error('Não foi possível abrir '+src))};im.src=src;return promise}
+function image(src){const hit=cache.get(src);if(hit?.loaded)return hit.im;if(!hit)load(src).catch(()=>{});return null}
+for(const [key,c] of Object.entries(data.characters)){
+ const root=document.createElement('article');root.className='panel '+(key==='ryu'?'sf':'mk');const game=key==='ryu'?'SUPER STREET FIGHTER II TURBO':'ULTIMATE MORTAL KOMBAT 3';
+ root.innerHTML=`<div class="top"><span class="game">${game}</span><h2>${key==='ryu'?'RYU':'SCORPION'}</h2><div class="selectors"><label>Animação<select class="clip" aria-label="Animação de ${key}">${Object.entries(c.clips).map(([id,v])=>`<option value="${id}">${v.label}</option>`).join('')}</select></label><label>Visualização<select class="view" aria-label="Visualização de ${key}"><option value="sprites">Sprites extraídos</option><option value="original">Captura original</option><option value="overlay">Sobrepor ao original</option></select></label></div></div><canvas width="400" height="254" aria-label="Animação de ${key}"></canvas><section class="controls"><div class="seek"><button class="prev" title="Quadro anterior">‹</button><input type="range" min="0" value="0" step="1" aria-label="Amostra de ${key}"><button class="next" title="Próximo quadro">›</button></div><div class="numbers"><div><small>Amostra</small><b class="sample"></b></div><div><small>Tempo</small><b class="time"></b></div><div><small>Deslocamento X</small><b class="dx"></b></div></div><div class="foot"><span>${c.fps.toFixed(3)} amostras/s</span><a href="${key}/spritesheet.png" target="_blank">Folha de quadros ↗</a></div></section>`;
+ document.querySelector('#panels').append(root);const p={key,c,root,clip:'parado',index:0,time:0,view:'sprites',canvas:root.querySelector('canvas'),slider:root.querySelector('input')};p.ctx=p.canvas.getContext('2d');panels.push(p);
+ p.slider.max=c.clips[p.clip].frames.length-1;
+ root.querySelector('.clip').addEventListener('change',e=>{p.clip=e.target.value;p.index=0;p.time=0;p.slider.max=c.clips[p.clip].frames.length-1;draw(p)});
+ root.querySelector('.view').addEventListener('change',e=>{p.view=e.target.value;draw(p)});
+ p.slider.addEventListener('input',e=>{setPlaying(false);p.index=+e.target.value;p.time=p.index/p.c.fps;draw(p)});
+ for(const [selector,step] of [['.prev',-1],['.next',1]])root.querySelector(selector).addEventListener('click',()=>{setPlaying(false);const n=p.c.clips[p.clip].frames.length;p.index=(p.index+step+n)%n;p.time=p.index/p.c.fps;draw(p)});
+}
+function setPlaying(value){playing=value;document.querySelector('#play').textContent=value?'Pausar':'Reproduzir'}
+function draw(p){const ctx=p.ctx,clip=p.c.clips[p.clip],frame=clip.frames[p.index];ctx.imageSmoothingEnabled=false;ctx.fillStyle='#14151b';ctx.fillRect(0,0,400,254);ctx.fillStyle='#1c1d24';for(let y=0;y<254;y+=16)for(let x=0;x<400;x+=16)if(((x+y)/16)%2===0)ctx.fillRect(x,y,16,16);
+ const ox=p.key==='ryu'?8:0,oy=p.key==='ryu'?15:0;
+ if(p.view!=='sprites'){const ref=image(frame.reference);if(ref)ctx.drawImage(ref,ox,oy)}
+ if(p.view!=='original'){ctx.globalAlpha=p.view==='overlay'?0.6:1;const a=p.c.assets[frame.asset],im=image(a.file);if(im)ctx.drawImage(im,frame.screen_x+ox,frame.screen_y+oy);for(const effect of frame.effects||[]){const e=image(p.c.assets[effect.asset].file);if(e)ctx.drawImage(e,effect.screen_x+ox,effect.screen_y+oy)}ctx.globalAlpha=1}
+ p.slider.value=p.index;p.root.querySelector('.sample').textContent=`${p.index+1} / ${clip.frames.length}`;p.root.querySelector('.time').textContent=(p.index*1000/p.c.fps).toFixed(0)+' ms';const dx=frame.world_x-clip.frames[0].world_x;p.root.querySelector('.dx').textContent=(dx>=0?'+':'')+dx.toFixed(2);}
+document.querySelector('#play').addEventListener('click',()=>setPlaying(!playing));document.querySelector('#speed').addEventListener('change',e=>speed=+e.target.value);document.querySelector('#restart').addEventListener('click',()=>{for(const p of panels){p.index=0;p.time=0;draw(p)}});
+function tick(now){const dt=last?Math.min((now-last)/1000,0.2):0;last=now;if(ready){for(const p of panels){if(playing){p.time+=dt*speed;p.index=Math.floor(p.time*p.c.fps)%p.c.clips[p.clip].frames.length}draw(p)}}requestAnimationFrame(tick)}
+const paths=[...new Set(Object.values(data.characters).flatMap(c=>Object.values(c.assets).map(a=>a.file)))];
+Promise.all(paths.map(load)).then(()=>{ready=true;document.querySelector('#load').textContent='';panels.forEach(draw)}).catch(e=>document.querySelector('#load').textContent=e.message);requestAnimationFrame(tick);
+window.animationViewer={get ready(){return ready},panels,errors,setPlaying,draw};

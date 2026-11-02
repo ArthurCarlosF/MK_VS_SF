@@ -1,0 +1,11 @@
+const fs=require('fs'),path=require('path'),Module=require('module');
+const root=__dirname,orig='D:/projetos/Mortal Kombat vs Street Fighter',tool=process.argv[2];
+if(!/^testar_[a-z_]+\.cjs$/.test(tool))throw Error('Teste inválido');
+const read=fs.readFileSync.bind(fs),write=fs.writeFileSync.bind(fs),mkdir=fs.mkdirSync.bind(fs);
+const evidence=path.join(root,'evidencias',tool.replace('.cjs',''));mkdir(evidence,{recursive:true});
+const normalize=p=>String(p).replace(/\\/g,'/');
+fs.readFileSync=(file,...args)=>{const s=normalize(file),prefix=orig+'/arena/';return read(s.startsWith(prefix)?path.join(root,'arena',s.slice(prefix.length)):file,...args);};
+fs.writeFileSync=(file,...args)=>write(path.join(evidence,path.basename(String(file))),...args);
+fs.mkdirSync=(file,...args)=>{if(normalize(file).startsWith(orig))return;return mkdir(file,...args);};
+const filename=orig+'/ferramentas/'+tool,m=new Module(filename,module);m.filename=filename;m.paths=module.paths;
+m._compile(read(filename,'utf8'),filename);

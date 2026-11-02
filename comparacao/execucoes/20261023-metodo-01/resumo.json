@@ -1,0 +1,428 @@
+{
+  "schema": 1,
+  "method_complete": true,
+  "comparison_count": 26,
+  "repetitions": 2,
+  "repeatability": {
+    "umk3": {
+      "original": {
+        "identical": true,
+        "differences": [],
+        "meaning": "Same ordered case script across fresh original sessions; snapshots are restored only within their owning session."
+      },
+      "prototype": {
+        "identical": true,
+        "differences": [],
+        "meaning": "Same ordered case script across fresh original sessions; snapshots are restored only within their owning session."
+      }
+    },
+    "ssf2tu": {
+      "original": {
+        "identical": true,
+        "differences": [],
+        "meaning": "Same ordered case script across fresh original sessions; snapshots are restored only within their owning session."
+      },
+      "prototype": {
+        "identical": true,
+        "differences": [],
+        "meaning": "Same ordered case script across fresh original sessions; snapshots are restored only within their owning session."
+      }
+    }
+  },
+  "differences": [
+    {
+      "id": "parado",
+      "label": "Parado",
+      "game": "umk3",
+      "initialDistanceError": 0,
+      "max_error": {
+        "position": 0,
+        "height": 0,
+        "life": 0
+      },
+      "first_difference_sample": {},
+      "status": "within_numeric_tolerances",
+      "note": "Numeric movement/life check only; poses, state names and acceptance rules require separate interpretation."
+    },
+    {
+      "id": "andar_frente",
+      "label": "Avançar e soltar",
+      "game": "umk3",
+      "initialDistanceError": 0,
+      "max_error": {
+        "position": 3.25,
+        "height": 0,
+        "life": 0
+      },
+      "first_difference_sample": {
+        "position": 1
+      },
+      "status": "difference_observed",
+      "note": "Numeric movement/life check only; poses, state names and acceptance rules require separate interpretation."
+    },
+    {
+      "id": "andar_tras",
+      "label": "Recuar e soltar",
+      "game": "umk3",
+      "initialDistanceError": 0,
+      "max_error": {
+        "position": 2.25,
+        "height": 0,
+        "life": 0
+      },
+      "first_difference_sample": {
+        "position": 1
+      },
+      "status": "difference_observed",
+      "note": "Numeric movement/life check only; poses, state names and acceptance rules require separate interpretation."
+    },
+    {
+      "id": "agachar",
+      "label": "Agachar e levantar",
+      "game": "umk3",
+      "initialDistanceError": 0,
+      "max_error": {
+        "position": 0,
+        "height": 0,
+        "life": 0
+      },
+      "first_difference_sample": {},
+      "status": "within_numeric_tolerances",
+      "note": "Numeric movement/life check only; poses, state names and acceptance rules require separate interpretation."
+    },
+    {
+      "id": "pulo",
+      "label": "Pulo vertical",
+      "game": "umk3",
+      "initialDistanceError": 0,
+      "max_error": {
+        "position": 0,
+        "height": 3.9243713378913867,
+        "life": 0
+      },
+      "first_difference_sample": {
+        "height": 5
+      },
+      "status": "difference_observed",
+      "note": "Numeric movement/life check only; poses, state names and acceptance rules require separate interpretation."
+    },
+    {
+      "id": "soco",
+      "label": "Toque único de soco",
+      "game": "umk3",
+      "initialDistanceError": 0,
+      "max_error": {
+        "position": 0,
+        "height": 0,
+        "life": 0
+      },
+      "first_difference_sample": {},
+      "status": "within_numeric_tolerances",
+      "note": "Numeric movement/life check only; poses, state names and acceptance rules require separate interpretation."
+    },
+    {
+      "id": "soco_mantido",
+      "label": "Soco mantido",
+      "game": "umk3",
+      "initialDistanceError": 0,
+      "max_error": {
+        "position": 0,
+        "height": 0,
+        "life": 0
+      },
+      "first_difference_sample": {},
+      "status": "within_numeric_tolerances",
+      "note": "Numeric movement/life check only; poses, state names and acceptance rules require separate interpretation."
+    },
+    {
+      "id": "socos_rapidos",
+      "label": "Soco: 2 amostras pressionado, 2 solto",
+      "game": "umk3",
+      "initialDistanceError": 0,
+      "max_error": {
+        "position": 0,
+        "height": 0,
+        "life": 0
+      },
+      "first_difference_sample": {},
+      "status": "within_numeric_tolerances",
+      "note": "Numeric movement/life check only; poses, state names and acceptance rules require separate interpretation."
+    },
+    {
+      "id": "socos_lentos",
+      "label": "Soco: 2 amostras pressionado, 14 solto",
+      "game": "umk3",
+      "initialDistanceError": 0,
+      "max_error": {
+        "position": 0,
+        "height": 0,
+        "life": 0
+      },
+      "first_difference_sample": {},
+      "status": "within_numeric_tolerances",
+      "note": "Numeric movement/life check only; poses, state names and acceptance rules require separate interpretation."
+    },
+    {
+      "id": "chute",
+      "label": "Toque único de chute",
+      "game": "umk3",
+      "initialDistanceError": 0,
+      "max_error": {
+        "position": 0,
+        "height": 0,
+        "life": 0
+      },
+      "first_difference_sample": {},
+      "status": "within_numeric_tolerances",
+      "note": "Numeric movement/life check only; poses, state names and acceptance rules require separate interpretation."
+    },
+    {
+      "id": "soco_baixo",
+      "label": "Soco agachado",
+      "game": "umk3",
+      "initialDistanceError": 0,
+      "max_error": {
+        "position": 0,
+        "height": 0,
+        "life": 0
+      },
+      "first_difference_sample": {},
+      "status": "within_numeric_tolerances",
+      "note": "Numeric movement/life check only; poses, state names and acceptance rules require separate interpretation."
+    },
+    {
+      "id": "soco_contato",
+      "label": "Soco após aproximação",
+      "game": "umk3",
+      "initialDistanceError": 12.5,
+      "max_error": {
+        "position": 0,
+        "height": 0,
+        "life": 4.819277108433738
+      },
+      "first_difference_sample": {
+        "life": 10
+      },
+      "status": "context_mismatch",
+      "note": "Contact differs in starting geometry; not a valid isolated damage equivalence claim."
+    },
+    {
+      "id": "soco_defendido",
+      "label": "Soco contra defesa após aproximação",
+      "game": "umk3",
+      "initialDistanceError": 12.5,
+      "max_error": {
+        "position": 0,
+        "height": 0,
+        "life": 1.2048192771084274
+      },
+      "first_difference_sample": {
+        "life": 10
+      },
+      "status": "context_mismatch",
+      "note": "Contact differs in starting geometry; not a valid isolated damage equivalence claim."
+    },
+    {
+      "id": "parado",
+      "label": "Parado",
+      "game": "ssf2tu",
+      "initialDistanceError": 0,
+      "max_error": {
+        "position": 0,
+        "height": 0,
+        "life": 0
+      },
+      "first_difference_sample": {},
+      "status": "within_numeric_tolerances",
+      "note": "Numeric movement/life check only; poses, state names and acceptance rules require separate interpretation."
+    },
+    {
+      "id": "andar_frente",
+      "label": "Avançar e soltar",
+      "game": "ssf2tu",
+      "initialDistanceError": 0,
+      "max_error": {
+        "position": 9,
+        "height": 0,
+        "life": 0
+      },
+      "first_difference_sample": {
+        "position": 1
+      },
+      "status": "difference_observed",
+      "note": "Numeric movement/life check only; poses, state names and acceptance rules require separate interpretation."
+    },
+    {
+      "id": "andar_tras",
+      "label": "Recuar e soltar",
+      "game": "ssf2tu",
+      "initialDistanceError": 0,
+      "max_error": {
+        "position": 10,
+        "height": 0,
+        "life": 0
+      },
+      "first_difference_sample": {
+        "position": 1
+      },
+      "status": "difference_observed",
+      "note": "Numeric movement/life check only; poses, state names and acceptance rules require separate interpretation."
+    },
+    {
+      "id": "agachar",
+      "label": "Agachar e levantar",
+      "game": "ssf2tu",
+      "initialDistanceError": 0,
+      "max_error": {
+        "position": 0,
+        "height": 0,
+        "life": 0
+      },
+      "first_difference_sample": {},
+      "status": "within_numeric_tolerances",
+      "note": "Numeric movement/life check only; poses, state names and acceptance rules require separate interpretation."
+    },
+    {
+      "id": "pulo",
+      "label": "Pulo vertical",
+      "game": "ssf2tu",
+      "initialDistanceError": 0,
+      "max_error": {
+        "position": 0,
+        "height": 8.979581832885799,
+        "life": 0
+      },
+      "first_difference_sample": {
+        "height": 6
+      },
+      "status": "difference_observed",
+      "note": "Numeric movement/life check only; poses, state names and acceptance rules require separate interpretation."
+    },
+    {
+      "id": "soco",
+      "label": "Toque único de soco",
+      "game": "ssf2tu",
+      "initialDistanceError": 0,
+      "max_error": {
+        "position": 0,
+        "height": 0,
+        "life": 0
+      },
+      "first_difference_sample": {},
+      "status": "within_numeric_tolerances",
+      "note": "Numeric movement/life check only; poses, state names and acceptance rules require separate interpretation."
+    },
+    {
+      "id": "soco_mantido",
+      "label": "Soco mantido",
+      "game": "ssf2tu",
+      "initialDistanceError": 0,
+      "max_error": {
+        "position": 0,
+        "height": 0,
+        "life": 0
+      },
+      "first_difference_sample": {},
+      "status": "within_numeric_tolerances",
+      "note": "Numeric movement/life check only; poses, state names and acceptance rules require separate interpretation."
+    },
+    {
+      "id": "socos_rapidos",
+      "label": "Soco: 2 amostras pressionado, 2 solto",
+      "game": "ssf2tu",
+      "initialDistanceError": 0,
+      "max_error": {
+        "position": 0,
+        "height": 0,
+        "life": 0
+      },
+      "first_difference_sample": {},
+      "status": "within_numeric_tolerances",
+      "note": "Numeric movement/life check only; poses, state names and acceptance rules require separate interpretation."
+    },
+    {
+      "id": "socos_lentos",
+      "label": "Soco: 2 amostras pressionado, 14 solto",
+      "game": "ssf2tu",
+      "initialDistanceError": 0,
+      "max_error": {
+        "position": 0,
+        "height": 0,
+        "life": 0
+      },
+      "first_difference_sample": {},
+      "status": "within_numeric_tolerances",
+      "note": "Numeric movement/life check only; poses, state names and acceptance rules require separate interpretation."
+    },
+    {
+      "id": "chute",
+      "label": "Toque único de chute",
+      "game": "ssf2tu",
+      "initialDistanceError": 0,
+      "max_error": {
+        "position": 0,
+        "height": 0,
+        "life": 0
+      },
+      "first_difference_sample": {},
+      "status": "within_numeric_tolerances",
+      "note": "Numeric movement/life check only; poses, state names and acceptance rules require separate interpretation."
+    },
+    {
+      "id": "soco_baixo",
+      "label": "Soco agachado",
+      "game": "ssf2tu",
+      "initialDistanceError": 0,
+      "max_error": {
+        "position": 0,
+        "height": 0,
+        "life": 0
+      },
+      "first_difference_sample": {},
+      "status": "within_numeric_tolerances",
+      "note": "Numeric movement/life check only; poses, state names and acceptance rules require separate interpretation."
+    },
+    {
+      "id": "soco_contato",
+      "label": "Soco após aproximação",
+      "game": "ssf2tu",
+      "initialDistanceError": 14,
+      "max_error": {
+        "position": 0,
+        "height": 0,
+        "life": 0.6944444444444429
+      },
+      "first_difference_sample": {
+        "life": 4
+      },
+      "status": "context_mismatch",
+      "note": "Contact differs in starting geometry; not a valid isolated damage equivalence claim."
+    },
+    {
+      "id": "soco_defendido",
+      "label": "Soco contra defesa após aproximação",
+      "game": "ssf2tu",
+      "initialDistanceError": 14,
+      "max_error": {
+        "position": 0,
+        "height": 0,
+        "life": 0
+      },
+      "first_difference_sample": {},
+      "status": "context_mismatch",
+      "note": "Contact differs in starting geometry; not a valid isolated damage equivalence claim."
+    }
+  ],
+  "method_limits": [
+    "No pixel-equality claim between different presentations.",
+    "Native video time resampled to fixed 240 Hz, at most one simulation tick error.",
+    "Timing, damage RNG and initial-contact mismatches are reported, never silently aligned.",
+    "Source state names are not assumed equivalent."
+  ],
+  "evidence_levels": {
+    "measured": "Native RAM/video and prototype traces with identical input schedule.",
+    "inferred": "Numeric comparison and pose interpretation.",
+    "provisional": "Prototype rules listed in its current calibration and notes."
+  },
+  "rea_role": "Archive inventory/provenance only. No native input routine reconstructed in step 1."
+}

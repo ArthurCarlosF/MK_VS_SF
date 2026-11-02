@@ -1,0 +1,12 @@
+[
+  {
+    "game": "umk3",
+    "cases": 68,
+    "numeric_repeatability": "PASS"
+  },
+  {
+    "game": "ssf2tu",
+    "cases": 108,
+    "numeric_repeatability": "PASS"
+  }
+]

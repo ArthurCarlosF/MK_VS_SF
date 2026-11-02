@@ -1,0 +1,802 @@
+{
+  "status": "PASS",
+  "cases": 55,
+  "timingToleranceSourceSamples": 1,
+  "results": [
+    {
+      "id": "hp_far_guard_10",
+      "extensions": [
+        [
+          8,
+          "0xff938dd0"
+        ],
+        [
+          18,
+          "0xff938ef0"
+        ]
+      ]
+    },
+    {
+      "id": "hp_far_guard_11",
+      "extensions": [
+        [
+          8,
+          "0xff938dd0"
+        ],
+        [
+          19,
+          "0xff938ef0"
+        ]
+      ]
+    },
+    {
+      "id": "hp_far_guard_12",
+      "extensions": [
+        [
+          8,
+          "0xff938dd0"
+        ],
+        [
+          20,
+          "0xff938ef0"
+        ]
+      ]
+    },
+    {
+      "id": "hp_far_guard_13",
+      "extensions": [
+        [
+          8,
+          "0xff938dd0"
+        ],
+        [
+          21,
+          "0xff938ef0"
+        ]
+      ]
+    },
+    {
+      "id": "hp_far_guard_14",
+      "extensions": [
+        [
+          8,
+          "0xff938dd0"
+        ],
+        [
+          22,
+          "0xff938ef0"
+        ]
+      ]
+    },
+    {
+      "id": "hp_far_guard_15",
+      "extensions": [
+        [
+          8,
+          "0xff938dd0"
+        ]
+      ]
+    },
+    {
+      "id": "hp_far_guard_16",
+      "extensions": [
+        [
+          8,
+          "0xff938dd0"
+        ]
+      ]
+    },
+    {
+      "id": "hp_far_guard_17",
+      "extensions": [
+        [
+          8,
+          "0xff938dd0"
+        ]
+      ]
+    },
+    {
+      "id": "hp_far_guard_18",
+      "extensions": [
+        [
+          8,
+          "0xff938dd0"
+        ]
+      ]
+    },
+    {
+      "id": "hp_far_guard_19",
+      "extensions": [
+        [
+          8,
+          "0xff938dd0"
+        ],
+        [
+          27,
+          "0xff938dd0"
+        ]
+      ]
+    },
+    {
+      "id": "hp_far_guard_2",
+      "extensions": [
+        [
+          8,
+          "0xff938dd0"
+        ]
+      ]
+    },
+    {
+      "id": "hp_far_guard_20",
+      "extensions": [
+        [
+          8,
+          "0xff938dd0"
+        ],
+        [
+          28,
+          "0xff938dd0"
+        ]
+      ]
+    },
+    {
+      "id": "hp_far_guard_21",
+      "extensions": [
+        [
+          8,
+          "0xff938dd0"
+        ],
+        [
+          29,
+          "0xff938dd0"
+        ]
+      ]
+    },
+    {
+      "id": "hp_far_guard_22",
+      "extensions": [
+        [
+          8,
+          "0xff938dd0"
+        ],
+        [
+          30,
+          "0xff938dd0"
+        ]
+      ]
+    },
+    {
+      "id": "hp_far_guard_23",
+      "extensions": [
+        [
+          8,
+          "0xff938dd0"
+        ],
+        [
+          31,
+          "0xff938dd0"
+        ]
+      ]
+    },
+    {
+      "id": "hp_far_guard_24",
+      "extensions": [
+        [
+          8,
+          "0xff938dd0"
+        ],
+        [
+          32,
+          "0xff938dd0"
+        ]
+      ]
+    },
+    {
+      "id": "hp_far_guard_3",
+      "extensions": [
+        [
+          8,
+          "0xff938dd0"
+        ]
+      ]
+    },
+    {
+      "id": "hp_far_guard_4",
+      "extensions": [
+        [
+          8,
+          "0xff938dd0"
+        ],
+        [
+          18,
+          "0xff938ef0"
+        ]
+      ]
+    },
+    {
+      "id": "hp_far_guard_5",
+      "extensions": [
+        [
+          8,
+          "0xff938dd0"
+        ],
+        [
+          18,
+          "0xff938ef0"
+        ]
+      ]
+    },
+    {
+      "id": "hp_far_guard_6",
+      "extensions": [
+        [
+          8,
+          "0xff938dd0"
+        ],
+        [
+          18,
+          "0xff938ef0"
+        ]
+      ]
+    },
+    {
+      "id": "hp_far_guard_7",
+      "extensions": [
+        [
+          8,
+          "0xff938dd0"
+        ],
+        [
+          18,
+          "0xff938ef0"
+        ]
+      ]
+    },
+    {
+      "id": "hp_far_guard_8",
+      "extensions": [
+        [
+          8,
+          "0xff938dd0"
+        ],
+        [
+          18,
+          "0xff938ef0"
+        ]
+      ]
+    },
+    {
+      "id": "hp_far_guard_9",
+      "extensions": [
+        [
+          8,
+          "0xff938dd0"
+        ],
+        [
+          18,
+          "0xff938ef0"
+        ]
+      ]
+    },
+    {
+      "id": "hp_far_guard_None",
+      "extensions": [
+        [
+          8,
+          "0xff938dd0"
+        ]
+      ]
+    },
+    {
+      "id": "hp_far_hit_10",
+      "extensions": [
+        [
+          8,
+          "0xff938dd0"
+        ],
+        [
+          18,
+          "0xff938ef0"
+        ]
+      ]
+    },
+    {
+      "id": "hp_far_hit_11",
+      "extensions": [
+        [
+          8,
+          "0xff938dd0"
+        ],
+        [
+          19,
+          "0xff938ef0"
+        ]
+      ]
+    },
+    {
+      "id": "hp_far_hit_12",
+      "extensions": [
+        [
+          8,
+          "0xff938dd0"
+        ],
+        [
+          20,
+          "0xff938ef0"
+        ]
+      ]
+    },
+    {
+      "id": "hp_far_hit_13",
+      "extensions": [
+        [
+          8,
+          "0xff938dd0"
+        ],
+        [
+          21,
+          "0xff938ef0"
+        ]
+      ]
+    },
+    {
+      "id": "hp_far_hit_14",
+      "extensions": [
+        [
+          8,
+          "0xff938dd0"
+        ],
+        [
+          22,
+          "0xff938ef0"
+        ]
+      ]
+    },
+    {
+      "id": "hp_far_hit_15",
+      "extensions": [
+        [
+          8,
+          "0xff938dd0"
+        ]
+      ]
+    },
+    {
+      "id": "hp_far_hit_16",
+      "extensions": [
+        [
+          8,
+          "0xff938dd0"
+        ]
+      ]
+    },
+    {
+      "id": "hp_far_hit_17",
+      "extensions": [
+        [
+          8,
+          "0xff938dd0"
+        ]
+      ]
+    },
+    {
+      "id": "hp_far_hit_18",
+      "extensions": [
+        [
+          8,
+          "0xff938dd0"
+        ]
+      ]
+    },
+    {
+      "id": "hp_far_hit_19",
+      "extensions": [
+        [
+          8,
+          "0xff938dd0"
+        ],
+        [
+          27,
+          "0xff938dd0"
+        ]
+      ]
+    },
+    {
+      "id": "hp_far_hit_2",
+      "extensions": [
+        [
+          8,
+          "0xff938dd0"
+        ]
+      ]
+    },
+    {
+      "id": "hp_far_hit_20",
+      "extensions": [
+        [
+          8,
+          "0xff938dd0"
+        ],
+        [
+          28,
+          "0xff938dd0"
+        ]
+      ]
+    },
+    {
+      "id": "hp_far_hit_21",
+      "extensions": [
+        [
+          8,
+          "0xff938dd0"
+        ],
+        [
+          29,
+          "0xff938dd0"
+        ]
+      ]
+    },
+    {
+      "id": "hp_far_hit_22",
+      "extensions": [
+        [
+          8,
+          "0xff938dd0"
+        ],
+        [
+          30,
+          "0xff938dd0"
+        ]
+      ]
+    },
+    {
+      "id": "hp_far_hit_23",
+      "extensions": [
+        [
+          8,
+          "0xff938dd0"
+        ],
+        [
+          31,
+          "0xff938dd0"
+        ]
+      ]
+    },
+    {
+      "id": "hp_far_hit_24",
+      "extensions": [
+        [
+          8,
+          "0xff938dd0"
+        ],
+        [
+          32,
+          "0xff938dd0"
+        ]
+      ]
+    },
+    {
+      "id": "hp_far_hit_3",
+      "extensions": [
+        [
+          8,
+          "0xff938dd0"
+        ]
+      ]
+    },
+    {
+      "id": "hp_far_hit_4",
+      "extensions": [
+        [
+          8,
+          "0xff938dd0"
+        ],
+        [
+          18,
+          "0xff938ef0"
+        ]
+      ]
+    },
+    {
+      "id": "hp_far_hit_5",
+      "extensions": [
+        [
+          8,
+          "0xff938dd0"
+        ],
+        [
+          18,
+          "0xff938ef0"
+        ]
+      ]
+    },
+    {
+      "id": "hp_far_hit_6",
+      "extensions": [
+        [
+          8,
+          "0xff938dd0"
+        ],
+        [
+          18,
+          "0xff938ef0"
+        ]
+      ]
+    },
+    {
+      "id": "hp_far_hit_7",
+      "extensions": [
+        [
+          8,
+          "0xff938dd0"
+        ],
+        [
+          18,
+          "0xff938ef0"
+        ]
+      ]
+    },
+    {
+      "id": "hp_far_hit_8",
+      "extensions": [
+        [
+          8,
+          "0xff938dd0"
+        ],
+        [
+          18,
+          "0xff938ef0"
+        ]
+      ]
+    },
+    {
+      "id": "hp_far_hit_9",
+      "extensions": [
+        [
+          8,
+          "0xff938dd0"
+        ],
+        [
+          18,
+          "0xff938ef0"
+        ]
+      ]
+    },
+    {
+      "id": "hp_far_hit_None",
+      "extensions": [
+        [
+          8,
+          "0xff938dd0"
+        ]
+      ]
+    },
+    {
+      "id": "hp_hold_far",
+      "extensions": [
+        [
+          8,
+          "0xff938dd0"
+        ]
+      ]
+    },
+    {
+      "id": "hp_train_far_10",
+      "extensions": [
+        [
+          8,
+          "0xff938dd0"
+        ],
+        [
+          18,
+          "0xff938ef0"
+        ],
+        [
+          28,
+          "0xff938dd0"
+        ],
+        [
+          38,
+          "0xff938ef0"
+        ],
+        [
+          48,
+          "0xff938dd0"
+        ],
+        [
+          58,
+          "0xff938ef0"
+        ],
+        [
+          68,
+          "0xff938dd0"
+        ],
+        [
+          78,
+          "0xff938ef0"
+        ],
+        [
+          88,
+          "0xff938dd0"
+        ]
+      ]
+    },
+    {
+      "id": "hp_train_far_14",
+      "extensions": [
+        [
+          8,
+          "0xff938dd0"
+        ],
+        [
+          22,
+          "0xff938ef0"
+        ],
+        [
+          36,
+          "0xff938dd0"
+        ],
+        [
+          50,
+          "0xff938ef0"
+        ],
+        [
+          64,
+          "0xff938dd0"
+        ],
+        [
+          78,
+          "0xff938ef0"
+        ],
+        [
+          92,
+          "0xff938dd0"
+        ]
+      ]
+    },
+    {
+      "id": "hp_train_far_3",
+      "extensions": [
+        [
+          8,
+          "0xff938dd0"
+        ]
+      ]
+    },
+    {
+      "id": "hp_train_far_4",
+      "extensions": [
+        [
+          8,
+          "0xff938dd0"
+        ],
+        [
+          18,
+          "0xff938ef0"
+        ],
+        [
+          28,
+          "0xff938dd0"
+        ],
+        [
+          38,
+          "0xff938ef0"
+        ],
+        [
+          48,
+          "0xff938dd0"
+        ],
+        [
+          58,
+          "0xff938ef0"
+        ],
+        [
+          68,
+          "0xff938dd0"
+        ],
+        [
+          78,
+          "0xff938ef0"
+        ],
+        [
+          88,
+          "0xff938dd0"
+        ],
+        [
+          97,
+          "0xff938ef0"
+        ]
+      ]
+    },
+    {
+      "id": "hp_train_far_6",
+      "extensions": [
+        [
+          8,
+          "0xff938dd0"
+        ],
+        [
+          18,
+          "0xff938ef0"
+        ],
+        [
+          28,
+          "0xff938dd0"
+        ],
+        [
+          38,
+          "0xff938ef0"
+        ],
+        [
+          48,
+          "0xff938dd0"
+        ],
+        [
+          58,
+          "0xff938ef0"
+        ],
+        [
+          68,
+          "0xff938dd0"
+        ],
+        [
+          78,
+          "0xff938ef0"
+        ],
+        [
+          88,
+          "0xff938dd0"
+        ],
+        [
+          97,
+          "0xff938ef0"
+        ]
+      ]
+    },
+    {
+      "id": "hp_train_far_8",
+      "extensions": [
+        [
+          8,
+          "0xff938dd0"
+        ],
+        [
+          18,
+          "0xff938ef0"
+        ],
+        [
+          28,
+          "0xff938dd0"
+        ],
+        [
+          38,
+          "0xff938ef0"
+        ],
+        [
+          48,
+          "0xff938dd0"
+        ],
+        [
+          58,
+          "0xff938ef0"
+        ],
+        [
+          68,
+          "0xff938dd0"
+        ],
+        [
+          78,
+          "0xff938ef0"
+        ],
+        [
+          88,
+          "0xff938dd0"
+        ],
+        [
+          97,
+          "0xff938ef0"
+        ]
+      ]
+    }
+  ]
+}

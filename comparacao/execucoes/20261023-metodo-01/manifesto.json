@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-10-23T18:58:52.773Z",
+  "suite_sha256": "9ee02ef7896daad3fa9c27aaf35fd474440e1afd2e910a05dfa15ad6d80125c1",
+  "inputs": [
+    {
+      "path": "C:\\Users\\Pichau\\Documents\\Codex\\2026-10-22\\ve\\work\\selection-assets\\core\\mame2003_plus_libretro.dll",
+      "sha256": "30dc4db74ae1b93fd238c6107432596944bce34deb880ed11c204f8d21037174"
+    },
+    {
+      "path": "C:\\Users\\Pichau\\Documents\\Codex\\2026-10-22\\ve\\work\\selection-assets\\roms\\umk3.zip",
+      "sha256": "318f765de3177e1ff5eaa13bf431be6967f1c98350e37e3e0a26d5d175315488"
+    },
+    {
+      "path": "C:\\Users\\Pichau\\Documents\\Codex\\2026-10-22\\ve\\work\\selection-assets\\roms\\ssf2tu.zip",
+      "sha256": "f9e247b6b03bb7221860e73c62cc004704f0c7c9ea5298096b1800c80ab68774"
+    }
+  ],
+  "model": {
+    "assets.js": "03f559297bdd7d63764ac48115e7bc36fa017952c81e4daa3077aec19145704d",
+    "presentation.js": "748f30198ba1cc84585ca84f414089b4878cc92f797657dd132354d1c8ff7e43",
+    "engine.js": "f54f96a1d31a0a89f4d65a13dba3b4d22b0731655ed0eff25b645fe9269ada47",
+    "commands.js": "7e85fd30f96e29559f153162e0d180c8654cfe3fb88ac2283f5dc17f58d524ea",
+    "collisions.js": "8131a1027be09565c57a374511d6adf6555a1ddfdd088deaaa3d8af29be9389a",
+    "calibration.js": "237b7586d3782017750ad15126139c3563eec5a842549f4903f42a3aad8b33f1",
+    "combat-data.js": "00243d40b3ed4dfa4d929088050099614af5f5a1c413c7d3d145a68858662201",
+    "fight-engine.js": "59a0d5a7eb299110e89fba8455200bd42727f3bc3876adefbfe59aa2e6f30589",
+    "arena.js": "112ad22da68ad697d4a1c4f860bf1cc30fe7da84036b803fb7ec3dbf4f45b7c5",
+    "index.html": "825098edf0a337667209a68a3b607c10c00a0c5c6392a4f3de435cf79b3dce37",
+    "style.css": "614aea6119c6d1a7e5bd09c00478b9d674474066c7d35a31b6c63f220c5bd4b5"
+  },
+  "tooling": {
+    "original.py": "515f8f1cf5271a6b6ee6bf27bdc5578bd9b69c23b4fc917cdb12a758b4b2c711",
+    "executar.cjs": "e5eeb022e3ee89188543a2282e710e7547be8fe217aa5bc042acec477091db31"
+  },
+  "rea_rea-umk3.json": {
+    "evidence_id": "ev_5adb74fc93214d903a53c1e2163dc335c31357aa4f36e2ceac7d3be123f6adcf",
+    "subject": {
+      "name": "umk3.zip",
+      "digest": {
+        "sha256": "318f765de3177e1ff5eaa13bf431be6967f1c98350e37e3e0a26d5d175315488"
+      },
+      "local_path": "C:\\Users\\Pichau\\Documents\\Codex\\2026-10-22\\ve\\work\\selection-assets\\roms\\umk3.zip",
+      "format": "zip",
+      "architecture": null
+    },
+    "operation": "inspect_artifact"
+  },
+  "rea_rea-ssf2tu.json": {
+    "evidence_id": "ev_755a1f38138088606512966405eb1247c3348a71eb4f23707a1e3169b45d7555",
+    "subject": {
+      "name": "ssf2tu.zip",
+      "digest": {
+        "sha256": "f9e247b6b03bb7221860e73c62cc004704f0c7c9ea5298096b1800c80ab68774"
+      },
+      "local_path": "C:\\Users\\Pichau\\Documents\\Codex\\2026-10-22\\ve\\work\\selection-assets\\roms\\ssf2tu.zip",
+      "format": "zip",
+      "architecture": null
+    },
+    "operation": "inspect_artifact"
+  }
+}

@@ -1,0 +1,364 @@
+{
+  "status": "FILES_VERIFIED_REVIEW_PENDING",
+  "integratedInCombat": false,
+  "assets": 60,
+  "cases": [
+    {
+      "case": "hadouken_lp_far",
+      "firstEntitySample": 19,
+      "lastEntitySample": 34,
+      "projectilePosePointers": [
+        "0x72246",
+        "0x7225e",
+        "0x72276",
+        "0x7228e",
+        "0x722a6",
+        "0x722be",
+        "0x722d6"
+      ],
+      "verifiedVisualSamples": 14,
+      "minimumVisualMatch": 1.0,
+      "contacts": [
+        {
+          "sample": 32,
+          "damage": 16
+        }
+      ],
+      "firstProjectile": {
+        "x": 645,
+        "y": 94,
+        "boxes": [
+          {
+            "kind": "attack",
+            "id": 4,
+            "address": "0x72d4c",
+            "x": -15,
+            "y": -13,
+            "w": 62,
+            "h": 26
+          },
+          {
+            "kind": "push",
+            "id": 1,
+            "address": "0x72d08",
+            "x": -28,
+            "y": -19,
+            "w": 56,
+            "h": 38
+          }
+        ],
+        "paletteSlot": 14
+      },
+      "traceSha256": "da3f6b0278dae3d87994b381bd5b05f3d27ff2096ad9afce58b395eef7156675"
+    },
+    {
+      "case": "red_hadouken_lp_far",
+      "firstEntitySample": 25,
+      "lastEntitySample": 42,
+      "projectilePosePointers": [
+        "0x728b6",
+        "0x728ce",
+        "0x728e6",
+        "0x728fe",
+        "0x72916",
+        "0x7292e",
+        "0x72946",
+        "0x7295e"
+      ],
+      "verifiedVisualSamples": 17,
+      "minimumVisualMatch": 1.0,
+      "contacts": [
+        {
+          "sample": 41,
+          "damage": 16
+        }
+      ],
+      "firstProjectile": {
+        "x": 637,
+        "y": 94,
+        "boxes": [
+          {
+            "kind": "attack",
+            "id": 16,
+            "address": "0x72e0c",
+            "x": -15,
+            "y": -13,
+            "w": 62,
+            "h": 26
+          },
+          {
+            "kind": "push",
+            "id": 1,
+            "address": "0x72d08",
+            "x": -28,
+            "y": -19,
+            "w": 56,
+            "h": 38
+          }
+        ],
+        "paletteSlot": 15
+      },
+      "traceSha256": "b1a23f8b4dda1b1adf801284e6e16bd1a44ca1dc12215f2918fd8a94e4eaeff1"
+    },
+    {
+      "case": "hadouken_mp_far",
+      "firstEntitySample": 19,
+      "lastEntitySample": 31,
+      "projectilePosePointers": [
+        "0x723b2",
+        "0x723ca",
+        "0x723e2",
+        "0x723fa",
+        "0x72412",
+        "0x7242a"
+      ],
+      "verifiedVisualSamples": 11,
+      "minimumVisualMatch": 1.0,
+      "contacts": [
+        {
+          "sample": 29,
+          "damage": 17
+        }
+      ],
+      "firstProjectile": {
+        "x": 645,
+        "y": 94,
+        "boxes": [
+          {
+            "kind": "attack",
+            "id": 5,
+            "address": "0x72d5c",
+            "x": -15,
+            "y": -13,
+            "w": 62,
+            "h": 26
+          },
+          {
+            "kind": "push",
+            "id": 1,
+            "address": "0x72d08",
+            "x": -28,
+            "y": -19,
+            "w": 56,
+            "h": 38
+          }
+        ],
+        "paletteSlot": 14
+      },
+      "traceSha256": "63e0d18bae2e3cb25a794f005a02bc628d331393374fd13097f47b6556739b22"
+    },
+    {
+      "case": "red_hadouken_mp_far",
+      "firstEntitySample": 25,
+      "lastEntitySample": 38,
+      "projectilePosePointers": [
+        "0x72a22",
+        "0x72a3a",
+        "0x72a52",
+        "0x72a6a",
+        "0x72a82",
+        "0x72a9a"
+      ],
+      "verifiedVisualSamples": 12,
+      "minimumVisualMatch": 1.0,
+      "contacts": [
+        {
+          "sample": 37,
+          "damage": 17
+        }
+      ],
+      "firstProjectile": {
+        "x": 637,
+        "y": 94,
+        "boxes": [
+          {
+            "kind": "attack",
+            "id": 17,
+            "address": "0x72e1c",
+            "x": -15,
+            "y": -13,
+            "w": 62,
+            "h": 26
+          },
+          {
+            "kind": "push",
+            "id": 1,
+            "address": "0x72d08",
+            "x": -28,
+            "y": -19,
+            "w": 56,
+            "h": 38
+          }
+        ],
+        "paletteSlot": 15
+      },
+      "traceSha256": "41692a2d097c53a05b04b1b370ce5e2215e87ab5eaefd6ac6180e850db5ada22"
+    },
+    {
+      "case": "hadouken_hp_far",
+      "firstEntitySample": 19,
+      "lastEntitySample": 28,
+      "projectilePosePointers": [
+        "0x7251e",
+        "0x72536",
+        "0x7254e",
+        "0x72566"
+      ],
+      "verifiedVisualSamples": 8,
+      "minimumVisualMatch": 1.0,
+      "contacts": [
+        {
+          "sample": 27,
+          "damage": 19
+        }
+      ],
+      "firstProjectile": {
+        "x": 645,
+        "y": 94,
+        "boxes": [
+          {
+            "kind": "attack",
+            "id": 6,
+            "address": "0x72d6c",
+            "x": -15,
+            "y": -13,
+            "w": 62,
+            "h": 26
+          },
+          {
+            "kind": "push",
+            "id": 1,
+            "address": "0x72d08",
+            "x": -28,
+            "y": -19,
+            "w": 56,
+            "h": 38
+          }
+        ],
+        "paletteSlot": 14
+      },
+      "traceSha256": "326655c01d22466a7d2ababd25ee2662e4122ff81dc790dd085218fc70d075c7"
+    },
+    {
+      "case": "red_hadouken_hp_far",
+      "firstEntitySample": 25,
+      "lastEntitySample": 35,
+      "projectilePosePointers": [
+        "0x72b8e",
+        "0x72ba6",
+        "0x72bbe",
+        "0x72bd6",
+        "0x72bee"
+      ],
+      "verifiedVisualSamples": 9,
+      "minimumVisualMatch": 1.0,
+      "contacts": [
+        {
+          "sample": 34,
+          "damage": 19
+        }
+      ],
+      "firstProjectile": {
+        "x": 637,
+        "y": 94,
+        "boxes": [
+          {
+            "kind": "attack",
+            "id": 18,
+            "address": "0x72e2c",
+            "x": -15,
+            "y": -13,
+            "w": 62,
+            "h": 26
+          },
+          {
+            "kind": "push",
+            "id": 1,
+            "address": "0x72d08",
+            "x": -28,
+            "y": -19,
+            "w": 56,
+            "h": 38
+          }
+        ],
+        "paletteSlot": 15
+      },
+      "traceSha256": "9fbb44eca6f00185bfda0b1e6f2c7e6b816022917f072b786e799f5f15c3e40e"
+    },
+    {
+      "case": "shinkuhadouken_far",
+      "firstEntitySample": 41,
+      "lastEntitySample": 84,
+      "projectilePosePointers": [
+        "0x7434e",
+        "0x74366",
+        "0x7437e",
+        "0x74396",
+        "0x743ae",
+        "0x743c6"
+      ],
+      "verifiedVisualSamples": 7,
+      "minimumVisualMatch": 1.0,
+      "contacts": [
+        {
+          "sample": 50,
+          "damage": 13
+        },
+        {
+          "sample": 59,
+          "damage": 16
+        },
+        {
+          "sample": 67,
+          "damage": 14
+        },
+        {
+          "sample": 76,
+          "damage": 14
+        },
+        {
+          "sample": 84,
+          "damage": 14
+        }
+      ],
+      "firstProjectile": {
+        "x": 645,
+        "y": 94,
+        "boxes": [
+          {
+            "kind": "attack",
+            "id": 2,
+            "address": "0x744ec",
+            "x": -15,
+            "y": -13,
+            "w": 62,
+            "h": 26
+          },
+          {
+            "kind": "push",
+            "id": 1,
+            "address": "0x744c8",
+            "x": -28,
+            "y": -19,
+            "w": 56,
+            "h": 38
+          }
+        ],
+        "paletteSlot": 14
+      },
+      "traceSha256": "2ab38d98a0ba57a76374428d31db3791c5434d00dd112a14f30a8319905e77a8"
+    }
+  ],
+  "discoveries": [
+    "Actual health is actor+0x2a; visual health at+0x2c can update a sample later.",
+    "Projectile entities: ff97a2 + slot*c0, eight slots, active word0101.",
+    "Palette slot: projectile+0x16, blue/super14 and red15.",
+    "Projectile sprite origins use world position minus camera and hardware bounds; actor descriptor offsets are unsuitable."
+  ],
+  "pending": [
+    "Native scheduler and random damage",
+    "Flight and impact pauses, super durability and freezing",
+    "Close, crouching, air and corner contact branches",
+    "Integration and comparison in both universes"
+  ]
+}

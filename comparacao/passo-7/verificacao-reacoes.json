@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "passed": [
+    "Every reaction pose is a retained native victim pose with a real asset",
+    "Native mirror motion, control locks and poses replay sample by sample, both ways",
+    "Hybrid reactions use only the victim atlas and preserve source contact time",
+    "MK jab keeps zero push; stronger contacts and corner recoil use measured displacement",
+    "Confirmed late recovery input is accepted once; earlier presses are discarded",
+    "Down/getup protection comes from reaction data and ends without fixed extra immunity",
+    "Throw owner releases before victim landing; committed damage occurs exactly once",
+    "Reset clears deferred damage, contact buffers and vertical camera; snapshots own reaction state",
+    "Interrupted coupled throw releases a victim into a finite native reaction",
+    "Near Ryu HK separates first and weaker second contacts and never doubles first-hit damage",
+    "Air-hit and knockdown branches finish on the floor without stale jump physics",
+    "A committed throw can finish a double KO; fatal reactions never stand up"
+  ],
+  "details": [
+    {
+      "nativeMirrorReplays": 346
+    }
+  ]
+}

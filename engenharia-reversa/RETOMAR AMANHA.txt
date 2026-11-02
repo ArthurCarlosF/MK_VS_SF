@@ -1,0 +1,65 @@
+PAUSA SOLICITADA PELO USUÁRIO — 23/10/2026
+
+Pedido: parar ao terminar o comando atual e desligar o computador; retomar amanhã.
+Não iniciar novas análises durante esta pausa.
+
+ESTADO
+REA 6.7.0 instalado por pnpm em D:\Projetos\Ferramentas-REA\node_modules\rea-agents.
+CLI testada com --version, doctor, providers e inspect-artifact nos dois arquivos ZIP.
+Frida teve script de instalação ignorado pelo pnpm; recursos de instrumentação
+não foram preparados. Isso não impediu o inventário estático executado.
+Não houve registro MCP nem alteração da configuração do Codex.
+Ghidra 12.1.4 e JDK Temurin 21.0.12.1+1 extraídos portavelmente em Ferramentas-REA.
+Downloads oficiais; hashes conferidos antes da extração. Provider Ghidra disponível.
+REA no Windows rejeita raw m68k; evidência salva em evidencias.
+TMS34010 também não integra as arquiteturas aceitas pelo adaptador.
+Não foi obtido o código-fonte original completo dos jogos.
+
+COMANDO EM ANDAMENTO NO MOMENTO DA PAUSA
+Ghidra AnalyzeHeadless, projeto SF2T, importação da ROM de opcodes de SSF2TU.
+Limite da autoanálise: 300 segundos, 2 CPUs. Depois executa ExportRecovered.java,
+exporta pseudocódigo, funções e instruções em ssf2t e salva o projeto.
+Log: evidencias\ghidra-ssf2t.log
+Resumo esperado: ssf2t\resumo-ghidra.json
+O auxiliar de desligamento aguarda este processo sair, registra o estado final
+em pausa-desligamento.log e pede o desligamento normal do Windows, sem /f.
+
+ARQUIVOS E LIMITES
+entradas\umk3-r12-maincpu.bin: cópia limpa da ROM, 1 MiB.
+umk3\umk3-varredura-linear.asm: desmontagem linear de quase toda a ROM,
+14 MB; contém código E dados interpretados como instruções. Não é fonte C,
+nem prova de que todas as linhas sejam executáveis. Faltam classificação e CFG.
+Vetor de reset TMS34010: endereço em bits FFFFFFE0 -> FF8178E0.
+Demais vetores no último bloco de 32 bytes. Ferramenta tmsdasm existente no workspace.
+ferramentas\tmsdecode.dll: wrapper do desmontador MAME compilado; ainda não usado
+para percorrer o fluxo. Fontes do wrapper e do desmontador estão na pasta.
+
+SSF2TU
+Dados originais: D:\projetos\MK-vs-SF-Fontes\StreetFighterII\DadosExtraidos\ssf2t.
+O arquivo SuperStreetFighterIITurbo.u.68k já deve ser tratado como bytes big-endian
+para a vista de dados. entradas\ssf2tu-68k-data-be.bin é cópia exata dele.
+CPS2: vistas diferentes para opcodes e dados; não substituir uma pela outra.
+Para o algoritmo MAME em uint16_t no host little-endian, trocar os bytes de cada
+palavra da fonte antes de decrypt_sf, e trocar os bytes da saída para salvar BE.
+Chave pública MAME SSF2TU: 94fa8902 / 4c77143f, região 0..400000.
+Resultado correto opcodes: primeiros 8 bytes 0000000000000332, reset PC 0x332.
+Código em 0x332 começa 46fc060033fc70800040000033fc0000...
+Primeira tentativa com endian errado foi sobrescrita pelo resultado correto.
+A DLL cps2_decrypt.dll foi compilada do algoritmo BSD-3-Clause do MAME, com
+wrapper local; não houve download de ROMs externas.
+Ghidra importa a vista de opcodes; PrepareSSF.java adiciona a vista original
+como overlay DATA_BUS_ROM e regiões RAM/MMIO. Referências a dados ainda exigem
+revisão: não considerar pseudocódigo automaticamente correto ou recompilável.
+A autoanálise emitiu muitas advertências sobre fluxo e endereços; revisar cobertura.
+
+PRÓXIMA RETOMADA
+1. Conferir pausa-desligamento.log, resumo-ghidra.json e saída real da exportação.
+2. Verificar o pseudocódigo da entrada 0x332 e os efeitos da separação opcode/dados.
+3. Classificar os resultados de MK; montar CFG a partir de vetores e rotinas
+   comprovadas, sem apresentar uma varredura linear como fonte recuperada.
+4. Criar lançador rea.cmd com ambiente Java/Ghidra local e documentar instalação.
+5. Registrar hashes/origens, escopo, cobertura, erros e pendências em relatório.
+6. Informar com precisão ao usuário o que foi e o que não foi recuperado.
+
+O protótipo da seleção continua em D:\projetos\Mortal Kombat vs Street Fighter.
+Nenhum original dos jogos foi modificado nesta análise.

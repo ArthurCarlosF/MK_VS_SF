@@ -1,0 +1,88 @@
+﻿ROTEIRO GERAL — VISÃO DO PROJETO COMPLETO
+Este roteiro é separado dos passos de calibração de Ryu e Scorpion.
+A lista de trabalho atual está em Etapas do projeto.txt.
+
+ROTEIRO GERAL DO PROJETO
+
+1. PRESERVAÇÃO E FONTES — [~] BASE CONCLUÍDA; VALIDAÇÃO DE DADOS NÃO INTEGRAL
+[x] Cópia física, isolamento no Sandboxie e entrada experimental criados.
+[x] Recursos SF obtidos da coletânea local; originais preservados nas verificações.
+[ ] Validação completa da independência/persistência de saves e configurações.
+    O teste específico de persistência da modificação foi dispensado pelo usuário,
+    com risco aceito; não deve ser contado como aprovado.
+
+2. ESCOPO E VERSÕES — [x] DEFINIDOS
+[x] UMK3 1.2 e Super Street Fighter II Turbo americano como referências.
+[x] Motor independente e separação visual MK/SF aprovados.
+
+3. SELEÇÃO INDEPENDENTE — [~] PROTÓTIPO IMPLEMENTADO
+[x] 38 retratos reais: 22 UMK3 e 16 da grade normal Super Turbo.
+[x] MK à esquerda, SF à direita; navegação, confirmação e retorno.
+[x] Seleção abre o confronto Ryu/Scorpion nas duas ordens.
+[ ] Aceite final da seleção e ligação do restante do elenco a personagens jogáveis.
+
+4. BASE DO MOTOR DE LUTA — [~] BASE FUNCIONAL CONCLUÍDA
+[x] Motor JavaScript/Canvas, simulação a 240 Hz e relógios separados.
+[x] Estados, comandos, ações, colisões, dano, projéteis e rounds reutilizáveis.
+[x] Perfis de movimento, reações e sequências separados por personagem.
+[ ] Fidelidade integral, revisão final e tecnologia de empacotamento definitivo.
+
+5. CONVERSÃO DOS RECURSOS — [~] PARCIAL
+[x] Retratos dos dois elencos e recursos de movimento/combate Ryu/Scorpion.
+[x] Novas poses de socos alternados, combos e reações importadas e testadas.
+[ ] Animações e efeitos completos de todos os personagens.
+[ ] Cenários, sons, músicas e locuções completos.
+
+6. PERSONAGEM DE REFERÊNCIA POR JOGO — [~] JOGÁVEL; CALIBRAÇÃO EM ANDAMENTO
+[x] Ryu/Scorpion com movimento, saltos, básicos, defesa, agarrões e especiais atuais.
+[x] Soco alto rápido, misturas alto/baixo e combos principais Scorpion.
+[x] Base de ligações e cancelamentos Ryu.
+[ ] Fechamento do passo 7 de calibração, detalhado abaixo.
+[ ] Repertório completo de especiais, parâmetros finais e fidelidade integral.
+
+7. PRIMEIRO CONFRONTO JOGÁVEL — [x] PROTÓTIPO CONCLUÍDO
+[x] Versus local, vida, dano, defesa alta/baixa, colisões e projéteis.
+[x] Tempo, rounds, empate, KO, fim de partida e reinício.
+[x] Treino disponível e confronto nas duas ordens.
+    Cenário de treino e regras ainda sujeitos à calibração e apresentação final.
+
+8. ENCONTRO ENTRE AS MECÂNICAS — [~] BASE IMPLEMENTADA
+[x] Botão de bloqueio MK e defesa para trás SF.
+[x] Base de chip, stun, reações, combos e cancelamentos por dados.
+[ ] Validação completa das interações cruzadas, aberturas e contra-ataques.
+[ ] Regras completas de juggle, reduções de dano, supers e fatalities.
+
+9. FIDELIDADE E EXPANSÃO DO ELENCO — [~] REFERÊNCIAS EM VALIDAÇÃO
+[x] Bancada de comparação com os originais e registros reproduzíveis.
+[ ] Concluir a calibração de Ryu/Scorpion antes de ampliar o elenco.
+[ ] Adicionar demais lutadores, com suas próprias animações e regras.
+
+10. CENÁRIOS, ÁUDIO E APRESENTAÇÃO — [ ] PENDENTE
+[ ] Cenários das duas séries, músicas, efeitos e locução.
+[ ] Telas versus, resultados e apresentação definitiva.
+
+11. MODOS DE JOGO — [~] VERSUS LOCAL E TREINO IMPLEMENTADOS
+[x] Versus local e treino funcional.
+[ ] Adversário controlado pelo jogo.
+[ ] Definir e implementar campanha, finais e demais modos aprovados.
+
+12. TESTES — [~] AUTOMAÇÃO IMPLEMENTADA; VALIDAÇÃO CONTÍNUA
+[x] Testes funcionais de comandos, movimento, combate, reações e sequências.
+[x] Testes de interface e repetições independentes dos experimentos nativos.
+[ ] Resolver divergências de fidelidade, incluindo as 45 SF do passo 7.
+[ ] Validar repertório completo, áudio, desempenho e controles físicos.
+
+13. CONFIGURAÇÕES E DADOS PRÓPRIOS — [~] PERFIL LOCAL DO PROTÓTIPO CRIADO
+[x] Atalho do protótipo usa perfil de navegador próprio.
+[ ] Diretórios definitivos exclusivos para configuração, progresso e logs.
+[ ] Validar independência completa de dados na aplicação final.
+
+14. EMPACOTAMENTO — [ ] PENDENTE
+[x] Atalhos locais para abrir seleção e arena de desenvolvimento.
+[ ] Aplicação independente, atalho definitivo e instruções de distribuição.
+
+15. REVISÃO PARA CONCLUSÃO — [ ] PENDENTE
+[ ] Aprovar fidelidade, elenco e modos combinados.
+[ ] Corrigir falhas finais e gerar versão final.
+    Online não faz parte da primeira entrega; exige escopo próprio.
+

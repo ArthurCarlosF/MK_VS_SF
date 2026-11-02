@@ -1,0 +1,110 @@
+PASSO 5 — PREPARAÇÃO, ATIVIDADE E RECUPERAÇÃO — TEMPOS 5.0
+26/10/2026
+
+O QUE FOI IMPLEMENTADO
+A arena agora separa o tempo normal do golpe das pausas e trajetórias de contato.
+Foram revisadas 51 variantes básicas do passo 4, seus 12 aliases de controle e
+os dois braços adicionais da sequência rápida do Scorpion. 23 variantes
+mudaram a divisão das fases. Os demais perfis foram conferidos e preservados.
+Os agarrões mantêm as trajetórias nativas medidas no passo 4; não receberam
+um temporizador genérico nem uma pausa artificial nova.
+
+RYU
+A pausa de impacto foi identificada no byte ator+0x47 da RAM CPS2:
+0xff8495 para 1P e 0xff8895 para 2P. Os quadros pausados foram retirados dos
+clipes canônicos e das linhas de ataque/vulnerabilidade. Agora a pausa entra
+quando ocorre contato, incluindo bloqueio, e não quando o golpe erra.
+Soco forte de perto: antes 40 amostras incluindo 11 de pausa; agora 29 sem
+contato, com a pausa acrescentada somente no impacto.
+Chute forte de perto: antes 37 incluindo 11 de pausa; agora 26 sem contato.
+Uma captura independente do chute de perto sem acertar terminou em 27:
+a diferença de uma amostra é compatível com a fase do Turbo observada.
+As caixas SF continuam vindo das tabelas da ROM, alinhadas aos quadros novos.
+Os perfis conservam relógio próprio de 59,633331 amostras por segundo.
+
+SCORPION
+Janelas de contato medidas com o adversário entrando no alcance em atrasos
+sucessivos. O jab em pé pode acertar de 11 a 16, e o chute alto de 8 a 13,
+contando amostras desde o comando, incluindo sua latência de entrada.
+Antes várias dessas janelas duravam só uma amostra na arena.
+A janela ampliada também vale para os braços alternados. A última tentativa
+do segundo soco foi observada em 26, e a do terceiro em 36; entrar depois
+não acertou. A recuperação do braço de retorno agora respeita seu clipe
+completo de 21 amostras, em vez de encerrá-lo em 19.
+A pausa genérica extra dos golpes no chão foi removida: sua recuperação
+já está representada pelos quadros nativos e não deve receber atraso duplicado.
+Os perfis conservam relógio próprio de 53,204948 amostras por segundo.
+
+CONTATO AÉREO DO SCORPION
+Golpes aéreos sem contato usam seu clipe de erro, sem a espera embutida no acerto.
+Ao acertar ou ser bloqueado, o atacante fica oito amostras parado no ar.
+Depois sua velocidade horizontal é zerada e a queda reinicia a partir de zero:
+aceleração 0,875 por amostra no salto vertical, e 0,75 no salto direcional.
+Esses valores foram confirmados em 24 capturas de contato, com soco/chute,
+acerto/bloqueio. A pausa é local ao atacante; não paralisa artificialmente Ryu.
+A pose de ataque se mantém até a aterrissagem nessa ramificação.
+A interpretação para salto para trás/corrida compartilha a família direcional;
+essas duas trajetórias de contato ainda não têm bateria independente completa.
+
+COMO TESTAR
+Recarregue com Ctrl+F5 ou reabra Abrir arena.cmd.
+Confirme “Revisão: tempos 5.0.” abaixo dos controles.
+Os comandos permanecem os mesmos. Em Treino livre, compare:
+- Ryu acertando, sendo bloqueado e errando um golpe forte de perto;
+- Scorpion socando enquanto o adversário entra no alcance;
+- Scorpion acertando um soco/chute no ar, e depois errando o mesmo golpe;
+- dois/três socos rápidos, preservando a alternância das mãos.
+A animação de contato e as duas orientações foram verificadas no navegador.
+
+VALIDAÇÃO E PROVENIÊNCIA
+713 execuções de caso anteriores ao refinamento dos braços, mais seis casos
+para o segundo/terceiro soco: total 719 execuções nativas preservadas.
+Bateria principal: 46 casos MK e 74 SF, repetidos em dois processos isolados;
+os 120 pares coincidiram nos campos numéricos, poses, estados e bytes registrados.
+9 grupos de testes de fases, incluindo 65 registros normais aplicados,
+quadros nativos, caixas SF, recuperação sem contato, pausa de impacto,
+entrada tardia no alcance, queda do Scorpion e limpeza de estado.
+Regressões: combate 39, repertório 9, calibração 7, comandos 17, movimento 20,
+socos rápidos 40 casos mais confrontos cruzados/snapshot, movimento anterior 9.
+Interface: 23 verificações da revisão, três do contato aéreo nas duas direções,
+e as baterias anteriores de combate/comandos/movimento (11/3/5).
+Fontes: comparacao/passo-5. Perfis: fases.json; diferenças: mudancas.json;
+execuções e resultados completos ficam junto dos relatórios verificacao-*.json.
+
+LIMITES PARA AS PRÓXIMAS ETAPAS
+O relógio é amostrado por vídeo; o agendador interno completo do Turbo ainda
+não foi reconstruído. Pausas SF de 10/11 amostras variam com a fase; os perfis
+usam o representante medido por força. Algumas amostras de saída de pausa
+misturam movimento e pausa no mesmo quadro de vídeo. Não alegar igualdade
+para qualquer fase interna do Turbo com uma única duração fixa.
+Os limites ativos MK são observações/limites empíricos; a caixa nativa MK e
+cada teste interno de colisão ainda não foram reconstruídos. Na cotovelada e
+nas joelhadas de perto foi isolado o primeiro contato, mas não toda a borda
+final de atividade com o alvo saindo e retornando ao alcance.
+A caixa MK aproximada continua podendo antecipar/atrasar uma colisão com
+Ryu. As reações cruzadas, hitstun, blockstun, empurrão, invulnerabilidade,
+combo/cancelamento completos e RNG/dano continuam em calibração posterior.
+O dano de guarda dos aéreos MK foi registrado nesta bateria, mas ainda não
+substituiu o modelo de dano do repertório; a entrega aqui calibra as fases.
+Os comandos especiais mantêm as implementações anteriores; este passo não
+conclui todas as forças do Hadouken nem o repertório completo de especiais.
+
+REA
+REA 6.7 foi executado sobre o binário bruto de dados SF2. A ferramenta recusou
+o formato bruto com unsupported_target/unsupported binary format; a resposta
+real está em rea-ssf2tu-dados.json. A análise deste passo foi feita com execução
+local emulada, bytes de RAM e tabelas da ROM; não foi atribuída ao REA uma
+análise que ele não realizou. Não há recuperação integral do código-fonte.
+
+PRÓXIMO PASSO
+Passo 6: medir e ajustar as reações de contato, incluindo tempo atingido,
+bloqueio, empurrão, queda/levantada e sua combinação entre os dois universos.
+
+ESTRUTURA REAPROVEITÁVEL
+Perfis em PHASE_CALIBRATION, ao final de arena/calibration.js, aplicados no
+fim de combat-data.js. activeRanges contém intervalos [início,fim exclusivo].
+contactResponse define pausa local e queda por dados; a implementação do
+motor não escolhe comportamento por nome Scorpion/Ryu. Mudar os perfis não
+requer criar um motor diferente para cada novo personagem.
+Modelo da etapa congelado em comparacao/passo-5/modelo-5.0; cópias das
+ferramentas de teste e manifesto de integridade ficam na mesma pasta.

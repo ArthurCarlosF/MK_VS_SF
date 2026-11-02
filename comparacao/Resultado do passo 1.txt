@@ -1,0 +1,32 @@
+﻿PASSO 1 CONCLUÍDO — MÉTODO DE COMPARAÇÃO
+
+Execução: D:\projetos\Mortal Kombat vs Street Fighter\comparacao\execucoes\20261023-metodo-01
+13 casos por personagem; duas repetições em cada ambiente.
+52 casos registrados nos originais e 52 no protótipo.
+546 capturas verificadas; comandos e horários conferidos amostra a amostra.
+26 comparações. As repetições coincidiram nos campos verificados nos dois jogos
+e no protótipo. O erro máximo da reamostragem foi 4.162 ms.
+Painel testado nos 26 casos, com imagens, reprodução, controles e tela menor.
+
+RESULTADOS NUMÉRICOS INICIAIS
+16 casos ficaram dentro das tolerâncias de posição/altura/vida.
+6 apresentaram diferenças nessas medidas.
+4 tiveram diferença na preparação da distância de contato.
+Isto NÃO representa uma contagem de golpes fiéis: animação, estados internos
+e aceitação de toques não foram aprovados por esses critérios numéricos.
+
+Evidências já mostram diferenças de início/fim da caminhada e de trajetória
+de salto. A preparação de contato também precisa ser alinhada para isolar dano.
+As sequências de soco mantido e repetido estão registradas para investigação.
+O comportamento de socos rápidos relatado pelo usuário permanece pendente.
+
+REA
+Usado de fato, via CLI 6.7.0, para inspecionar os dois pacotes locais e guardar
+identidade, inventário e evidência. Não foi usado para decompilar a rotina de
+socos neste passo. Essa investigação será direcionada no passo 2.
+
+USO
+Abrir comparação.cmd, na pasta comparacao, abre o painel da última execução.
+Executar comparação.cmd cria uma execução nova, preservando as anteriores.
+Procedimento e limites em LEIA-ME - Passo 1.txt.
+Nenhuma regra de combate foi modificada neste passo.

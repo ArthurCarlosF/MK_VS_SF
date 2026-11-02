@@ -1,0 +1,569 @@
+{
+  "cases": [
+    {
+      "id": "airVertical_lp_contact",
+      "setup": [
+        {
+          "frames": 60,
+          "p1": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 12,
+          "p1": {}
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "up": true,
+            "x": 0
+          }
+        },
+        {
+          "frames": 10,
+          "p1": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              0
+            ]
+          }
+        },
+        {
+          "frames": 100,
+          "p1": {}
+        }
+      ],
+      "meta": {
+        "button": 0,
+        "posture": "airVertical",
+        "context": "airContact",
+        "label": "lp"
+      }
+    },
+    {
+      "id": "airForward_lp_contact",
+      "setup": [
+        {
+          "frames": 60,
+          "p1": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 12,
+          "p1": {}
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "up": true,
+            "x": 1
+          }
+        },
+        {
+          "frames": 10,
+          "p1": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              0
+            ]
+          }
+        },
+        {
+          "frames": 100,
+          "p1": {}
+        }
+      ],
+      "meta": {
+        "button": 0,
+        "posture": "airForward",
+        "context": "airContact",
+        "label": "lp"
+      }
+    },
+    {
+      "id": "airVertical_mp_contact",
+      "setup": [
+        {
+          "frames": 60,
+          "p1": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 12,
+          "p1": {}
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "up": true,
+            "x": 0
+          }
+        },
+        {
+          "frames": 10,
+          "p1": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              8
+            ]
+          }
+        },
+        {
+          "frames": 100,
+          "p1": {}
+        }
+      ],
+      "meta": {
+        "button": 8,
+        "posture": "airVertical",
+        "context": "airContact",
+        "label": "mp"
+      }
+    },
+    {
+      "id": "airForward_mp_contact",
+      "setup": [
+        {
+          "frames": 60,
+          "p1": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 12,
+          "p1": {}
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "up": true,
+            "x": 1
+          }
+        },
+        {
+          "frames": 10,
+          "p1": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              8
+            ]
+          }
+        },
+        {
+          "frames": 100,
+          "p1": {}
+        }
+      ],
+      "meta": {
+        "button": 8,
+        "posture": "airForward",
+        "context": "airContact",
+        "label": "mp"
+      }
+    },
+    {
+      "id": "airVertical_hp_contact",
+      "setup": [
+        {
+          "frames": 60,
+          "p1": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 12,
+          "p1": {}
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "up": true,
+            "x": 0
+          }
+        },
+        {
+          "frames": 10,
+          "p1": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              1
+            ]
+          }
+        },
+        {
+          "frames": 100,
+          "p1": {}
+        }
+      ],
+      "meta": {
+        "button": 1,
+        "posture": "airVertical",
+        "context": "airContact",
+        "label": "hp"
+      }
+    },
+    {
+      "id": "airForward_hp_contact",
+      "setup": [
+        {
+          "frames": 60,
+          "p1": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 12,
+          "p1": {}
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "up": true,
+            "x": 1
+          }
+        },
+        {
+          "frames": 10,
+          "p1": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              1
+            ]
+          }
+        },
+        {
+          "frames": 100,
+          "p1": {}
+        }
+      ],
+      "meta": {
+        "button": 1,
+        "posture": "airForward",
+        "context": "airContact",
+        "label": "hp"
+      }
+    },
+    {
+      "id": "airVertical_lk_contact",
+      "setup": [
+        {
+          "frames": 60,
+          "p1": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 12,
+          "p1": {}
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "up": true,
+            "x": 0
+          }
+        },
+        {
+          "frames": 10,
+          "p1": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              9
+            ]
+          }
+        },
+        {
+          "frames": 100,
+          "p1": {}
+        }
+      ],
+      "meta": {
+        "button": 9,
+        "posture": "airVertical",
+        "context": "airContact",
+        "label": "lk"
+      }
+    },
+    {
+      "id": "airForward_lk_contact",
+      "setup": [
+        {
+          "frames": 60,
+          "p1": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 12,
+          "p1": {}
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "up": true,
+            "x": 1
+          }
+        },
+        {
+          "frames": 10,
+          "p1": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              9
+            ]
+          }
+        },
+        {
+          "frames": 100,
+          "p1": {}
+        }
+      ],
+      "meta": {
+        "button": 9,
+        "posture": "airForward",
+        "context": "airContact",
+        "label": "lk"
+      }
+    },
+    {
+      "id": "airVertical_mk_contact",
+      "setup": [
+        {
+          "frames": 60,
+          "p1": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 12,
+          "p1": {}
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "up": true,
+            "x": 0
+          }
+        },
+        {
+          "frames": 10,
+          "p1": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              10
+            ]
+          }
+        },
+        {
+          "frames": 100,
+          "p1": {}
+        }
+      ],
+      "meta": {
+        "button": 10,
+        "posture": "airVertical",
+        "context": "airContact",
+        "label": "mk"
+      }
+    },
+    {
+      "id": "airForward_mk_contact",
+      "setup": [
+        {
+          "frames": 60,
+          "p1": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 12,
+          "p1": {}
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "up": true,
+            "x": 1
+          }
+        },
+        {
+          "frames": 10,
+          "p1": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              10
+            ]
+          }
+        },
+        {
+          "frames": 100,
+          "p1": {}
+        }
+      ],
+      "meta": {
+        "button": 10,
+        "posture": "airForward",
+        "context": "airContact",
+        "label": "mk"
+      }
+    },
+    {
+      "id": "airVertical_hk_contact",
+      "setup": [
+        {
+          "frames": 60,
+          "p1": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 12,
+          "p1": {}
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "up": true,
+            "x": 0
+          }
+        },
+        {
+          "frames": 10,
+          "p1": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              11
+            ]
+          }
+        },
+        {
+          "frames": 100,
+          "p1": {}
+        }
+      ],
+      "meta": {
+        "button": 11,
+        "posture": "airVertical",
+        "context": "airContact",
+        "label": "hk"
+      }
+    },
+    {
+      "id": "airForward_hk_contact",
+      "setup": [
+        {
+          "frames": 60,
+          "p1": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 12,
+          "p1": {}
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "up": true,
+            "x": 1
+          }
+        },
+        {
+          "frames": 10,
+          "p1": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              11
+            ]
+          }
+        },
+        {
+          "frames": 100,
+          "p1": {}
+        }
+      ],
+      "meta": {
+        "button": 11,
+        "posture": "airForward",
+        "context": "airContact",
+        "label": "hk"
+      }
+    }
+  ],
+  "checkpoints": [
+    0,
+    2,
+    5,
+    8,
+    12,
+    20,
+    32,
+    48,
+    64,
+    84,
+    100
+  ]
+}

@@ -1,0 +1,120 @@
+PASSO 6 — REAÇÕES DE CONTATO — REVISÃO 6.0
+26/10/2026
+
+ENTREGA
+Ryu e Scorpion agora usam perfis de reação separados das animações do atacante:
+atingido em pé/agachado/no ar, defesa alta/baixa, empurrão, recuo no canto,
+lançamento, queda, recuperação e retorno ao controle. O alvo mantém suas
+próprias imagens nativas também quando recebe um golpe do outro universo.
+Abra Abrir arena.cmd. Na página já aberta, Ctrl+F5; confira “reações 6.0”.
+
+O QUE MUDOU
+- A duração do golpe, a pausa do atacante e a reação do alvo são relógios
+  separados. A reação já inclui a pausa do alvo observada no original.
+- O soco leve MK preserva o empurrão zero; ataques mais fortes usam curvas
+  medidas. Há perfis específicos de canto e redistribuição do recuo no limite.
+- Defesa agachada tem poses próprias. O retorno ao controle não precisa
+  esperar a animação cosmética de saída da guarda terminar.
+- Golpes que derrubam preservam queda, contato com o chão e levantada;
+  a recuperação antecipada com cima usa capturas próprias quando disponíveis.
+- O alvo SF deixa de ter caixas vulneráveis durante as fases nativas de
+  queda/levantada em que elas estão vazias. MK usa proteção conservadora.
+- Arremessos separam animação do atacante, período de acoplamento, voo
+  independente do alvo e impacto. O dano pode acontecer só na aterrissagem.
+  Interrupção, reinício e KO limpam ou concluem essas etapas sem dano duplicado.
+- O chute forte de perto do Ryu tem grupos de contato distintos; o segundo
+  usa dano menor, sua própria reação e sua própria pausa no bloqueio.
+- A câmera acompanha lançamentos altos sem cortar o alvo no teto da arena.
+- Painéis mostram atingido, defendendo, caído e levantando conforme o estado.
+
+FONTES E MEDIÇÕES
+Originais arcade executados localmente, sem alterar as ROMs ou escrever RAM
+para criar as reações. Duas sessões independentes da bateria principal:
+60 casos MK + 87 SF = 147 pares de repetição, coincidentes nos traces completos.
+687 execuções de caso no total:
+  execucao-01: 294; provas-01: 138; provas-02: 138;
+  comandos-01: 70; comandos-02: 18; extra-ar-01: 27; duplo-01: 2.
+provas-01 é diagnóstico: cima era aplicado cedo demais. Foi conservada como
+evidência, mas o gerador usa provas-02, com cima a partir do contato +3.
+Isso deixa 549 execuções fora dessa bateria diagnóstica descartada.
+
+281 perfis gerados, incluindo variantes, recuperação antecipada e derivados.
+33 entradas/aliases Scorpion e 47 Ryu recebem ajustes por dados. Esses números
+não representam 281 golpes diferentes. Nenhuma imagem necessária ficou sem
+decodificação no pacote atual; recursos.json registra observações não resolvidas.
+
+Exemplos nativos, contados em amostras de vídeo desde o primeiro contato:
+  MK soco leve: controle após 14; soco alto: 18; defesa do jab: cerca de 22.
+  SF soco leve atingindo: 21; bloqueado: 20; soco forte: 28.
+  Entrada tardia: MK LP aceita em +12, HP +16; SF LP +19, HP +26 nos casos
+  isolados medidos. Nem todos os ataques tiveram essa janela isolada.
+  SF Hadouken: dano de referência 16/144 da vida, guarda 4/144;
+  o dono não recebe a pausa da reação do alvo.
+  SF HK de perto: segundo contato isolado tira 4/144 da vida.
+  MK LP arremesso: acoplamento termina perto de 37, dono libera em 65,
+  dano em 42, recuperação normal do alvo perto de 81.
+  SF MP arremesso: acoplamento 36, dono libera em 61, dano em 70,
+  alvo recupera perto de 120, com uma cauda visual posterior.
+Os tempos em segundos respeitam 53,204948 Hz MK e 59,633331 Hz SF. A escala
+visual SF continua 1,25. O RNG integral de dano não foi reconstruído.
+
+REGRA DO CROSSOVER
+O universo do golpe fornece tempo e curva de deslocamento da reação;
+o alvo fornece suas poses nativas por fase, ajustadas ao progresso da reação.
+O espelho do mesmo personagem pode reproduzir a sequência nativa diretamente.
+Essa combinação é uma regra explícita do nosso motor: não existe um original
+arcade do crossover para usar como referência perfeita desse casamento.
+
+VALIDAÇÃO
+182 verificações/casos aprovados nesta revisão:
+  Reações: 12 grupos, incluindo 326 reproduções isoladas amostra a amostra,
+    nos dois sentidos, e testes integrados de queda, canto, dano adiado e KO.
+  Interface real Edge: 29, com os dois jogadores e sentidos, teclado,
+    pausa/reinício, carregamento de imagens e capturas de reação.
+  Socos de contato: 40 comparações; comandos: 17; fases: 9;
+    repertório: 9; movimento: 20; combate: 39; calibração anterior: 7.
+As reproduções isoladas validam a curva/pose, sem colisões do cenário;
+os testes integrados validam separadamente os limites da arena comum.
+O teste antigo que fixava Hadouken em 13 de dano foi atualizado para o valor
+nativo medido, inclusive o dano de guarda. As outras regressões passaram.
+Capturas de lançamento e queda foram inspecionadas visualmente.
+Hashes das duas ROMs e do núcleo original conferidos contra o manifesto
+anterior. O selo do passo 5 permanece intacto.
+
+LIMITES E PENDÊNCIAS
+- As caixas/flags nativas MK ainda não foram reconstruídas. A proteção
+  durante queda/levantada MK é conservadora, não uma regra recuperada da ROM.
+- Algumas combinações sem captura exata reutilizam a família de reação
+  nativa equivalente; o perfil conserva o caso de origem e a política usada.
+- Janelas tardias sem ensaio próprio usam a família (até duas amostras).
+  Hadouken SF mostrou aceitação não monotônica de pulsos curtos: +42 e +45
+  aceitos, +43/+44 recusados nessa fase Turbo. O motor usa a janela comum
+  aproximada; não reproduz esse escalonador interno por fase. Está marcado
+  earlyInputEvidence como phase-sensitive approximation.
+- O primeiro bloqueio livre do HK de perto SF foi derivado do ensaio de
+  canto com um contato, convertendo recuo do dono em empurrão do alvo.
+  O segundo contato tem captura isolada. O derivado está identificado.
+- O uppercut MK que muda de andar conserva sua captura bruta; a trajetória
+  foi projetada sobre um único chão de treino, sem recriar a mudança de fase.
+- A câmera, as bordas e o casamento entre universos são regras do protótipo.
+  Isso não é fidelidade integral em qualquer combinação, fase Turbo ou RNG.
+- Combos, cancelamentos, juggle, prioridades de colisão, caixas MK exatas,
+  todas as forças/especiais, sons e regras completas de finalização ainda
+  precisam de suas próprias medições e ajustes.
+
+REA
+Não foi atribuída uma análise nova ao REA nesta etapa. O passo 5 já registrou
+a recusa do binário bruto SF pelo REA 6.7. As fontes deste passo são execução
+emulada, observação de RAM, tabelas de sprites/caixas e ferramentas locais.
+Não houve recuperação integral de código-fonte dos jogos.
+
+ONDE RETOMAR
+comparacao/passo-6 contém fontes, medições, testes, imagens e selo de arquivos.
+backup-antes preserva a arena no início da etapa.
+modelo-6.0 congela os arquivos do motor desta entrega.
+REACTION_CALIBRATION no fim de arena/calibration.js contém perfis e patches;
+combat-data.js os aplica e engine.js/FightReactions executa a política genérica.
+ferramentas/preparar_reacoes.py gera o pacote a partir das capturas;
+ferramentas/verificar_fontes.py verifica repetição, proveniência e selo anterior.
+Testes atuais: ferramentas/testar_reacoes.cjs e testar_interface_reacoes.cjs.
+Não inferir que cada perfil derivado corresponde a um experimento independente.

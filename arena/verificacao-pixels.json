@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "method": "SHA256 native dimensions and RGBA pixels",
+  "characters": [
+    {
+      "character": "scorpion",
+      "assets": 91,
+      "clips": 21
+    },
+    {
+      "character": "ryu",
+      "assets": 69,
+      "clips": 19
+    }
+  ]
+}

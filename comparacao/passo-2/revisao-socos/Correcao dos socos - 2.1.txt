@@ -1,0 +1,47 @@
+CORREÇÃO DOS SOCOS RÁPIDOS — REVISÃO SOCOS 2.1
+
+A reclamação na arena foi reproduzida: a troca para o segundo braço ocorria
+antes do instante de acerto do primeiro golpe. O teste de poses do passo 2
+passava porque a animação aparecia, mas o contato anterior era descartado.
+A comparação anterior de 187/190 contagens visuais não detectava esse erro.
+
+Agora a continuação visual preserva o acerto pendente do golpe anterior.
+Cada golpe mantém seu próprio registro de alvo atingido; não há dano duplicado.
+No jab do Scorpion foi removida a pausa de impacto artificial e o empurrão
+inicial, ausentes nas capturas de referência. Outras ações mantêm suas regras.
+As três poses da continuação e os braços de retorno já estavam importados.
+
+NOVA EVIDÊNCIA
+40 experimentos adicionais no UMK3: sem contato e com contato, soco único,
+duplo e repetido, intervalos de soltura e quatro fases iniciais de amostragem.
+Na sequência de referência, o duplo causa dano nas amostras 11 e 21;
+a repetição causa dano em 11, 21, 31, 41, 51 e 61, alternando as mãos.
+A versão anterior registrava só o segundo contato do soco duplo, com atraso.
+
+VERIFICAÇÃO DA CORREÇÃO
+40 comparações passaram em quantidade de acertos, dano total e alternância
+visual. O duplo coincidiu nas amostras 11 e 21. A sequência longa coincidiu
+na contagem e na alternância; os contatos ficaram a até uma amostra de diferença.
+As posições iniciais foram alinhadas explicitamente no teste para isolar
+os socos das diferenças de caminhada. Isso não valida toda a geometria.
+Testados também Scorpion contra Ryu nas duas ordens e restauração de uma
+captura de estado entre a troca visual de braço e o primeiro contato.
+As regressões de combate, calibração, comandos e interface passaram.
+
+LIMITES PRESERVADOS
+No original, o último golpe de certas sequências pode afastar/derrubar o alvo;
+essa regra completa ainda não foi reconstruída. A calibração de combos,
+reações, distâncias, forças e diferenças do Turbo continua nas etapas previstas.
+Não declarar fidelidade integral a partir da correção atual.
+
+IDENTIFICAÇÃO NA TELA
+A arena exibe “Revisão: socos 2.1.”. Recarregar com F5 deve mostrar esse texto.
+Os arquivos de lógica e poses receberam identificador de revisão no carregamento.
+O atalho oficial foi conferido e aponta para esta pasta do projeto.
+
+ARQUIVOS
+casos.json: entradas; execucao/original/umk3/rep-1/trace.json: medidas nativas.
+verificacao-revisao.json: resultados por caso e tempos de contato.
+ferramentas/testar_socos_contato.cjs: teste reproduzível
+(o caminho absoluto é a pasta ferramentas na raiz deste projeto).
+backup-antes: arquivos da arena anteriores a esta revisão.

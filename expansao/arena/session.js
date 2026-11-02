@@ -1,0 +1,126 @@
+/* Experimental match formats. Does not overwrite the sealed native calibration. */
+(function(scope){
+  'use strict';
+  const clamp=(n,a,b)=>Math.max(a,Math.min(b,n));
+  const Base=scope.FightArena;
+  class ExpandedArena extends Base{
+    startRound(){
+      super.startRound();
+      if(this.mode==='bonus'){
+        this.timer=40;
+        this.bonus={x:550,parts:[120,120,100],maximum:[120,120,100],score:0,scores:this.ids.map(()=>0),damage:0};
+        this.players.forEach((p,i)=>{const side=i%2?-1:1;p.x=550+side*(155+Math.floor(i/2)*52);p.facing=-side;});
+      }else this.bonus=null;
+    }
+    hitCar(p,move,source,contact){
+      if(!this.bonus||this.phase!=='fight')return false;
+      const b=this.bonus;
+      // An object has no human reaction, guard, tether or throw animation.
+      // Damage can cross into another panel once the nearest panel is destroyed.
+      const first=contact.y>=65?2:p.x<b.x?0:1;
+      const part=[first,...[0,1,2].filter(i=>i!==first)].find(i=>b.parts[i]>0);
+      if(part===undefined)return false;
+      const damage=Math.min(b.parts[part],Math.max(1,move.damage||1));
+      b.parts[part]-=damage;b.damage+=damage;const score=Math.round(b.damage*100);
+      b.scores[p.index]+=score-b.score;b.score=score;
+      if(p.action){p.action.connected=true;p.action.contactResult='hit';p.action.contactAge=p.action.time*this.bank[p.id].fps;p.action.contactWall=this.elapsed;}
+      this.effects.push({x:contact.x,y:contact.y,age:0,guarded:false});
+      this.emit('objectHit',{player:p.index,object:'car',part,damage,move:source});
+      if(!b.parts[part])this.emit('objectPartDestroyed',{player:p.index,part});
+      return true;
+    }
+    enemies(p){return this.mode==='bonus'?[]:super.enemies(p);}
+    hit(attacker,defender,move,source){
+      if(this.players.length===2)return super.hit(attacker,defender,move,source);
+      const old=this.hitstop,result=super.hit(attacker,defender,move,source),pause=this.hitstop;
+      this.hitstop=old;
+      if(result){
+        attacker.localHitstop=Math.max(attacker.localHitstop,pause);
+        // Native victim timelines already contain their own pause samples.
+        if(!defender.reaction)defender.localHitstop=Math.max(defender.localHitstop,pause);
+      }
+      return result;
+    }
+    collisions(dt){
+      if(this.mode!=='bonus'){super.collisions(dt);return;}
+      const b=this.bonus,box={left:b.x-94,right:b.x+94,bottom:8,top:100};
+      for(const p of this.players){
+        if(!p.action)continue;
+        for(const strike of [p.action.carriedStrike,p.action].filter(Boolean)){
+          const m=this.definition(p).moves[strike.name],active=this.activeBox(p,strike);
+          const sample=Math.floor((strike.time+1e-9)*(m.sampleRate||this.bank[p.id].fps));
+          const group=m.contactGroupTimeline?.[sample]||1,key='car:'+group;
+          if(active&&!strike.hit.has(key)&&scope.FightCollision.overlap(active,box)){
+            strike.hit.add(key);
+            const contact=m.contactGroups?.[group]?{...m,...m.contactGroups[group]}:m;
+            this.hitCar(p,contact,strike.name,{x:clamp(p.x+p.facing*60,box.left,box.right),y:(active.top+active.bottom)/2});
+          }
+        }
+      }
+      this.projectiles=this.projectiles.filter(q=>{
+        q.age+=dt;const old=q.x;q.x+=q.facing*q.speed*dt;
+        const swept={left:Math.min(old,q.x)-q.radius,right:Math.max(old,q.x)+q.radius,bottom:q.y-q.radius,top:q.y+q.radius};
+        if(scope.FightCollision.overlap(swept,box)){
+          this.hitCar(this.players[q.owner],this.definition(this.players[q.owner]).moves[q.name],q.name,{x:clamp(q.x,box.left,box.right),y:q.y});return false;
+        }
+        return q.age<q.lifetime&&q.x>0&&q.x<1100&&(!q.rope||this.players[q.owner].action?.name===q.name);
+      });
+    }
+    resolveCrowd(){
+      super.resolveCrowd();
+      if(!this.bonus)return;
+      // Low car chassis is solid; a jump can cross it. No pulling or teleporting the prop.
+      this.players.forEach(p=>{if(p.y<90&&Math.abs(p.x-this.bonus.x)<118)p.x=this.bonus.x+(p.x<this.bonus.x?-118:118);});
+      this.camera=550;
+    }
+    step(dt,inputs){
+      const bonus=this.mode==='bonus';
+      super.step(dt,inputs);
+      if(bonus&&this.phase==='fight'){
+        if(this.bonus.parts.every(v=>v<=0)||this.timer<=0){
+          const success=this.bonus.parts.every(v=>v<=0);
+          this.phase='matchEnd';this.result=(success?'CARRO DESTRUÍDO':'TEMPO ESGOTADO')+' · '+this.bonus.score+' PONTOS';
+          this.projectiles=[];this.tethers=[];this.grapples=[];
+          this.emit('bonusEnd',{success,score:this.bonus.score,scores:[...this.bonus.scores]});
+        }
+      }
+    }
+    snapshot(){return {...super.snapshot(),teams:[...this.teams],mode:this.mode,bonus:this.bonus?JSON.parse(JSON.stringify(this.bonus)):null};}
+  }
+  // Install only on the expansion page. The original arena remains independent.
+  scope.FightArena=ExpandedArena;
+  scope.FightSession={
+    parse(params){
+      const list=params.get('players');
+      const ids=list?list.split(','):[params.get('p1')||'scorpion',params.get('p2')||'ryu'];
+      if(ids.length<2||ids.length>16||ids.some(id=>!scope.FIGHT_DATA.characters[id]))throw Error('Participantes indisponíveis.');
+      const cpu=(params.get('cpu')||'').split(',').filter(Boolean).map(Number).filter(i=>Number.isInteger(i)&&i>=0&&i<ids.length);
+      const mode=['versus','training','bonus'].includes(params.get('mode'))?params.get('mode'):'versus';
+      return {ids,cpu,options:{mode}};
+    },
+    label(g){return g.mode==='bonus'?'Destrua o carro · '+g.players.length+' participantes':(g.mode==='training'?'Treino livre':'Todos contra todos')+' · '+g.players.length+' jogadores';},
+    bot(g,p){
+      if(g.phase!=='fight'||p.health<=0)return {};
+      const target=g.opponent(p),dx=target.x-p.x,t=Math.floor(g.elapsed*12)+p.index*3;
+      const dist=Math.abs(dx),near=g.mode==='bonus'?165:66;
+      if(dist>near)return {x:Math.sign(dx),run:dist>220,punch:t%20===0,special:t%37===0};
+      return {x:dist<near-18?-Math.sign(dx):0,punch:t%7===0,kick:t%11===0,punch2:t%13===0,down:t%29===0,block:!!target.action&&t%5<2};
+    },
+    drawBonus(ctx,g,left,scale,floor){
+      if(!g.bonus)return;
+      const b=g.bonus;ctx.save();ctx.translate((b.x-left)*scale,floor);ctx.scale(scale,scale);
+      const gone=i=>b.parts[i]<=0,ratio=i=>b.parts[i]/b.maximum[i];
+      ctx.fillStyle='#07090caa';ctx.beginPath();ctx.ellipse(0,4,105,9,0,0,Math.PI*2);ctx.fill();
+      for(const x of [-65,65]){ctx.fillStyle='#111318';ctx.beginPath();ctx.arc(x,-13,18,0,Math.PI*2);ctx.fill();ctx.fillStyle='#77818b';ctx.beginPath();ctx.arc(x,-13,9,0,Math.PI*2);ctx.fill();}
+      ctx.fillStyle=gone(2)?'#36393b':'#6696b1';ctx.beginPath();ctx.moveTo(-58,-48);ctx.lineTo(-37,gone(2)?-56:-91);ctx.lineTo(32,gone(2)?-52:-91);ctx.lineTo(65,-49);ctx.closePath();ctx.fill();
+      if(!gone(2)){ctx.fillStyle='#1a2a35';ctx.fillRect(-30,-83,56,29);ctx.strokeStyle='#c7dbe3';ctx.lineWidth=2;ctx.strokeRect(-30,-83,56,29);}
+      for(const [i,x] of [[0,-94],[1,0]]){ctx.fillStyle=gone(i)?'#3b4246':ratio(i)<.5?'#557286':'#86acbf';ctx.beginPath();ctx.moveTo(x,-49);ctx.lineTo(x+94,-49);ctx.lineTo(x+94,gone(i)?-17:-22);ctx.lineTo(x,gone(i)?-12:-22);ctx.closePath();ctx.fill();}
+      ctx.strokeStyle='#26323b';ctx.lineWidth=3;
+      for(let i=0;i<3;i++){const damage=1-ratio(i),x=i===0?-64:i===1?58:0,y=i===2?-70:-37;if(damage>.15){ctx.beginPath();ctx.moveTo(x-14,y-9);ctx.lineTo(x+3,y+5);ctx.lineTo(x-4,y+14);ctx.stroke();}}
+      if(b.parts.every(v=>v<=0)){ctx.fillStyle='#414447';ctx.fillRect(-99,-20,198,9);}
+      ctx.restore();
+      ctx.save();ctx.font='bold 13px Arial';ctx.fillStyle='#e8d3a1';ctx.textAlign='center';ctx.fillText('CARRO · '+b.score+' PONTOS',480,35);
+      ctx.fillStyle='#1c2029';ctx.fillRect(340,44,280,8);ctx.fillStyle='#d2ac5f';ctx.fillRect(340,44,280*b.parts.reduce((a,v)=>a+v,0)/340,8);ctx.restore();
+    }
+  };
+})(typeof window==='undefined'?globalThis:window);

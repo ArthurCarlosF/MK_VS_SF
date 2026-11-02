@@ -1,0 +1,27 @@
+"use strict";
+const roster=window.ROSTER,canvas=document.querySelector('canvas'),ctx=canvas.getContext('2d'),images={},players=[{index:6,locked:false},{index:22,locked:false}];let active=0,ready=false;
+const buttons=[document.querySelector('#p1'),document.querySelector('#p2')];
+function load(src){return new Promise((resolve,reject)=>{const im=new Image();im.onload=()=>{images[src]=im;resolve()};im.onerror=()=>reject(new Error('Não foi possível carregar '+src));im.src=src})}
+const paths=new Set(['assets/mk/scene.png','assets/sf/scene.png']);for(const c of roster){paths.add(c.file);if(c.preview)paths.add(c.preview)}
+function rect(c){return c.side==='mk'?{x:c.x,y:c.y,w:48,h:54}:{x:400+c.x*400/384,y:c.y*254/224,w:32*400/384,h:32*254/224}}
+function render(){if(!ready)return;ctx.imageSmoothingEnabled=false;ctx.drawImage(images['assets/mk/scene.png'],0,0);ctx.save();ctx.translate(400,0);ctx.scale(400/384,254/224);ctx.drawImage(images['assets/sf/scene.png'],0,0);const preview=roster[players[active].index].side==='sf'?roster[players[active].index]:roster[players[1-active].index];if(preview.side==='sf')ctx.drawImage(images[preview.preview],0,0);ctx.restore();
+ for(const c of roster){const r=rect(c);ctx.drawImage(images[c.file],r.x,r.y,r.w,r.h)}
+ for(let i=1;i>=0;i--){const c=roster[players[i].index],r=rect(c),same=players[0].index===players[1].index,pad=same&&i===1?4:2;ctx.strokeStyle=i===0?'#64ff38':'#ff3b30';ctx.lineWidth=2;ctx.strokeRect(r.x-pad,r.y-pad,r.w+pad*2,r.h+pad*2);ctx.font='italic bold 13px Arial';ctx.textAlign='left';ctx.fillStyle='#000';ctx.fillText((i+1)+'P'+(players[i].locked?' ✓':''),r.x+3,r.y+15);ctx.fillStyle=i===0?'#a1ff7b':'#ffb19e';ctx.fillText((i+1)+'P'+(players[i].locked?' ✓':''),r.x+2,r.y+14)}
+ for(let i=0;i<2;i++){buttons[i].classList.toggle('active',i===active);buttons[i].classList.toggle('locked',players[i].locked);buttons[i].querySelector('strong').textContent=roster[players[i].index].name;buttons[i].querySelector('span').textContent=players[i].locked?'Confirmado':'Escolhendo'}
+ const both=players.every(p=>p.locked);document.querySelector('#result').hidden=!both;document.querySelector('#match').textContent=players.map(p=>roster[p.index].name).join(' × ');
+ const supported=arenaMatch();document.querySelector('#start').disabled=!both||!supported;document.querySelector('#arena-note').textContent=supported?'Versus local: movimento, pulo, defesa, golpes e especiais. Base em calibração.':'Nesta etapa, a arena está disponível para Scorpion contra Ryu. Escolha um para cada jogador.';
+}
+function arenaMatch(){const ids=players.map(p=>roster[p.index].id);return ids.includes('mk-18')&&ids.includes('sf-0')}
+function startArena(){if(!ready||!players.every(p=>p.locked)||!arenaMatch())return;const ids=players.map(p=>roster[p.index].id==='mk-18'?'scorpion':'ryu');location.href='arena/index.html?p1='+ids[0]+'&p2='+ids[1]}
+document.querySelector('#start').addEventListener('click',startArena);
+function selectPlayer(i){active=i;render()}
+function confirm(i){if(players[i].locked)return;players[i].locked=true;if(!players[1-i].locked)active=1-i;render()}
+function move(i,dx,dy){const p=players[i];if(p.locked)return;active=i;const origin=rect(roster[p.index]);const ox=origin.x+origin.w/2,oy=origin.y+origin.h/2;let best=-1,score=Infinity;for(let n=0;n<roster.length;n++){if(n===p.index)continue;const r=rect(roster[n]),x=r.x+r.w/2-ox,y=r.y+r.h/2-oy,forward=dx?x*dx:y*dy;if(forward<1)continue;const across=dx?Math.abs(y):Math.abs(x),s=forward+across*4;if(s<score){score=s;best=n}}if(best>=0)p.index=best;render()}
+function switchSide(){const p=players[active];if(p.locked)return;const side=roster[p.index].side;p.index=side==='mk'?22:6;render()}
+window.addEventListener('keydown',e=>{const key=e.key.toLowerCase();const arrows={arrowleft:[-1,0],arrowright:[1,0],arrowup:[0,-1],arrowdown:[0,1]},wasd={a:[-1,0],d:[1,0],w:[0,-1],s:[0,1]};if(arrows[key]){e.preventDefault();move(0,...arrows[key])}else if(wasd[key]){e.preventDefault();move(1,...wasd[key])}else if(key==='enter'){e.preventDefault();if(!e.repeat)confirm(0)}else if(key==='f'){if(!e.repeat)confirm(1)}else if(key==='tab'){e.preventDefault();if(!e.repeat)switchSide()}else if(key==='escape'){e.preventDefault();players[active].locked=false;render()}else if(key==='1'||key==='2'){selectPlayer(Number(key)-1)}});
+function hit(e){const b=canvas.getBoundingClientRect(),x=(e.clientX-b.left)*800/b.width,y=(e.clientY-b.top)*254/b.height;return roster.findIndex(c=>{const r=rect(c);return x>=r.x&&x<r.x+r.w&&y>=r.y&&y<r.y+r.h})}
+canvas.addEventListener('mousemove',e=>{const n=hit(e);canvas.style.cursor=n>=0?'pointer':'default';if(n>=0&&!players[active].locked&&players[active].index!==n){players[active].index=n;render()}});
+canvas.addEventListener('click',e=>{const n=hit(e);if(n<0||players[active].locked)return;players[active].index=n;confirm(active);canvas.focus()});buttons.forEach((b,i)=>b.addEventListener('click',()=>selectPlayer(i)));
+document.querySelector('#reset').addEventListener('click',()=>{players.forEach(p=>p.locked=false);active=0;render();canvas.focus()});document.querySelector('#full').addEventListener('click',()=>{if(document.fullscreenElement)document.exitFullscreen();else document.body.requestFullscreen()});
+Promise.all([...paths].map(load)).then(()=>{ready=true;render();canvas.focus()}).catch(e=>{document.querySelector('#error').hidden=false;document.querySelector('#error').textContent=e.message});
+window.selection={roster,players,get active(){return active},get ready(){return ready},move,confirm,render,rect};

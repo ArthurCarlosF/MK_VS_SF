@@ -1,0 +1,110 @@
+﻿PASSO 1 — MÉTODO DE COMPARAÇÃO REPRODUZÍVEL
+
+OBJETIVO
+Executar o mesmo roteiro de comandos nos originais e no protótipo e guardar
+os registros, sem ajustar silenciosamente o resultado para parecer igual.
+Este passo constrói a bancada de comparação. Corrigir as diferenças de
+repetição/encadeamento será trabalho do passo 2 e das etapas seguintes.
+
+COMO USAR
+“Abrir comparação.cmd” abre a execução mais recente no navegador do projeto.
+“Executar comparação.cmd” gera uma nova execução: inicializa os originais,
+repete os testes e registra os quadros do protótipo sem controlar o teclado
+ou as janelas do usuário. Pode levar alguns minutos.
+A comparação não altera as regras do jogo nem os arquivos das instalações.
+
+CASOS PADRÃO
+1. Parado.
+2. Avançar e soltar.
+3. Recuar e soltar.
+4. Agachar e levantar.
+5. Pulo vertical.
+6. Toque único de soco.
+7. Soco mantido.
+8. Socos rápidos: 2 amostras pressionado, 2 solto, 12 vezes.
+9. Socos mais espaçados: 2 pressionado, 14 solto, 6 vezes.
+10. Toque único de chute.
+11. Soco agachado.
+12. Soco após aproximação.
+13. Soco contra defesa após aproximação.
+O arquivo casos.json define todos os comandos e intervalos, inclusive preparação.
+
+RELÓGIO E CONTROLES
+Cada jogo usa sua frequência real de amostragem emulada; os mesmos intervalos
+em amostras NÃO significam a mesma quantidade de milissegundos entre MK e SF.
+Dentro da comparação de um personagem, os horários de comandos são idênticos.
+No protótipo, os comandos são reamostrados para a simulação fixa de 240 Hz;
+o erro registrado é limitado a uma atualização (aproximadamente 4,17 ms).
+Não se compara o relógio de parede nem se impõe 60 Hz aos dois originais.
+Controles semânticos são mapeados para os botões específicos de cada jogo.
+O botão de defesa vira bloqueio em MK e direção para trás em SF.
+
+CONDIÇÕES INICIAIS
+Dois humanos, sem IA, confrontos de espelho nos dois ambientes:
+Scorpion/Scorpion em UMK3 e Ryu/Ryu em Super Turbo.
+No original de SF, o seletor é operado para trocar Ken por Ryu antes da luta.
+Cada repetição do original começa em um novo processo e diretório isolado.
+Entre casos da mesma repetição, restaura-se o estado gerado naquela sessão.
+Não são feitas alterações em RAM para forçar posição, vida ou aceitação.
+No protótipo, uma luta pronta de espelho é criada com as posições da referência.
+A aproximação é executada com os mesmos comandos nos dois ambientes.
+Se a distância depois da aproximação divergir, o relatório marca diferença de
+contexto de contato; não declara equivalência de dano a partir desse caso.
+Os confrontos de espelho são fixtures internas de teste, sem mudança na seleção.
+
+REGISTROS
+Por amostra: comando dos dois jogadores, horário, posição, altura, vida, ponteiro
+de pose ou estado do protótipo e imagens nos pontos de conferência.
+As capturas de tela dos originais são do vídeo real emulado; as do protótipo
+são do desenho real da arena em navegador sem janela visível.
+O painel mostra o quadro disponível mais próximo, identificado pela amostra.
+Os dados numéricos acompanham todas as amostras, mesmo sem imagem naquele ponto.
+As duas repetições têm registros completos. Quadros do protótipo são exportados
+para a primeira repetição; os originais têm quadros nas duas.
+
+PROVENIÊNCIA E REA
+Cada execução guarda cópia do roteiro e dos arquivos do motor, com SHA-256,
+identificação do núcleo de emulação, pacotes dos jogos, versões e evidências REA.
+Os arquivos do motor e pacotes são conferidos novamente ao terminar a execução.
+O REA 6.7.0 executou inspect-artifact nos dois pacotes ZIP usados pela emulação.
+A evidência registra inventário e identidade dos arquivos; NÃO reconstrói
+neste passo a rotina de aceitação de comandos ou prova a fidelidade do motor.
+A leitura de estados, reprodução de comandos e comparação são das ferramentas
+locais de captura e simulação. Não foi alterada a configuração MCP do Codex.
+
+COMO LER OS RESULTADOS
+“Dentro das tolerâncias numéricas”: posição, altura e vida passaram nos limites
+escolhidos. Não significa que todos os aspectos daquele comportamento são iguais.
+“Diferença observada”: houve diferença superior às tolerâncias registradas.
+“Posição inicial de contato diferente”: a preparação produziu distância diferente;
+é preciso resolver esse contexto antes de atribuir o resultado só ao golpe.
+Posição: 1 unidade; altura: 2 unidades; vida: 0,01 ponto percentual.
+As comparações preservam a origem e normalizam a vida em porcentagem.
+Não se comparam diretamente nomes de estados de engines diferentes nem pixels
+de cenários diferentes. Ponteiros e quadros ficam disponíveis para investigação.
+
+REPETIBILIDADE
+O método compara também as duas repetições de cada ambiente. Caso RNG,
+agendamento emulado ou restauração deixem diferenças, elas são mostradas.
+Mesmos comandos não garantem que todo estado interno de um original tenha sido
+controlado. Essa limitação não é escondida por média ou ajuste temporal.
+
+MEDIDO / INFERIDO / PROVISÓRIO
+Medido: comandos executados, leituras, posições, vida, quadros e relógios.
+Inferido: interpretação das diferenças, equivalência de poses e causa de desvios.
+Provisório: regras do crossover e parâmetros ainda sem validação suficiente.
+Cada conclusão futura deve apontar a execução, o caso e a amostra que a sustentam.
+
+DEPENDÊNCIAS E RETOMADA
+Este computador: Python 3.11 (Pillow e NumPy), Node e Playwright/Edge já existentes,
+núcleo e pacotes locais usados nas extrações anteriores. Caminhos estão explícitos
+em ferramentas/original.py e executar.cjs; nenhum download é necessário para rodar.
+Novas execuções recebem pastas próprias; as anteriores são preservadas.
+O visualizador abre por file:// e não depende de servidor ou serviço residente.
+Ferramentas principais: original.py, executar.cjs e verificar.cjs.
+Para verificar uma execução, passar seu diretório a verificar.cjs.
+
+PRÓXIMA ETAPA
+Usar os registros de soco único, botão mantido e ritmos rápido/lento para medir
+quando cada jogo aceita o próximo toque e investigar as rotinas correspondentes
+com engenharia reversa direcionada. Isso não foi dado como resolvido no passo 1.

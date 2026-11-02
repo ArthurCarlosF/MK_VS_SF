@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "tests": 5,
+  "passed": [
+    "Visible build identifies current phase revision 5.0",
+    "Right Shift + forward runs and shows MK energy; Ryu has no run bar",
+    "Backward jumps render native poses facing both ways without missing assets",
+    "Player 2 V runs Scorpion in reversed matchup",
+    "Extra run control and energy bar fit narrow viewport"
+  ]
+}

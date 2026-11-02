@@ -1,0 +1,767 @@
+[
+  {
+    "character": "scorpion",
+    "move": "normal_airForward_hk",
+    "oldSamples": [
+      9,
+      13,
+      19
+    ],
+    "newSamples": [
+      9,
+      18,
+      1
+    ],
+    "source": "comparacao\\passo-5\\ar-01\\original\\umk3\\rep-1\\airForward_hk__entry0\\trace.json"
+  },
+  {
+    "character": "scorpion",
+    "move": "normal_airForward_hp",
+    "oldSamples": [
+      9,
+      12,
+      20
+    ],
+    "newSamples": [
+      9,
+      18,
+      1
+    ],
+    "source": "comparacao\\passo-5\\ar-01\\original\\umk3\\rep-1\\airForward_lp__entry0\\trace.json"
+  },
+  {
+    "character": "scorpion",
+    "move": "normal_airForward_lk",
+    "oldSamples": [
+      9,
+      13,
+      19
+    ],
+    "newSamples": [
+      9,
+      18,
+      1
+    ],
+    "source": "comparacao\\passo-5\\ar-01\\original\\umk3\\rep-1\\airForward_hk__entry0\\trace.json"
+  },
+  {
+    "character": "scorpion",
+    "move": "normal_airForward_lp",
+    "oldSamples": [
+      9,
+      12,
+      20
+    ],
+    "newSamples": [
+      9,
+      18,
+      1
+    ],
+    "source": "comparacao\\passo-5\\ar-01\\original\\umk3\\rep-1\\airForward_lp__entry0\\trace.json"
+  },
+  {
+    "character": "scorpion",
+    "move": "normal_airVertical_hk",
+    "oldSamples": [
+      10,
+      15,
+      5
+    ],
+    "newSamples": [
+      10,
+      17,
+      3
+    ],
+    "source": "comparacao\\passo-5\\execucao-01\\original\\umk3\\rep-1\\airVertical_hk\\trace.json"
+  },
+  {
+    "character": "scorpion",
+    "move": "normal_airVertical_hp",
+    "oldSamples": [
+      9,
+      14,
+      7
+    ],
+    "newSamples": [
+      9,
+      15,
+      6
+    ],
+    "source": "comparacao\\passo-5\\execucao-01\\original\\umk3\\rep-1\\airVertical_hp\\trace.json"
+  },
+  {
+    "character": "scorpion",
+    "move": "normal_airVertical_lk",
+    "oldSamples": [
+      10,
+      15,
+      5
+    ],
+    "newSamples": [
+      10,
+      17,
+      3
+    ],
+    "source": "comparacao\\passo-5\\execucao-01\\original\\umk3\\rep-1\\airVertical_lk\\trace.json"
+  },
+  {
+    "character": "scorpion",
+    "move": "normal_airVertical_lp",
+    "oldSamples": [
+      9,
+      14,
+      7
+    ],
+    "newSamples": [
+      9,
+      15,
+      6
+    ],
+    "source": "comparacao\\passo-5\\execucao-01\\original\\umk3\\rep-1\\airVertical_lp\\trace.json"
+  },
+  {
+    "character": "scorpion",
+    "move": "normal_back_hk",
+    "oldSamples": [
+      17,
+      1,
+      16
+    ],
+    "newSamples": [
+      17,
+      1,
+      16
+    ],
+    "source": "comparacao\\passo-5\\execucao-01\\original\\umk3\\rep-1\\back_hk\\trace.json"
+  },
+  {
+    "character": "scorpion",
+    "move": "normal_back_lk",
+    "oldSamples": [
+      14,
+      1,
+      15
+    ],
+    "newSamples": [
+      14,
+      3,
+      13
+    ],
+    "source": "comparacao\\passo-5\\execucao-01\\original\\umk3\\rep-1\\back_lk\\trace.json"
+  },
+  {
+    "character": "scorpion",
+    "move": "normal_crouch_hk",
+    "oldSamples": [
+      8,
+      1,
+      11
+    ],
+    "newSamples": [
+      8,
+      1,
+      11
+    ],
+    "source": "comparacao\\passo-5\\execucao-01\\original\\umk3\\rep-1\\crouch_hk\\trace.json"
+  },
+  {
+    "character": "scorpion",
+    "move": "normal_crouch_hp",
+    "oldSamples": [
+      8,
+      1,
+      15
+    ],
+    "newSamples": [
+      8,
+      1,
+      15
+    ],
+    "source": "comparacao\\passo-5\\execucao-01\\original\\umk3\\rep-1\\crouch_hp\\trace.json"
+  },
+  {
+    "character": "scorpion",
+    "move": "normal_crouch_lk",
+    "oldSamples": [
+      14,
+      1,
+      24
+    ],
+    "newSamples": [
+      14,
+      5,
+      20
+    ],
+    "source": "comparacao\\passo-5\\execucao-01\\original\\umk3\\rep-1\\crouch_lk\\trace.json"
+  },
+  {
+    "character": "scorpion",
+    "move": "normal_crouch_lp",
+    "oldSamples": [
+      11,
+      1,
+      6
+    ],
+    "newSamples": [
+      11,
+      1,
+      6
+    ],
+    "source": "comparacao\\passo-5\\execucao-01\\original\\umk3\\rep-1\\crouch_lp\\trace.json"
+  },
+  {
+    "character": "scorpion",
+    "move": "normal_stand_hk_far",
+    "oldSamples": [
+      8,
+      1,
+      21
+    ],
+    "newSamples": [
+      8,
+      6,
+      16
+    ],
+    "source": "comparacao\\passo-5\\execucao-01\\original\\umk3\\rep-1\\stand_hk_far\\trace.json"
+  },
+  {
+    "character": "scorpion",
+    "move": "normal_stand_hk_near",
+    "oldSamples": [
+      5,
+      1,
+      22
+    ],
+    "newSamples": [
+      5,
+      1,
+      22
+    ],
+    "source": "comparacao\\passo-5\\execucao-01\\original\\umk3\\rep-1\\stand_hk_near\\trace.json"
+  },
+  {
+    "character": "scorpion",
+    "move": "normal_stand_hp_far",
+    "oldSamples": [
+      11,
+      1,
+      9
+    ],
+    "newSamples": [
+      11,
+      6,
+      4
+    ],
+    "source": "comparacao\\passo-5\\execucao-01\\original\\umk3\\rep-1\\stand_hp_far\\trace.json"
+  },
+  {
+    "character": "scorpion",
+    "move": "normal_stand_hp_near",
+    "oldSamples": [
+      5,
+      1,
+      22
+    ],
+    "newSamples": [
+      5,
+      2,
+      21
+    ],
+    "source": "comparacao\\passo-5\\execucao-01\\original\\umk3\\rep-1\\stand_hp_near\\trace.json"
+  },
+  {
+    "character": "scorpion",
+    "move": "normal_stand_lk_far",
+    "oldSamples": [
+      8,
+      1,
+      21
+    ],
+    "newSamples": [
+      8,
+      6,
+      16
+    ],
+    "source": "comparacao\\passo-5\\execucao-01\\original\\umk3\\rep-1\\stand_lk_far\\trace.json"
+  },
+  {
+    "character": "scorpion",
+    "move": "normal_stand_lk_near",
+    "oldSamples": [
+      5,
+      1,
+      22
+    ],
+    "newSamples": [
+      5,
+      1,
+      22
+    ],
+    "source": "comparacao\\passo-5\\execucao-01\\original\\umk3\\rep-1\\stand_lk_near\\trace.json"
+  },
+  {
+    "character": "scorpion",
+    "move": "normal_stand_lp_far",
+    "oldSamples": [
+      11,
+      1,
+      9
+    ],
+    "newSamples": [
+      11,
+      6,
+      4
+    ],
+    "source": "comparacao\\passo-5\\execucao-01\\original\\umk3\\rep-1\\stand_lp_far\\trace.json"
+  },
+  {
+    "character": "ryu",
+    "move": "normal_airForward_hk",
+    "oldSamples": [
+      5,
+      5,
+      15
+    ],
+    "newSamples": [
+      5,
+      5,
+      15
+    ],
+    "source": "comparacao\\passo-5\\execucao-01\\original\\ssf2tu\\rep-1\\airForward_hk\\trace.json"
+  },
+  {
+    "character": "ryu",
+    "move": "normal_airForward_hp",
+    "oldSamples": [
+      4,
+      6,
+      13
+    ],
+    "newSamples": [
+      4,
+      6,
+      13
+    ],
+    "source": "comparacao\\passo-5\\execucao-01\\original\\ssf2tu\\rep-1\\airForward_hp\\trace.json"
+  },
+  {
+    "character": "ryu",
+    "move": "normal_airForward_lk",
+    "oldSamples": [
+      5,
+      29,
+      0
+    ],
+    "newSamples": [
+      5,
+      19,
+      0
+    ],
+    "source": "comparacao\\passo-5\\execucao-01\\original\\ssf2tu\\rep-1\\airForward_lk\\trace.json"
+  },
+  {
+    "character": "ryu",
+    "move": "normal_airForward_lp",
+    "oldSamples": [
+      3,
+      32,
+      0
+    ],
+    "newSamples": [
+      3,
+      22,
+      0
+    ],
+    "source": "comparacao\\passo-5\\execucao-01\\original\\ssf2tu\\rep-1\\airForward_lp\\trace.json"
+  },
+  {
+    "character": "ryu",
+    "move": "normal_airForward_mk",
+    "oldSamples": [
+      5,
+      9,
+      10
+    ],
+    "newSamples": [
+      5,
+      9,
+      10
+    ],
+    "source": "comparacao\\passo-5\\execucao-01\\original\\ssf2tu\\rep-1\\airForward_mk\\trace.json"
+  },
+  {
+    "character": "ryu",
+    "move": "normal_airForward_mp",
+    "oldSamples": [
+      4,
+      6,
+      13
+    ],
+    "newSamples": [
+      4,
+      6,
+      13
+    ],
+    "source": "comparacao\\passo-5\\execucao-01\\original\\ssf2tu\\rep-1\\airForward_mp\\trace.json"
+  },
+  {
+    "character": "ryu",
+    "move": "normal_airVertical_hk",
+    "oldSamples": [
+      3,
+      6,
+      18
+    ],
+    "newSamples": [
+      3,
+      6,
+      18
+    ],
+    "source": "comparacao\\passo-5\\execucao-01\\original\\ssf2tu\\rep-1\\airVertical_hk\\trace.json"
+  },
+  {
+    "character": "ryu",
+    "move": "normal_airVertical_hp",
+    "oldSamples": [
+      4,
+      6,
+      16
+    ],
+    "newSamples": [
+      4,
+      6,
+      16
+    ],
+    "source": "comparacao\\passo-5\\execucao-01\\original\\ssf2tu\\rep-1\\airVertical_hp\\trace.json"
+  },
+  {
+    "character": "ryu",
+    "move": "normal_airVertical_lk",
+    "oldSamples": [
+      4,
+      25,
+      0
+    ],
+    "newSamples": [
+      4,
+      25,
+      0
+    ],
+    "source": "comparacao\\passo-5\\execucao-01\\original\\ssf2tu\\rep-1\\airVertical_lk\\trace.json"
+  },
+  {
+    "character": "ryu",
+    "move": "normal_airVertical_lp",
+    "oldSamples": [
+      3,
+      24,
+      0
+    ],
+    "newSamples": [
+      3,
+      24,
+      0
+    ],
+    "source": "comparacao\\passo-5\\execucao-01\\original\\ssf2tu\\rep-1\\airVertical_lp\\trace.json"
+  },
+  {
+    "character": "ryu",
+    "move": "normal_airVertical_mk",
+    "oldSamples": [
+      5,
+      9,
+      12
+    ],
+    "newSamples": [
+      5,
+      9,
+      12
+    ],
+    "source": "comparacao\\passo-5\\execucao-01\\original\\ssf2tu\\rep-1\\airVertical_mk\\trace.json"
+  },
+  {
+    "character": "ryu",
+    "move": "normal_airVertical_mp",
+    "oldSamples": [
+      4,
+      15,
+      7
+    ],
+    "newSamples": [
+      4,
+      15,
+      7
+    ],
+    "source": "comparacao\\passo-5\\execucao-01\\original\\ssf2tu\\rep-1\\airVertical_mp\\trace.json"
+  },
+  {
+    "character": "ryu",
+    "move": "normal_crouch_hk",
+    "oldSamples": [
+      4,
+      5,
+      17
+    ],
+    "newSamples": [
+      4,
+      5,
+      17
+    ],
+    "source": "comparacao\\passo-5\\execucao-01\\original\\ssf2tu\\rep-1\\crouch_hk\\trace.json"
+  },
+  {
+    "character": "ryu",
+    "move": "normal_crouch_hp",
+    "oldSamples": [
+      4,
+      9,
+      17
+    ],
+    "newSamples": [
+      4,
+      9,
+      17
+    ],
+    "source": "comparacao\\passo-5\\execucao-01\\original\\ssf2tu\\rep-1\\crouch_hp\\trace.json"
+  },
+  {
+    "character": "ryu",
+    "move": "normal_crouch_lk",
+    "oldSamples": [
+      4,
+      3,
+      4
+    ],
+    "newSamples": [
+      4,
+      3,
+      4
+    ],
+    "source": "comparacao\\passo-5\\execucao-01\\original\\ssf2tu\\rep-1\\crouch_lk\\trace.json"
+  },
+  {
+    "character": "ryu",
+    "move": "normal_crouch_lp",
+    "oldSamples": [
+      4,
+      2,
+      4
+    ],
+    "newSamples": [
+      4,
+      2,
+      4
+    ],
+    "source": "comparacao\\passo-5\\execucao-01\\original\\ssf2tu\\rep-1\\crouch_lp\\trace.json"
+  },
+  {
+    "character": "ryu",
+    "move": "normal_crouch_mk",
+    "oldSamples": [
+      4,
+      5,
+      6
+    ],
+    "newSamples": [
+      4,
+      5,
+      6
+    ],
+    "source": "comparacao\\passo-5\\execucao-01\\original\\ssf2tu\\rep-1\\crouch_mk\\trace.json"
+  },
+  {
+    "character": "ryu",
+    "move": "normal_crouch_mp",
+    "oldSamples": [
+      4,
+      3,
+      5
+    ],
+    "newSamples": [
+      4,
+      3,
+      5
+    ],
+    "source": "comparacao\\passo-5\\execucao-01\\original\\ssf2tu\\rep-1\\crouch_mp\\trace.json"
+  },
+  {
+    "character": "ryu",
+    "move": "normal_stand_hk_far",
+    "oldSamples": [
+      4,
+      8,
+      13
+    ],
+    "newSamples": [
+      4,
+      8,
+      13
+    ],
+    "source": "comparacao\\passo-5\\execucao-01\\original\\ssf2tu\\rep-1\\stand_hk_far\\trace.json"
+  },
+  {
+    "character": "ryu",
+    "move": "normal_stand_hk_near",
+    "oldSamples": [
+      8,
+      21,
+      8
+    ],
+    "newSamples": [
+      8,
+      10,
+      8
+    ],
+    "source": "comparacao\\passo-5\\execucao-01\\original\\ssf2tu\\rep-1\\stand_hk_near\\trace.json"
+  },
+  {
+    "character": "ryu",
+    "move": "normal_stand_hp_far",
+    "oldSamples": [
+      6,
+      4,
+      17
+    ],
+    "newSamples": [
+      6,
+      4,
+      17
+    ],
+    "source": "comparacao\\passo-5\\execucao-01\\original\\ssf2tu\\rep-1\\stand_hp_far\\trace.json"
+  },
+  {
+    "character": "ryu",
+    "move": "normal_stand_hp_near",
+    "oldSamples": [
+      5,
+      17,
+      18
+    ],
+    "newSamples": [
+      5,
+      6,
+      18
+    ],
+    "source": "comparacao\\passo-5\\execucao-01\\original\\ssf2tu\\rep-1\\stand_hp_near\\trace.json"
+  },
+  {
+    "character": "ryu",
+    "move": "normal_stand_lk_far",
+    "oldSamples": [
+      5,
+      6,
+      4
+    ],
+    "newSamples": [
+      5,
+      6,
+      4
+    ],
+    "source": "comparacao\\passo-5\\execucao-01\\original\\ssf2tu\\rep-1\\stand_lk_far\\trace.json"
+  },
+  {
+    "character": "ryu",
+    "move": "normal_stand_lk_near",
+    "oldSamples": [
+      6,
+      13,
+      7
+    ],
+    "newSamples": [
+      6,
+      2,
+      7
+    ],
+    "source": "comparacao\\passo-5\\execucao-01\\original\\ssf2tu\\rep-1\\stand_lk_near\\trace.json"
+  },
+  {
+    "character": "ryu",
+    "move": "normal_stand_lp_far",
+    "oldSamples": [
+      4,
+      3,
+      3
+    ],
+    "newSamples": [
+      4,
+      3,
+      3
+    ],
+    "source": "comparacao\\passo-5\\execucao-01\\original\\ssf2tu\\rep-1\\stand_lp_far\\trace.json"
+  },
+  {
+    "character": "ryu",
+    "move": "normal_stand_lp_near",
+    "oldSamples": [
+      4,
+      14,
+      4
+    ],
+    "newSamples": [
+      4,
+      3,
+      4
+    ],
+    "source": "comparacao\\passo-5\\execucao-01\\original\\ssf2tu\\rep-1\\stand_lp_near\\trace.json"
+  },
+  {
+    "character": "ryu",
+    "move": "normal_stand_mk_far",
+    "oldSamples": [
+      8,
+      6,
+      5
+    ],
+    "newSamples": [
+      8,
+      6,
+      5
+    ],
+    "source": "comparacao\\passo-5\\execucao-01\\original\\ssf2tu\\rep-1\\stand_mk_far\\trace.json"
+  },
+  {
+    "character": "ryu",
+    "move": "normal_stand_mk_near",
+    "oldSamples": [
+      5,
+      15,
+      8
+    ],
+    "newSamples": [
+      5,
+      4,
+      8
+    ],
+    "source": "comparacao\\passo-5\\execucao-01\\original\\ssf2tu\\rep-1\\stand_mk_near\\trace.json"
+  },
+  {
+    "character": "ryu",
+    "move": "normal_stand_mp_far",
+    "oldSamples": [
+      4,
+      3,
+      5
+    ],
+    "newSamples": [
+      4,
+      3,
+      5
+    ],
+    "source": "comparacao\\passo-5\\execucao-01\\original\\ssf2tu\\rep-1\\stand_mp_far\\trace.json"
+  },
+  {
+    "character": "ryu",
+    "move": "normal_stand_mp_near",
+    "oldSamples": [
+      5,
+      13,
+      13
+    ],
+    "newSamples": [
+      5,
+      2,
+      13
+    ],
+    "source": "comparacao\\passo-5\\execucao-01\\original\\ssf2tu\\rep-1\\stand_mp_near\\trace.json"
+  }
+]

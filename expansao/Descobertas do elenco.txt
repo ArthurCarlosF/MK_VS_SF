@@ -1,0 +1,43 @@
+EXPANSÃO DO ELENCO — DESCOBERTAS REPRODUZÍVEIS
+02/11/2026
+
+Os novos pacotes são referências de animação, não personagens completos para
+combate. Um manifesto exportado não equivale a repertório completo ou aceito.
+
+DESCRITORES MK
+O decodificador anterior aceitava cabeçalhos apenas a partir de 0xffc00000.
+Sonya usa, por exemplo, pose 0xff8379d0 com peças em 0xffbcf230 e 0xffbcf2c0.
+São descritores válidos dentro da ROM principal mapeada, abaixo desse limite.
+O extrator novo aceita a região mapeada completa e mantém a validação de
+dimensões, formato e leitura das peças. O decodificador de referência antigo
+não foi alterado.
+
+PALETAS MK POR ATOR
+A palavra no deslocamento decimal 40 (0x28) do objeto do ator contém o slot
+de paleta duplicado: Scorpion 0x0404, Kung Lao 0x0505 nos baselines registrados.
+O slot é obtido com word & 255. No formato de save state desse núcleo:
+  deslocamento da paleta = 0x8ec19 + slot * 512 bytes
+O extrator anterior usava sempre 0x8f419, correspondente ao slot 4.
+Isso coloria incorretamente atores em outro slot. O novo extrator lê o slot
+e as 64 cores do ator em cada observação e invalida o cache quando mudam.
+
+VERIFICAÇÃO
+conferir-paleta.py compara os pixels opacos reconstruídos com baseline.png.
+Kung Lao, slot 5, offset 0x8f619: correspondência 1.0 com tolerância RGB de 3.
+Scorpion, slot 4, offset 0x8f419: correspondência 1.0 com a mesma tolerância.
+Os arquivos baseline.state e baseline.png estão nos respectivos pacotes.
+
+LIMITE
+Baixa correspondência em movimento também pode indicar câmera/âncora/latência
+de vídeo ou oclusão. Deve ser revisada; não deve ser ocultada nem tratada como
+fidelidade aprovada. Pacotes MK do esquema de captura anterior são repetidos.
+Os campos captureSchema, native_character, clips, match e sha256_pixels
+permitem identificar a versão e localizar as evidências.
+
+ARQUIVOS
+capturar-elenco.py: entrada no jogo por comandos e extração nativa.
+extrair-elenco.py: lote limitado aos 38 retratos atuais, com prioridade reduzida.
+acompanhar-recursos.py: cópia dos pacotes terminados e uma repetição limitada.
+recursos-nativos/lote-estado.json: progresso real, falhas e limite do trabalho.
+Chefes, secretos adicionais, especiais completos, áudio, cenários e integração
+de combate não estão concluídos por este lote.

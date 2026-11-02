@@ -1,0 +1,131 @@
+﻿HISTÓRICO DAS ENTREGAS — REGISTROS ABAIXO PRESERVADOS
+Datas, contagens, “próximos passos” e pendências antigas descrevem a situação
+na data da entrega. Para o estado vigente, use as marcações acima.
+======================================================================
+
+HISTÓRICO PRESERVADO
+A entrada duplicada, marcador visual e cópia de Scorpion pertencem ao experimento
+anterior dentro de UMK3. Continuam disponíveis; não são pré-requisitos do motor novo.
+Renomear Scorpion e trocar seus golpes por Kung Lao foi hipótese, não implementação.
+O roteiro anterior completo está guardado em plan-backups.
+
+MARCO DE ENGENHARIA REVERSA — 23/10/2026
+Mapas iniciais de Ryu e Scorpion, tabelas de animação e paleta localizados.
+Hadouken, lança e teleporte executados em testes isolados. Resultados e limites
+em engenharia-reversa/Ryu e Scorpion - Relatorio.md. Combate próprio pendente.
+
+MARCO DE ANIMAÇÕES — 23/10/2026
+Pacote inicial: 71 imagens únicas, 9 sequências de Ryu/Scorpion,
+prévia quadro a quadro e medidas de caminhada/Hadouken.
+Abrir: Ver animações.cmd. Limites: engenharia-reversa/animacoes/Medidas e limites.txt.
+Extração completa do repertório e combate continuam pendentes.
+
+MARCO DA ARENA — 23/10/2026
+Arena independente de movimento concluída e testada (18 verificações).
+Abrir: Abrir arena.cmd. Detalhes e limites: arena/LEIA-ME.txt.
+
+AJUSTE DE ESCALA — 23/10/2026
+Fator único SF2 de 1,25 em largura e altura, aplicado ao Ryu na arena.
+Padrão por universo em arena/presentation.js; preservar tamanhos relativos
+ao ampliar o elenco. Guarda e caminhada conferidas; 18 verificações passaram.
+Avaliação visual pelo usuário pendente.
+
+MARCO DA BASE REAPROVEITÁVEL — 23/10/2026
+Base funcional de combate entregue para Ryu/Scorpion; 41 verificações do combate
+e interface passaram, mais 9 regressões anteriores. Detalhes e controles em
+arena/LEIA-ME.txt e Base reaproveitável - Estado e próximos passos.txt.
+Fidelidade final e repertório completo continuam pendentes.
+
+CALIBRAÇÃO DOS GOLPES BÁSICOS — 23/10/2026
+Oito normais em pé/agachados foram calibrados com experimentos locais.
+Tempos e poses independentes por personagem; Ryu tem caixas de ataque e
+vulnerabilidade de tabelas nativas. Dano e perda de vida ao bloquear MK foram
+normalizados à vida 100. Defesa de proximidade SF e postura baixa corrigidas.
+Detalhes: arena/Calibracao dos golpes - Resultados.txt.
+39 testes do combate + 7 de calibração + 11 da interface passaram.
+PENDENTE: variantes de perto, RNG/reduções de dano completos, caixas nativas MK,
+golpes aéreos, stun, empurrão e calibração dos demais especiais. Não é fidelidade final.
+
+PLANO DE FIDELIDADE — PASSO 1/10 CONCLUÍDO EM 23/10/2026
+Bancada de comparação reproduzível em comparacao. Mesmos comandos nos originais
+arcade emulados e no protótipo, confrontos de espelho, duas sessões independentes.
+13 casos por personagem; 52 execuções de caso por ambiente e 546 quadros.
+26 comparações, repetições coincidentes nos campos verificados e painel validado.
+Registro REA: inspeção real dos dois pacotes ZIP; inventário/proveniência apenas.
+Método: comparacao/LEIA-ME - Passo 1.txt. Resultado: comparacao/Resultado do passo 1.txt.
+Última execução: comparacao/execucoes/20261023-metodo-01.
+Diferenças de movimento/salto e preparação do contato foram detectadas;
+nenhuma regra de combate foi alterada neste passo.
+Próximo: passo 2, medir e investigar aceitação de comandos/socos rápidos.
+Não confundir método validado com fidelidade completa dos golpes.
+
+PLANO DE FIDELIDADE — PASSO 2 IMPLEMENTADO EM 23/10/2026
+Aceitação de comandos por personagem: botão mantido, repetição de socos,
+prioridade, descarte de entradas recusadas, pulos mantidos, guarda MK,
+comandos direcionais e soltura do soco no Hadouken. Quatro poses nativas novas.
+110 casos por jogo x duas repetições idênticas; limites adicionais preservados.
+77 verificações automatizadas aprovadas. 187/190 contagens de poses coincidem;
+não significa fidelidade completa. Três ritmos extremos de Ryu e diferenças
+no relógio/temporizadores e contato permanecem documentados para etapas 5/6.
+Relatório: Passo 2 - Comandos e resultados.txt; evidências em comparacao/passo-2.
+Próximo passo: 3, movimento/corrida/saltos/câmera/contato entre corpos.
+
+REVISÃO SOCOS 2.1 — CORREÇÃO DO PASSO 2
+Reproduzida falha de contato que o teste anterior de poses não detectava:
+a troca de braço descartava o acerto do soco anterior. Agora a ação visual
+preserva esse contato pendente. Retirada pausa/empurrão artificial desse jab.
+40 comparações novas passaram, incluindo acertos/dano/alternância e intervalo
+do soco duplo. Também testados confronto cruzado nas duas ordens e snapshot.
+A arena identifica a revisão na tela. Evidência e limites em
+comparacao/passo-2/revisao-socos/Correcao dos socos - 2.1.txt.
+Fidelidade integral de combos e reação final continua pendente.
+
+PASSO 3 IMPLEMENTADO — MOVIMENTO 3.0 — 25/10/2026
+Perfis dos dois personagens calibrados a partir de 158 execuções de casos.
+Caminhada com latência, corrida/energia Scorpion, saltos nos três sentidos,
+transição corrida-pulo, aterrissagem, cruzamento, corpo/cantos e câmera comum.
+Corrida: Shift direito + frente (1P) ou V + frente (2P). Barra própria MK.
+20 verificações de movimento e 5 da interface, além das regressões existentes.
+Câmera/contato mistos são adaptações explícitas; Turbo e recuperação da energia
+mantêm limitações documentadas. Não declarar fidelidade integral dos originais.
+Relatório: Passo 3 - Movimento e resultados.txt; evidências em comparacao/passo-3.
+Próximo: passo 4, repertório completo dos golpes básicos e suas variantes.
+
+PASSO 4 IMPLEMENTADO — GOLPES 4.0 — 26/10/2026
+Repertório básico dos dois personagens ampliado: quatro ataques MK,
+seis forças SF, perto/longe, agachados, saltos e agarrões nativos.
+Bateria principal repetível: 68 casos MK + 108 SF, duas sessões por jogo.
+Controles novos e limites: Passo 4 - Repertorio e resultados.txt.
+Teleporte MK usa soco alto (N/C); LK em pé do Ryu agora é médio.
+Revisão socos 2.1 preservada nos 40 testes de contato.
+Repertório disponível não equivale a fidelidade completa de cada fase/colisão.
+Próximo: calibrar fases e contatos, com caixas MK e reações cruzadas pendentes.
+
+PASSO 5 IMPLEMENTADO — TEMPOS 5.0 — 26/10/2026
+Fases de 51 variantes, seus aliases e sequência dos dois braços calibradas.
+Pausa SF separada do golpe que erra; janelas tardias MK ampliadas conforme
+capturas. Contato aéreo MK pausa oito amostras e reinicia a queda vertical.
+Regressões de socos rápidos e comandos preservadas.
+Detalhes, evidência e limites: Passo 5 - Tempos e resultados.txt.
+Próximo: passo 6, reações de contato, bloqueio, empurrão, queda/levantada.
+
+
+PASSO 6 IMPLEMENTADO — REAÇÕES 6.0 — 26/10/2026
+Reações nativas de impacto/guarda, empurrão/canto, queda/levantada e retorno
+ao controle integradas para Scorpion/Ryu e seus confrontos cruzados.
+Arremessos separam dono, voo do alvo e dano na aterrissagem; HK de perto SF
+separa os dois contatos. 281 perfis por dados; 147 pares nativos repetíveis.
+182 verificações/casos passaram, incluindo interface real e regressões.
+Detalhes: Passo 6 - Reacoes e resultados.txt; fontes em comparacao/passo-6.
+LIMITES: caixas MK/proteção conservadora, variantes por família, janela Turbo
+sensível à fase, primeiro bloqueio do HK derivado e uppercut em chão único.
+Combos/cancelamentos completos, RNG e demais especiais continuam pendentes.
+
+
+PASSO 7 — SEQUÊNCIAS 7.0 — 27/10/2026
+Soco alto e misturas alto/baixo com braços nativos; combos de cotoveladas/chutes
+Scorpion, ligações e cancelamentos SF implementados por dados. Testes funcionais
+aprovados; calibração integral ainda aberta. Comparação ampla SF: 45 diferenças
+em 1402 casos válidos na contagem de contatos. Não marcar fidelidade concluída.
+Relatório: Passo 7 - Sequencias e resultados.txt; evidência: comparacao/passo-7.
+Próxima pendência: resolver esses 45 casos antes de fechar a calibração do passo.

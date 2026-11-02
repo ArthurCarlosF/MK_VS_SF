@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "character": "scorpion",
+      "clip": "jump",
+      "samples": 49,
+      "native_pointers": 4
+    },
+    {
+      "character": "scorpion",
+      "clip": "jumpForward",
+      "samples": 45,
+      "native_pointers": 9
+    },
+    {
+      "character": "scorpion",
+      "clip": "jumpBackward",
+      "samples": 45,
+      "native_pointers": 9
+    },
+    {
+      "character": "scorpion",
+      "clip": "jumpRunForward",
+      "samples": 45,
+      "native_pointers": 10
+    },
+    {
+      "character": "scorpion",
+      "clip": "run",
+      "samples": 27,
+      "native_pointers": 9
+    },
+    {
+      "character": "ryu",
+      "clip": "jump",
+      "samples": 43,
+      "native_pointers": 9
+    },
+    {
+      "character": "ryu",
+      "clip": "jumpForward",
+      "samples": 40,
+      "native_pointers": 10
+    },
+    {
+      "character": "ryu",
+      "clip": "jumpBackward",
+      "samples": 42,
+      "native_pointers": 9
+    }
+  ],
+  "meaning": "Native pose pointer provenance and PNG availability; not a full video pixel-equivalence test."
+}

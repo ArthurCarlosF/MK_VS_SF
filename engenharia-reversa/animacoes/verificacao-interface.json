@@ -1,0 +1,57 @@
+{
+  "ready": true,
+  "errors": [],
+  "panels": [
+    {
+      "key": "scorpion",
+      "assets": 42,
+      "clips": 5,
+      "effects": 0
+    },
+    {
+      "key": "ryu",
+      "assets": 29,
+      "clips": 4,
+      "effects": 1
+    }
+  ],
+  "tested": [
+    [
+      0,
+      "parado"
+    ],
+    [
+      0,
+      "andar_frente"
+    ],
+    [
+      0,
+      "andar_tras"
+    ],
+    [
+      0,
+      "lanca"
+    ],
+    [
+      0,
+      "teleporte"
+    ],
+    [
+      1,
+      "parado"
+    ],
+    [
+      1,
+      "andar_frente"
+    ],
+    [
+      1,
+      "andar_tras"
+    ],
+    [
+      1,
+      "hadouken"
+    ]
+  ],
+  "pageErrors": []
+}

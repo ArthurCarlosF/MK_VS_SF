@@ -1,0 +1,1391 @@
+{
+  "game": "ssf2tu",
+  "rep": 1,
+  "fps": 59.633331298828125,
+  "char_ids": [
+    0,
+    0
+  ],
+  "baseline": {
+    "players": [
+      {
+        "x": 552,
+        "y": 40,
+        "pose": "0x1121ba",
+        "health": 144,
+        "facing": 1,
+        "state": [
+          2,
+          0,
+          2,
+          0
+        ],
+        "boxes": [
+          {
+            "kind": "hurt",
+            "id": 1,
+            "address": "0x198840",
+            "x": -16,
+            "y": 71,
+            "w": 24,
+            "h": 16
+          },
+          {
+            "kind": "hurt",
+            "id": 1,
+            "address": "0x198924",
+            "x": -14,
+            "y": 31,
+            "w": 40,
+            "h": 42
+          },
+          {
+            "kind": "hurt",
+            "id": 1,
+            "address": "0x1989a4",
+            "x": -14,
+            "y": -2,
+            "w": 40,
+            "h": 32
+          },
+          {
+            "kind": "push",
+            "id": 1,
+            "address": "0x198df0",
+            "x": -16,
+            "y": 1,
+            "w": 32,
+            "h": 78
+          }
+        ],
+        "table": "0x198832"
+      },
+      {
+        "x": 728,
+        "y": 40,
+        "pose": "0x1121ba",
+        "health": 144,
+        "facing": -1,
+        "state": [
+          2,
+          0,
+          2,
+          0
+        ],
+        "boxes": [
+          {
+            "kind": "hurt",
+            "id": 1,
+            "address": "0x198840",
+            "x": -16,
+            "y": 71,
+            "w": 24,
+            "h": 16
+          },
+          {
+            "kind": "hurt",
+            "id": 1,
+            "address": "0x198924",
+            "x": -14,
+            "y": 31,
+            "w": 40,
+            "h": 42
+          },
+          {
+            "kind": "hurt",
+            "id": 1,
+            "address": "0x1989a4",
+            "x": -14,
+            "y": -2,
+            "w": 40,
+            "h": 32
+          },
+          {
+            "kind": "push",
+            "id": 1,
+            "address": "0x198df0",
+            "x": -16,
+            "y": 1,
+            "w": 32,
+            "h": 78
+          }
+        ],
+        "table": "0x198832"
+      }
+    ],
+    "camera": 448
+  },
+  "cases": [
+    {
+      "id": "airVertical_lp_late",
+      "file": "airVertical_lp_late/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 730,
+            "y": 110,
+            "pose": "0x112482",
+            "health": 144,
+            "facing": 1,
+            "state": [
+              2,
+              4,
+              2,
+              0
+            ],
+            "boxes": [
+              {
+                "kind": "hurt",
+                "id": 11,
+                "address": "0x198868",
+                "x": -15,
+                "y": 87,
+                "w": 28,
+                "h": 18
+              },
+              {
+                "kind": "hurt",
+                "id": 2,
+                "address": "0x198928",
+                "x": -14,
+                "y": 47,
+                "w": 40,
+                "h": 42
+              },
+              {
+                "kind": "push",
+                "id": 2,
+                "address": "0x198df4",
+                "x": -16,
+                "y": 24,
+                "w": 32,
+                "h": 66
+              }
+            ],
+            "table": "0x198832"
+          },
+          {
+            "x": 762,
+            "y": 40,
+            "pose": "0x1121a2",
+            "health": 144,
+            "facing": -1,
+            "state": [
+              2,
+              0,
+              2,
+              0
+            ],
+            "boxes": [
+              {
+                "kind": "hurt",
+                "id": 1,
+                "address": "0x198840",
+                "x": -16,
+                "y": 71,
+                "w": 24,
+                "h": 16
+              },
+              {
+                "kind": "hurt",
+                "id": 1,
+                "address": "0x198924",
+                "x": -14,
+                "y": 31,
+                "w": 40,
+                "h": 42
+              },
+              {
+                "kind": "hurt",
+                "id": 1,
+                "address": "0x1989a4",
+                "x": -14,
+                "y": -2,
+                "w": 40,
+                "h": 32
+              },
+              {
+                "kind": "push",
+                "id": 1,
+                "address": "0x198df0",
+                "x": -16,
+                "y": 1,
+                "w": 32,
+                "h": 78
+              }
+            ],
+            "table": "0x198832"
+          }
+        ],
+        "camera": 482
+      }
+    },
+    {
+      "id": "airForward_lp_late",
+      "file": "airForward_lp_late/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 647,
+            "y": 104,
+            "pose": "0x1123ee",
+            "health": 144,
+            "facing": 1,
+            "state": [
+              2,
+              4,
+              2,
+              0
+            ],
+            "boxes": [
+              {
+                "kind": "hurt",
+                "id": 9,
+                "address": "0x198860",
+                "x": 31,
+                "y": 83,
+                "w": 24,
+                "h": 16
+              },
+              {
+                "kind": "hurt",
+                "id": 7,
+                "address": "0x19893c",
+                "x": 4,
+                "y": 48,
+                "w": 44,
+                "h": 38
+              },
+              {
+                "kind": "push",
+                "id": 2,
+                "address": "0x198df4",
+                "x": -16,
+                "y": 24,
+                "w": 32,
+                "h": 66
+              }
+            ],
+            "table": "0x198832"
+          },
+          {
+            "x": 728,
+            "y": 40,
+            "pose": "0x11221a",
+            "health": 144,
+            "facing": -1,
+            "state": [
+              2,
+              0,
+              2,
+              0
+            ],
+            "boxes": [
+              {
+                "kind": "hurt",
+                "id": 1,
+                "address": "0x198840",
+                "x": -16,
+                "y": 71,
+                "w": 24,
+                "h": 16
+              },
+              {
+                "kind": "hurt",
+                "id": 1,
+                "address": "0x198924",
+                "x": -14,
+                "y": 31,
+                "w": 40,
+                "h": 42
+              },
+              {
+                "kind": "hurt",
+                "id": 1,
+                "address": "0x1989a4",
+                "x": -14,
+                "y": -2,
+                "w": 40,
+                "h": 32
+              },
+              {
+                "kind": "push",
+                "id": 1,
+                "address": "0x198df0",
+                "x": -16,
+                "y": 1,
+                "w": 32,
+                "h": 78
+              }
+            ],
+            "table": "0x198832"
+          }
+        ],
+        "camera": 448
+      }
+    },
+    {
+      "id": "airVertical_mp_late",
+      "file": "airVertical_mp_late/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 730,
+            "y": 110,
+            "pose": "0x112482",
+            "health": 144,
+            "facing": 1,
+            "state": [
+              2,
+              4,
+              2,
+              0
+            ],
+            "boxes": [
+              {
+                "kind": "hurt",
+                "id": 11,
+                "address": "0x198868",
+                "x": -15,
+                "y": 87,
+                "w": 28,
+                "h": 18
+              },
+              {
+                "kind": "hurt",
+                "id": 2,
+                "address": "0x198928",
+                "x": -14,
+                "y": 47,
+                "w": 40,
+                "h": 42
+              },
+              {
+                "kind": "push",
+                "id": 2,
+                "address": "0x198df4",
+                "x": -16,
+                "y": 24,
+                "w": 32,
+                "h": 66
+              }
+            ],
+            "table": "0x198832"
+          },
+          {
+            "x": 762,
+            "y": 40,
+            "pose": "0x1121a2",
+            "health": 144,
+            "facing": -1,
+            "state": [
+              2,
+              0,
+              2,
+              0
+            ],
+            "boxes": [
+              {
+                "kind": "hurt",
+                "id": 1,
+                "address": "0x198840",
+                "x": -16,
+                "y": 71,
+                "w": 24,
+                "h": 16
+              },
+              {
+                "kind": "hurt",
+                "id": 1,
+                "address": "0x198924",
+                "x": -14,
+                "y": 31,
+                "w": 40,
+                "h": 42
+              },
+              {
+                "kind": "hurt",
+                "id": 1,
+                "address": "0x1989a4",
+                "x": -14,
+                "y": -2,
+                "w": 40,
+                "h": 32
+              },
+              {
+                "kind": "push",
+                "id": 1,
+                "address": "0x198df0",
+                "x": -16,
+                "y": 1,
+                "w": 32,
+                "h": 78
+              }
+            ],
+            "table": "0x198832"
+          }
+        ],
+        "camera": 482
+      }
+    },
+    {
+      "id": "airForward_mp_late",
+      "file": "airForward_mp_late/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 647,
+            "y": 104,
+            "pose": "0x1123ee",
+            "health": 144,
+            "facing": 1,
+            "state": [
+              2,
+              4,
+              2,
+              0
+            ],
+            "boxes": [
+              {
+                "kind": "hurt",
+                "id": 9,
+                "address": "0x198860",
+                "x": 31,
+                "y": 83,
+                "w": 24,
+                "h": 16
+              },
+              {
+                "kind": "hurt",
+                "id": 7,
+                "address": "0x19893c",
+                "x": 4,
+                "y": 48,
+                "w": 44,
+                "h": 38
+              },
+              {
+                "kind": "push",
+                "id": 2,
+                "address": "0x198df4",
+                "x": -16,
+                "y": 24,
+                "w": 32,
+                "h": 66
+              }
+            ],
+            "table": "0x198832"
+          },
+          {
+            "x": 728,
+            "y": 40,
+            "pose": "0x11221a",
+            "health": 144,
+            "facing": -1,
+            "state": [
+              2,
+              0,
+              2,
+              0
+            ],
+            "boxes": [
+              {
+                "kind": "hurt",
+                "id": 1,
+                "address": "0x198840",
+                "x": -16,
+                "y": 71,
+                "w": 24,
+                "h": 16
+              },
+              {
+                "kind": "hurt",
+                "id": 1,
+                "address": "0x198924",
+                "x": -14,
+                "y": 31,
+                "w": 40,
+                "h": 42
+              },
+              {
+                "kind": "hurt",
+                "id": 1,
+                "address": "0x1989a4",
+                "x": -14,
+                "y": -2,
+                "w": 40,
+                "h": 32
+              },
+              {
+                "kind": "push",
+                "id": 1,
+                "address": "0x198df0",
+                "x": -16,
+                "y": 1,
+                "w": 32,
+                "h": 78
+              }
+            ],
+            "table": "0x198832"
+          }
+        ],
+        "camera": 448
+      }
+    },
+    {
+      "id": "airVertical_hp_late",
+      "file": "airVertical_hp_late/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 730,
+            "y": 110,
+            "pose": "0x112482",
+            "health": 144,
+            "facing": 1,
+            "state": [
+              2,
+              4,
+              2,
+              0
+            ],
+            "boxes": [
+              {
+                "kind": "hurt",
+                "id": 11,
+                "address": "0x198868",
+                "x": -15,
+                "y": 87,
+                "w": 28,
+                "h": 18
+              },
+              {
+                "kind": "hurt",
+                "id": 2,
+                "address": "0x198928",
+                "x": -14,
+                "y": 47,
+                "w": 40,
+                "h": 42
+              },
+              {
+                "kind": "push",
+                "id": 2,
+                "address": "0x198df4",
+                "x": -16,
+                "y": 24,
+                "w": 32,
+                "h": 66
+              }
+            ],
+            "table": "0x198832"
+          },
+          {
+            "x": 762,
+            "y": 40,
+            "pose": "0x1121a2",
+            "health": 144,
+            "facing": -1,
+            "state": [
+              2,
+              0,
+              2,
+              0
+            ],
+            "boxes": [
+              {
+                "kind": "hurt",
+                "id": 1,
+                "address": "0x198840",
+                "x": -16,
+                "y": 71,
+                "w": 24,
+                "h": 16
+              },
+              {
+                "kind": "hurt",
+                "id": 1,
+                "address": "0x198924",
+                "x": -14,
+                "y": 31,
+                "w": 40,
+                "h": 42
+              },
+              {
+                "kind": "hurt",
+                "id": 1,
+                "address": "0x1989a4",
+                "x": -14,
+                "y": -2,
+                "w": 40,
+                "h": 32
+              },
+              {
+                "kind": "push",
+                "id": 1,
+                "address": "0x198df0",
+                "x": -16,
+                "y": 1,
+                "w": 32,
+                "h": 78
+              }
+            ],
+            "table": "0x198832"
+          }
+        ],
+        "camera": 482
+      }
+    },
+    {
+      "id": "airForward_hp_late",
+      "file": "airForward_hp_late/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 647,
+            "y": 104,
+            "pose": "0x1123ee",
+            "health": 144,
+            "facing": 1,
+            "state": [
+              2,
+              4,
+              2,
+              0
+            ],
+            "boxes": [
+              {
+                "kind": "hurt",
+                "id": 9,
+                "address": "0x198860",
+                "x": 31,
+                "y": 83,
+                "w": 24,
+                "h": 16
+              },
+              {
+                "kind": "hurt",
+                "id": 7,
+                "address": "0x19893c",
+                "x": 4,
+                "y": 48,
+                "w": 44,
+                "h": 38
+              },
+              {
+                "kind": "push",
+                "id": 2,
+                "address": "0x198df4",
+                "x": -16,
+                "y": 24,
+                "w": 32,
+                "h": 66
+              }
+            ],
+            "table": "0x198832"
+          },
+          {
+            "x": 728,
+            "y": 40,
+            "pose": "0x11221a",
+            "health": 144,
+            "facing": -1,
+            "state": [
+              2,
+              0,
+              2,
+              0
+            ],
+            "boxes": [
+              {
+                "kind": "hurt",
+                "id": 1,
+                "address": "0x198840",
+                "x": -16,
+                "y": 71,
+                "w": 24,
+                "h": 16
+              },
+              {
+                "kind": "hurt",
+                "id": 1,
+                "address": "0x198924",
+                "x": -14,
+                "y": 31,
+                "w": 40,
+                "h": 42
+              },
+              {
+                "kind": "hurt",
+                "id": 1,
+                "address": "0x1989a4",
+                "x": -14,
+                "y": -2,
+                "w": 40,
+                "h": 32
+              },
+              {
+                "kind": "push",
+                "id": 1,
+                "address": "0x198df0",
+                "x": -16,
+                "y": 1,
+                "w": 32,
+                "h": 78
+              }
+            ],
+            "table": "0x198832"
+          }
+        ],
+        "camera": 448
+      }
+    },
+    {
+      "id": "airVertical_lk_late",
+      "file": "airVertical_lk_late/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 730,
+            "y": 110,
+            "pose": "0x112482",
+            "health": 144,
+            "facing": 1,
+            "state": [
+              2,
+              4,
+              2,
+              0
+            ],
+            "boxes": [
+              {
+                "kind": "hurt",
+                "id": 11,
+                "address": "0x198868",
+                "x": -15,
+                "y": 87,
+                "w": 28,
+                "h": 18
+              },
+              {
+                "kind": "hurt",
+                "id": 2,
+                "address": "0x198928",
+                "x": -14,
+                "y": 47,
+                "w": 40,
+                "h": 42
+              },
+              {
+                "kind": "push",
+                "id": 2,
+                "address": "0x198df4",
+                "x": -16,
+                "y": 24,
+                "w": 32,
+                "h": 66
+              }
+            ],
+            "table": "0x198832"
+          },
+          {
+            "x": 762,
+            "y": 40,
+            "pose": "0x1121a2",
+            "health": 144,
+            "facing": -1,
+            "state": [
+              2,
+              0,
+              2,
+              0
+            ],
+            "boxes": [
+              {
+                "kind": "hurt",
+                "id": 1,
+                "address": "0x198840",
+                "x": -16,
+                "y": 71,
+                "w": 24,
+                "h": 16
+              },
+              {
+                "kind": "hurt",
+                "id": 1,
+                "address": "0x198924",
+                "x": -14,
+                "y": 31,
+                "w": 40,
+                "h": 42
+              },
+              {
+                "kind": "hurt",
+                "id": 1,
+                "address": "0x1989a4",
+                "x": -14,
+                "y": -2,
+                "w": 40,
+                "h": 32
+              },
+              {
+                "kind": "push",
+                "id": 1,
+                "address": "0x198df0",
+                "x": -16,
+                "y": 1,
+                "w": 32,
+                "h": 78
+              }
+            ],
+            "table": "0x198832"
+          }
+        ],
+        "camera": 482
+      }
+    },
+    {
+      "id": "airForward_lk_late",
+      "file": "airForward_lk_late/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 647,
+            "y": 104,
+            "pose": "0x1123ee",
+            "health": 144,
+            "facing": 1,
+            "state": [
+              2,
+              4,
+              2,
+              0
+            ],
+            "boxes": [
+              {
+                "kind": "hurt",
+                "id": 9,
+                "address": "0x198860",
+                "x": 31,
+                "y": 83,
+                "w": 24,
+                "h": 16
+              },
+              {
+                "kind": "hurt",
+                "id": 7,
+                "address": "0x19893c",
+                "x": 4,
+                "y": 48,
+                "w": 44,
+                "h": 38
+              },
+              {
+                "kind": "push",
+                "id": 2,
+                "address": "0x198df4",
+                "x": -16,
+                "y": 24,
+                "w": 32,
+                "h": 66
+              }
+            ],
+            "table": "0x198832"
+          },
+          {
+            "x": 728,
+            "y": 40,
+            "pose": "0x11221a",
+            "health": 144,
+            "facing": -1,
+            "state": [
+              2,
+              0,
+              2,
+              0
+            ],
+            "boxes": [
+              {
+                "kind": "hurt",
+                "id": 1,
+                "address": "0x198840",
+                "x": -16,
+                "y": 71,
+                "w": 24,
+                "h": 16
+              },
+              {
+                "kind": "hurt",
+                "id": 1,
+                "address": "0x198924",
+                "x": -14,
+                "y": 31,
+                "w": 40,
+                "h": 42
+              },
+              {
+                "kind": "hurt",
+                "id": 1,
+                "address": "0x1989a4",
+                "x": -14,
+                "y": -2,
+                "w": 40,
+                "h": 32
+              },
+              {
+                "kind": "push",
+                "id": 1,
+                "address": "0x198df0",
+                "x": -16,
+                "y": 1,
+                "w": 32,
+                "h": 78
+              }
+            ],
+            "table": "0x198832"
+          }
+        ],
+        "camera": 448
+      }
+    },
+    {
+      "id": "airVertical_mk_late",
+      "file": "airVertical_mk_late/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 730,
+            "y": 110,
+            "pose": "0x112482",
+            "health": 144,
+            "facing": 1,
+            "state": [
+              2,
+              4,
+              2,
+              0
+            ],
+            "boxes": [
+              {
+                "kind": "hurt",
+                "id": 11,
+                "address": "0x198868",
+                "x": -15,
+                "y": 87,
+                "w": 28,
+                "h": 18
+              },
+              {
+                "kind": "hurt",
+                "id": 2,
+                "address": "0x198928",
+                "x": -14,
+                "y": 47,
+                "w": 40,
+                "h": 42
+              },
+              {
+                "kind": "push",
+                "id": 2,
+                "address": "0x198df4",
+                "x": -16,
+                "y": 24,
+                "w": 32,
+                "h": 66
+              }
+            ],
+            "table": "0x198832"
+          },
+          {
+            "x": 762,
+            "y": 40,
+            "pose": "0x1121a2",
+            "health": 144,
+            "facing": -1,
+            "state": [
+              2,
+              0,
+              2,
+              0
+            ],
+            "boxes": [
+              {
+                "kind": "hurt",
+                "id": 1,
+                "address": "0x198840",
+                "x": -16,
+                "y": 71,
+                "w": 24,
+                "h": 16
+              },
+              {
+                "kind": "hurt",
+                "id": 1,
+                "address": "0x198924",
+                "x": -14,
+                "y": 31,
+                "w": 40,
+                "h": 42
+              },
+              {
+                "kind": "hurt",
+                "id": 1,
+                "address": "0x1989a4",
+                "x": -14,
+                "y": -2,
+                "w": 40,
+                "h": 32
+              },
+              {
+                "kind": "push",
+                "id": 1,
+                "address": "0x198df0",
+                "x": -16,
+                "y": 1,
+                "w": 32,
+                "h": 78
+              }
+            ],
+            "table": "0x198832"
+          }
+        ],
+        "camera": 482
+      }
+    },
+    {
+      "id": "airForward_mk_late",
+      "file": "airForward_mk_late/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 647,
+            "y": 104,
+            "pose": "0x1123ee",
+            "health": 144,
+            "facing": 1,
+            "state": [
+              2,
+              4,
+              2,
+              0
+            ],
+            "boxes": [
+              {
+                "kind": "hurt",
+                "id": 9,
+                "address": "0x198860",
+                "x": 31,
+                "y": 83,
+                "w": 24,
+                "h": 16
+              },
+              {
+                "kind": "hurt",
+                "id": 7,
+                "address": "0x19893c",
+                "x": 4,
+                "y": 48,
+                "w": 44,
+                "h": 38
+              },
+              {
+                "kind": "push",
+                "id": 2,
+                "address": "0x198df4",
+                "x": -16,
+                "y": 24,
+                "w": 32,
+                "h": 66
+              }
+            ],
+            "table": "0x198832"
+          },
+          {
+            "x": 728,
+            "y": 40,
+            "pose": "0x11221a",
+            "health": 144,
+            "facing": -1,
+            "state": [
+              2,
+              0,
+              2,
+              0
+            ],
+            "boxes": [
+              {
+                "kind": "hurt",
+                "id": 1,
+                "address": "0x198840",
+                "x": -16,
+                "y": 71,
+                "w": 24,
+                "h": 16
+              },
+              {
+                "kind": "hurt",
+                "id": 1,
+                "address": "0x198924",
+                "x": -14,
+                "y": 31,
+                "w": 40,
+                "h": 42
+              },
+              {
+                "kind": "hurt",
+                "id": 1,
+                "address": "0x1989a4",
+                "x": -14,
+                "y": -2,
+                "w": 40,
+                "h": 32
+              },
+              {
+                "kind": "push",
+                "id": 1,
+                "address": "0x198df0",
+                "x": -16,
+                "y": 1,
+                "w": 32,
+                "h": 78
+              }
+            ],
+            "table": "0x198832"
+          }
+        ],
+        "camera": 448
+      }
+    },
+    {
+      "id": "airVertical_hk_late",
+      "file": "airVertical_hk_late/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 730,
+            "y": 110,
+            "pose": "0x112482",
+            "health": 144,
+            "facing": 1,
+            "state": [
+              2,
+              4,
+              2,
+              0
+            ],
+            "boxes": [
+              {
+                "kind": "hurt",
+                "id": 11,
+                "address": "0x198868",
+                "x": -15,
+                "y": 87,
+                "w": 28,
+                "h": 18
+              },
+              {
+                "kind": "hurt",
+                "id": 2,
+                "address": "0x198928",
+                "x": -14,
+                "y": 47,
+                "w": 40,
+                "h": 42
+              },
+              {
+                "kind": "push",
+                "id": 2,
+                "address": "0x198df4",
+                "x": -16,
+                "y": 24,
+                "w": 32,
+                "h": 66
+              }
+            ],
+            "table": "0x198832"
+          },
+          {
+            "x": 762,
+            "y": 40,
+            "pose": "0x1121a2",
+            "health": 144,
+            "facing": -1,
+            "state": [
+              2,
+              0,
+              2,
+              0
+            ],
+            "boxes": [
+              {
+                "kind": "hurt",
+                "id": 1,
+                "address": "0x198840",
+                "x": -16,
+                "y": 71,
+                "w": 24,
+                "h": 16
+              },
+              {
+                "kind": "hurt",
+                "id": 1,
+                "address": "0x198924",
+                "x": -14,
+                "y": 31,
+                "w": 40,
+                "h": 42
+              },
+              {
+                "kind": "hurt",
+                "id": 1,
+                "address": "0x1989a4",
+                "x": -14,
+                "y": -2,
+                "w": 40,
+                "h": 32
+              },
+              {
+                "kind": "push",
+                "id": 1,
+                "address": "0x198df0",
+                "x": -16,
+                "y": 1,
+                "w": 32,
+                "h": 78
+              }
+            ],
+            "table": "0x198832"
+          }
+        ],
+        "camera": 482
+      }
+    },
+    {
+      "id": "airForward_hk_late",
+      "file": "airForward_hk_late/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 647,
+            "y": 104,
+            "pose": "0x1123ee",
+            "health": 144,
+            "facing": 1,
+            "state": [
+              2,
+              4,
+              2,
+              0
+            ],
+            "boxes": [
+              {
+                "kind": "hurt",
+                "id": 9,
+                "address": "0x198860",
+                "x": 31,
+                "y": 83,
+                "w": 24,
+                "h": 16
+              },
+              {
+                "kind": "hurt",
+                "id": 7,
+                "address": "0x19893c",
+                "x": 4,
+                "y": 48,
+                "w": 44,
+                "h": 38
+              },
+              {
+                "kind": "push",
+                "id": 2,
+                "address": "0x198df4",
+                "x": -16,
+                "y": 24,
+                "w": 32,
+                "h": 66
+              }
+            ],
+            "table": "0x198832"
+          },
+          {
+            "x": 728,
+            "y": 40,
+            "pose": "0x11221a",
+            "health": 144,
+            "facing": -1,
+            "state": [
+              2,
+              0,
+              2,
+              0
+            ],
+            "boxes": [
+              {
+                "kind": "hurt",
+                "id": 1,
+                "address": "0x198840",
+                "x": -16,
+                "y": 71,
+                "w": 24,
+                "h": 16
+              },
+              {
+                "kind": "hurt",
+                "id": 1,
+                "address": "0x198924",
+                "x": -14,
+                "y": 31,
+                "w": 40,
+                "h": 42
+              },
+              {
+                "kind": "hurt",
+                "id": 1,
+                "address": "0x1989a4",
+                "x": -14,
+                "y": -2,
+                "w": 40,
+                "h": 32
+              },
+              {
+                "kind": "push",
+                "id": 1,
+                "address": "0x198df0",
+                "x": -16,
+                "y": 1,
+                "w": 32,
+                "h": 78
+              }
+            ],
+            "table": "0x198832"
+          }
+        ],
+        "camera": 448
+      }
+    }
+  ],
+  "options": {
+    "mame2003-plus_skip_disclaimer": "enabled",
+    "mame2003-plus_skip_warnings": "enabled",
+    "mame2003-plus_display_setup": "disabled",
+    "mame2003-plus_mame_remapping": "enabled",
+    "mame2003-plus_autosave_hiscore": "default",
+    "mame2003-plus_core_sys_subfolder": "enabled",
+    "mame2003-plus_core_save_subfolder": "enabled",
+    "mame2003-plus_xy_device": "mouse",
+    "mame2003-plus_input_interface": "simultaneous",
+    "mame2003-plus_input_toggle": "enabled",
+    "mame2003-plus_digital_joy_centering": "enabled",
+    "mame2003-plus_use_samples": "enabled",
+    "mame2003-plus_sample_rate": "48000",
+    "mame2003-plus_brightness": "1.0",
+    "mame2003-plus_gamma": "1.0",
+    "mame2003-plus_tate_mode": "disabled",
+    "mame2003-plus_frameskip": "disabled",
+    "mame2003-plus_display_artwork": "enabled",
+    "mame2003-plus_art_resolution": "1",
+    "mame2003-plus_art_overlay_opacity": "default",
+    "mame2003-plus_cpu_clock_scale": "default"
+  }
+}

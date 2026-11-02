@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "passed": [
+    "Native attacker-only contact pause renders facing -1",
+    "Native attacker-only contact pause renders facing 1",
+    "Both canvases render without missing sprites or browser errors"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "mk-15": {
+    "name": "KITANA",
+    "nativeCharacter": 15,
+    "assets": 81,
+    "clips": 22,
+    "status": "CAPTURED_FOR_REVIEW_NOT_PLAYABLE",
+    "minimumMeanPixelMatch": 0.7065515617796948
+  },
+  "sf-1": {
+    "name": "E. HONDA",
+    "nativeCharacter": 1,
+    "assets": 61,
+    "clips": 25,
+    "status": "CAPTURED_FOR_REVIEW_NOT_PLAYABLE",
+    "minimumMeanPixelMatch": 0.98013485172715
+  }
+}

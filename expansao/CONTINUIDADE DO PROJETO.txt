@@ -1,0 +1,119 @@
+﻿CONTEXTO PARA CONTINUAR O PEDIDO INTEGRAL — 02/11/2026
+
+O projeto NÃO está completo. O usuário pediu concluir todo o jogo com fidelidade,
+todos os personagens/cenários/recursos/modos e finalizações nativas MK. Rede local
+com salas e todos simultâneos foi adicionada. Não confundir isso com conclusão.
+Decisão mais recente: UMK3 ARCADE FIEL. Não importar Brutalities de console.
+SF não recebe finalizações inéditas; adaptações só para compatibilidade.
+Pedido de commit/push ao terminar: https://github.com/ArthurCarlosF/MK_VS_SF.git
+
+PASTAS
+Projeto: D:/projetos/Mortal Kombat vs Street Fighter
+Referência preservada: arena/ e comparacao/passo-7/modelo-7.0.
+Novo runtime: expansao/ (8.1). Só Ryu/Scorpion integrados para combate.
+Trabalho desta execução: C:/Users/Pichau/Documents/ChatGPT/ALL_FIGHT/expansao-trabalho
+Git clonado vazio: C:/Users/Pichau/Documents/ChatGPT/ALL_FIGHT/repositorio-github
+Clone feito como Arthur; em leituras sob CodexSandboxOffline usar -c safe.directory
+apenas para esse caminho. Não foi alterada configuração Git global.
+Nenhum commit/push. Não publicar arquivos pessoais, perfis de navegador ou tokens.
+
+REDE INSTALADA
+Iniciar servidor de rede.cmd / Parar servidor de rede.cmd, na pasta principal.
+Servidor Node próprio: expansao/rede/runtime/node.exe; logs em dados/rede.
+Porta 8765, 0.0.0.0. URI testada: http://192.168.0.199:8765/
+O usuário confirmou que abriu em outro aparelho. Teste de combate/manete física
+em vários aparelhos ainda pendente. Servidor mantido ativo para uso do usuário.
+Não reiniciar uma sala em uso sem coordenar a interrupção.
+Regra Windows MKvsSF-LAN-8765: Private, TCP8765, LocalSubnet, programa próprio.
+Windows exigiu administrador; Configurar-rede.ps1 executado com RunAs gravou
+dados/rede/firewall-status.json. Não houve rejeição de revisão automática.
+Iniciar.ps1 consulta 127.0.0.1 para evitar timeout de resolução IPv6 em localhost.
+PID inicial do servidor instalado: 4432; conferir PID atual em dados/rede/servidor.pid.
+
+COMUNICAÇÃO
+Simulação autoritativa Node/VM 240 Hz; estados renderizados enviados 60 Hz.
+RoomConnection/NetworkArena em rede/client.js. Cada socket controla só sua vaga.
+2 a 8 vagas, anfitrião, escolha, prontidão, barreira de carregamento e rematch.
+Token por aba, reconexão 15s, migração do anfitrião após tolerância e forfeit.
+Lutas não pausam para outros quando alguém troca de janela; comando neutro expira.
+Teclado, toque e gamepad padrão do próprio aparelho. UI mobile enxuta.
+Servidor serve allowlist pública de arquivos; ROMs/perfis/estados não são servidos.
+Há suporte CLI opcional a PEM/HTTPS. Configuração padrão HTTP; Edge no IP LAN
+expôs getGamepads na verificação, mas teste físico de manete não ocorreu.
+
+TESTES
+rede/testar-rede.cjs: 12 grupos de protocolo passaram.
+rede/testar-navegadores.cjs: 3 contextos, incluindo mobile/touch, inputgamepad
+simulado, teclado, igualdade dos frames, reconexão, saída e nova sala: PASS.
+rede/testar-instalado.cjs: 2 contextos no servidor real/IP LAN, ciclo completo: PASS.
+testar-expansao.cjs: 11 grupos, 3/4/8/16 simulações; 24.000 passos com duas vagas
+comparados à referência anterior: PASS. Igualdade não prova fidelidade integral.
+testar-interface.cjs: 38 retratos, quatro vagas, carro, zoom 75%->100%: PASS.
+Regressões anteriores: 122 grupos + 40/55 casos, incluindo 346 replays: PASS.
+Integridade: 677 arquivos da arena de referência preservados. Não sobrescrever
+evidências seladas do passo 7 para corrigir as 45 diferenças; criar nova revisão.
+
+RECURSOS NATIVOS
+recursos-nativos/lote-estado.json: 38/38 CAPTURED_REVIEW_PENDING, sem falhas.
+Captura nativa inicial de cada personagem da grade, não repertório completo.
+Faltam perto/longe completos, reações, especiais, finishers, áudio, cenários,
+parâmetros de combate e integração dos demais 36 lutadores. Chefes/secretos além
+da grade também não foram integrados. Não registrar clones fictícios de Ryu/Scorpion.
+capturar-elenco.py, extrair-elenco.py, acompanhar-recursos.py e auditar-recursos.py.
+Dados sob expansao/recursos-nativos, com poses PNG, baseline.state e manifestos.
+Sha256 de pixels e baselines, referências de clipes e identidade do ator auditados.
+Baixa correspondência visual continua explícita, sobretudo câmera/âncora/oclusão;
+não usar esse resultado para declarar fidelidade aprovada ou personagens completos.
+
+DESCOBERTAS
+Descritores de peças MK não estão todos acima de 0xffc00000. Aceitar toda a ROM
+mapeada com checks de dimensões/formato, sem alterar o decodificador antigo.
+Paleta por ator: object+40 decimal, low byte = slot; save palette offset
+0x8ec19 + slot*512. Scorpion4/KungLao5. Paleta dinâmica invalida cache de peças.
+conferir-paleta.py: Kung Lao e Scorpion baseline com match1.0 RGB tolerância3.
+Secretos: CMOS isolado usa pares ED/B0 nos offsets10fc/10fe,1104/1106,110c/110e,
+baseados nos registros públicos do próprio libretro metadata/cheat.dat.
+Não patcha ROM ou combate. CMOS reset requer confirmação e coinagem pode mudar.
+Bootstrap específico de perfil: aguarda CMOS, confirma, adiciona créditos,
+inicia e confirma modo, junta P2, só então navega e confirma personagens.
+Isso permite Mileena/Ermac/ClassicSub e evita pular suas posições na seleção.
+Valores de configuração e origem estão declarados em setupProfile no manifesto.
+
+PRÓXIMO TRABALHO REAL
+Fechar calibração Ryu/Scorpion: 45 divergências SF (42 cancelamentos, dois links,
+uma defesa/repetição); janelas/recovery MK, cancels por braço e cruzamentos.
+Capturar e integrar repertórios completos e reações próprios dos outros atores;
+capturar e executar finalizações MK com adaptações de vítima SF; extrair cenários
+e áudio; regras de combo/juggle/dano e campanha; apresentação/controles/config,
+empacotamento e testes físicos. Só então commit/push final solicitado.
+REA não foi executado nesta revisão e não recuperou integralmente fontes originais.
+
+ESPECIAIS NATIVOS DO RYU — REVISÃO 8.2, 02/11/2026
+Implementados três Shoryukens e três Tatsumakis terrestres, cada um com sprites,
+trajetória, áreas de contato e recuperação medidos em sessões do SSF2T US.
+Shoryuken: frente, baixo, diagonal à frente + um dos três socos.
+Tatsumaki: baixo, diagonal para trás, trás + um dos três chutes.
+Há comandos ao apertar/soltar; as forças têm percursos e durações diferentes.
+Motor: trajetória especial em duas dimensões, fases de contato distintas,
+medidor na execução e reações nativas com adaptação de apresentação da vítima.
+Fase ascendente do Shoryuken tem testemunha própria de dano e reação.
+Oito grupos funcionais novos aprovados; navegador sem falhas de imagem; rede
+com 12 grupos e três contextos independentes aprovada. Regressões de combate
+(39), sequências (9) e reações (12, incluindo 346 replays) aprovadas nesta revisão.
+Esses testes NÃO aprovam fidelidade integral. Distribuição de dano aleatório,
+cadência turbo, temporizadores dos comandos, cancelamentos, cantos e todas as
+continuações de guarda ainda precisam de comparações adicionais.
+Capturados também Hadouken azul/vermelho em três forças e Shinkuhadouken,
+com entidades e colisões nativas dos projéteis. Esses novos projéteis ainda
+NÃO foram integrados. O Hadouken antigo permanece na arena.
+Revisão de captura de projéteis preferida: projetil-nativo-r2, sete casos,
+60 imagens e 78 amostras visuais conferidas. Origem calculada por posição
+nativa/câmera, com paleta14 azul/super e15 vermelha. Não usar as âncoras do
+descritor de ator nos projéteis. Vida lógica SF: ator+0x2a; indicador+0x2c
+pode atrasar uma amostra. Evidência: evidencias/projeteis-ryu-auditoria.json.
+Servidor instalado confirmou revisão de combate8.2. Teste adicional de teclado
+pela rede executou Shoryuken e comparou o mesmo estado nos dois navegadores.
+Tatsumaki aéreo também continua pendente. Ryu não está completo.
+O pedido integral continua incompleto: demais 36 personagens jogáveis,
+secretos/chefes adicionais, finishers MK arcade, cenários, áudio, campanha,
+carro fiel, calibração e testes finais. Nenhum commit/envio final foi feito.

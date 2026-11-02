@@ -1,0 +1,344 @@
+{
+  "status": "PASS",
+  "passed": [
+    "Every calibrated phase points to the retained native pose and source sample",
+    "SF paused frames are removed only when native actor+0x47 was positive",
+    "Native late-entry experiments extend MK jab/high-kick/sweep contact windows",
+    "A target entering the MK jab late is hit; entering after recovery starts is safe",
+    "Each normal whiffs without an impact pause and recovers at its calibrated duration",
+    "Ryu near HP recovers in 29 samples on whiff; contact adds its measured pause once",
+    "MK air contact pauses only the attacker for eight samples, then resets fall velocity",
+    "Retained native MK air contacts independently confirm eight paused samples and posture-specific fall acceleration",
+    "Reset and a new round clear local pause and aerial contact trajectory"
+  ],
+  "checks": [
+    {
+      "character": "scorpion",
+      "move": "normal_airForward_hk",
+      "samples": 28
+    },
+    {
+      "character": "scorpion",
+      "move": "normal_airForward_hp",
+      "samples": 28
+    },
+    {
+      "character": "scorpion",
+      "move": "normal_airForward_lk",
+      "samples": 28
+    },
+    {
+      "character": "scorpion",
+      "move": "normal_airForward_lp",
+      "samples": 28
+    },
+    {
+      "character": "scorpion",
+      "move": "normal_airVertical_hk",
+      "samples": 30
+    },
+    {
+      "character": "scorpion",
+      "move": "normal_airVertical_hp",
+      "samples": 30
+    },
+    {
+      "character": "scorpion",
+      "move": "normal_airVertical_lk",
+      "samples": 30
+    },
+    {
+      "character": "scorpion",
+      "move": "normal_airVertical_lp",
+      "samples": 30
+    },
+    {
+      "character": "scorpion",
+      "move": "normal_back_hk",
+      "samples": 34
+    },
+    {
+      "character": "scorpion",
+      "move": "normal_back_lk",
+      "samples": 30
+    },
+    {
+      "character": "scorpion",
+      "move": "normal_crouch_hk",
+      "samples": 20
+    },
+    {
+      "character": "scorpion",
+      "move": "normal_crouch_hp",
+      "samples": 24
+    },
+    {
+      "character": "scorpion",
+      "move": "normal_crouch_lk",
+      "samples": 39
+    },
+    {
+      "character": "scorpion",
+      "move": "normal_crouch_lp",
+      "samples": 18
+    },
+    {
+      "character": "scorpion",
+      "move": "normal_stand_hk_far",
+      "samples": 30
+    },
+    {
+      "character": "scorpion",
+      "move": "normal_stand_hk_near",
+      "samples": 28
+    },
+    {
+      "character": "scorpion",
+      "move": "normal_stand_hp_far",
+      "samples": 21
+    },
+    {
+      "character": "scorpion",
+      "move": "normal_stand_hp_near",
+      "samples": 28
+    },
+    {
+      "character": "scorpion",
+      "move": "normal_stand_lk_far",
+      "samples": 30
+    },
+    {
+      "character": "scorpion",
+      "move": "normal_stand_lk_near",
+      "samples": 28
+    },
+    {
+      "character": "scorpion",
+      "move": "normal_stand_lp_far",
+      "samples": 21
+    },
+    {
+      "character": "scorpion",
+      "move": "punch",
+      "samples": 21
+    },
+    {
+      "character": "scorpion",
+      "move": "crouchPunch",
+      "samples": 18
+    },
+    {
+      "character": "scorpion",
+      "move": "airPunch",
+      "samples": 30
+    },
+    {
+      "character": "scorpion",
+      "move": "kick",
+      "samples": 30
+    },
+    {
+      "character": "scorpion",
+      "move": "crouchKick",
+      "samples": 20
+    },
+    {
+      "character": "scorpion",
+      "move": "airKick",
+      "samples": 30
+    },
+    {
+      "character": "scorpion",
+      "move": "punchFollow",
+      "samples": 19
+    },
+    {
+      "character": "scorpion",
+      "move": "punchReturn",
+      "samples": 21
+    },
+    {
+      "character": "ryu",
+      "move": "normal_airForward_hk",
+      "samples": 25
+    },
+    {
+      "character": "ryu",
+      "move": "normal_airForward_hp",
+      "samples": 23
+    },
+    {
+      "character": "ryu",
+      "move": "normal_airForward_lk",
+      "samples": 24
+    },
+    {
+      "character": "ryu",
+      "move": "normal_airForward_lp",
+      "samples": 25
+    },
+    {
+      "character": "ryu",
+      "move": "normal_airForward_mk",
+      "samples": 24
+    },
+    {
+      "character": "ryu",
+      "move": "normal_airForward_mp",
+      "samples": 23
+    },
+    {
+      "character": "ryu",
+      "move": "normal_airVertical_hk",
+      "samples": 27
+    },
+    {
+      "character": "ryu",
+      "move": "normal_airVertical_hp",
+      "samples": 26
+    },
+    {
+      "character": "ryu",
+      "move": "normal_airVertical_lk",
+      "samples": 29
+    },
+    {
+      "character": "ryu",
+      "move": "normal_airVertical_lp",
+      "samples": 27
+    },
+    {
+      "character": "ryu",
+      "move": "normal_airVertical_mk",
+      "samples": 26
+    },
+    {
+      "character": "ryu",
+      "move": "normal_airVertical_mp",
+      "samples": 26
+    },
+    {
+      "character": "ryu",
+      "move": "normal_crouch_hk",
+      "samples": 26
+    },
+    {
+      "character": "ryu",
+      "move": "normal_crouch_hp",
+      "samples": 30
+    },
+    {
+      "character": "ryu",
+      "move": "normal_crouch_lk",
+      "samples": 11
+    },
+    {
+      "character": "ryu",
+      "move": "normal_crouch_lp",
+      "samples": 10
+    },
+    {
+      "character": "ryu",
+      "move": "normal_crouch_mk",
+      "samples": 15
+    },
+    {
+      "character": "ryu",
+      "move": "normal_crouch_mp",
+      "samples": 12
+    },
+    {
+      "character": "ryu",
+      "move": "normal_stand_hk_far",
+      "samples": 25
+    },
+    {
+      "character": "ryu",
+      "move": "normal_stand_hk_near",
+      "samples": 26
+    },
+    {
+      "character": "ryu",
+      "move": "normal_stand_hp_far",
+      "samples": 27
+    },
+    {
+      "character": "ryu",
+      "move": "normal_stand_hp_near",
+      "samples": 29
+    },
+    {
+      "character": "ryu",
+      "move": "normal_stand_lk_far",
+      "samples": 15
+    },
+    {
+      "character": "ryu",
+      "move": "normal_stand_lk_near",
+      "samples": 15
+    },
+    {
+      "character": "ryu",
+      "move": "normal_stand_lp_far",
+      "samples": 10
+    },
+    {
+      "character": "ryu",
+      "move": "normal_stand_lp_near",
+      "samples": 11
+    },
+    {
+      "character": "ryu",
+      "move": "normal_stand_mk_far",
+      "samples": 19
+    },
+    {
+      "character": "ryu",
+      "move": "normal_stand_mk_near",
+      "samples": 17
+    },
+    {
+      "character": "ryu",
+      "move": "normal_stand_mp_far",
+      "samples": 12
+    },
+    {
+      "character": "ryu",
+      "move": "normal_stand_mp_near",
+      "samples": 20
+    },
+    {
+      "character": "ryu",
+      "move": "punch",
+      "samples": 10
+    },
+    {
+      "character": "ryu",
+      "move": "crouchPunch",
+      "samples": 10
+    },
+    {
+      "character": "ryu",
+      "move": "airPunch",
+      "samples": 27
+    },
+    {
+      "character": "ryu",
+      "move": "kick",
+      "samples": 15
+    },
+    {
+      "character": "ryu",
+      "move": "crouchKick",
+      "samples": 11
+    },
+    {
+      "character": "ryu",
+      "move": "airKick",
+      "samples": 29
+    },
+    {
+      "native_air_response_cases": 24
+    }
+  ]
+}

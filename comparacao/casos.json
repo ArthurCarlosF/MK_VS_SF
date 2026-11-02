@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "clock": "source_video_samples",
+  "repetitions": 2,
+  "checkpoints": [0, 4, 8, 12, 24, 48],
+  "cases": [
+    {"id":"parado","label":"Parado","segments":[{"frames":72,"p1":{}}]},
+    {"id":"andar_frente","label":"Avançar e soltar","segments":[{"frames":24,"p1":{"x":1}},{"frames":48,"p1":{}}]},
+    {"id":"andar_tras","label":"Recuar e soltar","segments":[{"frames":24,"p1":{"x":-1}},{"frames":48,"p1":{}}]},
+    {"id":"agachar","label":"Agachar e levantar","segments":[{"frames":32,"p1":{"down":true}},{"frames":32,"p1":{}}]},
+    {"id":"pulo","label":"Pulo vertical","segments":[{"frames":3,"p1":{"up":true}},{"frames":87,"p1":{}}]},
+    {"id":"soco","label":"Toque único de soco","segments":[{"frames":2,"p1":{"punch":true}},{"frames":70,"p1":{}}]},
+    {"id":"soco_mantido","label":"Soco mantido","segments":[{"frames":48,"p1":{"punch":true}},{"frames":48,"p1":{}}]},
+    {"id":"socos_rapidos","label":"Soco: 2 amostras pressionado, 2 solto","repeat":12,"segments":[{"frames":2,"p1":{"punch":true}},{"frames":2,"p1":{}}],"tail":48},
+    {"id":"socos_lentos","label":"Soco: 2 amostras pressionado, 14 solto","repeat":6,"segments":[{"frames":2,"p1":{"punch":true}},{"frames":14,"p1":{}}],"tail":32},
+    {"id":"chute","label":"Toque único de chute","segments":[{"frames":2,"p1":{"kick":true}},{"frames":70,"p1":{}}]},
+    {"id":"soco_baixo","label":"Soco agachado","segments":[{"frames":8,"p1":{"down":true}},{"frames":2,"p1":{"down":true,"punch":true}},{"frames":30,"p1":{"down":true}},{"frames":20,"p1":{}}]},
+    {"id":"soco_contato","label":"Soco após aproximação","setup":[{"frames":48,"p1":{"x":1}},{"frames":12,"p1":{}}],"contact":true,"segments":[{"frames":2,"p1":{"punch":true}},{"frames":83,"p1":{}}]},
+    {"id":"soco_defendido","label":"Soco contra defesa após aproximação","setup":[{"frames":48,"p1":{"x":1}},{"frames":12,"p1":{}}],"contact":true,"segments":[{"frames":2,"p1":{"punch":true},"p2":{"guard":true}},{"frames":83,"p1":{},"p2":{"guard":true}}]}
+  ]
+}

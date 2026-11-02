@@ -1,0 +1,764 @@
+[
+  {
+    "sample": 19,
+    "native": {
+      "before": {
+        "camera": [
+          448,
+          0
+        ],
+        "projectiles": [],
+        "player": [
+          552,
+          40
+        ]
+      },
+      "after": {
+        "camera": [
+          448,
+          0
+        ],
+        "projectiles": [
+          [
+            645,
+            94
+          ]
+        ],
+        "player": [
+          552,
+          40
+        ]
+      }
+    },
+    "objects": []
+  },
+  {
+    "sample": 20,
+    "native": {
+      "before": {
+        "camera": [
+          448,
+          0
+        ],
+        "projectiles": [
+          [
+            645,
+            94
+          ]
+        ],
+        "player": [
+          552,
+          40
+        ]
+      },
+      "after": {
+        "camera": [
+          448,
+          0
+        ],
+        "projectiles": [
+          [
+            648,
+            94
+          ]
+        ],
+        "player": [
+          552,
+          40
+        ]
+      }
+    },
+    "objects": [
+      {
+        "phase": "after",
+        "alt": false,
+        "bounds": [
+          224,
+          138,
+          272,
+          186
+        ],
+        "match": 0.0,
+        "descriptorAnchor": [
+          -3,
+          64
+        ],
+        "worldAnchor": [
+          40,
+          23
+        ]
+      }
+    ]
+  },
+  {
+    "sample": 21,
+    "native": {
+      "before": {
+        "camera": [
+          448,
+          0
+        ],
+        "projectiles": [
+          [
+            648,
+            94
+          ]
+        ],
+        "player": [
+          552,
+          40
+        ]
+      },
+      "after": {
+        "camera": [
+          448,
+          0
+        ],
+        "projectiles": [
+          [
+            654,
+            94
+          ]
+        ],
+        "player": [
+          552,
+          40
+        ]
+      }
+    },
+    "objects": [
+      {
+        "phase": "before",
+        "alt": false,
+        "bounds": [
+          224,
+          138,
+          272,
+          186
+        ],
+        "match": 1.0,
+        "descriptorAnchor": [
+          -3,
+          64
+        ],
+        "worldAnchor": [
+          40,
+          23
+        ]
+      },
+      {
+        "phase": "after",
+        "alt": false,
+        "bounds": [
+          224,
+          138,
+          272,
+          186
+        ],
+        "match": 1.0,
+        "descriptorAnchor": [
+          17,
+          64
+        ],
+        "worldAnchor": [
+          46,
+          23
+        ]
+      },
+      {
+        "phase": "after",
+        "alt": true,
+        "bounds": [
+          222,
+          130,
+          286,
+          194
+        ],
+        "match": 0.03512014787430684,
+        "descriptorAnchor": [
+          -15,
+          48
+        ],
+        "worldAnchor": [
+          48,
+          31
+        ]
+      }
+    ]
+  },
+  {
+    "sample": 22,
+    "native": {
+      "before": {
+        "camera": [
+          448,
+          0
+        ],
+        "projectiles": [
+          [
+            654,
+            94
+          ]
+        ],
+        "player": [
+          552,
+          40
+        ]
+      },
+      "after": {
+        "camera": [
+          448,
+          0
+        ],
+        "projectiles": [
+          [
+            657,
+            94
+          ]
+        ],
+        "player": [
+          552,
+          40
+        ]
+      }
+    },
+    "objects": [
+      {
+        "phase": "before",
+        "alt": false,
+        "bounds": [
+          224,
+          138,
+          272,
+          186
+        ],
+        "match": 0.046416938110749185,
+        "descriptorAnchor": [
+          17,
+          64
+        ],
+        "worldAnchor": [
+          46,
+          23
+        ]
+      },
+      {
+        "phase": "before",
+        "alt": true,
+        "bounds": [
+          222,
+          130,
+          286,
+          194
+        ],
+        "match": 1.0,
+        "descriptorAnchor": [
+          -15,
+          48
+        ],
+        "worldAnchor": [
+          48,
+          31
+        ]
+      },
+      {
+        "phase": "after",
+        "alt": false,
+        "bounds": [
+          225,
+          130,
+          289,
+          194
+        ],
+        "match": 0.28342575477510784,
+        "descriptorAnchor": [
+          -15,
+          48
+        ],
+        "worldAnchor": [
+          48,
+          31
+        ]
+      },
+      {
+        "phase": "after",
+        "alt": true,
+        "bounds": [
+          222,
+          130,
+          286,
+          194
+        ],
+        "match": 1.0,
+        "descriptorAnchor": [
+          -15,
+          48
+        ],
+        "worldAnchor": [
+          51,
+          31
+        ]
+      }
+    ]
+  },
+  {
+    "sample": 23,
+    "native": {
+      "before": {
+        "camera": [
+          448,
+          0
+        ],
+        "projectiles": [
+          [
+            657,
+            94
+          ]
+        ],
+        "player": [
+          552,
+          40
+        ]
+      },
+      "after": {
+        "camera": [
+          448,
+          0
+        ],
+        "projectiles": [
+          [
+            663,
+            94
+          ]
+        ],
+        "player": [
+          552,
+          40
+        ]
+      }
+    },
+    "objects": [
+      {
+        "phase": "before",
+        "alt": false,
+        "bounds": [
+          225,
+          130,
+          289,
+          194
+        ],
+        "match": 1.0,
+        "descriptorAnchor": [
+          -15,
+          48
+        ],
+        "worldAnchor": [
+          48,
+          31
+        ]
+      },
+      {
+        "phase": "before",
+        "alt": true,
+        "bounds": [
+          222,
+          130,
+          286,
+          194
+        ],
+        "match": 0.28342575477510784,
+        "descriptorAnchor": [
+          -15,
+          48
+        ],
+        "worldAnchor": [
+          51,
+          31
+        ]
+      },
+      {
+        "phase": "after",
+        "alt": false,
+        "bounds": [
+          225,
+          130,
+          289,
+          194
+        ],
+        "match": 1.0,
+        "descriptorAnchor": [
+          -68,
+          40
+        ],
+        "worldAnchor": [
+          54,
+          31
+        ]
+      },
+      {
+        "phase": "after",
+        "alt": true,
+        "bounds": [
+          228,
+          130,
+          292,
+          194
+        ],
+        "match": 0.28342575477510784,
+        "descriptorAnchor": [
+          -68,
+          40
+        ],
+        "worldAnchor": [
+          51,
+          31
+        ]
+      }
+    ]
+  },
+  {
+    "sample": 24,
+    "native": {
+      "before": {
+        "camera": [
+          448,
+          0
+        ],
+        "projectiles": [
+          [
+            663,
+            94
+          ]
+        ],
+        "player": [
+          552,
+          40
+        ]
+      },
+      "after": {
+        "camera": [
+          448,
+          0
+        ],
+        "projectiles": [
+          [
+            666,
+            94
+          ]
+        ],
+        "player": [
+          552,
+          40
+        ]
+      }
+    },
+    "objects": [
+      {
+        "phase": "before",
+        "alt": false,
+        "bounds": [
+          225,
+          130,
+          289,
+          194
+        ],
+        "match": 0.28342575477510784,
+        "descriptorAnchor": [
+          -68,
+          40
+        ],
+        "worldAnchor": [
+          54,
+          31
+        ]
+      },
+      {
+        "phase": "before",
+        "alt": true,
+        "bounds": [
+          228,
+          130,
+          292,
+          194
+        ],
+        "match": 1.0,
+        "descriptorAnchor": [
+          -68,
+          40
+        ],
+        "worldAnchor": [
+          51,
+          31
+        ]
+      },
+      {
+        "phase": "after",
+        "alt": false,
+        "bounds": [
+          242,
+          138,
+          306,
+          186
+        ],
+        "match": 0.20012626262626262,
+        "descriptorAnchor": [
+          -20,
+          56
+        ],
+        "worldAnchor": [
+          40,
+          23
+        ]
+      },
+      {
+        "phase": "after",
+        "alt": true,
+        "bounds": [
+          228,
+          130,
+          292,
+          194
+        ],
+        "match": 1.0,
+        "descriptorAnchor": [
+          -68,
+          40
+        ],
+        "worldAnchor": [
+          54,
+          31
+        ]
+      }
+    ]
+  },
+  {
+    "sample": 25,
+    "native": {
+      "before": {
+        "camera": [
+          448,
+          0
+        ],
+        "projectiles": [
+          [
+            666,
+            94
+          ]
+        ],
+        "player": [
+          552,
+          40
+        ]
+      },
+      "after": {
+        "camera": [
+          448,
+          0
+        ],
+        "projectiles": [
+          [
+            669,
+            94
+          ]
+        ],
+        "player": [
+          552,
+          40
+        ]
+      }
+    },
+    "objects": [
+      {
+        "phase": "before",
+        "alt": false,
+        "bounds": [
+          242,
+          138,
+          306,
+          186
+        ],
+        "match": 1.0,
+        "descriptorAnchor": [
+          -20,
+          56
+        ],
+        "worldAnchor": [
+          40,
+          23
+        ]
+      },
+      {
+        "phase": "before",
+        "alt": true,
+        "bounds": [
+          228,
+          130,
+          292,
+          194
+        ],
+        "match": 0.19531731361675908,
+        "descriptorAnchor": [
+          -68,
+          40
+        ],
+        "worldAnchor": [
+          54,
+          31
+        ]
+      },
+      {
+        "phase": "after",
+        "alt": false,
+        "bounds": [
+          242,
+          138,
+          306,
+          186
+        ],
+        "match": 1.0,
+        "descriptorAnchor": [
+          -20,
+          56
+        ],
+        "worldAnchor": [
+          43,
+          23
+        ]
+      },
+      {
+        "phase": "after",
+        "alt": true,
+        "bounds": [
+          245,
+          138,
+          309,
+          186
+        ],
+        "match": 0.41035353535353536,
+        "descriptorAnchor": [
+          -20,
+          56
+        ],
+        "worldAnchor": [
+          40,
+          23
+        ]
+      }
+    ]
+  },
+  {
+    "sample": 26,
+    "native": {
+      "before": {
+        "camera": [
+          448,
+          0
+        ],
+        "projectiles": [
+          [
+            669,
+            94
+          ]
+        ],
+        "player": [
+          552,
+          40
+        ]
+      },
+      "after": {
+        "camera": [
+          448,
+          0
+        ],
+        "projectiles": [
+          [
+            675,
+            94
+          ]
+        ],
+        "player": [
+          552,
+          40
+        ]
+      }
+    },
+    "objects": [
+      {
+        "phase": "before",
+        "alt": false,
+        "bounds": [
+          242,
+          138,
+          306,
+          186
+        ],
+        "match": 0.41035353535353536,
+        "descriptorAnchor": [
+          -20,
+          56
+        ],
+        "worldAnchor": [
+          43,
+          23
+        ]
+      },
+      {
+        "phase": "before",
+        "alt": true,
+        "bounds": [
+          245,
+          138,
+          309,
+          186
+        ],
+        "match": 1.0,
+        "descriptorAnchor": [
+          -20,
+          56
+        ],
+        "worldAnchor": [
+          40,
+          23
+        ]
+      },
+      {
+        "phase": "after",
+        "alt": false,
+        "bounds": [
+          251,
+          146,
+          315,
+          178
+        ],
+        "match": 0.11031664964249234,
+        "descriptorAnchor": [
+          -252,
+          40
+        ],
+        "worldAnchor": [
+          40,
+          15
+        ]
+      },
+      {
+        "phase": "after",
+        "alt": true,
+        "bounds": [
+          245,
+          138,
+          309,
+          186
+        ],
+        "match": 1.0,
+        "descriptorAnchor": [
+          -252,
+          56
+        ],
+        "worldAnchor": [
+          46,
+          23
+        ]
+      }
+    ]
+  }
+]

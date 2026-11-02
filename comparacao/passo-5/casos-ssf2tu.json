@@ -1,0 +1,3417 @@
+{
+  "cases": [
+    {
+      "id": "stand_lp_far",
+      "setup": [],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              0
+            ]
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 0,
+        "posture": "stand",
+        "context": "far",
+        "direction": 0,
+        "guard": null,
+        "approach": null
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "stand_lp_near",
+      "setup": [
+        {
+          "frames": 60,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              0
+            ]
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 0,
+        "posture": "stand",
+        "context": "near",
+        "direction": 0,
+        "guard": null,
+        "approach": null
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "crouch_lp",
+      "setup": [
+        {
+          "frames": 10,
+          "p1": {
+            "down": true
+          },
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              0
+            ],
+            "down": true
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {
+            "down": true
+          },
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 0,
+        "posture": "crouch",
+        "context": "far",
+        "direction": 0,
+        "guard": null,
+        "approach": null
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "airVertical_lp",
+      "setup": [
+        {
+          "frames": 3,
+          "p1": {
+            "up": true,
+            "x": 0
+          },
+          "p2": {}
+        },
+        {
+          "frames": 10,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              0
+            ]
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 0,
+        "posture": "airVertical",
+        "context": "far",
+        "direction": 0,
+        "guard": null,
+        "approach": null
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "airForward_lp",
+      "setup": [
+        {
+          "frames": 3,
+          "p1": {
+            "up": true,
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 10,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              0
+            ]
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 0,
+        "posture": "airForward",
+        "context": "far",
+        "direction": 0,
+        "guard": null,
+        "approach": null
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "contact_lp_None",
+      "setup": [
+        {
+          "frames": 28,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              0
+            ]
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 0,
+        "posture": "stand",
+        "context": "contact",
+        "direction": 0,
+        "guard": null,
+        "approach": 28
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "crouch_contact_lp_None",
+      "setup": [
+        {
+          "frames": 36,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        },
+        {
+          "frames": 10,
+          "p1": {
+            "down": true
+          },
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              0
+            ],
+            "down": true
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {
+            "down": true
+          },
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 0,
+        "posture": "crouch",
+        "context": "contact",
+        "direction": 0,
+        "guard": null,
+        "approach": 36
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "contact_lp_high",
+      "setup": [
+        {
+          "frames": 28,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              0
+            ]
+          },
+          "p2": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {
+            "x": 1
+          }
+        }
+      ],
+      "meta": {
+        "button": 0,
+        "posture": "stand",
+        "context": "contact",
+        "direction": 0,
+        "guard": "high",
+        "approach": 28
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "crouch_contact_lp_high",
+      "setup": [
+        {
+          "frames": 36,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        },
+        {
+          "frames": 10,
+          "p1": {
+            "down": true
+          },
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              0
+            ],
+            "down": true
+          },
+          "p2": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 83,
+          "p1": {
+            "down": true
+          },
+          "p2": {
+            "x": 1
+          }
+        }
+      ],
+      "meta": {
+        "button": 0,
+        "posture": "crouch",
+        "context": "contact",
+        "direction": 0,
+        "guard": "high",
+        "approach": 36
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "contact_lp_low",
+      "setup": [
+        {
+          "frames": 28,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              0
+            ]
+          },
+          "p2": {
+            "x": 1,
+            "down": true
+          }
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {
+            "x": 1,
+            "down": true
+          }
+        }
+      ],
+      "meta": {
+        "button": 0,
+        "posture": "stand",
+        "context": "contact",
+        "direction": 0,
+        "guard": "low",
+        "approach": 28
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "crouch_contact_lp_low",
+      "setup": [
+        {
+          "frames": 36,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        },
+        {
+          "frames": 10,
+          "p1": {
+            "down": true
+          },
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              0
+            ],
+            "down": true
+          },
+          "p2": {
+            "x": 1,
+            "down": true
+          }
+        },
+        {
+          "frames": 83,
+          "p1": {
+            "down": true
+          },
+          "p2": {
+            "x": 1,
+            "down": true
+          }
+        }
+      ],
+      "meta": {
+        "button": 0,
+        "posture": "crouch",
+        "context": "contact",
+        "direction": 0,
+        "guard": "low",
+        "approach": 36
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "stand_mp_far",
+      "setup": [],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              8
+            ]
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 8,
+        "posture": "stand",
+        "context": "far",
+        "direction": 0,
+        "guard": null,
+        "approach": null
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "stand_mp_near",
+      "setup": [
+        {
+          "frames": 60,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              8
+            ]
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 8,
+        "posture": "stand",
+        "context": "near",
+        "direction": 0,
+        "guard": null,
+        "approach": null
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "crouch_mp",
+      "setup": [
+        {
+          "frames": 10,
+          "p1": {
+            "down": true
+          },
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              8
+            ],
+            "down": true
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {
+            "down": true
+          },
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 8,
+        "posture": "crouch",
+        "context": "far",
+        "direction": 0,
+        "guard": null,
+        "approach": null
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "airVertical_mp",
+      "setup": [
+        {
+          "frames": 3,
+          "p1": {
+            "up": true,
+            "x": 0
+          },
+          "p2": {}
+        },
+        {
+          "frames": 10,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              8
+            ]
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 8,
+        "posture": "airVertical",
+        "context": "far",
+        "direction": 0,
+        "guard": null,
+        "approach": null
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "airForward_mp",
+      "setup": [
+        {
+          "frames": 3,
+          "p1": {
+            "up": true,
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 10,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              8
+            ]
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 8,
+        "posture": "airForward",
+        "context": "far",
+        "direction": 0,
+        "guard": null,
+        "approach": null
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "contact_mp_None",
+      "setup": [
+        {
+          "frames": 28,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              8
+            ]
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 8,
+        "posture": "stand",
+        "context": "contact",
+        "direction": 0,
+        "guard": null,
+        "approach": 28
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "crouch_contact_mp_None",
+      "setup": [
+        {
+          "frames": 36,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        },
+        {
+          "frames": 10,
+          "p1": {
+            "down": true
+          },
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              8
+            ],
+            "down": true
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {
+            "down": true
+          },
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 8,
+        "posture": "crouch",
+        "context": "contact",
+        "direction": 0,
+        "guard": null,
+        "approach": 36
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "contact_mp_high",
+      "setup": [
+        {
+          "frames": 28,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              8
+            ]
+          },
+          "p2": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {
+            "x": 1
+          }
+        }
+      ],
+      "meta": {
+        "button": 8,
+        "posture": "stand",
+        "context": "contact",
+        "direction": 0,
+        "guard": "high",
+        "approach": 28
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "crouch_contact_mp_high",
+      "setup": [
+        {
+          "frames": 36,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        },
+        {
+          "frames": 10,
+          "p1": {
+            "down": true
+          },
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              8
+            ],
+            "down": true
+          },
+          "p2": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 83,
+          "p1": {
+            "down": true
+          },
+          "p2": {
+            "x": 1
+          }
+        }
+      ],
+      "meta": {
+        "button": 8,
+        "posture": "crouch",
+        "context": "contact",
+        "direction": 0,
+        "guard": "high",
+        "approach": 36
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "contact_mp_low",
+      "setup": [
+        {
+          "frames": 28,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              8
+            ]
+          },
+          "p2": {
+            "x": 1,
+            "down": true
+          }
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {
+            "x": 1,
+            "down": true
+          }
+        }
+      ],
+      "meta": {
+        "button": 8,
+        "posture": "stand",
+        "context": "contact",
+        "direction": 0,
+        "guard": "low",
+        "approach": 28
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "crouch_contact_mp_low",
+      "setup": [
+        {
+          "frames": 36,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        },
+        {
+          "frames": 10,
+          "p1": {
+            "down": true
+          },
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              8
+            ],
+            "down": true
+          },
+          "p2": {
+            "x": 1,
+            "down": true
+          }
+        },
+        {
+          "frames": 83,
+          "p1": {
+            "down": true
+          },
+          "p2": {
+            "x": 1,
+            "down": true
+          }
+        }
+      ],
+      "meta": {
+        "button": 8,
+        "posture": "crouch",
+        "context": "contact",
+        "direction": 0,
+        "guard": "low",
+        "approach": 36
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "stand_hp_far",
+      "setup": [],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              1
+            ]
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 1,
+        "posture": "stand",
+        "context": "far",
+        "direction": 0,
+        "guard": null,
+        "approach": null
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "stand_hp_near",
+      "setup": [
+        {
+          "frames": 60,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              1
+            ]
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 1,
+        "posture": "stand",
+        "context": "near",
+        "direction": 0,
+        "guard": null,
+        "approach": null
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "crouch_hp",
+      "setup": [
+        {
+          "frames": 10,
+          "p1": {
+            "down": true
+          },
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              1
+            ],
+            "down": true
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {
+            "down": true
+          },
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 1,
+        "posture": "crouch",
+        "context": "far",
+        "direction": 0,
+        "guard": null,
+        "approach": null
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "airVertical_hp",
+      "setup": [
+        {
+          "frames": 3,
+          "p1": {
+            "up": true,
+            "x": 0
+          },
+          "p2": {}
+        },
+        {
+          "frames": 10,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              1
+            ]
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 1,
+        "posture": "airVertical",
+        "context": "far",
+        "direction": 0,
+        "guard": null,
+        "approach": null
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "airForward_hp",
+      "setup": [
+        {
+          "frames": 3,
+          "p1": {
+            "up": true,
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 10,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              1
+            ]
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 1,
+        "posture": "airForward",
+        "context": "far",
+        "direction": 0,
+        "guard": null,
+        "approach": null
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "contact_hp_None",
+      "setup": [
+        {
+          "frames": 28,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              1
+            ]
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 1,
+        "posture": "stand",
+        "context": "contact",
+        "direction": 0,
+        "guard": null,
+        "approach": 28
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "crouch_contact_hp_None",
+      "setup": [
+        {
+          "frames": 36,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        },
+        {
+          "frames": 10,
+          "p1": {
+            "down": true
+          },
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              1
+            ],
+            "down": true
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {
+            "down": true
+          },
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 1,
+        "posture": "crouch",
+        "context": "contact",
+        "direction": 0,
+        "guard": null,
+        "approach": 36
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "contact_hp_high",
+      "setup": [
+        {
+          "frames": 28,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              1
+            ]
+          },
+          "p2": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {
+            "x": 1
+          }
+        }
+      ],
+      "meta": {
+        "button": 1,
+        "posture": "stand",
+        "context": "contact",
+        "direction": 0,
+        "guard": "high",
+        "approach": 28
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "crouch_contact_hp_high",
+      "setup": [
+        {
+          "frames": 36,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        },
+        {
+          "frames": 10,
+          "p1": {
+            "down": true
+          },
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              1
+            ],
+            "down": true
+          },
+          "p2": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 83,
+          "p1": {
+            "down": true
+          },
+          "p2": {
+            "x": 1
+          }
+        }
+      ],
+      "meta": {
+        "button": 1,
+        "posture": "crouch",
+        "context": "contact",
+        "direction": 0,
+        "guard": "high",
+        "approach": 36
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "contact_hp_low",
+      "setup": [
+        {
+          "frames": 28,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              1
+            ]
+          },
+          "p2": {
+            "x": 1,
+            "down": true
+          }
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {
+            "x": 1,
+            "down": true
+          }
+        }
+      ],
+      "meta": {
+        "button": 1,
+        "posture": "stand",
+        "context": "contact",
+        "direction": 0,
+        "guard": "low",
+        "approach": 28
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "crouch_contact_hp_low",
+      "setup": [
+        {
+          "frames": 36,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        },
+        {
+          "frames": 10,
+          "p1": {
+            "down": true
+          },
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              1
+            ],
+            "down": true
+          },
+          "p2": {
+            "x": 1,
+            "down": true
+          }
+        },
+        {
+          "frames": 83,
+          "p1": {
+            "down": true
+          },
+          "p2": {
+            "x": 1,
+            "down": true
+          }
+        }
+      ],
+      "meta": {
+        "button": 1,
+        "posture": "crouch",
+        "context": "contact",
+        "direction": 0,
+        "guard": "low",
+        "approach": 36
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "stand_lk_far",
+      "setup": [],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              9
+            ]
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 9,
+        "posture": "stand",
+        "context": "far",
+        "direction": 0,
+        "guard": null,
+        "approach": null
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "stand_lk_near",
+      "setup": [
+        {
+          "frames": 60,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              9
+            ]
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 9,
+        "posture": "stand",
+        "context": "near",
+        "direction": 0,
+        "guard": null,
+        "approach": null
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "crouch_lk",
+      "setup": [
+        {
+          "frames": 10,
+          "p1": {
+            "down": true
+          },
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              9
+            ],
+            "down": true
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {
+            "down": true
+          },
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 9,
+        "posture": "crouch",
+        "context": "far",
+        "direction": 0,
+        "guard": null,
+        "approach": null
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "airVertical_lk",
+      "setup": [
+        {
+          "frames": 3,
+          "p1": {
+            "up": true,
+            "x": 0
+          },
+          "p2": {}
+        },
+        {
+          "frames": 10,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              9
+            ]
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 9,
+        "posture": "airVertical",
+        "context": "far",
+        "direction": 0,
+        "guard": null,
+        "approach": null
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "airForward_lk",
+      "setup": [
+        {
+          "frames": 3,
+          "p1": {
+            "up": true,
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 10,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              9
+            ]
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 9,
+        "posture": "airForward",
+        "context": "far",
+        "direction": 0,
+        "guard": null,
+        "approach": null
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "contact_lk_None",
+      "setup": [
+        {
+          "frames": 28,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              9
+            ]
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 9,
+        "posture": "stand",
+        "context": "contact",
+        "direction": 0,
+        "guard": null,
+        "approach": 28
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "crouch_contact_lk_None",
+      "setup": [
+        {
+          "frames": 36,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        },
+        {
+          "frames": 10,
+          "p1": {
+            "down": true
+          },
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              9
+            ],
+            "down": true
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {
+            "down": true
+          },
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 9,
+        "posture": "crouch",
+        "context": "contact",
+        "direction": 0,
+        "guard": null,
+        "approach": 36
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "contact_lk_high",
+      "setup": [
+        {
+          "frames": 28,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              9
+            ]
+          },
+          "p2": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {
+            "x": 1
+          }
+        }
+      ],
+      "meta": {
+        "button": 9,
+        "posture": "stand",
+        "context": "contact",
+        "direction": 0,
+        "guard": "high",
+        "approach": 28
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "crouch_contact_lk_high",
+      "setup": [
+        {
+          "frames": 36,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        },
+        {
+          "frames": 10,
+          "p1": {
+            "down": true
+          },
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              9
+            ],
+            "down": true
+          },
+          "p2": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 83,
+          "p1": {
+            "down": true
+          },
+          "p2": {
+            "x": 1
+          }
+        }
+      ],
+      "meta": {
+        "button": 9,
+        "posture": "crouch",
+        "context": "contact",
+        "direction": 0,
+        "guard": "high",
+        "approach": 36
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "contact_lk_low",
+      "setup": [
+        {
+          "frames": 28,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              9
+            ]
+          },
+          "p2": {
+            "x": 1,
+            "down": true
+          }
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {
+            "x": 1,
+            "down": true
+          }
+        }
+      ],
+      "meta": {
+        "button": 9,
+        "posture": "stand",
+        "context": "contact",
+        "direction": 0,
+        "guard": "low",
+        "approach": 28
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "crouch_contact_lk_low",
+      "setup": [
+        {
+          "frames": 36,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        },
+        {
+          "frames": 10,
+          "p1": {
+            "down": true
+          },
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              9
+            ],
+            "down": true
+          },
+          "p2": {
+            "x": 1,
+            "down": true
+          }
+        },
+        {
+          "frames": 83,
+          "p1": {
+            "down": true
+          },
+          "p2": {
+            "x": 1,
+            "down": true
+          }
+        }
+      ],
+      "meta": {
+        "button": 9,
+        "posture": "crouch",
+        "context": "contact",
+        "direction": 0,
+        "guard": "low",
+        "approach": 36
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "stand_mk_far",
+      "setup": [],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              10
+            ]
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 10,
+        "posture": "stand",
+        "context": "far",
+        "direction": 0,
+        "guard": null,
+        "approach": null
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "stand_mk_near",
+      "setup": [
+        {
+          "frames": 60,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              10
+            ]
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 10,
+        "posture": "stand",
+        "context": "near",
+        "direction": 0,
+        "guard": null,
+        "approach": null
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "crouch_mk",
+      "setup": [
+        {
+          "frames": 10,
+          "p1": {
+            "down": true
+          },
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              10
+            ],
+            "down": true
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {
+            "down": true
+          },
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 10,
+        "posture": "crouch",
+        "context": "far",
+        "direction": 0,
+        "guard": null,
+        "approach": null
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "airVertical_mk",
+      "setup": [
+        {
+          "frames": 3,
+          "p1": {
+            "up": true,
+            "x": 0
+          },
+          "p2": {}
+        },
+        {
+          "frames": 10,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              10
+            ]
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 10,
+        "posture": "airVertical",
+        "context": "far",
+        "direction": 0,
+        "guard": null,
+        "approach": null
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "airForward_mk",
+      "setup": [
+        {
+          "frames": 3,
+          "p1": {
+            "up": true,
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 10,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              10
+            ]
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 10,
+        "posture": "airForward",
+        "context": "far",
+        "direction": 0,
+        "guard": null,
+        "approach": null
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "contact_mk_None",
+      "setup": [
+        {
+          "frames": 28,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              10
+            ]
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 10,
+        "posture": "stand",
+        "context": "contact",
+        "direction": 0,
+        "guard": null,
+        "approach": 28
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "crouch_contact_mk_None",
+      "setup": [
+        {
+          "frames": 36,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        },
+        {
+          "frames": 10,
+          "p1": {
+            "down": true
+          },
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              10
+            ],
+            "down": true
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {
+            "down": true
+          },
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 10,
+        "posture": "crouch",
+        "context": "contact",
+        "direction": 0,
+        "guard": null,
+        "approach": 36
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "contact_mk_high",
+      "setup": [
+        {
+          "frames": 28,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              10
+            ]
+          },
+          "p2": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {
+            "x": 1
+          }
+        }
+      ],
+      "meta": {
+        "button": 10,
+        "posture": "stand",
+        "context": "contact",
+        "direction": 0,
+        "guard": "high",
+        "approach": 28
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "crouch_contact_mk_high",
+      "setup": [
+        {
+          "frames": 36,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        },
+        {
+          "frames": 10,
+          "p1": {
+            "down": true
+          },
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              10
+            ],
+            "down": true
+          },
+          "p2": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 83,
+          "p1": {
+            "down": true
+          },
+          "p2": {
+            "x": 1
+          }
+        }
+      ],
+      "meta": {
+        "button": 10,
+        "posture": "crouch",
+        "context": "contact",
+        "direction": 0,
+        "guard": "high",
+        "approach": 36
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "contact_mk_low",
+      "setup": [
+        {
+          "frames": 28,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              10
+            ]
+          },
+          "p2": {
+            "x": 1,
+            "down": true
+          }
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {
+            "x": 1,
+            "down": true
+          }
+        }
+      ],
+      "meta": {
+        "button": 10,
+        "posture": "stand",
+        "context": "contact",
+        "direction": 0,
+        "guard": "low",
+        "approach": 28
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "crouch_contact_mk_low",
+      "setup": [
+        {
+          "frames": 36,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        },
+        {
+          "frames": 10,
+          "p1": {
+            "down": true
+          },
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              10
+            ],
+            "down": true
+          },
+          "p2": {
+            "x": 1,
+            "down": true
+          }
+        },
+        {
+          "frames": 83,
+          "p1": {
+            "down": true
+          },
+          "p2": {
+            "x": 1,
+            "down": true
+          }
+        }
+      ],
+      "meta": {
+        "button": 10,
+        "posture": "crouch",
+        "context": "contact",
+        "direction": 0,
+        "guard": "low",
+        "approach": 36
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "stand_hk_far",
+      "setup": [],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              11
+            ]
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 11,
+        "posture": "stand",
+        "context": "far",
+        "direction": 0,
+        "guard": null,
+        "approach": null
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "stand_hk_near",
+      "setup": [
+        {
+          "frames": 60,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              11
+            ]
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 11,
+        "posture": "stand",
+        "context": "near",
+        "direction": 0,
+        "guard": null,
+        "approach": null
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "crouch_hk",
+      "setup": [
+        {
+          "frames": 10,
+          "p1": {
+            "down": true
+          },
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              11
+            ],
+            "down": true
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {
+            "down": true
+          },
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 11,
+        "posture": "crouch",
+        "context": "far",
+        "direction": 0,
+        "guard": null,
+        "approach": null
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "airVertical_hk",
+      "setup": [
+        {
+          "frames": 3,
+          "p1": {
+            "up": true,
+            "x": 0
+          },
+          "p2": {}
+        },
+        {
+          "frames": 10,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              11
+            ]
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 11,
+        "posture": "airVertical",
+        "context": "far",
+        "direction": 0,
+        "guard": null,
+        "approach": null
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "airForward_hk",
+      "setup": [
+        {
+          "frames": 3,
+          "p1": {
+            "up": true,
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 10,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              11
+            ]
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 11,
+        "posture": "airForward",
+        "context": "far",
+        "direction": 0,
+        "guard": null,
+        "approach": null
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "contact_hk_None",
+      "setup": [
+        {
+          "frames": 28,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              11
+            ]
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 11,
+        "posture": "stand",
+        "context": "contact",
+        "direction": 0,
+        "guard": null,
+        "approach": 28
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "crouch_contact_hk_None",
+      "setup": [
+        {
+          "frames": 36,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        },
+        {
+          "frames": 10,
+          "p1": {
+            "down": true
+          },
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              11
+            ],
+            "down": true
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {
+            "down": true
+          },
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 11,
+        "posture": "crouch",
+        "context": "contact",
+        "direction": 0,
+        "guard": null,
+        "approach": 36
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "contact_hk_high",
+      "setup": [
+        {
+          "frames": 28,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              11
+            ]
+          },
+          "p2": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {
+            "x": 1
+          }
+        }
+      ],
+      "meta": {
+        "button": 11,
+        "posture": "stand",
+        "context": "contact",
+        "direction": 0,
+        "guard": "high",
+        "approach": 28
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "crouch_contact_hk_high",
+      "setup": [
+        {
+          "frames": 36,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        },
+        {
+          "frames": 10,
+          "p1": {
+            "down": true
+          },
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              11
+            ],
+            "down": true
+          },
+          "p2": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 83,
+          "p1": {
+            "down": true
+          },
+          "p2": {
+            "x": 1
+          }
+        }
+      ],
+      "meta": {
+        "button": 11,
+        "posture": "crouch",
+        "context": "contact",
+        "direction": 0,
+        "guard": "high",
+        "approach": 36
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "contact_hk_low",
+      "setup": [
+        {
+          "frames": 28,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              11
+            ]
+          },
+          "p2": {
+            "x": 1,
+            "down": true
+          }
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {
+            "x": 1,
+            "down": true
+          }
+        }
+      ],
+      "meta": {
+        "button": 11,
+        "posture": "stand",
+        "context": "contact",
+        "direction": 0,
+        "guard": "low",
+        "approach": 28
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "crouch_contact_hk_low",
+      "setup": [
+        {
+          "frames": 36,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        },
+        {
+          "frames": 10,
+          "p1": {
+            "down": true
+          },
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              11
+            ],
+            "down": true
+          },
+          "p2": {
+            "x": 1,
+            "down": true
+          }
+        },
+        {
+          "frames": 83,
+          "p1": {
+            "down": true
+          },
+          "p2": {
+            "x": 1,
+            "down": true
+          }
+        }
+      ],
+      "meta": {
+        "button": 11,
+        "posture": "crouch",
+        "context": "contact",
+        "direction": 0,
+        "guard": "low",
+        "approach": 36
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "throw_mp_1",
+      "setup": [
+        {
+          "frames": 60,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              8
+            ],
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 8,
+        "posture": "stand",
+        "context": "near",
+        "direction": 1,
+        "guard": null,
+        "approach": null
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "throw_mp_-1",
+      "setup": [
+        {
+          "frames": 60,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              8
+            ],
+            "x": -1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 8,
+        "posture": "stand",
+        "context": "near",
+        "direction": -1,
+        "guard": null,
+        "approach": null
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "throw_hp_1",
+      "setup": [
+        {
+          "frames": 60,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              1
+            ],
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 1,
+        "posture": "stand",
+        "context": "near",
+        "direction": 1,
+        "guard": null,
+        "approach": null
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "throw_hp_-1",
+      "setup": [
+        {
+          "frames": 60,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              1
+            ],
+            "x": -1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 1,
+        "posture": "stand",
+        "context": "near",
+        "direction": -1,
+        "guard": null,
+        "approach": null
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "throw_mk_1",
+      "setup": [
+        {
+          "frames": 60,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              10
+            ],
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 10,
+        "posture": "stand",
+        "context": "near",
+        "direction": 1,
+        "guard": null,
+        "approach": null
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "throw_mk_-1",
+      "setup": [
+        {
+          "frames": 60,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              10
+            ],
+            "x": -1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 10,
+        "posture": "stand",
+        "context": "near",
+        "direction": -1,
+        "guard": null,
+        "approach": null
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "throw_hk_1",
+      "setup": [
+        {
+          "frames": 60,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              11
+            ],
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 11,
+        "posture": "stand",
+        "context": "near",
+        "direction": 1,
+        "guard": null,
+        "approach": null
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "throw_hk_-1",
+      "setup": [
+        {
+          "frames": 60,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              11
+            ],
+            "x": -1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 11,
+        "posture": "stand",
+        "context": "near",
+        "direction": -1,
+        "guard": null,
+        "approach": null
+      },
+      "all_video": false,
+      "visual": false
+    }
+  ],
+  "checkpoints": []
+}

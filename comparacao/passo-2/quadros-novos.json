@@ -1,0 +1,9 @@
+{
+  "pointers": [
+    "0xff939430",
+    "0xff939490",
+    "0xff9394f0",
+    "0xff938f50"
+  ],
+  "method": "native UMK3 ROM decoder; captured runtime palette"
+}

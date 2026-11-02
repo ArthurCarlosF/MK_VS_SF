@@ -1,0 +1,3143 @@
+{
+  "schema": 2,
+  "repetitions": 2,
+  "checkpoints": [
+    2
+  ],
+  "cases": [
+    {
+      "id": "punch_single",
+      "label": "punch_single",
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 78,
+          "p1": {}
+        }
+      ]
+    },
+    {
+      "id": "punch_held",
+      "label": "punch_held",
+      "segments": [
+        {
+          "frames": 64,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 32,
+          "p1": {}
+        }
+      ]
+    },
+    {
+      "id": "punch_pair_03",
+      "label": "punch_pair_03",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 2,
+          "p1": {}
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 77,
+          "p1": {}
+        }
+      ]
+    },
+    {
+      "id": "punch_pair_04",
+      "label": "punch_pair_04",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 3,
+          "p1": {}
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 76,
+          "p1": {}
+        }
+      ]
+    },
+    {
+      "id": "punch_pair_05",
+      "label": "punch_pair_05",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 4,
+          "p1": {}
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 75,
+          "p1": {}
+        }
+      ]
+    },
+    {
+      "id": "punch_pair_06",
+      "label": "punch_pair_06",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 5,
+          "p1": {}
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 74,
+          "p1": {}
+        }
+      ]
+    },
+    {
+      "id": "punch_pair_07",
+      "label": "punch_pair_07",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 6,
+          "p1": {}
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 73,
+          "p1": {}
+        }
+      ]
+    },
+    {
+      "id": "punch_pair_08",
+      "label": "punch_pair_08",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 7,
+          "p1": {}
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 72,
+          "p1": {}
+        }
+      ]
+    },
+    {
+      "id": "punch_pair_09",
+      "label": "punch_pair_09",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 8,
+          "p1": {}
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 71,
+          "p1": {}
+        }
+      ]
+    },
+    {
+      "id": "punch_pair_10",
+      "label": "punch_pair_10",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 9,
+          "p1": {}
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 70,
+          "p1": {}
+        }
+      ]
+    },
+    {
+      "id": "punch_pair_11",
+      "label": "punch_pair_11",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 10,
+          "p1": {}
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 69,
+          "p1": {}
+        }
+      ]
+    },
+    {
+      "id": "punch_pair_12",
+      "label": "punch_pair_12",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 11,
+          "p1": {}
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 68,
+          "p1": {}
+        }
+      ]
+    },
+    {
+      "id": "punch_pair_13",
+      "label": "punch_pair_13",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 12,
+          "p1": {}
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 67,
+          "p1": {}
+        }
+      ]
+    },
+    {
+      "id": "punch_pair_14",
+      "label": "punch_pair_14",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 13,
+          "p1": {}
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 66,
+          "p1": {}
+        }
+      ]
+    },
+    {
+      "id": "punch_pair_15",
+      "label": "punch_pair_15",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 14,
+          "p1": {}
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 65,
+          "p1": {}
+        }
+      ]
+    },
+    {
+      "id": "punch_pair_16",
+      "label": "punch_pair_16",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 15,
+          "p1": {}
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 64,
+          "p1": {}
+        }
+      ]
+    },
+    {
+      "id": "punch_pair_17",
+      "label": "punch_pair_17",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 16,
+          "p1": {}
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 63,
+          "p1": {}
+        }
+      ]
+    },
+    {
+      "id": "punch_pair_18",
+      "label": "punch_pair_18",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 17,
+          "p1": {}
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 62,
+          "p1": {}
+        }
+      ]
+    },
+    {
+      "id": "punch_pair_19",
+      "label": "punch_pair_19",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 18,
+          "p1": {}
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 61,
+          "p1": {}
+        }
+      ]
+    },
+    {
+      "id": "punch_pair_20",
+      "label": "punch_pair_20",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 19,
+          "p1": {}
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 60,
+          "p1": {}
+        }
+      ]
+    },
+    {
+      "id": "punch_pair_21",
+      "label": "punch_pair_21",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 20,
+          "p1": {}
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 59,
+          "p1": {}
+        }
+      ]
+    },
+    {
+      "id": "punch_pair_22",
+      "label": "punch_pair_22",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 21,
+          "p1": {}
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 58,
+          "p1": {}
+        }
+      ]
+    },
+    {
+      "id": "punch_pair_23",
+      "label": "punch_pair_23",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 22,
+          "p1": {}
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 57,
+          "p1": {}
+        }
+      ]
+    },
+    {
+      "id": "punch_pair_24",
+      "label": "punch_pair_24",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 23,
+          "p1": {}
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 56,
+          "p1": {}
+        }
+      ]
+    },
+    {
+      "id": "punch_pair_25",
+      "label": "punch_pair_25",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 24,
+          "p1": {}
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 55,
+          "p1": {}
+        }
+      ]
+    },
+    {
+      "id": "punch_pair_26",
+      "label": "punch_pair_26",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 25,
+          "p1": {}
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 54,
+          "p1": {}
+        }
+      ]
+    },
+    {
+      "id": "punch_pair_27",
+      "label": "punch_pair_27",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 26,
+          "p1": {}
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 53,
+          "p1": {}
+        }
+      ]
+    },
+    {
+      "id": "punch_pair_28",
+      "label": "punch_pair_28",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 27,
+          "p1": {}
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 52,
+          "p1": {}
+        }
+      ]
+    },
+    {
+      "id": "punch_pair_29",
+      "label": "punch_pair_29",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 28,
+          "p1": {}
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 51,
+          "p1": {}
+        }
+      ]
+    },
+    {
+      "id": "punch_pair_30",
+      "label": "punch_pair_30",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 29,
+          "p1": {}
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 50,
+          "p1": {}
+        }
+      ]
+    },
+    {
+      "id": "punch_pair_31",
+      "label": "punch_pair_31",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 30,
+          "p1": {}
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 49,
+          "p1": {}
+        }
+      ]
+    },
+    {
+      "id": "punch_pair_32",
+      "label": "punch_pair_32",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 31,
+          "p1": {}
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 48,
+          "p1": {}
+        }
+      ]
+    },
+    {
+      "id": "punch_train_02",
+      "label": "punch_train_02",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 1,
+          "p1": {}
+        }
+      ],
+      "repeat": 12,
+      "tail": 50
+    },
+    {
+      "id": "punch_train_04",
+      "label": "punch_train_04",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 3,
+          "p1": {}
+        }
+      ],
+      "repeat": 12,
+      "tail": 50
+    },
+    {
+      "id": "punch_train_06",
+      "label": "punch_train_06",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 5,
+          "p1": {}
+        }
+      ],
+      "repeat": 12,
+      "tail": 50
+    },
+    {
+      "id": "punch_train_08",
+      "label": "punch_train_08",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 7,
+          "p1": {}
+        }
+      ],
+      "repeat": 12,
+      "tail": 50
+    },
+    {
+      "id": "punch_train_12",
+      "label": "punch_train_12",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 11,
+          "p1": {}
+        }
+      ],
+      "repeat": 12,
+      "tail": 50
+    },
+    {
+      "id": "punch_train_16",
+      "label": "punch_train_16",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 15,
+          "p1": {}
+        }
+      ],
+      "repeat": 12,
+      "tail": 50
+    },
+    {
+      "id": "kick_single",
+      "label": "kick_single",
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "kick": true
+          }
+        },
+        {
+          "frames": 78,
+          "p1": {}
+        }
+      ]
+    },
+    {
+      "id": "kick_held",
+      "label": "kick_held",
+      "segments": [
+        {
+          "frames": 64,
+          "p1": {
+            "kick": true
+          }
+        },
+        {
+          "frames": 32,
+          "p1": {}
+        }
+      ]
+    },
+    {
+      "id": "kick_pair_03",
+      "label": "kick_pair_03",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "kick": true
+          }
+        },
+        {
+          "frames": 2,
+          "p1": {}
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "kick": true
+          }
+        },
+        {
+          "frames": 77,
+          "p1": {}
+        }
+      ]
+    },
+    {
+      "id": "kick_pair_06",
+      "label": "kick_pair_06",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "kick": true
+          }
+        },
+        {
+          "frames": 5,
+          "p1": {}
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "kick": true
+          }
+        },
+        {
+          "frames": 74,
+          "p1": {}
+        }
+      ]
+    },
+    {
+      "id": "kick_pair_09",
+      "label": "kick_pair_09",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "kick": true
+          }
+        },
+        {
+          "frames": 8,
+          "p1": {}
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "kick": true
+          }
+        },
+        {
+          "frames": 71,
+          "p1": {}
+        }
+      ]
+    },
+    {
+      "id": "kick_pair_12",
+      "label": "kick_pair_12",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "kick": true
+          }
+        },
+        {
+          "frames": 11,
+          "p1": {}
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "kick": true
+          }
+        },
+        {
+          "frames": 68,
+          "p1": {}
+        }
+      ]
+    },
+    {
+      "id": "kick_pair_15",
+      "label": "kick_pair_15",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "kick": true
+          }
+        },
+        {
+          "frames": 14,
+          "p1": {}
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "kick": true
+          }
+        },
+        {
+          "frames": 65,
+          "p1": {}
+        }
+      ]
+    },
+    {
+      "id": "kick_pair_18",
+      "label": "kick_pair_18",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "kick": true
+          }
+        },
+        {
+          "frames": 17,
+          "p1": {}
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "kick": true
+          }
+        },
+        {
+          "frames": 62,
+          "p1": {}
+        }
+      ]
+    },
+    {
+      "id": "kick_pair_21",
+      "label": "kick_pair_21",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "kick": true
+          }
+        },
+        {
+          "frames": 20,
+          "p1": {}
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "kick": true
+          }
+        },
+        {
+          "frames": 59,
+          "p1": {}
+        }
+      ]
+    },
+    {
+      "id": "kick_pair_24",
+      "label": "kick_pair_24",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "kick": true
+          }
+        },
+        {
+          "frames": 23,
+          "p1": {}
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "kick": true
+          }
+        },
+        {
+          "frames": 56,
+          "p1": {}
+        }
+      ]
+    },
+    {
+      "id": "kick_pair_27",
+      "label": "kick_pair_27",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "kick": true
+          }
+        },
+        {
+          "frames": 26,
+          "p1": {}
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "kick": true
+          }
+        },
+        {
+          "frames": 53,
+          "p1": {}
+        }
+      ]
+    },
+    {
+      "id": "kick_pair_30",
+      "label": "kick_pair_30",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "kick": true
+          }
+        },
+        {
+          "frames": 29,
+          "p1": {}
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "kick": true
+          }
+        },
+        {
+          "frames": 50,
+          "p1": {}
+        }
+      ]
+    },
+    {
+      "id": "kick_pair_33",
+      "label": "kick_pair_33",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "kick": true
+          }
+        },
+        {
+          "frames": 32,
+          "p1": {}
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "kick": true
+          }
+        },
+        {
+          "frames": 47,
+          "p1": {}
+        }
+      ]
+    },
+    {
+      "id": "kick_train_02",
+      "label": "kick_train_02",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "kick": true
+          }
+        },
+        {
+          "frames": 1,
+          "p1": {}
+        }
+      ],
+      "repeat": 12,
+      "tail": 50
+    },
+    {
+      "id": "kick_train_04",
+      "label": "kick_train_04",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "kick": true
+          }
+        },
+        {
+          "frames": 3,
+          "p1": {}
+        }
+      ],
+      "repeat": 12,
+      "tail": 50
+    },
+    {
+      "id": "kick_train_06",
+      "label": "kick_train_06",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "kick": true
+          }
+        },
+        {
+          "frames": 5,
+          "p1": {}
+        }
+      ],
+      "repeat": 12,
+      "tail": 50
+    },
+    {
+      "id": "kick_train_08",
+      "label": "kick_train_08",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "kick": true
+          }
+        },
+        {
+          "frames": 7,
+          "p1": {}
+        }
+      ],
+      "repeat": 12,
+      "tail": 50
+    },
+    {
+      "id": "kick_train_12",
+      "label": "kick_train_12",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "kick": true
+          }
+        },
+        {
+          "frames": 11,
+          "p1": {}
+        }
+      ],
+      "repeat": 12,
+      "tail": 50
+    },
+    {
+      "id": "kick_train_16",
+      "label": "kick_train_16",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "kick": true
+          }
+        },
+        {
+          "frames": 15,
+          "p1": {}
+        }
+      ],
+      "repeat": 12,
+      "tail": 50
+    },
+    {
+      "id": "punch_low_single",
+      "label": "punch_low_single",
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "down": true,
+            "punch": true
+          }
+        },
+        {
+          "frames": 78,
+          "p1": {
+            "down": true
+          }
+        }
+      ],
+      "setup": [
+        {
+          "frames": 12,
+          "p1": {
+            "down": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "punch_low_held",
+      "label": "punch_low_held",
+      "segments": [
+        {
+          "frames": 64,
+          "p1": {
+            "down": true,
+            "punch": true
+          }
+        },
+        {
+          "frames": 32,
+          "p1": {
+            "down": true
+          }
+        }
+      ],
+      "setup": [
+        {
+          "frames": 12,
+          "p1": {
+            "down": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "punch_low_pair_03",
+      "label": "punch_low_pair_03",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "down": true,
+            "punch": true
+          }
+        },
+        {
+          "frames": 2,
+          "p1": {
+            "down": true
+          }
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "down": true,
+            "punch": true
+          }
+        },
+        {
+          "frames": 77,
+          "p1": {
+            "down": true
+          }
+        }
+      ],
+      "setup": [
+        {
+          "frames": 12,
+          "p1": {
+            "down": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "punch_low_pair_06",
+      "label": "punch_low_pair_06",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "down": true,
+            "punch": true
+          }
+        },
+        {
+          "frames": 5,
+          "p1": {
+            "down": true
+          }
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "down": true,
+            "punch": true
+          }
+        },
+        {
+          "frames": 74,
+          "p1": {
+            "down": true
+          }
+        }
+      ],
+      "setup": [
+        {
+          "frames": 12,
+          "p1": {
+            "down": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "punch_low_pair_09",
+      "label": "punch_low_pair_09",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "down": true,
+            "punch": true
+          }
+        },
+        {
+          "frames": 8,
+          "p1": {
+            "down": true
+          }
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "down": true,
+            "punch": true
+          }
+        },
+        {
+          "frames": 71,
+          "p1": {
+            "down": true
+          }
+        }
+      ],
+      "setup": [
+        {
+          "frames": 12,
+          "p1": {
+            "down": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "punch_low_pair_12",
+      "label": "punch_low_pair_12",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "down": true,
+            "punch": true
+          }
+        },
+        {
+          "frames": 11,
+          "p1": {
+            "down": true
+          }
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "down": true,
+            "punch": true
+          }
+        },
+        {
+          "frames": 68,
+          "p1": {
+            "down": true
+          }
+        }
+      ],
+      "setup": [
+        {
+          "frames": 12,
+          "p1": {
+            "down": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "punch_low_pair_15",
+      "label": "punch_low_pair_15",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "down": true,
+            "punch": true
+          }
+        },
+        {
+          "frames": 14,
+          "p1": {
+            "down": true
+          }
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "down": true,
+            "punch": true
+          }
+        },
+        {
+          "frames": 65,
+          "p1": {
+            "down": true
+          }
+        }
+      ],
+      "setup": [
+        {
+          "frames": 12,
+          "p1": {
+            "down": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "punch_low_pair_18",
+      "label": "punch_low_pair_18",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "down": true,
+            "punch": true
+          }
+        },
+        {
+          "frames": 17,
+          "p1": {
+            "down": true
+          }
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "down": true,
+            "punch": true
+          }
+        },
+        {
+          "frames": 62,
+          "p1": {
+            "down": true
+          }
+        }
+      ],
+      "setup": [
+        {
+          "frames": 12,
+          "p1": {
+            "down": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "punch_low_pair_21",
+      "label": "punch_low_pair_21",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "down": true,
+            "punch": true
+          }
+        },
+        {
+          "frames": 20,
+          "p1": {
+            "down": true
+          }
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "down": true,
+            "punch": true
+          }
+        },
+        {
+          "frames": 59,
+          "p1": {
+            "down": true
+          }
+        }
+      ],
+      "setup": [
+        {
+          "frames": 12,
+          "p1": {
+            "down": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "punch_low_pair_24",
+      "label": "punch_low_pair_24",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "down": true,
+            "punch": true
+          }
+        },
+        {
+          "frames": 23,
+          "p1": {
+            "down": true
+          }
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "down": true,
+            "punch": true
+          }
+        },
+        {
+          "frames": 56,
+          "p1": {
+            "down": true
+          }
+        }
+      ],
+      "setup": [
+        {
+          "frames": 12,
+          "p1": {
+            "down": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "punch_low_pair_27",
+      "label": "punch_low_pair_27",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "down": true,
+            "punch": true
+          }
+        },
+        {
+          "frames": 26,
+          "p1": {
+            "down": true
+          }
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "down": true,
+            "punch": true
+          }
+        },
+        {
+          "frames": 53,
+          "p1": {
+            "down": true
+          }
+        }
+      ],
+      "setup": [
+        {
+          "frames": 12,
+          "p1": {
+            "down": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "punch_low_pair_30",
+      "label": "punch_low_pair_30",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "down": true,
+            "punch": true
+          }
+        },
+        {
+          "frames": 29,
+          "p1": {
+            "down": true
+          }
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "down": true,
+            "punch": true
+          }
+        },
+        {
+          "frames": 50,
+          "p1": {
+            "down": true
+          }
+        }
+      ],
+      "setup": [
+        {
+          "frames": 12,
+          "p1": {
+            "down": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "punch_low_pair_33",
+      "label": "punch_low_pair_33",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "down": true,
+            "punch": true
+          }
+        },
+        {
+          "frames": 32,
+          "p1": {
+            "down": true
+          }
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "down": true,
+            "punch": true
+          }
+        },
+        {
+          "frames": 47,
+          "p1": {
+            "down": true
+          }
+        }
+      ],
+      "setup": [
+        {
+          "frames": 12,
+          "p1": {
+            "down": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "punch_low_train_02",
+      "label": "punch_low_train_02",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "down": true,
+            "punch": true
+          }
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "down": true
+          }
+        }
+      ],
+      "setup": [
+        {
+          "frames": 12,
+          "p1": {
+            "down": true
+          }
+        }
+      ],
+      "repeat": 12,
+      "tail": 50
+    },
+    {
+      "id": "punch_low_train_04",
+      "label": "punch_low_train_04",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "down": true,
+            "punch": true
+          }
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "down": true
+          }
+        }
+      ],
+      "setup": [
+        {
+          "frames": 12,
+          "p1": {
+            "down": true
+          }
+        }
+      ],
+      "repeat": 12,
+      "tail": 50
+    },
+    {
+      "id": "punch_low_train_06",
+      "label": "punch_low_train_06",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "down": true,
+            "punch": true
+          }
+        },
+        {
+          "frames": 5,
+          "p1": {
+            "down": true
+          }
+        }
+      ],
+      "setup": [
+        {
+          "frames": 12,
+          "p1": {
+            "down": true
+          }
+        }
+      ],
+      "repeat": 12,
+      "tail": 50
+    },
+    {
+      "id": "punch_low_train_08",
+      "label": "punch_low_train_08",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "down": true,
+            "punch": true
+          }
+        },
+        {
+          "frames": 7,
+          "p1": {
+            "down": true
+          }
+        }
+      ],
+      "setup": [
+        {
+          "frames": 12,
+          "p1": {
+            "down": true
+          }
+        }
+      ],
+      "repeat": 12,
+      "tail": 50
+    },
+    {
+      "id": "punch_low_train_12",
+      "label": "punch_low_train_12",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "down": true,
+            "punch": true
+          }
+        },
+        {
+          "frames": 11,
+          "p1": {
+            "down": true
+          }
+        }
+      ],
+      "setup": [
+        {
+          "frames": 12,
+          "p1": {
+            "down": true
+          }
+        }
+      ],
+      "repeat": 12,
+      "tail": 50
+    },
+    {
+      "id": "punch_low_train_16",
+      "label": "punch_low_train_16",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "down": true,
+            "punch": true
+          }
+        },
+        {
+          "frames": 15,
+          "p1": {
+            "down": true
+          }
+        }
+      ],
+      "setup": [
+        {
+          "frames": 12,
+          "p1": {
+            "down": true
+          }
+        }
+      ],
+      "repeat": 12,
+      "tail": 50
+    },
+    {
+      "id": "kick_low_single",
+      "label": "kick_low_single",
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "down": true,
+            "kick": true
+          }
+        },
+        {
+          "frames": 78,
+          "p1": {
+            "down": true
+          }
+        }
+      ],
+      "setup": [
+        {
+          "frames": 12,
+          "p1": {
+            "down": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "kick_low_held",
+      "label": "kick_low_held",
+      "segments": [
+        {
+          "frames": 64,
+          "p1": {
+            "down": true,
+            "kick": true
+          }
+        },
+        {
+          "frames": 32,
+          "p1": {
+            "down": true
+          }
+        }
+      ],
+      "setup": [
+        {
+          "frames": 12,
+          "p1": {
+            "down": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "kick_low_pair_03",
+      "label": "kick_low_pair_03",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "down": true,
+            "kick": true
+          }
+        },
+        {
+          "frames": 2,
+          "p1": {
+            "down": true
+          }
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "down": true,
+            "kick": true
+          }
+        },
+        {
+          "frames": 77,
+          "p1": {
+            "down": true
+          }
+        }
+      ],
+      "setup": [
+        {
+          "frames": 12,
+          "p1": {
+            "down": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "kick_low_pair_06",
+      "label": "kick_low_pair_06",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "down": true,
+            "kick": true
+          }
+        },
+        {
+          "frames": 5,
+          "p1": {
+            "down": true
+          }
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "down": true,
+            "kick": true
+          }
+        },
+        {
+          "frames": 74,
+          "p1": {
+            "down": true
+          }
+        }
+      ],
+      "setup": [
+        {
+          "frames": 12,
+          "p1": {
+            "down": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "kick_low_pair_09",
+      "label": "kick_low_pair_09",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "down": true,
+            "kick": true
+          }
+        },
+        {
+          "frames": 8,
+          "p1": {
+            "down": true
+          }
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "down": true,
+            "kick": true
+          }
+        },
+        {
+          "frames": 71,
+          "p1": {
+            "down": true
+          }
+        }
+      ],
+      "setup": [
+        {
+          "frames": 12,
+          "p1": {
+            "down": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "kick_low_pair_12",
+      "label": "kick_low_pair_12",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "down": true,
+            "kick": true
+          }
+        },
+        {
+          "frames": 11,
+          "p1": {
+            "down": true
+          }
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "down": true,
+            "kick": true
+          }
+        },
+        {
+          "frames": 68,
+          "p1": {
+            "down": true
+          }
+        }
+      ],
+      "setup": [
+        {
+          "frames": 12,
+          "p1": {
+            "down": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "kick_low_pair_15",
+      "label": "kick_low_pair_15",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "down": true,
+            "kick": true
+          }
+        },
+        {
+          "frames": 14,
+          "p1": {
+            "down": true
+          }
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "down": true,
+            "kick": true
+          }
+        },
+        {
+          "frames": 65,
+          "p1": {
+            "down": true
+          }
+        }
+      ],
+      "setup": [
+        {
+          "frames": 12,
+          "p1": {
+            "down": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "kick_low_pair_18",
+      "label": "kick_low_pair_18",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "down": true,
+            "kick": true
+          }
+        },
+        {
+          "frames": 17,
+          "p1": {
+            "down": true
+          }
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "down": true,
+            "kick": true
+          }
+        },
+        {
+          "frames": 62,
+          "p1": {
+            "down": true
+          }
+        }
+      ],
+      "setup": [
+        {
+          "frames": 12,
+          "p1": {
+            "down": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "kick_low_pair_21",
+      "label": "kick_low_pair_21",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "down": true,
+            "kick": true
+          }
+        },
+        {
+          "frames": 20,
+          "p1": {
+            "down": true
+          }
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "down": true,
+            "kick": true
+          }
+        },
+        {
+          "frames": 59,
+          "p1": {
+            "down": true
+          }
+        }
+      ],
+      "setup": [
+        {
+          "frames": 12,
+          "p1": {
+            "down": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "kick_low_pair_24",
+      "label": "kick_low_pair_24",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "down": true,
+            "kick": true
+          }
+        },
+        {
+          "frames": 23,
+          "p1": {
+            "down": true
+          }
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "down": true,
+            "kick": true
+          }
+        },
+        {
+          "frames": 56,
+          "p1": {
+            "down": true
+          }
+        }
+      ],
+      "setup": [
+        {
+          "frames": 12,
+          "p1": {
+            "down": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "kick_low_pair_27",
+      "label": "kick_low_pair_27",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "down": true,
+            "kick": true
+          }
+        },
+        {
+          "frames": 26,
+          "p1": {
+            "down": true
+          }
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "down": true,
+            "kick": true
+          }
+        },
+        {
+          "frames": 53,
+          "p1": {
+            "down": true
+          }
+        }
+      ],
+      "setup": [
+        {
+          "frames": 12,
+          "p1": {
+            "down": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "kick_low_pair_30",
+      "label": "kick_low_pair_30",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "down": true,
+            "kick": true
+          }
+        },
+        {
+          "frames": 29,
+          "p1": {
+            "down": true
+          }
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "down": true,
+            "kick": true
+          }
+        },
+        {
+          "frames": 50,
+          "p1": {
+            "down": true
+          }
+        }
+      ],
+      "setup": [
+        {
+          "frames": 12,
+          "p1": {
+            "down": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "kick_low_pair_33",
+      "label": "kick_low_pair_33",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "down": true,
+            "kick": true
+          }
+        },
+        {
+          "frames": 32,
+          "p1": {
+            "down": true
+          }
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "down": true,
+            "kick": true
+          }
+        },
+        {
+          "frames": 47,
+          "p1": {
+            "down": true
+          }
+        }
+      ],
+      "setup": [
+        {
+          "frames": 12,
+          "p1": {
+            "down": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "kick_low_train_02",
+      "label": "kick_low_train_02",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "down": true,
+            "kick": true
+          }
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "down": true
+          }
+        }
+      ],
+      "setup": [
+        {
+          "frames": 12,
+          "p1": {
+            "down": true
+          }
+        }
+      ],
+      "repeat": 12,
+      "tail": 50
+    },
+    {
+      "id": "kick_low_train_04",
+      "label": "kick_low_train_04",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "down": true,
+            "kick": true
+          }
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "down": true
+          }
+        }
+      ],
+      "setup": [
+        {
+          "frames": 12,
+          "p1": {
+            "down": true
+          }
+        }
+      ],
+      "repeat": 12,
+      "tail": 50
+    },
+    {
+      "id": "kick_low_train_06",
+      "label": "kick_low_train_06",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "down": true,
+            "kick": true
+          }
+        },
+        {
+          "frames": 5,
+          "p1": {
+            "down": true
+          }
+        }
+      ],
+      "setup": [
+        {
+          "frames": 12,
+          "p1": {
+            "down": true
+          }
+        }
+      ],
+      "repeat": 12,
+      "tail": 50
+    },
+    {
+      "id": "kick_low_train_08",
+      "label": "kick_low_train_08",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "down": true,
+            "kick": true
+          }
+        },
+        {
+          "frames": 7,
+          "p1": {
+            "down": true
+          }
+        }
+      ],
+      "setup": [
+        {
+          "frames": 12,
+          "p1": {
+            "down": true
+          }
+        }
+      ],
+      "repeat": 12,
+      "tail": 50
+    },
+    {
+      "id": "kick_low_train_12",
+      "label": "kick_low_train_12",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "down": true,
+            "kick": true
+          }
+        },
+        {
+          "frames": 11,
+          "p1": {
+            "down": true
+          }
+        }
+      ],
+      "setup": [
+        {
+          "frames": 12,
+          "p1": {
+            "down": true
+          }
+        }
+      ],
+      "repeat": 12,
+      "tail": 50
+    },
+    {
+      "id": "kick_low_train_16",
+      "label": "kick_low_train_16",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "down": true,
+            "kick": true
+          }
+        },
+        {
+          "frames": 15,
+          "p1": {
+            "down": true
+          }
+        }
+      ],
+      "setup": [
+        {
+          "frames": 12,
+          "p1": {
+            "down": true
+          }
+        }
+      ],
+      "repeat": 12,
+      "tail": 50
+    },
+    {
+      "id": "punch_kick_same",
+      "label": "punch_kick_same",
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "punch": true,
+            "kick": true
+          }
+        },
+        {
+          "frames": 78,
+          "p1": {}
+        }
+      ]
+    },
+    {
+      "id": "punch_then_kick",
+      "label": "punch_then_kick",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 5,
+          "p1": {}
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "kick": true
+          }
+        },
+        {
+          "frames": 75,
+          "p1": {}
+        }
+      ]
+    },
+    {
+      "id": "kick_then_punch",
+      "label": "kick_then_punch",
+      "segments": [
+        {
+          "frames": 1,
+          "p1": {
+            "kick": true
+          }
+        },
+        {
+          "frames": 5,
+          "p1": {}
+        },
+        {
+          "frames": 1,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 75,
+          "p1": {}
+        }
+      ]
+    },
+    {
+      "id": "jump_held",
+      "label": "jump_held",
+      "segments": [
+        {
+          "frames": 150,
+          "p1": {
+            "up": true
+          }
+        },
+        {
+          "frames": 20,
+          "p1": {}
+        }
+      ]
+    },
+    {
+      "id": "guard_punch",
+      "label": "guard_punch",
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "punch": true,
+            "guard": true
+          }
+        },
+        {
+          "frames": 78,
+          "p1": {
+            "guard": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "spear_motion",
+      "label": "spear_motion",
+      "segments": [
+        {
+          "frames": 4,
+          "p1": {
+            "x": -1
+          }
+        },
+        {
+          "frames": 4,
+          "p1": {}
+        },
+        {
+          "frames": 4,
+          "p1": {
+            "x": -1
+          }
+        },
+        {
+          "frames": 2,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 105,
+          "p1": {}
+        }
+      ]
+    },
+    {
+      "id": "hadouken_motion",
+      "label": "hadouken_motion",
+      "segments": [
+        {
+          "frames": 3,
+          "p1": {
+            "down": true
+          }
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "down": true,
+            "x": 1
+          }
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 2,
+          "p1": {
+            "x": 1,
+            "punch": true
+          }
+        },
+        {
+          "frames": 100,
+          "p1": {}
+        }
+      ]
+    },
+    {
+      "id": "hadouken_release",
+      "label": "hadouken_release",
+      "segments": [
+        {
+          "frames": 3,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "down": true,
+            "punch": true
+          }
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "down": true,
+            "x": 1,
+            "punch": true
+          }
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "x": 1,
+            "punch": true
+          }
+        },
+        {
+          "frames": 100,
+          "p1": {
+            "x": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "hadouken_gap_04",
+      "label": "hadouken_gap_04",
+      "segments": [
+        {
+          "frames": 3,
+          "p1": {
+            "down": true
+          }
+        },
+        {
+          "frames": 4,
+          "p1": {
+            "down": true,
+            "x": 1
+          }
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 2,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 100,
+          "p1": {}
+        }
+      ]
+    },
+    {
+      "id": "hadouken_gap_08",
+      "label": "hadouken_gap_08",
+      "segments": [
+        {
+          "frames": 3,
+          "p1": {
+            "down": true
+          }
+        },
+        {
+          "frames": 8,
+          "p1": {
+            "down": true,
+            "x": 1
+          }
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 2,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 100,
+          "p1": {}
+        }
+      ]
+    },
+    {
+      "id": "hadouken_gap_12",
+      "label": "hadouken_gap_12",
+      "segments": [
+        {
+          "frames": 3,
+          "p1": {
+            "down": true
+          }
+        },
+        {
+          "frames": 12,
+          "p1": {
+            "down": true,
+            "x": 1
+          }
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 2,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 100,
+          "p1": {}
+        }
+      ]
+    },
+    {
+      "id": "hadouken_gap_20",
+      "label": "hadouken_gap_20",
+      "segments": [
+        {
+          "frames": 3,
+          "p1": {
+            "down": true
+          }
+        },
+        {
+          "frames": 20,
+          "p1": {
+            "down": true,
+            "x": 1
+          }
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 2,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 100,
+          "p1": {}
+        }
+      ]
+    },
+    {
+      "id": "hadouken_gap_30",
+      "label": "hadouken_gap_30",
+      "segments": [
+        {
+          "frames": 3,
+          "p1": {
+            "down": true
+          }
+        },
+        {
+          "frames": 30,
+          "p1": {
+            "down": true,
+            "x": 1
+          }
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 2,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 100,
+          "p1": {}
+        }
+      ]
+    },
+    {
+      "id": "hadouken_gap_40",
+      "label": "hadouken_gap_40",
+      "segments": [
+        {
+          "frames": 3,
+          "p1": {
+            "down": true
+          }
+        },
+        {
+          "frames": 40,
+          "p1": {
+            "down": true,
+            "x": 1
+          }
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 2,
+          "p1": {
+            "punch": true
+          }
+        },
+        {
+          "frames": 100,
+          "p1": {}
+        }
+      ]
+    },
+    {
+      "id": "teleport_motion",
+      "label": "teleport_motion",
+      "segments": [
+        {
+          "frames": 4,
+          "p1": {
+            "down": true
+          }
+        },
+        {
+          "frames": 4,
+          "p1": {
+            "x": -1
+          }
+        },
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              1
+            ]
+          }
+        },
+        {
+          "frames": 100,
+          "p1": {}
+        }
+      ]
+    }
+  ]
+}

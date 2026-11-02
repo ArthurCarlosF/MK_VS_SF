@@ -1,0 +1,17 @@
+{
+  "checked": true,
+  "sf_character_ids": 16,
+  "sf_opcode_bytes_equal_running_core": 3670016,
+  "ryu_hadouken_states": [
+    0,
+    2,
+    4,
+    6,
+    0
+  ],
+  "ryu_hadouken_committed_action": 12,
+  "scorpion_animation_sequence_pointers": 69,
+  "scorpion_spear_samples": 36,
+  "scorpion_teleport_samples": 49,
+  "original_source_recovered": false
+}

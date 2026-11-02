@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "originalCases": 52,
+  "prototypeCases": 52,
+  "images": 546,
+  "maxResamplingErrorMs": 4.162469336486341,
+  "meaning": "Evidence files, input identity, clocks and provenance verified. Does not assert gameplay fidelity."
+}

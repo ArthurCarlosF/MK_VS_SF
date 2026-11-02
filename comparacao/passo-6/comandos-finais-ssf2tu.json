@@ -1,0 +1,659 @@
+{
+  "cases": [
+    {
+      "id": "projectile_hit__act40",
+      "setup": [],
+      "segments": [
+        {
+          "frames": 3,
+          "p1": {
+            "down": true
+          },
+          "p2": {}
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "down": true,
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "x": 1,
+            "raw": [
+              0
+            ]
+          },
+          "p2": {}
+        },
+        {
+          "frames": 228,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "special": "projectile",
+        "posture": "stand",
+        "guard": null,
+        "actionProbeOffset": 40,
+        "probeButton": 0
+      },
+      "visual": false,
+      "all_video": false
+    },
+    {
+      "id": "projectile_hit__act41",
+      "setup": [],
+      "segments": [
+        {
+          "frames": 3,
+          "p1": {
+            "down": true
+          },
+          "p2": {}
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "down": true,
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "x": 1,
+            "raw": [
+              0
+            ]
+          },
+          "p2": {}
+        },
+        {
+          "frames": 228,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "special": "projectile",
+        "posture": "stand",
+        "guard": null,
+        "actionProbeOffset": 41,
+        "probeButton": 0
+      },
+      "visual": false,
+      "all_video": false
+    },
+    {
+      "id": "projectile_hit__act42",
+      "setup": [],
+      "segments": [
+        {
+          "frames": 3,
+          "p1": {
+            "down": true
+          },
+          "p2": {}
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "down": true,
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "x": 1,
+            "raw": [
+              0
+            ]
+          },
+          "p2": {}
+        },
+        {
+          "frames": 228,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "special": "projectile",
+        "posture": "stand",
+        "guard": null,
+        "actionProbeOffset": 42,
+        "probeButton": 0
+      },
+      "visual": false,
+      "all_video": false
+    },
+    {
+      "id": "projectile_hit__act43",
+      "setup": [],
+      "segments": [
+        {
+          "frames": 3,
+          "p1": {
+            "down": true
+          },
+          "p2": {}
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "down": true,
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "x": 1,
+            "raw": [
+              0
+            ]
+          },
+          "p2": {}
+        },
+        {
+          "frames": 228,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "special": "projectile",
+        "posture": "stand",
+        "guard": null,
+        "actionProbeOffset": 43,
+        "probeButton": 0
+      },
+      "visual": false,
+      "all_video": false
+    },
+    {
+      "id": "projectile_hit__act44",
+      "setup": [],
+      "segments": [
+        {
+          "frames": 3,
+          "p1": {
+            "down": true
+          },
+          "p2": {}
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "down": true,
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "x": 1,
+            "raw": [
+              0
+            ]
+          },
+          "p2": {}
+        },
+        {
+          "frames": 228,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "special": "projectile",
+        "posture": "stand",
+        "guard": null,
+        "actionProbeOffset": 44,
+        "probeButton": 0
+      },
+      "visual": false,
+      "all_video": false
+    },
+    {
+      "id": "projectile_hit__act45",
+      "setup": [],
+      "segments": [
+        {
+          "frames": 3,
+          "p1": {
+            "down": true
+          },
+          "p2": {}
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "down": true,
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "x": 1,
+            "raw": [
+              0
+            ]
+          },
+          "p2": {}
+        },
+        {
+          "frames": 228,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "special": "projectile",
+        "posture": "stand",
+        "guard": null,
+        "actionProbeOffset": 45,
+        "probeButton": 0
+      },
+      "visual": false,
+      "all_video": false
+    },
+    {
+      "id": "contact_hp_high__act24",
+      "setup": [
+        {
+          "frames": 28,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              1
+            ]
+          },
+          "p2": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 155,
+          "p1": {},
+          "p2": {
+            "x": 1
+          }
+        }
+      ],
+      "meta": {
+        "button": 1,
+        "posture": "stand",
+        "context": "contact",
+        "direction": 0,
+        "guard": "high",
+        "approach": 28,
+        "baseCase": "contact_hp_high",
+        "actionProbeOffset": 24,
+        "probeButton": 0
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "contact_hp_high__act25",
+      "setup": [
+        {
+          "frames": 28,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              1
+            ]
+          },
+          "p2": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 155,
+          "p1": {},
+          "p2": {
+            "x": 1
+          }
+        }
+      ],
+      "meta": {
+        "button": 1,
+        "posture": "stand",
+        "context": "contact",
+        "direction": 0,
+        "guard": "high",
+        "approach": 28,
+        "baseCase": "contact_hp_high",
+        "actionProbeOffset": 25,
+        "probeButton": 0
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "contact_hp_high__act26",
+      "setup": [
+        {
+          "frames": 28,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              1
+            ]
+          },
+          "p2": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 155,
+          "p1": {},
+          "p2": {
+            "x": 1
+          }
+        }
+      ],
+      "meta": {
+        "button": 1,
+        "posture": "stand",
+        "context": "contact",
+        "direction": 0,
+        "guard": "high",
+        "approach": 28,
+        "baseCase": "contact_hp_high",
+        "actionProbeOffset": 26,
+        "probeButton": 0
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "contact_hp_high__act27",
+      "setup": [
+        {
+          "frames": 28,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              1
+            ]
+          },
+          "p2": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 155,
+          "p1": {},
+          "p2": {
+            "x": 1
+          }
+        }
+      ],
+      "meta": {
+        "button": 1,
+        "posture": "stand",
+        "context": "contact",
+        "direction": 0,
+        "guard": "high",
+        "approach": 28,
+        "baseCase": "contact_hp_high",
+        "actionProbeOffset": 27,
+        "probeButton": 0
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "contact_hp_high__act28",
+      "setup": [
+        {
+          "frames": 28,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              1
+            ]
+          },
+          "p2": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 155,
+          "p1": {},
+          "p2": {
+            "x": 1
+          }
+        }
+      ],
+      "meta": {
+        "button": 1,
+        "posture": "stand",
+        "context": "contact",
+        "direction": 0,
+        "guard": "high",
+        "approach": 28,
+        "baseCase": "contact_hp_high",
+        "actionProbeOffset": 28,
+        "probeButton": 0
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "contact_hp_high__act29",
+      "setup": [
+        {
+          "frames": 28,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              1
+            ]
+          },
+          "p2": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 155,
+          "p1": {},
+          "p2": {
+            "x": 1
+          }
+        }
+      ],
+      "meta": {
+        "button": 1,
+        "posture": "stand",
+        "context": "contact",
+        "direction": 0,
+        "guard": "high",
+        "approach": 28,
+        "baseCase": "contact_hp_high",
+        "actionProbeOffset": 29,
+        "probeButton": 0
+      },
+      "all_video": false,
+      "visual": false
+    }
+  ],
+  "checkpoints": []
+}

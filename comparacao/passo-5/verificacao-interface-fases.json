@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "passed": [
+    "scorpion 1P KeyJ",
+    "scorpion 1P KeyN",
+    "scorpion 1P KeyK",
+    "scorpion 1P Comma",
+    "ryu 2P KeyF",
+    "ryu 2P KeyC",
+    "ryu 2P KeyX",
+    "ryu 2P KeyG",
+    "ryu 2P KeyZ",
+    "ryu 2P KeyQ",
+    "Every distinct decoded asset renders, both facings: scorpion/ryu 828",
+    "ryu 1P KeyJ",
+    "ryu 1P KeyN",
+    "ryu 1P KeyM",
+    "ryu 1P KeyK",
+    "ryu 1P Comma",
+    "ryu 1P Period",
+    "scorpion 2P KeyF",
+    "scorpion 2P KeyC",
+    "scorpion 2P KeyG",
+    "scorpion 2P KeyZ",
+    "Every distinct decoded asset renders, both facings: ryu/scorpion 828",
+    "No page or asset errors"
+  ]
+}

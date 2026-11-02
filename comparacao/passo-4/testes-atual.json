@@ -1,0 +1,72 @@
+[
+  {
+    "file": "comparacao\\passo-4\\verificacao-interface-repertorio.json",
+    "status": "PASS",
+    "sha256": "998efa8b47e1f94dcb762ac7b78c09523b32e28343bb7e6551203ffe6c376d1a"
+  },
+  {
+    "file": "comparacao\\passo-4\\verificacao-repertorio.json",
+    "status": "PASS",
+    "sha256": "140fde14025fe2e5d572121856c23f6fe9d721c636fcadf84d10ac200a787c01"
+  },
+  {
+    "file": "arena\\verificacao-alcance-atual.json",
+    "status": "PASS",
+    "sha256": "955699904d5fe561abcb0c9f66588c9fe9062e32290a76bf2c1ef4cae1d475ec"
+  },
+  {
+    "file": "arena\\verificacao-calibracao.json",
+    "status": "PASS",
+    "sha256": "1f1491bc4c545d0875cacde7150a4d45e7a53e16c9da23af7cc757ec1ef08d6c"
+  },
+  {
+    "file": "arena\\verificacao-comandos.json",
+    "status": "PASS",
+    "sha256": "40b1852aa67c72784a6558cc1346cdba2de7af948d135377a1992b8de0989c85"
+  },
+  {
+    "file": "arena\\verificacao-combate.json",
+    "status": "PASS",
+    "sha256": "2dc085090e4a32a7aded95f1200a8b8625d0da40f42ea12d3d4241c7845e56bb"
+  },
+  {
+    "file": "arena\\verificacao-corda.json",
+    "status": "PASS",
+    "sha256": "6ac1a4a1a384c275f1355a37b81d861c6aba2c32ff89316e0bff866d28015d62"
+  },
+  {
+    "file": "arena\\verificacao-interface-comandos.json",
+    "status": "PASS",
+    "sha256": "930bbe3eefeb2d5780d5c86cf0477c491d2de8a4dda4c0a7a93f8115a94ee058"
+  },
+  {
+    "file": "arena\\verificacao-interface-combate.json",
+    "status": "PASS",
+    "sha256": "0ac1206d13c47c2e6d5a0d5500cca1266cc630bd1e593bb958b7cb54141fb379"
+  },
+  {
+    "file": "arena\\verificacao-interface-movimento.json",
+    "status": "PASS",
+    "sha256": "ff06b4accc4e3d81b82b4f62becda9780bc6c230bb22ff0bf70c5907e35161d5"
+  },
+  {
+    "file": "arena\\verificacao-movimento.json",
+    "status": "PASS",
+    "sha256": "fc5fe1a0560cca57a0ccd56920e4d77f52078e287008da97a7a7976122c6ad83"
+  },
+  {
+    "file": "arena\\verificacao-pixels.json",
+    "status": "PASS",
+    "sha256": "4867102e2a1e4dc0e7102faa8fdf94262fba9f713f67be429e5eabc5cb63899a"
+  },
+  {
+    "file": "arena\\verificacao-puxao.json",
+    "status": "PASS",
+    "sha256": "b6375de38fea9389283f8688f87887004f3a043bbb911b07b98a0f3879687050"
+  },
+  {
+    "file": "arena\\verificacao-teleporte.json",
+    "status": "PASS",
+    "sha256": "7331f8d43f4d675f64ad05990f8b358811ec781a9febeabc0e0f84ce499fdc23"
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "ids": [
+        "scorpion",
+        "ryu"
+      ],
+      "initial_separation": 350,
+      "hit": true,
+      "completed_pull": true,
+      "maxFlightAge": 0.7708333333333318,
+      "target_health": 91,
+      "final_separation": 65
+    },
+    {
+      "ids": [
+        "ryu",
+        "scorpion"
+      ],
+      "initial_separation": 350,
+      "hit": true,
+      "completed_pull": true,
+      "maxFlightAge": 0.7708333333333318,
+      "target_health": 91,
+      "final_separation": 65
+    }
+  ],
+  "fix": "Keep throwing pose while the rope is in flight; preserve expiry and interruption."
+}

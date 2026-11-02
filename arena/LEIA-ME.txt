@@ -1,0 +1,232 @@
+﻿BASE REAPROVEITÁVEL DE COMBATE — 23/10/2026
+
+COMO JOGAR
+Abra “Abrir arena.cmd” na pasta principal ou use o atalho “Mortal Kombat vs
+Street Fighter - Arena”. A seleção também abre o combate de Scorpion e Ryu,
+com a ordem dos jogadores escolhida por você.
+
+Jogador 1: setas movem; cima pula; baixo agacha.
+J: soco. K: chute. L: bloqueio de Scorpion.
+U: especial (lança para Scorpion, Hadouken para Ryu).
+I: agarrão. O: teleporte de Scorpion.
+
+Jogador 2: A/D movem; W pula; S agacha.
+F: soco. G: chute. H: bloqueio de Scorpion.
+T: especial. Y: agarrão. B: teleporte de Scorpion.
+
+Ryu bloqueia segurando para trás em relação ao adversário. Para golpes baixos,
+segure baixo + trás. O botão de bloqueio não ativa defesa para Ryu.
+Scorpion usa seu botão de bloqueio; segure baixo junto para defesa baixa.
+Soco/chute com baixo geram golpes agachados; no ar geram ataques aéreos.
+Ataques aéreos exigem defesa em pé. Agarrão próximo vence a defesa.
+Não é preciso manter o botão de ataque: cada pressionamento inicia uma ação.
+
+Comandos direcionais relativos ao lado atual, seguidos de soco:
+Ryu: baixo, baixo+frente, frente — Hadouken.
+Scorpion: trás, neutro, trás — lança; baixo, trás — teleporte.
+Os botões diretos de especial/teleporte são atalhos de teste.
+Há tolerância provisória para baixo, frente no Hadouken.
+
+Espaço pausa/continua, Esc pausa, R reinicia a partida.
+O menu alterna Versus local e Treino livre.
+Versus: 99 segundos, vida 100, primeiro a dois rounds vence.
+Treino: sem tempo e com reposição de vida após nocaute.
+Ao sair da janela, o jogo pausa e limpa comandos pressionados.
+Há botões na tela. Controles de console padrão também têm mapeamento básico:
+direcional/analógico, botão inferior soco, direito chute, esquerdo especial,
+superior agarrão, ombro esquerdo bloqueio e direito teleporte.
+Não foi feito teste físico de controle de console nesta etapa.
+
+O QUE A BASE IMPLEMENTA
+Movimento, pulo vertical/direcional, agachamento, orientação e troca de lado.
+Relógios separados por personagem, câmera, limites e separação de corpos.
+Comandos direcionais, memória curta de botões e tolerância de entrada.
+Golpes em pé, agachados e no ar, com início, atividade e recuperação.
+Caixas de acerto e vulnerabilidade, dano, defesa alta/baixa, stun e hitstop.
+Golpes simultâneos, golpes que erram, agarrão, queda e proteção ao levantar.
+Projéteis que atingem/colidem, lança que puxa e teleporte que troca o lado.
+Cancelamento de soco conectado para especial e contador de sequência de acertos.
+Vida, energia interna acumulada, rounds, empate, tempo, nocaute e fim da partida.
+Reinício, pausa, modo de treino, teclado e botões na tela.
+A energia acumulada ainda não tem supergolpe associado.
+
+REAPROVEITAMENTO
+fight-engine.js: simulação de combate, estados, física, dano e rounds.
+commands.js: histórico direcional e comandos/botões.
+collisions.js: caixas de acerto, vulnerabilidade e decisão de defesa.
+combat-data.js: parâmetros editáveis por personagem e regras da partida.
+assets.js: sprites, sequências, velocidades e trajetórias extraídos.
+presentation.js: escala visual por universo, MK 1,00 e SF2 1,25.
+arena.js: desenho, controles e interface. engine.js preserva o protótipo antigo
+como referência de movimento e fornece as constantes espaciais comuns.
+
+Para ampliar o elenco, cadastrar recursos e dados próprios de cada personagem.
+Foi verificado que um terceiro cadastro pode usar o motor sem inserir lógica
+específica de Ryu ou Scorpion na simulação. Habilidades novas podem exigir
+novos tipos de ações; não significa que todo personagem já esteja pronto.
+
+O QUE FOI MEDIDO E O QUE É PROVISÓRIO
+Sprites vieram dos arquivos locais; não são redesenhados. Novas capturas incluem
+pulo, agachamento, ataques, defesa, dano e queda dos dois jogos.
+Poses, cadências, passos e trajetórias de salto foram extraídos/medidos.
+Scorpion: salto vertical observado com 95 unidades de altura; Ryu: 77.
+As trajetórias mantêm as amostras de cada jogo; o tamanho visual SF2 tem +25%.
+O ciclo de caminhada de Scorpion passou a usar as nove poses observadas.
+A arena é própria e usa só arquivos do projeto; originais preservados.
+
+Dano, alcances, caixas, fases dos golpes, stun, empurrão, chip, cancelamento,
+regras de defesa cruzada e timings dos especiais são calibrações iniciais.
+Não foram recuperados integralmente dos originais nem validados como fiéis.
+Ataques usam janelas e retângulos por ação; falta extrair caixas por quadro.
+As animações e a duração lógica de ação ainda precisam ser sincronizadas.
+Agarrão usa uma pose provisória de soco. KO mantém uma pose horizontal capturada;
+faltam as transições completas de derrota/vitória e finalizações.
+A corda e ponta da lança são desenhadas provisoriamente pelo motor.
+A composição de algumas transições, especialmente saltos/queda de Scorpion,
+ainda diverge das capturas. Ryu teve âncoras provisórias centralizadas nas reações.
+Não há repertório completo de golpes, fatalities, supers, áudio, adversário
+controlado pelo jogo ou online. O cenário é uma sala de treino provisória.
+Esta entrega conclui uma base funcional reaproveitável, não a fidelidade final
+nem a reconstrução completa dos dois motores originais.
+
+TESTES E EVIDÊNCIAS
+30 testes do combate e 11 testes da interface passaram.
+9 regressões do motor anterior também passaram.
+Os testes cobrem comandos, defesa, dano, troca de lado, projéteis, KO, rounds,
+fim de partida, treino, controles, seleção, pausa e integração visual.
+Pixels de todos os 155 recursos PNG importados foram conferidos por SHA-256.
+Isso garante a cópia dos pixels; não comprova a composição fiel de cada pose.
+verificacao-combate.json, verificacao-interface-combate.json e verificacao-pixels.json.
+Scripts em ferramentas/testar_combate.cjs e testar_interface_combate.cjs.
+Novas capturas e manifestos: engenharia-reversa/animacoes-base.
+Extração reproduzível: engenharia-reversa/ferramentas/capturar_base_combate.py,
+exportar_base_combate.py e ferramentas/preparar_arena.py.
+
+PRÓXIMO TRABALHO
+Comparar e calibrar ataques, colisões e tempos contra os originais; corrigir
+transições, âncoras e efeitos. Expandir o repertório de Ryu e Scorpion antes
+de ampliar o elenco, aproveitando os sistemas já implementados.
+Backups anteriores estão em dados/backups/base-combate-20261023.
+
+CORREÇÃO DE ORIENTAÇÃO DO TELEPORTE
+A orientação original dos PNGs agora é considerada antes do espelhamento da arena.
+Scorpion reaparece atacando na direção do adversário nas duas direções.
+Verificação: verificacao-teleporte.json; teste em ferramentas/testar_orientacao_teleporte.cjs.
+
+CORDA CORRIGIDA — 23/10/2026
+Corda e lançamento agora usam a mão da pose de Scorpion como origem, com
+espelhamento para ambos os lados. Continua sendo um efeito desenhado provisório.
+32 testes do combate passaram; verificação visual em verificacao-corda.json.
+
+PUXÃO CONTÍNUO DA LANÇA — 23/10/2026
+Removido o deslocamento instantâneo ao acertar a lança.
+Agora há reação de impacto, breve imobilização, puxão contínuo rápido,
+recolhimento do braço de Scorpion e atordoamento ao chegar perto.
+A corda permanece presa entre a mão e o corpo do alvo, com pequenas voltas
+no desenho; encurta junto com a distância durante o recolhimento.
+Velocidade de referência: 8 unidades por amostra a 53,204948 Hz (425,64/s),
+observadas no puxão do UMK3 entre as amostras 66 e 86 da captura de lança.
+A duração de imobilização de 0,18 s e stun final de 0,40 s são calibrações.
+Scorpion usa as poses de recolhimento da captura original (amostras 62–88).
+A reação de Ryu reutiliza seus quadros nativos de dano em ciclo; ainda é uma
+adaptação para o crossover, não uma animação de lança existente em SF2.
+Interromper Scorpion solta o alvo; bloquear evita a prisão. Round/reset limpa
+as conexões. Verificadas as duas direções e ausência de salto de posição.
+36 testes do motor e 11 da interface passaram; evidências em verificacao-puxao.json,
+verificacao-combate.json, verificacao-interface-combate.json e referencia-puxao.json.
+Recursos atuais: 90 entradas PNG de Scorpion e 69 de Ryu, pixels verificados.
+
+ALCANCE DA LANÇA — VERIFICADO E CORRIGIDO EM 23/10/2026
+Testado diretamente no UMK3 original, sem alterações em RAM: afastar ambos
+os jogadores até o limite e lançar a corda resultou em acerto e puxão.
+Separação observada no original: 306 unidades, conforme evidencia em
+engenharia-reversa/evidencias/alcance-lanca/scorpion/resultado.json.
+No protótipo, o fim da animação apagava a lança com apenas 0,675 s de voo,
+antes do adversário no afastamento máximo de 350 unidades da nossa arena.
+Agora Scorpion mantém a pose enquanto a lança viaja. Ela ainda expira se
+errar e é cancelada por interrupção. Alcance verificado nos dois sentidos,
+com acerto e puxão a 350 unidades; 39 testes do motor passaram.
+Relatório atual: arena/verificacao-alcance-atual.json.
+As escalas e limites espaciais dos dois jogos não são diretamente idênticos;
+o comportamento verificado é atingir até o máximo afastamento permitido.
+
+CALIBRAÇÃO DOS GOLPES BÁSICOS — 23/10/2026
+Oito normais em pé/agachados foram calibrados com experimentos locais.
+Tempos e poses independentes por personagem; Ryu tem caixas de ataque e
+vulnerabilidade de tabelas nativas. Dano e perda de vida ao bloquear MK foram
+normalizados à vida 100. Defesa de proximidade SF e postura baixa corrigidas.
+Detalhes: arena/Calibracao dos golpes - Resultados.txt.
+39 testes do combate + 7 de calibração + 11 da interface passaram.
+PENDENTE: variantes de perto, RNG/reduções de dano completos, caixas nativas MK,
+golpes aéreos, stun, empurrão e calibração dos demais especiais. Não é fidelidade final.
+
+PLANO DE FIDELIDADE — PASSO 2 IMPLEMENTADO EM 23/10/2026
+Aceitação de comandos por personagem: botão mantido, repetição de socos,
+prioridade, descarte de entradas recusadas, pulos mantidos, guarda MK,
+comandos direcionais e soltura do soco no Hadouken. Quatro poses nativas novas.
+110 casos por jogo x duas repetições idênticas; limites adicionais preservados.
+77 verificações automatizadas aprovadas. 187/190 contagens de poses coincidem;
+não significa fidelidade completa. Três ritmos extremos de Ryu e diferenças
+no relógio/temporizadores e contato permanecem documentados para etapas 5/6.
+Relatório: Passo 2 - Comandos e resultados.txt; evidências em comparacao/passo-2.
+Próximo passo: 3, movimento/corrida/saltos/câmera/contato entre corpos.
+
+REVISÃO SOCOS 2.1 — CORREÇÃO DO PASSO 2
+Reproduzida falha de contato que o teste anterior de poses não detectava:
+a troca de braço descartava o acerto do soco anterior. Agora a ação visual
+preserva esse contato pendente. Retirada pausa/empurrão artificial desse jab.
+40 comparações novas passaram, incluindo acertos/dano/alternância e intervalo
+do soco duplo. Também testados confronto cruzado nas duas ordens e snapshot.
+A arena identifica a revisão na tela. Evidência e limites em
+comparacao/passo-2/revisao-socos/Correcao dos socos - 2.1.txt.
+Fidelidade integral de combos e reação final continua pendente.
+
+PASSO 3 IMPLEMENTADO — MOVIMENTO 3.0 — 25/10/2026
+Perfis dos dois personagens calibrados a partir de 158 execuções de casos.
+Caminhada com latência, corrida/energia Scorpion, saltos nos três sentidos,
+transição corrida-pulo, aterrissagem, cruzamento, corpo/cantos e câmera comum.
+Corrida: Shift direito + frente (1P) ou V + frente (2P). Barra própria MK.
+20 verificações de movimento e 5 da interface, além das regressões existentes.
+Câmera/contato mistos são adaptações explícitas; Turbo e recuperação da energia
+mantêm limitações documentadas. Não declarar fidelidade integral dos originais.
+Relatório: Passo 3 - Movimento e resultados.txt; evidências em comparacao/passo-3.
+Próximo: passo 4, repertório completo dos golpes básicos e suas variantes.
+
+PASSO 4 IMPLEMENTADO — GOLPES 4.0 — 26/10/2026
+Repertório básico dos dois personagens ampliado: quatro ataques MK,
+seis forças SF, perto/longe, agachados, saltos e agarrões nativos.
+Bateria principal repetível: 68 casos MK + 108 SF, duas sessões por jogo.
+Controles novos e limites: Passo 4 - Repertorio e resultados.txt.
+Teleporte MK usa soco alto (N/C); LK em pé do Ryu agora é médio.
+Revisão socos 2.1 preservada nos 40 testes de contato.
+Repertório disponível não equivale a fidelidade completa de cada fase/colisão.
+Próximo: calibrar fases e contatos, com caixas MK e reações cruzadas pendentes.
+
+PASSO 5 IMPLEMENTADO — TEMPOS 5.0 — 26/10/2026
+Fases de 51 variantes, seus aliases e sequência dos dois braços calibradas.
+Pausa SF separada do golpe que erra; janelas tardias MK ampliadas conforme
+capturas. Contato aéreo MK pausa oito amostras e reinicia a queda vertical.
+Regressões de socos rápidos e comandos preservadas.
+Detalhes, evidência e limites: Passo 5 - Tempos e resultados.txt.
+Próximo: passo 6, reações de contato, bloqueio, empurrão, queda/levantada.
+
+
+PASSO 6 IMPLEMENTADO — REAÇÕES 6.0 — 26/10/2026
+Reações nativas de impacto/guarda, empurrão/canto, queda/levantada e retorno
+ao controle integradas para Scorpion/Ryu e seus confrontos cruzados.
+Arremessos separam dono, voo do alvo e dano na aterrissagem; HK de perto SF
+separa os dois contatos. 281 perfis por dados; 147 pares nativos repetíveis.
+182 verificações/casos passaram, incluindo interface real e regressões.
+Detalhes: Passo 6 - Reacoes e resultados.txt; fontes em comparacao/passo-6.
+LIMITES: caixas MK/proteção conservadora, variantes por família, janela Turbo
+sensível à fase, primeiro bloqueio do HK derivado e uppercut em chão único.
+Combos/cancelamentos completos, RNG e demais especiais continuam pendentes.
+
+
+PASSO 7 — SEQUÊNCIAS 7.0 — 27/10/2026
+Soco alto e misturas alto/baixo com braços nativos; combos de cotoveladas/chutes
+Scorpion, ligações e cancelamentos SF implementados por dados. Testes funcionais
+aprovados; calibração integral ainda aberta. Comparação ampla SF: 45 diferenças
+em 1402 casos válidos na contagem de contatos. Não marcar fidelidade concluída.
+Relatório: Passo 7 - Sequencias e resultados.txt; evidência: comparacao/passo-7.
+Próxima pendência: resolver esses 45 casos antes de fechar a calibração do passo.

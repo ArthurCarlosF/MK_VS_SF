@@ -1,0 +1,18 @@
+{
+  "name": "mk-vs-sf",
+  "version": "0.8.2",
+  "private": true,
+  "description": "Protótipo experimental UMK3 arcade x Super Street Fighter II Turbo, com salas na rede local",
+  "engines": { "node": ">=24 <25" },
+  "scripts": {
+    "start": "node expansao/rede/server.cjs",
+    "test": "node expansao/testar-especiais-ryu.cjs && node expansao/rede/testar-rede.cjs"
+  },
+  "dependencies": { "faye-websocket": "0.11.4" },
+  "overrides": {
+    "websocket-driver": "0.7.5",
+    "websocket-extensions": "0.1.4",
+    "http-parser-js": "0.5.10",
+    "safe-buffer": "5.1.2"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "character_id": 0,
+  "character_ram": "0xff87df",
+  "player_base_ram": "0xff844e",
+  "serialized_ram_offset": "0x3d346",
+  "byte_lane_xor": 1,
+  "character_id_crosscheck": {
+    "tested_characters": 16,
+    "ids": [
+      0,
+      1,
+      2,
+      3,
+      13,
+      14,
+      10,
+      9,
+      4,
+      5,
+      6,
+      7,
+      12,
+      15,
+      11,
+      8
+    ]
+  },
+  "rom_opcode_matches_running_core_bytes": 3670016,
+  "input_dispatch": {
+    "table": "0x7b0b4",
+    "entry": "0x7f862",
+    "index": 0,
+    "table_read_view": "decoded_PC_relative"
+  },
+  "hadouken": {
+    "entry": "0x7fd6e",
+    "state_byte_ram": "0xff84e2",
+    "timer_byte_ram": "0xff84e3",
+    "jump_table": "0x7fd7c",
+    "jump_targets": [
+      "0x7fd84",
+      "0x7fda0",
+      "0x7fdbe",
+      "0x7fdf2"
+    ],
+    "observed_state_sequence": [
+      0,
+      2,
+      4,
+      6,
+      0
+    ],
+    "commit_code": "0x7fea8",
+    "committed_action": 12,
+    "confirmed_in_isolated_game": true
+  },
+  "other_recognizers_candidates": {
+    "tatsumaki": "0x7f8b8",
+    "shoryuken": "0x7fa4a",
+    "red_hadouken": "0x7fba8",
+    "super": "0x7fed2"
+  },
+  "animation": {
+    "dispatch": "0x5246",
+    "character_table_data_view": "0x100000",
+    "ryu_entry": "0x10ff12",
+    "sequence_pointer_player_offset": "0x1a",
+    "frame_fields_player_offsets": [
+      "0x18",
+      "0x14"
+    ],
+    "status": "static linkage decoded; complete animation grammar not reconstructed"
+  },
+  "limits": [
+    "No instruction-by-instruction CPU trace was recorded.",
+    "Other move names are candidates, not independently executed move confirmations.",
+    "Automatic Ghidra exports contain failures; manual blocks and runtime observations are authoritative for this report."
+  ]
+}

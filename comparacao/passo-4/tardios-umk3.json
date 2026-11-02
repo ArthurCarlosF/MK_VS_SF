@@ -1,0 +1,381 @@
+{
+  "cases": [
+    {
+      "id": "airVertical_lp_late",
+      "setup": [
+        {
+          "frames": 100,
+          "p1": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 12,
+          "p1": {}
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "up": true,
+            "x": 0
+          }
+        },
+        {
+          "frames": 24,
+          "p1": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              0
+            ]
+          }
+        },
+        {
+          "frames": 100,
+          "p1": {}
+        }
+      ],
+      "meta": {
+        "button": 0,
+        "posture": "airVertical",
+        "context": "airLate",
+        "label": "lp"
+      }
+    },
+    {
+      "id": "airForward_lp_late",
+      "setup": [
+        {
+          "frames": 3,
+          "p1": {
+            "up": true,
+            "x": 1
+          }
+        },
+        {
+          "frames": 24,
+          "p1": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              0
+            ]
+          }
+        },
+        {
+          "frames": 100,
+          "p1": {}
+        }
+      ],
+      "meta": {
+        "button": 0,
+        "posture": "airForward",
+        "context": "airLate",
+        "label": "lp"
+      }
+    },
+    {
+      "id": "airVertical_hp_late",
+      "setup": [
+        {
+          "frames": 100,
+          "p1": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 12,
+          "p1": {}
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "up": true,
+            "x": 0
+          }
+        },
+        {
+          "frames": 24,
+          "p1": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              1
+            ]
+          }
+        },
+        {
+          "frames": 100,
+          "p1": {}
+        }
+      ],
+      "meta": {
+        "button": 1,
+        "posture": "airVertical",
+        "context": "airLate",
+        "label": "hp"
+      }
+    },
+    {
+      "id": "airForward_hp_late",
+      "setup": [
+        {
+          "frames": 3,
+          "p1": {
+            "up": true,
+            "x": 1
+          }
+        },
+        {
+          "frames": 24,
+          "p1": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              1
+            ]
+          }
+        },
+        {
+          "frames": 100,
+          "p1": {}
+        }
+      ],
+      "meta": {
+        "button": 1,
+        "posture": "airForward",
+        "context": "airLate",
+        "label": "hp"
+      }
+    },
+    {
+      "id": "airVertical_hk_late",
+      "setup": [
+        {
+          "frames": 100,
+          "p1": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 12,
+          "p1": {}
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "up": true,
+            "x": 0
+          }
+        },
+        {
+          "frames": 24,
+          "p1": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              8
+            ]
+          }
+        },
+        {
+          "frames": 100,
+          "p1": {}
+        }
+      ],
+      "meta": {
+        "button": 8,
+        "posture": "airVertical",
+        "context": "airLate",
+        "label": "hk"
+      }
+    },
+    {
+      "id": "airForward_hk_late",
+      "setup": [
+        {
+          "frames": 3,
+          "p1": {
+            "up": true,
+            "x": 1
+          }
+        },
+        {
+          "frames": 24,
+          "p1": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              8
+            ]
+          }
+        },
+        {
+          "frames": 100,
+          "p1": {}
+        }
+      ],
+      "meta": {
+        "button": 8,
+        "posture": "airForward",
+        "context": "airLate",
+        "label": "hk"
+      }
+    },
+    {
+      "id": "airVertical_lk_late",
+      "setup": [
+        {
+          "frames": 100,
+          "p1": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 12,
+          "p1": {}
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "up": true,
+            "x": 0
+          }
+        },
+        {
+          "frames": 24,
+          "p1": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              9
+            ]
+          }
+        },
+        {
+          "frames": 100,
+          "p1": {}
+        }
+      ],
+      "meta": {
+        "button": 9,
+        "posture": "airVertical",
+        "context": "airLate",
+        "label": "lk"
+      }
+    },
+    {
+      "id": "airForward_lk_late",
+      "setup": [
+        {
+          "frames": 3,
+          "p1": {
+            "up": true,
+            "x": 1
+          }
+        },
+        {
+          "frames": 24,
+          "p1": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              9
+            ]
+          }
+        },
+        {
+          "frames": 100,
+          "p1": {}
+        }
+      ],
+      "meta": {
+        "button": 9,
+        "posture": "airForward",
+        "context": "airLate",
+        "label": "lk"
+      }
+    },
+    {
+      "id": "back_hk_contact_far",
+      "setup": [
+        {
+          "frames": 32,
+          "p1": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 12,
+          "p1": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              8
+            ],
+            "x": -1
+          }
+        },
+        {
+          "frames": 100,
+          "p1": {}
+        }
+      ],
+      "meta": {
+        "button": 8,
+        "posture": "stand",
+        "context": "directionContact",
+        "direction": -1
+      }
+    }
+  ],
+  "checkpoints": [
+    0,
+    2,
+    5,
+    8,
+    12,
+    20,
+    32,
+    48,
+    64,
+    84,
+    100
+  ]
+}

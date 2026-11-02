@@ -1,0 +1,55 @@
+PEDIDO INTEGRAL AUTORIZADO — 02/11/2026
+
+O usuário pediu o jogo completo, não apenas o protótipo nem o módulo de rede.
+Não marcar o projeto concluído enquanto persistirem pendências do escopo.
+
+FIDELIDADE
+Cada personagem mantém as mecânicas e o repertório do seu próprio jogo.
+Referências atuais: UMK3 arcade 1.2 e Super Street Fighter II Turbo americano.
+As adequações servem à compatibilidade entre universos e ao combate com vários
+participantes. Não adicionar golpes ou finalizações inéditas aos personagens SF.
+
+ELENCO, APRESENTAÇÃO E MODOS
+Todos os personagens, cenários, animações, efeitos, sons, músicas e locuções.
+Definir e cobrir também os personagens secretos/chefes além dos 38 retratos.
+Desafio de destruir carros com arte e comportamento fiel à referência apropriada.
+Versus, treino, adversário controlado pelo jogo, campanha e finais ainda precisam
+do fechamento correspondente no roteiro. Elenco com retrato não equivale a elenco
+jogável. Recurso nativo capturado não equivale a personagem integrado ou calibrado.
+
+FINALIZAÇÕES
+O usuário confirmou que finalizações são APENAS para os personagens de MK.
+Exigiu fatalities, babalities, animalities e brutalities para todos os personagens
+MK que as possuam. As finalizações nativas e as finalizações de cenário precisam
+ser medidas, integradas e testadas; referências arcade/console têm diferenças.
+O usuário resolveu a diferença de versões: MANTER UMK3 ARCADE FIEL. O conjunto
+de finalizações é o da referência arcade, sem importar Brutalities do console.
+Preservar identidade dos personagens SF também nas adaptações como vítimas.
+
+REDE LOCAL
+Todos simultâneos, cada jogador no próprio PC/celular pelo navegador.
+Sala criada pelo anfitrião; entrada e espera de vários participantes antes de
+iniciar; escolha individual, prontidão, partida sincronizada e nova partida.
+Teclado, manete ou botões na tela; zoom moderado por participantes vivos,
+retornando ao normal quando restarem dois.
+Implementação 8.1 instalada e testada. O usuário confirmou em 02/11 que a página
+abriu em outro aparelho na rede. Combate físico em vários aparelhos/manetes ainda
+precisa de validação; mapeamento simulado não é teste físico de controle.
+
+GITHUB
+Destino explícito: https://github.com/ArthurCarlosF/MK_VS_SF.git
+O usuário pediu commit/envio de tudo que foi feito QUANDO TERMINAR o projeto.
+Repositório conferido e clonado vazio em:
+C:/Users/Pichau/Documents/ChatGPT/ALL_FIGHT/repositorio-github
+Nenhum commit criado e nenhum arquivo publicado nesta etapa.
+Preparar fontes, recursos necessários e instruções de execução; excluir perfis
+de navegador, credenciais, dados pessoais e arquivos temporários da publicação.
+Não tratar preparação do repositório como conclusão do pedido ou autorização
+para publicar uma versão incompleta como se estivesse concluída.
+
+PENDÊNCIAS JÁ CONHECIDAS
+45 divergências SF do passo 7; recuperação/bloqueio dos combos MK;
+cancelamentos por braço; validação cruzada; repertórios completos de especiais,
+supers e finalizações; demais lutadores e cenários; áudio; campanha; apresentação,
+empacotamento e aprovação final. Só Ryu e Scorpion têm combate integrado agora.
+O roteiro principal continua com uma única sequência de 1 a 15.

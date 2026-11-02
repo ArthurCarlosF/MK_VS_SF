@@ -1,0 +1,7 @@
+A primeira execução de preparar.py tinha quadros aéreos MP SF ausentes.
+O log preparar.log é histórico, anterior às revisões de captura.
+Revisão final: 220 recursos Scorpion, 289 Ryu; 49/66 clipes incluindo movimento;
+nenhum quadro marcado como unmapped no repertório utilizado.
+A variante HK longe de Ryu conserva damageMeasured=false; o dano foi inferido
+dos mesmos parâmetros de ataque ROM observados em acertos de outras variantes.
+Ver recursos.json, repertorio.json e o relatório para a evidência final.

@@ -1,0 +1,92 @@
+PASSO 4 — REPERTÓRIO DE GOLPES BÁSICOS — GOLPES 4.0
+26/10/2026
+
+IMPLEMENTADO
+Scorpion: socos alto/baixo, chutes alto/baixo; golpes de perto, cotovelada,
+joelhadas, uppercut, rasteira, chute giratório, ataques agachados e aéreos.
+Ryu: socos e chutes leves, médios e fortes; variantes perto/longe,
+agachados, salto vertical e salto direcional. Agarrões por soco e chute,
+para frente e para trás. Os atalhos de especial anteriores permanecem.
+A seleção da variante usa dados do personagem e distância ao alvo.
+Animações e trajetórias nativas dos agarrões substituem o agarrão provisório.
+No confronto entre universos, a vítima mantém seus próprios sprites;
+a combinação da reação com o agarrão do outro jogo é adaptação do crossover.
+
+CONTROLES
+1P: setas para mover/pular/agachar.
+Scorpion: J soco baixo; N soco alto; K chute alto; vírgula chute baixo.
+Ryu: J/N/M socos leve/médio/forte; K/vírgula/ponto chutes leve/médio/forte.
+2P: W A S D para mover/pular/agachar.
+Scorpion: F soco baixo; C soco alto; G chute alto; Z chute baixo.
+Ryu: F/C/X socos leve/médio/forte; G/Z/Q chutes leve/médio/forte.
+Os botões na tela mostram os golpes disponíveis para cada personagem.
+Controle físico mantém os atalhos anteriores; os seis ataques completos
+estão disponíveis no teclado e nos botões na tela, sem nova configuração de pad.
+
+Scorpion: L/H bloqueio; Shift direito/V + frente corrida.
+Lança: trás, soltar, trás + soco baixo. Teleporte: baixo, trás + soco alto.
+Ryu: segurar para trás defende; baixo + trás protege golpes baixos.
+Agarrão MK: soco baixo bem perto; vítima segurando para trás evita o agarrão.
+Agarrão SF: frente ou trás + soco médio/forte ou chute médio/forte bem perto.
+I/Y continuam como atalho de agarrão; U/T especial; O/B teleporte MK.
+
+EVIDÊNCIA
+Bateria principal: 68 casos MK e 108 SF, duas sessões isoladas por jogo.
+176 comparações de repetição idênticas nos campos numéricos registrados:
+posições, poses, orientação, vida, estados, caixas SF e entradas.
+Isso comprova repetibilidade da captura; não prova igualdade integral da arena.
+Capturas extras cobrem vítimas dos agarrões, contatos aéreos, alcance e danos.
+Dados e ferramentas: comparacao/passo-4. O repertório contém aliases e variantes
+que compartilham animações: 28 registros MK e 44 SF, não 72 golpes distintos.
+Nenhum quadro do repertório usa idle como substituto de sprite ausente.
+A captura CPS2 de soco médio aéreo precisou incluir os códigos de tile acima
+de 0x8000; cinco poses desse golpe agora foram decodificadas corretamente.
+A paleta da vítima SF é remapeada à roupa do Ryu do projeto.
+
+CORREÇÕES DE MEDIÇÕES ANTERIORES
+O mapeamento nativo MK distingue LP e HP. Teleporte usa HP, não HK;
+a ajuda e os testes agora usam N/C (soco alto), mantendo o atalho O/B.
+A nova fixture espelhada de Ryu mostra LK em pé bloqueável por ambas
+as guardas. A classificação anterior de golpe baixo foi corrigida para médio.
+Socos rápidos de Scorpion: os 40 casos de contato continuam passando.
+Os testes antigos que punham o alvo dentro da nova distância de agarrão
+agora usam distância de soco, para continuar verificando socos em vez de agarrões.
+
+LIMITES EXPLÍCITOS
+Esta etapa completa o repertório básico disponível, não a fidelidade final.
+As caixas MK dos novos golpes continuam aproximadas. Distâncias de mudança
+perto/longe usam limites observados, ainda sem reconstruir cada comparação CPU.
+Clipes perto/do agarrão podem conter pausas do contato original. Fases,
+repetições de todas as forças, cancelamentos, hitstop, hitstun, empurrão,
+RNG/redução de dano e reações cruzadas exigem calibração posterior.
+O dano do HK longe de Ryu foi inferido de acertos com os mesmos bytes nativos
+de parâmetros de ataque; o contato dessa variante não foi isolado diretamente.
+Isso fica marcado em damageMeasured=false e damageEvidence no repertório.
+O agendamento interno completo de Turbo permanece pendente.
+Não foram recuperados os códigos-fonte originais completos. Nesta etapa,
+as evidências vieram das ROMs/tabelas e da execução emulada local; o registro
+REA anterior continua sendo inventário/proveniência, sem nova análise alegada.
+
+COMO TESTAR
+Reabra Abrir arena.cmd ou recarregue a arena com Ctrl+F5.
+Confirme a identificação “Revisão: golpes 4.0.” abaixo dos controles.
+Use Treino livre, experimente as forças parado, agachado e pulando;
+compare longe/perto e teste os agarrões dos dois lados.
+Próximo passo: calibrar fases e contato dos golpes já disponíveis, quadro
+a quadro, começando por preparação, atividade e recuperação.
+
+VERIFICAÇÕES FINAIS
+462 execuções de casos nativos preservadas, incluindo capturas auxiliares.
+176 pares principais repetem exatamente os campos numéricos registrados.
+9 grupos de testes de repertório aprovados, exercitando 51 registros normais
+sem agarrão, mais famílias de agarrão, alvos, direções e cancelamento/reset/KO.
+23 verificações da interface: teclas reais nas duas ordens de jogadores,
+16.440 renderizações de quadros, ausência de erros e recursos ausentes.
+Regressões: combate 39; calibração 7; comandos 17; movimento 20;
+40 casos nativos de socos rápidos + confrontos cruzados e snapshot;
+interface combate 11, comandos 3, movimento 5; movimento anterior 9.
+Sondagem adicional: todos os novos registros normais no chão acertam em
+pelo menos uma distância testada. Isso não calibra o alcance nativo exato.
+Revisão congelada em comparacao/passo-4/modelo-4.0 e evidências seladas
+por SHA-256 em integridade-saida.json. Entradas ROM/core comparadas com
+o manifesto anterior, sem alterações. Backups anteriores foram preservados.

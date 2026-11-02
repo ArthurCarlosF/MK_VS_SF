@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "tests": 3,
+  "passed": [
+    "Holding J and operating-system repeat produce one punch",
+    "Actual browser key taps trigger the native alternate punch sequence",
+    "New decoded poses load and render without browser errors"
+  ]
+}

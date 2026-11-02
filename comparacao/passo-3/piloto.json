@@ -1,0 +1,143 @@
+{
+  "cases": [
+    {
+      "id": "probe_None",
+      "segments": [
+        {
+          "frames": 30,
+          "p1": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 35,
+          "p1": {}
+        }
+      ],
+      "visual": true
+    },
+    {
+      "id": "probe_0",
+      "segments": [
+        {
+          "frames": 30,
+          "p1": {
+            "x": 1,
+            "raw": [
+              0
+            ]
+          }
+        },
+        {
+          "frames": 35,
+          "p1": {}
+        }
+      ],
+      "visual": true
+    },
+    {
+      "id": "probe_1",
+      "segments": [
+        {
+          "frames": 30,
+          "p1": {
+            "x": 1,
+            "raw": [
+              1
+            ]
+          }
+        },
+        {
+          "frames": 35,
+          "p1": {}
+        }
+      ],
+      "visual": true
+    },
+    {
+      "id": "probe_8",
+      "segments": [
+        {
+          "frames": 30,
+          "p1": {
+            "x": 1,
+            "raw": [
+              8
+            ]
+          }
+        },
+        {
+          "frames": 35,
+          "p1": {}
+        }
+      ],
+      "visual": true
+    },
+    {
+      "id": "probe_9",
+      "segments": [
+        {
+          "frames": 30,
+          "p1": {
+            "x": 1,
+            "raw": [
+              9
+            ]
+          }
+        },
+        {
+          "frames": 35,
+          "p1": {}
+        }
+      ],
+      "visual": true
+    },
+    {
+      "id": "probe_10",
+      "segments": [
+        {
+          "frames": 30,
+          "p1": {
+            "x": 1,
+            "raw": [
+              10
+            ]
+          }
+        },
+        {
+          "frames": 35,
+          "p1": {}
+        }
+      ],
+      "visual": true
+    },
+    {
+      "id": "probe_11",
+      "segments": [
+        {
+          "frames": 30,
+          "p1": {
+            "x": 1,
+            "raw": [
+              11
+            ]
+          }
+        },
+        {
+          "frames": 35,
+          "p1": {}
+        }
+      ],
+      "visual": true
+    }
+  ],
+  "checkpoints": [
+    0,
+    3,
+    7,
+    15,
+    29,
+    40
+  ],
+  "repetitions": 1
+}

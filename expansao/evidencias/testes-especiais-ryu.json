@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "groups": [
+    "Seis variantes usam sprites existentes e referências de reação válidas",
+    "Trajetórias próprias, espelhadas e com retorno ao chão sem teletransporte",
+    "Comandos direcionais nas seis forças e nos dois lados da tela",
+    "Medidor cresce uma vez por execução, inclusive sem contato, até o limite",
+    "Contato contra os dois universos e ataques simultâneos de oito participantes são finitos",
+    "Interromper movimento aéreo não deixa o lutador suspenso ou com coordenadas inválidas",
+    "Fases ascendentes têm dano e reação próprios; rotações não reutilizam um único contato",
+    "O desafio do carro respeita o dano de cada fase do especial"
+  ],
+  "limits": [
+    "Random damage, native turbo scheduling and recognizer timers require further comparison.",
+    "Terminal guard reaction is measured at the final contact, not at each rotation.",
+    "Air Tatsumaki, red Hadouken and super are not included in this pack.",
+    "Cross-universe victims use their own native reaction artwork."
+  ]
+}

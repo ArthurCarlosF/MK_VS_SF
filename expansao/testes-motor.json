@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "groups": 11,
+  "passed": [
+    "2 jogadores: igualdade com a versão anterior em entradas determinísticas",
+    "3 a 16 participantes: movimento, ataques e estados finitos sem falhas",
+    "KO de um jogador não encerra a luta enquanto restam vários oponentes",
+    "Alvo de teleporte é um oponente vivo e alvo de agarrão permanece fixado",
+    "Equipes excluem aliados de alvos e contam vitória em conjunto",
+    "Combate simultâneo: pausa de impacto não congela terceiros e guarda exige frente",
+    "Um ataque pode atingir vários alvos, uma vez por alvo e sem reviver eliminados",
+    "Carro recebe ataques dos dois universos sem puxão, dano em aliados ou pontos infinitos",
+    "Projéteis e lança acertam o carro; teleporte não desloca o objeto",
+    "Carro com 8 participantes e fim de tempo",
+    "Configuração validada e campos adicionais não escritos nos perfis dos jogos"
+  ]
+}

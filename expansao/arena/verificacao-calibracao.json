@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "passed": [
+    "Eight ground actions match current native phase duration and pose pointers",
+    "Current Ryu ground attack rectangles match original ROM bytes on unpaused samples",
+    "Damage and MK guarded loss retain native health scale",
+    "New mirror fixture corrects standing Ryu LK to mid: both guards block",
+    "Ryu uses three native vulnerability boxes in standing guard baseline",
+    "Calibrated Ryu jab recovers before Scorpion jab and does not leave hanging frames",
+    "Ryu proximity guard stops retreat while an incoming nearby move starts"
+  ]
+}

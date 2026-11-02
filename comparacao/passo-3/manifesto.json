@@ -1,0 +1,208 @@
+{
+  "created_at": "2026-10-25T19:33:06.269526+00:00",
+  "revision": "movimento-3.0",
+  "source_inputs": [
+    {
+      "path": "C:\\Users\\Pichau\\Documents\\Codex\\2026-10-22\\ve\\work\\selection-assets\\core\\mame2003_plus_libretro.dll",
+      "sha256": "30dc4db74ae1b93fd238c6107432596944bce34deb880ed11c204f8d21037174",
+      "unchanged_since_step_1": true
+    },
+    {
+      "path": "C:\\Users\\Pichau\\Documents\\Codex\\2026-10-22\\ve\\work\\selection-assets\\roms\\umk3.zip",
+      "sha256": "318f765de3177e1ff5eaa13bf431be6967f1c98350e37e3e0a26d5d175315488",
+      "unchanged_since_step_1": true
+    },
+    {
+      "path": "C:\\Users\\Pichau\\Documents\\Codex\\2026-10-22\\ve\\work\\selection-assets\\roms\\ssf2tu.zip",
+      "sha256": "f9e247b6b03bb7221860e73c62cc004704f0c7c9ea5298096b1800c80ab68774",
+      "unchanged_since_step_1": true
+    }
+  ],
+  "suites": {
+    "casos.json": "dd7a0b187356658d9549c261b4bc7a05f5dc7c77ad9dd318df4b10f26a0b06e7",
+    "extracao.json": "909898ce1b041f91677c6fff545662c29dc87b7c3736a3c0e74ecc5d996c9444",
+    "energia.json": "4f3d624a88230096415dc12a3884568adf2a75ead09c45b1da702fd97553a997",
+    "piloto.json": "1762c2526d22e5489c0ca209e51f44b335d266d7efe6ff283bee15802a6677d8"
+  },
+  "source_clocks": {
+    "umk3": 53.20494842529297,
+    "ssf2tu": 59.633331298828125
+  },
+  "cross_game_policies": {
+    "world": 1100,
+    "edge": 40,
+    "viewport": 480,
+    "camera_margin": 50,
+    "camera_speed": 430,
+    "mixed_minimum_distance": 51.5,
+    "mixed_maximum_distance": 343
+  },
+  "limits_report": "D:\\projetos\\Mortal Kombat vs Street Fighter\\comparacao\\passo-3\\Resultado do passo 3.txt",
+  "model_after": {
+    "arena\\arena.js": "adbf3c2f9567640a12ad45bd45244c4ccd7ccb79ad9bbc358db28beb2d141df9",
+    "arena\\assets.js": "7ef2dcb4025cc9848fb66ab26542e54cf006bf9300233b2dc5b6f425ab6e1dbc",
+    "arena\\calibration.js": "237b7586d3782017750ad15126139c3563eec5a842549f4903f42a3aad8b33f1",
+    "arena\\collisions.js": "8131a1027be09565c57a374511d6adf6555a1ddfdd088deaaa3d8af29be9389a",
+    "arena\\combat-data.js": "7b017b676f2a7bee7ceb08328f297d8e2c6047820930a0d8949e8fa2030c157e",
+    "arena\\commands.js": "10a99d678b1697488c2638e0bd912825180b9f887f1608fcee91de45663d07f1",
+    "arena\\engine.js": "fa556560bccb2ab993fc609695c9ec6cabc16aa319e26c09f9c115245aa26b22",
+    "arena\\fight-engine.js": "dc02b2dba21553eb9936390352649ce3ba12b72cca19a0926078b10f6fe234d8",
+    "arena\\presentation.js": "748f30198ba1cc84585ca84f414089b4878cc92f797657dd132354d1c8ff7e43"
+  },
+  "no_new_rea_execution_claimed": true,
+  "original_game_files_modified": false,
+  "tooling": {
+    "comparacao\\passo-3\\ferramentas\\capturar-extracao.py": "220f8aa5249557255e66785398a4a31baa34ebe542899e44b783750b19480e9e",
+    "comparacao\\passo-3\\ferramentas\\capturar.py": "476aa51a5fcd5868c3771fb6fc910f9691fec205bffc43db368f64daa406d778",
+    "comparacao\\passo-3\\ferramentas\\preparar.py": "3b9009853026f25f27a6ef210d422f610173330bd9a573c0dad28bb14d8d3793"
+  },
+  "checks": {
+    "verificacao-movimento.json": {
+      "status": "PASS",
+      "date": "2026-10-25T19:33:45.383Z",
+      "tests": 20,
+      "passed": [
+        "34 original movement cases reproduce across two fresh processes per game",
+        "Profiles keep separate native sampling clocks, SF scale, and source-specific push widths",
+        "Source Scorpion walk/run and all six isolated jump curves match recorded positions/heights",
+        "Ryu sampled walk stays within one native movement update across 12/24-sample trials",
+        "Releasing walk retains the measured two-sample delay then stops",
+        "Running jump selects its own measured transition and keeps the run resource",
+        "Running is only Scorpion forward + run; Ryu never inherits it",
+        "Run consumes 48-unit energy, exhausts, then recovers with a delay",
+        "Backward/neutral/guard + run do not spend energy",
+        "Horizontal input does not steer a jump after takeoff",
+        "Backward jumps select separate native pose/trajectory data",
+        "Air attacks preserve the jump trajectory and ground at zero",
+        "Walking pushes stationary bodies; neither can overlap or move through a grounded opponent",
+        "Both player orders cross in the air and face opponent after landing",
+        "Maximum separation stops retreat without dragging stationary player",
+        "Ryu mirror retains scaled maximum source separation without moving idle opponent",
+        "Stage corners prevent ground escape and do not pin aerial crossover into the floor",
+        "Shared dead-zone camera rests, tracks edge motion and remains inside the stage",
+        "Camera step does not depend on number of fixed simulation calls",
+        "A third character registration inherits motion profile without name branches"
+      ]
+    },
+    "verificacao-interface-movimento.json": {
+      "status": "PASS",
+      "tests": 5,
+      "passed": [
+        "Visible build identifies movement revision 3.0",
+        "Right Shift + forward runs and shows MK energy; Ryu has no run bar",
+        "Backward jumps render native poses facing both ways without missing assets",
+        "Player 2 V runs Scorpion in reversed matchup",
+        "Extra run control and energy bar fit narrow viewport"
+      ]
+    },
+    "verificacao-combate.json": {
+      "status": "PASS",
+      "date": "2026-10-25T19:33:46.894Z",
+      "passed": [
+        "Intro prohibits damage; transitions into fight",
+        "Each fighter keeps a separate animation clock",
+        "Standing punch hits once per press, not every active tick",
+        "Whiff does not damage opponent",
+        "Ryu blocks by holding back; block button alone does not block",
+        "Scorpion requires block button; walking back alone takes damage",
+        "Low attack defeats standing guard; crouching back blocks it",
+        "Overhead requires standing guard",
+        "Crouch hurtbox is shorter and air hurtbox follows vertical position",
+        "Held up repeats jumps after landing, as observed in both originals",
+        "Directional jump crosses the opponent and changes facing on landing",
+        "Air and crouch inputs choose their distinct attack data",
+        "Hitstun prevents actions until recovery",
+        "Simultaneous active hits trade without player order advantage",
+        "Agarr\u00c3\u0192\u00c2\u00a3o bypasses guard and causes knockdown with wakeup protection",
+        "Distant throw misses",
+        "Projectile appears then damages; one instance per owner",
+        "Projectile blocking applies chip without full damage",
+        "Opposing projectiles cancel each other",
+        "Spear originates at the animated hand in both directions",
+        "Rope disappears when the spear action is interrupted",
+        "Spear pulls on hit",
+        "Spear hold, continuous fast pull and recovery work facing both ways",
+        "Guarded spear never restrains or pulls",
+        "Interrupting Scorpion releases victim and removes tether",
+        "Round reset clears spear restraints",
+        "Spear reaches maximum arena separation in either direction",
+        "Full-range miss expires and releases Scorpion instead of locking forever",
+        "Spear still cancels if Scorpion is interrupted during extended flight",
+        "Teleport changes sides and orientation",
+        "Hadouken directional command works facing right and left",
+        "Double-back spear and down-back teleport commands are distinct",
+        "Failed normal during recovery is discarded rather than queued for a later attack",
+        "Connected punch can cancel into special",
+        "KO awards round then advances; two wins end match",
+        "Timeout and double KO produce explicit result",
+        "Training has no timer loss and restores KO health",
+        "Seeded mixed combat stays finite and inside arena",
+        "Character registration reuses engine without Ryu/Scorpion branches"
+      ]
+    },
+    "verificacao-calibracao.json": {
+      "status": "PASS",
+      "passed": [
+        "Eight ground actions match measured duration and every native pose pointer",
+        "Ryu attack rectangles match original ROM bytes at each sampled active phase",
+        "Damage and MK guarded loss retain native health scale",
+        "Ryu standing kick low defense is backed by native life measurements",
+        "Ryu uses three native vulnerability boxes in standing guard baseline",
+        "Calibrated Ryu jab recovers before Scorpion jab and does not leave hanging frames",
+        "Ryu proximity guard stops retreat while an incoming nearby move starts"
+      ]
+    },
+    "verificacao-comandos.json": {
+      "status": "PASS",
+      "date": "2026-10-25T19:31:32.442Z",
+      "tests": 17,
+      "passed": [
+        "Both native batteries repeat exactly across fresh sessions (220 case comparisons)",
+        "Holding any mapped normal never auto-repeats (both characters, standing/crouched)",
+        "MK early re-press branches into the native alternate punch",
+        "MK rapid presses alternate the returning arm; holding button does not",
+        "MK presses in the measured closed jab window do not launch a later punch",
+        "Ryu re-presses light punch before full recovery in standing and crouched stance",
+        "An early different normal is discarded, never replayed after recovery",
+        "Simultaneous punch/kick resolves to punch and cannot leave a queued kick",
+        "MK block prevents normal attack; holding back still permits Ryu punch",
+        "Up held repeats jumps; release stops new jumps",
+        "SF Hadouken works on pressing or releasing punch in either facing",
+        "SF does not create normal punches on release",
+        "SF motion without diagonal and stale diagonal are rejected",
+        "Native fine-window battery establishes diagonal expiry and mandatory diagonal",
+        "Measured MK teleport is down-back + kick; down-back punch stays normal",
+        "Both native input policies can register a third character without engine branches",
+        "Pending jab repeat cannot survive a hit interruption or round reset"
+      ]
+    },
+    "verificacao-interface-combate.json": {
+      "status": "PASS",
+      "date": "2026-10-25T19:33:44.111Z",
+      "passed": [
+        "Selection opens combat without loading original games",
+        "Simultaneous independent movement",
+        "Keyboard jump and crouch select native sprites",
+        "Keyboard attack applies damage and updates life bar",
+        "Pause and lost focus freeze safely and release buttons",
+        "Training mode resets match and disables timer",
+        "Onscreen action releases outside button",
+        "Every imported pose renders without missing assets",
+        "Reversed matchup preserves character and scale ownership",
+        "Controls and health bars fit small viewport",
+        "Unimplemented characters cannot start combat"
+      ],
+      "errors": []
+    },
+    "verificacao-interface-comandos.json": {
+      "status": "PASS",
+      "tests": 3,
+      "passed": [
+        "Holding J and operating-system repeat produce one punch",
+        "Actual browser key taps trigger the native alternate punch sequence",
+        "New decoded poses load and render without browser errors"
+      ]
+    }
+  },
+  "rapid_punch_contact_regression": "comparacao/passo-2/revisao-socos/verificacao-revisao.json (rerun in step 3)"
+}

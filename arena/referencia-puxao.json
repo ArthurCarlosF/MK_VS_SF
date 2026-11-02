@@ -1,0 +1,96 @@
+{
+  "source": "engenharia-reversa/animacoes/scorpion/medicao-bruta.json",
+  "clip": "lanca",
+  "fps": 53.20494842529297,
+  "observed_pull_samples": [
+    {
+      "sample": 66,
+      "delta_x": -8.0
+    },
+    {
+      "sample": 67,
+      "delta_x": -8.0
+    },
+    {
+      "sample": 68,
+      "delta_x": -8.0
+    },
+    {
+      "sample": 69,
+      "delta_x": -8.0
+    },
+    {
+      "sample": 70,
+      "delta_x": -8.0
+    },
+    {
+      "sample": 71,
+      "delta_x": -8.0
+    },
+    {
+      "sample": 72,
+      "delta_x": -8.0
+    },
+    {
+      "sample": 73,
+      "delta_x": -8.0
+    },
+    {
+      "sample": 74,
+      "delta_x": -8.0
+    },
+    {
+      "sample": 75,
+      "delta_x": -8.0
+    },
+    {
+      "sample": 76,
+      "delta_x": -8.0
+    },
+    {
+      "sample": 77,
+      "delta_x": -8.0
+    },
+    {
+      "sample": 78,
+      "delta_x": -8.0
+    },
+    {
+      "sample": 79,
+      "delta_x": -8.0
+    },
+    {
+      "sample": 80,
+      "delta_x": -8.0
+    },
+    {
+      "sample": 81,
+      "delta_x": -8.0
+    },
+    {
+      "sample": 82,
+      "delta_x": -8.0
+    },
+    {
+      "sample": 83,
+      "delta_x": -8.0
+    },
+    {
+      "sample": 84,
+      "delta_x": -8.0
+    },
+    {
+      "sample": 85,
+      "delta_x": -8.0
+    },
+    {
+      "sample": 86,
+      "delta_x": -8.0
+    }
+  ],
+  "native_step": 8,
+  "reference_speed": 425.63958740234375,
+  "prototype_hold_seconds": 0.18,
+  "prototype_settle_stun_seconds": 0.4,
+  "limits": "Speed based on original samples; hold, cross-game reaction and socket timing remain calibration."
+}

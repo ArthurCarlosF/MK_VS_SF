@@ -1,0 +1,521 @@
+{
+  "cases": [
+    {
+      "id": "airVertical_lp_late",
+      "setup": [
+        {
+          "frames": 60,
+          "p1": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 12,
+          "p1": {}
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "up": true,
+            "x": 0
+          }
+        },
+        {
+          "frames": 24,
+          "p1": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              0
+            ]
+          }
+        },
+        {
+          "frames": 100,
+          "p1": {}
+        }
+      ],
+      "meta": {
+        "button": 0,
+        "posture": "airVertical",
+        "context": "airLate",
+        "label": "lp"
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "airForward_lp_late",
+      "setup": [
+        {
+          "frames": 3,
+          "p1": {
+            "up": true,
+            "x": 1
+          }
+        },
+        {
+          "frames": 24,
+          "p1": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              0
+            ]
+          }
+        },
+        {
+          "frames": 100,
+          "p1": {}
+        }
+      ],
+      "meta": {
+        "button": 0,
+        "posture": "airForward",
+        "context": "airLate",
+        "label": "lp"
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "airVertical_mp_late",
+      "setup": [
+        {
+          "frames": 60,
+          "p1": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 12,
+          "p1": {}
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "up": true,
+            "x": 0
+          }
+        },
+        {
+          "frames": 24,
+          "p1": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              8
+            ]
+          }
+        },
+        {
+          "frames": 100,
+          "p1": {}
+        }
+      ],
+      "meta": {
+        "button": 8,
+        "posture": "airVertical",
+        "context": "airLate",
+        "label": "mp"
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "airForward_mp_late",
+      "setup": [
+        {
+          "frames": 3,
+          "p1": {
+            "up": true,
+            "x": 1
+          }
+        },
+        {
+          "frames": 24,
+          "p1": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              8
+            ]
+          }
+        },
+        {
+          "frames": 100,
+          "p1": {}
+        }
+      ],
+      "meta": {
+        "button": 8,
+        "posture": "airForward",
+        "context": "airLate",
+        "label": "mp"
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "airVertical_hp_late",
+      "setup": [
+        {
+          "frames": 60,
+          "p1": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 12,
+          "p1": {}
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "up": true,
+            "x": 0
+          }
+        },
+        {
+          "frames": 24,
+          "p1": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              1
+            ]
+          }
+        },
+        {
+          "frames": 100,
+          "p1": {}
+        }
+      ],
+      "meta": {
+        "button": 1,
+        "posture": "airVertical",
+        "context": "airLate",
+        "label": "hp"
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "airForward_hp_late",
+      "setup": [
+        {
+          "frames": 3,
+          "p1": {
+            "up": true,
+            "x": 1
+          }
+        },
+        {
+          "frames": 24,
+          "p1": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              1
+            ]
+          }
+        },
+        {
+          "frames": 100,
+          "p1": {}
+        }
+      ],
+      "meta": {
+        "button": 1,
+        "posture": "airForward",
+        "context": "airLate",
+        "label": "hp"
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "airVertical_lk_late",
+      "setup": [
+        {
+          "frames": 60,
+          "p1": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 12,
+          "p1": {}
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "up": true,
+            "x": 0
+          }
+        },
+        {
+          "frames": 24,
+          "p1": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              9
+            ]
+          }
+        },
+        {
+          "frames": 100,
+          "p1": {}
+        }
+      ],
+      "meta": {
+        "button": 9,
+        "posture": "airVertical",
+        "context": "airLate",
+        "label": "lk"
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "airForward_lk_late",
+      "setup": [
+        {
+          "frames": 3,
+          "p1": {
+            "up": true,
+            "x": 1
+          }
+        },
+        {
+          "frames": 24,
+          "p1": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              9
+            ]
+          }
+        },
+        {
+          "frames": 100,
+          "p1": {}
+        }
+      ],
+      "meta": {
+        "button": 9,
+        "posture": "airForward",
+        "context": "airLate",
+        "label": "lk"
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "airVertical_mk_late",
+      "setup": [
+        {
+          "frames": 60,
+          "p1": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 12,
+          "p1": {}
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "up": true,
+            "x": 0
+          }
+        },
+        {
+          "frames": 24,
+          "p1": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              10
+            ]
+          }
+        },
+        {
+          "frames": 100,
+          "p1": {}
+        }
+      ],
+      "meta": {
+        "button": 10,
+        "posture": "airVertical",
+        "context": "airLate",
+        "label": "mk"
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "airForward_mk_late",
+      "setup": [
+        {
+          "frames": 3,
+          "p1": {
+            "up": true,
+            "x": 1
+          }
+        },
+        {
+          "frames": 24,
+          "p1": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              10
+            ]
+          }
+        },
+        {
+          "frames": 100,
+          "p1": {}
+        }
+      ],
+      "meta": {
+        "button": 10,
+        "posture": "airForward",
+        "context": "airLate",
+        "label": "mk"
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "airVertical_hk_late",
+      "setup": [
+        {
+          "frames": 60,
+          "p1": {
+            "x": 1
+          }
+        },
+        {
+          "frames": 12,
+          "p1": {}
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "up": true,
+            "x": 0
+          }
+        },
+        {
+          "frames": 24,
+          "p1": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              11
+            ]
+          }
+        },
+        {
+          "frames": 100,
+          "p1": {}
+        }
+      ],
+      "meta": {
+        "button": 11,
+        "posture": "airVertical",
+        "context": "airLate",
+        "label": "hk"
+      },
+      "all_video": false,
+      "visual": false
+    },
+    {
+      "id": "airForward_hk_late",
+      "setup": [
+        {
+          "frames": 3,
+          "p1": {
+            "up": true,
+            "x": 1
+          }
+        },
+        {
+          "frames": 24,
+          "p1": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              11
+            ]
+          }
+        },
+        {
+          "frames": 100,
+          "p1": {}
+        }
+      ],
+      "meta": {
+        "button": 11,
+        "posture": "airForward",
+        "context": "airLate",
+        "label": "hk"
+      },
+      "all_video": false,
+      "visual": false
+    }
+  ],
+  "checkpoints": []
+}

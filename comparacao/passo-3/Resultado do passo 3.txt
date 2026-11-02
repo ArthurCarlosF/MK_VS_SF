@@ -1,0 +1,116 @@
+PASSO 3 — MOVIMENTO E POSICIONAMENTO DOS DOIS PERSONAGENS
+Revisão movimento 3.0 — implementação em 25/10/2026.
+Referências capturadas em 23/10/2026; arquivos originais preservados.
+
+IMPLEMENTADO NA ARENA
+1. Caminhada para frente e para trás com velocidades/cadências separadas.
+2. Atraso observado de duas amostras ao começar/parar a caminhada.
+3. Corrida de Scorpion: frente + botão de corrida, animação nativa própria,
+   energia limitada e recuperação. Ryu não herda corrida.
+4. Pulo vertical, à frente e para trás, com curvas e poses próprias.
+5. Transição específica da corrida de Scorpion para o pulo à frente.
+6. Aterrissagem, pulos sucessivos ao segurar cima e direção fixada no salto.
+7. Golpes aéreos preservam o movimento do salto.
+8. Cruzar o adversário pelo ar, virar após aterrissar e resolver contato no chão.
+9. Ao se afastar até o limite, o jogador parado não é arrastado pelo outro.
+10. Empurrar corpos ao caminhar, cantos da arena e câmera comum com zona parada.
+11. Espaço vertical ampliado para não cortar a cabeça nos saltos altos.
+
+CONTROLES NOVOS
+Scorpion no 1P: segure Shift DIREITO + frente.
+Scorpion no 2P: segure V + frente.
+Controle: botão de índice 7 + frente; tela: botão Correr + frente.
+Uma barra amarela mostra a energia de corrida somente para Scorpion.
+Os demais controles e atalhos continuam disponíveis.
+F5 deve mostrar “Revisão: movimento 3.0.” na parte inferior da arena.
+
+MEDIÇÕES DOS ORIGINAIS
+34 roteiros por jogo, em duas sessões independentes: 136 execuções de casos.
+As repetições coincidiram nos dados registrados. Mais 22 execuções investigaram
+botões da corrida, curvas em espaço livre e energia: 158 casos no total.
+Roteiros incluem caminhada curta/longa, reversão, saída do agachamento, saltos,
+cruzamento nos dois sentidos, aproximação, afastamento, limites, cantos e corrida.
+Sem IA, sem alterar a RAM, sem enviar teclas às janelas do usuário.
+Saves/configurações de emulação de cada execução ficaram em diretórios próprios.
+
+Scorpion: caminhada 3,25 unidades/amostra à frente, 2,25 para trás, corrida 8.
+UMK3 medido a 53,204948 amostras/s. Energia encontrada em 0x1060a70: máximo 48;
+diminui na corrida e não no pulo comum, recuo, botão neutro ou guarda.
+Pulo vertical: ápice 95 unidades; o deslocamento no ar depende do tipo de pulo.
+Separação máxima observada: 306; separação em contato aproximadamente 63,
+com oscilações de subpixel devido à correção de corpos do original.
+
+Ryu: caminhada 3 unidades por atualização interna à frente e 2 para trás;
+a velocidade Turbo produz amostras de vídeo com um ou dois deslocamentos.
+Cadência observada a 59,633331 amostras/s, sem impor 60 Hz ao jogo.
+Separação máxima 304, contato 32 nas condições observadas.
+Escala SF da arena mantida em 1,25: aplicada também a movimento e alturas.
+
+RESULTADOS DA COMPARAÇÃO
+Nos ensaios isolados registrados de Scorpion, caminhadas 12/24 amostras,
+corrida curta e três curvas de salto coincidiram em posição/altura por amostra.
+As três curvas isoladas de Ryu coincidiram após a conversão de escala.
+Caminhadas curtas de Ryu ficaram com desvio máximo de 3,75 unidades da arena
+nas condições testadas. São resultados específicos dos ensaios, não prova de
+que todas as fases e velocidades do Turbo já foram reconstruídas.
+O relatório bruto compara também os demais roteiros e preserva os desvios.
+
+REGRAS EXPLÍCITAS DO CROSSOVER
+As duas engines originais têm mundos, larguras e câmeras diferentes.
+Uma única arena não pode usar dois limites de cenário independentes ao mesmo tempo.
+Mantivemos perfis de movimento por lutador e adotamos estas regras comuns:
+- Mundo de 1100 unidades; bordas em 40/1060; janela horizontal de 480.
+- Larguras de contato somadas: 31,5 de Scorpion e 20 de Ryu, total 51,5.
+- Separação máxima média dos perfis: 343 no confronto Scorpion/Ryu.
+  Espelhos mantêm 306 (MK) e 380 (SF escalado).
+- Abaixo da altura de passagem, corpos se afastam compartilhando a correção.
+  No ar há passagem; no chão não há atravessamento.
+- Câmera com margem de 50 unidades e velocidade máxima de 430 unidades/s.
+  Quando ambos estão dentro da zona visível ela não persegue cada pequeno passo.
+Estas são decisões de integração do nosso motor. NÃO foram apresentadas como
+código recuperado ou reprodução integral da câmera/colisão de um dos originais.
+
+LIMITES QUE PERMANECEM DOCUMENTADOS
+- A sequência Turbo completa e seu relógio interno ainda não foram portados;
+  Ryu usa cadências e curvas empíricas obtidas nas capturas. Em outras fases
+  pode haver diferença de uma ou mais amostras. RNG/turbo exigem validação futura.
+- A recuperação da energia usa modelo inferido (48 amostras de espera e
+  1 unidade/amostra). O decréscimo/máximo têm leitura direta de RAM; a rotina
+  integral de recuperação não foi decompilada.
+- Câmera comum, colisão contínua e trajetória de corrida->pulo em espaço livre
+  são adaptações declaradas, não igualdade pixel a pixel em todos os encontros.
+- O ciclo da corrida usa os 27 samples capturados (9 poses). A emenda do ciclo
+  e sua fase podem divergir da máquina de animação original em corridas longas.
+- Os PNGs novos foram decodificados dos recursos/paletas nativos; foi verificada
+  a existência de arquivos e ponteiros, o carregamento e o desenho. Esta etapa
+  não afirma concordância de pixels de todos os novos quadros com todo o vídeo.
+- O método compara geometria em condições controladas; cenários originais,
+  detalhes de recuo por dano e outras regras de combate seguem nas etapas futuras.
+- Não há código-fonte original completo recuperado. O REA deste projeto não foi
+  novamente executado nesta etapa: usamos capturas locais e decodificadores já
+  auditados. A identidade dos pacotes foi conferida contra os hashes do passo 1.
+
+VALIDAÇÃO
+20 verificações de movimento cobrem os dois personagens, corrida, recurso,
+saltos, passagem, limites, câmera, independência de cadastros e as medições.
+5 verificações de interface: teclas de corrida nas duas posições, barra,
+versão visível, novos quadros e largura reduzida.
+Reexecutadas as regressões de combate, calibração, comandos, contato dos socos
+e interface. Os resultados finais e detalhes estão nos arquivos de verificação.
+
+ARQUIVOS E REPRODUÇÃO
+comparacao/passo-3/casos.json, extracao.json, energia.json, piloto.json: roteiros.
+execucao-01/original: registros completos, poses, posições, câmera e imagens.
+extracao-01, energia-01, piloto: investigações complementares preservadas.
+ferramentas/capturar.py: capturas em nova sessão; usa Python registrado no passo 1.
+ferramentas/preparar.py: gera perfis e poses a partir das evidências/backup.
+ferramentas/comparar.cjs: compara modelo anterior/atual e salva a divergência.
+paridade-movimento.json: todos os casos, amostras e erros numéricos.
+movimento-medido.json: parâmetros, fontes, perfis e novos ponteiros.
+backup-antes: arena anterior ao passo 3, incluindo correção socos 2.1.
+Raiz ferramentas/testar_movimento.cjs e testar_interface_movimento.cjs: testes.
+Nada precisa ser baixado nem instalado para repetir esta verificação.
+
+PRÓXIMO PASSO
+Passo 4: repertório dos golpes básicos, forças, alturas, versões de perto/longe,
+golpes aéreos e agarrões. As limitações acima devem acompanhar a calibração.

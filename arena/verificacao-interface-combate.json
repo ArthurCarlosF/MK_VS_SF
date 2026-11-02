@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "date": "2026-10-26T23:28:52.248Z",
+  "passed": [
+    "Selection opens combat without loading original games",
+    "Simultaneous independent movement",
+    "Keyboard jump and crouch select native sprites",
+    "Keyboard attack applies damage and updates life bar",
+    "Pause and lost focus freeze safely and release buttons",
+    "Training mode resets match and disables timer",
+    "Onscreen action releases outside button",
+    "Every imported pose renders without missing assets",
+    "Reversed matchup preserves character and scale ownership",
+    "Controls and health bars fit small viewport",
+    "Unimplemented characters cannot start combat"
+  ],
+  "errors": []
+}

@@ -1,0 +1,4143 @@
+{
+  "meaning": "Visible extension counts and source-video sample times for mapped normal buttons at baseline distance. This is not damage/combo equality.",
+  "rows": [
+    {
+      "game": "umk3",
+      "id": "punch_single",
+      "native_extensions": [
+        8
+      ],
+      "before_extensions": [
+        8
+      ],
+      "after_extensions": [
+        8
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "punch_held",
+      "native_extensions": [
+        8
+      ],
+      "before_extensions": [
+        8
+      ],
+      "after_extensions": [
+        8
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "punch_pair_03",
+      "native_extensions": [
+        8,
+        18
+      ],
+      "before_extensions": [
+        8
+      ],
+      "after_extensions": [
+        8,
+        18
+      ],
+      "count_matches_before": false,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "punch_pair_04",
+      "native_extensions": [
+        8,
+        18
+      ],
+      "before_extensions": [
+        8
+      ],
+      "after_extensions": [
+        8,
+        18
+      ],
+      "count_matches_before": false,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "punch_pair_05",
+      "native_extensions": [
+        8,
+        18
+      ],
+      "before_extensions": [
+        8
+      ],
+      "after_extensions": [
+        8,
+        18
+      ],
+      "count_matches_before": false,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "punch_pair_06",
+      "native_extensions": [
+        8,
+        18
+      ],
+      "before_extensions": [
+        8
+      ],
+      "after_extensions": [
+        8,
+        18
+      ],
+      "count_matches_before": false,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "punch_pair_07",
+      "native_extensions": [
+        8,
+        18
+      ],
+      "before_extensions": [
+        8
+      ],
+      "after_extensions": [
+        8,
+        18
+      ],
+      "count_matches_before": false,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "punch_pair_08",
+      "native_extensions": [
+        8,
+        18
+      ],
+      "before_extensions": [
+        8
+      ],
+      "after_extensions": [
+        8,
+        18
+      ],
+      "count_matches_before": false,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "punch_pair_09",
+      "native_extensions": [
+        8,
+        18
+      ],
+      "before_extensions": [
+        8
+      ],
+      "after_extensions": [
+        8,
+        18
+      ],
+      "count_matches_before": false,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "punch_pair_10",
+      "native_extensions": [
+        8,
+        18
+      ],
+      "before_extensions": [
+        8
+      ],
+      "after_extensions": [
+        8,
+        18
+      ],
+      "count_matches_before": false,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "punch_pair_11",
+      "native_extensions": [
+        8,
+        19
+      ],
+      "before_extensions": [
+        8
+      ],
+      "after_extensions": [
+        8,
+        19
+      ],
+      "count_matches_before": false,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "punch_pair_12",
+      "native_extensions": [
+        8,
+        20
+      ],
+      "before_extensions": [
+        8
+      ],
+      "after_extensions": [
+        8,
+        20
+      ],
+      "count_matches_before": false,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "punch_pair_13",
+      "native_extensions": [
+        8,
+        21
+      ],
+      "before_extensions": [
+        8
+      ],
+      "after_extensions": [
+        8,
+        21
+      ],
+      "count_matches_before": false,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "punch_pair_14",
+      "native_extensions": [
+        8,
+        22
+      ],
+      "before_extensions": [
+        8,
+        29
+      ],
+      "after_extensions": [
+        8,
+        22
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "punch_pair_15",
+      "native_extensions": [
+        8
+      ],
+      "before_extensions": [
+        8,
+        29
+      ],
+      "after_extensions": [
+        8
+      ],
+      "count_matches_before": false,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "punch_pair_16",
+      "native_extensions": [
+        8
+      ],
+      "before_extensions": [
+        8,
+        29
+      ],
+      "after_extensions": [
+        8
+      ],
+      "count_matches_before": false,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "punch_pair_17",
+      "native_extensions": [
+        8
+      ],
+      "before_extensions": [
+        8,
+        29
+      ],
+      "after_extensions": [
+        8
+      ],
+      "count_matches_before": false,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "punch_pair_18",
+      "native_extensions": [
+        8
+      ],
+      "before_extensions": [
+        8,
+        29
+      ],
+      "after_extensions": [
+        8
+      ],
+      "count_matches_before": false,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "punch_pair_19",
+      "native_extensions": [
+        8,
+        27
+      ],
+      "before_extensions": [
+        8,
+        29
+      ],
+      "after_extensions": [
+        8,
+        27
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "punch_pair_20",
+      "native_extensions": [
+        8,
+        28
+      ],
+      "before_extensions": [
+        8,
+        29
+      ],
+      "after_extensions": [
+        8,
+        28
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "punch_pair_21",
+      "native_extensions": [
+        8,
+        29
+      ],
+      "before_extensions": [
+        8,
+        29
+      ],
+      "after_extensions": [
+        8,
+        29
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "punch_pair_22",
+      "native_extensions": [
+        8,
+        30
+      ],
+      "before_extensions": [
+        8,
+        30
+      ],
+      "after_extensions": [
+        8,
+        30
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "punch_pair_23",
+      "native_extensions": [
+        8,
+        31
+      ],
+      "before_extensions": [
+        8,
+        31
+      ],
+      "after_extensions": [
+        8,
+        31
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "punch_pair_24",
+      "native_extensions": [
+        8,
+        32
+      ],
+      "before_extensions": [
+        8,
+        32
+      ],
+      "after_extensions": [
+        8,
+        32
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "punch_pair_25",
+      "native_extensions": [
+        8,
+        33
+      ],
+      "before_extensions": [
+        8,
+        33
+      ],
+      "after_extensions": [
+        8,
+        33
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "punch_pair_26",
+      "native_extensions": [
+        8,
+        34
+      ],
+      "before_extensions": [
+        8,
+        34
+      ],
+      "after_extensions": [
+        8,
+        34
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "punch_pair_27",
+      "native_extensions": [
+        8,
+        35
+      ],
+      "before_extensions": [
+        8,
+        35
+      ],
+      "after_extensions": [
+        8,
+        35
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "punch_pair_28",
+      "native_extensions": [
+        8,
+        36
+      ],
+      "before_extensions": [
+        8,
+        36
+      ],
+      "after_extensions": [
+        8,
+        36
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "punch_pair_29",
+      "native_extensions": [
+        8,
+        37
+      ],
+      "before_extensions": [
+        8,
+        37
+      ],
+      "after_extensions": [
+        8,
+        37
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "punch_pair_30",
+      "native_extensions": [
+        8,
+        38
+      ],
+      "before_extensions": [
+        8,
+        38
+      ],
+      "after_extensions": [
+        8,
+        38
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "punch_pair_31",
+      "native_extensions": [
+        8,
+        39
+      ],
+      "before_extensions": [
+        8,
+        39
+      ],
+      "after_extensions": [
+        8,
+        39
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "punch_pair_32",
+      "native_extensions": [
+        8,
+        40
+      ],
+      "before_extensions": [
+        8,
+        40
+      ],
+      "after_extensions": [
+        8,
+        40
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "punch_train_02",
+      "native_extensions": [
+        8
+      ],
+      "before_extensions": [
+        8,
+        29
+      ],
+      "after_extensions": [
+        8
+      ],
+      "count_matches_before": false,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "punch_train_04",
+      "native_extensions": [
+        8,
+        18,
+        28,
+        38,
+        48,
+        58
+      ],
+      "before_extensions": [
+        8,
+        29,
+        50
+      ],
+      "after_extensions": [
+        8,
+        18,
+        28,
+        38,
+        48,
+        58
+      ],
+      "count_matches_before": false,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "punch_train_06",
+      "native_extensions": [
+        8,
+        18,
+        28,
+        38,
+        48,
+        58,
+        68,
+        78
+      ],
+      "before_extensions": [
+        8,
+        29,
+        50,
+        71
+      ],
+      "after_extensions": [
+        8,
+        18,
+        28,
+        38,
+        48,
+        58,
+        68,
+        78
+      ],
+      "count_matches_before": false,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "punch_train_08",
+      "native_extensions": [
+        8,
+        18,
+        28,
+        38,
+        48,
+        58,
+        68,
+        78,
+        88,
+        98
+      ],
+      "before_extensions": [
+        8,
+        29,
+        50,
+        71,
+        92
+      ],
+      "after_extensions": [
+        8,
+        18,
+        28,
+        38,
+        48,
+        58,
+        68,
+        78,
+        88,
+        97
+      ],
+      "count_matches_before": false,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    },
+    {
+      "game": "umk3",
+      "id": "punch_train_12",
+      "native_extensions": [
+        8,
+        20,
+        32,
+        44,
+        56,
+        68,
+        80,
+        92,
+        104,
+        116,
+        128,
+        140
+      ],
+      "before_extensions": [
+        8,
+        32,
+        56,
+        80,
+        104,
+        128
+      ],
+      "after_extensions": [
+        8,
+        20,
+        32,
+        44,
+        56,
+        68,
+        80,
+        92,
+        104,
+        116,
+        128,
+        140
+      ],
+      "count_matches_before": false,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "punch_train_16",
+      "native_extensions": [
+        8,
+        40,
+        72,
+        104,
+        136,
+        168
+      ],
+      "before_extensions": [
+        8,
+        29,
+        56,
+        77,
+        104,
+        125,
+        152,
+        173
+      ],
+      "after_extensions": [
+        8,
+        40,
+        72,
+        104,
+        136,
+        168
+      ],
+      "count_matches_before": false,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "kick_single",
+      "native_extensions": [
+        7
+      ],
+      "before_extensions": [
+        7
+      ],
+      "after_extensions": [
+        7
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "kick_held",
+      "native_extensions": [
+        7
+      ],
+      "before_extensions": [
+        7
+      ],
+      "after_extensions": [
+        7
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "kick_pair_03",
+      "native_extensions": [
+        7
+      ],
+      "before_extensions": [
+        7
+      ],
+      "after_extensions": [
+        7
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "kick_pair_06",
+      "native_extensions": [
+        7
+      ],
+      "before_extensions": [
+        7
+      ],
+      "after_extensions": [
+        7
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "kick_pair_09",
+      "native_extensions": [
+        7
+      ],
+      "before_extensions": [
+        7
+      ],
+      "after_extensions": [
+        7
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "kick_pair_12",
+      "native_extensions": [
+        7
+      ],
+      "before_extensions": [
+        7
+      ],
+      "after_extensions": [
+        7
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "kick_pair_15",
+      "native_extensions": [
+        7
+      ],
+      "before_extensions": [
+        7
+      ],
+      "after_extensions": [
+        7
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "kick_pair_18",
+      "native_extensions": [
+        7
+      ],
+      "before_extensions": [
+        7
+      ],
+      "after_extensions": [
+        7
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "kick_pair_21",
+      "native_extensions": [
+        7
+      ],
+      "before_extensions": [
+        7
+      ],
+      "after_extensions": [
+        7
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "kick_pair_24",
+      "native_extensions": [
+        7
+      ],
+      "before_extensions": [
+        7,
+        37
+      ],
+      "after_extensions": [
+        7
+      ],
+      "count_matches_before": false,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "kick_pair_27",
+      "native_extensions": [
+        7
+      ],
+      "before_extensions": [
+        7,
+        37
+      ],
+      "after_extensions": [
+        7
+      ],
+      "count_matches_before": false,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "kick_pair_30",
+      "native_extensions": [
+        7,
+        37
+      ],
+      "before_extensions": [
+        7,
+        37
+      ],
+      "after_extensions": [
+        7,
+        37
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "kick_pair_33",
+      "native_extensions": [
+        7,
+        40
+      ],
+      "before_extensions": [
+        7,
+        39
+      ],
+      "after_extensions": [
+        7,
+        39
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    },
+    {
+      "game": "umk3",
+      "id": "kick_train_02",
+      "native_extensions": [
+        7
+      ],
+      "before_extensions": [
+        7
+      ],
+      "after_extensions": [
+        7
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "kick_train_04",
+      "native_extensions": [
+        7,
+        35
+      ],
+      "before_extensions": [
+        7,
+        37
+      ],
+      "after_extensions": [
+        7,
+        39
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 4
+    },
+    {
+      "game": "umk3",
+      "id": "kick_train_06",
+      "native_extensions": [
+        7,
+        37,
+        67
+      ],
+      "before_extensions": [
+        7,
+        37,
+        67
+      ],
+      "after_extensions": [
+        7,
+        37,
+        66
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    },
+    {
+      "game": "umk3",
+      "id": "kick_train_08",
+      "native_extensions": [
+        7,
+        39,
+        71
+      ],
+      "before_extensions": [
+        7,
+        37,
+        67,
+        97
+      ],
+      "after_extensions": [
+        7,
+        39,
+        70
+      ],
+      "count_matches_before": false,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    },
+    {
+      "game": "umk3",
+      "id": "kick_train_12",
+      "native_extensions": [
+        7,
+        43,
+        79,
+        115
+      ],
+      "before_extensions": [
+        7,
+        37,
+        67,
+        97,
+        127
+      ],
+      "after_extensions": [
+        7,
+        43,
+        78,
+        115
+      ],
+      "count_matches_before": false,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    },
+    {
+      "game": "umk3",
+      "id": "kick_train_16",
+      "native_extensions": [
+        7,
+        39,
+        71,
+        103,
+        135,
+        167
+      ],
+      "before_extensions": [
+        7,
+        39,
+        70,
+        103,
+        135,
+        166
+      ],
+      "after_extensions": [
+        7,
+        39,
+        70,
+        103,
+        135,
+        166
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    },
+    {
+      "game": "umk3",
+      "id": "punch_low_single",
+      "native_extensions": [
+        8
+      ],
+      "before_extensions": [
+        8
+      ],
+      "after_extensions": [
+        8
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "punch_low_held",
+      "native_extensions": [
+        8
+      ],
+      "before_extensions": [
+        8
+      ],
+      "after_extensions": [
+        8
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "punch_low_pair_03",
+      "native_extensions": [
+        8
+      ],
+      "before_extensions": [
+        8
+      ],
+      "after_extensions": [
+        8
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "punch_low_pair_06",
+      "native_extensions": [
+        8
+      ],
+      "before_extensions": [
+        8
+      ],
+      "after_extensions": [
+        8
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "punch_low_pair_09",
+      "native_extensions": [
+        8
+      ],
+      "before_extensions": [
+        8
+      ],
+      "after_extensions": [
+        8
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "punch_low_pair_12",
+      "native_extensions": [
+        8
+      ],
+      "before_extensions": [
+        8,
+        26
+      ],
+      "after_extensions": [
+        8
+      ],
+      "count_matches_before": false,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "punch_low_pair_15",
+      "native_extensions": [
+        8
+      ],
+      "before_extensions": [
+        8,
+        26
+      ],
+      "after_extensions": [
+        8
+      ],
+      "count_matches_before": false,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "punch_low_pair_18",
+      "native_extensions": [
+        8
+      ],
+      "before_extensions": [
+        8,
+        26
+      ],
+      "after_extensions": [
+        8
+      ],
+      "count_matches_before": false,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "punch_low_pair_21",
+      "native_extensions": [
+        8,
+        29
+      ],
+      "before_extensions": [
+        8,
+        29
+      ],
+      "after_extensions": [
+        8,
+        29
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "punch_low_pair_24",
+      "native_extensions": [
+        8,
+        32
+      ],
+      "before_extensions": [
+        8,
+        32
+      ],
+      "after_extensions": [
+        8,
+        32
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "punch_low_pair_27",
+      "native_extensions": [
+        8,
+        35
+      ],
+      "before_extensions": [
+        8,
+        34
+      ],
+      "after_extensions": [
+        8,
+        34
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    },
+    {
+      "game": "umk3",
+      "id": "punch_low_pair_30",
+      "native_extensions": [
+        8,
+        38
+      ],
+      "before_extensions": [
+        8,
+        38
+      ],
+      "after_extensions": [
+        8,
+        38
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "punch_low_pair_33",
+      "native_extensions": [
+        8,
+        41
+      ],
+      "before_extensions": [
+        8,
+        40
+      ],
+      "after_extensions": [
+        8,
+        40
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    },
+    {
+      "game": "umk3",
+      "id": "punch_low_train_02",
+      "native_extensions": [
+        8
+      ],
+      "before_extensions": [
+        8,
+        26
+      ],
+      "after_extensions": [
+        8
+      ],
+      "count_matches_before": false,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "punch_low_train_04",
+      "native_extensions": [
+        8,
+        28,
+        48
+      ],
+      "before_extensions": [
+        8,
+        26,
+        44
+      ],
+      "after_extensions": [
+        8,
+        28,
+        48
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "punch_low_train_06",
+      "native_extensions": [
+        8,
+        32,
+        56
+      ],
+      "before_extensions": [
+        8,
+        26,
+        44,
+        62
+      ],
+      "after_extensions": [
+        8,
+        32,
+        56
+      ],
+      "count_matches_before": false,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "punch_low_train_08",
+      "native_extensions": [
+        8,
+        32,
+        56,
+        80
+      ],
+      "before_extensions": [
+        8,
+        26,
+        44,
+        62,
+        80,
+        99
+      ],
+      "after_extensions": [
+        8,
+        32,
+        56,
+        80
+      ],
+      "count_matches_before": false,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "punch_low_train_12",
+      "native_extensions": [
+        8,
+        32,
+        56,
+        80,
+        104,
+        128
+      ],
+      "before_extensions": [
+        8,
+        26,
+        44,
+        62,
+        80,
+        99,
+        117,
+        135
+      ],
+      "after_extensions": [
+        8,
+        32,
+        56,
+        80,
+        104,
+        128
+      ],
+      "count_matches_before": false,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "punch_low_train_16",
+      "native_extensions": [
+        8,
+        40,
+        72,
+        104,
+        136,
+        168
+      ],
+      "before_extensions": [
+        8,
+        26,
+        44,
+        62,
+        87,
+        106,
+        124,
+        142,
+        168,
+        186
+      ],
+      "after_extensions": [
+        8,
+        40,
+        72,
+        104,
+        136,
+        168
+      ],
+      "count_matches_before": false,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "kick_low_single",
+      "native_extensions": [
+        6
+      ],
+      "before_extensions": [
+        6
+      ],
+      "after_extensions": [
+        6
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "kick_low_held",
+      "native_extensions": [
+        6
+      ],
+      "before_extensions": [
+        6
+      ],
+      "after_extensions": [
+        6
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "kick_low_pair_03",
+      "native_extensions": [
+        6
+      ],
+      "before_extensions": [
+        6
+      ],
+      "after_extensions": [
+        6
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "kick_low_pair_06",
+      "native_extensions": [
+        6
+      ],
+      "before_extensions": [
+        6
+      ],
+      "after_extensions": [
+        6
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "kick_low_pair_09",
+      "native_extensions": [
+        6
+      ],
+      "before_extensions": [
+        6
+      ],
+      "after_extensions": [
+        6
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "kick_low_pair_12",
+      "native_extensions": [
+        6
+      ],
+      "before_extensions": [
+        6
+      ],
+      "after_extensions": [
+        6
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "kick_low_pair_15",
+      "native_extensions": [
+        6
+      ],
+      "before_extensions": [
+        6,
+        26
+      ],
+      "after_extensions": [
+        6
+      ],
+      "count_matches_before": false,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "kick_low_pair_18",
+      "native_extensions": [
+        6
+      ],
+      "before_extensions": [
+        6,
+        26
+      ],
+      "after_extensions": [
+        6
+      ],
+      "count_matches_before": false,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "kick_low_pair_21",
+      "native_extensions": [
+        6,
+        27
+      ],
+      "before_extensions": [
+        6,
+        27
+      ],
+      "after_extensions": [
+        6,
+        27
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "kick_low_pair_24",
+      "native_extensions": [
+        6,
+        30
+      ],
+      "before_extensions": [
+        6,
+        30
+      ],
+      "after_extensions": [
+        6,
+        30
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "kick_low_pair_27",
+      "native_extensions": [
+        6,
+        33
+      ],
+      "before_extensions": [
+        6,
+        33
+      ],
+      "after_extensions": [
+        6,
+        33
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "kick_low_pair_30",
+      "native_extensions": [
+        6,
+        36
+      ],
+      "before_extensions": [
+        6,
+        36
+      ],
+      "after_extensions": [
+        6,
+        36
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "kick_low_pair_33",
+      "native_extensions": [
+        6,
+        39
+      ],
+      "before_extensions": [
+        6,
+        38
+      ],
+      "after_extensions": [
+        6,
+        38
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    },
+    {
+      "game": "umk3",
+      "id": "kick_low_train_02",
+      "native_extensions": [
+        6
+      ],
+      "before_extensions": [
+        6,
+        26
+      ],
+      "after_extensions": [
+        6
+      ],
+      "count_matches_before": false,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "kick_low_train_04",
+      "native_extensions": [
+        6,
+        30
+      ],
+      "before_extensions": [
+        6,
+        26,
+        46
+      ],
+      "after_extensions": [
+        6,
+        30
+      ],
+      "count_matches_before": false,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "kick_low_train_06",
+      "native_extensions": [
+        6,
+        30,
+        54
+      ],
+      "before_extensions": [
+        6,
+        26,
+        46,
+        66
+      ],
+      "after_extensions": [
+        6,
+        30,
+        54
+      ],
+      "count_matches_before": false,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "kick_low_train_08",
+      "native_extensions": [
+        6,
+        30,
+        54,
+        78
+      ],
+      "before_extensions": [
+        6,
+        26,
+        46,
+        66,
+        86
+      ],
+      "after_extensions": [
+        6,
+        30,
+        54,
+        78
+      ],
+      "count_matches_before": false,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "kick_low_train_12",
+      "native_extensions": [
+        6,
+        30,
+        54,
+        78,
+        102,
+        126
+      ],
+      "before_extensions": [
+        6,
+        30,
+        54,
+        78,
+        102,
+        126
+      ],
+      "after_extensions": [
+        6,
+        30,
+        54,
+        78,
+        102,
+        126
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "umk3",
+      "id": "kick_low_train_16",
+      "native_extensions": [
+        6,
+        38,
+        70,
+        102,
+        134,
+        166
+      ],
+      "before_extensions": [
+        6,
+        26,
+        54,
+        74,
+        102,
+        122,
+        150,
+        170
+      ],
+      "after_extensions": [
+        6,
+        38,
+        70,
+        102,
+        134,
+        166
+      ],
+      "count_matches_before": false,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "ssf2tu",
+      "id": "punch_single",
+      "native_extensions": [
+        4
+      ],
+      "before_extensions": [
+        4
+      ],
+      "after_extensions": [
+        4
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "ssf2tu",
+      "id": "punch_held",
+      "native_extensions": [
+        4
+      ],
+      "before_extensions": [
+        4
+      ],
+      "after_extensions": [
+        4
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "ssf2tu",
+      "id": "punch_pair_03",
+      "native_extensions": [
+        7
+      ],
+      "before_extensions": [
+        4,
+        15
+      ],
+      "after_extensions": [
+        4
+      ],
+      "count_matches_before": false,
+      "count_matches_after": true,
+      "max_timing_error_samples": 3
+    },
+    {
+      "game": "ssf2tu",
+      "id": "punch_pair_04",
+      "native_extensions": [
+        4,
+        8
+      ],
+      "before_extensions": [
+        4,
+        15
+      ],
+      "after_extensions": [
+        4,
+        8
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "ssf2tu",
+      "id": "punch_pair_05",
+      "native_extensions": [
+        4,
+        9
+      ],
+      "before_extensions": [
+        4,
+        15
+      ],
+      "after_extensions": [
+        4,
+        9
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "ssf2tu",
+      "id": "punch_pair_06",
+      "native_extensions": [
+        4,
+        9
+      ],
+      "before_extensions": [
+        4,
+        15
+      ],
+      "after_extensions": [
+        4,
+        10
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    },
+    {
+      "game": "ssf2tu",
+      "id": "punch_pair_07",
+      "native_extensions": [
+        4,
+        11
+      ],
+      "before_extensions": [
+        4,
+        15
+      ],
+      "after_extensions": [
+        4,
+        11
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "ssf2tu",
+      "id": "punch_pair_08",
+      "native_extensions": [
+        4,
+        12
+      ],
+      "before_extensions": [
+        4,
+        15
+      ],
+      "after_extensions": [
+        4,
+        12
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "ssf2tu",
+      "id": "punch_pair_09",
+      "native_extensions": [
+        4,
+        13
+      ],
+      "before_extensions": [
+        4,
+        15
+      ],
+      "after_extensions": [
+        4,
+        13
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "ssf2tu",
+      "id": "punch_pair_10",
+      "native_extensions": [
+        4,
+        14
+      ],
+      "before_extensions": [
+        4,
+        15
+      ],
+      "after_extensions": [
+        4,
+        14
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "ssf2tu",
+      "id": "punch_pair_11",
+      "native_extensions": [
+        4,
+        14
+      ],
+      "before_extensions": [
+        4,
+        15
+      ],
+      "after_extensions": [
+        4,
+        15
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    },
+    {
+      "game": "ssf2tu",
+      "id": "punch_pair_12",
+      "native_extensions": [
+        4,
+        16
+      ],
+      "before_extensions": [
+        4,
+        16
+      ],
+      "after_extensions": [
+        4,
+        16
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "ssf2tu",
+      "id": "punch_pair_13",
+      "native_extensions": [
+        4,
+        17
+      ],
+      "before_extensions": [
+        4,
+        17
+      ],
+      "after_extensions": [
+        4,
+        17
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "ssf2tu",
+      "id": "punch_pair_14",
+      "native_extensions": [
+        4,
+        19
+      ],
+      "before_extensions": [
+        4,
+        18
+      ],
+      "after_extensions": [
+        4,
+        18
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    },
+    {
+      "game": "ssf2tu",
+      "id": "punch_pair_15",
+      "native_extensions": [
+        4,
+        19
+      ],
+      "before_extensions": [
+        4,
+        19
+      ],
+      "after_extensions": [
+        4,
+        19
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "ssf2tu",
+      "id": "punch_pair_16",
+      "native_extensions": [
+        4,
+        20
+      ],
+      "before_extensions": [
+        4,
+        20
+      ],
+      "after_extensions": [
+        4,
+        20
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "ssf2tu",
+      "id": "punch_pair_17",
+      "native_extensions": [
+        4,
+        21
+      ],
+      "before_extensions": [
+        4,
+        21
+      ],
+      "after_extensions": [
+        4,
+        21
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "ssf2tu",
+      "id": "punch_pair_18",
+      "native_extensions": [
+        4,
+        22
+      ],
+      "before_extensions": [
+        4,
+        22
+      ],
+      "after_extensions": [
+        4,
+        22
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "ssf2tu",
+      "id": "punch_pair_19",
+      "native_extensions": [
+        4,
+        23
+      ],
+      "before_extensions": [
+        4,
+        23
+      ],
+      "after_extensions": [
+        4,
+        23
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "ssf2tu",
+      "id": "punch_pair_20",
+      "native_extensions": [
+        4,
+        24
+      ],
+      "before_extensions": [
+        4,
+        24
+      ],
+      "after_extensions": [
+        4,
+        24
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "ssf2tu",
+      "id": "punch_pair_21",
+      "native_extensions": [
+        4,
+        25
+      ],
+      "before_extensions": [
+        4,
+        25
+      ],
+      "after_extensions": [
+        4,
+        25
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "ssf2tu",
+      "id": "punch_pair_22",
+      "native_extensions": [
+        4,
+        26
+      ],
+      "before_extensions": [
+        4,
+        26
+      ],
+      "after_extensions": [
+        4,
+        26
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "ssf2tu",
+      "id": "punch_pair_23",
+      "native_extensions": [
+        4,
+        27
+      ],
+      "before_extensions": [
+        4,
+        27
+      ],
+      "after_extensions": [
+        4,
+        27
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "ssf2tu",
+      "id": "punch_pair_24",
+      "native_extensions": [
+        4,
+        28
+      ],
+      "before_extensions": [
+        4,
+        28
+      ],
+      "after_extensions": [
+        4,
+        28
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "ssf2tu",
+      "id": "punch_pair_25",
+      "native_extensions": [
+        4,
+        28
+      ],
+      "before_extensions": [
+        4,
+        29
+      ],
+      "after_extensions": [
+        4,
+        29
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    },
+    {
+      "game": "ssf2tu",
+      "id": "punch_pair_26",
+      "native_extensions": [
+        4,
+        30
+      ],
+      "before_extensions": [
+        4,
+        30
+      ],
+      "after_extensions": [
+        4,
+        30
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "ssf2tu",
+      "id": "punch_pair_27",
+      "native_extensions": [
+        4,
+        31
+      ],
+      "before_extensions": [
+        4,
+        31
+      ],
+      "after_extensions": [
+        4,
+        31
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "ssf2tu",
+      "id": "punch_pair_28",
+      "native_extensions": [
+        4,
+        32
+      ],
+      "before_extensions": [
+        4,
+        32
+      ],
+      "after_extensions": [
+        4,
+        32
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "ssf2tu",
+      "id": "punch_pair_29",
+      "native_extensions": [
+        4,
+        33
+      ],
+      "before_extensions": [
+        4,
+        33
+      ],
+      "after_extensions": [
+        4,
+        33
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "ssf2tu",
+      "id": "punch_pair_30",
+      "native_extensions": [
+        4,
+        34
+      ],
+      "before_extensions": [
+        4,
+        34
+      ],
+      "after_extensions": [
+        4,
+        34
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "ssf2tu",
+      "id": "punch_pair_31",
+      "native_extensions": [
+        4,
+        35
+      ],
+      "before_extensions": [
+        4,
+        35
+      ],
+      "after_extensions": [
+        4,
+        35
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "ssf2tu",
+      "id": "punch_pair_32",
+      "native_extensions": [
+        4,
+        35
+      ],
+      "before_extensions": [
+        4,
+        36
+      ],
+      "after_extensions": [
+        4,
+        36
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    },
+    {
+      "game": "ssf2tu",
+      "id": "punch_train_02",
+      "native_extensions": [
+        4,
+        8,
+        12,
+        16,
+        20,
+        24
+      ],
+      "before_extensions": [
+        4,
+        15,
+        26
+      ],
+      "after_extensions": [
+        4,
+        8,
+        12,
+        16,
+        20,
+        24
+      ],
+      "count_matches_before": false,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "ssf2tu",
+      "id": "punch_train_04",
+      "native_extensions": [
+        4,
+        8,
+        12,
+        16,
+        20,
+        24,
+        28,
+        33,
+        36,
+        40,
+        47
+      ],
+      "before_extensions": [
+        4,
+        15,
+        26,
+        37,
+        48
+      ],
+      "after_extensions": [
+        4,
+        8,
+        12,
+        16,
+        20,
+        24,
+        28,
+        32,
+        36,
+        40,
+        43,
+        48
+      ],
+      "count_matches_before": false,
+      "count_matches_after": false,
+      "max_timing_error_samples": null
+    },
+    {
+      "game": "ssf2tu",
+      "id": "punch_train_06",
+      "native_extensions": [
+        4,
+        9,
+        16,
+        22,
+        27,
+        34,
+        40,
+        45,
+        52,
+        58,
+        63,
+        71
+      ],
+      "before_extensions": [
+        4,
+        15,
+        26,
+        37,
+        48,
+        60,
+        71
+      ],
+      "after_extensions": [
+        4,
+        10,
+        16,
+        22,
+        28,
+        34,
+        40,
+        46,
+        52,
+        58,
+        64,
+        70
+      ],
+      "count_matches_before": false,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    },
+    {
+      "game": "ssf2tu",
+      "id": "punch_train_08",
+      "native_extensions": [
+        4,
+        12,
+        20,
+        28,
+        36,
+        44,
+        52,
+        60,
+        68,
+        76,
+        84,
+        92
+      ],
+      "before_extensions": [
+        4,
+        15,
+        26,
+        37,
+        48,
+        60,
+        71,
+        82,
+        93
+      ],
+      "after_extensions": [
+        4,
+        12,
+        20,
+        28,
+        36,
+        43,
+        52,
+        60,
+        68,
+        76,
+        83,
+        92
+      ],
+      "count_matches_before": false,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    },
+    {
+      "game": "ssf2tu",
+      "id": "punch_train_12",
+      "native_extensions": [
+        4,
+        16,
+        28,
+        40,
+        52,
+        65,
+        76,
+        88,
+        100,
+        112,
+        124,
+        136
+      ],
+      "before_extensions": [
+        4,
+        16,
+        28,
+        40,
+        52,
+        64,
+        76,
+        88,
+        100,
+        112,
+        123,
+        136
+      ],
+      "after_extensions": [
+        4,
+        16,
+        28,
+        40,
+        52,
+        64,
+        76,
+        88,
+        100,
+        112,
+        123,
+        136
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    },
+    {
+      "game": "ssf2tu",
+      "id": "punch_train_16",
+      "native_extensions": [
+        4,
+        20,
+        36,
+        52,
+        68,
+        83,
+        100,
+        116,
+        132,
+        148,
+        164,
+        180
+      ],
+      "before_extensions": [
+        4,
+        20,
+        36,
+        52,
+        68,
+        83,
+        100,
+        116,
+        132,
+        148,
+        163,
+        180
+      ],
+      "after_extensions": [
+        4,
+        20,
+        36,
+        52,
+        68,
+        83,
+        100,
+        116,
+        132,
+        148,
+        163,
+        180
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    },
+    {
+      "game": "ssf2tu",
+      "id": "kick_single",
+      "native_extensions": [
+        5
+      ],
+      "before_extensions": [
+        6
+      ],
+      "after_extensions": [
+        6
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    },
+    {
+      "game": "ssf2tu",
+      "id": "kick_held",
+      "native_extensions": [
+        5
+      ],
+      "before_extensions": [
+        6
+      ],
+      "after_extensions": [
+        6
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    },
+    {
+      "game": "ssf2tu",
+      "id": "kick_pair_03",
+      "native_extensions": [
+        5
+      ],
+      "before_extensions": [
+        6
+      ],
+      "after_extensions": [
+        6
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    },
+    {
+      "game": "ssf2tu",
+      "id": "kick_pair_06",
+      "native_extensions": [
+        5
+      ],
+      "before_extensions": [
+        6
+      ],
+      "after_extensions": [
+        6
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    },
+    {
+      "game": "ssf2tu",
+      "id": "kick_pair_09",
+      "native_extensions": [
+        5
+      ],
+      "before_extensions": [
+        6,
+        22
+      ],
+      "after_extensions": [
+        6
+      ],
+      "count_matches_before": false,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    },
+    {
+      "game": "ssf2tu",
+      "id": "kick_pair_12",
+      "native_extensions": [
+        5
+      ],
+      "before_extensions": [
+        6,
+        22
+      ],
+      "after_extensions": [
+        6
+      ],
+      "count_matches_before": false,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    },
+    {
+      "game": "ssf2tu",
+      "id": "kick_pair_15",
+      "native_extensions": [
+        5,
+        20
+      ],
+      "before_extensions": [
+        6,
+        22
+      ],
+      "after_extensions": [
+        6,
+        21
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    },
+    {
+      "game": "ssf2tu",
+      "id": "kick_pair_18",
+      "native_extensions": [
+        5,
+        23
+      ],
+      "before_extensions": [
+        6,
+        24
+      ],
+      "after_extensions": [
+        6,
+        24
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    },
+    {
+      "game": "ssf2tu",
+      "id": "kick_pair_21",
+      "native_extensions": [
+        5,
+        26
+      ],
+      "before_extensions": [
+        6,
+        27
+      ],
+      "after_extensions": [
+        6,
+        27
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    },
+    {
+      "game": "ssf2tu",
+      "id": "kick_pair_24",
+      "native_extensions": [
+        5,
+        29
+      ],
+      "before_extensions": [
+        6,
+        30
+      ],
+      "after_extensions": [
+        6,
+        30
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    },
+    {
+      "game": "ssf2tu",
+      "id": "kick_pair_27",
+      "native_extensions": [
+        5,
+        32
+      ],
+      "before_extensions": [
+        6,
+        33
+      ],
+      "after_extensions": [
+        6,
+        33
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    },
+    {
+      "game": "ssf2tu",
+      "id": "kick_pair_30",
+      "native_extensions": [
+        5,
+        35
+      ],
+      "before_extensions": [
+        6,
+        36
+      ],
+      "after_extensions": [
+        6,
+        36
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    },
+    {
+      "game": "ssf2tu",
+      "id": "kick_pair_33",
+      "native_extensions": [
+        5,
+        38
+      ],
+      "before_extensions": [
+        6,
+        39
+      ],
+      "after_extensions": [
+        6,
+        39
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    },
+    {
+      "game": "ssf2tu",
+      "id": "kick_train_02",
+      "native_extensions": [
+        5,
+        20
+      ],
+      "before_extensions": [
+        6,
+        22
+      ],
+      "after_extensions": [
+        6,
+        22
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 2
+    },
+    {
+      "game": "ssf2tu",
+      "id": "kick_train_04",
+      "native_extensions": [
+        5,
+        21,
+        38
+      ],
+      "before_extensions": [
+        6,
+        22,
+        38,
+        54
+      ],
+      "after_extensions": [
+        6,
+        22,
+        38
+      ],
+      "count_matches_before": false,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    },
+    {
+      "game": "ssf2tu",
+      "id": "kick_train_06",
+      "native_extensions": [
+        5,
+        23,
+        41,
+        59
+      ],
+      "before_extensions": [
+        6,
+        22,
+        38,
+        54,
+        70
+      ],
+      "after_extensions": [
+        6,
+        24,
+        41,
+        60
+      ],
+      "count_matches_before": false,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    },
+    {
+      "game": "ssf2tu",
+      "id": "kick_train_08",
+      "native_extensions": [
+        5,
+        21,
+        38,
+        53,
+        69,
+        85
+      ],
+      "before_extensions": [
+        6,
+        22,
+        38,
+        54,
+        70,
+        86
+      ],
+      "after_extensions": [
+        6,
+        22,
+        38,
+        54,
+        70,
+        85
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    },
+    {
+      "game": "ssf2tu",
+      "id": "kick_train_12",
+      "native_extensions": [
+        5,
+        29,
+        53,
+        77,
+        101,
+        126
+      ],
+      "before_extensions": [
+        6,
+        22,
+        41,
+        58,
+        74,
+        90,
+        106,
+        125,
+        142
+      ],
+      "after_extensions": [
+        6,
+        30,
+        54,
+        78,
+        102,
+        125
+      ],
+      "count_matches_before": false,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    },
+    {
+      "game": "ssf2tu",
+      "id": "kick_train_16",
+      "native_extensions": [
+        5,
+        21,
+        38,
+        53,
+        69,
+        85,
+        102,
+        118,
+        133,
+        149,
+        165,
+        182
+      ],
+      "before_extensions": [
+        6,
+        22,
+        38,
+        54,
+        70,
+        86,
+        103,
+        119,
+        135,
+        151,
+        167,
+        183
+      ],
+      "after_extensions": [
+        6,
+        22,
+        38,
+        54,
+        70,
+        85,
+        102,
+        118,
+        134,
+        150,
+        165,
+        182
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    },
+    {
+      "game": "ssf2tu",
+      "id": "punch_low_single",
+      "native_extensions": [
+        4
+      ],
+      "before_extensions": [
+        4
+      ],
+      "after_extensions": [
+        4
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "ssf2tu",
+      "id": "punch_low_held",
+      "native_extensions": [
+        4
+      ],
+      "before_extensions": [
+        4
+      ],
+      "after_extensions": [
+        4
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "ssf2tu",
+      "id": "punch_low_pair_03",
+      "native_extensions": [
+        7
+      ],
+      "before_extensions": [
+        4,
+        15
+      ],
+      "after_extensions": [
+        4
+      ],
+      "count_matches_before": false,
+      "count_matches_after": true,
+      "max_timing_error_samples": 3
+    },
+    {
+      "game": "ssf2tu",
+      "id": "punch_low_pair_06",
+      "native_extensions": [
+        4,
+        9
+      ],
+      "before_extensions": [
+        4,
+        15
+      ],
+      "after_extensions": [
+        4,
+        10
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    },
+    {
+      "game": "ssf2tu",
+      "id": "punch_low_pair_09",
+      "native_extensions": [
+        4,
+        13
+      ],
+      "before_extensions": [
+        4,
+        15
+      ],
+      "after_extensions": [
+        4,
+        13
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "ssf2tu",
+      "id": "punch_low_pair_12",
+      "native_extensions": [
+        4,
+        16
+      ],
+      "before_extensions": [
+        4,
+        16
+      ],
+      "after_extensions": [
+        4,
+        16
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "ssf2tu",
+      "id": "punch_low_pair_15",
+      "native_extensions": [
+        4,
+        19
+      ],
+      "before_extensions": [
+        4,
+        19
+      ],
+      "after_extensions": [
+        4,
+        19
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "ssf2tu",
+      "id": "punch_low_pair_18",
+      "native_extensions": [
+        4,
+        22
+      ],
+      "before_extensions": [
+        4,
+        22
+      ],
+      "after_extensions": [
+        4,
+        22
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "ssf2tu",
+      "id": "punch_low_pair_21",
+      "native_extensions": [
+        4,
+        25
+      ],
+      "before_extensions": [
+        4,
+        25
+      ],
+      "after_extensions": [
+        4,
+        25
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "ssf2tu",
+      "id": "punch_low_pair_24",
+      "native_extensions": [
+        4,
+        28
+      ],
+      "before_extensions": [
+        4,
+        28
+      ],
+      "after_extensions": [
+        4,
+        28
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "ssf2tu",
+      "id": "punch_low_pair_27",
+      "native_extensions": [
+        4,
+        31
+      ],
+      "before_extensions": [
+        4,
+        30
+      ],
+      "after_extensions": [
+        4,
+        30
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    },
+    {
+      "game": "ssf2tu",
+      "id": "punch_low_pair_30",
+      "native_extensions": [
+        4,
+        34
+      ],
+      "before_extensions": [
+        4,
+        34
+      ],
+      "after_extensions": [
+        4,
+        34
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "ssf2tu",
+      "id": "punch_low_pair_33",
+      "native_extensions": [
+        4,
+        37
+      ],
+      "before_extensions": [
+        4,
+        37
+      ],
+      "after_extensions": [
+        4,
+        37
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "ssf2tu",
+      "id": "punch_low_train_02",
+      "native_extensions": [
+        4,
+        8,
+        12,
+        16,
+        20,
+        24
+      ],
+      "before_extensions": [
+        4,
+        15,
+        26
+      ],
+      "after_extensions": [
+        4,
+        8,
+        12,
+        16,
+        20,
+        24
+      ],
+      "count_matches_before": false,
+      "count_matches_after": true,
+      "max_timing_error_samples": 0
+    },
+    {
+      "game": "ssf2tu",
+      "id": "punch_low_train_04",
+      "native_extensions": [
+        4,
+        8,
+        12,
+        16,
+        20,
+        24,
+        27,
+        32,
+        36,
+        40,
+        44,
+        48
+      ],
+      "before_extensions": [
+        4,
+        15,
+        26,
+        37,
+        48
+      ],
+      "after_extensions": [
+        4,
+        8,
+        12,
+        16,
+        20,
+        24,
+        28,
+        31,
+        36,
+        40,
+        44,
+        48
+      ],
+      "count_matches_before": false,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    },
+    {
+      "game": "ssf2tu",
+      "id": "punch_low_train_06",
+      "native_extensions": [
+        4,
+        9,
+        16,
+        22,
+        27,
+        34,
+        41,
+        52,
+        58,
+        64,
+        70
+      ],
+      "before_extensions": [
+        4,
+        15,
+        26,
+        37,
+        48,
+        60,
+        71
+      ],
+      "after_extensions": [
+        4,
+        10,
+        16,
+        22,
+        28,
+        34,
+        40,
+        46,
+        52,
+        58,
+        64,
+        69
+      ],
+      "count_matches_before": false,
+      "count_matches_after": false,
+      "max_timing_error_samples": null
+    },
+    {
+      "game": "ssf2tu",
+      "id": "punch_low_train_08",
+      "native_extensions": [
+        4,
+        12,
+        20,
+        27,
+        36,
+        45,
+        52,
+        60,
+        68,
+        76,
+        84,
+        92
+      ],
+      "before_extensions": [
+        4,
+        15,
+        26,
+        37,
+        48,
+        60,
+        71,
+        82,
+        93
+      ],
+      "after_extensions": [
+        4,
+        12,
+        20,
+        28,
+        36,
+        44,
+        52,
+        60,
+        68,
+        76,
+        84,
+        92
+      ],
+      "count_matches_before": false,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    },
+    {
+      "game": "ssf2tu",
+      "id": "punch_low_train_12",
+      "native_extensions": [
+        4,
+        16,
+        27,
+        40,
+        52,
+        64,
+        76,
+        88,
+        100,
+        112,
+        124,
+        136
+      ],
+      "before_extensions": [
+        4,
+        16,
+        28,
+        40,
+        52,
+        64,
+        76,
+        88,
+        100,
+        111,
+        124,
+        136
+      ],
+      "after_extensions": [
+        4,
+        16,
+        28,
+        40,
+        52,
+        64,
+        76,
+        88,
+        100,
+        111,
+        124,
+        136
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    },
+    {
+      "game": "ssf2tu",
+      "id": "punch_low_train_16",
+      "native_extensions": [
+        4,
+        20,
+        36,
+        52,
+        68,
+        83,
+        100,
+        116,
+        132,
+        148,
+        164,
+        180
+      ],
+      "before_extensions": [
+        4,
+        20,
+        36,
+        52,
+        68,
+        84,
+        100,
+        116,
+        132,
+        148,
+        164,
+        180
+      ],
+      "after_extensions": [
+        4,
+        20,
+        36,
+        52,
+        68,
+        84,
+        100,
+        116,
+        132,
+        148,
+        164,
+        180
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    },
+    {
+      "game": "ssf2tu",
+      "id": "kick_low_single",
+      "native_extensions": [
+        4
+      ],
+      "before_extensions": [
+        5
+      ],
+      "after_extensions": [
+        5
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    },
+    {
+      "game": "ssf2tu",
+      "id": "kick_low_held",
+      "native_extensions": [
+        4
+      ],
+      "before_extensions": [
+        5
+      ],
+      "after_extensions": [
+        5
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    },
+    {
+      "game": "ssf2tu",
+      "id": "kick_low_pair_03",
+      "native_extensions": [
+        4
+      ],
+      "before_extensions": [
+        5,
+        16
+      ],
+      "after_extensions": [
+        5
+      ],
+      "count_matches_before": false,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    },
+    {
+      "game": "ssf2tu",
+      "id": "kick_low_pair_06",
+      "native_extensions": [
+        4,
+        10
+      ],
+      "before_extensions": [
+        5,
+        16
+      ],
+      "after_extensions": [
+        5,
+        11
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    },
+    {
+      "game": "ssf2tu",
+      "id": "kick_low_pair_09",
+      "native_extensions": [
+        4,
+        14
+      ],
+      "before_extensions": [
+        5,
+        16
+      ],
+      "after_extensions": [
+        5,
+        14
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    },
+    {
+      "game": "ssf2tu",
+      "id": "kick_low_pair_12",
+      "native_extensions": [
+        4,
+        17
+      ],
+      "before_extensions": [
+        5,
+        17
+      ],
+      "after_extensions": [
+        5,
+        17
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    },
+    {
+      "game": "ssf2tu",
+      "id": "kick_low_pair_15",
+      "native_extensions": [
+        4,
+        20
+      ],
+      "before_extensions": [
+        5,
+        20
+      ],
+      "after_extensions": [
+        5,
+        20
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    },
+    {
+      "game": "ssf2tu",
+      "id": "kick_low_pair_18",
+      "native_extensions": [
+        4,
+        22
+      ],
+      "before_extensions": [
+        5,
+        23
+      ],
+      "after_extensions": [
+        5,
+        23
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    },
+    {
+      "game": "ssf2tu",
+      "id": "kick_low_pair_21",
+      "native_extensions": [
+        4,
+        25
+      ],
+      "before_extensions": [
+        5,
+        26
+      ],
+      "after_extensions": [
+        5,
+        26
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    },
+    {
+      "game": "ssf2tu",
+      "id": "kick_low_pair_24",
+      "native_extensions": [
+        4,
+        29
+      ],
+      "before_extensions": [
+        5,
+        28
+      ],
+      "after_extensions": [
+        5,
+        28
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    },
+    {
+      "game": "ssf2tu",
+      "id": "kick_low_pair_27",
+      "native_extensions": [
+        4,
+        32
+      ],
+      "before_extensions": [
+        5,
+        31
+      ],
+      "after_extensions": [
+        5,
+        31
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    },
+    {
+      "game": "ssf2tu",
+      "id": "kick_low_pair_30",
+      "native_extensions": [
+        4,
+        35
+      ],
+      "before_extensions": [
+        5,
+        35
+      ],
+      "after_extensions": [
+        5,
+        35
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    },
+    {
+      "game": "ssf2tu",
+      "id": "kick_low_pair_33",
+      "native_extensions": [
+        4,
+        38
+      ],
+      "before_extensions": [
+        5,
+        38
+      ],
+      "after_extensions": [
+        5,
+        38
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    },
+    {
+      "game": "ssf2tu",
+      "id": "kick_low_train_02",
+      "native_extensions": [
+        4,
+        12,
+        20,
+        25
+      ],
+      "before_extensions": [
+        5,
+        16,
+        27
+      ],
+      "after_extensions": [
+        5,
+        11,
+        17,
+        23
+      ],
+      "count_matches_before": false,
+      "count_matches_after": true,
+      "max_timing_error_samples": 3
+    },
+    {
+      "game": "ssf2tu",
+      "id": "kick_low_train_04",
+      "native_extensions": [
+        4,
+        12,
+        20,
+        25,
+        29,
+        32,
+        40,
+        48
+      ],
+      "before_extensions": [
+        5,
+        16,
+        27,
+        38,
+        49
+      ],
+      "after_extensions": [
+        5,
+        13,
+        21,
+        28,
+        37,
+        45
+      ],
+      "count_matches_before": false,
+      "count_matches_after": false,
+      "max_timing_error_samples": null
+    },
+    {
+      "game": "ssf2tu",
+      "id": "kick_low_train_06",
+      "native_extensions": [
+        4,
+        10,
+        17,
+        22,
+        28,
+        35,
+        42,
+        47,
+        52,
+        59,
+        65,
+        70
+      ],
+      "before_extensions": [
+        5,
+        16,
+        27,
+        38,
+        49,
+        61,
+        72
+      ],
+      "after_extensions": [
+        5,
+        11,
+        17,
+        23,
+        28,
+        35,
+        41,
+        47,
+        53,
+        59,
+        65,
+        70
+      ],
+      "count_matches_before": false,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    },
+    {
+      "game": "ssf2tu",
+      "id": "kick_low_train_08",
+      "native_extensions": [
+        4,
+        12,
+        20,
+        28,
+        37,
+        45,
+        52,
+        60,
+        68,
+        77,
+        85,
+        93
+      ],
+      "before_extensions": [
+        5,
+        16,
+        27,
+        38,
+        49,
+        61,
+        72,
+        83,
+        94
+      ],
+      "after_extensions": [
+        5,
+        13,
+        21,
+        28,
+        37,
+        45,
+        53,
+        61,
+        69,
+        77,
+        85,
+        93
+      ],
+      "count_matches_before": false,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    },
+    {
+      "game": "ssf2tu",
+      "id": "kick_low_train_12",
+      "native_extensions": [
+        4,
+        17,
+        29,
+        41,
+        52,
+        64,
+        77,
+        89,
+        101,
+        113,
+        124,
+        137
+      ],
+      "before_extensions": [
+        5,
+        17,
+        28,
+        41,
+        53,
+        65,
+        77,
+        89,
+        101,
+        112,
+        125,
+        137
+      ],
+      "after_extensions": [
+        5,
+        17,
+        28,
+        41,
+        53,
+        65,
+        77,
+        89,
+        101,
+        112,
+        125,
+        137
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    },
+    {
+      "game": "ssf2tu",
+      "id": "kick_low_train_16",
+      "native_extensions": [
+        4,
+        20,
+        37,
+        52,
+        69,
+        84,
+        100,
+        117,
+        132,
+        149,
+        164,
+        180
+      ],
+      "before_extensions": [
+        5,
+        21,
+        37,
+        53,
+        69,
+        85,
+        101,
+        117,
+        133,
+        149,
+        165,
+        181
+      ],
+      "after_extensions": [
+        5,
+        21,
+        37,
+        53,
+        69,
+        85,
+        101,
+        117,
+        133,
+        149,
+        165,
+        181
+      ],
+      "count_matches_before": true,
+      "count_matches_after": true,
+      "max_timing_error_samples": 1
+    }
+  ],
+  "count_before": 130,
+  "count_after": 187,
+  "total": 190
+}

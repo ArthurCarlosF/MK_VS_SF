@@ -1,0 +1,37 @@
+[
+  {
+    "at": "0xffa68390",
+    "reason": "invalid_or_data",
+    "text": "DW     FFA6h"
+  },
+  {
+    "at": "0xff9b3f00",
+    "reason": "indirect_control_flow",
+    "text": "JUMP   A0"
+  },
+  {
+    "at": "0xff969930",
+    "reason": "indirect_control_flow",
+    "text": "JUMP   A7"
+  },
+  {
+    "at": "0xff9ae370",
+    "reason": "indirect_control_flow",
+    "text": "JUMP   A1"
+  },
+  {
+    "at": "0xff81ca80",
+    "reason": "indirect_control_flow",
+    "text": "JUMP   A3"
+  },
+  {
+    "at": "0xff9ba680",
+    "reason": "indirect_control_flow",
+    "text": "JUMP   A0"
+  },
+  {
+    "at": "0xffb59630",
+    "reason": "indirect_control_flow",
+    "text": "JUMP   A2"
+  }
+]

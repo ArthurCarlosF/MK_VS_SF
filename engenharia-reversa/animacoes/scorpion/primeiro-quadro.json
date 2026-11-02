@@ -1,0 +1,32 @@
+{
+  "frame_pointer": "0xff936770",
+  "origin_in_png": [
+    27,
+    -5
+  ],
+  "bounds_relative_to_origin": [
+    -27,
+    5,
+    36,
+    134
+  ],
+  "palette": "0xffb0cb20",
+  "parts": [
+    {
+      "header": "0xffcd30a0",
+      "width": 29,
+      "height": 119,
+      "offset_x": 27,
+      "offset_y": -14,
+      "dma": "0x6180"
+    },
+    {
+      "header": "0xffcd3130",
+      "width": 34,
+      "height": 129,
+      "offset_x": -2,
+      "offset_y": -5,
+      "dma": "0x6480"
+    }
+  ]
+}

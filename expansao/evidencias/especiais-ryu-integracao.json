@@ -1,0 +1,85 @@
+{
+  "status": "IMPLEMENTED_CALIBRATION_PENDING",
+  "limits": [
+    "Random damage, native turbo scheduling and recognizer timers require further comparison.",
+    "Terminal guard reaction is measured at the final contact, not at each rotation.",
+    "Air Tatsumaki, red Hadouken and super are not included in this pack.",
+    "Cross-universe victims use their own native reaction artwork."
+  ],
+  "moves": [
+    {
+      "move": "shoryuken_lp",
+      "sourceStart": 9,
+      "sourceEnd": 45,
+      "commit": 2,
+      "samples": 36,
+      "peakHeight": 43.75,
+      "contactGroups": 2,
+      "damageObserved": 31,
+      "minimumSpriteMatch": 0.981342062193126,
+      "sourceSha256": "8f6ba27e92467d4498a8676a03cad13908f35050f4125adff069edd206f351b6"
+    },
+    {
+      "move": "shoryuken_mp",
+      "sourceStart": 9,
+      "sourceEnd": 54,
+      "commit": 2,
+      "samples": 45,
+      "peakHeight": 85.0,
+      "contactGroups": 2,
+      "damageObserved": 33,
+      "minimumSpriteMatch": 0.940447504302926,
+      "sourceSha256": "bc37c73ae803d708b273bd1a81e52a55bc3c3f84be7681ebbc4e9fc20980e2b8"
+    },
+    {
+      "move": "shoryuken_hp",
+      "sourceStart": 9,
+      "sourceEnd": 62,
+      "commit": 2,
+      "samples": 53,
+      "peakHeight": 140.0,
+      "contactGroups": 2,
+      "damageObserved": 36,
+      "minimumSpriteMatch": 0.833146277590722,
+      "sourceSha256": "2389ea06c2ed8d31d4d8b946d9ff4f0e5cc4b0128c8aff29a99dba20c85ca0f5"
+    },
+    {
+      "move": "tatsumaki_lk",
+      "sourceStart": 9,
+      "sourceEnd": 38,
+      "commit": 2,
+      "samples": 29,
+      "peakHeight": 28.75,
+      "contactGroups": 2,
+      "damageObserved": 21,
+      "minimumSpriteMatch": 1.0,
+      "sourceSha256": "dfaa6a0a4172d1a5f475af79600065bec89740c6791bafacf9effb4700621a6f"
+    },
+    {
+      "move": "tatsumaki_mk",
+      "sourceStart": 9,
+      "sourceEnd": 66,
+      "commit": 2,
+      "samples": 57,
+      "peakHeight": 28.75,
+      "contactGroups": 8,
+      "damageObserved": 22,
+      "minimumSpriteMatch": 1.0,
+      "sourceSha256": "8236a30f05dbbd2959918bd821724f318a94bfbf70db1c86f3278bf469e2b857"
+    },
+    {
+      "move": "tatsumaki_hk",
+      "sourceStart": 9,
+      "sourceEnd": 76,
+      "commit": 2,
+      "samples": 67,
+      "peakHeight": 28.75,
+      "contactGroups": 10,
+      "damageObserved": 24,
+      "minimumSpriteMatch": 1.0,
+      "sourceSha256": "08c1fd2b6554ceacb4993f3d02d99bfdb9f7b75ff734f29b68d7b82ad09d752f"
+    }
+  ],
+  "assets": 47,
+  "reactions": 18
+}

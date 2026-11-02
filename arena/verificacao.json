@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-23T13:24:54.771Z",
+  "passed": [
+    "Independent original sample clocks",
+    "Measured Scorpion forward and backward steps",
+    "Ryu Turbo step sequence and reversed facing",
+    "Stationary opponent is not pushed; characters cannot cross",
+    "Both players approaching and maximum separation",
+    "Both arena boundaries and camera tracking",
+    "Seeded mixed input invariants in both matchup orders",
+    "Native copied sprites all exist",
+    "Simulation is independent of display refresh rate",
+    "Selection launches the actual chosen matchup",
+    "Two independent keyboard inputs and opposing directions",
+    "Onscreen direction releases outside the button",
+    "Pause freezes simulation; lost focus clears held controls",
+    "Rendered scene, loaded sprites and reset",
+    "Reversed selection retains player ownership",
+    "Small viewport retains controls without horizontal overflow",
+    "Unavailable fighters are explained, never silently replaced",
+    "Invalid matchup fails with visible recovery guidance"
+  ],
+  "pageErrors": [],
+  "status": "PASS"
+}

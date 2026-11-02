@@ -1,0 +1,59 @@
+﻿MORTAL KOMBAT VS STREET FIGHTER — SELEÇÃO INDEPENDENTE
+23/10/2026
+
+COMO ABRIR
+Execute "Abrir seleção.cmd", ou o atalho "Mortal Kombat vs Street Fighter - Seleção".
+
+O QUE ESTÁ PRONTO
+Tela dividida verticalmente: UMK3 à esquerda, Super Street Fighter II Turbo à direita.
+22 retratos de UMK3, com os três lutadores secretos revelados, e os 16 retratos
+normais de Super Turbo. Akuma não recebeu um quadrado novo: ele não integra a
+grade normal de 16 retratos do arcade. Chefes extras de MK também não foram inventados.
+Os retratos foram extraídos dos dados locais dos jogos, com suas paletas reais.
+MK preserva a grade 7/5/5/5; SF preserva a grade 8/8, o mapa e os retratos grandes.
+Há uma adaptação de proporção para unir os dois painéis à mesma altura.
+Os nomes de SF seguem a versão americana da coletânea.
+
+CONTROLES
+Jogador 1: setas e Enter para confirmar.
+Jogador 2: W A S D e F para confirmar.
+Tab: trocar o jogo do jogador ativo. Esc: desfazer sua confirmação.
+1 ou 2: escolher o jogador ativo, também possível clicando no painel inferior.
+Mouse: passar sobre o retrato e clicar para confirmar.
+Botão no canto superior: tela cheia.
+Depois das duas confirmações, "Voltar à seleção" libera os dois cursores.
+
+ESTADO
+Este protótipo implementa a seleção e uma arena de combate para Scorpion × Ryu.
+A base inclui pulo, agachamento, ataques, defesa, dano, projéteis e rounds.
+Fidelidade final, repertório completo e apresentação ainda estão em desenvolvimento.
+A apresentação e a navegação são próprias; os recursos visuais vieram dos jogos.
+Não depende do seletor da coletânea nem executa seus jogos para abrir esta tela.
+O perfil usado pelo atalho fica nesta pasta, em dados/navegador, separado dos jogos.
+Os arquivos das instalações originais não foram alterados.
+
+REGISTROS
+assets/mk/manifest.json e assets/sf/manifest.json: nomes e origem dos retratos.
+extracao.json: identificação dos jogos, método e hashes dos recursos extraídos.
+ferramentas: scripts usados na investigação e renderização; são registros de
+extração, com caminhos relativos ao workspace de desenvolvimento, não instaladores.
+Previa.png: imagem da tela inicial.
+
+VERIFICAÇÃO
+Carregamento local sem erros de script; 38 entradas; navegação, confirmação dos
+dois jogadores, retorno à seleção e exibição dos 38 nomes verificados automaticamente.
+Os 16 retratos grandes e nomes de SF foram conferidos nas renderizações do jogo.
+
+ARENA DE MOVIMENTO
+Abrir arena.cmd inicia diretamente Scorpion × Ryu. Pela seleção, confirme
+os dois personagens e use “Entrar na arena”. As duas ordens são aceitas.
+1P: setas esquerda/direita; 2P: A/D. Espaço pausa, R reinicia.
+Câmera, limites e distância implementados. Detalhes: arena/LEIA-ME.txt.
+
+BASE REAPROVEITÁVEL DE COMBATE — 23/10/2026
+A arena foi ampliada para combate local. 1P: setas + J/K/L/U/I/O.
+2P: WASD + F/G/H/T/Y/B. Ryu bloqueia por trás; Scorpion por botão.
+Menu permite treino sem tempo. R reinicia, Espaço pausa.
+Controles completos, arquitetura, testes e limites em arena/LEIA-ME.txt.
+O bloco anterior sobre arena de movimento registra a etapa anterior;
+o estado atual é a base funcional de combate, ainda em calibração.

@@ -1,0 +1,360 @@
+{
+  "cases": [
+    {
+      "id": "throw_mp_1",
+      "setup": [
+        {
+          "frames": 60,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              8
+            ],
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 8,
+        "posture": "stand",
+        "context": "near",
+        "direction": 1,
+        "guard": null,
+        "approach": null
+      },
+      "all_video": true
+    },
+    {
+      "id": "throw_mp_-1",
+      "setup": [
+        {
+          "frames": 60,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              8
+            ],
+            "x": -1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 8,
+        "posture": "stand",
+        "context": "near",
+        "direction": -1,
+        "guard": null,
+        "approach": null
+      },
+      "all_video": true
+    },
+    {
+      "id": "throw_hp_1",
+      "setup": [
+        {
+          "frames": 60,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              1
+            ],
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 1,
+        "posture": "stand",
+        "context": "near",
+        "direction": 1,
+        "guard": null,
+        "approach": null
+      },
+      "all_video": true
+    },
+    {
+      "id": "throw_hp_-1",
+      "setup": [
+        {
+          "frames": 60,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              1
+            ],
+            "x": -1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 1,
+        "posture": "stand",
+        "context": "near",
+        "direction": -1,
+        "guard": null,
+        "approach": null
+      },
+      "all_video": true
+    },
+    {
+      "id": "throw_mk_1",
+      "setup": [
+        {
+          "frames": 60,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              10
+            ],
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 10,
+        "posture": "stand",
+        "context": "near",
+        "direction": 1,
+        "guard": null,
+        "approach": null
+      },
+      "all_video": true
+    },
+    {
+      "id": "throw_mk_-1",
+      "setup": [
+        {
+          "frames": 60,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              10
+            ],
+            "x": -1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 10,
+        "posture": "stand",
+        "context": "near",
+        "direction": -1,
+        "guard": null,
+        "approach": null
+      },
+      "all_video": true
+    },
+    {
+      "id": "throw_hk_1",
+      "setup": [
+        {
+          "frames": 60,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              11
+            ],
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 11,
+        "posture": "stand",
+        "context": "near",
+        "direction": 1,
+        "guard": null,
+        "approach": null
+      },
+      "all_video": true
+    },
+    {
+      "id": "throw_hk_-1",
+      "setup": [
+        {
+          "frames": 60,
+          "p1": {
+            "x": 1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 12,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "segments": [
+        {
+          "frames": 2,
+          "p1": {
+            "raw": [
+              11
+            ],
+            "x": -1
+          },
+          "p2": {}
+        },
+        {
+          "frames": 83,
+          "p1": {},
+          "p2": {}
+        }
+      ],
+      "meta": {
+        "button": 11,
+        "posture": "stand",
+        "context": "near",
+        "direction": -1,
+        "guard": null,
+        "approach": null
+      },
+      "all_video": true
+    }
+  ],
+  "checkpoints": [
+    0,
+    2,
+    5,
+    8,
+    12,
+    20,
+    32,
+    48,
+    64,
+    84
+  ]
+}

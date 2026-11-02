@@ -1,0 +1,159 @@
+{
+  "created_at": "2026-10-23T20:09:30.965087+00:00",
+  "source_inputs": [
+    {
+      "path": "C:\\Users\\Pichau\\Documents\\Codex\\2026-10-22\\ve\\work\\selection-assets\\core\\mame2003_plus_libretro.dll",
+      "sha256": "30dc4db74ae1b93fd238c6107432596944bce34deb880ed11c204f8d21037174",
+      "unchanged_since_step_1": true
+    },
+    {
+      "path": "C:\\Users\\Pichau\\Documents\\Codex\\2026-10-22\\ve\\work\\selection-assets\\roms\\umk3.zip",
+      "sha256": "318f765de3177e1ff5eaa13bf431be6967f1c98350e37e3e0a26d5d175315488",
+      "unchanged_since_step_1": true
+    },
+    {
+      "path": "C:\\Users\\Pichau\\Documents\\Codex\\2026-10-22\\ve\\work\\selection-assets\\roms\\ssf2tu.zip",
+      "sha256": "f9e247b6b03bb7221860e73c62cc004704f0c7c9ea5298096b1800c80ab68774",
+      "unchanged_since_step_1": true
+    }
+  ],
+  "suite_sha256": "1dee605938be07daa53ab0665b59dedb85b901b94146099a33a714abb6c8088a",
+  "model_after": {
+    "arena\\arena.js": "36727b81c93d05dd4258ae7cff59095445ec90a0cccf2243ad0e7ccdb61d401e",
+    "arena\\assets.js": "ba54ad553055f280355f997344a63eb9da5989a03267bdd639e206e1cf1e1737",
+    "arena\\calibration.js": "237b7586d3782017750ad15126139c3563eec5a842549f4903f42a3aad8b33f1",
+    "arena\\collisions.js": "8131a1027be09565c57a374511d6adf6555a1ddfdd088deaaa3d8af29be9389a",
+    "arena\\combat-data.js": "c8586afb8ebe3227a1d11f2fbe245e0e089466a335fa00fa8ab96fe6f1814795",
+    "arena\\commands.js": "17c4ddc336a93f0ac4845257f23edec07eb287811459b5fc2964c4f18887c90a",
+    "arena\\engine.js": "f54f96a1d31a0a89f4d65a13dba3b4d22b0731655ed0eff25b645fe9269ada47",
+    "arena\\fight-engine.js": "9424cca0a4c8cd9be5133944a09ecffd6ff4e21b6df499e1c2937b797b5e9526",
+    "arena\\presentation.js": "748f30198ba1cc84585ca84f414089b4878cc92f797657dd132354d1c8ff7e43"
+  },
+  "files_modified_in_original_installations": false,
+  "rea_role": "Existing step-1 archive identity only; no new REA execution claimed.",
+  "static_analysis": "Existing decoded CPU blocks plus ROM byte inspection.",
+  "remaining_differences": [
+    "Ryu punch_train_04",
+    "Ryu punch_low_train_06",
+    "Ryu kick_low_train_04",
+    "Subframe/turbo timing and original motion RNG not fully ported."
+  ],
+  "checks": {
+    "verificacao-combate.json": {
+      "status": "PASS",
+      "date": "2026-10-23T20:08:31.523Z",
+      "passed": [
+        "Intro prohibits damage; transitions into fight",
+        "Each fighter keeps a separate animation clock",
+        "Standing punch hits once per press, not every active tick",
+        "Whiff does not damage opponent",
+        "Ryu blocks by holding back; block button alone does not block",
+        "Scorpion requires block button; walking back alone takes damage",
+        "Low attack defeats standing guard; crouching back blocks it",
+        "Overhead requires standing guard",
+        "Crouch hurtbox is shorter and air hurtbox follows vertical position",
+        "Held up repeats jumps after landing, as observed in both originals",
+        "Directional jump crosses the opponent and changes facing on landing",
+        "Air and crouch inputs choose their distinct attack data",
+        "Hitstun prevents actions until recovery",
+        "Simultaneous active hits trade without player order advantage",
+        "Agarr\u00c3\u0192\u00c6\u2019\u00c3\u201a\u00c2\u00a3o bypasses guard and causes knockdown with wakeup protection",
+        "Distant throw misses",
+        "Projectile appears then damages; one instance per owner",
+        "Projectile blocking applies chip without full damage",
+        "Opposing projectiles cancel each other",
+        "Spear originates at the animated hand in both directions",
+        "Rope disappears when the spear action is interrupted",
+        "Spear pulls on hit",
+        "Spear hold, continuous fast pull and recovery work facing both ways",
+        "Guarded spear never restrains or pulls",
+        "Interrupting Scorpion releases victim and removes tether",
+        "Round reset clears spear restraints",
+        "Spear reaches maximum arena separation in either direction",
+        "Full-range miss expires and releases Scorpion instead of locking forever",
+        "Spear still cancels if Scorpion is interrupted during extended flight",
+        "Teleport changes sides and orientation",
+        "Hadouken directional command works facing right and left",
+        "Double-back spear and down-back teleport commands are distinct",
+        "Failed normal during recovery is discarded rather than queued for a later attack",
+        "Connected punch can cancel into special",
+        "KO awards round then advances; two wins end match",
+        "Timeout and double KO produce explicit result",
+        "Training has no timer loss and restores KO health",
+        "Seeded mixed combat stays finite and inside arena",
+        "Character registration reuses engine without Ryu/Scorpion branches"
+      ]
+    },
+    "verificacao-calibracao.json": {
+      "status": "PASS",
+      "passed": [
+        "Eight ground actions match measured duration and every native pose pointer",
+        "Ryu attack rectangles match original ROM bytes at each sampled active phase",
+        "Damage and MK guarded loss retain native health scale",
+        "Ryu standing kick low defense is backed by native life measurements",
+        "Ryu uses three native vulnerability boxes in standing guard baseline",
+        "Calibrated Ryu jab recovers before Scorpion jab and does not leave hanging frames",
+        "Ryu proximity guard stops retreat while an incoming nearby move starts"
+      ]
+    },
+    "verificacao-comandos.json": {
+      "status": "PASS",
+      "date": "2026-10-23T20:08:32.837Z",
+      "tests": 17,
+      "passed": [
+        "Both native batteries repeat exactly across fresh sessions (220 case comparisons)",
+        "Holding any mapped normal never auto-repeats (both characters, standing/crouched)",
+        "MK early re-press branches into the native alternate punch",
+        "MK rapid presses alternate the returning arm; holding button does not",
+        "MK presses in the measured closed jab window do not launch a later punch",
+        "Ryu re-presses light punch before full recovery in standing and crouched stance",
+        "An early different normal is discarded, never replayed after recovery",
+        "Simultaneous punch/kick resolves to punch and cannot leave a queued kick",
+        "MK block prevents normal attack; holding back still permits Ryu punch",
+        "Up held repeats jumps; release stops new jumps",
+        "SF Hadouken works on pressing or releasing punch in either facing",
+        "SF does not create normal punches on release",
+        "SF motion without diagonal and stale diagonal are rejected",
+        "Native fine-window battery establishes diagonal expiry and mandatory diagonal",
+        "Measured MK teleport is down-back + kick; down-back punch stays normal",
+        "Both native input policies can register a third character without engine branches",
+        "Pending jab repeat cannot survive a hit interruption or round reset"
+      ]
+    },
+    "verificacao-interface-combate.json": {
+      "status": "PASS",
+      "date": "2026-10-23T20:05:23.013Z",
+      "passed": [
+        "Selection opens combat without loading original games",
+        "Simultaneous independent movement",
+        "Keyboard jump and crouch select native sprites",
+        "Keyboard attack applies damage and updates life bar",
+        "Pause and lost focus freeze safely and release buttons",
+        "Training mode resets match and disables timer",
+        "Onscreen action releases outside button",
+        "Every imported pose renders without missing assets",
+        "Reversed matchup preserves character and scale ownership",
+        "Controls and health bars fit small viewport",
+        "Unimplemented characters cannot start combat"
+      ],
+      "errors": []
+    },
+    "verificacao-interface-comandos.json": {
+      "status": "PASS",
+      "tests": 3,
+      "passed": [
+        "Holding J and operating-system repeat produce one punch",
+        "Actual browser key taps trigger the native alternate punch sequence",
+        "New decoded poses load and render without browser errors"
+      ]
+    }
+  },
+  "tooling_sha256": {
+    "comparacao\\passo-2\\ferramentas\\analisar.py": "6e8bf76456bf7e8b0f70e11077740bbc079ea721314d4bf2ac17be95bdfe499c",
+    "comparacao\\passo-2\\ferramentas\\capturar.py": "c1a5acf55551962ce860afa0f29ae64fac42aed10bde74c9edf46898c037ca3a",
+    "comparacao\\passo-2\\ferramentas\\verificar-paridade.cjs": "7e8a6908848a6fe2577ec1b64cdc26c8a759520adf4b0e0955856f8ff8a8b440",
+    "comparacao\\passo-2\\ferramentas\\verificar-quadros.py": "0b982cf3a06dfdf3a97a1b4adb3221b80e2205ced296e67db48e599d6c7c95a7",
+    "ferramentas\\testar_comandos.cjs": "5ff5c22d293fe79d04afa003dd151da536054fcad4069e0adebb764a703986a0",
+    "ferramentas\\testar_interface_comandos.cjs": "80a03c17469e97a7e72098dbe9570ca69f06e604d1c9d3c185c392e2678d703a"
+  }
+}

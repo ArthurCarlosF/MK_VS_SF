@@ -1,0 +1,14 @@
+Componentes usados pelo servidor local:
+
+Node.js v24.22.1 — runtime copiado fisicamente do ambiente local.
+Licença: MIT e avisos de componentes incorporados.
+Texto oficial: https://github.com/nodejs/node/blob/v24.22.1/LICENSE
+
+faye-websocket 0.11.4 — Apache-2.0
+websocket-driver — Apache-2.0
+websocket-extensions — Apache-2.0
+http-parser-js — MIT
+safe-buffer — MIT
+Os avisos e licenças dos pacotes estão preservados em node_modules/.
+
+Nenhum desses componentes recupera código-fonte original de MK ou SF.

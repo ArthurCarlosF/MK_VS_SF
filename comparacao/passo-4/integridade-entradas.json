@@ -1,0 +1,20 @@
+[
+  {
+    "path": "C:\\Users\\Pichau\\Documents\\Codex\\2026-10-22\\ve\\work\\selection-assets\\core\\mame2003_plus_libretro.dll",
+    "sha256": "30dc4db74ae1b93fd238c6107432596944bce34deb880ed11c204f8d21037174",
+    "current_sha256": "30dc4db74ae1b93fd238c6107432596944bce34deb880ed11c204f8d21037174",
+    "status": "UNCHANGED"
+  },
+  {
+    "path": "C:\\Users\\Pichau\\Documents\\Codex\\2026-10-22\\ve\\work\\selection-assets\\roms\\umk3.zip",
+    "sha256": "318f765de3177e1ff5eaa13bf431be6967f1c98350e37e3e0a26d5d175315488",
+    "current_sha256": "318f765de3177e1ff5eaa13bf431be6967f1c98350e37e3e0a26d5d175315488",
+    "status": "UNCHANGED"
+  },
+  {
+    "path": "C:\\Users\\Pichau\\Documents\\Codex\\2026-10-22\\ve\\work\\selection-assets\\roms\\ssf2tu.zip",
+    "sha256": "f9e247b6b03bb7221860e73c62cc004704f0c7c9ea5298096b1800c80ab68774",
+    "current_sha256": "f9e247b6b03bb7221860e73c62cc004704f0c7c9ea5298096b1800c80ab68774",
+    "status": "UNCHANGED"
+  }
+]

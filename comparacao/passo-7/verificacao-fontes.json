@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "repeatPairs": {
+    "umk3": 92,
+    "ssf2tu": 196
+  },
+  "captures": {
+    "cancelamentos-sf": 552,
+    "confirmacao-mk": 8,
+    "especiais-mk": 240,
+    "especiais-rapidos-mk": 30,
+    "especiais-validos-mk": 150,
+    "final-mk": 62,
+    "hp-01": 110,
+    "leves-sf": 176,
+    "limites-mk": 69,
+    "links-sf": 720,
+    "mistura-mk": 28,
+    "piloto-mk": 220,
+    "piloto-sf": 288,
+    "quarto-mk": 72,
+    "repeticao-01": 288,
+    "terminais-mk": 26
+  },
+  "originals": [
+    {
+      "path": "C:\\Users\\Pichau\\Documents\\Codex\\2026-10-22\\ve\\work\\selection-assets\\core\\mame2003_plus_libretro.dll",
+      "sha256": "30dc4db74ae1b93fd238c6107432596944bce34deb880ed11c204f8d21037174"
+    },
+    {
+      "path": "C:\\Users\\Pichau\\Documents\\Codex\\2026-10-22\\ve\\work\\selection-assets\\roms\\umk3.zip",
+      "sha256": "318f765de3177e1ff5eaa13bf431be6967f1c98350e37e3e0a26d5d175315488"
+    },
+    {
+      "path": "C:\\Users\\Pichau\\Documents\\Codex\\2026-10-22\\ve\\work\\selection-assets\\roms\\ssf2tu.zip",
+      "sha256": "f9e247b6b03bb7221860e73c62cc004704f0c7c9ea5298096b1800c80ab68774"
+    }
+  ],
+  "previousSeals": "UNCHANGED"
+}

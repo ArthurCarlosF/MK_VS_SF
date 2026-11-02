@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "independentBrowsers": 3,
+  "mobileViewport": "390x844",
+  "keyboard": true,
+  "syntheticGamepadMapping": true,
+  "physicalGamepadTested": false,
+  "touch": true,
+  "authoritativeFramesMatch": true,
+  "reconnect": true,
+  "leave": true,
+  "rematchLobby": true,
+  "errors": [],
+  "failed": []
+}

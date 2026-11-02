@@ -1,0 +1,510 @@
+[
+  {
+    "requestedGap": 98,
+    "actualGap": 89,
+    "strength": "lp",
+    "contact": {
+      "sample": 19,
+      "damage": 21,
+      "attackBefore": [
+        32
+      ],
+      "attackAfter": [
+        32
+      ],
+      "p1": 577,
+      "p2": 641
+    }
+  },
+  {
+    "requestedGap": 98,
+    "actualGap": 89,
+    "strength": "mp",
+    "contact": {
+      "sample": 19,
+      "damage": 22,
+      "attackBefore": [
+        42
+      ],
+      "attackAfter": [
+        42
+      ],
+      "p1": 578,
+      "p2": 641
+    }
+  },
+  {
+    "requestedGap": 98,
+    "actualGap": 89,
+    "strength": "hp",
+    "contact": {
+      "sample": 19,
+      "damage": 22,
+      "attackBefore": [
+        44
+      ],
+      "attackAfter": [
+        44
+      ],
+      "p1": 582,
+      "p2": 641
+    }
+  },
+  {
+    "requestedGap": 100,
+    "actualGap": 89,
+    "strength": "lp",
+    "contact": {
+      "sample": 19,
+      "damage": 21,
+      "attackBefore": [
+        32
+      ],
+      "attackAfter": [
+        32
+      ],
+      "p1": 577,
+      "p2": 641
+    }
+  },
+  {
+    "requestedGap": 100,
+    "actualGap": 89,
+    "strength": "mp",
+    "contact": {
+      "sample": 19,
+      "damage": 22,
+      "attackBefore": [
+        42
+      ],
+      "attackAfter": [
+        42
+      ],
+      "p1": 578,
+      "p2": 641
+    }
+  },
+  {
+    "requestedGap": 100,
+    "actualGap": 89,
+    "strength": "hp",
+    "contact": {
+      "sample": 19,
+      "damage": 22,
+      "attackBefore": [
+        44
+      ],
+      "attackAfter": [
+        44
+      ],
+      "p1": 582,
+      "p2": 641
+    }
+  },
+  {
+    "requestedGap": 102,
+    "actualGap": 92,
+    "strength": "lp",
+    "contact": {
+      "sample": 21,
+      "damage": 21,
+      "attackBefore": [
+        32
+      ],
+      "attackAfter": [
+        32
+      ],
+      "p1": 579,
+      "p2": 644
+    }
+  },
+  {
+    "requestedGap": 102,
+    "actualGap": 92,
+    "strength": "mp",
+    "contact": {
+      "sample": 20,
+      "damage": 19,
+      "attackBefore": [
+        42
+      ],
+      "attackAfter": [
+        42
+      ],
+      "p1": 580,
+      "p2": 644
+    }
+  },
+  {
+    "requestedGap": 102,
+    "actualGap": 92,
+    "strength": "hp",
+    "contact": {
+      "sample": 19,
+      "damage": 19,
+      "attackBefore": [
+        44
+      ],
+      "attackAfter": [
+        44
+      ],
+      "p1": 579,
+      "p2": 644
+    }
+  },
+  {
+    "requestedGap": 104,
+    "actualGap": 98,
+    "strength": "lp",
+    "contact": null
+  },
+  {
+    "requestedGap": 104,
+    "actualGap": 98,
+    "strength": "mp",
+    "contact": {
+      "sample": 21,
+      "damage": 19,
+      "attackBefore": [
+        42
+      ],
+      "attackAfter": [
+        42
+      ],
+      "p1": 585,
+      "p2": 650
+    }
+  },
+  {
+    "requestedGap": 104,
+    "actualGap": 98,
+    "strength": "hp",
+    "contact": {
+      "sample": 20,
+      "damage": 19,
+      "attackBefore": [
+        44
+      ],
+      "attackAfter": [
+        44
+      ],
+      "p1": 586,
+      "p2": 650
+    }
+  },
+  {
+    "requestedGap": 106,
+    "actualGap": 98,
+    "strength": "lp",
+    "contact": null
+  },
+  {
+    "requestedGap": 106,
+    "actualGap": 98,
+    "strength": "mp",
+    "contact": {
+      "sample": 21,
+      "damage": 19,
+      "attackBefore": [
+        42
+      ],
+      "attackAfter": [
+        42
+      ],
+      "p1": 585,
+      "p2": 650
+    }
+  },
+  {
+    "requestedGap": 106,
+    "actualGap": 98,
+    "strength": "hp",
+    "contact": {
+      "sample": 20,
+      "damage": 19,
+      "attackBefore": [
+        44
+      ],
+      "attackAfter": [
+        44
+      ],
+      "p1": 586,
+      "p2": 650
+    }
+  },
+  {
+    "requestedGap": 108,
+    "actualGap": 101,
+    "strength": "lp",
+    "contact": null
+  },
+  {
+    "requestedGap": 108,
+    "actualGap": 101,
+    "strength": "mp",
+    "contact": {
+      "sample": 21,
+      "damage": 19,
+      "attackBefore": [
+        42
+      ],
+      "attackAfter": [
+        42
+      ],
+      "p1": 589,
+      "p2": 653
+    }
+  },
+  {
+    "requestedGap": 108,
+    "actualGap": 101,
+    "strength": "hp",
+    "contact": {
+      "sample": 20,
+      "damage": 19,
+      "attackBefore": [
+        44
+      ],
+      "attackAfter": [
+        44
+      ],
+      "p1": 593,
+      "p2": 653
+    }
+  },
+  {
+    "requestedGap": 110,
+    "actualGap": 101,
+    "strength": "lp",
+    "contact": null
+  },
+  {
+    "requestedGap": 110,
+    "actualGap": 101,
+    "strength": "mp",
+    "contact": {
+      "sample": 21,
+      "damage": 19,
+      "attackBefore": [
+        42
+      ],
+      "attackAfter": [
+        42
+      ],
+      "p1": 589,
+      "p2": 653
+    }
+  },
+  {
+    "requestedGap": 110,
+    "actualGap": 101,
+    "strength": "hp",
+    "contact": {
+      "sample": 20,
+      "damage": 19,
+      "attackBefore": [
+        44
+      ],
+      "attackAfter": [
+        44
+      ],
+      "p1": 593,
+      "p2": 653
+    }
+  },
+  {
+    "requestedGap": 112,
+    "actualGap": 101,
+    "strength": "lp",
+    "contact": null
+  },
+  {
+    "requestedGap": 112,
+    "actualGap": 101,
+    "strength": "mp",
+    "contact": {
+      "sample": 21,
+      "damage": 19,
+      "attackBefore": [
+        42
+      ],
+      "attackAfter": [
+        42
+      ],
+      "p1": 589,
+      "p2": 653
+    }
+  },
+  {
+    "requestedGap": 112,
+    "actualGap": 101,
+    "strength": "hp",
+    "contact": {
+      "sample": 20,
+      "damage": 19,
+      "attackBefore": [
+        44
+      ],
+      "attackAfter": [
+        44
+      ],
+      "p1": 593,
+      "p2": 653
+    }
+  },
+  {
+    "requestedGap": 114,
+    "actualGap": 104,
+    "strength": "lp",
+    "contact": null
+  },
+  {
+    "requestedGap": 114,
+    "actualGap": 104,
+    "strength": "mp",
+    "contact": null
+  },
+  {
+    "requestedGap": 114,
+    "actualGap": 104,
+    "strength": "hp",
+    "contact": {
+      "sample": 20,
+      "damage": 19,
+      "attackBefore": [
+        44
+      ],
+      "attackAfter": [
+        44
+      ],
+      "p1": 593,
+      "p2": 656
+    }
+  },
+  {
+    "requestedGap": 116,
+    "actualGap": 110,
+    "strength": "lp",
+    "contact": null
+  },
+  {
+    "requestedGap": 116,
+    "actualGap": 110,
+    "strength": "mp",
+    "contact": null
+  },
+  {
+    "requestedGap": 116,
+    "actualGap": 110,
+    "strength": "hp",
+    "contact": null
+  },
+  {
+    "requestedGap": 118,
+    "actualGap": 110,
+    "strength": "lp",
+    "contact": null
+  },
+  {
+    "requestedGap": 118,
+    "actualGap": 110,
+    "strength": "mp",
+    "contact": null
+  },
+  {
+    "requestedGap": 118,
+    "actualGap": 110,
+    "strength": "hp",
+    "contact": null
+  },
+  {
+    "requestedGap": 120,
+    "actualGap": 110,
+    "strength": "lp",
+    "contact": null
+  },
+  {
+    "requestedGap": 120,
+    "actualGap": 110,
+    "strength": "mp",
+    "contact": null
+  },
+  {
+    "requestedGap": 120,
+    "actualGap": 110,
+    "strength": "hp",
+    "contact": null
+  },
+  {
+    "requestedGap": 122,
+    "actualGap": 113,
+    "strength": "lp",
+    "contact": null
+  },
+  {
+    "requestedGap": 122,
+    "actualGap": 113,
+    "strength": "mp",
+    "contact": null
+  },
+  {
+    "requestedGap": 122,
+    "actualGap": 113,
+    "strength": "hp",
+    "contact": null
+  },
+  {
+    "requestedGap": 124,
+    "actualGap": 113,
+    "strength": "lp",
+    "contact": null
+  },
+  {
+    "requestedGap": 124,
+    "actualGap": 113,
+    "strength": "mp",
+    "contact": null
+  },
+  {
+    "requestedGap": 124,
+    "actualGap": 113,
+    "strength": "hp",
+    "contact": null
+  },
+  {
+    "requestedGap": 126,
+    "actualGap": 116,
+    "strength": "lp",
+    "contact": null
+  },
+  {
+    "requestedGap": 126,
+    "actualGap": 116,
+    "strength": "mp",
+    "contact": null
+  },
+  {
+    "requestedGap": 126,
+    "actualGap": 116,
+    "strength": "hp",
+    "contact": null
+  },
+  {
+    "requestedGap": 128,
+    "actualGap": 122,
+    "strength": "lp",
+    "contact": null
+  },
+  {
+    "requestedGap": 128,
+    "actualGap": 122,
+    "strength": "mp",
+    "contact": null
+  },
+  {
+    "requestedGap": 128,
+    "actualGap": 122,
+    "strength": "hp",
+    "contact": null
+  }
+]

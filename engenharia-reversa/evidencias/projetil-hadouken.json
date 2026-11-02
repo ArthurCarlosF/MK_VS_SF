@@ -1,0 +1,8 @@
+{
+  "first_visible_sample": 22,
+  "last_verified_visible_sample": 35,
+  "verified_visible_samples": 14,
+  "first_visible_ms_from_input_sequence_start": 368.92119760601616,
+  "visible_delay_ms_after_action_commit": 201.2297441487361,
+  "meaning": "Visual projectile appearance, not first active collision frame."
+}

@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "url": "http://192.168.0.199:8765",
+  "authoritativeMove": "shoryuken_lp",
+  "twoIndependentContexts": true,
+  "matchingTick": 320,
+  "physicalControllersTested": false,
+  "errors": []
+}

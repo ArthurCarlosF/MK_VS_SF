@@ -1,0 +1,314 @@
+{
+  "status": "FILES_VERIFIED_REVIEW_PENDING",
+  "characters": 38,
+  "assets": 3006,
+  "clips": 884,
+  "lowMatchCharacters": 35,
+  "playableIntegrationComplete": false,
+  "results": [
+    {
+      "id": "mk-15",
+      "name": "KITANA",
+      "assets": 81,
+      "clips": 22,
+      "minimumMeanPixelMatch": 0.7065515617796948,
+      "reviewRequired": true
+    },
+    {
+      "id": "mk-19",
+      "name": "REPTILE",
+      "assets": 87,
+      "clips": 22,
+      "minimumMeanPixelMatch": 0.7316136510436678,
+      "reviewRequired": true
+    },
+    {
+      "id": "mk-1",
+      "name": "SONYA",
+      "assets": 85,
+      "clips": 22,
+      "minimumMeanPixelMatch": 0.6857138421493668,
+      "reviewRequired": true
+    },
+    {
+      "id": "mk-2",
+      "name": "JAX",
+      "assets": 82,
+      "clips": 22,
+      "minimumMeanPixelMatch": 0.6401163980061955,
+      "reviewRequired": true
+    },
+    {
+      "id": "mk-3",
+      "name": "NIGHTWOLF",
+      "assets": 83,
+      "clips": 22,
+      "minimumMeanPixelMatch": 0.6827171321380436,
+      "reviewRequired": true
+    },
+    {
+      "id": "mk-16",
+      "name": "JADE",
+      "assets": 80,
+      "clips": 22,
+      "minimumMeanPixelMatch": 0.7065533865615278,
+      "reviewRequired": true
+    },
+    {
+      "id": "mk-18",
+      "name": "SCORPION",
+      "assets": 87,
+      "clips": 22,
+      "minimumMeanPixelMatch": 0.730220582856995,
+      "reviewRequired": true
+    },
+    {
+      "id": "mk-0",
+      "name": "KANO",
+      "assets": 85,
+      "clips": 22,
+      "minimumMeanPixelMatch": 0.6888186854245022,
+      "reviewRequired": true
+    },
+    {
+      "id": "mk-17",
+      "name": "MILEENA",
+      "assets": 82,
+      "clips": 22,
+      "minimumMeanPixelMatch": 0.6216697796736841,
+      "reviewRequired": true
+    },
+    {
+      "id": "mk-20",
+      "name": "ERMAC",
+      "assets": 87,
+      "clips": 22,
+      "minimumMeanPixelMatch": 0.633287653647086,
+      "reviewRequired": true
+    },
+    {
+      "id": "mk-21",
+      "name": "CLASSIC SUB-ZERO",
+      "assets": 87,
+      "clips": 22,
+      "minimumMeanPixelMatch": 0.6332559845975858,
+      "reviewRequired": true
+    },
+    {
+      "id": "mk-4",
+      "name": "SUB-ZERO",
+      "assets": 85,
+      "clips": 22,
+      "minimumMeanPixelMatch": 0.6938118459378589,
+      "reviewRequired": true
+    },
+    {
+      "id": "mk-7",
+      "name": "SEKTOR",
+      "assets": 82,
+      "clips": 22,
+      "minimumMeanPixelMatch": 0.6837922256220353,
+      "reviewRequired": true
+    },
+    {
+      "id": "mk-6",
+      "name": "SINDEL",
+      "assets": 82,
+      "clips": 22,
+      "minimumMeanPixelMatch": 0.6047914011231937,
+      "reviewRequired": true
+    },
+    {
+      "id": "mk-5",
+      "name": "STRYKER",
+      "assets": 79,
+      "clips": 22,
+      "minimumMeanPixelMatch": 0.6050039472052892,
+      "reviewRequired": true
+    },
+    {
+      "id": "mk-8",
+      "name": "CYRAX",
+      "assets": 82,
+      "clips": 22,
+      "minimumMeanPixelMatch": 0.6083164264658063,
+      "reviewRequired": true
+    },
+    {
+      "id": "mk-9",
+      "name": "KUNG LAO",
+      "assets": 82,
+      "clips": 22,
+      "minimumMeanPixelMatch": 0.6793171407871419,
+      "reviewRequired": true
+    },
+    {
+      "id": "mk-10",
+      "name": "KABAL",
+      "assets": 85,
+      "clips": 22,
+      "minimumMeanPixelMatch": 0.6775886397722733,
+      "reviewRequired": true
+    },
+    {
+      "id": "mk-11",
+      "name": "SHEEVA",
+      "assets": 79,
+      "clips": 22,
+      "minimumMeanPixelMatch": 0.6438285598339178,
+      "reviewRequired": true
+    },
+    {
+      "id": "mk-12",
+      "name": "SHANG TSUNG",
+      "assets": 84,
+      "clips": 22,
+      "minimumMeanPixelMatch": 0.7081250829737513,
+      "reviewRequired": true
+    },
+    {
+      "id": "mk-13",
+      "name": "LIU KANG",
+      "assets": 81,
+      "clips": 22,
+      "minimumMeanPixelMatch": 0.7186797143066758,
+      "reviewRequired": true
+    },
+    {
+      "id": "mk-14",
+      "name": "SMOKE",
+      "assets": 82,
+      "clips": 22,
+      "minimumMeanPixelMatch": 0.5199817384008705,
+      "reviewRequired": true
+    },
+    {
+      "id": "sf-0",
+      "name": "RYU",
+      "assets": 70,
+      "clips": 25,
+      "minimumMeanPixelMatch": 0.9913175413516581,
+      "reviewRequired": false
+    },
+    {
+      "id": "sf-1",
+      "name": "E. HONDA",
+      "assets": 61,
+      "clips": 25,
+      "minimumMeanPixelMatch": 0.98013485172715,
+      "reviewRequired": true
+    },
+    {
+      "id": "sf-2",
+      "name": "BLANKA",
+      "assets": 79,
+      "clips": 25,
+      "minimumMeanPixelMatch": 0.9601682295505161,
+      "reviewRequired": true
+    },
+    {
+      "id": "sf-3",
+      "name": "GUILE",
+      "assets": 95,
+      "clips": 25,
+      "minimumMeanPixelMatch": 0.732320539906835,
+      "reviewRequired": true
+    },
+    {
+      "id": "sf-4",
+      "name": "T. HAWK",
+      "assets": 86,
+      "clips": 25,
+      "minimumMeanPixelMatch": 0.9579539171940138,
+      "reviewRequired": true
+    },
+    {
+      "id": "sf-5",
+      "name": "FEI LONG",
+      "assets": 89,
+      "clips": 25,
+      "minimumMeanPixelMatch": 0.9927960290832364,
+      "reviewRequired": false
+    },
+    {
+      "id": "sf-6",
+      "name": "BALROG",
+      "assets": 50,
+      "clips": 25,
+      "minimumMeanPixelMatch": 0.9887572701714105,
+      "reviewRequired": true
+    },
+    {
+      "id": "sf-7",
+      "name": "SAGAT",
+      "assets": 54,
+      "clips": 25,
+      "minimumMeanPixelMatch": 0.9703972866034368,
+      "reviewRequired": true
+    },
+    {
+      "id": "sf-8",
+      "name": "KEN",
+      "assets": 75,
+      "clips": 25,
+      "minimumMeanPixelMatch": 0.9906079695413411,
+      "reviewRequired": false
+    },
+    {
+      "id": "sf-9",
+      "name": "CHUN-LI",
+      "assets": 82,
+      "clips": 25,
+      "minimumMeanPixelMatch": 0.9189989779919223,
+      "reviewRequired": true
+    },
+    {
+      "id": "sf-10",
+      "name": "ZANGIEF",
+      "assets": 52,
+      "clips": 25,
+      "minimumMeanPixelMatch": 0.9856281841494341,
+      "reviewRequired": true
+    },
+    {
+      "id": "sf-11",
+      "name": "DHALSIM",
+      "assets": 67,
+      "clips": 25,
+      "minimumMeanPixelMatch": 0.9393903763008831,
+      "reviewRequired": true
+    },
+    {
+      "id": "sf-12",
+      "name": "CAMMY",
+      "assets": 108,
+      "clips": 25,
+      "minimumMeanPixelMatch": 0.961784074567447,
+      "reviewRequired": true
+    },
+    {
+      "id": "sf-13",
+      "name": "DEE JAY",
+      "assets": 99,
+      "clips": 25,
+      "minimumMeanPixelMatch": 0.9768356694856251,
+      "reviewRequired": true
+    },
+    {
+      "id": "sf-14",
+      "name": "VEGA",
+      "assets": 49,
+      "clips": 25,
+      "minimumMeanPixelMatch": 0.9391958395987261,
+      "reviewRequired": true
+    },
+    {
+      "id": "sf-15",
+      "name": "M. BISON",
+      "assets": 61,
+      "clips": 25,
+      "minimumMeanPixelMatch": 0.9378028331117507,
+      "reviewRequired": true
+    }
+  ]
+}

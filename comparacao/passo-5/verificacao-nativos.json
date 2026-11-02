@@ -1,0 +1,247 @@
+{
+  "status": "PASS",
+  "repetitions": [
+    {
+      "game": "umk3",
+      "cases": 46,
+      "status": "PASS"
+    },
+    {
+      "game": "ssf2tu",
+      "cases": 74,
+      "status": "PASS"
+    }
+  ],
+  "nativeCaseExecutions": 719,
+  "mkDelayedContacts": {
+    "back_hk": [
+      17
+    ],
+    "back_lk": [
+      14,
+      15,
+      16
+    ],
+    "crouch_hk": [
+      8
+    ],
+    "crouch_hp": [
+      8
+    ],
+    "crouch_lk": [
+      14,
+      18
+    ],
+    "crouch_lp": [
+      11
+    ],
+    "stand_hk_far": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "stand_hp_far": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "stand_lk_far": [
+      10,
+      11,
+      12,
+      13
+    ],
+    "stand_lp_far": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  "mkAlternateContacts": {
+    "alternate_lp__late23": [
+      25
+    ],
+    "alternate_lp__late24": [
+      26
+    ],
+    "alternate_lp__late25": [],
+    "alternate_lp__late26": [],
+    "return_lp__late34": [
+      36
+    ],
+    "return_lp__late35": []
+  },
+  "mkAirContact": [
+    {
+      "file": "comparacao\\passo-5\\execucao-01\\original\\umk3\\rep-1\\airForward_hk\\trace.json",
+      "pauseSamples": 8,
+      "gravityPerSample": 0.75,
+      "guarded": false
+    },
+    {
+      "file": "comparacao\\passo-5\\execucao-01\\original\\umk3\\rep-1\\airForward_hp\\trace.json",
+      "pauseSamples": 8,
+      "gravityPerSample": 0.75,
+      "guarded": false
+    },
+    {
+      "file": "comparacao\\passo-5\\execucao-01\\original\\umk3\\rep-1\\airForward_lk\\trace.json",
+      "pauseSamples": 8,
+      "gravityPerSample": 0.75,
+      "guarded": false
+    },
+    {
+      "file": "comparacao\\passo-5\\execucao-01\\original\\umk3\\rep-1\\airForward_lp\\trace.json",
+      "pauseSamples": 8,
+      "gravityPerSample": 0.75,
+      "guarded": false
+    },
+    {
+      "file": "comparacao\\passo-5\\ar-01\\original\\umk3\\rep-1\\airForward_hk__entry16\\trace.json",
+      "pauseSamples": 8,
+      "gravityPerSample": 0.75,
+      "guarded": false
+    },
+    {
+      "file": "comparacao\\passo-5\\ar-01\\original\\umk3\\rep-1\\airForward_hk__entry24\\trace.json",
+      "pauseSamples": 8,
+      "gravityPerSample": 0.75,
+      "guarded": false
+    },
+    {
+      "file": "comparacao\\passo-5\\ar-01\\original\\umk3\\rep-1\\airForward_hk__entry8\\trace.json",
+      "pauseSamples": 8,
+      "gravityPerSample": 0.75,
+      "guarded": false
+    },
+    {
+      "file": "comparacao\\passo-5\\ar-01\\original\\umk3\\rep-1\\airForward_lp__entry16\\trace.json",
+      "pauseSamples": 8,
+      "gravityPerSample": 0.75,
+      "guarded": false
+    },
+    {
+      "file": "comparacao\\passo-5\\ar-01\\original\\umk3\\rep-1\\airForward_lp__entry24\\trace.json",
+      "pauseSamples": 8,
+      "gravityPerSample": 0.75,
+      "guarded": false
+    },
+    {
+      "file": "comparacao\\passo-5\\ar-01\\original\\umk3\\rep-1\\airForward_lp__entry8\\trace.json",
+      "pauseSamples": 8,
+      "gravityPerSample": 0.75,
+      "guarded": false
+    },
+    {
+      "file": "comparacao\\passo-5\\ar-tarde-01\\original\\umk3\\rep-1\\airForward_hk__away12\\trace.json",
+      "pauseSamples": 8,
+      "gravityPerSample": 0.75,
+      "guarded": false
+    },
+    {
+      "file": "comparacao\\passo-5\\ar-tarde-01\\original\\umk3\\rep-1\\airForward_hk__away16\\trace.json",
+      "pauseSamples": 8,
+      "gravityPerSample": 0.75,
+      "guarded": false
+    },
+    {
+      "file": "comparacao\\passo-5\\ar-tarde-01\\original\\umk3\\rep-1\\airForward_hk__away8\\trace.json",
+      "pauseSamples": 8,
+      "gravityPerSample": 0.75,
+      "guarded": false
+    },
+    {
+      "file": "comparacao\\passo-5\\ar-tarde-01\\original\\umk3\\rep-1\\airForward_lp__away12\\trace.json",
+      "pauseSamples": 8,
+      "gravityPerSample": 0.75,
+      "guarded": false
+    },
+    {
+      "file": "comparacao\\passo-5\\ar-tarde-01\\original\\umk3\\rep-1\\airForward_lp__away16\\trace.json",
+      "pauseSamples": 8,
+      "gravityPerSample": 0.75,
+      "guarded": false
+    },
+    {
+      "file": "comparacao\\passo-5\\ar-tarde-01\\original\\umk3\\rep-1\\airForward_lp__away8\\trace.json",
+      "pauseSamples": 8,
+      "gravityPerSample": 0.75,
+      "guarded": false
+    },
+    {
+      "file": "comparacao\\passo-5\\ar-guarda-01\\original\\umk3\\rep-1\\airForward_hk_late__block\\trace.json",
+      "pauseSamples": 8,
+      "gravityPerSample": 0.75,
+      "guarded": true
+    },
+    {
+      "file": "comparacao\\passo-5\\ar-guarda-01\\original\\umk3\\rep-1\\airForward_lp_late__block\\trace.json",
+      "pauseSamples": 8,
+      "gravityPerSample": 0.75,
+      "guarded": true
+    },
+    {
+      "file": "comparacao\\passo-5\\ar-guarda-01\\original\\umk3\\rep-1\\airVertical_hk_late__block\\trace.json",
+      "pauseSamples": 8,
+      "gravityPerSample": 0.875,
+      "guarded": true
+    },
+    {
+      "file": "comparacao\\passo-5\\ar-guarda-01\\original\\umk3\\rep-1\\airVertical_lp_late__block\\trace.json",
+      "pauseSamples": 8,
+      "gravityPerSample": 0.875,
+      "guarded": true
+    },
+    {
+      "file": "comparacao\\passo-5\\ar-hit-01\\original\\umk3\\rep-1\\airForward_hk_late__hit\\trace.json",
+      "pauseSamples": 8,
+      "gravityPerSample": 0.75,
+      "guarded": false
+    },
+    {
+      "file": "comparacao\\passo-5\\ar-hit-01\\original\\umk3\\rep-1\\airForward_lp_late__hit\\trace.json",
+      "pauseSamples": 8,
+      "gravityPerSample": 0.75,
+      "guarded": false
+    },
+    {
+      "file": "comparacao\\passo-5\\ar-hit-01\\original\\umk3\\rep-1\\airVertical_hk_late__hit\\trace.json",
+      "pauseSamples": 8,
+      "gravityPerSample": 0.875,
+      "guarded": false
+    },
+    {
+      "file": "comparacao\\passo-5\\ar-hit-01\\original\\umk3\\rep-1\\airVertical_lp_late__hit\\trace.json",
+      "pauseSamples": 8,
+      "gravityPerSample": 0.875,
+      "guarded": false
+    }
+  ],
+  "sfHKIndependentWhiffSamples": 27,
+  "unchangedInputs": [
+    {
+      "path": "C:\\Users\\Pichau\\Documents\\Codex\\2026-10-22\\ve\\work\\selection-assets\\core\\mame2003_plus_libretro.dll",
+      "sha256": "30dc4db74ae1b93fd238c6107432596944bce34deb880ed11c204f8d21037174",
+      "status": "UNCHANGED"
+    },
+    {
+      "path": "C:\\Users\\Pichau\\Documents\\Codex\\2026-10-22\\ve\\work\\selection-assets\\roms\\umk3.zip",
+      "sha256": "318f765de3177e1ff5eaa13bf431be6967f1c98350e37e3e0a26d5d175315488",
+      "status": "UNCHANGED"
+    },
+    {
+      "path": "C:\\Users\\Pichau\\Documents\\Codex\\2026-10-22\\ve\\work\\selection-assets\\roms\\ssf2tu.zip",
+      "sha256": "f9e247b6b03bb7221860e73c62cc004704f0c7c9ea5298096b1800c80ab68774",
+      "status": "UNCHANGED"
+    }
+  ]
+}

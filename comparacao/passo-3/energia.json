@@ -1,0 +1,147 @@
+{
+  "cases": [
+    {
+      "id": "vertical",
+      "segments": [
+        {
+          "frames": 3,
+          "p1": {
+            "up": true
+          }
+        },
+        {
+          "frames": 150,
+          "p1": {}
+        }
+      ],
+      "ram": true
+    },
+    {
+      "id": "forward",
+      "segments": [
+        {
+          "frames": 3,
+          "p1": {
+            "up": true,
+            "x": 1
+          }
+        },
+        {
+          "frames": 150,
+          "p1": {}
+        }
+      ],
+      "ram": true
+    },
+    {
+      "id": "run_jump",
+      "segments": [
+        {
+          "frames": 10,
+          "p1": {
+            "x": 1,
+            "run": true
+          }
+        },
+        {
+          "frames": 3,
+          "p1": {
+            "x": 1,
+            "run": true,
+            "up": true
+          }
+        },
+        {
+          "frames": 150,
+          "p1": {}
+        }
+      ],
+      "ram": true
+    },
+    {
+      "id": "run_recover",
+      "segments": [
+        {
+          "frames": 24,
+          "p1": {
+            "x": 1,
+            "run": true
+          }
+        },
+        {
+          "frames": 150,
+          "p1": {}
+        }
+      ],
+      "ram": true
+    },
+    {
+      "id": "back_run",
+      "segments": [
+        {
+          "frames": 24,
+          "p1": {
+            "x": -1,
+            "run": true
+          }
+        },
+        {
+          "frames": 150,
+          "p1": {}
+        }
+      ],
+      "ram": true
+    },
+    {
+      "id": "neutral_run",
+      "segments": [
+        {
+          "frames": 24,
+          "p1": {
+            "run": true
+          }
+        },
+        {
+          "frames": 150,
+          "p1": {}
+        }
+      ],
+      "ram": true
+    },
+    {
+      "id": "guard_run",
+      "segments": [
+        {
+          "frames": 24,
+          "p1": {
+            "x": 1,
+            "run": true,
+            "guard": true
+          }
+        },
+        {
+          "frames": 150,
+          "p1": {}
+        }
+      ],
+      "ram": true
+    }
+  ],
+  "checkpoints": [
+    0,
+    2,
+    3,
+    8,
+    12,
+    16,
+    24,
+    32,
+    40,
+    48,
+    64,
+    96,
+    120,
+    150
+  ],
+  "repetitions": 1
+}

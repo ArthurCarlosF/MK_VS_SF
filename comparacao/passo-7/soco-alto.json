@@ -1,0 +1,300 @@
+{
+  "schema": 7,
+  "characters": {
+    "scorpion": {
+      "moves": {
+        "normal_stand_hp_far": {
+          "repeat": {
+            "mode": "alternate",
+            "preserveStrike": true,
+            "gateFrames": 10,
+            "lastFrame": 14,
+            "lateFrame": 19,
+            "next": "highPunchFollow",
+            "initial": "normal_stand_hp_far",
+            "family": [
+              "normal_stand_hp_far",
+              "highPunchFollow",
+              "highPunchReturn"
+            ]
+          }
+        },
+        "highPunchFollow": {
+          "clip": "highPunchFollow",
+          "label": "hp far",
+          "kind": "strike",
+          "level": "mid",
+          "air": false,
+          "damage": 6.626506024096386,
+          "chip": 1.8072289156626504,
+          "startup": 0.20674768655110165,
+          "active": 0.11277146539150999,
+          "recovery": 0.03759048846383666,
+          "box": {
+            "x": 10,
+            "y": 50,
+            "w": 65,
+            "h": 60
+          },
+          "hitstun": 0.32,
+          "blockstun": 0.16,
+          "push": 90,
+          "hitstop": 0,
+          "sampleRate": 53.20494842529297,
+          "sourceSamples": 19,
+          "nativePoseTimeline": [
+            "0xff938dd0",
+            "0xff938dd0",
+            "0xff938e30",
+            "0xff938e30",
+            "0xff938e30",
+            "0xff938e90",
+            "0xff938e90",
+            "0xff938e90",
+            "0xff938ef0",
+            "0xff938ef0",
+            "0xff938ef0",
+            "0xff938ef0",
+            "0xff938ef0",
+            "0xff938ef0",
+            "0xff938ef0",
+            "0xff938ef0",
+            "0xff938f50",
+            "0xff938f50",
+            "0xff938f50"
+          ],
+          "nativeDamageObserved": [
+            11
+          ],
+          "damageMeasured": true,
+          "source_case": "stand_hp_far",
+          "source_initial_gap": 207,
+          "timingEvidence": "Native source-video observations, including any contact pause; detailed phase/cancel calibration remains step 5/6.",
+          "geometryEvidence": "MK rectangle is provisional; contact timing/damage observed.",
+          "activeRanges": [
+            [
+              11,
+              17
+            ]
+          ],
+          "timing": {
+            "source": "comparacao\\passo-7\\hp-01\\original\\umk3\\rep-1\\hp_far_hit_4\\trace.json",
+            "sourceRawSamples": 21,
+            "keptSourceSamples": [
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28
+            ],
+            "removedPauseSamples": [],
+            "startupSamples": 11,
+            "activeRanges": [
+              [
+                11,
+                17
+              ]
+            ],
+            "recoverySamples": 4,
+            "durationSamples": 19,
+            "activeEvidence": "Native contact samples, including delayed target entry. Latest boundary is empirically bounded, not recovered MK collision code."
+          },
+          "blockHitstop": 0,
+          "reactionProfiles": {
+            "hit": "scorpion_far_stand_hp_far",
+            "block": "scorpion_contact_hp_high",
+            "blockLow": "scorpion_contact_hp_low",
+            "air": "scorpion_contact_hp_None__air2",
+            "cornerBlock": "scorpion_corner_hp_block"
+          },
+          "reactionEvidence": {
+            "hit": "native attack signature",
+            "block": "same input/posture family; exact variant not isolated",
+            "blockLow": "same input/posture family; exact variant not isolated",
+            "duck": "same input/posture family; exact variant not isolated",
+            "air": "native attack signature",
+            "cornerHit": "same input/posture family; exact variant not isolated",
+            "cornerBlock": "native attack signature"
+          },
+          "sequenceEvidence": {
+            "source": "comparacao\\passo-7\\hp-01\\original\\umk3\\rep-1\\hp_far_hit_4\\trace.json",
+            "samples": [
+              10,
+              29
+            ]
+          },
+          "repeat": {
+            "mode": "alternate",
+            "preserveStrike": true,
+            "gateFrames": 10,
+            "lastFrame": 14,
+            "lateFrame": 1000000000.0,
+            "next": "highPunchReturn",
+            "initial": "normal_stand_hp_far",
+            "family": [
+              "normal_stand_hp_far",
+              "highPunchFollow",
+              "highPunchReturn"
+            ]
+          }
+        },
+        "highPunchReturn": {
+          "clip": "highPunchReturn",
+          "label": "hp far",
+          "kind": "strike",
+          "level": "mid",
+          "air": false,
+          "damage": 6.626506024096386,
+          "chip": 1.8072289156626504,
+          "startup": 0.20674768655110165,
+          "active": 0.11277146539150999,
+          "recovery": 0.07518097692767332,
+          "box": {
+            "x": 10,
+            "y": 50,
+            "w": 65,
+            "h": 60
+          },
+          "hitstun": 0.32,
+          "blockstun": 0.16,
+          "push": 90,
+          "hitstop": 0,
+          "sampleRate": 53.20494842529297,
+          "sourceSamples": 21,
+          "nativePoseTimeline": [
+            "0xff938ef0",
+            "0xff938ef0",
+            "0xff938e90",
+            "0xff938e90",
+            "0xff938e90",
+            "0xff938e30",
+            "0xff938e30",
+            "0xff938e30",
+            "0xff938dd0",
+            "0xff938dd0",
+            "0xff938dd0",
+            "0xff938dd0",
+            "0xff938dd0",
+            "0xff938dd0",
+            "0xff938dd0",
+            "0xff938dd0",
+            "0xff938d70",
+            "0xff938d70",
+            "0xff938d10",
+            "0xff938d10",
+            "0xff938d10"
+          ],
+          "nativeDamageObserved": [
+            11
+          ],
+          "damageMeasured": true,
+          "source_case": "stand_hp_far",
+          "source_initial_gap": 207,
+          "timingEvidence": "Native source-video observations, including any contact pause; detailed phase/cancel calibration remains step 5/6.",
+          "geometryEvidence": "MK rectangle is provisional; contact timing/damage observed.",
+          "activeRanges": [
+            [
+              11,
+              17
+            ]
+          ],
+          "timing": {
+            "source": "comparacao\\passo-7\\terminais-mk\\original\\umk3\\rep-1\\hp_exact_0_4_14\\trace.json",
+            "sourceRawSamples": 21,
+            "keptSourceSamples": [
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40
+            ],
+            "removedPauseSamples": [],
+            "startupSamples": 11,
+            "activeRanges": [
+              [
+                11,
+                17
+              ]
+            ],
+            "recoverySamples": 4,
+            "durationSamples": 21,
+            "activeEvidence": "Native contact samples, including delayed target entry. Latest boundary is empirically bounded, not recovered MK collision code."
+          },
+          "blockHitstop": 0,
+          "reactionProfiles": {
+            "hit": "scorpion_far_stand_hp_far",
+            "block": "scorpion_contact_hp_high",
+            "blockLow": "scorpion_contact_hp_low",
+            "air": "scorpion_contact_hp_None__air2",
+            "cornerBlock": "scorpion_corner_hp_block"
+          },
+          "reactionEvidence": {
+            "hit": "native attack signature",
+            "block": "same input/posture family; exact variant not isolated",
+            "blockLow": "same input/posture family; exact variant not isolated",
+            "duck": "same input/posture family; exact variant not isolated",
+            "air": "native attack signature",
+            "cornerHit": "same input/posture family; exact variant not isolated",
+            "cornerBlock": "native attack signature"
+          },
+          "sequenceEvidence": {
+            "source": "comparacao\\passo-7\\terminais-mk\\original\\umk3\\rep-1\\hp_exact_0_4_14\\trace.json",
+            "samples": [
+              20,
+              41
+            ]
+          },
+          "repeat": {
+            "mode": "alternate",
+            "preserveStrike": true,
+            "gateFrames": 10,
+            "lastFrame": 14,
+            "lateFrame": 1000000000.0,
+            "next": "highPunchFollow",
+            "initial": "normal_stand_hp_far",
+            "family": [
+              "normal_stand_hp_far",
+              "highPunchFollow",
+              "highPunchReturn"
+            ]
+          }
+        }
+      }
+    },
+    "ryu": {
+      "moves": {}
+    }
+  },
+  "profiles": {},
+  "limits": []
+}

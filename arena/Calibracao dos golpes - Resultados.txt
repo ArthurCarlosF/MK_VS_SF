@@ -1,0 +1,76 @@
+﻿CALIBRAÇÃO INICIAL DOS GOLPES BÁSICOS — 23/10/2026
+
+ESCOPO DESTA ENTREGA
+Soco, chute, soco agachado e chute agachado de Ryu e Scorpion; defesa em pé e baixa.
+Experimentos de jogo com comandos normais, leitura dos estados e vida; sem editar a RAM.
+Foram executados 24 casos em UMK3 e 26 em Super Turbo, incluindo golpes que erram,
+acertos em diferentes distâncias e tentativas de defesa. Dados brutos em
+engenharia-reversa/calibracao-basicos/scorpion/medicoes.json e ryu/medicoes.json.
+
+ALTERAÇÕES APLICADAS
+- Tempos e sequências próprias para os oito golpes; os quadros não ficam mais
+  presos ao mesmo tempo genérico dos dois personagens.
+- Quadros das oito ações alinhados aos ponteiros de pose observados. Nenhum
+  ponteiro destas sequências ficou sem correspondência gráfica.
+- Ryu: caixas de acerto por amostra e três regiões de vulnerabilidade extraídas
+  das tabelas nativas, espelhadas corretamente e ampliadas junto com SF2 em 1,25.
+- Dano de referência separado por golpe/personagem, normalizado para vida 100.
+- Pequena perda de vida ao bloquear normais de MK, conforme os experimentos.
+- Ryu entra em defesa de proximidade ao segurar para trás diante de uma ameaça
+  próxima, em vez de continuar andando para trás durante toda a tentativa.
+- O chute leve representado pelo botão atual de Ryu foi tratado como baixo:
+  nos casos medidos, a defesa em pé perdeu vida e a defesa baixa evitou o dano.
+- Retorno de ataque agachado mantém a postura baixa, sem passar pela pose em pé.
+
+VALORES DA REFERÊNCIA ATUAL
+Os tempos abaixo vão do comando até o retorno neutro no golpe que erra.
+Incluem a cadência emulada e não devem ser confundidos com dados de 60 fps fixos.
+
+SCORPION
+  Soco: 394.70 ms; dano de referência 4.819%; perda ao bloquear 1.205%.
+    Danos nativos observados: [8] / vida máxima 166.
+  Chute: 563.86 ms; dano de referência 10.843%; perda ao bloquear 1.807%.
+    Danos nativos observados: [18, 21] / vida máxima 166.
+  Soco agachado: 338.31 ms; dano de referência 3.614%; perda ao bloquear 0.000%.
+    Danos nativos observados: [6] / vida máxima 166.
+  Chute agachado: 375.90 ms; dano de referência 3.614%; perda ao bloquear 1.205%.
+    Danos nativos observados: [6] / vida máxima 166.
+
+RYU
+  Soco: 184.46 ms; dano de referência 2.778%; perda ao bloquear 0.000%.
+    Danos nativos observados: [4, 5] / vida máxima 144.
+  Chute: 268.31 ms; dano de referência 7.639%; perda ao bloquear 0.000%.
+    Danos nativos observados: [11, 13] / vida máxima 144.
+  Soco agachado: 184.46 ms; dano de referência 2.778%; perda ao bloquear 0.000%.
+    Danos nativos observados: [4] / vida máxima 144.
+  Chute agachado: 184.46 ms; dano de referência 2.778%; perda ao bloquear 0.000%.
+    Danos nativos observados: [4, 5] / vida máxima 144.
+
+LIMITES E PRÓXIMA CALIBRAÇÃO
+Os tempos e caixas de Ryu usam as sequências de longe; os originais têm variações
+de perto que ainda precisam ser extraídas e selecionadas automaticamente na arena.
+Os danos variaram nos testes. A arena usa um representante realmente observado
+dentre os valores medidos, convertido para vida 100. Ainda não reproduz o sorteio
+nativo, todas as reduções de dano, modificadores ou diferenças por adversário.
+As caixas internas e a janela completa de colisão de MK ainda não foram extraídas.
+Os contatos de MK foram medidos e usados como referência de tempo; seus retângulos
+continuam provisórios. Não são hitboxes originais reconstruídas.
+O retângulo do soco em pé de MK foi elevado para evitar o antigo alcance à cintura.
+A defesa de proximidade tem raio provisório de 150 unidades do crossover.
+Golpes aéreos, stun, empurrão e especiais continuam com parâmetros provisórios.
+Os testes de defesa de Ryu foram contra Ken; os de Scorpion contra outro Scorpion.
+As interações entre MK e SF continuam exigindo decisões e validação próprias.
+
+REPRODUÇÃO E EVIDÊNCIAS
+Captura: engenharia-reversa/ferramentas/calibrar_basicos.py.
+Conversão: ferramentas/gerar_calibracao_basicos.py e preparar_arena.py.
+Dados aplicados: arena/calibration.js, calibracao-basicos.json e combat-data.js.
+39 testes de combate, 7 testes específicos de calibração e 11 de interface passaram.
+Evidências: verificacao-calibracao.json, verificacao-combate.json e verificacao-interface-combate.json.
+Backup anterior: dados/backups/calibracao-basicos-20261023.
+
+REFERÊNCIAS DE LEITURA, VALIDADAS NOS DADOS LOCAIS
+Vida de MK: https://github.com/peon2/fbneo-training-mode/blob/master/games/umk3/umk3.lua
+Caixas/vida de SF: script local sf-training-reference.lua, de pof, com leitor de
+caixas atribuído no cabeçalho a Dammit, MZ e Felineki. Nenhuma função de escrita
+de memória desse script foi executada nos experimentos.

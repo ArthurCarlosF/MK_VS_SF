@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "date": "2026-11-02T15:25:44.780Z",
+  "tests": 17,
+  "passed": [
+    "Both native batteries repeat exactly across fresh sessions (220 case comparisons)",
+    "Holding any mapped normal never auto-repeats (both characters, standing/crouched)",
+    "MK early re-press branches into the native alternate punch",
+    "MK rapid presses alternate the returning arm; holding button does not",
+    "MK presses in the measured closed jab window do not launch a later punch",
+    "Ryu re-presses light punch before full recovery in standing and crouched stance",
+    "An early different normal is discarded, never replayed after recovery",
+    "Simultaneous punch/kick resolves to punch and cannot leave a queued kick",
+    "MK block prevents normal attack; holding back still permits Ryu punch",
+    "Up held repeats jumps; release stops new jumps",
+    "SF Hadouken works on pressing or releasing punch in either facing",
+    "SF does not create normal punches on release",
+    "SF motion without diagonal and stale diagonal are rejected",
+    "Native fine-window battery establishes diagonal expiry and mandatory diagonal",
+    "Native MK teleport uses high punch; low punch stays normal",
+    "Both native input policies can register a third character without engine branches",
+    "Pending jab repeat cannot survive a hit interruption or round reset"
+  ]
+}

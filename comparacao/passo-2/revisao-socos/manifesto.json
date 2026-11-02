@@ -1,0 +1,683 @@
+{
+  "revision": "socos-2.1",
+  "created_at": "2026-10-23T20:53:07.123497+00:00",
+  "fixture_note": "Native and prototype positions aligned only for isolated contact comparison. Walking and final knockback remain pending.",
+  "files": {
+    "arena\\fight-engine.js": "f21972d86844fedfa2675823bb017114047ee465abbc1b1cb9fc3e7718342eae",
+    "arena\\combat-data.js": "7b017b676f2a7bee7ceb08328f297d8e2c6047820930a0d8949e8fa2030c157e",
+    "arena\\index.html": "6f1a69aa0a122bb81c6468bf303b1d58333d774d951f5e626afb14c0ca238926",
+    "ferramentas\\testar_socos_contato.cjs": "5bbb16bb0c34a947dc8a5674a0c8e8b4c679914c5740e1cfea3e45dd321940d3",
+    "comparacao\\passo-2\\revisao-socos\\casos.json": "1c575ac35f3315031e3ae8ec2f77fe2b1e9d7f1e6f0a6f3713fa6135c5a2d094"
+  },
+  "original_evidence_sha256": "575b121603f6c5c56dc9f820ed21a762ae2ddb7d669bb18136cbccdb5fbf81be",
+  "result": {
+    "status": "PASS",
+    "cases": 40,
+    "fixture": "Mirror match; source initial positions explicitly aligned; input/video timing matched. This does not validate native movement, body geometry or final knockback.",
+    "timing_tolerance_source_samples": 1,
+    "results": [
+      {
+        "id": "free_single",
+        "native_hit_samples": [],
+        "prototype_hit_samples": [],
+        "native_extension_samples": [
+          8
+        ],
+        "prototype_extension_samples": [
+          8
+        ],
+        "total_damage": 0
+      },
+      {
+        "id": "free_pair_off1_phase0",
+        "native_hit_samples": [],
+        "prototype_hit_samples": [],
+        "native_extension_samples": [
+          8
+        ],
+        "prototype_extension_samples": [
+          8
+        ],
+        "total_damage": 0
+      },
+      {
+        "id": "free_pair_off2_phase0",
+        "native_hit_samples": [],
+        "prototype_hit_samples": [],
+        "native_extension_samples": [
+          8,
+          18
+        ],
+        "prototype_extension_samples": [
+          8,
+          18
+        ],
+        "total_damage": 0
+      },
+      {
+        "id": "free_pair_off3_phase0",
+        "native_hit_samples": [],
+        "prototype_hit_samples": [],
+        "native_extension_samples": [
+          8,
+          18
+        ],
+        "prototype_extension_samples": [
+          8,
+          18
+        ],
+        "total_damage": 0
+      },
+      {
+        "id": "free_pair_off6_phase0",
+        "native_hit_samples": [],
+        "prototype_hit_samples": [],
+        "native_extension_samples": [
+          8,
+          18
+        ],
+        "prototype_extension_samples": [
+          8,
+          18
+        ],
+        "total_damage": 0
+      },
+      {
+        "id": "free_pair_off1_phase1",
+        "native_hit_samples": [],
+        "prototype_hit_samples": [],
+        "native_extension_samples": [
+          8
+        ],
+        "prototype_extension_samples": [
+          8
+        ],
+        "total_damage": 0
+      },
+      {
+        "id": "free_pair_off2_phase1",
+        "native_hit_samples": [],
+        "prototype_hit_samples": [],
+        "native_extension_samples": [
+          8,
+          18
+        ],
+        "prototype_extension_samples": [
+          8,
+          18
+        ],
+        "total_damage": 0
+      },
+      {
+        "id": "free_pair_off3_phase1",
+        "native_hit_samples": [],
+        "prototype_hit_samples": [],
+        "native_extension_samples": [
+          8,
+          18
+        ],
+        "prototype_extension_samples": [
+          8,
+          18
+        ],
+        "total_damage": 0
+      },
+      {
+        "id": "free_pair_off6_phase1",
+        "native_hit_samples": [],
+        "prototype_hit_samples": [],
+        "native_extension_samples": [
+          8,
+          18
+        ],
+        "prototype_extension_samples": [
+          8,
+          18
+        ],
+        "total_damage": 0
+      },
+      {
+        "id": "free_pair_off1_phase2",
+        "native_hit_samples": [],
+        "prototype_hit_samples": [],
+        "native_extension_samples": [
+          8
+        ],
+        "prototype_extension_samples": [
+          8
+        ],
+        "total_damage": 0
+      },
+      {
+        "id": "free_pair_off2_phase2",
+        "native_hit_samples": [],
+        "prototype_hit_samples": [],
+        "native_extension_samples": [
+          8,
+          18
+        ],
+        "prototype_extension_samples": [
+          8,
+          18
+        ],
+        "total_damage": 0
+      },
+      {
+        "id": "free_pair_off3_phase2",
+        "native_hit_samples": [],
+        "prototype_hit_samples": [],
+        "native_extension_samples": [
+          8,
+          18
+        ],
+        "prototype_extension_samples": [
+          8,
+          18
+        ],
+        "total_damage": 0
+      },
+      {
+        "id": "free_pair_off6_phase2",
+        "native_hit_samples": [],
+        "prototype_hit_samples": [],
+        "native_extension_samples": [
+          8,
+          18
+        ],
+        "prototype_extension_samples": [
+          8,
+          18
+        ],
+        "total_damage": 0
+      },
+      {
+        "id": "free_pair_off1_phase3",
+        "native_hit_samples": [],
+        "prototype_hit_samples": [],
+        "native_extension_samples": [
+          8
+        ],
+        "prototype_extension_samples": [
+          8
+        ],
+        "total_damage": 0
+      },
+      {
+        "id": "free_pair_off2_phase3",
+        "native_hit_samples": [],
+        "prototype_hit_samples": [],
+        "native_extension_samples": [
+          8,
+          18
+        ],
+        "prototype_extension_samples": [
+          8,
+          18
+        ],
+        "total_damage": 0
+      },
+      {
+        "id": "free_pair_off3_phase3",
+        "native_hit_samples": [],
+        "prototype_hit_samples": [],
+        "native_extension_samples": [
+          8,
+          18
+        ],
+        "prototype_extension_samples": [
+          8,
+          18
+        ],
+        "total_damage": 0
+      },
+      {
+        "id": "free_pair_off6_phase3",
+        "native_hit_samples": [],
+        "prototype_hit_samples": [],
+        "native_extension_samples": [
+          8,
+          18
+        ],
+        "prototype_extension_samples": [
+          8,
+          18
+        ],
+        "total_damage": 0
+      },
+      {
+        "id": "free_train_1_1",
+        "native_hit_samples": [],
+        "prototype_hit_samples": [],
+        "native_extension_samples": [
+          8
+        ],
+        "prototype_extension_samples": [
+          8
+        ],
+        "total_damage": 0
+      },
+      {
+        "id": "free_train_2_2",
+        "native_hit_samples": [],
+        "prototype_hit_samples": [],
+        "native_extension_samples": [
+          8,
+          18,
+          28,
+          38,
+          48,
+          58
+        ],
+        "prototype_extension_samples": [
+          8,
+          18,
+          28,
+          38,
+          48,
+          58
+        ],
+        "total_damage": 0
+      },
+      {
+        "id": "free_train_3_1",
+        "native_hit_samples": [],
+        "prototype_hit_samples": [],
+        "native_extension_samples": [
+          8
+        ],
+        "prototype_extension_samples": [
+          8
+        ],
+        "total_damage": 0
+      },
+      {
+        "id": "contact_single",
+        "native_hit_samples": [
+          11
+        ],
+        "prototype_hit_samples": [
+          11
+        ],
+        "native_extension_samples": [
+          8
+        ],
+        "prototype_extension_samples": [
+          8
+        ],
+        "total_damage": 4.819277108433738
+      },
+      {
+        "id": "contact_pair_off1_phase0",
+        "native_hit_samples": [
+          11
+        ],
+        "prototype_hit_samples": [
+          11
+        ],
+        "native_extension_samples": [
+          8
+        ],
+        "prototype_extension_samples": [
+          8
+        ],
+        "total_damage": 4.819277108433738
+      },
+      {
+        "id": "contact_pair_off2_phase0",
+        "native_hit_samples": [
+          11,
+          21
+        ],
+        "prototype_hit_samples": [
+          11,
+          21
+        ],
+        "native_extension_samples": [
+          8,
+          18
+        ],
+        "prototype_extension_samples": [
+          8,
+          18
+        ],
+        "total_damage": 9.638554216867476
+      },
+      {
+        "id": "contact_pair_off3_phase0",
+        "native_hit_samples": [
+          11,
+          21
+        ],
+        "prototype_hit_samples": [
+          11,
+          21
+        ],
+        "native_extension_samples": [
+          8,
+          18
+        ],
+        "prototype_extension_samples": [
+          8,
+          18
+        ],
+        "total_damage": 9.638554216867476
+      },
+      {
+        "id": "contact_pair_off6_phase0",
+        "native_hit_samples": [
+          11,
+          21
+        ],
+        "prototype_hit_samples": [
+          11,
+          21
+        ],
+        "native_extension_samples": [
+          8,
+          18
+        ],
+        "prototype_extension_samples": [
+          8,
+          18
+        ],
+        "total_damage": 9.638554216867476
+      },
+      {
+        "id": "contact_pair_off1_phase1",
+        "native_hit_samples": [
+          11
+        ],
+        "prototype_hit_samples": [
+          11
+        ],
+        "native_extension_samples": [
+          8
+        ],
+        "prototype_extension_samples": [
+          8
+        ],
+        "total_damage": 4.819277108433738
+      },
+      {
+        "id": "contact_pair_off2_phase1",
+        "native_hit_samples": [
+          11,
+          21
+        ],
+        "prototype_hit_samples": [
+          11,
+          21
+        ],
+        "native_extension_samples": [
+          8,
+          18
+        ],
+        "prototype_extension_samples": [
+          8,
+          18
+        ],
+        "total_damage": 9.638554216867476
+      },
+      {
+        "id": "contact_pair_off3_phase1",
+        "native_hit_samples": [
+          11,
+          21
+        ],
+        "prototype_hit_samples": [
+          11,
+          21
+        ],
+        "native_extension_samples": [
+          8,
+          18
+        ],
+        "prototype_extension_samples": [
+          8,
+          18
+        ],
+        "total_damage": 9.638554216867476
+      },
+      {
+        "id": "contact_pair_off6_phase1",
+        "native_hit_samples": [
+          11,
+          21
+        ],
+        "prototype_hit_samples": [
+          11,
+          21
+        ],
+        "native_extension_samples": [
+          8,
+          18
+        ],
+        "prototype_extension_samples": [
+          8,
+          18
+        ],
+        "total_damage": 9.638554216867476
+      },
+      {
+        "id": "contact_pair_off1_phase2",
+        "native_hit_samples": [
+          11
+        ],
+        "prototype_hit_samples": [
+          11
+        ],
+        "native_extension_samples": [
+          8
+        ],
+        "prototype_extension_samples": [
+          8
+        ],
+        "total_damage": 4.819277108433738
+      },
+      {
+        "id": "contact_pair_off2_phase2",
+        "native_hit_samples": [
+          11,
+          21
+        ],
+        "prototype_hit_samples": [
+          11,
+          21
+        ],
+        "native_extension_samples": [
+          8,
+          18
+        ],
+        "prototype_extension_samples": [
+          8,
+          18
+        ],
+        "total_damage": 9.638554216867476
+      },
+      {
+        "id": "contact_pair_off3_phase2",
+        "native_hit_samples": [
+          11,
+          21
+        ],
+        "prototype_hit_samples": [
+          11,
+          21
+        ],
+        "native_extension_samples": [
+          8,
+          18
+        ],
+        "prototype_extension_samples": [
+          8,
+          18
+        ],
+        "total_damage": 9.638554216867476
+      },
+      {
+        "id": "contact_pair_off6_phase2",
+        "native_hit_samples": [
+          11,
+          21
+        ],
+        "prototype_hit_samples": [
+          11,
+          21
+        ],
+        "native_extension_samples": [
+          8,
+          18
+        ],
+        "prototype_extension_samples": [
+          8,
+          18
+        ],
+        "total_damage": 9.638554216867476
+      },
+      {
+        "id": "contact_pair_off1_phase3",
+        "native_hit_samples": [
+          11
+        ],
+        "prototype_hit_samples": [
+          11
+        ],
+        "native_extension_samples": [
+          8
+        ],
+        "prototype_extension_samples": [
+          8
+        ],
+        "total_damage": 4.819277108433738
+      },
+      {
+        "id": "contact_pair_off2_phase3",
+        "native_hit_samples": [
+          11,
+          21
+        ],
+        "prototype_hit_samples": [
+          11,
+          21
+        ],
+        "native_extension_samples": [
+          8,
+          18
+        ],
+        "prototype_extension_samples": [
+          8,
+          18
+        ],
+        "total_damage": 9.638554216867476
+      },
+      {
+        "id": "contact_pair_off3_phase3",
+        "native_hit_samples": [
+          11,
+          21
+        ],
+        "prototype_hit_samples": [
+          11,
+          21
+        ],
+        "native_extension_samples": [
+          8,
+          18
+        ],
+        "prototype_extension_samples": [
+          8,
+          18
+        ],
+        "total_damage": 9.638554216867476
+      },
+      {
+        "id": "contact_pair_off6_phase3",
+        "native_hit_samples": [
+          11,
+          21
+        ],
+        "prototype_hit_samples": [
+          11,
+          21
+        ],
+        "native_extension_samples": [
+          8,
+          18
+        ],
+        "prototype_extension_samples": [
+          8,
+          18
+        ],
+        "total_damage": 9.638554216867476
+      },
+      {
+        "id": "contact_train_1_1",
+        "native_hit_samples": [
+          11
+        ],
+        "prototype_hit_samples": [
+          11
+        ],
+        "native_extension_samples": [
+          8
+        ],
+        "prototype_extension_samples": [
+          8
+        ],
+        "total_damage": 4.819277108433738
+      },
+      {
+        "id": "contact_train_2_2",
+        "native_hit_samples": [
+          11,
+          21,
+          31,
+          41,
+          51,
+          61
+        ],
+        "prototype_hit_samples": [
+          11,
+          21,
+          31,
+          41,
+          50,
+          60
+        ],
+        "native_extension_samples": [
+          8,
+          18,
+          28,
+          38,
+          48,
+          58
+        ],
+        "prototype_extension_samples": [
+          8,
+          18,
+          28,
+          38,
+          48,
+          58
+        ],
+        "total_damage": 28.915662650602428
+      },
+      {
+        "id": "contact_train_3_1",
+        "native_hit_samples": [
+          11
+        ],
+        "prototype_hit_samples": [
+          11
+        ],
+        "native_extension_samples": [
+          8
+        ],
+        "prototype_extension_samples": [
+          8
+        ],
+        "total_damage": 4.819277108433738
+      }
+    ]
+  }
+}

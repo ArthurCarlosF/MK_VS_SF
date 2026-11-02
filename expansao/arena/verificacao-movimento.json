@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "date": "2026-10-27T12:35:25.448Z",
+  "tests": 20,
+  "passed": [
+    "34 original movement cases reproduce across two fresh processes per game",
+    "Profiles keep separate native sampling clocks, SF scale, and source-specific push widths",
+    "Source Scorpion walk/run and all six isolated jump curves match recorded positions/heights",
+    "Ryu sampled walk stays within one native movement update across 12/24-sample trials",
+    "Releasing walk retains the measured two-sample delay then stops",
+    "Running jump selects its own measured transition and keeps the run resource",
+    "Running is only Scorpion forward + run; Ryu never inherits it",
+    "Run consumes 48-unit energy, exhausts, then recovers with a delay",
+    "Backward/neutral/guard + run do not spend energy",
+    "Horizontal input does not steer a jump after takeoff",
+    "Backward jumps select separate native pose/trajectory data",
+    "Air attacks preserve the jump trajectory and ground at zero",
+    "Walking pushes stationary bodies; neither can overlap or move through a grounded opponent",
+    "Both player orders cross in the air and face opponent after landing",
+    "Maximum separation stops retreat without dragging stationary player",
+    "Ryu mirror retains scaled maximum source separation without moving idle opponent",
+    "Stage corners prevent ground escape and do not pin aerial crossover into the floor",
+    "Shared dead-zone camera rests, tracks edge motion and remains inside the stage",
+    "Camera step does not depend on number of fixed simulation calls",
+    "A third character registration inherits motion profile without name branches"
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "status": "PASS",
+  "passed": [
+    "28 native high/low punch prefixes keep arm, height and rhythm without extra punches",
+    "MK terminal combinations reproduce hit count and native reduced damage, both facings",
+    "Guarded MK terminal prefixes preserve native chip without treating blocked hits as full damage",
+    "MK combinations can hit either crossover victim and use only victim-owned reaction assets",
+    "Holding HP never auto-repeats; invalid combo branches never queue until recovery",
+    "A hit lock prevents guard switching inside a real combo; a recovered gap permits defense",
+    "Late SF links are bounded; early different normals do not survive recovery",
+    "Native cancellation windows reject late recovery and require the measured outcome",
+    "Reset and hit interruption clear pending chain and late-link requests"
+  ],
+  "details": [
+    {
+      "mixedPunchPrefixes": 28
+    },
+    {
+      "route": "elbows",
+      "side": -1,
+      "expected": [
+        5,
+        17
+      ],
+      "actual": [
+        5,
+        17
+      ]
+    },
+    {
+      "route": "elbows",
+      "side": 1,
+      "expected": [
+        5,
+        17
+      ],
+      "actual": [
+        5,
+        17
+      ]
+    },
+    {
+      "route": "triple",
+      "side": -1,
+      "expected": [
+        5,
+        17,
+        27
+      ],
+      "actual": [
+        5,
+        17,
+        27
+      ]
+    },
+    {
+      "route": "triple",
+      "side": 1,
+      "expected": [
+        5,
+        17,
+        27
+      ],
+      "actual": [
+        5,
+        17,
+        27
+      ]
+    },
+    {
+      "route": "four",
+      "side": -1,
+      "expected": [
+        5,
+        17,
+        27,
+        39
+      ],
+      "actual": [
+        5,
+        17,
+        27,
+        39
+      ]
+    },
+    {
+      "route": "four",
+      "side": 1,
+      "expected": [
+        5,
+        17,
+        27,
+        39
+      ],
+      "actual": [
+        5,
+        17,
+        27,
+        39
+      ]
+    },
+    {
+      "route": "knees",
+      "side": -1,
+      "expected": [
+        5,
+        18
+      ],
+      "actual": [
+        5,
+        17
+      ]
+    },
+    {
+      "route": "knees",
+      "side": 1,
+      "expected": [
+        5,
+        18
+      ],
+      "actual": [
+        5,
+        17
+      ]
+    },
+    {
+      "cancelAliasesTested": 17
+    }
+  ]
+}

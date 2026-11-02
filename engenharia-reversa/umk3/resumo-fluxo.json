@@ -1,0 +1,17 @@
+{
+  "rom_sha256": "27827b4fc48eb8e2fd2f7291ca9ef84455a54c35776d48bddb9f28152a5053da",
+  "seed_entries": {
+    "0xff81f110": "hardware_vector",
+    "0xff81f0f0": "hardware_vector",
+    "0xff8045d0": "hardware_vector",
+    "0xff8178e0": "hardware_vector",
+    "0xffa68000": "selection_helper_previous_investigation"
+  },
+  "instructions": 2776,
+  "candidate_function_entries": 142,
+  "direct_edges": 594,
+  "unresolved": 7,
+  "reachable_byte_coverage": 9808,
+  "rom_bytes": 1048576,
+  "claim": "static direct-control-flow traversal, incomplete for indirect jumps and task continuations"
+}

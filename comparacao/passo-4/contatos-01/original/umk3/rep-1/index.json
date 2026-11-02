@@ -1,0 +1,328 @@
+{
+  "game": "umk3",
+  "rep": 1,
+  "fps": 53.20494842529297,
+  "char_ids": [
+    18,
+    18
+  ],
+  "baseline": {
+    "players": [
+      {
+        "x": 496.0,
+        "y": 112.0,
+        "pose": "0xff9367d0",
+        "facing": 1,
+        "health": 166,
+        "state": null,
+        "boxes": []
+      },
+      {
+        "x": 703.0,
+        "y": 112.0,
+        "pose": "0xff9367d0",
+        "facing": -1,
+        "health": 166,
+        "state": null,
+        "boxes": []
+      }
+    ],
+    "camera": 400
+  },
+  "cases": [
+    {
+      "id": "airVertical_lp_contact",
+      "file": "airVertical_lp_contact/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 50.0,
+            "pose": "0xff93c830",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936950",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "airForward_lp_contact",
+      "file": "airForward_lp_contact/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 760.875,
+            "y": 39.5,
+            "pose": "0xff93cdb0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 799.875,
+            "y": 112.0,
+            "pose": "0xff936950",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 504
+      }
+    },
+    {
+      "id": "airVertical_hp_contact",
+      "file": "airVertical_hp_contact/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 50.0,
+            "pose": "0xff93c830",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936950",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "airForward_hp_contact",
+      "file": "airForward_hp_contact/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 760.875,
+            "y": 39.5,
+            "pose": "0xff93cdb0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 799.875,
+            "y": 112.0,
+            "pose": "0xff936950",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 504
+      }
+    },
+    {
+      "id": "airVertical_hk_contact",
+      "file": "airVertical_hk_contact/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 50.0,
+            "pose": "0xff93c830",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936950",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "airForward_hk_contact",
+      "file": "airForward_hk_contact/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 760.875,
+            "y": 39.5,
+            "pose": "0xff93cdb0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 799.875,
+            "y": 112.0,
+            "pose": "0xff936950",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 504
+      }
+    },
+    {
+      "id": "airVertical_lk_contact",
+      "file": "airVertical_lk_contact/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 50.0,
+            "pose": "0xff93c830",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936950",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "airForward_lk_contact",
+      "file": "airForward_lk_contact/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 760.875,
+            "y": 39.5,
+            "pose": "0xff93cdb0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 799.875,
+            "y": 112.0,
+            "pose": "0xff936950",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 504
+      }
+    },
+    {
+      "id": "back_hk_contact",
+      "file": "back_hk_contact/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 644.125,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 710.875,
+            "y": 112.0,
+            "pose": "0xff936890",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 404
+      }
+    },
+    {
+      "id": "back_lk_contact",
+      "file": "back_lk_contact/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 644.125,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 710.875,
+            "y": 112.0,
+            "pose": "0xff936890",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 404
+      }
+    }
+  ],
+  "options": {
+    "mame2003-plus_skip_disclaimer": "enabled",
+    "mame2003-plus_skip_warnings": "enabled",
+    "mame2003-plus_display_setup": "disabled",
+    "mame2003-plus_mame_remapping": "enabled",
+    "mame2003-plus_autosave_hiscore": "default",
+    "mame2003-plus_nvram_bootstraps": "enabled",
+    "mame2003-plus_core_sys_subfolder": "enabled",
+    "mame2003-plus_core_save_subfolder": "enabled",
+    "mame2003-plus_xy_device": "mouse",
+    "mame2003-plus_input_interface": "simultaneous",
+    "mame2003-plus_input_toggle": "enabled",
+    "mame2003-plus_digital_joy_centering": "enabled",
+    "mame2003-plus_use_samples": "enabled",
+    "mame2003-plus_sample_rate": "48000",
+    "mame2003-plus_brightness": "1.0",
+    "mame2003-plus_gamma": "1.0",
+    "mame2003-plus_tate_mode": "disabled",
+    "mame2003-plus_frameskip": "disabled",
+    "mame2003-plus_display_artwork": "enabled",
+    "mame2003-plus_art_resolution": "1",
+    "mame2003-plus_art_overlay_opacity": "default",
+    "mame2003-plus_cpu_clock_scale": "default"
+  }
+}

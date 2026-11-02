@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "pointer": "0xff939430",
+      "best_match_fraction_rgb_tolerance_3": 1.0,
+      "native_video_sample": 14
+    },
+    {
+      "pointer": "0xff939490",
+      "best_match_fraction_rgb_tolerance_3": 1.0,
+      "native_video_sample": 17
+    },
+    {
+      "pointer": "0xff9394f0",
+      "best_match_fraction_rgb_tolerance_3": 1.0,
+      "native_video_sample": 20
+    },
+    {
+      "pointer": "0xff938f50",
+      "best_match_fraction_rgb_tolerance_3": 1.0,
+      "native_video_sample": 68
+    }
+  ]
+}

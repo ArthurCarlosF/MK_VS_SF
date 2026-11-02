@@ -1,0 +1,77 @@
+MORTAL KOMBAT VS STREET FIGHTER — REDE LOCAL 8.1
+02/11/2026
+
+INICIAR
+No PC que hospedará a partida, abra “Iniciar servidor de rede.cmd”, na pasta
+principal do projeto. O navegador abre as salas. O servidor roda separado,
+em segundo plano, e precisa continuar ativo enquanto os demais jogam.
+
+Neste PC: http://localhost:8765/
+Outros aparelhos: use o endereço da rede exibido na tela de salas.
+Na configuração verificada nesta revisão: http://192.168.0.199:8765/
+Esse endereço pode mudar quando a configuração da sua rede mudar.
+
+SALA
+- Informe seu nome e crie uma sala de 2 a 8 vagas.
+- Os outros jogadores entram pelo endereço do PC e pelo código de seis letras
+  e números. Salas disponíveis também aparecem na página de entrada.
+- Cada participante escolhe seu personagem e marca “Estou pronto”.
+- O anfitrião inicia depois de todos entrarem e ficarem prontos.
+- A luta começa somente quando todos terminam de carregar a arena.
+- Em cada aparelho, teclado, controle ou toque controlam somente sua vaga.
+- A luta é calculada no PC anfitrião; vida, golpes e resultado não são
+  calculados de forma independente por cada navegador.
+
+CONTROLES
+Em cada aparelho: setas para mover/pular/agachar.
+J/N/M: socos; K/vírgula/ponto: chutes; L: bloqueio MK.
+U: especial; I: agarrão; O: teleporte; Shift direito: corrida MK.
+As forças e botões usados dependem do personagem.
+Controle padrão: A/B = soco/chute leve; X/Y = médio; LB/RB = forte;
+LT = bloqueio MK; RT = corrida MK. MK usa A/X para soco baixo/alto e B/Y
+para chute alto/baixo. Os botões na tela aceitam toques simultâneos.
+O navegador pode exigir apertar um botão da manete antes de reconhecê-la.
+
+CONTINUIDADE
+- Recarregar recupera a vaga pela identificação guardada naquela aba.
+- Interrupção breve tem tolerância de 15 segundos; passado isso, o participante
+  é eliminado. O anfitrião é transferido se não retornar nesse intervalo.
+- Sair voluntariamente da partida elimina a vaga imediatamente.
+- Trocar de janela solta os botões. A partida continua para os outros jogadores.
+- “Pausar” no aparelho libera seus controles, sem pausar a luta dos demais.
+- “Voltar à sala”, exclusivo do anfitrião, permite todos escolherem novamente.
+- “Parar servidor de rede.cmd” encerra o servidor e as partidas em andamento.
+
+ISOLAMENTO E ARQUIVOS
+Runtime próprio em expansao/rede/runtime/node.exe.
+Configuração do navegador em dados/navegador-rede; logs em dados/rede.
+Salas temporárias ficam na memória e não sobrevivem ao encerramento do servidor.
+O servidor publica uma lista limitada de páginas, scripts e imagens do jogo;
+não publica ROMs, arquivos pessoais, logs, códigos privados da sala ou estados
+completos das fontes emuladas.
+Nenhuma coletânea original é executada pelo servidor de rede.
+
+VALIDAÇÃO
+12 grupos de testes de protocolo aprovados. Incluem autoridade dos comandos,
+espera/prontidão/carregamento, reconexão, perda de jogador, troca de anfitrião,
+igualdade dos estados distribuídos, nova partida, bloqueio de arquivos privados
+e modo do carro pela rede.
+Teste com três contextos independentes de navegador aprovado, incluindo tela
+390x844, teclado, toque, mapeamento de manete simulado, recarga e retorno à sala.
+Teste HTTP no endereço LAN deste PC: a API de manete ficou disponível no Edge.
+Não houve teste físico com três aparelhos ou manetes. Não equivale a teste de
+todos os modelos de celular, navegador, Wi-Fi ou roteador.
+
+ESTADO DO JOGO
+Este módulo de rede NÃO conclui o jogo completo. Permanecem somente Ryu e
+Scorpion integrados para combate. Kitana e E. Honda têm novo material nativo
+capturado para revisão, ainda sem integração de combate.
+Os outros personagens, cenários originais, áudio, repertórios completos,
+finalizações, campanha, 45 diferenças SF e calibração integral seguem pendentes.
+O carro usa arte e regras provisórias. Regras para N jogadores são próprias
+do crossover e ainda precisam de equilíbrio e aceite.
+
+HTTPS OPCIONAL
+O servidor aceita MKVSF_TLS_KEY e MKVSF_TLS_CERT apontando para arquivos PEM.
+Certificados e confiança nos aparelhos devem ser configurados antes de usar
+esse modo. A instalação padrão desta revisão usa HTTP na rede local.

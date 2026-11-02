@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "moves": [
+    "shoryuken_lp",
+    "shoryuken_mp",
+    "shoryuken_hp",
+    "tatsumaki_lk",
+    "tatsumaki_mk",
+    "tatsumaki_hk"
+  ],
+  "errors": [],
+  "failed": []
+}

@@ -1,0 +1,418 @@
+[
+  {
+    "id": "scorpion",
+    "name": "normal_back_hk",
+    "gaps": [
+      52,
+      60,
+      68,
+      76,
+      84,
+      92
+    ]
+  },
+  {
+    "id": "scorpion",
+    "name": "normal_back_lk",
+    "gaps": [
+      52,
+      60,
+      68,
+      76,
+      84,
+      92,
+      100,
+      108,
+      116
+    ]
+  },
+  {
+    "id": "scorpion",
+    "name": "normal_crouch_hk",
+    "gaps": [
+      52,
+      60,
+      68,
+      76,
+      84,
+      92
+    ]
+  },
+  {
+    "id": "scorpion",
+    "name": "normal_crouch_hp",
+    "gaps": [
+      52,
+      60,
+      68,
+      76,
+      84,
+      92
+    ]
+  },
+  {
+    "id": "scorpion",
+    "name": "normal_crouch_lk",
+    "gaps": [
+      52,
+      60,
+      68,
+      76,
+      84,
+      92
+    ]
+  },
+  {
+    "id": "scorpion",
+    "name": "normal_crouch_lp",
+    "gaps": [
+      52,
+      60,
+      68,
+      76,
+      84,
+      92
+    ]
+  },
+  {
+    "id": "scorpion",
+    "name": "normal_stand_hk_far",
+    "gaps": [
+      52,
+      60,
+      68,
+      76,
+      84,
+      92
+    ]
+  },
+  {
+    "id": "scorpion",
+    "name": "normal_stand_hk_near",
+    "gaps": [
+      52,
+      60,
+      68,
+      76,
+      84,
+      92
+    ]
+  },
+  {
+    "id": "scorpion",
+    "name": "normal_stand_hp_far",
+    "gaps": [
+      52,
+      60,
+      68,
+      76,
+      84,
+      92
+    ]
+  },
+  {
+    "id": "scorpion",
+    "name": "normal_stand_hp_near",
+    "gaps": [
+      52,
+      60,
+      68,
+      76,
+      84,
+      92
+    ]
+  },
+  {
+    "id": "scorpion",
+    "name": "normal_stand_lk_far",
+    "gaps": [
+      52,
+      60,
+      68,
+      76,
+      84,
+      92
+    ]
+  },
+  {
+    "id": "scorpion",
+    "name": "normal_stand_lk_near",
+    "gaps": [
+      52,
+      60,
+      68,
+      76,
+      84,
+      92
+    ]
+  },
+  {
+    "id": "scorpion",
+    "name": "normal_stand_lp_far",
+    "gaps": [
+      52,
+      60,
+      68,
+      76,
+      84,
+      92
+    ]
+  },
+  {
+    "id": "ryu",
+    "name": "normal_crouch_hk",
+    "gaps": [
+      52,
+      60,
+      68,
+      76,
+      84,
+      92,
+      100,
+      108,
+      116,
+      124,
+      132,
+      140
+    ]
+  },
+  {
+    "id": "ryu",
+    "name": "normal_crouch_hp",
+    "gaps": [
+      52,
+      60,
+      68,
+      76,
+      84,
+      92,
+      100
+    ]
+  },
+  {
+    "id": "ryu",
+    "name": "normal_crouch_lk",
+    "gaps": [
+      52,
+      60,
+      68,
+      76,
+      84,
+      92,
+      100,
+      108,
+      116,
+      124
+    ]
+  },
+  {
+    "id": "ryu",
+    "name": "normal_crouch_lp",
+    "gaps": [
+      52,
+      60,
+      68,
+      76,
+      84,
+      92,
+      100
+    ]
+  },
+  {
+    "id": "ryu",
+    "name": "normal_crouch_mk",
+    "gaps": [
+      52,
+      60,
+      68,
+      76,
+      84,
+      92,
+      100,
+      108,
+      116,
+      124,
+      132
+    ]
+  },
+  {
+    "id": "ryu",
+    "name": "normal_crouch_mp",
+    "gaps": [
+      52,
+      60,
+      68,
+      76,
+      84,
+      92,
+      100,
+      108,
+      116
+    ]
+  },
+  {
+    "id": "ryu",
+    "name": "normal_stand_hk_far",
+    "gaps": [
+      52,
+      60,
+      68,
+      76,
+      84,
+      92,
+      100,
+      108,
+      116
+    ]
+  },
+  {
+    "id": "ryu",
+    "name": "normal_stand_hk_near",
+    "gaps": [
+      52,
+      60,
+      68,
+      76,
+      84,
+      92,
+      100,
+      108,
+      116,
+      124,
+      132
+    ]
+  },
+  {
+    "id": "ryu",
+    "name": "normal_stand_hp_far",
+    "gaps": [
+      52,
+      60,
+      68,
+      76,
+      84,
+      92,
+      100,
+      108,
+      116,
+      124,
+      132
+    ]
+  },
+  {
+    "id": "ryu",
+    "name": "normal_stand_hp_near",
+    "gaps": [
+      52,
+      60,
+      68,
+      76,
+      84,
+      92,
+      100,
+      108,
+      116
+    ]
+  },
+  {
+    "id": "ryu",
+    "name": "normal_stand_lk_far",
+    "gaps": [
+      52,
+      60,
+      68,
+      76
+    ]
+  },
+  {
+    "id": "ryu",
+    "name": "normal_stand_lk_near",
+    "gaps": [
+      52,
+      60,
+      68,
+      76,
+      84,
+      92,
+      100,
+      108,
+      116
+    ]
+  },
+  {
+    "id": "ryu",
+    "name": "normal_stand_lp_far",
+    "gaps": [
+      52,
+      60,
+      68,
+      76,
+      84,
+      92
+    ]
+  },
+  {
+    "id": "ryu",
+    "name": "normal_stand_lp_near",
+    "gaps": [
+      52,
+      60,
+      68,
+      76,
+      84
+    ]
+  },
+  {
+    "id": "ryu",
+    "name": "normal_stand_mk_far",
+    "gaps": [
+      52,
+      60,
+      68,
+      76
+    ]
+  },
+  {
+    "id": "ryu",
+    "name": "normal_stand_mk_near",
+    "gaps": [
+      52,
+      60,
+      68,
+      76,
+      84,
+      92,
+      100,
+      108
+    ]
+  },
+  {
+    "id": "ryu",
+    "name": "normal_stand_mp_far",
+    "gaps": [
+      52,
+      60,
+      68,
+      76,
+      84,
+      92,
+      100,
+      108,
+      116,
+      124
+    ]
+  },
+  {
+    "id": "ryu",
+    "name": "normal_stand_mp_near",
+    "gaps": [
+      52,
+      60,
+      68,
+      76,
+      84,
+      92,
+      100
+    ]
+  }
+]

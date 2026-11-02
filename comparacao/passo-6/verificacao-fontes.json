@@ -1,0 +1,105 @@
+{
+  "status": "PASS",
+  "repeatPairs": {
+    "umk3": 60,
+    "ssf2tu": 87
+  },
+  "captures": {
+    "execucao-01": 294,
+    "provas-01": 138,
+    "provas-02": 138,
+    "comandos-01": 70,
+    "comandos-02": 18,
+    "extra-ar-01": 27,
+    "duplo-01": 2
+  },
+  "originalInputs": [
+    {
+      "path": "C:\\Users\\Pichau\\Documents\\Codex\\2026-10-22\\ve\\work\\selection-assets\\core\\mame2003_plus_libretro.dll",
+      "sha256": "30dc4db74ae1b93fd238c6107432596944bce34deb880ed11c204f8d21037174"
+    },
+    {
+      "path": "C:\\Users\\Pichau\\Documents\\Codex\\2026-10-22\\ve\\work\\selection-assets\\roms\\umk3.zip",
+      "sha256": "318f765de3177e1ff5eaa13bf431be6967f1c98350e37e3e0a26d5d175315488"
+    },
+    {
+      "path": "C:\\Users\\Pichau\\Documents\\Codex\\2026-10-22\\ve\\work\\selection-assets\\roms\\ssf2tu.zip",
+      "sha256": "f9e247b6b03bb7221860e73c62cc004704f0c7c9ea5298096b1800c80ab68774"
+    }
+  ],
+  "cleanJumpProbeContacts": 128,
+  "previousStepSeal": "UNCHANGED",
+  "measuredRecoveryWindows": [
+    {
+      "profile": "scorpion_contact_hp_high",
+      "controlSamples": 22,
+      "earliestAcceptedOffset": 21,
+      "latestRejectedOffset": 20,
+      "phaseSensitive": false
+    },
+    {
+      "profile": "scorpion_contact_hp_None",
+      "controlSamples": 18,
+      "earliestAcceptedOffset": 16,
+      "latestRejectedOffset": 15,
+      "phaseSensitive": false
+    },
+    {
+      "profile": "scorpion_contact_lp_high",
+      "controlSamples": 22,
+      "earliestAcceptedOffset": 21,
+      "latestRejectedOffset": 20,
+      "phaseSensitive": false
+    },
+    {
+      "profile": "scorpion_contact_lp_None",
+      "controlSamples": 14,
+      "earliestAcceptedOffset": 12,
+      "latestRejectedOffset": 11,
+      "phaseSensitive": false
+    },
+    {
+      "profile": "scorpion_teleport_hit",
+      "controlSamples": 34,
+      "earliestAcceptedOffset": 32,
+      "latestRejectedOffset": 31,
+      "phaseSensitive": false
+    },
+    {
+      "profile": "ryu_contact_hp_high",
+      "controlSamples": 28,
+      "earliestAcceptedOffset": 26,
+      "latestRejectedOffset": 25,
+      "phaseSensitive": false
+    },
+    {
+      "profile": "ryu_contact_hp_None",
+      "controlSamples": 28,
+      "earliestAcceptedOffset": 26,
+      "latestRejectedOffset": 25,
+      "phaseSensitive": false
+    },
+    {
+      "profile": "ryu_contact_lp_high",
+      "controlSamples": 20,
+      "earliestAcceptedOffset": 19,
+      "latestRejectedOffset": 18,
+      "phaseSensitive": false
+    },
+    {
+      "profile": "ryu_contact_lp_None",
+      "controlSamples": 21,
+      "earliestAcceptedOffset": 19,
+      "latestRejectedOffset": 18,
+      "phaseSensitive": false
+    },
+    {
+      "profile": "ryu_projectile_hit",
+      "controlSamples": 44,
+      "earliestAcceptedOffset": 42,
+      "latestRejectedOffset": 44,
+      "phaseSensitive": true
+    }
+  ],
+  "diagnosticExcluded": "provas-01: held-up begins too early for a clean recovery probe; never used by preparar_reacoes.py."
+}

@@ -1,0 +1,149 @@
+﻿MORTAL KOMBAT VS STREET FIGHTER
+ETAPAS DO PROJETO — STATUS ATUALIZADO EM 02/11/2026
+Versão de referência: sequências 7.0 | Expansão experimental: 8.2 com rede local e especiais Ryu
+Pasta: D:\projetos\Mortal Kombat vs Street Fighter
+Iniciar referência: Abrir arena.cmd | Expansão: Abrir expansao.cmd
+Seleção: Abrir seleção.cmd | Entrega parcial: expansao/Estado da expansao.txt
+
+Este arquivo contém uma única sequência de etapas, de 1 a 15.
+A calibração de Ryu e Scorpion ainda tem pendências; implementação não equivale
+a fidelidade concluída.
+
+LEGENDA
+[x] Concluído dentro do escopo indicado.
+[~] Parcial: existe implementação, mas ainda há trabalho ou validação pendente.
+[ ] Pendente: não concluído.
+“Base concluída” não significa fidelidade integral ao jogo original.
+
+DIREÇÃO APROVADA — [x] DEFINIDA
+Jogo independente, com motor próprio; não precisa abrir no seletor da coletânea.
+Referências: UMK3 arcade revisão 1.2 e Super Street Fighter II Turbo americano.
+Preservar identidade visual, cenários e mecânicas, com separação clara dos elencos.
+O casamento entre os sistemas exige regras próprias e comparação com os originais.
+REA é apoio opcional de análise; não cria automaticamente o motor nem recuperou
+integralmente o código-fonte dos jogos.
+
+ROTEIRO GERAL DO PROJETO
+
+1. PRESERVAÇÃO E FONTES — [~] BASE CONCLUÍDA; VALIDAÇÃO DE DADOS NÃO INTEGRAL
+[x] Cópia física, isolamento no Sandboxie e entrada experimental criados.
+[x] Recursos SF obtidos da coletânea local; originais preservados nas verificações.
+[ ] Validação completa da independência/persistência de saves e configurações.
+    O teste específico de persistência da modificação foi dispensado pelo usuário,
+    com risco aceito; não deve ser contado como aprovado.
+
+2. ESCOPO E VERSÕES — [x] DEFINIDOS
+[x] UMK3 1.2 e Super Street Fighter II Turbo americano como referências.
+[x] Motor independente e separação visual MK/SF aprovados.
+[x] Escopo ampliado: jogo completo, todos os lutadores, cenários e desafio do carro;
+    participantes simultâneos com zoom progressivo conforme sobreviventes.
+
+3. SELEÇÃO INDEPENDENTE — [~] PROTÓTIPO IMPLEMENTADO
+[x] 38 retratos reais: 22 UMK3 e 16 da grade normal Super Turbo.
+[x] MK à esquerda, SF à direita; navegação, confirmação e retorno.
+[x] Seleção abre o confronto Ryu/Scorpion nas duas ordens.
+[x] Preparação experimental de partidas com 2 a 8 vagas e painel dos 38 retratos.
+[ ] Aceite final da seleção e ligação do restante do elenco a personagens jogáveis.
+
+4. BASE DO MOTOR DE LUTA — [~] BASE FUNCIONAL CONCLUÍDA
+[x] Motor JavaScript/Canvas, simulação a 240 Hz e relógios separados.
+[x] Estados, comandos, ações, colisões, dano, projéteis e rounds reutilizáveis.
+[x] Perfis de movimento, reações e sequências separados por personagem.
+[x] Base experimental com quantidade variável de participantes (motor 2 a 16).
+[x] Alvos, colisões, eliminação e zoom conforme os participantes vivos.
+[ ] Fidelidade integral, revisão final e tecnologia de empacotamento definitivo.
+
+5. CONVERSÃO DOS RECURSOS — [~] PARCIAL
+[x] Retratos dos dois elencos e recursos de movimento/combate Ryu/Scorpion.
+[x] Novas poses de socos alternados, combos e reações importadas e testadas.
+[x] Captura inicial dos 38 personagens da grade: pacotes nativos instalados.
+[ ] Revisar poses, âncoras, oclusões e ciclos desses pacotes; não são repertórios completos.
+[ ] Animações e efeitos completos de todos os personagens.
+[ ] Cenários, sons, músicas e locuções completos.
+
+6. PERSONAGEM DE REFERÊNCIA POR JOGO — [~] JOGÁVEL; CALIBRAÇÃO EM ANDAMENTO
+[x] Ryu/Scorpion com movimento, saltos, básicos, defesa, agarrões e especiais atuais.
+[x] Soco alto rápido, misturas alto/baixo e combos principais Scorpion.
+[x] Base de ligações e cancelamentos Ryu.
+[ ] Fechamento da calibração de sequências, conforme o relatório
+    Passo 7 - Sequencias e resultados.txt.
+[x] Shoryuken e Tatsumaki terrestres em três forças implementados por dados nativos.
+[ ] Aprovar fidelidade desses especiais: dano aleatório, cadência, comandos,
+    cancelamentos, guarda por fase e reações em cantos.
+[ ] Repertório completo de especiais, parâmetros finais e fidelidade integral.
+
+7. PRIMEIRO CONFRONTO JOGÁVEL — [~] PROTÓTIPO CONCLUÍDO; CALIBRAÇÃO PENDENTE
+[x] Versus local, vida, dano, defesa alta/baixa, colisões e projéteis.
+[x] Tempo, rounds, empate, KO, fim de partida e reinício.
+[x] Treino disponível e confronto nas duas ordens.
+    Cenário de treino e regras ainda sujeitos à calibração e apresentação final.
+
+Pendências de calibração de Ryu e Scorpion:
+[ ] Corrigir as divergências do Ryu e repetir a comparação.
+[ ] Validar melhor as janelas de bloqueio e recuperação de cada continuação
+    dos combos do Scorpion.
+[ ] Conferir os cancelamentos em cada braço da sequência de socos;
+    alguns ainda reutilizam a regra do primeiro soco.
+[ ] Ampliar os testes entre Ryu e Scorpion, nos dois lados da tela.
+
+8. ENCONTRO ENTRE AS MECÂNICAS — [~] BASE IMPLEMENTADA
+[x] Botão de bloqueio MK e defesa para trás SF.
+[x] Base de chip, stun, reações, combos e cancelamentos por dados.
+[ ] Validação completa das interações cruzadas, aberturas e contra-ataques.
+[ ] Regras completas de juggle, reduções de dano e supers.
+[ ] Todas as finalizações nativas dos personagens MK do UMK3 arcade:
+    fatalities, babalities, animalities, friendships e finalizações de cenário.
+    Decisão do usuário: preservar o arcade, sem importar Brutalities de console.
+    Personagens SF preservam o próprio repertório, sem finalizações inéditas.
+
+9. FIDELIDADE E EXPANSÃO DO ELENCO — [~] REFERÊNCIAS EM VALIDAÇÃO
+[x] Bancada de comparação com os originais e registros reproduzíveis.
+[ ] Concluir a calibração de Ryu/Scorpion antes de ampliar o elenco.
+[ ] Adicionar demais lutadores, com suas próprias animações e regras.
+
+10. CENÁRIOS, ÁUDIO E APRESENTAÇÃO — [ ] PENDENTE
+[ ] Cenários das duas séries, músicas, efeitos e locução.
+[ ] Telas versus, resultados e apresentação definitiva.
+
+11. MODOS DE JOGO — [~] VERSUS LOCAL E TREINO IMPLEMENTADOS
+[x] Versus local e treino funcional.
+[~] Adversário controlado pelo jogo: IA experimental na expansão 8.0.
+[x] Todos contra todos simultâneo com 2 a 8 vagas na interface experimental.
+[x] Salas pela rede local, com entrada pelo navegador de cada aparelho.
+[x] Escolha individual, prontidão, espera e início pelo anfitrião.
+[x] Simulação central, sincronização, reconexão e transferência de anfitrião.
+[x] Teclado, botões na tela e mapeamento de manete por participante.
+[x] Usuário confirmou a abertura da página em outro aparelho da rede.
+[ ] Validação física das lutas em vários aparelhos, manetes e condições de rede.
+[~] Destruir carro: protótipo cooperativo compatível com golpes MK/SF.
+[ ] Arte, cenário, áudio e regras do desafio do carro fiéis à referência.
+[ ] Equilíbrio, controles físicos e aceite de partidas com vários jogadores.
+[ ] Definir e implementar campanha, finais e demais modos aprovados.
+
+12. TESTES — [~] AUTOMAÇÃO IMPLEMENTADA; VALIDAÇÃO CONTÍNUA
+[x] Testes funcionais de comandos, movimento, combate, reações e sequências.
+[x] Testes de interface e repetições independentes dos experimentos nativos.
+[x] Regressões da expansão e testes de vários jogadores/carro aprovados.
+[x] 12 grupos de rede e fluxo em três navegadores independentes aprovados.
+[ ] Resolver divergências de fidelidade, incluindo as 45 SF do passo 7.
+[ ] Validar repertório completo, áudio, desempenho e controles físicos.
+
+13. CONFIGURAÇÕES E DADOS PRÓPRIOS — [~] PERFIL LOCAL DO PROTÓTIPO CRIADO
+[x] Atalho do protótipo usa perfil de navegador próprio.
+[x] Expansão usa perfil exclusivo e configuração de partida própria.
+[x] Rede usa runtime, perfil de navegador e logs exclusivos.
+[ ] Diretórios definitivos exclusivos para configuração, progresso e logs.
+[ ] Validar independência completa de dados na aplicação final.
+
+14. EMPACOTAMENTO — [ ] PENDENTE
+[x] Atalhos locais para abrir seleção, arena anterior e expansão experimental.
+[x] Runtime de rede copiado e comandos próprios de iniciar/parar servidor.
+[ ] Aplicação independente, atalho definitivo e instruções de distribuição.
+
+15. REVISÃO PARA CONCLUSÃO — [ ] PENDENTE
+[ ] Aprovar fidelidade, elenco e modos combinados.
+[ ] Corrigir falhas finais e gerar versão final.
+[ ] Após concluir o pedido integral, criar commit e enviar ao GitHub indicado:
+    https://github.com/ArthurCarlosF/MK_VS_SF.git
+    Cópia local preparada; nenhum commit ou envio realizado até esta revisão.
+    Rede local pelo navegador incluída no escopo aprovado.

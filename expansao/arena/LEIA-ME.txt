@@ -1,0 +1,112 @@
+﻿MORTAL KOMBAT VS STREET FIGHTER — EXPANSÃO 8.1 EXPERIMENTAL COM REDE LOCAL
+Atualizado em 02/11/2026
+
+COMO ABRIR
+Use “Abrir expansao.cmd”, na pasta principal do projeto.
+A arena anterior e seu atalho continuam preservados.
+
+ENTREGUE NESTA REVISÃO
+- Preparação de partida com 2 a 8 participantes, todos simultâneos.
+- Ryu e Scorpion selecionáveis em qualquer vaga, inclusive repetidos.
+- Teclado para 1P/2P; controles de console e botões na tela por participante.
+- Adversário controlado pelo computador, experimental e determinístico.
+- Seleção de alvo vivo, colisões para vários corpos, ataques contra vários
+  alvos, projéteis, teleporte, agarrões e eliminação sem encerrar antes da hora.
+- Pausa de impacto restrita aos envolvidos nas lutas com 3 ou mais jogadores.
+- Guarda para ataques pela frente nas lutas com 3 ou mais jogadores.
+- Zoom progressivo com participantes vivos; volta suavemente ao normal ao
+  restarem dois. Maior afastamento permitido quando há mais participantes.
+- Motor aceita 2 a 16 vagas; interface limitada a 8 nesta revisão.
+- Modo cooperativo de destruir carro: três partes, dano progressivo, 40 segundos,
+  pontuação por participante, resultado e reinício. Socos, chutes e projéteis
+  MK/SF causam dano; a lança não puxa o carro nem o transforma em lutador.
+- Configuração da partida própria, salva no perfil exclusivo da expansão.
+- Painel de elenco com os 38 retratos, distinguindo combate integrado e pendente.
+
+TESTES
+- 11 grupos novos aprovados, incluindo sessões com 3, 4, 8 e 16 participantes.
+- 24.000 passos de comparação de duas vagas contra a arena anterior, em quatro
+  confrontos: estados comparados periodicamente, sem diferença de comportamento.
+- Regressões: combate 39; comandos 17; movimento 20; repertório 9; fases 9;
+  calibração 7; reações 12 (346 replays); sequências 9; contato 40 casos;
+  soco alto 55 casos. Todos aprovados. Resultados locais em evidencias/.
+- Interface em Edge: 38 retratos carregados, quatro jogadores/controles, troca
+  de modo, dano no carro e zoom de cerca de 75% para 100% com duas eliminações.
+- Teste físico de vários controles ainda pendente. A aprovação funcional não
+  comprova fidelidade integral, equilíbrio ou desempenho em todo computador.
+
+AINDA NÃO CONCLUÍDO
+O pedido de terminar todo o jogo NÃO está concluído nesta revisão.
+- 36 lutadores da seleção ainda sem combate próprio. Chefes/secretos adicionais
+  também precisam de recursos, integração e testes. Não foram feitos clones
+  de Scorpion/Ryu para fingir a conclusão desses lutadores.
+- Cenários originais completos, camadas/animações, música, efeitos e locução.
+- Desafio do carro fiel ao SF original: a arte e as regras atuais são do
+  protótipo, não recursos extraídos nem calibração aprovada do original.
+- Especiais completos, supers, fatalities, finais, campanha e demais modos.
+- Calibração anterior: 45 divergências SF, recuperação/bloqueio dos combos MK,
+  cancelamentos por braço e validação cruzada completa continuam pendentes.
+- Regras finais de dano/juggle e compatibilidade dos repertórios completos.
+- Física de queda complementar em partidas com vários lutadores é adaptação
+  experimental; N jogadores não é um modo que exista nessas referências arcade.
+- Áudio, configuração final de controles, persistência/isolamento integral,
+  empacotamento final, desempenho, equilíbrio e aceite final.
+- A versão executa em janela própria do Edge; não é um executável nativo final.
+
+PRESERVAÇÃO
+Esta revisão fica em expansao/, com cópia física dos recursos da arena.
+Não altera arena/ anterior, comparacao/passo-7 ou as coletâneas originais.
+O atalho utiliza dados/navegador-expansao, separado do perfil da arena anterior.
+integridade-arena-anterior.json registra o estado da arena anterior na entrega.
+Não houve nova execução do REA nesta revisão nem recuperação integral de fontes.
+
+REDE LOCAL 8.1
+Salas com 2 a 8 vagas; escolha e prontidão individual; início pelo anfitrião;
+carregamento conjunto; simulação central; reconexão; troca de anfitrião;
+volta à sala. Teclado, toque e mapeamento de manete por aparelho.
+Iniciar: Iniciar servidor de rede.cmd. Parar: Parar servidor de rede.cmd.
+Detalhes: rede/LEIA-ME.txt. Testes: testes-rede.json e testes-rede-navegadores.json.
+O pedido de jogo completo permanece incompleto; não foi marcado como concluído.
+
+CRITÉRIO FINAL CONFIRMADO
+UMK3 arcade fiel; finalizações próprias da referência somente para MK.
+SF mantém seu próprio repertório. Adaptações se restringem à compatibilidade.
+Não importar Brutalities de console. Publicar no repositório indicado apenas
+após concluir o pedido integral. A cópia Git local foi preparada, sem commits.
+
+ELENCO — CAPTURA INICIAL CONCLUÍDA
+38 pacotes nativos da grade foram capturados e instalados para revisão.
+Esses pacotes não completam o repertório nem a integração dos personagens.
+A auditoria de integridade está em auditoria-recursos.json. Persistem pontos
+de baixa correspondência visual; exigem revisão e não aprovam fidelidade.
+Só Ryu e Scorpion continuam integrados para combate nesta versão.
+
+ESPECIAIS NATIVOS DO RYU — REVISÃO 8.2, 02/11/2026
+Implementados três Shoryukens e três Tatsumakis terrestres, cada um com sprites,
+trajetória, áreas de contato e recuperação medidos em sessões do SSF2T US.
+Shoryuken: frente, baixo, diagonal à frente + um dos três socos.
+Tatsumaki: baixo, diagonal para trás, trás + um dos três chutes.
+Há comandos ao apertar/soltar; as forças têm percursos e durações diferentes.
+Motor: trajetória especial em duas dimensões, fases de contato distintas,
+medidor na execução e reações nativas com adaptação de apresentação da vítima.
+Fase ascendente do Shoryuken tem testemunha própria de dano e reação.
+Oito grupos funcionais novos aprovados; navegador sem falhas de imagem; rede
+com 12 grupos e três contextos independentes aprovada. Regressões de combate
+(39), sequências (9) e reações (12, incluindo 346 replays) aprovadas nesta revisão.
+Esses testes NÃO aprovam fidelidade integral. Distribuição de dano aleatório,
+cadência turbo, temporizadores dos comandos, cancelamentos, cantos e todas as
+continuações de guarda ainda precisam de comparações adicionais.
+Capturados também Hadouken azul/vermelho em três forças e Shinkuhadouken,
+com entidades e colisões nativas dos projéteis. Esses novos projéteis ainda
+NÃO foram integrados. O Hadouken antigo permanece na arena.
+Revisão de captura de projéteis preferida: projetil-nativo-r2, sete casos,
+60 imagens e 78 amostras visuais conferidas. Origem calculada por posição
+nativa/câmera, com paleta14 azul/super e15 vermelha. Não usar as âncoras do
+descritor de ator nos projéteis. Vida lógica SF: ator+0x2a; indicador+0x2c
+pode atrasar uma amostra. Evidência: evidencias/projeteis-ryu-auditoria.json.
+Servidor instalado confirmou revisão de combate8.2. Teste adicional de teclado
+pela rede executou Shoryuken e comparou o mesmo estado nos dois navegadores.
+Tatsumaki aéreo também continua pendente. Ryu não está completo.
+O pedido integral continua incompleto: demais 36 personagens jogáveis,
+secretos/chefes adicionais, finishers MK arcade, cenários, áudio, campanha,
+carro fiel, calibração e testes finais. Nenhum commit/envio final foi feito.

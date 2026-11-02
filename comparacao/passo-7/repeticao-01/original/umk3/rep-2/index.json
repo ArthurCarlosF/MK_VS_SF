@@ -1,0 +1,2542 @@
+{
+  "game": "umk3",
+  "rep": 2,
+  "fps": 53.20494842529297,
+  "char_ids": [
+    18,
+    18
+  ],
+  "baseline": {
+    "players": [
+      {
+        "x": 496.0,
+        "y": 112.0,
+        "pose": "0xff9367d0",
+        "facing": 1,
+        "health": 166,
+        "state": null,
+        "boxes": []
+      },
+      {
+        "x": 703.0,
+        "y": 112.0,
+        "pose": "0xff9367d0",
+        "facing": -1,
+        "health": 166,
+        "state": null,
+        "boxes": []
+      }
+    ],
+    "camera": 400
+  },
+  "cases": [
+    {
+      "id": "hp_far_hit_None",
+      "file": "hp_far_hit_None/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 600.0,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936770",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "hp_far_hit_4",
+      "file": "hp_far_hit_4/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 600.0,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936770",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "hp_far_hit_6",
+      "file": "hp_far_hit_6/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 600.0,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936770",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "hp_far_hit_12",
+      "file": "hp_far_hit_12/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 600.0,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936770",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "hp_far_hit_15",
+      "file": "hp_far_hit_15/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 600.0,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936770",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "hp_far_hit_20",
+      "file": "hp_far_hit_20/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 600.0,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936770",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "hp_far_hit_24",
+      "file": "hp_far_hit_24/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 600.0,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936770",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "hp_far_guard_None",
+      "file": "hp_far_guard_None/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 600.0,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936770",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "hp_far_guard_4",
+      "file": "hp_far_guard_4/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 600.0,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936770",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "hp_far_guard_6",
+      "file": "hp_far_guard_6/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 600.0,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936770",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "hp_far_guard_12",
+      "file": "hp_far_guard_12/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 600.0,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936770",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "hp_far_guard_15",
+      "file": "hp_far_guard_15/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 600.0,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936770",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "hp_far_guard_20",
+      "file": "hp_far_guard_20/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 600.0,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936770",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "hp_far_guard_24",
+      "file": "hp_far_guard_24/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 600.0,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936770",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "hp_train_far_3",
+      "file": "hp_train_far_3/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 600.0,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936770",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "hp_train_far_4",
+      "file": "hp_train_far_4/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 600.0,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936770",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "hp_train_far_6",
+      "file": "hp_train_far_6/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 600.0,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936770",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "hp_train_far_8",
+      "file": "hp_train_far_8/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 600.0,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936770",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "hp_train_far_10",
+      "file": "hp_train_far_10/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 600.0,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936770",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "hp_train_far_14",
+      "file": "hp_train_far_14/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 600.0,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936770",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "hp_hold_far",
+      "file": "hp_hold_far/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 600.0,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936770",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "hp_near_hit_None",
+      "file": "hp_near_hit_None/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "hp_near_hit_4",
+      "file": "hp_near_hit_4/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "hp_near_hit_6",
+      "file": "hp_near_hit_6/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "hp_near_hit_12",
+      "file": "hp_near_hit_12/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "hp_near_hit_15",
+      "file": "hp_near_hit_15/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "hp_near_hit_20",
+      "file": "hp_near_hit_20/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "hp_near_hit_24",
+      "file": "hp_near_hit_24/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "hp_near_guard_None",
+      "file": "hp_near_guard_None/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "hp_near_guard_4",
+      "file": "hp_near_guard_4/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "hp_near_guard_6",
+      "file": "hp_near_guard_6/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "hp_near_guard_12",
+      "file": "hp_near_guard_12/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "hp_near_guard_15",
+      "file": "hp_near_guard_15/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "hp_near_guard_20",
+      "file": "hp_near_guard_20/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "hp_near_guard_24",
+      "file": "hp_near_guard_24/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "hp_train_near_3",
+      "file": "hp_train_near_3/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "hp_train_near_4",
+      "file": "hp_train_near_4/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "hp_train_near_6",
+      "file": "hp_train_near_6/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "hp_train_near_8",
+      "file": "hp_train_near_8/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "hp_train_near_10",
+      "file": "hp_train_near_10/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "hp_train_near_14",
+      "file": "hp_train_near_14/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "hp_hold_near",
+      "file": "hp_hold_near/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "mix_LL",
+      "file": "mix_LL/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 600.0,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936770",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "mix_LH",
+      "file": "mix_LH/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 600.0,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936770",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "mix_HL",
+      "file": "mix_HL/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 600.0,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936770",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "mix_HH",
+      "file": "mix_HH/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 600.0,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936770",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "mix_LLL",
+      "file": "mix_LLL/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 600.0,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936770",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "mix_LLH",
+      "file": "mix_LLH/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 600.0,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936770",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "mix_LHL",
+      "file": "mix_LHL/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 600.0,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936770",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "mix_LHH",
+      "file": "mix_LHH/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 600.0,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936770",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "mix_HLL",
+      "file": "mix_HLL/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 600.0,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936770",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "mix_HLH",
+      "file": "mix_HLH/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 600.0,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936770",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "mix_HHL",
+      "file": "mix_HHL/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 600.0,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936770",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "mix_HHH",
+      "file": "mix_HHH/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 600.0,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936770",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "mix_LLLL",
+      "file": "mix_LLLL/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 600.0,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936770",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "mix_LLLH",
+      "file": "mix_LLLH/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 600.0,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936770",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "mix_LLHL",
+      "file": "mix_LLHL/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 600.0,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936770",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "mix_LLHH",
+      "file": "mix_LLHH/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 600.0,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936770",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "mix_LHLL",
+      "file": "mix_LHLL/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 600.0,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936770",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "mix_LHLH",
+      "file": "mix_LHLH/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 600.0,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936770",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "mix_LHHL",
+      "file": "mix_LHHL/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 600.0,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936770",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "mix_LHHH",
+      "file": "mix_LHHH/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 600.0,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936770",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "mix_HLLL",
+      "file": "mix_HLLL/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 600.0,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936770",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "mix_HLLH",
+      "file": "mix_HLLH/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 600.0,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936770",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "mix_HLHL",
+      "file": "mix_HLHL/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 600.0,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936770",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "mix_HLHH",
+      "file": "mix_HLHH/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 600.0,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936770",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "mix_HHLL",
+      "file": "mix_HHLL/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 600.0,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936770",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "mix_HHLH",
+      "file": "mix_HHLH/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 600.0,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936770",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "mix_HHHL",
+      "file": "mix_HHHL/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 600.0,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936770",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "mix_HHHH",
+      "file": "mix_HHHH/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 600.0,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936770",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "confirm_elbows_False",
+      "file": "confirm_elbows_False/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "confirm_triple_False",
+      "file": "confirm_triple_False/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "confirm_four_False",
+      "file": "confirm_four_False/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "confirm_knees_False",
+      "file": "confirm_knees_False/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "confirm_elbows_True",
+      "file": "confirm_elbows_True/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "confirm_triple_True",
+      "file": "confirm_triple_True/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "confirm_four_True",
+      "file": "confirm_four_True/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "confirm_knees_True",
+      "file": "confirm_knees_True/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 727.25,
+            "y": 112.0,
+            "pose": "0xff9367d0",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 790.25,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 484
+      }
+    },
+    {
+      "id": "fast_none_spear_0",
+      "file": "fast_none_spear_0/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 496.0,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "fast_none_teleport_0",
+      "file": "fast_none_teleport_0/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 496.0,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "fast_lp_spear_2",
+      "file": "fast_lp_spear_2/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 496.0,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "fast_lp_spear_8",
+      "file": "fast_lp_spear_8/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 496.0,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "fast_lp_spear_14",
+      "file": "fast_lp_spear_14/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 496.0,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "fast_lp_teleport_2",
+      "file": "fast_lp_teleport_2/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 496.0,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "fast_lp_teleport_8",
+      "file": "fast_lp_teleport_8/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 496.0,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "fast_lp_teleport_14",
+      "file": "fast_lp_teleport_14/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 496.0,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "fast_hp_spear_2",
+      "file": "fast_hp_spear_2/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 496.0,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "fast_hp_spear_8",
+      "file": "fast_hp_spear_8/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 496.0,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "fast_hp_spear_14",
+      "file": "fast_hp_spear_14/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 496.0,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "fast_hp_teleport_2",
+      "file": "fast_hp_teleport_2/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 496.0,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "fast_hp_teleport_8",
+      "file": "fast_hp_teleport_8/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 496.0,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    },
+    {
+      "id": "fast_hp_teleport_14",
+      "file": "fast_hp_teleport_14/trace.json",
+      "initial": {
+        "players": [
+          {
+            "x": 496.0,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": 1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          },
+          {
+            "x": 703.0,
+            "y": 112.0,
+            "pose": "0xff936830",
+            "facing": -1,
+            "health": 166,
+            "state": null,
+            "boxes": []
+          }
+        ],
+        "camera": 400
+      }
+    }
+  ],
+  "options": {
+    "mame2003-plus_skip_disclaimer": "enabled",
+    "mame2003-plus_skip_warnings": "enabled",
+    "mame2003-plus_display_setup": "disabled",
+    "mame2003-plus_mame_remapping": "enabled",
+    "mame2003-plus_autosave_hiscore": "default",
+    "mame2003-plus_nvram_bootstraps": "enabled",
+    "mame2003-plus_core_sys_subfolder": "enabled",
+    "mame2003-plus_core_save_subfolder": "enabled",
+    "mame2003-plus_xy_device": "mouse",
+    "mame2003-plus_input_interface": "simultaneous",
+    "mame2003-plus_input_toggle": "enabled",
+    "mame2003-plus_digital_joy_centering": "enabled",
+    "mame2003-plus_use_samples": "enabled",
+    "mame2003-plus_sample_rate": "48000",
+    "mame2003-plus_brightness": "1.0",
+    "mame2003-plus_gamma": "1.0",
+    "mame2003-plus_tate_mode": "disabled",
+    "mame2003-plus_frameskip": "disabled",
+    "mame2003-plus_display_artwork": "enabled",
+    "mame2003-plus_art_resolution": "1",
+    "mame2003-plus_art_overlay_opacity": "default",
+    "mame2003-plus_cpu_clock_scale": "default"
+  }
+}

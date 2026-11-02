@@ -1,0 +1,117 @@
+PASSO 7 — SEQUÊNCIAS 7.0 — 27/10/2026
+
+ESTADO
+Implementação jogável e base reutilizável entregues. A calibração integral
+do passo 7 continua aberta: a bateria ampla SF ainda registra diferenças.
+Não interpretar os testes funcionais aprovados como igualdade com os originais.
+
+COMO TESTAR
+Abra Abrir arena.cmd ou use Ctrl+F5 na arena. Confira “sequências 7.0”.
+Scorpion 1P: N é soco alto, J soco baixo, vírgula chute baixo.
+Scorpion 2P: C é soco alto, F soco baixo, Z chute baixo.
+Solte e aperte novamente cada botão; manter pressionado não repete golpes.
+À distância, repita soco alto para alternar os braços. Também pode misturar
+soco alto e baixo. De perto: alto, alto, chute baixo, trás + chute baixo.
+Uma cadência de referência em amostras MK: 0, 6, 18, 29.
+Não é necessário manter os botões entre os golpes.
+Ryu: repetição de leves e cancelamento para Hadouken dependem da variante,
+do resultado do contato e do momento do comando. O atalho especial continua.
+
+ALTERAÇÕES
+1. Soco alto à distância com alternância nativa dos braços e caudas de
+   recuperação próprias. O primeiro acerto não desaparece ao trocar de braço.
+2. Misturas alto/baixo preservam as poses de transição recuperadas, não apenas
+   uma troca da imagem final. Foram conferidos 28 prefixos de 2 a 4 socos.
+3. Cotovelada, segunda cotovelada, chute frontal e chute para trás têm
+   animações, danos e reações específicas de combo. Também há continuação
+   das joelhadas. O golpe final do combo pode ser bloqueado em pé; não foi
+   tratado como a rasteira comum só por compartilhar o botão trás + LK.
+4. Seleção da variante de soco alto corrigida: original escolhe cotovelo com
+   distância 73,75, mas soco reto com 77; limiar interpolado em 75,375.
+5. Combos usam vínculos por dados: botão, direção, janela, próximo estado,
+   exigência de contato e momento da transição. Interrupção e reinício limpam
+   pedidos pendentes. Snapshots copiam esses pedidos independentemente.
+6. SF distingue soco leve de perto do jab de longe, repetição de ataques
+   leves, janelas tardias de ligação e cancelamentos para o Hadouken atual.
+7. Cancelamentos dependem do movimento e do resultado hit/block/whiff.
+   Duas contagens: tempo do atacante sem pausa e tempo decorrido do comando.
+   As entradas durante a pausa não viram uma fila irrestrita de ataques.
+8. Defender durante um hitstun não interrompe automaticamente um combo.
+   A defesa volta quando há recuperação/abertura; a janela antecipada MK
+   da cotovelada é tratada separadamente.
+9. Corrigida reação do chute leve agachado SF: uma classificação anterior
+   por proporção de dano confundia esse acerto fraco com bloqueio.
+
+MEDIÇÕES NATIVAS
+3039 execuções de caso conservadas em comparacao/passo-7.
+288 pares reexecutados em processos independentes: 92 MK e 196 SF.
+Os traces desses pares coincidiram integralmente.
+As ROMs e núcleo continuam com os hashes originais; selos dos passos 5 e 6
+foram conferidos e permaneceram intactos.
+Os conjuntos iniciais e diagnósticos foram conservados; não se deve somar
+seus resultados como experimentos independentes de fidelidade aprovada.
+especiais-mk é diagnóstico de um comando curto que não produzia a lança
+corretamente. especiais-validos-mk e especiais-rapidos-mk verificam movimentos
+que também funcionam do neutro e serviram de base para as regras MK.
+
+Exemplos Scorpion em espelho:
+  Cotovelo + cotovelo: contatos nativos 5 e 17; dano 16 + 7 em vida 166.
+  Mais chute frontal: contato 27; dano adicional 7.
+  Mais trás + chute baixo: contato 39; dano adicional 10.
+  Sequência inteira: dano 40/166; guardada: 6/166 nos casos de referência.
+  Joelhadas: contatos 5 e 18; protótipo 5 e 17, tolerância de uma amostra.
+  Soco alto reto: janela inicial observada de repetição até a amostra 14;
+  a extensão do outro braço aparece em 18 no par iniciado com toques 0/4.
+  Misturar soco baixo/alto muda também as poses intermediárias do braço.
+
+TESTES APROVADOS
+55 casos de soco alto, com contagem, braço e tempo (tolerância de uma amostra).
+9 grupos de sequências: 28 prefixos mistos, danos/tempos dos combos nos dois
+sentidos, bloqueio, crossover, janelas de cancelamento e limpeza de pedidos.
+33 verificações da interface Edge: imagens, duas ordens de jogadores, ambos
+os sentidos, teclado, pausa/reinício e renderização do combo completo.
+Regressões: 40 casos de contato LP, 17 grupos de comandos, 9 de fases,
+9 de repertório, 20 de movimento, 39 de combate, 7 de calibração e 12 de reações.
+Imagens em Previa-combo-* foram inspecionadas visualmente.
+
+COMPARAÇÃO SF — AINDA NÃO CONCLUÍDA
+comparacao-sf.json conserva 1448 ensaios, dos quais 46 são configurações
+diagnósticas em que o comando sobrescrevia o primeiro ataque.
+Entre 1402 ensaios válidos, 1357 coincidem na contagem de contatos;
+45 ainda divergem. A métrica é contagem, não igualdade de quadros/dano.
+Os casos divergentes não foram removidos nem marcados como aprovados.
+Incluem entradas em fases específicas da pausa Turbo, ligações tardias,
+alcance após recuo e Hadouken após uma janela recusada pelo original.
+As janelas expostas são um modelo por amostras de vídeo dos experimentos;
+o escalonador interno completo do Turbo não foi reconstruído. A união de
+janelas observadas não distingue perfeitamente todas as fases internas.
+Esses 45 casos são a próxima pendência concreta antes de declarar o passo 7
+integralmente calibrado. O comportamento básico já está disponível para teste.
+
+OUTROS LIMITES
+Caixas nativas MK ainda não reconstruídas: alcance/atividade empíricos.
+Continuações MK usam o espaçamento de contato observado; o limite de entrada
+de 140 unidades é uma contenção do protótipo, não um limite extraído da ROM.
+As curvas de bloqueio dos prefixos vêm das capturas correspondentes; seu
+retorno ao controle usa 22 amostras da família medida e precisa de ensaio
+de recuperação específico para cada continuação. Não alegar exatidão total.
+As regras de cancelamento dos socos alternados MK reutilizam a família do
+soco inicial. Não foi isolado cada braço contra todos os alvos e situações.
+RNG de dano, todas as reduções de combo, juggle e interações completas com
+todos os especiais ainda não foram reconstruídos. Apenas os especiais já
+disponíveis entram neste passo; não há Shoryuken/Tatsumaki completos aqui.
+O casamento entre universos é uma política própria, sem um crossover arcade
+original para comparar. Sons, fatalities e elenco completo permanecem futuros.
+REA não realizou uma nova análise nesta etapa; não há código-fonte original
+integral recuperado. Fontes: execução emulada, tabelas e sprites nativos.
+
+RETOMADA
+arena/calibration.js termina com SEQUENCE_CALIBRATION.
+arena/commands.js contém FightSequences; fight-engine.js executa seus vínculos.
+comparacao/passo-7/ferramentas/preparar_sequencias.py gera os perfis a partir
+do backup inicial e dos traces. Não rodar só preparar_soco_alto.py depois,
+pois esse estágio intermediário substitui o pacote completo.
+verificar_fontes.py confere repetições e integridade das fontes anteriores.
+modelo-7.0 congela o estado entregue. backup-antes preserva o início da etapa.
+Prioridade de continuação: resolver as 45 divergências SF do comparador amplo,
+reexecutar a mesma bateria e depois ampliar a validação dos combos MK.
