@@ -1,6 +1,6 @@
 {
   "name": "mk-vs-sf",
-  "version": "0.8.2",
+  "version": "0.8.7",
   "private": true,
   "description": "Protótipo experimental UMK3 arcade x Super Street Fighter II Turbo, com salas na rede local",
   "engines": { "node": ">=24 <25" },

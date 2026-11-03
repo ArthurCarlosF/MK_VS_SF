@@ -1,6 +1,6 @@
 ﻿MORTAL KOMBAT VS STREET FIGHTER
 ETAPAS DO PROJETO — STATUS ATUALIZADO EM 02/11/2026
-Versão de referência: sequências 7.0 | Expansão experimental: 8.2 com rede local e especiais Ryu
+Versão de referência: sequências 7.0 | Expansão experimental: 8.7
 Pasta: D:\projetos\Mortal Kombat vs Street Fighter
 Iniciar referência: Abrir arena.cmd | Expansão: Abrir expansao.cmd
 Seleção: Abrir seleção.cmd | Entrega parcial: expansao/Estado da expansao.txt
@@ -70,6 +70,13 @@ ROTEIRO GERAL DO PROJETO
 [x] Shoryuken e Tatsumaki terrestres em três forças implementados por dados nativos.
 [ ] Aprovar fidelidade desses especiais: dano aleatório, cadência, comandos,
     cancelamentos, guarda por fase e reações em cantos.
+[x] Hadoukens azul/vermelho em três forças e reação nativa de queimadura Ryu integrados.
+[ ] Fechar a fidelidade dos projéteis: cadência, voo completo, aleatoriedade,
+    cancelamentos e variantes de contato de perto/em cantos.
+[x] Shinku Hadouken: barra, pausa, contatos sucessivos e choques nativos integrados.
+[x] Tatsumaki aéreo nas três forças, física por fase e aterrissagem integrados.
+[ ] Fechar a fidelidade do Super e dos aéreos: relógio lógico, aleatoriedade,
+    contatos intermediários/em cantos, cancelamentos e refinamento das origens.
 [ ] Repertório completo de especiais, parâmetros finais e fidelidade integral.
 
 7. PRIMEIRO CONFRONTO JOGÁVEL — [~] PROTÓTIPO CONCLUÍDO; CALIBRAÇÃO PENDENTE
@@ -95,14 +102,24 @@ Pendências de calibração de Ryu e Scorpion:
     fatalities, babalities, animalities, friendships e finalizações de cenário.
     Decisão do usuário: preservar o arcade, sem importar Brutalities de console.
     Personagens SF preservam o próprio repertório, sem finalizações inéditas.
+[x] Proteção por dupla durante a finalização testada no motor com dados de teste.
+    Em partidas simultâneas, cada eliminação pode dar oportunidade; a dupla
+    fica visível na arena e protegida, enquanto os demais seguem lutando.
+[~] Guia arcade: 128 entradas; primeira animação do Scorpion capturada.
+    Validação do encerramento e ativação no jogo ainda pendentes.
 
 9. FIDELIDADE E EXPANSÃO DO ELENCO — [~] REFERÊNCIAS EM VALIDAÇÃO
 [x] Bancada de comparação com os originais e registros reproduzíveis.
 [ ] Concluir a calibração de Ryu/Scorpion antes de ampliar o elenco.
-[ ] Adicionar demais lutadores, com suas próprias animações e regras.
+[~] Básicos e reações próprias integrados: E. Honda, Blanka, Guile, T. Hawk, Ken.
+    Especiais, capturas do elenco restante e fidelidade integral pendentes.
+[x] Guia oficial de 101 entradas de especiais para 17 lutadores SF extraído.
+[ ] Completar repertórios, variantes e calibração de todos os lutadores.
 
-10. CENÁRIOS, ÁUDIO E APRESENTAÇÃO — [ ] PENDENTE
-[ ] Cenários das duas séries, músicas, efeitos e locução.
+10. CENÁRIOS, ÁUDIO E APRESENTAÇÃO — [~] PRIMEIRA INTEGRAÇÃO EM BANCADA
+[x] 16 cenários SF comparados com quadros nativos; escolha local e em rede.
+[~] Músicas SF da coletânea e primeiros efeitos do Scorpion integrados.
+[ ] Fechar cenários MK, cobertura de efeitos, locução e ciclos completos.
 [ ] Telas versus, resultados e apresentação definitiva.
 
 11. MODOS DE JOGO — [~] VERSUS LOCAL E TREINO IMPLEMENTADOS
@@ -115,7 +132,8 @@ Pendências de calibração de Ryu e Scorpion:
 [x] Teclado, botões na tela e mapeamento de manete por participante.
 [x] Usuário confirmou a abertura da página em outro aparelho da rede.
 [ ] Validação física das lutas em vários aparelhos, manetes e condições de rede.
-[~] Destruir carro: protótipo cooperativo compatível com golpes MK/SF.
+[~] Destruir carro: colisões, arte, estados de dano e pontuação do arcade.
+    Compatibilidade de impactos MK/SF testada na arena.
 [ ] Arte, cenário, áudio e regras do desafio do carro fiéis à referência.
 [ ] Equilíbrio, controles físicos e aceite de partidas com vários jogadores.
 [ ] Definir e implementar campanha, finais e demais modos aprovados.
@@ -145,5 +163,7 @@ Pendências de calibração de Ryu e Scorpion:
 [ ] Corrigir falhas finais e gerar versão final.
 [ ] Após concluir o pedido integral, criar commit e enviar ao GitHub indicado:
     https://github.com/ArthurCarlosF/MK_VS_SF.git
-    Cópia local preparada; nenhum commit ou envio realizado até esta revisão.
+    Publicação intermediária 8.2 experimental enviada em 02/11/2026.
+    Commit: 80170288b5cbeaefd1fb2eadf36dc6b796689b2c, branch main.
+    O envio atual não equivale à conclusão do pedido integral.
     Rede local pelo navegador incluída no escopo aprovado.

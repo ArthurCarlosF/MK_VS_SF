@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "stage": "sf-ken",
+  "nativeStageId": 4,
+  "lazyStageMaps": 70,
+  "userGestureRequired": true,
+  "nativeMusic": "ssf2t-ken-stage-i",
+  "nativeScorpionLpSfx": true,
+  "mute": true,
+  "errors": [],
+  "failed": [],
+  "completeGame": false
+}

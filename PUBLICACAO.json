@@ -1,9 +1,7 @@
 {
-  "version": "8.2 experimental",
+  "version": "8.7 experimental",
   "completeGame": false,
-  "files": 5809,
-  "bytes": 240078028,
-  "included": "Código, recursos visuais do protótipo, manifestos, ferramentas e relatórios de desenvolvimento.",
+  "included": "Código e recursos da revisão 8.7 validada na instalação isolada, com documentação e evidências selecionadas.",
   "excludedDirectories": [
     ".git",
     "__pycache__",
@@ -19,17 +17,15 @@
     "medicao-bruta.json",
     "trace.json"
   ],
-  "otherExclusions": {
-    "estados, binários, logs, atalhos e traços brutos": 5012,
-    "imagens intermediárias de comparação": 7613,
-    "capturas de tela brutas dos experimentos": 10785
-  },
-  "localSource": "D:\\projetos\\Mortal Kombat vs Street Fighter",
   "notes": [
     "Coleções e ROMs completas não fazem parte do repositório.",
     "Perfis pessoais, estados completos da memória emulada e saves permanecem locais.",
     "Os capturadores dependem das fontes locais; os recursos já exportados do protótipo estão incluídos.",
     "A ausência de traços brutos de captura não implica validação integral ou recuperação de fontes originais.",
     "Imagens brutas em provas/, capturas/ e calibracao-basicos foram omitidas; sprites exportados em quadros/ e assets/ estão incluídos."
-  ]
+  ],
+  "installationManifest": {
+    "files": 3061,
+    "legacyFilesVerified": 677
+  }
 }

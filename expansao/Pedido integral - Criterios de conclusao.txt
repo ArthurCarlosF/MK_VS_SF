@@ -25,6 +25,9 @@ ser medidas, integradas e testadas; referências arcade/console têm diferenças
 O usuário resolveu a diferença de versões: MANTER UMK3 ARCADE FIEL. O conjunto
 de finalizações é o da referência arcade, sem importar Brutalities do console.
 Preservar identidade dos personagens SF também nas adaptações como vítimas.
+Nas partidas com vários jogadores, cada eliminação pode abrir a oportunidade
+de finalização. Durante a animação, a dupla continua visível no mesmo cenário
+e fica protegida de ataques de terceiros; o restante da luta continua.
 
 REDE LOCAL
 Todos simultâneos, cada jogador no próprio PC/celular pelo navegador.
@@ -39,9 +42,9 @@ precisa de validação; mapeamento simulado não é teste físico de controle.
 GITHUB
 Destino explícito: https://github.com/ArthurCarlosF/MK_VS_SF.git
 O usuário pediu commit/envio de tudo que foi feito QUANDO TERMINAR o projeto.
-Repositório conferido e clonado vazio em:
+Repositório de trabalho em:
 C:/Users/Pichau/Documents/ChatGPT/ALL_FIGHT/repositorio-github
-Nenhum commit criado e nenhum arquivo publicado nesta etapa.
+Publicação intermediária 8.2: 80170288b5cbeaefd1fb2eadf36dc6b796689b2c (main).
 Preparar fontes, recursos necessários e instruções de execução; excluir perfis
 de navegador, credenciais, dados pessoais e arquivos temporários da publicação.
 Não tratar preparação do repositório como conclusão do pedido ou autorização
@@ -51,5 +54,6 @@ PENDÊNCIAS JÁ CONHECIDAS
 45 divergências SF do passo 7; recuperação/bloqueio dos combos MK;
 cancelamentos por braço; validação cruzada; repertórios completos de especiais,
 supers e finalizações; demais lutadores e cenários; áudio; campanha; apresentação,
-empacotamento e aprovação final. Só Ryu e Scorpion têm combate integrado agora.
+empacotamento e aprovação final. A revisão 8.7 em bancada acrescenta básicos
+de cinco lutadores SF; a cobertura completa do elenco continua pendente.
 O roteiro principal continua com uma única sequência de 1 a 15.

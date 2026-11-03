@@ -1,0 +1,20 @@
+MORTAL KOMBAT VS STREET FIGHTER — PONTO DE RETOMADA
+Pausa solicitada pelo usuário em 02/11/2026.
+
+A expansão experimental 8.7 está instalada em D:\Projetos\Mortal Kombat vs Street Fighter\expansao.
+Para jogar neste PC: Abrir expansao.cmd, na pasta principal do projeto.
+Para salas: http://192.168.0.199:8765/. Servidor retomado após atualização, com API cenarios-elenco-8.7.
+Backup: dados\plan-backups\expansao-8.7-20261102-213541. Os 677 arquivos da arena anterior passaram na verificação de integridade.
+GitHub permanece na publicação intermediária 8.2, commit 80170288b5cbeaefd1fb2eadf36dc6b796689b2c. Envio final continua pendente.
+
+A 8.7 tem Ryu, Scorpion e os básicos/reações próprios de Honda, Blanka, Guile, T. Hawk e Ken. Os 16 cenários SF, música SF e primeiros efeitos MK passaram em teste de navegador. O carro já usa cais, arte, colisões, estados de dano e tabela de pontos recuperados do SSF2u. Relógio físico, efeitos e áudio do carro ainda não foram ligados nessa instalação.
+
+A bancada 8.8 não foi instalada. Fei Long e Balrog foram acrescentados ao exportador após a 8.7; Fei Long tem testemunhas de soco forte no salto direcional (24/27 de dano nativo) em combate-elenco-lacunas-hp/sf-5. Reexecutar testes do elenco e da interface para aprovar os dois. O lote combate-elenco-r2 preservou sete personagens completos, pausou no Sagat (sf-7); capturar-combate-elenco.py retoma pulando os manifestos existentes. Não executar dois cores simultaneamente. Subtarefas de análise pausadas.
+
+Scorpion’s Lair já está ligado na bancada com camadas e chamas nativas, largura variável e faixas DCS por rodada. Passou em dois navegadores na rede e em teste local com quatro jogadores. Arquivos: palcos-mk-trabalho/ENTREGA.json e evidencias/testes-palco-mk-{interface,rede}.json.
+
+PRÓXIMO PONTO EXATO: primeira fatality do Scorpion (somente Scorpion→Scorpion) validada no arcade até o encerramento. Perfil: finalizacoes-trabalho/cinematic-scorpion-native/profile-complete.json; 458 quadros, 118 sprites, 8,608 s, SHA terminal 32c76fa697e37e99e8a2146eab6426f1a65aac8d5d080df30ba047bcf91e6f1c. O verificador preparar-finalizacao-scorpion.py ainda usa o hash apenas dos pixels; o exportador calcula SHA-256 de str(image.size).encode() + image.tobytes(). Ajustar a mesma fórmula, revalidar as 118 imagens e executar o preparo para gerar arena/finisher-profiles.js (referenciado na bancada). Em seguida testar o comando real, renderização, imunidade, remoção da vítima e rede; não habilitar outros pares sem prova. Regra: frente, frente, baixo, cima, Correr; soltar por 2 polls, janela de comando 48 ticks, distância inteira 32–80, gate 2 ticks após KO e duração 168 ticks. Nas lutas N, outros continuam lutando e a dupla fica protegida no mesmo cenário.
+
+Outras evidências prontas para a próxima sessão: seis sondas dos três especiais leves de Ken em especiais-elenco-piloto/sf-8; guias de 101 entradas SF e 128 finalizações MK; inventário TMS de 211 registros de entrada; partículas e PCM do carro em cenarios-trabalho; comandos DCS do terminal na captura de Scorpion. O Kano espelhado abriu, mas o core falhou duas vezes; não copiar comportamento do Scorpion para preencher a lacuna. Diagnosticar com uma captura bruta separada do decodificador antes de expandir o lote MK.
+
+O pedido completo segue aberto: elenco e repertórios completos, fidelidade/calibração, demais finalizações, cenários, áudio, acabamento e validação física. Preservar os originais e o roteiro único Etapas do projeto.txt. Usar REA nas análises em que o provedor suporta o formato; as limitações encontradas de m68k e PE Windows estão registradas nas evidências.

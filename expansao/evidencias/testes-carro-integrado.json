@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "crossoverContacts": [
+    {
+      "player": 1,
+      "part": 0,
+      "forceSource": "crossover-conversion"
+    },
+    {
+      "player": 0,
+      "part": 2,
+      "forceSource": "crossover-conversion"
+    }
+  ],
+  "nativeDamageStateMachine": true,
+  "nativeScoreTable": true,
+  "crossoverForceConversion": true,
+  "completeBonus": false
+}

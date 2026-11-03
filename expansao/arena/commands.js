@@ -42,6 +42,7 @@
   if(!sequence.every((v,i)=>list[i].code===v))return false;
   const limits=command.stageSeconds||[];
   for(let i=0;i<list.length-1;i++)if(list[i+1].time-list[i].time>= (limits[i]??command.windowSeconds??.25)-1e-8)return false;
+  for(const span of command.spanWindows||[])if(list[span.to].time-list[span.from].time>=span.seconds-1e-8)return false;
   return time-list.at(-1).time<=(command.buttonSeconds??command.windowSeconds??.2)+1e-8;
  }
  function action(player,definition,time){
@@ -54,7 +55,8 @@
    if(move)return {move,event};
   }
   for(const command of definition.commands||[]){
-   if(!!command.air!==player.airborne)continue;
+   const airborne=command.airborneByHeight?player.airborne&&player.y>.01:player.airborne;
+   if(!!command.air!==airborne)continue;
    const event=events.find(e=>e.button===(command.button||'punch')&&(!e.release||command.negativeEdge));
    if(event&&motion(player,command,time))return {move:command.move,event};
   }

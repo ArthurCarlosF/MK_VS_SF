@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "scope": "fixture tests for crossover pair protection only",
+  "nativeFinisherComplete": false,
+  "groups": [
+    "Perfis parciais, fictícios ou de vítima não comprovada não ativam no jogo",
+    "A dupla fica sem colisão e sem dano; os outros ainda podem se atingir",
+    "Duas finalizações independentes; espelhamento e liberação sem ressuscitar",
+    "A última eliminação só encerra a rodada depois da animação",
+    "Comando por eliminação, relativo à vítima, exige dois toques e Run depois de cima"
+  ]
+}

@@ -1,0 +1,341 @@
+{
+  "schema": 1,
+  "game": "umk3",
+  "samples": [
+    {
+      "id": 3000,
+      "originalChannel": 1,
+      "semanticName": "Native LP startup variant",
+      "semanticStatus": "COMMAND_IDENTIFIED_MEANING_PENDING",
+      "loop": false,
+      "loopStart": 0,
+      "loopEnd": 10560,
+      "loopEvidence": null,
+      "loopRuntimeCompared": false,
+      "extractorTailSamples": 480,
+      "file": "tracks/dcs-_0bb8.wav",
+      "length": 11040,
+      "sampleRate": 31250,
+      "duration": 0.35328,
+      "bytes": 22124,
+      "wavSha256": "c081730926785f371f4e78fb92264a60efd402c175e16bf22315ad8ce0c6a3ee"
+    },
+    {
+      "id": 3005,
+      "originalChannel": 1,
+      "semanticName": "Native LP startup variant",
+      "semanticStatus": "COMMAND_IDENTIFIED_MEANING_PENDING",
+      "loop": false,
+      "loopStart": 0,
+      "loopEnd": 11040,
+      "loopEvidence": null,
+      "loopRuntimeCompared": false,
+      "extractorTailSamples": 480,
+      "file": "tracks/dcs-_0bbd.wav",
+      "length": 11520,
+      "sampleRate": 31250,
+      "duration": 0.36864,
+      "bytes": 23084,
+      "wavSha256": "33908c9b3aa30864142db61f164f08d29be884a8ab2729f22a0f1d9b54b4c19d"
+    },
+    {
+      "id": 165,
+      "originalChannel": 1,
+      "semanticName": "Native LP startup variant",
+      "semanticStatus": "COMMAND_IDENTIFIED_MEANING_PENDING",
+      "loop": false,
+      "loopStart": 0,
+      "loopEnd": 9600,
+      "loopEvidence": null,
+      "loopRuntimeCompared": false,
+      "extractorTailSamples": 480,
+      "file": "tracks/dcs-_00a5.wav",
+      "length": 10080,
+      "sampleRate": 31250,
+      "duration": 0.32256,
+      "bytes": 20204,
+      "wavSha256": "33e27baf4c4193533cb2df08b4f28187b1e3dfd40cc9155b91492af0e1c92463"
+    },
+    {
+      "id": 170,
+      "originalChannel": 1,
+      "semanticName": "Native LP startup variant",
+      "semanticStatus": "COMMAND_IDENTIFIED_MEANING_PENDING",
+      "loop": false,
+      "loopStart": 0,
+      "loopEnd": 13440,
+      "loopEvidence": null,
+      "loopRuntimeCompared": false,
+      "extractorTailSamples": 480,
+      "file": "tracks/dcs-_00aa.wav",
+      "length": 13920,
+      "sampleRate": 31250,
+      "duration": 0.44544,
+      "bytes": 27884,
+      "wavSha256": "c1abf09e9143babcc57bae2bb59ce062c9005281e82c202f9838d0092c15fbe8"
+    },
+    {
+      "id": 175,
+      "originalChannel": 1,
+      "semanticName": "Native LP startup variant",
+      "semanticStatus": "COMMAND_IDENTIFIED_MEANING_PENDING",
+      "loop": false,
+      "loopStart": 0,
+      "loopEnd": 11760,
+      "loopEvidence": null,
+      "loopRuntimeCompared": false,
+      "extractorTailSamples": 480,
+      "file": "tracks/dcs-_00af.wav",
+      "length": 12240,
+      "sampleRate": 31250,
+      "duration": 0.39168,
+      "bytes": 24524,
+      "wavSha256": "2310b527366bfc0fff331b390e809df178f157486465dc2bdc6a5eb221c31b3f"
+    },
+    {
+      "id": 150,
+      "originalChannel": 1,
+      "semanticName": "Native LP startup variant",
+      "semanticStatus": "COMMAND_IDENTIFIED_MEANING_PENDING",
+      "loop": false,
+      "loopStart": 0,
+      "loopEnd": 10800,
+      "loopEvidence": null,
+      "loopRuntimeCompared": false,
+      "extractorTailSamples": 480,
+      "file": "tracks/dcs-_0096.wav",
+      "length": 11280,
+      "sampleRate": 31250,
+      "duration": 0.36096,
+      "bytes": 22604,
+      "wavSha256": "99eda55fc9feb19d1ce880f3f98fd38504e2035881c0b52fa91614d84eda6cc3"
+    },
+    {
+      "id": 1089010,
+      "romAddress": 1089010,
+      "romAddressHex": "109df2",
+      "firstReferencingCommand": 235,
+      "firstReferencingStreamOrdinal": 1,
+      "semanticName": "Observed close HP contact component",
+      "unityKey": null,
+      "loop": false,
+      "loopStart": 0,
+      "loopEnd": 0,
+      "file": "streams/dcs-_00EB_01_109DF2.wav",
+      "length": 17520,
+      "sampleRate": 31250,
+      "duration": 0.56064,
+      "bytes": 35084,
+      "wavSha256": "5dcadb7f9d9b2a9b8bc052af506ed1fb1e1b818ac33f545ecc97d2cb0f4d9c01"
+    },
+    {
+      "id": 2001034,
+      "romAddress": 2001034,
+      "romAddressHex": "1e888a",
+      "firstReferencingCommand": 3040,
+      "firstReferencingStreamOrdinal": 1,
+      "semanticName": "Observed close HP contact component",
+      "unityKey": null,
+      "loop": false,
+      "loopStart": 0,
+      "loopEnd": 0,
+      "file": "streams/dcs-_0BE0_01_1E888A.wav",
+      "length": 18480,
+      "sampleRate": 31250,
+      "duration": 0.59136,
+      "bytes": 37004,
+      "wavSha256": "4f4a17dd023a45289ff95f3166d37b4efa4a762d9eb62a4d81304ab74363ffb0"
+    },
+    {
+      "id": 696298,
+      "romAddress": 696298,
+      "romAddressHex": "0a9fea",
+      "firstReferencingCommand": 885,
+      "firstReferencingStreamOrdinal": 1,
+      "semanticName": "Observed Scorpion teleport activation",
+      "unityKey": null,
+      "loop": false,
+      "loopStart": 0,
+      "loopEnd": 0,
+      "file": "streams/dcs-_0375_01_0A9FEA.wav",
+      "length": 23760,
+      "sampleRate": 31250,
+      "duration": 0.76032,
+      "bytes": 47564,
+      "wavSha256": "7f1b775af0b77a9c0334c2ec25bc1dd774375178cdb515f256d004c66f49d262"
+    },
+    {
+      "id": 689954,
+      "romAddress": 689954,
+      "romAddressHex": "0a8722",
+      "firstReferencingCommand": 10230,
+      "firstReferencingStreamOrdinal": 1,
+      "semanticName": "Observed Scorpion spear activation",
+      "unityKey": null,
+      "loop": false,
+      "loopStart": 0,
+      "loopEnd": 0,
+      "file": "streams/dcs-_27F6_01_0A8722.wav",
+      "length": 47040,
+      "sampleRate": 31250,
+      "duration": 1.50528,
+      "bytes": 94124,
+      "wavSha256": "02fc9e8c2440270c322ccdf9a2b97f452b202e210b4f647e1bd7e40ab2c9b97a"
+    }
+  ],
+  "eventMapping": {},
+  "cues": {
+    "scorpion-lp-start": {
+      "groups": [
+        {
+          "variants": [
+            {
+              "sampleId": 3000,
+              "gain": 1
+            },
+            {
+              "sampleId": 3005,
+              "gain": 1
+            }
+          ]
+        },
+        {
+          "variants": [
+            {
+              "sampleId": 165,
+              "gain": 1
+            },
+            {
+              "sampleId": 170,
+              "gain": 1
+            },
+            {
+              "sampleId": 175,
+              "gain": 1
+            },
+            {
+              "sampleId": 150,
+              "gain": 1
+            }
+          ]
+        }
+      ],
+      "evidence": "prova-sfx-lp-estatica.json",
+      "kind": "static-native-handler-path",
+      "nativeAction": "0x102/strike3"
+    },
+    "scorpion-close-hp-impact": {
+      "groups": [
+        {
+          "variants": [
+            {
+              "sampleId": 1089010,
+              "gain": 0.5152412414731145
+            }
+          ]
+        }
+      ],
+      "evidence": "prova-sfx-contato-validacao-intercalada.json",
+      "kind": "held-out-native-pcm-contact",
+      "nativeAction": "0x10a"
+    },
+    "scorpion-close-hp-target-voice": {
+      "groups": [
+        {
+          "variants": [
+            {
+              "sampleId": 2001034,
+              "gain": 0.5099158624323848
+            }
+          ]
+        }
+      ],
+      "evidence": "prova-sfx-contato-validacao-intercalada.json",
+      "kind": "held-out-native-pcm-contact",
+      "nativeAction": "0x10a"
+    },
+    "scorpion-teleport-activation": {
+      "groups": [
+        {
+          "variants": [
+            {
+              "sampleId": 696298,
+              "gain": 0.5084056908674657
+            }
+          ]
+        }
+      ],
+      "evidence": "prova-sfx-ativacoes-especiais.json",
+      "kind": "held-out-native-pre-contact-pcm",
+      "runtimeCommandObserved": false,
+      "timingLimit": "Bound to the closest native phase event; exact sub-frame activation delay and uninterrupted duration remain unverified."
+    },
+    "scorpion-spear-activation": {
+      "groups": [
+        {
+          "variants": [
+            {
+              "sampleId": 689954,
+              "gain": 0.5120929795345348
+            }
+          ]
+        }
+      ],
+      "evidence": "prova-sfx-ativacoes-especiais.json",
+      "kind": "held-out-native-pre-contact-pcm",
+      "runtimeCommandObserved": false,
+      "timingLimit": "Bound to the closest native phase event; exact sub-frame activation delay and uninterrupted duration remain unverified."
+    }
+  },
+  "bindings": [
+    {
+      "eventType": "action",
+      "moves": [
+        "punch",
+        "normal_stand_lp_far"
+      ],
+      "actor": "scorpion",
+      "cue": "scorpion-lp-start"
+    },
+    {
+      "eventType": "hit",
+      "moves": [
+        "normal_stand_hp_near"
+      ],
+      "actor": "scorpion",
+      "cue": "scorpion-close-hp-impact",
+      "crossoverRule": "Attacker-owned contact effect retained for mixed-game victims; capture source was Scorpion versus Scorpion."
+    },
+    {
+      "eventType": "hit",
+      "moves": [
+        "normal_stand_hp_near"
+      ],
+      "actor": "scorpion",
+      "target": "scorpion",
+      "cue": "scorpion-close-hp-target-voice"
+    },
+    {
+      "eventType": "action",
+      "moves": [
+        "teleport"
+      ],
+      "actor": "scorpion",
+      "cue": "scorpion-teleport-activation"
+    },
+    {
+      "eventType": "projectile",
+      "moves": [
+        "spear"
+      ],
+      "actor": "scorpion",
+      "cue": "scorpion-spear-activation"
+    }
+  ],
+  "limits": [
+    "No generic any-hit or random-sample fallback. Ryu never receives a Scorpion pain voice.",
+    "Only initial standing far LP, observed close HP contact, and independently matched special activations are bound; chain arms, blocks, post-contact special sounds and other roster voices are pending.",
+    "Character IDs must resolve to semantic names; no assumption that a UI mk-index equals native characterID18.",
+    "Native LP voice/swing variant content comes from native handler commands; its global loudness is not yet independently runtime calibrated."
+  ]
+}

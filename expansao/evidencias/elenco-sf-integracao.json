@@ -1,0 +1,3427 @@
+{
+  "schema": 1,
+  "completeGame": false,
+  "characters": [
+    {
+      "id": "sf-1",
+      "name": "E. Honda",
+      "status": "NATIVE_BASICS_INTEGRATED_FIDELITY_PENDING",
+      "normalVariants": 30,
+      "reactionProfiles": 48,
+      "assets": 112,
+      "proofs": [
+        {
+          "move": "stand_far_lp",
+          "damageObserved": [
+            18,
+            17,
+            18
+          ],
+          "damageInferred": true,
+          "sourceCase": "stand_far_lp",
+          "sourceSignature": [
+            "0x116842",
+            "0x11685a"
+          ],
+          "attackDescriptors": [
+            "0x198ffa"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            8,
+            10
+          ],
+          "samples": 14
+        },
+        {
+          "move": "stand_near_whiff_lp",
+          "damageObserved": [
+            18,
+            17
+          ],
+          "damageInferred": false,
+          "sourceCase": "stand_near_whiff_lp",
+          "sourceSignature": [
+            "0x1167ae",
+            "0x1167c6"
+          ],
+          "attackDescriptors": [
+            "0x19943a"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            6,
+            7
+          ],
+          "samples": 9
+        },
+        {
+          "move": "crouch_whiff_lp",
+          "damageObserved": [
+            18
+          ],
+          "damageInferred": false,
+          "sourceCase": "crouch_whiff_lp",
+          "sourceSignature": [
+            "0x1170fa",
+            "0x117112"
+          ],
+          "attackDescriptors": [
+            "0x19911a"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            6,
+            12
+          ],
+          "samples": 14
+        },
+        {
+          "move": "air_vertical_lp",
+          "damageObserved": [
+            15
+          ],
+          "damageInferred": false,
+          "sourceCase": "air_vertical_lp",
+          "sourceSignature": [
+            "0x1174ba",
+            "0x1174d2"
+          ],
+          "attackDescriptors": [
+            "0x19914a"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            9,
+            25
+          ],
+          "samples": 26
+        },
+        {
+          "move": "air_directional_lp",
+          "damageObserved": [
+            13,
+            14
+          ],
+          "damageInferred": true,
+          "sourceCase": "air_directional_lp",
+          "sourceSignature": [
+            "0x1179ca",
+            "0x1179e2"
+          ],
+          "attackDescriptors": [
+            "0x1992fa"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            7,
+            15
+          ],
+          "samples": 26
+        },
+        {
+          "move": "stand_far_mp",
+          "damageObserved": [
+            20,
+            18,
+            19,
+            4,
+            19
+          ],
+          "damageInferred": true,
+          "sourceCase": "stand_far_mp",
+          "sourceSignature": [
+            "0x116952",
+            "0x11696a"
+          ],
+          "attackDescriptors": [
+            "0x19900a"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            8,
+            11
+          ],
+          "samples": 15
+        },
+        {
+          "move": "stand_near_whiff_mp",
+          "damageObserved": [
+            20,
+            18
+          ],
+          "damageInferred": false,
+          "sourceCase": "stand_near_whiff_mp",
+          "sourceSignature": [
+            "0x1168be",
+            "0x1168d6"
+          ],
+          "attackDescriptors": [
+            "0x19944a"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            7,
+            7
+          ],
+          "samples": 11
+        },
+        {
+          "move": "crouch_whiff_mp",
+          "damageObserved": [
+            19
+          ],
+          "damageInferred": false,
+          "sourceCase": "crouch_whiff_mp",
+          "sourceSignature": [
+            "0x117176",
+            "0x11718e"
+          ],
+          "attackDescriptors": [
+            "0x19912a"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            8,
+            13
+          ],
+          "samples": 21
+        },
+        {
+          "move": "air_vertical_mp",
+          "damageObserved": [
+            18
+          ],
+          "damageInferred": false,
+          "sourceCase": "air_vertical_mp",
+          "sourceSignature": [
+            "0x117596",
+            "0x1175ae"
+          ],
+          "attackDescriptors": [
+            "0x19915a",
+            "0x19916a"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            8,
+            19
+          ],
+          "samples": 26
+        },
+        {
+          "move": "air_directional_mp",
+          "damageObserved": [
+            18,
+            18
+          ],
+          "damageInferred": true,
+          "sourceCase": "air_directional_mp",
+          "sourceSignature": [
+            "0x117a8e",
+            "0x117aa6"
+          ],
+          "attackDescriptors": [
+            "0x19930a"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            8,
+            13
+          ],
+          "samples": 26
+        },
+        {
+          "move": "stand_far_hp",
+          "damageObserved": [
+            26,
+            24,
+            4,
+            24,
+            1,
+            25
+          ],
+          "damageInferred": true,
+          "sourceCase": "stand_far_hp",
+          "sourceSignature": [
+            "0x116ada",
+            "0x116af2"
+          ],
+          "attackDescriptors": [
+            "0x19913a"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            9,
+            11
+          ],
+          "samples": 25
+        },
+        {
+          "move": "stand_near_whiff_hp",
+          "damageObserved": [
+            26,
+            24
+          ],
+          "damageInferred": false,
+          "sourceCase": "stand_near_whiff_hp",
+          "sourceSignature": [
+            "0x1169fe",
+            "0x116a16"
+          ],
+          "attackDescriptors": [
+            "0x19901a",
+            "0x19902a"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            8,
+            13
+          ],
+          "samples": 28
+        },
+        {
+          "move": "crouch_whiff_hp",
+          "damageObserved": [
+            13
+          ],
+          "damageInferred": false,
+          "sourceCase": "crouch_whiff_hp",
+          "sourceSignature": [
+            "0x117222",
+            "0x11723a"
+          ],
+          "attackDescriptors": [
+            "0x19947a",
+            "0x19948a"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            6,
+            20
+          ],
+          "samples": 28
+        },
+        {
+          "move": "air_vertical_hp",
+          "damageObserved": [
+            28
+          ],
+          "damageInferred": false,
+          "sourceCase": "air_vertical_hp",
+          "sourceSignature": [
+            "0x117672",
+            "0x11768a"
+          ],
+          "attackDescriptors": [
+            "0x19917a"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            8,
+            12
+          ],
+          "samples": 26
+        },
+        {
+          "move": "air_directional_hp",
+          "damageObserved": [
+            26
+          ],
+          "damageInferred": true,
+          "sourceCase": "air_directional_hp",
+          "sourceSignature": [
+            "0x117b6a",
+            "0x117b82"
+          ],
+          "attackDescriptors": [
+            "0x19932a"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            8,
+            14
+          ],
+          "samples": 26
+        },
+        {
+          "move": "stand_far_lk",
+          "damageObserved": [
+            15
+          ],
+          "damageInferred": false,
+          "sourceCase": "stand_far_lk",
+          "sourceSignature": [
+            "0x116c7a",
+            "0x116c92"
+          ],
+          "attackDescriptors": [
+            "0x1990ea"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            11,
+            12
+          ],
+          "samples": 18
+        },
+        {
+          "move": "stand_near_whiff_lk",
+          "damageObserved": [
+            16
+          ],
+          "damageInferred": false,
+          "sourceCase": "stand_near_whiff_lk",
+          "sourceSignature": [
+            "0x116bb6",
+            "0x116be6"
+          ],
+          "attackDescriptors": [
+            "0x19945a"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            6,
+            7
+          ],
+          "samples": 11
+        },
+        {
+          "move": "crouch_whiff_lk",
+          "damageObserved": [
+            15
+          ],
+          "damageInferred": false,
+          "sourceCase": "crouch_whiff_lk",
+          "sourceSignature": [
+            "0x117316",
+            "0x11732e"
+          ],
+          "attackDescriptors": [
+            "0x19905a"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            5,
+            7
+          ],
+          "samples": 10
+        },
+        {
+          "move": "air_vertical_lk",
+          "damageObserved": [
+            14
+          ],
+          "damageInferred": false,
+          "sourceCase": "air_vertical_lk",
+          "sourceSignature": [
+            "0x11771e",
+            "0x117736"
+          ],
+          "attackDescriptors": [
+            "0x1991aa"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            8,
+            25
+          ],
+          "samples": 26
+        },
+        {
+          "move": "air_directional_lk",
+          "damageObserved": [
+            13
+          ],
+          "damageInferred": false,
+          "sourceCase": "air_directional_lk",
+          "sourceSignature": [
+            "0x117c16",
+            "0x117c2e"
+          ],
+          "attackDescriptors": [
+            "0x1993aa"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            8,
+            36
+          ],
+          "samples": 37
+        },
+        {
+          "move": "stand_far_mk",
+          "damageObserved": [
+            4
+          ],
+          "damageInferred": false,
+          "sourceCase": "stand_far_mk",
+          "sourceSignature": [
+            "0x116ec6",
+            "0x116ede"
+          ],
+          "attackDescriptors": [
+            "0x1990fa",
+            "0x19910a"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            8,
+            14
+          ],
+          "samples": 22
+        },
+        {
+          "move": "stand_near_whiff_mk",
+          "damageObserved": [
+            18
+          ],
+          "damageInferred": false,
+          "sourceCase": "stand_near_whiff_mk",
+          "sourceSignature": [
+            "0x116d26",
+            "0x116d3e"
+          ],
+          "attackDescriptors": [
+            "0x19946a"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            8,
+            9
+          ],
+          "samples": 14
+        },
+        {
+          "move": "crouch_whiff_mk",
+          "damageObserved": [
+            18
+          ],
+          "damageInferred": false,
+          "sourceCase": "crouch_whiff_mk",
+          "sourceSignature": [
+            "0x117392",
+            "0x1173aa"
+          ],
+          "attackDescriptors": [
+            "0x19906a"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            8,
+            11
+          ],
+          "samples": 17
+        },
+        {
+          "move": "air_vertical_mk",
+          "damageObserved": [
+            18
+          ],
+          "damageInferred": false,
+          "sourceCase": "air_vertical_mk",
+          "sourceSignature": [
+            "0x1177fa",
+            "0x117812"
+          ],
+          "attackDescriptors": [
+            "0x1991ba"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            8,
+            16
+          ],
+          "samples": 25
+        },
+        {
+          "move": "air_directional_mk",
+          "damageObserved": [
+            18,
+            18
+          ],
+          "damageInferred": true,
+          "sourceCase": "air_directional_mk",
+          "sourceSignature": [
+            "0x117c62",
+            "0x117c7a"
+          ],
+          "attackDescriptors": [
+            "0x19942a"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            8,
+            16
+          ],
+          "samples": 26
+        },
+        {
+          "move": "stand_far_hk",
+          "damageObserved": [
+            4,
+            1
+          ],
+          "damageInferred": false,
+          "sourceCase": "stand_far_hk",
+          "sourceSignature": [
+            "0x116f72",
+            "0x116f8a"
+          ],
+          "attackDescriptors": [
+            "0x19903a",
+            "0x19904a"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            9,
+            14
+          ],
+          "samples": 29
+        },
+        {
+          "move": "stand_near_whiff_hk",
+          "damageObserved": [
+            4,
+            1
+          ],
+          "damageInferred": false,
+          "sourceCase": "stand_near_whiff_hk",
+          "sourceSignature": [
+            "0x116f72",
+            "0x116f8a"
+          ],
+          "attackDescriptors": [
+            "0x19903a",
+            "0x19904a"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            9,
+            14
+          ],
+          "samples": 28
+        },
+        {
+          "move": "crouch_whiff_hk",
+          "damageObserved": [
+            23
+          ],
+          "damageInferred": false,
+          "sourceCase": "crouch_whiff_hk",
+          "sourceSignature": [
+            "0x11740e",
+            "0x117426"
+          ],
+          "attackDescriptors": [
+            "0x1990ca",
+            "0x1990da"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            9,
+            21
+          ],
+          "samples": 27
+        },
+        {
+          "move": "air_vertical_hk",
+          "damageObserved": [
+            26
+          ],
+          "damageInferred": false,
+          "sourceCase": "air_vertical_hk",
+          "sourceSignature": [
+            "0x1178d6",
+            "0x1178ee"
+          ],
+          "attackDescriptors": [
+            "0x1991ca"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            8,
+            12
+          ],
+          "samples": 25
+        },
+        {
+          "move": "air_directional_hk",
+          "damageObserved": [
+            26
+          ],
+          "damageInferred": true,
+          "sourceCase": "air_directional_hk",
+          "sourceSignature": [
+            "0x117d8a",
+            "0x117da2"
+          ],
+          "attackDescriptors": [
+            "0x19933a"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            8,
+            15
+          ],
+          "samples": 26
+        }
+      ],
+      "limits": [
+        "stand_far_lp: damage inferred from the same native descriptor byte4 class; direct variant contact still required",
+        "air_directional_lp: damage inferred from the same native descriptor byte4 class; direct variant contact still required",
+        "stand_far_mp: damage inferred from the same native descriptor byte4 class; direct variant contact still required",
+        "air_directional_mp: damage inferred from the same native descriptor byte4 class; direct variant contact still required",
+        "stand_far_hp: damage inferred from the same native descriptor byte4 class; direct variant contact still required",
+        "air_directional_hp: damage inferred from the same native descriptor byte4 class; direct variant contact still required",
+        "air_directional_mk: damage inferred from the same native descriptor byte4 class; direct variant contact still required",
+        "air_directional_hk: damage inferred from the same native descriptor byte4 class; direct variant contact still required",
+        "Native KO control/repetition/cancellation, specials, supers and throws remain separate obligations."
+      ],
+      "captureSha256": "e10f4c3b5829d37ac488aa1b269b7e3892e68aaa710e12a01d20862b2630b2ee"
+    },
+    {
+      "id": "sf-2",
+      "name": "Blanka",
+      "status": "NATIVE_BASICS_INTEGRATED_FIDELITY_PENDING",
+      "normalVariants": 30,
+      "reactionProfiles": 43,
+      "assets": 146,
+      "proofs": [
+        {
+          "move": "stand_far_lp",
+          "damageObserved": [
+            11,
+            11,
+            11,
+            11
+          ],
+          "damageInferred": true,
+          "sourceCase": "stand_far_lp",
+          "sourceSignature": [
+            "0x11f41a",
+            "0x11f432"
+          ],
+          "attackDescriptors": [
+            "0x199768"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            6,
+            8
+          ],
+          "samples": 16
+        },
+        {
+          "move": "stand_near_whiff_lp",
+          "damageObserved": [
+            11,
+            11
+          ],
+          "damageInferred": false,
+          "sourceCase": "stand_near_whiff_lp",
+          "sourceSignature": [
+            "0x11f36e",
+            "0x11f386"
+          ],
+          "attackDescriptors": [
+            "0x199728"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            7,
+            7
+          ],
+          "samples": 14
+        },
+        {
+          "move": "crouch_whiff_lp",
+          "damageObserved": [
+            11
+          ],
+          "damageInferred": false,
+          "sourceCase": "crouch_whiff_lp",
+          "sourceSignature": [
+            "0x11fdf2",
+            "0x11fe0a"
+          ],
+          "attackDescriptors": [
+            "0x199868"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            9,
+            10
+          ],
+          "samples": 16
+        },
+        {
+          "move": "air_vertical_lp",
+          "damageObserved": [
+            11
+          ],
+          "damageInferred": false,
+          "sourceCase": "air_vertical_lp",
+          "sourceSignature": [
+            "0x1201ca",
+            "0x1201e2"
+          ],
+          "attackDescriptors": [
+            "0x199828"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            6,
+            19
+          ],
+          "samples": 20
+        },
+        {
+          "move": "air_directional_lp",
+          "damageObserved": [
+            13
+          ],
+          "damageInferred": false,
+          "sourceCase": "air_directional_lp",
+          "sourceSignature": [
+            "0x120512",
+            "0x12052a"
+          ],
+          "attackDescriptors": [
+            "0x199828"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            6,
+            29
+          ],
+          "samples": 30
+        },
+        {
+          "move": "stand_far_mp",
+          "damageObserved": [
+            16,
+            16,
+            16,
+            15
+          ],
+          "damageInferred": true,
+          "sourceCase": "stand_far_mp",
+          "sourceSignature": [
+            "0x11f606",
+            "0x11f61e"
+          ],
+          "attackDescriptors": [
+            "0x199758"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            7,
+            8
+          ],
+          "samples": 13
+        },
+        {
+          "move": "stand_near_whiff_mp",
+          "damageObserved": [
+            16,
+            16
+          ],
+          "damageInferred": false,
+          "sourceCase": "stand_near_whiff_mp",
+          "sourceSignature": [
+            "0x11f4c6",
+            "0x11f4de"
+          ],
+          "attackDescriptors": [
+            "0x199718"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            5,
+            7
+          ],
+          "samples": 9
+        },
+        {
+          "move": "crouch_whiff_mp",
+          "damageObserved": [
+            16
+          ],
+          "damageInferred": false,
+          "sourceCase": "crouch_whiff_mp",
+          "sourceSignature": [
+            "0x11fe9e",
+            "0x11feb6"
+          ],
+          "attackDescriptors": [
+            "0x199878"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            8,
+            9
+          ],
+          "samples": 22
+        },
+        {
+          "move": "air_vertical_mp",
+          "damageObserved": [
+            19
+          ],
+          "damageInferred": false,
+          "sourceCase": "air_vertical_mp",
+          "sourceSignature": [
+            "0x12025e",
+            "0x120276"
+          ],
+          "attackDescriptors": [
+            "0x199838"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            6,
+            15
+          ],
+          "samples": 20
+        },
+        {
+          "move": "air_directional_mp",
+          "damageObserved": [
+            19
+          ],
+          "damageInferred": false,
+          "sourceCase": "air_directional_mp",
+          "sourceSignature": [
+            "0x1205a6",
+            "0x1205be"
+          ],
+          "attackDescriptors": [
+            "0x199838"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            6,
+            15
+          ],
+          "samples": 19
+        },
+        {
+          "move": "stand_far_hp",
+          "damageObserved": [
+            21,
+            21
+          ],
+          "damageInferred": false,
+          "sourceCase": "stand_far_hp",
+          "sourceSignature": [
+            "0x11f84e",
+            "0x11f866"
+          ],
+          "attackDescriptors": [
+            "0x199738",
+            "0x199748"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            8,
+            12
+          ],
+          "samples": 26
+        },
+        {
+          "move": "stand_near_whiff_hp",
+          "damageObserved": [
+            21,
+            21
+          ],
+          "damageInferred": false,
+          "sourceCase": "stand_near_whiff_hp",
+          "sourceSignature": [
+            "0x11f84e",
+            "0x11f866"
+          ],
+          "attackDescriptors": [
+            "0x199738",
+            "0x199748"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            8,
+            13
+          ],
+          "samples": 27
+        },
+        {
+          "move": "crouch_whiff_hp",
+          "damageObserved": [
+            21,
+            19
+          ],
+          "damageInferred": false,
+          "sourceCase": "crouch_whiff_hp",
+          "sourceSignature": [
+            "0x11ff62",
+            "0x11ff7a"
+          ],
+          "attackDescriptors": [
+            "0x199888"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            9,
+            24
+          ],
+          "samples": 39
+        },
+        {
+          "move": "air_vertical_hp",
+          "damageObserved": [
+            25
+          ],
+          "damageInferred": false,
+          "sourceCase": "air_vertical_hp",
+          "sourceSignature": [
+            "0x12030a",
+            "0x120322"
+          ],
+          "attackDescriptors": [
+            "0x199898"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            3,
+            5
+          ],
+          "samples": 20
+        },
+        {
+          "move": "air_directional_hp",
+          "damageObserved": [
+            25,
+            24
+          ],
+          "damageInferred": true,
+          "sourceCase": "air_directional_hp",
+          "sourceSignature": [
+            "0x12063a",
+            "0x120652"
+          ],
+          "attackDescriptors": [
+            "0x199818"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            6,
+            10
+          ],
+          "samples": 19
+        },
+        {
+          "move": "stand_far_lk",
+          "damageObserved": [
+            11,
+            11,
+            11,
+            11
+          ],
+          "damageInferred": true,
+          "sourceCase": "stand_far_lk",
+          "sourceSignature": [
+            "0x11fa06",
+            "0x11fa1e"
+          ],
+          "attackDescriptors": [
+            "0x199788"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            8,
+            10
+          ],
+          "samples": 15
+        },
+        {
+          "move": "stand_near_whiff_lk",
+          "damageObserved": [
+            11,
+            11
+          ],
+          "damageInferred": false,
+          "sourceCase": "stand_near_whiff_lk",
+          "sourceSignature": [
+            "0x11f8fa",
+            "0x11f912"
+          ],
+          "attackDescriptors": [
+            "0x1997a8"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            13,
+            15
+          ],
+          "samples": 25
+        },
+        {
+          "move": "crouch_whiff_lk",
+          "damageObserved": [
+            8
+          ],
+          "damageInferred": false,
+          "sourceCase": "crouch_whiff_lk",
+          "sourceSignature": [
+            "0x11fff6",
+            "0x12000e"
+          ],
+          "attackDescriptors": [
+            "0x199848"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            6,
+            8
+          ],
+          "samples": 13
+        },
+        {
+          "move": "air_vertical_lk",
+          "damageObserved": [
+            13
+          ],
+          "damageInferred": false,
+          "sourceCase": "air_vertical_lk",
+          "sourceSignature": [
+            "0x12039e",
+            "0x1203b6"
+          ],
+          "attackDescriptors": [
+            "0x1998a8"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            6,
+            19
+          ],
+          "samples": 20
+        },
+        {
+          "move": "air_directional_lk",
+          "damageObserved": [
+            13
+          ],
+          "damageInferred": false,
+          "sourceCase": "air_directional_lk",
+          "sourceSignature": [
+            "0x1206b6",
+            "0x1206ce"
+          ],
+          "attackDescriptors": [
+            "0x1998c8"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            6,
+            29
+          ],
+          "samples": 30
+        },
+        {
+          "move": "stand_far_mk",
+          "damageObserved": [
+            18,
+            18,
+            18,
+            18
+          ],
+          "damageInferred": true,
+          "sourceCase": "stand_far_mk",
+          "sourceSignature": [
+            "0x11fbbe",
+            "0x11fbd6"
+          ],
+          "attackDescriptors": [
+            "0x199798"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            8,
+            10
+          ],
+          "samples": 15
+        },
+        {
+          "move": "stand_near_whiff_mk",
+          "damageObserved": [
+            18,
+            18
+          ],
+          "damageInferred": false,
+          "sourceCase": "stand_near_whiff_mk",
+          "sourceSignature": [
+            "0x11fab2",
+            "0x11faca"
+          ],
+          "attackDescriptors": [
+            "0x1997b8",
+            "0x1997c8"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            12,
+            15
+          ],
+          "samples": 25
+        },
+        {
+          "move": "crouch_whiff_mk",
+          "damageObserved": [
+            15
+          ],
+          "damageInferred": false,
+          "sourceCase": "crouch_whiff_mk",
+          "sourceSignature": [
+            "0x12008a",
+            "0x1200a2"
+          ],
+          "attackDescriptors": [
+            "0x199858"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            6,
+            8
+          ],
+          "samples": 13
+        },
+        {
+          "move": "air_vertical_mk",
+          "damageObserved": [
+            19
+          ],
+          "damageInferred": false,
+          "sourceCase": "air_vertical_mk",
+          "sourceSignature": [
+            "0x12041a",
+            "0x120432"
+          ],
+          "attackDescriptors": [
+            "0x1998b8"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            6,
+            14
+          ],
+          "samples": 20
+        },
+        {
+          "move": "air_directional_mk",
+          "damageObserved": [
+            19
+          ],
+          "damageInferred": false,
+          "sourceCase": "air_directional_mk",
+          "sourceSignature": [
+            "0x120732",
+            "0x12074a"
+          ],
+          "attackDescriptors": [
+            "0x1998d8"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            6,
+            26
+          ],
+          "samples": 31
+        },
+        {
+          "move": "stand_far_hk",
+          "damageObserved": [
+            22,
+            22
+          ],
+          "damageInferred": false,
+          "sourceCase": "stand_far_hk",
+          "sourceSignature": [
+            "0x11fd16",
+            "0x11fd2e"
+          ],
+          "attackDescriptors": [
+            "0x1997d8",
+            "0x1997e8"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            8,
+            16
+          ],
+          "samples": 31
+        },
+        {
+          "move": "stand_near_whiff_hk",
+          "damageObserved": [
+            22,
+            22
+          ],
+          "damageInferred": false,
+          "sourceCase": "stand_near_whiff_hk",
+          "sourceSignature": [
+            "0x11fd16",
+            "0x11fd2e"
+          ],
+          "attackDescriptors": [
+            "0x1997d8",
+            "0x1997e8"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            8,
+            16
+          ],
+          "samples": 32
+        },
+        {
+          "move": "crouch_whiff_hk",
+          "damageObserved": [
+            21
+          ],
+          "damageInferred": false,
+          "sourceCase": "crouch_whiff_hk",
+          "sourceSignature": [
+            "0x12011e",
+            "0x120136"
+          ],
+          "attackDescriptors": [
+            "0x1999e8"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            10,
+            12
+          ],
+          "samples": 25
+        },
+        {
+          "move": "air_vertical_hk",
+          "damageObserved": [
+            24
+          ],
+          "damageInferred": false,
+          "sourceCase": "air_vertical_hk",
+          "sourceSignature": [
+            "0x120496",
+            "0x1204ae"
+          ],
+          "attackDescriptors": [
+            "0x1998e8"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            6,
+            10
+          ],
+          "samples": 20
+        },
+        {
+          "move": "air_directional_hk",
+          "damageObserved": [
+            25,
+            24
+          ],
+          "damageInferred": true,
+          "sourceCase": "air_directional_hk",
+          "sourceSignature": [
+            "0x1207ae",
+            "0x1207c6"
+          ],
+          "attackDescriptors": [
+            "0x1998f8"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            8,
+            12
+          ],
+          "samples": 20
+        }
+      ],
+      "limits": [
+        "stand_far_lp: damage inferred from the same native descriptor byte4 class; direct variant contact still required",
+        "stand_far_mp: damage inferred from the same native descriptor byte4 class; direct variant contact still required",
+        "air_directional_hp: damage inferred from the same native descriptor byte4 class; direct variant contact still required",
+        "stand_far_lk: damage inferred from the same native descriptor byte4 class; direct variant contact still required",
+        "stand_far_mk: damage inferred from the same native descriptor byte4 class; direct variant contact still required",
+        "air_directional_hk: damage inferred from the same native descriptor byte4 class; direct variant contact still required",
+        "Native KO control/repetition/cancellation, specials, supers and throws remain separate obligations."
+      ],
+      "captureSha256": "5c8129e21f575f2bfa3904119e5bcf8d7d97e808df8db9f10c1573f055b4cba7"
+    },
+    {
+      "id": "sf-3",
+      "name": "Guile",
+      "status": "NATIVE_BASICS_INTEGRATED_FIDELITY_PENDING",
+      "normalVariants": 30,
+      "reactionProfiles": 44,
+      "assets": 165,
+      "proofs": [
+        {
+          "move": "stand_far_lp",
+          "damageObserved": [
+            4,
+            4
+          ],
+          "damageInferred": false,
+          "sourceCase": "stand_far_lp",
+          "sourceSignature": [
+            "0x128480",
+            "0x128498"
+          ],
+          "attackDescriptors": [
+            "0x199e12"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            6,
+            8
+          ],
+          "samples": 12
+        },
+        {
+          "move": "stand_near_whiff_lp",
+          "damageObserved": [
+            4,
+            4
+          ],
+          "damageInferred": false,
+          "sourceCase": "stand_near_whiff_lp",
+          "sourceSignature": [
+            "0x128480",
+            "0x128498"
+          ],
+          "attackDescriptors": [
+            "0x199e12"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            6,
+            8
+          ],
+          "samples": 11
+        },
+        {
+          "move": "crouch_whiff_lp",
+          "damageObserved": [
+            6
+          ],
+          "damageInferred": false,
+          "sourceCase": "crouch_whiff_lp",
+          "sourceSignature": [
+            "0x129278",
+            "0x129290"
+          ],
+          "attackDescriptors": [
+            "0x199ee2"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            6,
+            8
+          ],
+          "samples": 12
+        },
+        {
+          "move": "air_vertical_lp",
+          "damageObserved": [
+            11
+          ],
+          "damageInferred": false,
+          "sourceCase": "air_vertical_lp",
+          "sourceSignature": [
+            "0x129668",
+            "0x129680"
+          ],
+          "attackDescriptors": [
+            "0x199f62"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            8,
+            24
+          ],
+          "samples": 25
+        },
+        {
+          "move": "air_directional_lp",
+          "damageObserved": [
+            12
+          ],
+          "damageInferred": false,
+          "sourceCase": "air_directional_lp",
+          "sourceSignature": [
+            "0x1299e0",
+            "0x1299f8"
+          ],
+          "attackDescriptors": [
+            "0x199fc2"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            8,
+            34
+          ],
+          "samples": 35
+        },
+        {
+          "move": "stand_far_mp",
+          "damageObserved": [
+            19,
+            19,
+            19,
+            19,
+            19
+          ],
+          "damageInferred": true,
+          "sourceCase": "stand_far_mp",
+          "sourceSignature": [
+            "0x12860c",
+            "0x128624"
+          ],
+          "attackDescriptors": [
+            "0x199e42",
+            "0x19a1a2"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            7,
+            10
+          ],
+          "samples": 17
+        },
+        {
+          "move": "stand_near_whiff_mp",
+          "damageObserved": [
+            19,
+            19
+          ],
+          "damageInferred": false,
+          "sourceCase": "stand_near_whiff_mp",
+          "sourceSignature": [
+            "0x128560",
+            "0x128578"
+          ],
+          "attackDescriptors": [
+            "0x199e32"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            6,
+            7
+          ],
+          "samples": 16
+        },
+        {
+          "move": "crouch_whiff_mp",
+          "damageObserved": [
+            20
+          ],
+          "damageInferred": false,
+          "sourceCase": "crouch_whiff_mp",
+          "sourceSignature": [
+            "0x1292dc",
+            "0x1292f4"
+          ],
+          "attackDescriptors": [
+            "0x199ef2"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            6,
+            8
+          ],
+          "samples": 14
+        },
+        {
+          "move": "air_vertical_mp",
+          "damageObserved": [
+            19
+          ],
+          "damageInferred": false,
+          "sourceCase": "air_vertical_mp",
+          "sourceSignature": [
+            "0x1296e4",
+            "0x1296fc"
+          ],
+          "attackDescriptors": [
+            "0x199f72"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            8,
+            22
+          ],
+          "samples": 25
+        },
+        {
+          "move": "air_directional_mp",
+          "damageObserved": [
+            19,
+            19,
+            20
+          ],
+          "damageInferred": true,
+          "sourceCase": "air_directional_mp",
+          "sourceSignature": [
+            "0x129a5c",
+            "0x129a74"
+          ],
+          "attackDescriptors": [
+            "0x199fd2"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            8,
+            22
+          ],
+          "samples": 24
+        },
+        {
+          "move": "stand_far_hp",
+          "damageObserved": [
+            21,
+            22,
+            21,
+            20
+          ],
+          "damageInferred": true,
+          "sourceCase": "stand_far_hp",
+          "sourceSignature": [
+            "0x128810",
+            "0x128828"
+          ],
+          "attackDescriptors": [
+            "0x19a162"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            9,
+            13
+          ],
+          "samples": 20
+        },
+        {
+          "move": "stand_near_whiff_hp",
+          "damageObserved": [
+            21,
+            22
+          ],
+          "damageInferred": false,
+          "sourceCase": "stand_near_whiff_hp",
+          "sourceSignature": [
+            "0x1286b8",
+            "0x1286d0"
+          ],
+          "attackDescriptors": [
+            "0x199e52"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            6,
+            7
+          ],
+          "samples": 29
+        },
+        {
+          "move": "crouch_whiff_hp",
+          "damageObserved": [
+            21
+          ],
+          "damageInferred": false,
+          "sourceCase": "crouch_whiff_hp",
+          "sourceSignature": [
+            "0x129358",
+            "0x129370"
+          ],
+          "attackDescriptors": [
+            "0x199f02",
+            "0x199f12"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            7,
+            18
+          ],
+          "samples": 26
+        },
+        {
+          "move": "air_vertical_hp",
+          "damageObserved": [
+            21
+          ],
+          "damageInferred": false,
+          "sourceCase": "air_vertical_hp",
+          "sourceSignature": [
+            "0x129760",
+            "0x129778"
+          ],
+          "attackDescriptors": [
+            "0x199f82"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            8,
+            13
+          ],
+          "samples": 25
+        },
+        {
+          "move": "air_directional_hp",
+          "damageObserved": [
+            21,
+            21
+          ],
+          "damageInferred": true,
+          "sourceCase": "air_directional_hp",
+          "sourceSignature": [
+            "0x129ad8",
+            "0x129af0"
+          ],
+          "attackDescriptors": [
+            "0x199fe2"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            8,
+            13
+          ],
+          "samples": 24
+        },
+        {
+          "move": "stand_far_lk",
+          "damageObserved": [
+            11,
+            12
+          ],
+          "damageInferred": false,
+          "sourceCase": "stand_far_lk",
+          "sourceSignature": [
+            "0x1288ec",
+            "0x128904"
+          ],
+          "attackDescriptors": [
+            "0x199e72"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            7,
+            9
+          ],
+          "samples": 13
+        },
+        {
+          "move": "stand_near_whiff_lk",
+          "damageObserved": [
+            11,
+            12
+          ],
+          "damageInferred": false,
+          "sourceCase": "stand_near_whiff_lk",
+          "sourceSignature": [
+            "0x1288ec",
+            "0x128904"
+          ],
+          "attackDescriptors": [
+            "0x199e72"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            6,
+            8
+          ],
+          "samples": 13
+        },
+        {
+          "move": "crouch_whiff_lk",
+          "damageObserved": [
+            12
+          ],
+          "damageInferred": false,
+          "sourceCase": "crouch_whiff_lk",
+          "sourceSignature": [
+            "0x1293ec",
+            "0x129404"
+          ],
+          "attackDescriptors": [
+            "0x199f22"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            8,
+            10
+          ],
+          "samples": 15
+        },
+        {
+          "move": "air_vertical_lk",
+          "damageObserved": [
+            12
+          ],
+          "damageInferred": false,
+          "sourceCase": "air_vertical_lk",
+          "sourceSignature": [
+            "0x1297dc",
+            "0x1297f4"
+          ],
+          "attackDescriptors": [
+            "0x199f92"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            8,
+            24
+          ],
+          "samples": 25
+        },
+        {
+          "move": "air_directional_lk",
+          "damageObserved": [
+            12
+          ],
+          "damageInferred": false,
+          "sourceCase": "air_directional_lk",
+          "sourceSignature": [
+            "0x129b54",
+            "0x129b6c"
+          ],
+          "attackDescriptors": [
+            "0x199ff2"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            8,
+            34
+          ],
+          "samples": 35
+        },
+        {
+          "move": "stand_far_mk",
+          "damageObserved": [
+            19,
+            19,
+            19,
+            19,
+            19
+          ],
+          "damageInferred": true,
+          "sourceCase": "stand_far_mk",
+          "sourceSignature": [
+            "0x128aa8",
+            "0x128ac0"
+          ],
+          "attackDescriptors": [
+            "0x199ea2"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            10,
+            13
+          ],
+          "samples": 23
+        },
+        {
+          "move": "stand_near_whiff_mk",
+          "damageObserved": [
+            19,
+            19
+          ],
+          "damageInferred": false,
+          "sourceCase": "stand_near_whiff_mk",
+          "sourceSignature": [
+            "0x128980",
+            "0x128998"
+          ],
+          "attackDescriptors": [
+            "0x199e82"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            8,
+            10
+          ],
+          "samples": 14
+        },
+        {
+          "move": "crouch_whiff_mk",
+          "damageObserved": [
+            19
+          ],
+          "damageInferred": false,
+          "sourceCase": "crouch_whiff_mk",
+          "sourceSignature": [
+            "0x129480",
+            "0x129498"
+          ],
+          "attackDescriptors": [
+            "0x199f32"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            9,
+            12
+          ],
+          "samples": 18
+        },
+        {
+          "move": "air_vertical_mk",
+          "damageObserved": [
+            20
+          ],
+          "damageInferred": false,
+          "sourceCase": "air_vertical_mk",
+          "sourceSignature": [
+            "0x129870",
+            "0x129888"
+          ],
+          "attackDescriptors": [
+            "0x19a092"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            9,
+            12
+          ],
+          "samples": 25
+        },
+        {
+          "move": "air_directional_mk",
+          "damageObserved": [
+            19
+          ],
+          "damageInferred": false,
+          "sourceCase": "air_directional_mk",
+          "sourceSignature": [
+            "0x129bd0",
+            "0x129be8"
+          ],
+          "attackDescriptors": [
+            "0x19a002"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            8,
+            33
+          ],
+          "samples": 35
+        },
+        {
+          "move": "stand_far_hk",
+          "damageObserved": [
+            21,
+            22,
+            21,
+            20
+          ],
+          "damageInferred": true,
+          "sourceCase": "stand_far_hk",
+          "sourceSignature": [
+            "0x1290a8",
+            "0x1290c0"
+          ],
+          "attackDescriptors": [
+            "0x199ed2"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            14,
+            17
+          ],
+          "samples": 27
+        },
+        {
+          "move": "stand_near_whiff_hk",
+          "damageObserved": [
+            22,
+            22
+          ],
+          "damageInferred": false,
+          "sourceCase": "stand_near_whiff_hk",
+          "sourceSignature": [
+            "0x128f6c",
+            "0x128f84"
+          ],
+          "attackDescriptors": [
+            "0x19a082"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            9,
+            14
+          ],
+          "samples": 25
+        },
+        {
+          "move": "crouch_whiff_hk",
+          "damageObserved": [
+            20
+          ],
+          "damageInferred": false,
+          "sourceCase": "crouch_whiff_hk",
+          "sourceSignature": [
+            "0x129514",
+            "0x12952c"
+          ],
+          "attackDescriptors": [
+            "0x199f42",
+            "0x199f52"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            9,
+            36
+          ],
+          "samples": 44
+        },
+        {
+          "move": "air_vertical_hk",
+          "damageObserved": [
+            21
+          ],
+          "damageInferred": false,
+          "sourceCase": "air_vertical_hk",
+          "sourceSignature": [
+            "0x129934",
+            "0x12994c"
+          ],
+          "attackDescriptors": [
+            "0x199fb2"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            7,
+            10
+          ],
+          "samples": 25
+        },
+        {
+          "move": "air_directional_hk",
+          "damageObserved": [
+            21,
+            21
+          ],
+          "damageInferred": true,
+          "sourceCase": "air_directional_hk",
+          "sourceSignature": [
+            "0x129c4c",
+            "0x129c64"
+          ],
+          "attackDescriptors": [
+            "0x19a012"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            7,
+            10
+          ],
+          "samples": 24
+        }
+      ],
+      "limits": [
+        "stand_far_mp: damage inferred from the same native descriptor byte4 class; direct variant contact still required",
+        "air_directional_mp: damage inferred from the same native descriptor byte4 class; direct variant contact still required",
+        "stand_far_hp: damage inferred from the same native descriptor byte4 class; direct variant contact still required",
+        "air_directional_hp: damage inferred from the same native descriptor byte4 class; direct variant contact still required",
+        "stand_far_mk: damage inferred from the same native descriptor byte4 class; direct variant contact still required",
+        "stand_far_hk: damage inferred from the same native descriptor byte4 class; direct variant contact still required",
+        "air_directional_hk: damage inferred from the same native descriptor byte4 class; direct variant contact still required",
+        "Native KO control/repetition/cancellation, specials, supers and throws remain separate obligations."
+      ],
+      "captureSha256": "999ac8ffbd996866230b3fbd1a37990d5c072514268d9b4507254ff25fe0680c"
+    },
+    {
+      "id": "sf-4",
+      "name": "T. Hawk",
+      "status": "NATIVE_BASICS_INTEGRATED_FIDELITY_PENDING",
+      "normalVariants": 30,
+      "reactionProfiles": 47,
+      "assets": 152,
+      "proofs": [
+        {
+          "move": "stand_far_lp",
+          "damageObserved": [
+            4,
+            4
+          ],
+          "damageInferred": false,
+          "sourceCase": "stand_far_lp",
+          "sourceSignature": [
+            "0x177b4a",
+            "0x177b62"
+          ],
+          "attackDescriptors": [
+            "0x19e304"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            5,
+            7
+          ],
+          "samples": 10
+        },
+        {
+          "move": "stand_near_whiff_lp",
+          "damageObserved": [
+            4,
+            4
+          ],
+          "damageInferred": false,
+          "sourceCase": "stand_near_whiff_lp",
+          "sourceSignature": [
+            "0x177b4a",
+            "0x177b62"
+          ],
+          "attackDescriptors": [
+            "0x19e304"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            6,
+            8
+          ],
+          "samples": 10
+        },
+        {
+          "move": "crouch_whiff_lp",
+          "damageObserved": [
+            4
+          ],
+          "damageInferred": false,
+          "sourceCase": "crouch_whiff_lp",
+          "sourceSignature": [
+            "0x1782e2",
+            "0x1782fa"
+          ],
+          "attackDescriptors": [
+            "0x19e634"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            5,
+            7
+          ],
+          "samples": 10
+        },
+        {
+          "move": "air_vertical_lp",
+          "damageObserved": [
+            16
+          ],
+          "damageInferred": false,
+          "sourceCase": "air_vertical_lp",
+          "sourceSignature": [
+            "0x178612",
+            "0x17862a"
+          ],
+          "attackDescriptors": [
+            "0x19e3e4"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            5,
+            19
+          ],
+          "samples": 20
+        },
+        {
+          "move": "air_directional_lp",
+          "damageObserved": [
+            17
+          ],
+          "damageInferred": false,
+          "sourceCase": "air_directional_lp",
+          "sourceSignature": [
+            "0x178756",
+            "0x17876e"
+          ],
+          "attackDescriptors": [
+            "0x19e414"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            5,
+            30
+          ],
+          "samples": 31
+        },
+        {
+          "move": "stand_far_mp",
+          "damageObserved": [
+            19,
+            20,
+            19,
+            19,
+            19,
+            19
+          ],
+          "damageInferred": true,
+          "sourceCase": "stand_far_mp",
+          "sourceSignature": [
+            "0x177c2a",
+            "0x177c42"
+          ],
+          "attackDescriptors": [
+            "0x19e324"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            7,
+            11
+          ],
+          "samples": 17
+        },
+        {
+          "move": "stand_near_whiff_mp",
+          "damageObserved": [
+            19,
+            20
+          ],
+          "damageInferred": false,
+          "sourceCase": "stand_near_whiff_mp",
+          "sourceSignature": [
+            "0x177bae",
+            "0x177bc6"
+          ],
+          "attackDescriptors": [
+            "0x19e314",
+            "0x19e614"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            6,
+            11
+          ],
+          "samples": 15
+        },
+        {
+          "move": "crouch_whiff_mp",
+          "damageObserved": [
+            19
+          ],
+          "damageInferred": false,
+          "sourceCase": "crouch_whiff_mp",
+          "sourceSignature": [
+            "0x17835e",
+            "0x178376"
+          ],
+          "attackDescriptors": [
+            "0x19e4b4"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            7,
+            12
+          ],
+          "samples": 17
+        },
+        {
+          "move": "air_vertical_mp",
+          "damageObserved": [
+            22
+          ],
+          "damageInferred": false,
+          "sourceCase": "air_vertical_mp",
+          "sourceSignature": [
+            "0x178676",
+            "0x17868e"
+          ],
+          "attackDescriptors": [
+            "0x19e3f4"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            6,
+            15
+          ],
+          "samples": 21
+        },
+        {
+          "move": "air_directional_mp",
+          "damageObserved": [
+            22
+          ],
+          "damageInferred": false,
+          "sourceCase": "air_directional_mp",
+          "sourceSignature": [
+            "0x1787ba",
+            "0x1787d2"
+          ],
+          "attackDescriptors": [
+            "0x19e3f4"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            6,
+            16
+          ],
+          "samples": 19
+        },
+        {
+          "move": "stand_far_hp",
+          "damageObserved": [
+            22,
+            22,
+            24
+          ],
+          "damageInferred": true,
+          "sourceCase": "stand_far_hp",
+          "sourceSignature": [
+            "0x177d3a",
+            "0x177d52"
+          ],
+          "attackDescriptors": [
+            "0x19e344"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            12,
+            17
+          ],
+          "samples": 26
+        },
+        {
+          "move": "stand_near_whiff_hp",
+          "damageObserved": [
+            16,
+            16
+          ],
+          "damageInferred": false,
+          "sourceCase": "stand_near_whiff_hp",
+          "sourceSignature": [
+            "0x177ca6",
+            "0x177cbe"
+          ],
+          "attackDescriptors": [
+            "0x19e334",
+            "0x19e364"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            9,
+            17
+          ],
+          "samples": 23
+        },
+        {
+          "move": "crouch_whiff_hp",
+          "damageObserved": [
+            24
+          ],
+          "damageInferred": false,
+          "sourceCase": "crouch_whiff_hp",
+          "sourceSignature": [
+            "0x1783c2",
+            "0x1783da"
+          ],
+          "attackDescriptors": [
+            "0x19e4c4",
+            "0x19e624"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            9,
+            18
+          ],
+          "samples": 25
+        },
+        {
+          "move": "air_vertical_hp",
+          "damageObserved": [
+            22
+          ],
+          "damageInferred": false,
+          "sourceCase": "air_vertical_hp",
+          "sourceSignature": [
+            "0x1786da",
+            "0x1786f2"
+          ],
+          "attackDescriptors": [
+            "0x19e434"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            8,
+            16
+          ],
+          "samples": 20
+        },
+        {
+          "move": "air_directional_hp",
+          "damageObserved": [
+            22,
+            22
+          ],
+          "damageInferred": true,
+          "sourceCase": "air_directional_hp",
+          "sourceSignature": [
+            "0x178882",
+            "0x17889a"
+          ],
+          "attackDescriptors": [
+            "0x19e404",
+            "0x19e694"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            6,
+            15
+          ],
+          "samples": 19
+        },
+        {
+          "move": "stand_far_lk",
+          "damageObserved": [
+            15,
+            15
+          ],
+          "damageInferred": true,
+          "sourceCase": "stand_far_lk",
+          "sourceSignature": [
+            "0x177e4a",
+            "0x177e62"
+          ],
+          "attackDescriptors": [
+            "0x19e384"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            6,
+            9
+          ],
+          "samples": 12
+        },
+        {
+          "move": "stand_near_whiff_lk",
+          "damageObserved": [
+            15,
+            15
+          ],
+          "damageInferred": false,
+          "sourceCase": "stand_near_whiff_lk",
+          "sourceSignature": [
+            "0x177de6",
+            "0x177dfe"
+          ],
+          "attackDescriptors": [
+            "0x19e374"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            6,
+            8
+          ],
+          "samples": 10
+        },
+        {
+          "move": "crouch_whiff_lk",
+          "damageObserved": [
+            4
+          ],
+          "damageInferred": false,
+          "sourceCase": "crouch_whiff_lk",
+          "sourceSignature": [
+            "0x17846e",
+            "0x178486"
+          ],
+          "attackDescriptors": [
+            "0x19e4d4"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            5,
+            7
+          ],
+          "samples": 11
+        },
+        {
+          "move": "air_vertical_lk",
+          "damageObserved": [
+            16
+          ],
+          "damageInferred": false,
+          "sourceCase": "air_vertical_lk",
+          "sourceSignature": [
+            "0x17897a",
+            "0x178992"
+          ],
+          "attackDescriptors": [
+            "0x19e444"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            6,
+            19
+          ],
+          "samples": 20
+        },
+        {
+          "move": "air_directional_lk",
+          "damageObserved": [
+            16
+          ],
+          "damageInferred": false,
+          "sourceCase": "air_directional_lk",
+          "sourceSignature": [
+            "0x178ad6",
+            "0x178aee"
+          ],
+          "attackDescriptors": [
+            "0x19e474"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            6,
+            28
+          ],
+          "samples": 29
+        },
+        {
+          "move": "stand_far_mk",
+          "damageObserved": [
+            19,
+            20,
+            19,
+            19,
+            19,
+            19
+          ],
+          "damageInferred": true,
+          "sourceCase": "stand_far_mk",
+          "sourceSignature": [
+            "0x1780c6",
+            "0x1780de"
+          ],
+          "attackDescriptors": [
+            "0x19e3a4"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            9,
+            11
+          ],
+          "samples": 16
+        },
+        {
+          "move": "stand_near_whiff_mk",
+          "damageObserved": [
+            19,
+            19
+          ],
+          "damageInferred": false,
+          "sourceCase": "stand_near_whiff_mk",
+          "sourceSignature": [
+            "0x177ec6",
+            "0x177ede"
+          ],
+          "attackDescriptors": [
+            "0x19e394"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            6,
+            10
+          ],
+          "samples": 16
+        },
+        {
+          "move": "crouch_whiff_mk",
+          "damageObserved": [
+            19
+          ],
+          "damageInferred": false,
+          "sourceCase": "crouch_whiff_mk",
+          "sourceSignature": [
+            "0x1784ea",
+            "0x178502"
+          ],
+          "attackDescriptors": [
+            "0x19e4e4"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            7,
+            11
+          ],
+          "samples": 15
+        },
+        {
+          "move": "air_vertical_mk",
+          "damageObserved": [
+            22
+          ],
+          "damageInferred": false,
+          "sourceCase": "air_vertical_mk",
+          "sourceSignature": [
+            "0x1789de",
+            "0x1789f6"
+          ],
+          "attackDescriptors": [
+            "0x19e454"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            6,
+            15
+          ],
+          "samples": 20
+        },
+        {
+          "move": "air_directional_mk",
+          "damageObserved": [
+            22,
+            22
+          ],
+          "damageInferred": true,
+          "sourceCase": "air_directional_mk",
+          "sourceSignature": [
+            "0x178b3a",
+            "0x178b52"
+          ],
+          "attackDescriptors": [
+            "0x19e484"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            6,
+            17
+          ],
+          "samples": 19
+        },
+        {
+          "move": "stand_far_hk",
+          "damageObserved": [
+            22,
+            22,
+            24
+          ],
+          "damageInferred": true,
+          "sourceCase": "stand_far_hk",
+          "sourceSignature": [
+            "0x17821e",
+            "0x178236"
+          ],
+          "attackDescriptors": [
+            "0x19e3c4"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            11,
+            16
+          ],
+          "samples": 30
+        },
+        {
+          "move": "stand_near_whiff_hk",
+          "damageObserved": [
+            22,
+            22
+          ],
+          "damageInferred": false,
+          "sourceCase": "stand_near_whiff_hk",
+          "sourceSignature": [
+            "0x17815a",
+            "0x178172"
+          ],
+          "attackDescriptors": [
+            "0x19e3b4"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            9,
+            14
+          ],
+          "samples": 23
+        },
+        {
+          "move": "crouch_whiff_hk",
+          "damageObserved": [
+            24
+          ],
+          "damageInferred": false,
+          "sourceCase": "crouch_whiff_hk",
+          "sourceSignature": [
+            "0x178566",
+            "0x17857e"
+          ],
+          "attackDescriptors": [
+            "0x19e4f4",
+            "0x19e504"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            8,
+            25
+          ],
+          "samples": 41
+        },
+        {
+          "move": "air_vertical_hk",
+          "damageObserved": [
+            22
+          ],
+          "damageInferred": false,
+          "sourceCase": "air_vertical_hk",
+          "sourceSignature": [
+            "0x178a5a",
+            "0x178a72"
+          ],
+          "attackDescriptors": [
+            "0x19e464"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            8,
+            15
+          ],
+          "samples": 20
+        },
+        {
+          "move": "air_directional_hk",
+          "damageObserved": [
+            22,
+            22
+          ],
+          "damageInferred": true,
+          "sourceCase": "air_directional_hk",
+          "sourceSignature": [
+            "0x178bb6",
+            "0x178bce"
+          ],
+          "attackDescriptors": [
+            "0x19e494"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            7,
+            12
+          ],
+          "samples": 19
+        }
+      ],
+      "limits": [
+        "stand_far_mp: damage inferred from the same native descriptor byte4 class; direct variant contact still required",
+        "stand_far_hp: damage inferred from the same native descriptor byte4 class; direct variant contact still required",
+        "air_directional_hp: damage inferred from the same native descriptor byte4 class; direct variant contact still required",
+        "stand_far_lk: damage inferred from the same native descriptor byte4 class; direct variant contact still required",
+        "stand_far_mk: damage inferred from the same native descriptor byte4 class; direct variant contact still required",
+        "air_directional_mk: damage inferred from the same native descriptor byte4 class; direct variant contact still required",
+        "stand_far_hk: damage inferred from the same native descriptor byte4 class; direct variant contact still required",
+        "air_directional_hk: damage inferred from the same native descriptor byte4 class; direct variant contact still required",
+        "Native KO control/repetition/cancellation, specials, supers and throws remain separate obligations."
+      ],
+      "captureSha256": "e1fd5430543bf499624f32c8d0d0a667e28bdedf51f0f705374b4d266c59d0e9"
+    },
+    {
+      "id": "sf-5",
+      "status": "BLOCKED_NATIVE_NORMAL_GAPS",
+      "limits": [
+        "stand_far_lp: damage inferred from the same native descriptor byte4 class; direct variant contact still required",
+        "stand_far_mp: damage inferred from the same native descriptor byte4 class; direct variant contact still required",
+        "air_directional_mp: damage inferred from the same native descriptor byte4 class; direct variant contact still required",
+        "stand_far_hp: damage inferred from the same native descriptor byte4 class; direct variant contact still required",
+        "air_directional_hp: damage not measured; move disabled",
+        "punch3: incomplete measured normal mapping",
+        "stand_far_mk: damage inferred from the same native descriptor byte4 class; direct variant contact still required",
+        "air_directional_mk: damage inferred from the same native descriptor byte4 class; direct variant contact still required",
+        "stand_far_hk: damage inferred from the same native descriptor byte4 class; direct variant contact still required",
+        "air_directional_hk: damage inferred from the same native descriptor byte4 class; direct variant contact still required"
+      ],
+      "mappedControls": [
+        "punch",
+        "punch2",
+        "kick",
+        "kick2",
+        "kick3"
+      ]
+    },
+    {
+      "id": "sf-8",
+      "name": "Ken",
+      "status": "NATIVE_BASICS_INTEGRATED_FIDELITY_PENDING",
+      "normalVariants": 30,
+      "reactionProfiles": 46,
+      "assets": 145,
+      "proofs": [
+        {
+          "move": "stand_far_lp",
+          "damageObserved": [
+            4
+          ],
+          "damageInferred": false,
+          "sourceCase": "stand_far_lp",
+          "sourceSignature": [
+            "0x130e50",
+            "0x130e68"
+          ],
+          "attackDescriptors": [
+            "0x19a424"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            5,
+            7
+          ],
+          "samples": 11
+        },
+        {
+          "move": "stand_near_whiff_lp",
+          "damageObserved": [
+            4
+          ],
+          "damageInferred": false,
+          "sourceCase": "stand_near_whiff_lp",
+          "sourceSignature": [
+            "0x130dec",
+            "0x130e04"
+          ],
+          "attackDescriptors": [
+            "0x19a414"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            5,
+            7
+          ],
+          "samples": 11
+        },
+        {
+          "move": "crouch_whiff_lp",
+          "damageObserved": [
+            4
+          ],
+          "damageInferred": false,
+          "sourceCase": "crouch_whiff_lp",
+          "sourceSignature": [
+            "0x131588",
+            "0x1315a0"
+          ],
+          "attackDescriptors": [
+            "0x19a474"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            5,
+            7
+          ],
+          "samples": 11
+        },
+        {
+          "move": "air_vertical_lp",
+          "damageObserved": [
+            11
+          ],
+          "damageInferred": false,
+          "sourceCase": "air_vertical_lp",
+          "sourceSignature": [
+            "0x1318a0",
+            "0x1318b8"
+          ],
+          "attackDescriptors": [
+            "0x19a6d4"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            4,
+            22
+          ],
+          "samples": 23
+        },
+        {
+          "move": "air_directional_lp",
+          "damageObserved": [
+            10
+          ],
+          "damageInferred": false,
+          "sourceCase": "air_directional_lp",
+          "sourceSignature": [
+            "0x131bd0",
+            "0x131be8"
+          ],
+          "attackDescriptors": [
+            "0x19a4b4"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            4,
+            33
+          ],
+          "samples": 34
+        },
+        {
+          "move": "stand_far_mp",
+          "damageObserved": [
+            19,
+            24,
+            20,
+            19,
+            19
+          ],
+          "damageInferred": true,
+          "sourceCase": "stand_far_mp",
+          "sourceSignature": [
+            "0x130f78",
+            "0x130f90"
+          ],
+          "attackDescriptors": [
+            "0x19a434"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            5,
+            7
+          ],
+          "samples": 13
+        },
+        {
+          "move": "stand_near_whiff_mp",
+          "damageObserved": [
+            21,
+            21
+          ],
+          "damageInferred": false,
+          "sourceCase": "stand_near_whiff_mp",
+          "sourceSignature": [
+            "0x130eb4",
+            "0x130ecc"
+          ],
+          "attackDescriptors": [
+            "0x19a444"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            6,
+            6
+          ],
+          "samples": 19
+        },
+        {
+          "move": "crouch_whiff_mp",
+          "damageObserved": [
+            19
+          ],
+          "damageInferred": false,
+          "sourceCase": "crouch_whiff_mp",
+          "sourceSignature": [
+            "0x131604",
+            "0x13161c"
+          ],
+          "attackDescriptors": [
+            "0x19a484"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            6,
+            8
+          ],
+          "samples": 13
+        },
+        {
+          "move": "air_vertical_mp",
+          "damageObserved": [
+            20
+          ],
+          "damageInferred": false,
+          "sourceCase": "air_vertical_mp",
+          "sourceSignature": [
+            "0x1318d4",
+            "0x1318ec"
+          ],
+          "attackDescriptors": [
+            "0x19a4c4"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            6,
+            20
+          ],
+          "samples": 23
+        },
+        {
+          "move": "air_directional_mp",
+          "damageObserved": [
+            20,
+            19
+          ],
+          "damageInferred": true,
+          "sourceCase": "air_directional_mp",
+          "sourceSignature": [
+            "0x131c04",
+            "0x131c1c"
+          ],
+          "attackDescriptors": [
+            "0x19a4d4"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            5,
+            11
+          ],
+          "samples": 23
+        },
+        {
+          "move": "stand_far_hp",
+          "damageObserved": [
+            24,
+            25,
+            24
+          ],
+          "damageInferred": true,
+          "sourceCase": "stand_far_hp",
+          "sourceSignature": [
+            "0x1310a0",
+            "0x1310b8"
+          ],
+          "attackDescriptors": [
+            "0x19a644"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            7,
+            11
+          ],
+          "samples": 29
+        },
+        {
+          "move": "stand_near_whiff_hp",
+          "damageObserved": [
+            24,
+            25
+          ],
+          "damageInferred": false,
+          "sourceCase": "stand_near_whiff_hp",
+          "sourceSignature": [
+            "0x13100c",
+            "0x131024"
+          ],
+          "attackDescriptors": [
+            "0x19a454",
+            "0x19a464"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            6,
+            11
+          ],
+          "samples": 29
+        },
+        {
+          "move": "crouch_whiff_hp",
+          "damageObserved": [
+            24
+          ],
+          "damageInferred": false,
+          "sourceCase": "crouch_whiff_hp",
+          "sourceSignature": [
+            "0x131680",
+            "0x131698"
+          ],
+          "attackDescriptors": [
+            "0x19a494",
+            "0x19a4a4"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            6,
+            13
+          ],
+          "samples": 31
+        },
+        {
+          "move": "air_vertical_hp",
+          "damageObserved": [
+            22
+          ],
+          "damageInferred": false,
+          "sourceCase": "air_vertical_hp",
+          "sourceSignature": [
+            "0x131980",
+            "0x131998"
+          ],
+          "attackDescriptors": [
+            "0x19a6e4"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            6,
+            20
+          ],
+          "samples": 23
+        },
+        {
+          "move": "air_directional_hp",
+          "damageObserved": [
+            22
+          ],
+          "damageInferred": true,
+          "sourceCase": "air_directional_hp",
+          "sourceSignature": [
+            "0x131cb0",
+            "0x131cc8"
+          ],
+          "attackDescriptors": [
+            "0x19a6f4"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            5,
+            11
+          ],
+          "samples": 23
+        },
+        {
+          "move": "stand_far_lk",
+          "damageObserved": [
+            12
+          ],
+          "damageInferred": false,
+          "sourceCase": "stand_far_lk",
+          "sourceSignature": [
+            "0x1311c8",
+            "0x1311e0"
+          ],
+          "attackDescriptors": [
+            "0x19a4f4"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            8,
+            9
+          ],
+          "samples": 16
+        },
+        {
+          "move": "stand_near_whiff_lk",
+          "damageObserved": [
+            11
+          ],
+          "damageInferred": false,
+          "sourceCase": "stand_near_whiff_lk",
+          "sourceSignature": [
+            "0x131134",
+            "0x13114c"
+          ],
+          "attackDescriptors": [
+            "0x19a4e4"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            7,
+            8
+          ],
+          "samples": 14
+        },
+        {
+          "move": "crouch_whiff_lk",
+          "damageObserved": [
+            4
+          ],
+          "damageInferred": false,
+          "sourceCase": "crouch_whiff_lk",
+          "sourceSignature": [
+            "0x131714",
+            "0x13172c"
+          ],
+          "attackDescriptors": [
+            "0x19a564"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            6,
+            8
+          ],
+          "samples": 12
+        },
+        {
+          "move": "air_vertical_lk",
+          "damageObserved": [
+            12
+          ],
+          "damageInferred": false,
+          "sourceCase": "air_vertical_lk",
+          "sourceSignature": [
+            "0x131a2c",
+            "0x131a44"
+          ],
+          "attackDescriptors": [
+            "0x19a5b4"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            5,
+            22
+          ],
+          "samples": 23
+        },
+        {
+          "move": "air_directional_lk",
+          "damageObserved": [
+            14
+          ],
+          "damageInferred": false,
+          "sourceCase": "air_directional_lk",
+          "sourceSignature": [
+            "0x131d5c",
+            "0x131d74"
+          ],
+          "attackDescriptors": [
+            "0x19a634"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            6,
+            33
+          ],
+          "samples": 34
+        },
+        {
+          "move": "stand_far_mk",
+          "damageObserved": [
+            19,
+            24,
+            20,
+            19,
+            19
+          ],
+          "damageInferred": true,
+          "sourceCase": "stand_far_mk",
+          "sourceSignature": [
+            "0x131384",
+            "0x13139c"
+          ],
+          "attackDescriptors": [
+            "0x19a504"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            8,
+            14
+          ],
+          "samples": 19
+        },
+        {
+          "move": "stand_near_whiff_mk",
+          "damageObserved": [
+            20,
+            19
+          ],
+          "damageInferred": false,
+          "sourceCase": "stand_near_whiff_mk",
+          "sourceSignature": [
+            "0x13128c",
+            "0x1312a4"
+          ],
+          "attackDescriptors": [
+            "0x19a514"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            9,
+            14
+          ],
+          "samples": 22
+        },
+        {
+          "move": "crouch_whiff_mk",
+          "damageObserved": [
+            19
+          ],
+          "damageInferred": false,
+          "sourceCase": "crouch_whiff_mk",
+          "sourceSignature": [
+            "0x131790",
+            "0x1317a8"
+          ],
+          "attackDescriptors": [
+            "0x19a574"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            6,
+            10
+          ],
+          "samples": 16
+        },
+        {
+          "move": "air_vertical_mk",
+          "damageObserved": [
+            19
+          ],
+          "damageInferred": false,
+          "sourceCase": "air_vertical_mk",
+          "sourceSignature": [
+            "0x131aa8",
+            "0x131ac0"
+          ],
+          "attackDescriptors": [
+            "0x19a5c4"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            6,
+            15
+          ],
+          "samples": 23
+        },
+        {
+          "move": "air_directional_mk",
+          "damageObserved": [
+            20,
+            19,
+            22
+          ],
+          "damageInferred": true,
+          "sourceCase": "air_directional_mk",
+          "sourceSignature": [
+            "0x131e6c",
+            "0x131e84"
+          ],
+          "attackDescriptors": [
+            "0x19a5d4",
+            "0x19a894"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            6,
+            15
+          ],
+          "samples": 22
+        },
+        {
+          "move": "stand_far_hk",
+          "damageObserved": [
+            22,
+            25
+          ],
+          "damageInferred": false,
+          "sourceCase": "stand_far_hk",
+          "sourceSignature": [
+            "0x131494",
+            "0x1314ac"
+          ],
+          "attackDescriptors": [
+            "0x19a524"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            9,
+            12
+          ],
+          "samples": 29
+        },
+        {
+          "move": "stand_near_whiff_hk",
+          "damageObserved": [
+            22,
+            25
+          ],
+          "damageInferred": false,
+          "sourceCase": "stand_near_whiff_hk",
+          "sourceSignature": [
+            "0x131494",
+            "0x1314ac"
+          ],
+          "attackDescriptors": [
+            "0x19a524"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            9,
+            12
+          ],
+          "samples": 28
+        },
+        {
+          "move": "crouch_whiff_hk",
+          "damageObserved": [
+            22
+          ],
+          "damageInferred": false,
+          "sourceCase": "crouch_whiff_hk",
+          "sourceSignature": [
+            "0x13180c",
+            "0x131824"
+          ],
+          "attackDescriptors": [
+            "0x19a584"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            6,
+            10
+          ],
+          "samples": 29
+        },
+        {
+          "move": "air_vertical_hk",
+          "damageObserved": [
+            22
+          ],
+          "damageInferred": false,
+          "sourceCase": "air_vertical_hk",
+          "sourceSignature": [
+            "0x131b24",
+            "0x131b3c"
+          ],
+          "attackDescriptors": [
+            "0x19a594",
+            "0x19a5a4"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            4,
+            10
+          ],
+          "samples": 24
+        },
+        {
+          "move": "air_directional_hk",
+          "damageObserved": [
+            22
+          ],
+          "damageInferred": true,
+          "sourceCase": "air_directional_hk",
+          "sourceSignature": [
+            "0x131f48",
+            "0x131f60"
+          ],
+          "attackDescriptors": [
+            "0x19a5e4"
+          ],
+          "damageLinkEvidence": "same native animation or intersecting native attack descriptor addresses",
+          "activeSamples": [
+            6,
+            11
+          ],
+          "samples": 23
+        }
+      ],
+      "limits": [
+        "stand_far_mp: damage inferred from the same native descriptor byte4 class; direct variant contact still required",
+        "air_directional_mp: damage inferred from the same native descriptor byte4 class; direct variant contact still required",
+        "stand_far_hp: damage inferred from the same native descriptor byte4 class; direct variant contact still required",
+        "air_directional_hp: damage inferred from the same native descriptor byte4 class; direct variant contact still required",
+        "stand_far_mk: damage inferred from the same native descriptor byte4 class; direct variant contact still required",
+        "air_directional_mk: damage inferred from the same native descriptor byte4 class; direct variant contact still required",
+        "air_directional_hk: damage inferred from the same native descriptor byte4 class; direct variant contact still required",
+        "Native KO control/repetition/cancellation, specials, supers and throws remain separate obligations."
+      ],
+      "captureSha256": "355d3b8d211f7c452ff184824338dc28a75f8bac4f384cfa9fe97aaa0b387310"
+    }
+  ],
+  "integrated": [
+    "sf-1",
+    "sf-2",
+    "sf-3",
+    "sf-4",
+    "sf-8"
+  ]
+}

@@ -1,0 +1,1398 @@
+{
+  "schema": 1,
+  "game": "ssf2tu",
+  "status": "CATALOG_OGG_EXTRACTED",
+  "createdAt": "2026-11-02T19:52:49.835904-03:00",
+  "source": {
+    "bundle": "D:\\projetos\\MK-vs-SF-Fontes\\StreetFighterII\\PacotesOriginais\\bundleSuperStreetFighterIITurbo.mbundle",
+    "sha256": "cb60c4da5df65d8c3da3059acec6da59f22693b7a6083cbdb15af9b50b2d72a6",
+    "parserSha256": "ade91d7ed6065903442470e7a21e90c2e9b47be5a6e80e0933b9a8f106baeab0"
+  },
+  "tracks": [
+    {
+      "id": "ssf2t-t-hawk-stage-i",
+      "title": "SSF2T T. Hawk Stage I",
+      "sourceMember": "SSF2T T. Hawk Stage I.ogg",
+      "file": "music/ssf2t-t-hawk-stage-i.ogg",
+      "bytes": 4791115,
+      "sha256": "746e54c5af57ef4d5c4e60228c95a1f8281c34a62c074ebf94a392f5dab9115c",
+      "role": "stage",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 3636960,
+      "duration": 75.77,
+      "pages": 1018,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-dhalsim-stage-i",
+      "title": "SSF2T Dhalsim Stage I",
+      "sourceMember": "SSF2T Dhalsim Stage I.ogg",
+      "file": "music/ssf2t-dhalsim-stage-i.ogg",
+      "bytes": 6079297,
+      "sha256": "1eed1680748a3b188793a349a24d2640da7d36848ad5e6c1ff02659346df2bf7",
+      "role": "stage",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 5112240,
+      "duration": 106.505,
+      "pages": 1335,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-here-comes-a-new-challenger",
+      "title": "SSF2T Here Comes A New Challenger",
+      "sourceMember": "SSF2T Here Comes A New Challenger.ogg",
+      "file": "music/ssf2t-here-comes-a-new-challenger.ogg",
+      "bytes": 97119,
+      "sha256": "517edb10abfad2b97ae6896dd76c911fc95296babae2bd4dfb1da2a829ad254a",
+      "role": "presentation",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 121200,
+      "duration": 2.525,
+      "pages": 23,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-cammy-ending",
+      "title": "SSF2T Cammy Ending",
+      "sourceMember": "SSF2T Cammy Ending.ogg",
+      "file": "music/ssf2t-cammy-ending.ogg",
+      "bytes": 5525909,
+      "sha256": "ec9b1656b35b8dd7f9bb98f3cfbf07bd5d3dd5394ae7f0457ec5db1b84510d9e",
+      "role": "ending",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 4593600,
+      "duration": 95.7,
+      "pages": 1186,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-balrog-ending",
+      "title": "SSF2T Balrog Ending",
+      "sourceMember": "SSF2T Balrog Ending.ogg",
+      "file": "music/ssf2t-balrog-ending.ogg",
+      "bytes": 3175478,
+      "sha256": "ff3de3b7e87a5b7e11908de7b1951ebef9422ba99e0b86f693ffda3e0905b097",
+      "role": "ending",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 2576880,
+      "duration": 53.685,
+      "pages": 682,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-dee-jay-stage-i",
+      "title": "SSF2T Dee Jay Stage I",
+      "sourceMember": "SSF2T Dee Jay Stage I.ogg",
+      "file": "music/ssf2t-dee-jay-stage-i.ogg",
+      "bytes": 5091252,
+      "sha256": "41a18276169a30a6c46960cfdd41ea981b9b429e7f2ea956729e9971b28519be",
+      "role": "stage",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 3820800,
+      "duration": 79.6,
+      "pages": 1100,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-fei-long-ending",
+      "title": "SSF2T Fei Long Ending",
+      "sourceMember": "SSF2T Fei Long Ending.ogg",
+      "file": "music/ssf2t-fei-long-ending.ogg",
+      "bytes": 3255228,
+      "sha256": "85067fc137adbf24ecbcba77cd531136ab21a308ed9ad40013f32f37a2f45a2e",
+      "role": "ending",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 2649120,
+      "duration": 55.19,
+      "pages": 699,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-ranking-display",
+      "title": "SSF2T Ranking Display",
+      "sourceMember": "SSF2T Ranking Display.ogg",
+      "file": "music/ssf2t-ranking-display.ogg",
+      "bytes": 105796,
+      "sha256": "986215ba16ac56a7134c206ba0e1908ef9b78d5a4f03e7b3e0095f8bf4fbd669",
+      "role": "presentation",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 138000,
+      "duration": 2.875,
+      "pages": 23,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-e-honda-stage-ii",
+      "title": "SSF2T E. Honda Stage II",
+      "sourceMember": "SSF2T E. Honda Stage II.ogg",
+      "file": "music/ssf2t-e-honda-stage-ii.ogg",
+      "bytes": 3495905,
+      "sha256": "e6fa303b1f06e8c50803521472cbea89a4e42c919028a893947668f3d1cba5f4",
+      "role": "stage",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 2579040,
+      "duration": 53.73,
+      "pages": 740,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-guile-ending",
+      "title": "SSF2T Guile Ending",
+      "sourceMember": "SSF2T Guile Ending.ogg",
+      "file": "music/ssf2t-guile-ending.ogg",
+      "bytes": 2821947,
+      "sha256": "863167951c4d9e5581343b6e1b5672a0c669b8551dd4bb13146e8ebec55f79dc",
+      "role": "ending",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 2405520,
+      "duration": 50.115,
+      "pages": 596,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-guile-stage-ii",
+      "title": "SSF2T Guile Stage II",
+      "sourceMember": "SSF2T Guile Stage II.ogg",
+      "file": "music/ssf2t-guile-stage-ii.ogg",
+      "bytes": 3609690,
+      "sha256": "8b73447f9c04f6d2d5101c72f2a010ae578d82b0acfc4f3d28553d6dfc24d869",
+      "role": "stage",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 2764320,
+      "duration": 57.59,
+      "pages": 773,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-balrog-stage-i",
+      "title": "SSF2T Balrog Stage I",
+      "sourceMember": "SSF2T Balrog Stage I.ogg",
+      "file": "music/ssf2t-balrog-stage-i.ogg",
+      "bytes": 6883339,
+      "sha256": "84b4ff885ac3ee56614222bf360151c2129d9b478e9475b39f7486d3110bcdce",
+      "role": "stage",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 5141760,
+      "duration": 107.12,
+      "pages": 1493,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-qsound-logo-2",
+      "title": "SSF2T QSound Logo 2",
+      "sourceMember": "SSF2T QSound Logo 2.ogg",
+      "file": "music/ssf2t-qsound-logo-2.ogg",
+      "bytes": 427388,
+      "sha256": "773cc9cef0d24041efdca3286e883d70fe0b4b9dc1afb8d262fffadb2506e31c",
+      "role": "presentation",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 509040,
+      "duration": 10.605,
+      "pages": 96,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-ken-ending-ii",
+      "title": "SSF2T Ken Ending II",
+      "sourceMember": "SSF2T Ken Ending II.ogg",
+      "file": "music/ssf2t-ken-ending-ii.ogg",
+      "bytes": 4825124,
+      "sha256": "baf69b5e09559f68e47f2da7035cb9a90a6d3180fbcce0f955c46a0dd369bfb9",
+      "role": "ending",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 3978240,
+      "duration": 82.88,
+      "pages": 1040,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-zangief-ending",
+      "title": "SSF2T Zangief Ending",
+      "sourceMember": "SSF2T Zangief Ending.ogg",
+      "file": "music/ssf2t-zangief-ending.ogg",
+      "bytes": 2648637,
+      "sha256": "fb48b94eecafafb6be0863a44092c9d2c94202d49be568ae761e7f84e919c886",
+      "role": "ending",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 2159280,
+      "duration": 44.985,
+      "pages": 565,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-dee-jay-stage-ii",
+      "title": "SSF2T Dee Jay Stage II",
+      "sourceMember": "SSF2T Dee Jay Stage II.ogg",
+      "file": "music/ssf2t-dee-jay-stage-ii.ogg",
+      "bytes": 2652652,
+      "sha256": "62f237acea40b4f3b6bfa11f225c3d8d33af3ec32cd5948d1179682143348a01",
+      "role": "stage",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 1878720,
+      "duration": 39.14,
+      "pages": 592,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-m-bison-stage-ii",
+      "title": "SSF2T M. Bison Stage II",
+      "sourceMember": "SSF2T M. Bison Stage II.ogg",
+      "file": "music/ssf2t-m-bison-stage-ii.ogg",
+      "bytes": 6530371,
+      "sha256": "25289879e80bf656d0df3a3cf2092129df1112015f4e3234378e1e82c624a014",
+      "role": "stage",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 4906320,
+      "duration": 102.215,
+      "pages": 1412,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-credits-roll",
+      "title": "SSF2T Credits Roll",
+      "sourceMember": "SSF2T Credits Roll.ogg",
+      "file": "music/ssf2t-credits-roll.ogg",
+      "bytes": 10307304,
+      "sha256": "878af1fa95888b249a2ec10f3e24d41181cfb29d7f169dea16cb99e3af74d560",
+      "role": "presentation",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 8141760,
+      "duration": 169.62,
+      "pages": 2173,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-chun-li-stage-ii",
+      "title": "SSF2T Chun-Li Stage II",
+      "sourceMember": "SSF2T Chun-Li Stage II.ogg",
+      "file": "music/ssf2t-chun-li-stage-ii.ogg",
+      "bytes": 3469866,
+      "sha256": "af706c8f54a328e29cb17dd8e7ccb23cf5e17b51336e55f7ac57a10adc11fb88",
+      "role": "stage",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 2588640,
+      "duration": 53.93,
+      "pages": 769,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-akuma-stage-ii",
+      "title": "SSF2T Akuma Stage II",
+      "sourceMember": "SSF2T Akuma Stage II.ogg",
+      "file": "music/ssf2t-akuma-stage-ii.ogg",
+      "bytes": 3986284,
+      "sha256": "dddd7d00a2edec2601e30c8a501c05dafdfc0da1655658fe5519040ce7a5d300",
+      "role": "stage",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 3192240,
+      "duration": 66.505,
+      "pages": 864,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-blanka-stage-ii",
+      "title": "SSF2T Blanka Stage II",
+      "sourceMember": "SSF2T Blanka Stage II.ogg",
+      "file": "music/ssf2t-blanka-stage-ii.ogg",
+      "bytes": 2989755,
+      "sha256": "d5cb34fc3e4c8c11c491e2afe7bb4c6dd981d1dac0616b13ab93fbd27048131d",
+      "role": "stage",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 2467920,
+      "duration": 51.415,
+      "pages": 658,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-dhalsim-stage-ii",
+      "title": "SSF2T Dhalsim Stage II",
+      "sourceMember": "SSF2T Dhalsim Stage II.ogg",
+      "file": "music/ssf2t-dhalsim-stage-ii.ogg",
+      "bytes": 3504603,
+      "sha256": "e9729ef4159ae2ffe0e52e3ee45913bc110cd4e886b4119e12e096741a368aad",
+      "role": "stage",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 2818800,
+      "duration": 58.725,
+      "pages": 762,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-m-bison-stage-i",
+      "title": "SSF2T M. Bison Stage I",
+      "sourceMember": "SSF2T M. Bison Stage I.ogg",
+      "file": "music/ssf2t-m-bison-stage-i.ogg",
+      "bytes": 7950084,
+      "sha256": "5ca6ff15411350530e14550f1d30bb6f3a4eec39fdf6a6ed0173a20b27f64172",
+      "role": "stage",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 6195600,
+      "duration": 129.075,
+      "pages": 1705,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-chun-li-ending-iii",
+      "title": "SSF2T Chun-Li Ending III",
+      "sourceMember": "SSF2T Chun-Li Ending III.ogg",
+      "file": "music/ssf2t-chun-li-ending-iii.ogg",
+      "bytes": 2555630,
+      "sha256": "3b0a734ec4308673d3579d1660152c5bc3c6e0b7b99ae9be824b2e648d09f904",
+      "role": "ending",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 1957680,
+      "duration": 40.785,
+      "pages": 523,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-t-hawk-ending",
+      "title": "SSF2T T. Hawk Ending",
+      "sourceMember": "SSF2T T. Hawk Ending.ogg",
+      "file": "music/ssf2t-t-hawk-ending.ogg",
+      "bytes": 4651235,
+      "sha256": "f5a2d22acd4ec12bc67784635a518997925ba38dfa48457d0506d0a003e83748",
+      "role": "ending",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 3545280,
+      "duration": 73.86,
+      "pages": 882,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-qsound-logo-1",
+      "title": "SSF2T QSound Logo 1",
+      "sourceMember": "SSF2T QSound Logo 1.ogg",
+      "file": "music/ssf2t-qsound-logo-1.ogg",
+      "bytes": 496758,
+      "sha256": "ac3c917ae5636eda136a676ec183c249f1697ffc170aeb31ad733f3cf4cc47e8",
+      "role": "presentation",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 465600,
+      "duration": 9.7,
+      "pages": 109,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-sagat-ending",
+      "title": "SSF2T Sagat Ending",
+      "sourceMember": "SSF2T Sagat Ending.ogg",
+      "file": "music/ssf2t-sagat-ending.ogg",
+      "bytes": 2374758,
+      "sha256": "be9dd402ce5dd7840dfa8cb46c7a988be72f0f1b80a75d8ddc32ebb0ef2254d9",
+      "role": "ending",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 1957200,
+      "duration": 40.775,
+      "pages": 519,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-zangief-stage-ii",
+      "title": "SSF2T Zangief Stage II",
+      "sourceMember": "SSF2T Zangief Stage II.ogg",
+      "file": "music/ssf2t-zangief-stage-ii.ogg",
+      "bytes": 3801550,
+      "sha256": "8b05ca5f5f9456e292d05993062cbdc1c5268e4f4ec6c8da9abb060cf5a0a962",
+      "role": "stage",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 2879760,
+      "duration": 59.995,
+      "pages": 848,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-game-over",
+      "title": "SSF2T Game Over",
+      "sourceMember": "SSF2T Game Over.ogg",
+      "file": "music/ssf2t-game-over.ogg",
+      "bytes": 136368,
+      "sha256": "e3a2edd64e10467dd8b4318d3df4906c25661719c9c644b761bb47901742a41b",
+      "role": "presentation",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 131280,
+      "duration": 2.735,
+      "pages": 31,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-e-honda-stage-i",
+      "title": "SSF2T E. Honda Stage I",
+      "sourceMember": "SSF2T E. Honda Stage I.ogg",
+      "file": "music/ssf2t-e-honda-stage-i.ogg",
+      "bytes": 8286173,
+      "sha256": "e16599be64acf042d1fbd33038633d41121e648f69c22dd825f71748051b6428",
+      "role": "stage",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 6193440,
+      "duration": 129.03,
+      "pages": 1726,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-e-honda-ending",
+      "title": "SSF2T E. Honda Ending",
+      "sourceMember": "SSF2T E. Honda Ending.ogg",
+      "file": "music/ssf2t-e-honda-ending.ogg",
+      "bytes": 3023310,
+      "sha256": "3c57f98d4df0d3be39a565c45a184d1ce53667ea77d2cfc8e3233114fd3f9ffc",
+      "role": "ending",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 2453760,
+      "duration": 51.12,
+      "pages": 631,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-m-bison-ending",
+      "title": "SSF2T M. Bison Ending",
+      "sourceMember": "SSF2T M. Bison Ending.ogg",
+      "file": "music/ssf2t-m-bison-ending.ogg",
+      "bytes": 1914154,
+      "sha256": "ab15d64ce64121615f7196003486516c3e4ef21fd650f8762396672f342f410c",
+      "role": "ending",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 1522560,
+      "duration": 31.72,
+      "pages": 385,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-tournament",
+      "title": "SSF2T Tournament",
+      "sourceMember": "SSF2T Tournament.ogg",
+      "file": "music/ssf2t-tournament.ogg",
+      "bytes": 155392,
+      "sha256": "771bd6f1aa348b1d3485464dd90c2901d425d86aa259505c3579ef70bdfae096",
+      "role": "presentation",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 160800,
+      "duration": 3.35,
+      "pages": 34,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-ryu-stage-ii",
+      "title": "SSF2T Ryu Stage II",
+      "sourceMember": "SSF2T Ryu Stage II.ogg",
+      "file": "music/ssf2t-ryu-stage-ii.ogg",
+      "bytes": 3942226,
+      "sha256": "3b461b4d150aff19f18f68b3fd1e96ee5d909fa2094213034f2965d6402d6300",
+      "role": "stage",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 2714400,
+      "duration": 56.55,
+      "pages": 894,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-sagat-stage-ii",
+      "title": "SSF2T Sagat Stage II",
+      "sourceMember": "SSF2T Sagat Stage II.ogg",
+      "file": "music/ssf2t-sagat-stage-ii.ogg",
+      "bytes": 2856695,
+      "sha256": "f130f7bd425447c243457ddfad902b979f853ba3b57ec9d3c458d3d70a8b6376",
+      "role": "stage",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 2284080,
+      "duration": 47.585,
+      "pages": 618,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-opening-demo-2",
+      "title": "SSF2T Opening Demo 2",
+      "sourceMember": "SSF2T Opening Demo 2.ogg",
+      "file": "music/ssf2t-opening-demo-2.ogg",
+      "bytes": 1464377,
+      "sha256": "0fe3ca92fe249cc1dec53550656dc9f53b7ecaecd6cb5449253a1804236575a2",
+      "role": "presentation",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 1127520,
+      "duration": 23.49,
+      "pages": 295,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-ken-stage-i",
+      "title": "SSF2T Ken Stage I",
+      "sourceMember": "SSF2T Ken Stage I.ogg",
+      "file": "music/ssf2t-ken-stage-i.ogg",
+      "bytes": 7667359,
+      "sha256": "5ff42473abafa35bf0669e5c5ac7c29541b1e97622a4bad94c270bec3e628a7a",
+      "role": "stage",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 6178800,
+      "duration": 128.725,
+      "pages": 1616,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-vs",
+      "title": "SSF2T VS",
+      "sourceMember": "SSF2T VS.ogg",
+      "file": "music/ssf2t-vs.ogg",
+      "bytes": 228944,
+      "sha256": "15ab214d76bec323241313004f166b823f4aa4ff66bad39a73b75eb7940109d3",
+      "role": "presentation",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 198960,
+      "duration": 4.145,
+      "pages": 51,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-chun-li-ending-i",
+      "title": "SSF2T Chun-Li Ending I",
+      "sourceMember": "SSF2T Chun-Li Ending I.ogg",
+      "file": "music/ssf2t-chun-li-ending-i.ogg",
+      "bytes": 3083290,
+      "sha256": "d3cdc5097189420060dbcd2cb4dd58903a70cf3b7cab90d64e03b485454e5c32",
+      "role": "ending",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 2562480,
+      "duration": 53.385,
+      "pages": 637,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-congratulations",
+      "title": "SSF2T Congratulations!",
+      "sourceMember": "SSF2T Congratulations!.ogg",
+      "file": "music/ssf2t-congratulations.ogg",
+      "bytes": 4478934,
+      "sha256": "1dd7201484a1cbb898290aef765934f6044128327312407d3ab6ff25dd71f2b1",
+      "role": "presentation",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 3431520,
+      "duration": 71.49,
+      "pages": 941,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-ryu-stage-i",
+      "title": "SSF2T Ryu Stage I",
+      "sourceMember": "SSF2T Ryu Stage I.ogg",
+      "file": "music/ssf2t-ryu-stage-i.ogg",
+      "bytes": 6519418,
+      "sha256": "5e46ecee1612fe3c211390a379334b14b3b226e30385aa0238a76b2ddabd3fb1",
+      "role": "stage",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 4816560,
+      "duration": 100.345,
+      "pages": 1437,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-ryu-ending",
+      "title": "SSF2T Ryu Ending",
+      "sourceMember": "SSF2T Ryu Ending.ogg",
+      "file": "music/ssf2t-ryu-ending.ogg",
+      "bytes": 3720315,
+      "sha256": "33be06eba93cc01b01377725d850cdae28f74372214d253744e6d60eb8e745bc",
+      "role": "ending",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 2986800,
+      "duration": 62.225,
+      "pages": 763,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-opening-demo-1",
+      "title": "SSF2T Opening Demo 1",
+      "sourceMember": "SSF2T Opening Demo 1.ogg",
+      "file": "music/ssf2t-opening-demo-1.ogg",
+      "bytes": 1462987,
+      "sha256": "d473351ff1d556f72772850eb327a095da9f3720fbe268aaf8f32566eb1d7c95",
+      "role": "presentation",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 1134720,
+      "duration": 23.64,
+      "pages": 295,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-ken-stage-ii",
+      "title": "SSF2T Ken Stage II",
+      "sourceMember": "SSF2T Ken Stage II.ogg",
+      "file": "music/ssf2t-ken-stage-ii.ogg",
+      "bytes": 4755432,
+      "sha256": "97f726ba366a4ac55385d74e44ce334ae34b7ab2074dcd4e7a543be1de5d7497",
+      "role": "stage",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 3707280,
+      "duration": 77.235,
+      "pages": 1009,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-blanka-ending",
+      "title": "SSF2T Blanka Ending",
+      "sourceMember": "SSF2T Blanka Ending.ogg",
+      "file": "music/ssf2t-blanka-ending.ogg",
+      "bytes": 2301560,
+      "sha256": "f1d456b24fba8af29698c0b7c0054ddc99c9a86b5c8995bdfcbd558fbba224d0",
+      "role": "ending",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 1821840,
+      "duration": 37.955,
+      "pages": 484,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-bonus-stage",
+      "title": "SSF2T Bonus Stage",
+      "sourceMember": "SSF2T Bonus Stage.ogg",
+      "file": "music/ssf2t-bonus-stage.ogg",
+      "bytes": 2959593,
+      "sha256": "e804a783a8190d1e52d8b30b343bd7fff0299d72ec13d0260e5c0d1c7ff94871",
+      "role": "presentation",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 2300400,
+      "duration": 47.925,
+      "pages": 624,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-vega-stage-i",
+      "title": "SSF2T Vega Stage I",
+      "sourceMember": "SSF2T Vega Stage I.ogg",
+      "file": "music/ssf2t-vega-stage-i.ogg",
+      "bytes": 7242863,
+      "sha256": "3fb5a842d9ca2ef119f93f1b0863c49ec03ef5c547917bd4cbb3c10bdbc0703e",
+      "role": "stage",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 5542320,
+      "duration": 115.465,
+      "pages": 1577,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-zangief-stage-i",
+      "title": "SSF2T Zangief Stage I",
+      "sourceMember": "SSF2T Zangief Stage I.ogg",
+      "file": "music/ssf2t-zangief-stage-i.ogg",
+      "bytes": 6899184,
+      "sha256": "c34b2bd89bee8cdcc1fbfdffd7aa7fdb1f634437fab1d284c34dbfc7520cd4cf",
+      "role": "stage",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 5351520,
+      "duration": 111.49,
+      "pages": 1505,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-guile-stage-i",
+      "title": "SSF2T Guile Stage I",
+      "sourceMember": "SSF2T Guile Stage I.ogg",
+      "file": "music/ssf2t-guile-stage-i.ogg",
+      "bytes": 8168082,
+      "sha256": "2898993d1d891e07e3cf1c766b12ceb2318dcf0dfaf26fd204b24ef1172061de",
+      "role": "stage",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 6474720,
+      "duration": 134.89,
+      "pages": 1714,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-chun-li-ending-ii",
+      "title": "SSF2T Chun-Li Ending II",
+      "sourceMember": "SSF2T Chun-Li Ending II.ogg",
+      "file": "music/ssf2t-chun-li-ending-ii.ogg",
+      "bytes": 2371293,
+      "sha256": "9e8364447288dc8be8ecac6172debdccbac24d2fc87b89c99ad5e2c42fdf58ad",
+      "role": "ending",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 1877280,
+      "duration": 39.11,
+      "pages": 497,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-player-select-2",
+      "title": "SSF2T Player Select 2",
+      "sourceMember": "SSF2T Player Select 2.ogg",
+      "file": "music/ssf2t-player-select-2.ogg",
+      "bytes": 1749978,
+      "sha256": "405d5923953ba4c132ba1bf861c7b5fa10ffacea256978ed6725c9718b4aa376",
+      "role": "presentation",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 1430640,
+      "duration": 29.805,
+      "pages": 376,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-fei-long-stage-i",
+      "title": "SSF2T Fei Long Stage I",
+      "sourceMember": "SSF2T Fei Long Stage I.ogg",
+      "file": "music/ssf2t-fei-long-stage-i.ogg",
+      "bytes": 4428850,
+      "sha256": "d2cd06f564206cd206852d14f852c54210807b6a205de959cfdf701015724430",
+      "role": "stage",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 3598560,
+      "duration": 74.97,
+      "pages": 954,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-fei-long-stage-ii",
+      "title": "SSF2T Fei Long Stage II",
+      "sourceMember": "SSF2T Fei Long Stage II.ogg",
+      "file": "music/ssf2t-fei-long-stage-ii.ogg",
+      "bytes": 3976044,
+      "sha256": "6360b2d6601e9a15a0d4457160413d3af91ffa647e50b1f91c43bccc8c76c03e",
+      "role": "stage",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 2661120,
+      "duration": 55.44,
+      "pages": 859,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-stage-end",
+      "title": "SSF2T Stage End",
+      "sourceMember": "SSF2T Stage End.ogg",
+      "file": "music/ssf2t-stage-end.ogg",
+      "bytes": 291308,
+      "sha256": "a69ff1bce7d1ad4db9fc6fdb4089e0aaff3e3f1ef20f47c059ee0b735686c462",
+      "role": "presentation",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 241680,
+      "duration": 5.035,
+      "pages": 65,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-chun-li-stage-i",
+      "title": "SSF2T Chun-Li Stage I",
+      "sourceMember": "SSF2T Chun-Li Stage I.ogg",
+      "file": "music/ssf2t-chun-li-stage-i.ogg",
+      "bytes": 6642919,
+      "sha256": "5fd08932291cb9e43e5062130c85e7a9d05ee0e55b77089dce926f467eca9d0c",
+      "role": "stage",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 5137920,
+      "duration": 107.04,
+      "pages": 1454,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-sagat-stage-i",
+      "title": "SSF2T Sagat Stage I",
+      "sourceMember": "SSF2T Sagat Stage I.ogg",
+      "file": "music/ssf2t-sagat-stage-i.ogg",
+      "bytes": 7250956,
+      "sha256": "68f52bf4dee969c2b89593ddd765365b84c12f80404b3d61840b6cb3f42f043d",
+      "role": "stage",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 5640480,
+      "duration": 117.51,
+      "pages": 1546,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-dhalsim-ending",
+      "title": "SSF2T Dhalsim Ending",
+      "sourceMember": "SSF2T Dhalsim Ending.ogg",
+      "file": "music/ssf2t-dhalsim-ending.ogg",
+      "bytes": 2040903,
+      "sha256": "f27d226adc8c5a9c5ef16d5dd32cd8b849fa8568dea3053c6c4fd7ea21557870",
+      "role": "ending",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 1631280,
+      "duration": 33.985,
+      "pages": 443,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-continue",
+      "title": "SSF2T Continue",
+      "sourceMember": "SSF2T Continue.ogg",
+      "file": "music/ssf2t-continue.ogg",
+      "bytes": 2266990,
+      "sha256": "f95d6cee9d8bd6f24e36a947bb4982343cf5132105f1ebe75c191c5bcd9559b6",
+      "role": "presentation",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 1843680,
+      "duration": 38.41,
+      "pages": 497,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-cammy-stage-ii",
+      "title": "SSF2T Cammy Stage II",
+      "sourceMember": "SSF2T Cammy Stage II.ogg",
+      "file": "music/ssf2t-cammy-stage-ii.ogg",
+      "bytes": 3455389,
+      "sha256": "679fa02d9085c096831b13ee8957fb558f956d8cc1e3d6a15e72022177edc71b",
+      "role": "stage",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 2677920,
+      "duration": 55.79,
+      "pages": 703,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-cammy-stage-i",
+      "title": "SSF2T Cammy Stage I",
+      "sourceMember": "SSF2T Cammy Stage I.ogg",
+      "file": "music/ssf2t-cammy-stage-i.ogg",
+      "bytes": 7730407,
+      "sha256": "b742a64be46840aa4886e1f0aeb0c6ba876e6db969dc1a17b6c2e38ca44ad1f8",
+      "role": "stage",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 5969040,
+      "duration": 124.355,
+      "pages": 1600,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-t-hawk-stage-ii",
+      "title": "SSF2T T. Hawk Stage II",
+      "sourceMember": "SSF2T T. Hawk Stage II.ogg",
+      "file": "music/ssf2t-t-hawk-stage-ii.ogg",
+      "bytes": 2324193,
+      "sha256": "183e52c9f26abc2079bbf21501afef3a518e0f2127cf7861204728cceea9d2b3",
+      "role": "stage",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 1700640,
+      "duration": 35.43,
+      "pages": 496,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-dee-jay-ending",
+      "title": "SSF2T Dee Jay Ending",
+      "sourceMember": "SSF2T Dee Jay Ending.ogg",
+      "file": "music/ssf2t-dee-jay-ending.ogg",
+      "bytes": 3626832,
+      "sha256": "8f1fdd25c550db73da102e319f77f61414da75aa9061f979180db09befe9243a",
+      "role": "ending",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 2851680,
+      "duration": 59.41,
+      "pages": 782,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-balrog-stage-ii",
+      "title": "SSF2T Balrog Stage II",
+      "sourceMember": "SSF2T Balrog Stage II.ogg",
+      "file": "music/ssf2t-balrog-stage-ii.ogg",
+      "bytes": 2052925,
+      "sha256": "9a0fbb3eec8da9d0be289c832b78e67c324fe799edd30dbc4ead6056a842603f",
+      "role": "stage",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 1473600,
+      "duration": 30.7,
+      "pages": 448,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-player-select-1",
+      "title": "SSF2T Player Select 1",
+      "sourceMember": "SSF2T Player Select 1.ogg",
+      "file": "music/ssf2t-player-select-1.ogg",
+      "bytes": 2785503,
+      "sha256": "f1ba38d037f31fe9f929e1ce1339c78a0d9e2e9e3151da1dd0c3217756cafd42",
+      "role": "presentation",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 2157360,
+      "duration": 44.945,
+      "pages": 608,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-vega-stage-ii",
+      "title": "SSF2T Vega Stage II",
+      "sourceMember": "SSF2T Vega Stage II.ogg",
+      "file": "music/ssf2t-vega-stage-ii.ogg",
+      "bytes": 3790943,
+      "sha256": "41737eebaad523bbc37ddccf54573823057c086973ee01cebab9f1c1555d063c",
+      "role": "stage",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 2709120,
+      "duration": 56.44,
+      "pages": 846,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-blanka-stage-i",
+      "title": "SSF2T Blanka Stage I",
+      "sourceMember": "SSF2T Blanka Stage I.ogg",
+      "file": "music/ssf2t-blanka-stage-i.ogg",
+      "bytes": 6518831,
+      "sha256": "0db1e8a2bf0a41608de38c41dd4e03f4a2dedae9035ec0d52023bd400564d970",
+      "role": "stage",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 5437440,
+      "duration": 113.28,
+      "pages": 1419,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-vega-ending",
+      "title": "SSF2T Vega Ending",
+      "sourceMember": "SSF2T Vega Ending.ogg",
+      "file": "music/ssf2t-vega-ending.ogg",
+      "bytes": 3264155,
+      "sha256": "42dd9b516c88be467a93561d9bc0dbb16d2a6276d4a36a467c8fb695803fd00c",
+      "role": "ending",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 2593920,
+      "duration": 54.04,
+      "pages": 650,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-akuma-stage-i",
+      "title": "SSF2T Akuma Stage I",
+      "sourceMember": "SSF2T Akuma Stage I.ogg",
+      "file": "music/ssf2t-akuma-stage-i.ogg",
+      "bytes": 5080780,
+      "sha256": "16b73a761b97154f4c5062a182d18f009bc852bf35467cbd62826843806714ee",
+      "role": "stage",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 4133520,
+      "duration": 86.115,
+      "pages": 1102,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    },
+    {
+      "id": "ssf2t-ken-ending-i",
+      "title": "SSF2T Ken Ending I",
+      "sourceMember": "SSF2T Ken Ending I.ogg",
+      "file": "music/ssf2t-ken-ending-i.ogg",
+      "bytes": 2884722,
+      "sha256": "92b29bc65997e88d22a39208f488eb67bb0026ea1d22ead08f23893ee8d23fb0",
+      "role": "ending",
+      "codec": "vorbis",
+      "channels": 2,
+      "sampleRate": 48000,
+      "samples": 2481600,
+      "duration": 51.7,
+      "pages": 633,
+      "comments": {
+        "ENCODER": [
+          "REAPER"
+        ]
+      }
+    }
+  ],
+  "limits": [
+    "Audio copied byte-for-byte from the local catalog bundle; this is not a comparison against an arcade line recording.",
+    "Role classification uses exact embedded titles; stage I/II transition timing has not been dynamically verified.",
+    "If no explicit loop points are present, looping the entire file is a compatibility fallback, not proven arcade loop behavior."
+  ]
+}

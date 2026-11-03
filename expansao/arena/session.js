@@ -2,19 +2,58 @@
 (function(scope){
   'use strict';
   const clamp=(n,a,b)=>Math.max(a,Math.min(b,n));
+  const CAR_BREAK_POINTS=[500,500,500,1000,1000,1000,1000,1000,1000,2000,2000,3000,3000,3000,3000];
   const Base=scope.FightArena;
   class ExpandedArena extends Base{
     startRound(){
       super.startRound();
+      const stage=scope.NATIVE_STAGE_DATA?.stages.find(s=>s.id===this.options.stage&&s.selectable);
+      this.stageId=stage?.id||'practice';this.nativeStageId=stage?.nativeStageId??null;this.stageTimeStart=this.elapsed;
       if(this.mode==='bonus'){
         this.timer=40;
         this.bonus={x:550,parts:[120,120,100],maximum:[120,120,100],score:0,scores:this.ids.map(()=>0),damage:0};
-        this.players.forEach((p,i)=>{const side=i%2?-1:1;p.x=550+side*(155+Math.floor(i/2)*52);p.facing=-side;});
+        if(scope.NativeCarRules){
+          const b=this.bonus;b.nativeSeed=(this.options.bonusSeed??0x0bd11d)^this.round;b.nativeClock=0;b.nativeRuptures=0;
+          b.native=scope.NativeCarRules.create(()=>this.carNibble());
+          this.stageId='bonus-car';this.nativeStageId=16;
+        }
+        this.players.forEach((p,i)=>{const side=i%2?-1:1;p.x=550+side*Math.min(this.bonus.native?218:450,155+Math.floor(i/2)*52);p.facing=-side;});
+        if(this.bonus.native){
+          this.carMargins=this.players.map(p=>{
+            const b=this.bank[p.id],scale=b.universe==='sf'?1.25:1;
+            return Math.min(86,Math.max(22,...b.clips.idle.frames.map(f=>scale*Math.max(Math.abs(f.x),Math.abs(f.x+b.assets[f.asset].width))+3)));
+          });
+          this.players.forEach(p=>{const margin=this.carMargins[p.index];p.x=clamp(p.x,310+margin,790-margin);});
+        }
       }else this.bonus=null;
     }
+    carNibble(){
+      const b=this.bonus;let n=b.nativeSeed||1;n^=n<<13;n^=n>>>17;n^=n<<5;b.nativeSeed=n>>>0;return n&15;
+    }
+    carBoxes(){
+      const b=this.bonus;
+      if(!b.native)return [{left:b.x-94,right:b.x+94,bottom:8,top:100}];
+      const scale=1.25;
+      return scope.NativeCarRules.hitboxes(b.native).map(r=>({group:r.group,left:b.x+(r.x-r.radiusX)*scale,right:b.x+(r.x+r.radiusX)*scale,bottom:(11+r.y-r.radiusY)*scale,top:(11+r.y+r.radiusY)*scale}));
+    }
+    carHitbox(attack){return attack&&this.carBoxes().find(box=>scope.FightCollision.overlap(attack,box));}
     hitCar(p,move,source,contact){
       if(!this.bonus||this.phase!=='fight')return false;
       const b=this.bonus;
+      if(b.native){
+        // Use the native descriptor where one was recorded. Other attacks
+        // enter through a deliberately shared crossover conversion.
+        const exact=Number.isInteger(move.bonusAttackByte8);
+        const attackByte=exact?move.bonusAttackByte8:clamp(Math.round((move.damage||1)/8)-1,0,5);
+        const result=scope.NativeCarRules.hit(b.native,contact.group,attackByte);
+        if(!result.accepted)return false;
+        if(result.underflow)b.nativeRuptures=Math.min(14,b.nativeRuptures+1);
+        const points=result.underflow?CAR_BREAK_POINTS[b.nativeRuptures]:100;b.scores[p.index]+=points;b.score+=points;b.damage+=Math.max(0,result.amount);
+        if(p.action&&!move.detachedContact){p.action.connected=true;p.action.contactResult='hit';p.action.contactAge=p.action.time*this.bank[p.id].fps;p.action.contactWall=this.elapsed;}
+        this.effects.push({x:contact.x,y:contact.y,age:0,guarded:false});
+        this.emit('objectHit',{player:p.index,object:'car',part:contact.group,damage:result.amount,points,rupture:result.underflow,move:source,forceSource:exact?'sf-attack-descriptor':'crossover-conversion'});
+        return true;
+      }
       // An object has no human reaction, guard, tether or throw animation.
       // Damage can cross into another panel once the nearest panel is destroyed.
       const first=contact.y>=65?2:p.x<b.x?0:1;
@@ -23,7 +62,7 @@
       const damage=Math.min(b.parts[part],Math.max(1,move.damage||1));
       b.parts[part]-=damage;b.damage+=damage;const score=Math.round(b.damage*100);
       b.scores[p.index]+=score-b.score;b.score=score;
-      if(p.action){p.action.connected=true;p.action.contactResult='hit';p.action.contactAge=p.action.time*this.bank[p.id].fps;p.action.contactWall=this.elapsed;}
+      if(p.action&&!move.detachedContact){p.action.connected=true;p.action.contactResult='hit';p.action.contactAge=p.action.time*this.bank[p.id].fps;p.action.contactWall=this.elapsed;}
       this.effects.push({x:contact.x,y:contact.y,age:0,guarded:false});
       this.emit('objectHit',{player:p.index,object:'car',part,damage,move:source});
       if(!b.parts[part])this.emit('objectPartDestroyed',{player:p.index,part});
@@ -42,26 +81,35 @@
       return result;
     }
     collisions(dt){
+      if(this._freezing)return;
       if(this.mode!=='bonus'){super.collisions(dt);return;}
-      const b=this.bonus,box={left:b.x-94,right:b.x+94,bottom:8,top:100};
+      const b=this.bonus;
       for(const p of this.players){
         if(!p.action)continue;
         for(const strike of [p.action.carriedStrike,p.action].filter(Boolean)){
           const m=this.definition(p).moves[strike.name],active=this.activeBox(p,strike);
           const sample=Math.floor((strike.time+1e-9)*(m.sampleRate||this.bank[p.id].fps));
           const group=m.contactGroupTimeline?.[sample]||1,key='car:'+group;
-          if(active&&!strike.hit.has(key)&&scope.FightCollision.overlap(active,box)){
-            strike.hit.add(key);
-            const contact=m.contactGroups?.[group]?{...m,...m.contactGroups[group]}:m;
-            this.hitCar(p,contact,strike.name,{x:clamp(p.x+p.facing*60,box.left,box.right),y:(active.top+active.bottom)/2});
+          const box=this.carHitbox(active);
+          if(box&&!strike.hit.has(key)){
+            const move=m.contactGroups?.[group]?{...m,...m.contactGroups[group]}:m;
+            const force=m.bonusAttackByte8Timeline?.[sample];
+            const contact=Number.isInteger(force)?{...move,bonusAttackByte8:force}:move;
+            if(this.hitCar(p,contact,strike.name,{group:box.group,x:clamp(p.x+p.facing*60,box.left,box.right),y:(active.top+active.bottom)/2}))strike.hit.add(key);
           }
         }
       }
       this.projectiles=this.projectiles.filter(q=>{
-        q.age+=dt;const old=q.x;q.x+=q.facing*q.speed*dt;
-        const swept={left:Math.min(old,q.x)-q.radius,right:Math.max(old,q.x)+q.radius,bottom:q.y-q.radius,top:q.y+q.radius};
-        if(scope.FightCollision.overlap(swept,box)){
-          this.hitCar(this.players[q.owner],this.definition(this.players[q.owner]).moves[q.name],q.name,{x:clamp(q.x,box.left,box.right),y:q.y});return false;
+        this.advanceProjectile(q,dt);const swept=this.projectileBox(q);
+        if(q.contactPause>1e-9)return true;
+        const box=this.carHitbox(swept);
+        if(box){
+          const base=this.definition(this.players[q.owner]).moves[q.name],cfg=base.projectile;
+          const move=cfg.contacts?.[q.contacts||0]?{...base,...cfg.contacts[q.contacts||0]}:base;
+          if(this.hitCar(this.players[q.owner],move,q.name,{group:box.group,x:clamp(q.x,box.left,box.right),y:q.y})){
+            q.contacts=(q.contacts||0)+1;q.contactPause=cfg.contactPauseSeconds||0;
+            return q.contacts<(cfg.maxContacts||1);
+          }
         }
         return q.age<q.lifetime&&q.x>0&&q.x<1100&&(!q.rope||this.players[q.owner].action?.name===q.name);
       });
@@ -70,22 +118,32 @@
       super.resolveCrowd();
       if(!this.bonus)return;
       // Low car chassis is solid; a jump can cross it. No pulling or teleporting the prop.
-      this.players.forEach(p=>{if(p.y<90&&Math.abs(p.x-this.bonus.x)<118)p.x=this.bonus.x+(p.x<this.bonus.x?-118:118);});
+      this.players.forEach(p=>{if(p.y<90&&Math.abs(p.x-this.bonus.x)<118)p.x=this.bonus.x+(p.x<this.bonus.x?-118:118);if(this.bonus.native){const margin=this.carMargins[p.index];p.x=clamp(p.x,310+margin,790-margin);}});
       this.camera=550;
     }
     step(dt,inputs){
       const bonus=this.mode==='bonus';
       super.step(dt,inputs);
       if(bonus&&this.phase==='fight'){
-        if(this.bonus.parts.every(v=>v<=0)||this.timer<=0){
-          const success=this.bonus.parts.every(v=>v<=0);
+        const b=this.bonus;
+        if(b.native){
+          this.cameraY=0;
+          b.nativeClock+=dt;
+          while(b.nativeClock+1e-9>=1/59.6333313){
+            b.nativeClock-=1/59.6333313;const frame=b.native.frame;
+            scope.NativeCarRules.tick(b.native,()=>this.carNibble());
+            if(b.native.frame!==frame)this.emit('objectDamageStage',{object:'car',frame:b.native.frame});
+          }
+        }
+        const success=b.native?b.native.completed:b.parts.every(v=>v<=0);
+        if(success||this.timer<=0){
           this.phase='matchEnd';this.result=(success?'CARRO DESTRUÍDO':'TEMPO ESGOTADO')+' · '+this.bonus.score+' PONTOS';
           this.projectiles=[];this.tethers=[];this.grapples=[];
           this.emit('bonusEnd',{success,score:this.bonus.score,scores:[...this.bonus.scores]});
         }
       }
     }
-    snapshot(){return {...super.snapshot(),teams:[...this.teams],mode:this.mode,bonus:this.bonus?JSON.parse(JSON.stringify(this.bonus)):null};}
+    snapshot(){return {...super.snapshot(),teams:[...this.teams],mode:this.mode,stageId:this.stageId,nativeStageId:this.nativeStageId,stageTimeStart:this.stageTimeStart,bonus:this.bonus?JSON.parse(JSON.stringify(this.bonus)):null};}
   }
   // Install only on the expansion page. The original arena remains independent.
   scope.FightArena=ExpandedArena;
@@ -96,7 +154,8 @@
       if(ids.length<2||ids.length>16||ids.some(id=>!scope.FIGHT_DATA.characters[id]))throw Error('Participantes indisponíveis.');
       const cpu=(params.get('cpu')||'').split(',').filter(Boolean).map(Number).filter(i=>Number.isInteger(i)&&i>=0&&i<ids.length);
       const mode=['versus','training','bonus'].includes(params.get('mode'))?params.get('mode'):'versus';
-      return {ids,cpu,options:{mode}};
+      const requested=params.get('stage')||'sf-ryu',stage=requested==='practice'?'practice':scope.NATIVE_STAGE_DATA?.stages.find(s=>s.id===requested&&s.selectable)?.id||'practice';
+      return {ids,cpu,options:{mode,stage}};
     },
     label(g){return g.mode==='bonus'?'Destrua o carro · '+g.players.length+' participantes':(g.mode==='training'?'Treino livre':'Todos contra todos')+' · '+g.players.length+' jogadores';},
     bot(g,p){
@@ -108,6 +167,7 @@
     },
     drawBonus(ctx,g,left,scale,floor){
       if(!g.bonus)return;
+      if(g.bonus.native&&scope.NativeCarArt?.draw(ctx,g.bonus,left,scale,floor))return;
       const b=g.bonus;ctx.save();ctx.translate((b.x-left)*scale,floor);ctx.scale(scale,scale);
       const gone=i=>b.parts[i]<=0,ratio=i=>b.parts[i]/b.maximum[i];
       ctx.fillStyle='#07090caa';ctx.beginPath();ctx.ellipse(0,4,105,9,0,0,Math.PI*2);ctx.fill();

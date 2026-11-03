@@ -10,13 +10,14 @@ function createGameServer(options={}){
   const root=path.resolve(options.root||path.join(__dirname,'..'));
   const project=path.resolve(options.project||path.join(root,'..'));
   const scope={window:{}};vm.createContext(scope);
-  for(const file of ['assets','engine','commands','collisions','calibration','combat-data','ryu-especiais','fight-engine','session'])vm.runInContext(fs.readFileSync(path.join(root,'arena',file+'.js'),'utf8'),scope,{filename:file+'.js'});
+  for(const file of ['assets','stage-data','engine','commands','collisions','calibration','combat-data','ryu-especiais','ryu-projeteis','ryu-super','ryu-aereos','elenco-sf','fight-engine','special-engine','car-bonus-rules','session','finisher-engine'])vm.runInContext(fs.readFileSync(path.join(root,'arena',file+'.js'),'utf8'),scope,{filename:file+'.js'});
   const W=scope.window,bank=W.ARENA_ASSETS.characters,roster=Object.keys(W.FIGHT_DATA.characters),rooms=new Map(),clients=new Set(),cache=new Map();
   const graceMs=options.graceMs??15000,loadingMs=options.loadingMs??30000,roomTtl=options.roomTtl??180000;
   let closed=false,last=performance.now(),accumulator=0;
+  const selectStage=id=>{const choice=id??'sf-ryu';if(choice==='practice'||W.NATIVE_STAGE_DATA.stages.some(s=>s.id===choice&&s.selectable))return choice;throw Error('Cenário indisponível.');};
   const send=(ws,value)=>{if(ws?.readyState===1)ws.send(typeof value==='string'?value:JSON.stringify(value));};
   const fail=(ws,message)=>send(ws,{type:'error',message});
-  function publicRoom(r){return {code:r.code,name:r.name,capacity:r.capacity,mode:r.mode,phase:r.phase,hostId:r.hostId,match:r.match,
+  function publicRoom(r){return {code:r.code,name:r.name,capacity:r.capacity,mode:r.mode,stage:r.stage,phase:r.phase,hostId:r.hostId,match:r.match,
     players:r.players.map((p,i)=>({id:p.id,slot:i,nick:p.nick,character:p.character,ready:p.ready,loaded:p.loaded,connected:!!p.socket}))};}
   function broadcast(r,obj){const json=JSON.stringify(obj);r.players.forEach(p=>send(p.socket,json));}
   const announce=r=>broadcast(r,{type:'room',room:publicRoom(r)});
@@ -43,7 +44,7 @@ function createGameServer(options={}){
     announce(r);
     if(r.phase!=='lobby'){sendMatch(ws,r);if(r.game)send(ws,frame(r));}
   }
-  function sendMatch(ws,r){send(ws,{type:'match',match:r.match,room:r.code,ids:r.players.map(p=>p.character),mode:r.mode,slot:r.players.indexOf(ws.player)});}
+  function sendMatch(ws,r){send(ws,{type:'match',match:r.match,room:r.code,ids:r.players.map(p=>p.character),mode:r.mode,stage:r.stage,slot:r.players.indexOf(ws.player)});}
   function backToLobby(r,message){
     r.phase='lobby';r.game=null;r.match=null;
     r.players=r.players.filter(p=>p.socket);r.players.forEach(p=>{p.ready=false;p.loaded=false;p.input={};p.queue=[];});
@@ -58,7 +59,7 @@ function createGameServer(options={}){
       if(!Number.isInteger(m.capacity)||m.capacity<2||m.capacity>8)throw Error('Escolha de 2 a 8 vagas.');
       if(!['versus','training','bonus'].includes(m.mode))throw Error('Modo indisponível.');
       let code;do{code=random(3).toUpperCase();}while(rooms.has(code));
-      const r={code,name:clean(m.name,40,'Sala de luta'),capacity:m.capacity,mode:m.mode,phase:'lobby',players:[],hostId:null,game:null,match:null,tick:0,lastActive:Date.now()};
+      const r={code,name:clean(m.name,40,'Sala de luta'),capacity:m.capacity,mode:m.mode,stage:selectStage(m.stage),phase:'lobby',players:[],hostId:null,game:null,match:null,tick:0,lastActive:Date.now()};
       rooms.set(code,r);m={...m,type:'join',code};
     }
     if(m.type==='join'){
@@ -85,12 +86,12 @@ function createGameServer(options={}){
     if(m.type==='settings'){
       requireHost(ws);if(r.phase!=='lobby')throw Error('Volte à sala para alterar o modo.');
       if(!Number.isInteger(m.capacity)||m.capacity<r.players.length||m.capacity>8||m.capacity<2)throw Error('Número de vagas inválido.');
-      if(!['versus','training','bonus'].includes(m.mode))throw Error('Modo indisponível.');r.capacity=m.capacity;r.mode=m.mode;r.players.forEach(q=>q.ready=false);announce(r);return;
+      if(!['versus','training','bonus'].includes(m.mode))throw Error('Modo indisponível.');const stage=selectStage(m.stage??r.stage);r.capacity=m.capacity;r.mode=m.mode;r.stage=stage;r.players.forEach(q=>q.ready=false);announce(r);return;
     }
     if(m.type==='start'){
       requireHost(ws);if(r.phase!=='lobby')throw Error('A partida já começou.');
       if(r.players.length<2||r.players.some(p=>!p.socket||!p.ready))throw Error('Espere pelo menos dois jogadores e todos marcarem Pronto.');
-      r.game=new W.FightArena(bank,r.players.map(p=>p.character),W.FIGHT_DATA,{mode:r.mode});r.phase='loading';r.loadingAt=Date.now();r.match=random(12);r.tick=0;
+      r.game=new W.FightArena(bank,r.players.map(p=>p.character),W.FIGHT_DATA,{mode:r.mode,stage:r.stage});r.phase='loading';r.loadingAt=Date.now();r.match=random(12);r.tick=0;
       r.players.forEach(p=>{p.loaded=false;p.input={};p.queue=[];});announce(r);r.players.forEach(p=>sendMatch(p.socket,r));return;
     }
     if(m.type==='loaded'){
@@ -114,13 +115,14 @@ function createGameServer(options={}){
   function renderPlayer(p){
     const value={};for(const k of ['id','index','x','y','facing','state','frame','clock','motionTick','stateTime','airborne','health','meter','combo','comboTime','flash','stun','guardStun','knockdown','invulnerable','blocked','reaction','input'])value[k]=p[k];
     value.motion=p.motion?{runEnergy:p.motion.runEnergy}:null;
-    value.action=p.action?{name:p.action.name,time:p.action.time,hit:[],carriedStrike:null}:null;
+    value.action=p.action?{name:p.action.name,time:p.action.time,landed:!!p.action.landed,landedAt:p.action.landedAt,overrideClip:p.action.overrideClip,hit:[],carriedStrike:null}:null;
     return value;
   }
   function frame(r){const g=r.game;return {type:'frame',build:BUILD,match:r.match,tick:r.tick,phase:r.phase,state:{players:g.players.map(renderPlayer),camera:g.camera,cameraY:g.cameraY||0,elapsed:g.elapsed,
     phase:g.phase,phaseTime:g.phaseTime,result:g.result,timer:g.timer,wins:[...g.wins],round:g.round,roundWinner:g.roundWinner,
-    projectiles:g.projectiles.map(p=>({...p})),effects:g.effects.map(p=>({...p})),tethers:g.tethers.map(p=>({...p})),grapples:g.grapples.map(p=>({...p})),bonus:g.bonus?JSON.parse(JSON.stringify(g.bonus)):null}};}
-  const mime={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.png':'image/png','.crt':'application/x-x509-ca-cert'};
+    events:g.events.filter(e=>g.elapsed-e.time<=.3).slice(-32),stageId:g.stageId,nativeStageId:g.nativeStageId,stageTimeStart:g.stageTimeStart,cinematics:g.cinematics.map(c=>({...c})),finishOffers:g.visibleFinishOffers(),
+    superFreeze:g.superFreeze?{...g.superFreeze,owners:[...g.superFreeze.owners]}:null,projectiles:g.projectiles.map(p=>({...p})),effects:g.effects.map(p=>({...p})),tethers:g.tethers.map(p=>({...p})),grapples:g.grapples.map(p=>({...p})),bonus:g.bonus?JSON.parse(JSON.stringify(g.bonus)):null}};}
+  const mime={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.png':'image/png','.ogg':'audio/ogg','.wav':'audio/wav','.json':'application/json; charset=utf-8','.crt':'application/x-x509-ca-cert'};
   function handler(req,res){
     res.setHeader('X-Content-Type-Options','nosniff');res.setHeader('Referrer-Policy','same-origin');res.setHeader('Permissions-Policy','gamepad=(self)');
     if(req.method!=='GET'&&req.method!=='HEAD'){res.writeHead(405);res.end();return;}
@@ -128,13 +130,17 @@ function createGameServer(options={}){
     if(route==='/api/info'){
       const address=server.address(),scheme=options.tls?'https':'http';
       const urls=lanAddresses().map(n=>`${scheme}://${n.address}:${address.port}/`);
-      res.setHeader('Cache-Control','no-store');res.setHeader('Content-Type','application/json');res.end(JSON.stringify({build:BUILD,urls,characters:roster,activeRooms:rooms.size,combatRevision:'ryu-especiais-8.2',rooms:[...rooms.values()].filter(r=>r.phase==='lobby').map(r=>({code:r.code,name:r.name,count:r.players.length,capacity:r.capacity,mode:r.mode}))}));return;
+      res.setHeader('Cache-Control','no-store');res.setHeader('Content-Type','application/json');res.end(JSON.stringify({build:BUILD,urls,characters:roster,activeRooms:rooms.size,combatRevision:'cenarios-elenco-8.7',rooms:[...rooms.values()].filter(r=>r.phase==='lobby').map(r=>({code:r.code,name:r.name,count:r.players.length,capacity:r.capacity,mode:r.mode}))}));return;
     }
     let file;
     if(route==='/'||route==='/salas.html')file=path.join(__dirname,'salas.html');
     else if(route==='/salas.js'||route==='/client.js'||route==='/salas.css')file=path.join(__dirname,route.slice(1));
     else if(route==='/expansao/rede/client.js')file=path.join(__dirname,'client.js');
     else if(route==='/roster.js')file=path.join(project,'roster.js');
+    else if(route==='/personagens.js'||route==='/expansao/personagens.js')file=path.join(root,'personagens.js');
+    else if(/^\/expansao\/audio\/ssf2t\/(manifesto\.json|musicas-manifesto\.json|(music|samples)\/[a-zA-Z0-9_-]+\.(ogg|wav))$/.test(route))file=path.join(root,route.slice('/expansao/'.length));
+    else if(/^\/expansao\/audio\/umk3\/(sfx-manifesto\.json|musicas-confirmadas\.json|(tracks\/dcs-_[a-f0-9]{4}|streams\/dcs-_[0-9A-F]{4}_[0-9]{2}_[0-9A-F]{6})\.wav)$/.test(route))file=path.join(root,route.slice('/expansao/'.length));
+    else if(/^\/expansao\/arena\/assets\/cinematics\/[a-z0-9-]+\/profile-flat\.json$/.test(route))file=path.join(root,route.slice('/expansao/'.length));
     else if(/^\/assets\/(mk|sf)\/[a-zA-Z0-9_-]+\.png$/.test(route))file=path.join(project,route.slice(1));
     else if(/^\/expansao\/(index\.html|lobby\.js|arena\/(index\.html|style\.css|[a-z-]+\.js|assets\/[a-zA-Z0-9_/-]+\.png))$/.test(route))file=path.join(root,route.slice('/expansao/'.length));
     if(!file||!fs.existsSync(file)){res.writeHead(404);res.end('Arquivo indisponível');return;}

@@ -56,7 +56,8 @@
       const move=this.definition(p).moves[name];
       if(!move||p.health<=0||p.stun>0||p.guardStun>0||p.knockdown>0||this.tethers.some(t=>t.owner===p.index||t.target===p.index))return false;
       if(move.meterCost&&(p.meter+1e-8<move.meterCost))return false;
-      if(!!move.air!==p.airborne)return false;
+      const airborne=move.airborneByHeight?p.airborne&&p.y>.01:p.airborne;
+      if(!!move.air!==airborne)return false;
       if(this.grapples?.some(t=>t.owner===p.index||t.target===p.index))return false;
       if(move.grapple&&(this.mode==='bonus'||!this.enemies(p).length))return false;
       if(move.grapple){const other=this.opponent(p);
@@ -153,6 +154,12 @@
       p.y=0;p.airborne=false;p.vx=0;p.vy=0;p.action=null;p.stun=Math.max(p.stun,.045);
       this.state(p,'idle');this.emit('land',{player:p.index});
     }
+    beginActionLanding(p,m){
+      const a=p.action;p.y=0;p.airborne=false;p.vx=0;p.vy=0;
+      a.landed=true;a.landedAt=a.time;a.endsAt=a.time+m.landingSamples/(m.sampleRate||this.bank[p.id].fps);a.overrideClip=m.landingClip;
+      p.motion ||= scope.FightMovement.init(this,p);p.motion.queue=[];p.motion.landing=0;p.motion.lastWalk='';
+      this.state(p,m.landingClip);this.emit('land',{player:p.index});
+    }
     beginGrapple(p,move){
       const target=this.opponent(p);
       if(target.health<=0||target.airborne||target.knockdown>0||Math.abs(target.x-p.x)>move.grapple.range)return false;
@@ -237,6 +244,7 @@
         }
         if(p.action){
           const a=p.action,m=this.definition(p).moves[a.name];a.time+=dt;
+          if(m.airPhysics)this.advanceAirSpecial(p,m,dt);
           if(m.motionTimeline){
             const sample=Math.min(m.motionTimeline.length-1,Math.floor((a.time+1e-9)*(m.sampleRate||this.bank[p.id].fps))),row=m.motionTimeline[sample];
             p.x+=(row.x-(a.motionX||0))*a.initialFacing;a.motionX=row.x;
@@ -249,7 +257,7 @@
           if(m.contactSpacing&&!a.spacingApplied&&a.time*this.bank[p.id].fps>=m.contactSpacing.sample-1e-8){const q=this.opponent(p);if(Math.abs(q.x-p.x)<=m.contactSpacing.maximumEntry){p.x=clamp(q.x-a.initialFacing*m.contactSpacing.distance,40,1060);}a.spacingApplied=true;}
           if(m.actorFacing)p.facing=a.initialFacing*m.actorFacing[Math.min(m.actorFacing.length-1,Math.floor(a.time*this.bank[p.id].fps))];
           if(a.carriedStrike)a.carriedStrike.time+=dt;
-          this.state(p,m.clip);
+          this.state(p,a.overrideClip||m.clip);
           if(m.grapple&&!a.grabbed&&a.time*this.bank[p.id].fps>=m.grapple.grabSample){this.beginGrapple(p,m);a.grabbed=true;}
           if(a.time>=m.startup&&!a.spawned){
             a.spawned=true;
@@ -262,7 +270,7 @@
           const grappling=this.grapples.some(t=>t.owner===p.index);
           const ropeInFlight=this.projectiles.some(q=>q.owner===p.index&&q.name===a.name&&q.rope);
           const contactInAir=m.holdContactUntilLanding&&a.connected&&p.airborne;
-          if(a.time>=m.startup+m.active+m.recovery&&!ropeInFlight&&!grappling&&!a.repeatName&&!contactInAir){p.action=null;this.state(p,p.airborne?p.jumpKind:p.input.down?'crouch':'idle');}
+          if(a.time>=(a.endsAt??m.startup+m.active+m.recovery)&&(!m.untilLanding||a.landed)&&!ropeInFlight&&!grappling&&!a.repeatName&&!contactInAir){p.action=null;this.state(p,p.airborne?p.jumpKind:p.input.down?'crouch':'idle');}
         }else if(p.airborne)this.state(p,p.jumpKind);
         else if(p.input.block&&this.definition(p).guard==='button')this.state(p,p.input.down?'crouchGuard':'guard');
         else if(this.definition(p).guard==='back'&&p.input.x===-p.facing&&
@@ -280,7 +288,7 @@
         }else if(!this.bank[p.id].movement||!p.motion?.lastInput?.x)this.state(p,'idle');
       }
       if(p.vx&&!p.airborne){p.x+=p.vx*dt;p.vx*=Math.exp(-12*dt);if(Math.abs(p.vx)<.1)p.vx=0;}
-      if(this.bank[p.id].movement&&!this.definition(p).moves[p.action?.name]?.motionTimeline){
+      if(this.bank[p.id].movement&&!this.definition(p).moves[p.action?.name]?.motionTimeline&&!this.definition(p).moves[p.action?.name]?.airPhysics){
         if(p.motionAttack&&p.airborne&&!p.action&&!p.reaction){p.motion ||= scope.FightMovement.init(this,p);p.motion.reactionFall ||= {velocity:0};}
         scope.FightMovement.tick(this,p,dt);
       }
@@ -298,9 +306,51 @@
     spawnProjectile(p,name){
       const m=this.definition(p).moves[name],q=m.projectile;
       const hand=q.socket?this.socket(p,q.socket):null;
-      this.projectiles.push({id:++this.serial,owner:p.index,name,x:hand?hand.x+p.facing*q.radius:p.x+p.facing*35,y:hand?hand.y:p.y+q.y,
-        facing:p.facing,age:0,speed:q.speed,radius:q.radius,lifetime:q.lifetime,rope:!!q.rope});
+      const x=hand?hand.x+p.facing*q.radius:p.x+p.facing*(q.spawnX??35),y=hand?hand.y:p.y+q.y;
+      const shot={id:++this.serial,owner:p.index,name,x,y,
+        facing:p.facing,age:0,speed:q.speed,radius:q.radius,lifetime:q.lifetime,rope:!!q.rope};
+      if(q.motionSamples){shot.originX=x;shot.originY=y;}
+      if(q.maxContacts){shot.contacts=0;shot.contactPause=0;}
+      this.projectiles.push(shot);
       this.emit('projectile',{player:p.index,move:name});
+    }
+    advanceProjectile(q,dt){
+      q.previousX=q.x;
+      if(q.contactPause>0){q.contactPause=Math.max(0,q.contactPause-dt);return;}
+      q.age+=dt;
+      const cfg=this.definition(this.players[q.owner]).moves[q.name].projectile;
+      if(cfg.motionSamples){
+        const at=q.age*cfg.sampleRate,index=Math.floor(at+1e-9),path=cfg.motionSamples;
+        const row=path[Math.min(index,path.length-1)];
+        const tail=Math.max(0,q.age-(path.length-1)/cfg.sampleRate);
+        q.x=q.originX+q.facing*(row.x+tail*q.speed);q.y=q.originY+row.y;
+      }else q.x+=q.facing*q.speed*dt;
+    }
+    projectileBox(q,field='attackTimeline'){
+      const cfg=this.definition(this.players[q.owner]).moves[q.name].projectile;
+      if(cfg[field]){
+        const index=Math.min(cfg[field].length-1,Math.floor((q.age+1e-9)*cfg.sampleRate)),r=cfg[field][index]?.[0];
+        if(!r)return null;
+        const a=C.box(q,r),b=C.box({...q,x:q.previousX??q.x},r);
+        return {left:Math.min(a.left,b.left),right:Math.max(a.right,b.right),bottom:a.bottom,top:a.top};
+      }
+      return {left:Math.min(q.previousX??q.x,q.x)-q.radius,right:Math.max(q.previousX??q.x,q.x)+q.radius,bottom:q.y-q.radius,top:q.y+q.radius};
+    }
+    projectileContact(q,target){
+      if(q.contactPause>1e-9)return {hit:false,remove:false};
+      const owner=this.players[q.owner],base=this.definition(owner).moves[q.name],cfg=base.projectile;
+      const move=cfg.contacts?.[q.contacts||0]?{...base,...cfg.contacts[q.contacts||0]}:base;
+      if(!this.hit(owner,target,move,q.name))return {hit:false,remove:false};
+      q.contacts=(q.contacts||0)+1;q.contactPause=cfg.contactPauseSeconds||0;
+      return {hit:true,remove:q.contacts>=(cfg.maxContacts||1)};
+    }
+    clashProjectiles(a,b){
+      const cfg=q=>this.definition(this.players[q.owner]).moves[q.name].projectile;
+      const ac=cfg(a),bc=cfg(b),ar=(ac.maxContacts||1)-(a.contacts||0),br=(bc.maxContacts||1)-(b.contacts||0);
+      const spent=Math.min(ar,br);
+      for(const [q,c] of [[a,ac],[b,bc]]){q.contacts=(q.contacts||0)+spent;q.contactPause=c.contactPauseSeconds||0;}
+      this.emit('projectileClash',{players:[a.owner,b.owner],spent});
+      return [a.contacts>=(ac.maxContacts||1),b.contacts>=(bc.maxContacts||1)];
     }
     teleport(p){
       const other=this.opponent(p),side=other.x>p.x?1:-1;
@@ -388,12 +438,13 @@
     }
     activeBox(p,action=p.action){
       if(!action)return null;const a=action,m=this.definition(p).moves[a.name];
-      if(m.grapple)return null;
+      if(m.grapple||a.landed)return null;
       const sample=Math.floor((a.time+1e-9)*(m.sampleRate||this.bank[p.id].fps));
       if(m.activeRanges&&!m.activeRanges.some(([first,end])=>sample>=first&&sample<end))return null;
       if(m.attackTimeline){
         const sample=Math.floor((a.time+1e-9)*m.sampleRate);
-        const rect=m.attackTimeline[sample]?.[0];
+        const at=m.untilLanding&&p.airborne?Math.min(sample,m.attackTimeline.length-1):sample;
+        const rect=m.attackTimeline[at]?.[0];
         return rect?C.box(p,rect):null;
       }
       return m.box&&a.time>=m.startup&&a.time<m.startup+m.active?C.box(p,m.box):null;
@@ -403,6 +454,15 @@
       if(this.grapples?.some(t=>t.target===p.index))return [];
       if(p.reaction){const boxes=scope.FightReactions.hurt(this,p);if(boxes)return boxes;}
       const special=p.action&&definition.moves[p.action.name];
+      if(p.action?.landed&&special?.landingHurtTimeline){
+        const sample=Math.min(special.landingHurtTimeline.length-1,Math.floor((p.action.time-p.action.landedAt+1e-9)*special.sampleRate));
+        return (special.landingHurtTimeline[sample]||[]).map(box=>C.box(p,box));
+      }
+      if(special?.airPhysics){
+        const a=p.action,list=a.landed?special.landingHurtTimeline:special.calibration.hurtTimeline;
+        const sample=Math.floor((a.time-(a.landedAt||0)+1e-9)*special.sampleRate);
+        return (list[Math.min(sample,list.length-1)]||[]).map(box=>C.box(p,box));
+      }
       if(special?.hurtInAir&&special.calibration?.hurtTimeline){
         const boxes=special.calibration.hurtTimeline[Math.floor((p.action.time+1e-9)*special.sampleRate)];
         if(boxes)return boxes.map(box=>C.box(p,box));
@@ -423,8 +483,8 @@
       const hitLocked=reaction&&!reaction.guarded&&!reaction.controlFree&&profile.duration-reaction.time>guardLead+1e-8;
       const inFront=this.players.length===2||(attacker.x-defender.x)*defender.facing>=0;
       const guarded=inFront&&!hitLocked&&C.canGuard(defender,this.definition(defender),move);
-      if(attacker.action){attacker.action.connected=true;attacker.action.contactResult=guarded?'block':'hit';attacker.action.contactAge=attacker.action.time*this.bank[attacker.id].fps;attacker.action.contactWall=this.elapsed;}
-      if(attacker.action?.repeatName&&this.definition(attacker).moves[attacker.action.name].repeat?.mode==='restart'){
+      if(attacker.action&&!move.detachedContact){attacker.action.connected=true;attacker.action.contactResult=guarded?'block':'hit';attacker.action.contactAge=attacker.action.time*this.bank[attacker.id].fps;attacker.action.contactWall=this.elapsed;}
+      if(!move.detachedContact&&attacker.action?.repeatName&&this.definition(attacker).moves[attacker.action.name].repeat?.mode==='restart'){
         delete attacker.action.repeatName;delete attacker.action.repeatAt;delete attacker.action.repeatSkip;
       }
       const nativeReaction=scope.FightReactions.select(this,attacker,defender,move,guarded);
@@ -483,20 +543,29 @@
       // Detect trades before applying either hit, eliminating update-order wins.
       for(const event of pending)this.hit(event.p,event.target,event.m,event.name);
       for(const q of this.projectiles){
-        q.age+=dt;q.previousX=q.x;q.x+=q.facing*q.speed*dt;
+        this.advanceProjectile(q,dt);
       }
       const removed=new Set();
       for(let i=0;i<this.projectiles.length;i++)for(let j=i+1;j<this.projectiles.length;j++){
         const a=this.projectiles[i],b=this.projectiles[j];
-        if(a.owner!==b.owner&&this.teams[a.owner]!==this.teams[b.owner]&&Math.abs(a.y-b.y)<a.radius+b.radius&&
-          Math.abs(a.x-b.x)<=a.radius+b.radius){removed.add(a.id);removed.add(b.id);this.emit('projectileClash');}
+        if(removed.has(a.id)||removed.has(b.id)||a.contactPause>1e-9||b.contactPause>1e-9)continue;
+        const native=this.definition(this.players[a.owner]).moves[a.name].projectile.clashTimeline||this.definition(this.players[b.owner]).moves[b.name].projectile.clashTimeline;
+        const ab=native&&this.projectileBox(a,'clashTimeline'),bb=native&&this.projectileBox(b,'clashTimeline');
+        const clash=native?ab&&bb&&C.overlap(ab,bb):Math.abs(a.y-b.y)<a.radius+b.radius&&Math.abs(a.x-b.x)<=a.radius+b.radius;
+        if(a.owner!==b.owner&&this.teams[a.owner]!==this.teams[b.owner]&&clash){
+          const [removeA,removeB]=this.clashProjectiles(a,b);if(removeA)removed.add(a.id);if(removeB)removed.add(b.id);
+        }
       }
       for(const q of this.projectiles){
         if(removed.has(q.id))continue;
         const attacker=this.players[q.owner],move=this.definition(attacker).moves[q.name];
-        const box={left:Math.min(q.previousX,q.x)-q.radius,right:Math.max(q.previousX,q.x)+q.radius,
-          bottom:q.y-q.radius,top:q.y+q.radius};
-        for(const target of this.enemies(attacker)){if(this.hurtBoxes(target).some(hurt=>C.overlap(box,hurt))&&this.hit(attacker,target,move,q.name)){removed.add(q.id);break;}}
+        const box=this.projectileBox(q);if(!box)continue;
+        if(q.contactPause>1e-9)continue;
+        for(const target of this.enemies(attacker)){
+          if(!this.hurtBoxes(target).some(hurt=>C.overlap(box,hurt)))continue;
+          const contact=this.projectileContact(q,target);
+          if(contact.hit){if(contact.remove)removed.add(q.id);break;}
+        }
       }
       this.projectiles=this.projectiles.filter(q=>!removed.has(q.id)&&q.age<q.lifetime&&q.x>0&&q.x<1100&&
         (!q.rope||this.players[q.owner].action?.name===q.name));
@@ -536,6 +605,11 @@
       if(this.phase==='roundEnd'){
         this.phaseTime-=dt;this.players.forEach(p=>{
           if(p.reaction){scope.FightReactions.update(this,p,dt);return;}
+          const air=p.action&&this.definition(p).moves[p.action.name];
+          if(air?.airPhysics){
+            const a=p.action;a.time+=dt;this.advanceAirSpecial(p,air,dt);this.state(p,a.overrideClip||air.clip);this.animation(p,dt);
+            if(a.landed&&a.time>=a.endsAt){p.action=null;this.state(p,'idle');}return;
+          }
           if(p.airborne&&this.bank[p.id].movement){p.action=null;p.input=Commands.normalize();scope.FightMovement.tick(this,p,dt);}
           else this.trajectory(p,dt);
           this.state(p,p.health<=0?'ko':p.airborne?p.jumpKind:'idle');this.animation(p,dt);

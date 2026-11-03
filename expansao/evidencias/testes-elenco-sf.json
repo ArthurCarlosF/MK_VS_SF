@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "characters": [
+    "sf-1",
+    "sf-2",
+    "sf-3",
+    "sf-4",
+    "sf-8"
+  ],
+  "groups": [
+    "Cada personagem possui sprites, geometria, seis controles e catálogo de reações próprios",
+    "Todos os normais terrestres e aéreos terminam com posições e estados finitos",
+    "Contatos e defesa funcionam contra os dois universos sem sprites de outro personagem",
+    "Misturas de 4, 8 e 16 participantes mantêm combate e movimentos válidos"
+  ],
+  "completeCharacters": false,
+  "completeGame": false
+}

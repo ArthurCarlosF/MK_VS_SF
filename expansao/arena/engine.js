@@ -137,7 +137,11 @@
      // and hitboxes remain independent of the movement clock.
      const j=m.jumps[p.jumpKind]||m.jumps.jump,index=t.jumpAge++;
      p.x+=(j.deltas[index]||0)*t.jumpFacing;p.y=j.heights[index]||0;
-     if(index>=j.landingSample){p.y=0;p.airborne=false;p.action=null;t.landing=j.totalSamples-index-1;g.emit('land',{player:p.index});}
+     if(index>=j.landingSample){
+      const m=p.action&&g.definition(p).moves[p.action.name];
+      if(m?.untilLanding&&m.landingClip)g.beginActionLanding(p,m);
+      else{p.y=0;p.airborne=false;p.action=null;t.landing=j.totalSamples-index-1;g.emit('land',{player:p.index});}
+     }
     }else if(t.landing>0){
      t.landing--;if(!p.action&&!locked){g.state(p,p.jumpKind);p.frame=Math.min((m.jumps[p.jumpKind]?.landingSample||0)+(m.jumps[p.jumpKind]?.totalSamples||0)-t.landing-(m.jumps[p.jumpKind]?.landingSample||0)-1,g.clip(p,p.jumpKind).frames.length-1);}
     }else if(!locked){

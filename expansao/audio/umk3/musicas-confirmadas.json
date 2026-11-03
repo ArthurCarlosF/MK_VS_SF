@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "game": "umk3",
+  "source": "Locally supplied UMK3 DCS arcade ROMs; native DCSExplorer export; content independently matched to libretro idle capture",
+  "tracks": [
+    {
+      "id": "umk3-scorpions-lair-music",
+      "title": "UMK3 \u2014 Scorpion\u2019s Lair (native DCS music)",
+      "command": 29,
+      "nativeChannel": 0,
+      "role": "runtime-content-matched-stage-music",
+      "file": "tracks/dcs-_001d.wav",
+      "sha256": "2ba08857e69f03cf0bb406e8c4e5df6cfd58b1987eb069d5be3abaf61deb2bdc",
+      "duration": 36.31872,
+      "sampleRate": 31250,
+      "loopStartSeconds": 2.12736,
+      "loopEndSeconds": 36.30336,
+      "loopEvidence": "Native track infinite-loop opcode timeline, 240 samples per DCS frame",
+      "nativeStageId": null,
+      "nativeStageName": "Scorpions Lair",
+      "contentEquivalentCommands": [
+        29,
+        30
+      ],
+      "exactRuntimeCommandObserved": false,
+      "runtimeComparison": "comparacao-nativa-palco.json"
+    }
+  ],
+  "limits": [
+    "Only one stage content association is currently runtime-confirmed.",
+    "The two native commands have equivalent musical content; no runtime command port was traced.",
+    "Loop timeline comes from native decoded program; full loop wrap has not yet been captured in the game."
+  ],
+  "evidence": "comparacao-nativa-palco.json"
+}

@@ -56,7 +56,7 @@
       if(!this.conn.identity||this.conn.identity.code!==room){this.conn.close();location.replace('/salas.html?join='+encodeURIComponent(room));return;}
       this.pingTimer=setInterval(()=>{if(this.conn.connected)this.conn.send({type:'ping',at:performance.now()});},2000);
     }
-    static url(m){return '/expansao/arena/index.html?'+new URLSearchParams({players:m.ids.join(','),mode:m.mode,room:m.room,match:m.match});}
+    static url(m){return '/expansao/arena/index.html?'+new URLSearchParams({players:m.ids.join(','),mode:m.mode,stage:m.stage||'practice',room:m.room,match:m.match});}
     ready(){this.loaded=true;this.conn.send({type:'loaded',match:this.match});}
     status(){
       if(!this.conn.connected)return this.connectedStatus||'Reconectando…';

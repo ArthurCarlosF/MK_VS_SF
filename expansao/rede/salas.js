@@ -1,6 +1,9 @@
 'use strict';
 (()=>{
   const $=s=>document.querySelector(s),params=new URLSearchParams(location.search);let current=null;
+  const fighters=window.FIGHTER_INDEX||[{id:'ryu',name:'Ryu'},{id:'scorpion',name:'Scorpion'}];
+  $('#character').replaceChildren(...fighters.map(c=>new Option(c.name+(c.status?' — '+c.status:''),c.id)));
+  $('#stage').add(new Option('Sala de treino','practice'));for(const s of window.NATIVE_STAGE_DATA?.stages||[])if(s.selectable)$('#stage').add(new Option(s.name,s.id));$('#stage').value='sf-ryu';
   const connection=new LanRoomConnection({onStatus:s=>$('#connection').textContent=s,onMessage:m=>{
     if(m.type==='error'){$('#message').textContent=m.message;return;}
     if(m.type==='joined'||m.type==='room')render(m.room);
@@ -13,12 +16,12 @@
     const mine=r.players.find(p=>p.id===connection.identity?.id),host=r.hostId===mine?.id;
     $('#members').replaceChildren();
     for(const p of r.players){const li=document.createElement('li'),left=document.createElement('span'),right=document.createElement('small');
-      left.textContent=p.nick+(p.id===mine?.id?' (você)':'')+(p.id===r.hostId?' · anfitrião':'');right.textContent=(p.character==='ryu'?'Ryu':'Scorpion')+' · '+(!p.connected?'reconectando':p.ready?'PRONTO':'escolhendo');if(p.ready)right.className='ready';li.append(left,right);$('#members').append(li);}
+      left.textContent=p.nick+(p.id===mine?.id?' (você)':'')+(p.id===r.hostId?' · anfitrião':'');right.textContent=(fighters.find(c=>c.id===p.character)?.name||p.character)+' · '+(!p.connected?'reconectando':p.ready?'PRONTO':'escolhendo');if(p.ready)right.className='ready';li.append(left,right);$('#members').append(li);}
     if(mine)$('#character').value=mine.character;$('#ready').textContent=mine?.ready?'Cancelar pronto':'Estou pronto';$('#ready').disabled=r.phase!=='lobby';$('#character').disabled=r.phase!=='lobby';
     $('#start').hidden=!host;$('#start').disabled=r.phase!=='lobby'||r.players.length<2||r.players.some(p=>!p.ready||!p.connected);
     $('#room-status').textContent=r.phase==='loading'?'Todos estão abrindo a arena…':r.players.length+' de '+r.capacity+' vagas · '+(host?'Inicie quando todos estiverem prontos.':'Aguarde o anfitrião iniciar.');
   }
-  $('#create').onsubmit=e=>{e.preventDefault();$('#message').textContent='';connection.send({type:'create',name:$('#name').value,nick:$('#nick').value,capacity:Number($('#capacity').value),mode:$('#mode').value});};
+  $('#create').onsubmit=e=>{e.preventDefault();$('#message').textContent='';connection.send({type:'create',name:$('#name').value,nick:$('#nick').value,capacity:Number($('#capacity').value),mode:$('#mode').value,stage:$('#stage').value});};
   $('#join').onsubmit=e=>{e.preventDefault();$('#message').textContent='';connection.send({type:'join',code:$('#code').value.trim().toUpperCase(),nick:$('#nick').value});};
   $('#character').onchange=e=>connection.send({type:'select',character:e.target.value});
   $('#ready').onclick=()=>connection.send({type:'ready',ready:!current?.players.find(p=>p.id===connection.identity?.id)?.ready});
