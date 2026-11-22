@@ -1,0 +1,109 @@
+{
+  "originalFidelityValidated": false,
+  "passed": 903,
+  "details": [
+    {
+      "id": "ryu",
+      "throws": 8,
+      "directionalNormals": 2,
+      "specialFamilies": 0
+    },
+    {
+      "id": "sf-1",
+      "throws": 6,
+      "directionalNormals": 2,
+      "specialFamilies": 5
+    },
+    {
+      "id": "sf-2",
+      "throws": 2,
+      "directionalNormals": 1,
+      "specialFamilies": 7
+    },
+    {
+      "id": "sf-3",
+      "throws": 12,
+      "directionalNormals": 5,
+      "specialFamilies": 3
+    },
+    {
+      "id": "sf-4",
+      "throws": 6,
+      "directionalNormals": 2,
+      "specialFamilies": 4
+    },
+    {
+      "id": "sf-5",
+      "throws": 12,
+      "directionalNormals": 3,
+      "specialFamilies": 4
+    },
+    {
+      "id": "sf-6",
+      "throws": 4,
+      "directionalNormals": 0,
+      "specialFamilies": 7
+    },
+    {
+      "id": "sf-7",
+      "throws": 4,
+      "directionalNormals": 0,
+      "specialFamilies": 5
+    },
+    {
+      "id": "sf-8",
+      "throws": 12,
+      "directionalNormals": 0,
+      "specialFamilies": 6
+    },
+    {
+      "id": "sf-9",
+      "throws": 8,
+      "directionalNormals": 3,
+      "specialFamilies": 6
+    },
+    {
+      "id": "sf-10",
+      "throws": 12,
+      "directionalNormals": 4,
+      "specialFamilies": 7
+    },
+    {
+      "id": "sf-11",
+      "throws": 4,
+      "directionalNormals": 24,
+      "specialFamilies": 5
+    },
+    {
+      "id": "sf-12",
+      "throws": 12,
+      "directionalNormals": 4,
+      "specialFamilies": 8
+    },
+    {
+      "id": "sf-13",
+      "throws": 8,
+      "directionalNormals": 0,
+      "specialFamilies": 5
+    },
+    {
+      "id": "sf-14",
+      "throws": 4,
+      "directionalNormals": 0,
+      "specialFamilies": 7
+    },
+    {
+      "id": "sf-15",
+      "throws": 4,
+      "directionalNormals": 0,
+      "specialFamilies": 6
+    },
+    {
+      "id": "akuma",
+      "throws": 8,
+      "directionalNormals": 0,
+      "specialFamilies": 0
+    }
+  ],
+  "failures": []
+}

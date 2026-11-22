@@ -1,0 +1,16 @@
+VALIDAÇÃO DAS CAMINHADAS — 22/11/2026
+
+31 personagens aprovados: os 26 de MK, Ken, Sagat, Zangief, Dhalsim e Cammy.
+As caixas de caminhada para frente e para trás destes personagens foram marcadas.
+Permanecem pendentes: Ryu, Akuma, E. Honda, Blanka, Guile, T. Hawk, Fei Long, Balrog, Chun-Li, Dee Jay, Vega e M. Bison.
+
+Comparação com capturas dos jogos originais: 644 casos dos 23 personagens comuns de MK; seis grupos de caminhada dos três chefes, espelhados para ambos os lados; cinco personagens SF aprovados nos 26 percursos e lados, com seis repetições nativas para verificar a variação de Turbo.
+Tolerância: um quadro nativo e um pixel nativo. Foram comparadas posições, poses, entrada e saída da caminhada, inversão, abaixar e levantar. Corrida somente onde existe no original.
+Chefes usam caminhadas observadas na inteligência artificial original. Seus controles humanos são uma adaptação do crossover. Motaro e Shao Kahn não recebem agachamento ou corrida inventados. Noob usa a tabela nativa compartilhada de animação ninja e sua própria paleta; não houve captura de agachamento comandado por jogador no arcade.
+
+Verificação visual no navegador: 31 personagens; instalação: mais oito verificações dos recém-promovidos. Regressão do combate: 3384 verificações aprovadas.
+O escopo aprovado é locomoção livre. Colisão entre corpos, cantos, combate completo, todos os golpes e finalizações não são certificados por este relatório.
+915 arquivos instalados, com cópia de segurança e comparação de hashes. Os dados experimentais dos 12 SF pendentes não foram ativados no jogo instalado.
+O plano recebeu apenas alterações nas caixas de seleção. Nenhum outro item foi marcado por consequência desta caminhada.
+
+Retomar corrigindo os 12 SF pendentes e repetindo as comparações originais antes de marcar suas caixas. Evidências na bancada expansao-trabalho/evidencias/caminhada-elenco-20261121 e caminhada-chefes-20261122.

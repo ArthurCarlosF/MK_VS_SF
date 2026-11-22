@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "url": "http://192.168.0.199:8765",
+  "authoritativeMove": "red_hadouken_hp",
+  "twoIndependentContexts": true,
+  "matchingTick": 344,
+  "physicalControllersTested": false,
+  "errors": []
+}

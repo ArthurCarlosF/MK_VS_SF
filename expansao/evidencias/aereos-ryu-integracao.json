@@ -1,0 +1,78 @@
+{
+  "status": "IMPLEMENTED_CALIBRATION_PENDING",
+  "limits": [
+    "Air velocity/gravity/boost fields use native measurements; video-to-logic scheduler phase remains approximate.",
+    "Normal jump velocity is inferred from the existing integer-height curves; unresolved samples remain in the audit.",
+    "Initial air-to-air contacts are measured; ground/corner/late contacts, multirotation behavior and cancellation branches remain pending.",
+    "Artwork origin latency and random damage still require final native comparison."
+  ],
+  "variants": [
+    {
+      "move": "air_tatsumaki_lk",
+      "start": 17,
+      "commit": 18,
+      "land": 46,
+      "end": 50,
+      "damageWitness": 16,
+      "boost8_8": 256,
+      "floatTicks": 12,
+      "nativeAirHitSample": 19,
+      "sourceSha256": "6d09d4f2f348d6c14f07838275479a2314ff5bb7157b47b58e285130c76781b8"
+    },
+    {
+      "move": "air_tatsumaki_mk",
+      "start": 17,
+      "commit": 18,
+      "land": 51,
+      "end": 55,
+      "damageWitness": 17,
+      "boost8_8": 384,
+      "floatTicks": 24,
+      "nativeAirHitSample": 19,
+      "sourceSha256": "31940b6515c1f83421466dbe2424258ff462779fbd5e838e902e629623f04e17"
+    },
+    {
+      "move": "air_tatsumaki_hk",
+      "start": 17,
+      "commit": 18,
+      "land": 54,
+      "end": 58,
+      "damageWitness": 19,
+      "boost8_8": 512,
+      "floatTicks": 30,
+      "nativeAirHitSample": 19,
+      "sourceSha256": "9e12d516b2a645062b1a44db7bf0253a04565c75e7c6798824039537c125481c"
+    }
+  ],
+  "velocityInference": [
+    {
+      "kind": "jump",
+      "launchVelocity8_8": [
+        0,
+        1824
+      ],
+      "drag8_8": 0,
+      "heightInferenceErrors": []
+    },
+    {
+      "kind": "jumpForward",
+      "launchVelocity8_8": [
+        896,
+        1792
+      ],
+      "drag8_8": 5,
+      "heightInferenceErrors": []
+    },
+    {
+      "kind": "jumpBackward",
+      "launchVelocity8_8": [
+        -1024,
+        1856
+      ],
+      "drag8_8": 5,
+      "heightInferenceErrors": []
+    }
+  ],
+  "assets": 23,
+  "reactions": 3
+}

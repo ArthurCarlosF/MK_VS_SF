@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "root": "D:/Projetos/Mortal Kombat vs Street Fighter/expansao",
+  "results": [
+    {
+      "local": {
+        "players": 6,
+        "ok": [
+          {
+            "id": "scorpion",
+            "name": "nativeCombo_ff9f38a0",
+            "started": true
+          },
+          {
+            "id": "mk-21",
+            "name": "nativeCombo_ff9f33d0",
+            "started": true
+          },
+          {
+            "id": "mk-0",
+            "name": "nativeCombo_ff9f5660",
+            "started": true
+          },
+          {
+            "id": "mk-1",
+            "name": "nativeCombo_ff9f5d60",
+            "started": true
+          },
+          {
+            "id": "shao-kahn",
+            "name": "kahnTaunt",
+            "started": true
+          }
+        ],
+        "helpCount": 5,
+        "help": [
+          "Scorpion — golpes e sequênciasInicie os combos de perto. Solte e pressione novamente cada botão; as direções acompanham o lado do adversário.Soco alto, Soco alto, Chute alto, Trás + Chute altoSoco alto, Soco alto, Cima + Soco baixoChute alto, Chute alto, Chute baixo, Chute baixo",
+          "Classic Sub-Zero — golpes e sequênciasInicie os combos de perto. Solte e pressione novamente cada botão; as direções acompanham o lado do adversário.Soco alto, Soco alto, Baixo + Soco baixo, Baixo + Soco altoSoco alto, Soco alto, Chute baixo, Trás + Chute alto, Frente + Chute baixoChute alto, Trás + Chute alto, Frente + Chute baixo",
+          "Kano — golpes e sequênciasInicie os combos de perto. Solte e pressione novamente cada botão; as direções acompanham o lado do adversário.Soco alto, Soco alto, Chute alto, Chute baixo, Trás + Chute altoSoco alto, Soco alto, Baixo + Soco baixo, Baixo + Soco altoSoco alto, Soco alto, Soco baixoChute alto, Chute alto, Chute baixo, Trás + Chute altoChute alto, Baixo + Soco baixo, Baixo + Soco altoChute alto, Soco baixo",
+          "Sonya — golpes e sequênciasInicie os combos de perto. Solte e pressione novamente cada botão; as direções acompanham o lado do adversário.Soco alto, Soco alto, Cima + Soco baixoSoco alto, Soco alto, Soco baixo, Trás + Soco altoChute alto, Chute alto, Trás + Chute altoChute alto, Chute alto, Soco alto, Soco alto, Cima + Soco baixoChute alto, Chute alto, Soco alto, Soco alto, Soco baixo, Trás + Soco altoChute alto, Soco alto, Soco alto, Cima + Soco baixoChute alto, Soco alto, Soco alto, Soco baixo, Trás + Soco altoRasteira: Trás + Chute baixo.Chute giratório: Trás + Chute alto.",
+          "Shao Kahn — golpes e sequênciasRisada: Baixo, Baixo + Soco baixo.Provocação: Baixo, Baixo + Chute baixo."
+        ],
+        "errors": []
+      }
+    },
+    {
+      "network": {
+        "players": 2,
+        "realKeyboardCommand": "kahnLaugh",
+        "sameTick": 232,
+        "synchronized": true
+      }
+    }
+  ],
+  "errors": [],
+  "failed": []
+}

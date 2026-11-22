@@ -1,0 +1,568 @@
+﻿SUBPASSOS — MORTAL KOMBAT
+
+[ ] 1.01 — Scorpion
+    [X] Disponível na seleção.
+    [X] Caminhada para frente 
+    [X] Caminhada para trás
+    [X] Pulos
+    [ ] golpes básicos
+    [ ] golpes em sequencia
+    [ ] combinações de golpes
+    [ ] especiais(incluindo fatalites se for do mk3)
+    [ ] defesas	
+    [ ] Absolutamente tudo implementado
+    [ ] validação completa do personagem
+ 
+
+[ ] 1.02 — Sub-Zero
+    [X] Disponível na seleção.
+    [X] Caminhada para frente 
+    [X] Caminhada para trás
+    [ ] Pulos
+    [ ] golpes básicos
+    [ ] golpes em sequencia
+    [ ] combinações de golpes
+    [ ] especiais(incluindo fatalites se for do mk3)
+    [ ] defesas	
+    [ ] Absolutamente tudo implementado
+    [ ] validação completa do personagem
+
+[ ] 1.03 — Sub-Zero clássico
+    [X] Disponível na seleção.
+    [X] Caminhada para frente 
+    [X] Caminhada para trás
+    [ ] Pulos
+    [ ] golpes básicos
+    [ ] golpes em sequencia
+    [ ] combinações de golpes
+    [ ] especiais(incluindo fatalites se for do mk3)
+    [ ] defesas	
+    [ ] Absolutamente tudo implementado
+    [ ] validação completa do personagem
+
+[ ] 1.04 — Reptile
+    [X] Disponível na seleção.
+    [X] Caminhada para frente 
+    [X] Caminhada para trás
+    [ ] Pulos
+    [ ] golpes básicos
+    [ ] golpes em sequencia
+    [ ] combinações de golpes
+    [ ] especiais(incluindo fatalites se for do mk3)
+    [ ] defesas	
+    [ ] Absolutamente tudo implementado
+    [ ] validação completa do personagem
+
+[ ] 1.05 — Ermac
+    [X] Disponível na seleção.
+    [X] Caminhada para frente 
+    [X] Caminhada para trás
+    [ ] Pulos
+    [ ] golpes básicos
+    [ ] golpes em sequencia
+    [ ] combinações de golpes
+    [ ] especiais(incluindo fatalites se for do mk3)
+    [ ] defesas	
+    [ ] Absolutamente tudo implementado
+    [ ] validação completa do personagem
+
+[ ] 1.06 — Smoke robô
+    [X] Disponível na seleção.
+    [X] Caminhada para frente 
+    [X] Caminhada para trás
+    [ ] Pulos
+    [ ] golpes básicos
+    [ ] golpes em sequencia
+    [ ] combinações de golpes
+    [ ] especiais(incluindo fatalites se for do mk3)
+    [ ] defesas	
+    [ ] Absolutamente tudo implementado
+    [ ] validação completa do personagem
+
+[ ] 1.07 — Smoke Humano
+    [X] Disponível na seleção.
+    [X] Caminhada para frente 
+    [X] Caminhada para trás
+    [ ] Pulos
+    [ ] golpes básicos
+    [ ] golpes em sequencia
+    [ ] combinações de golpes
+    [ ] especiais(incluindo fatalites se for do mk3)
+    [ ] defesas	
+    [ ] Absolutamente tudo implementado
+    [ ] validação completa do personagem
+
+[ ] 1.08 — Kitana
+    [X] Disponível na seleção.
+    [X] Caminhada para frente 
+    [X] Caminhada para trás
+    [ ] Pulos
+    [ ] golpes básicos
+    [ ] golpes em sequencia
+    [ ] combinações de golpes
+    [ ] especiais(incluindo fatalites se for do mk3)
+    [ ] defesas	
+    [ ] Absolutamente tudo implementado
+    [ ] validação completa do personagem
+
+[ ] 1.09 — Mileena
+    [X] Disponível na seleção.
+    [X] Caminhada para frente 
+    [X] Caminhada para trás
+    [ ] Pulos
+    [ ] golpes básicos
+    [ ] golpes em sequencia
+    [ ] combinações de golpes
+    [ ] especiais(incluindo fatalites se for do mk3)
+    [ ] defesas	
+    [ ] Absolutamente tudo implementado
+    [ ] validação completa do personagem
+
+[ ] 1.10 — Jade
+    [X] Disponível na seleção.
+    [X] Caminhada para frente 
+    [X] Caminhada para trás
+    [ ] Pulos
+    [ ] golpes básicos
+    [ ] golpes em sequencia
+    [ ] combinações de golpes
+    [ ] especiais(incluindo fatalites se for do mk3)
+    [ ] defesas	
+    [ ] Absolutamente tudo implementado
+    [ ] validação completa do personagem
+
+[ ] 1.11 — Kano
+    [X] Disponível na seleção.
+    [X] Caminhada para frente 
+    [X] Caminhada para trás
+    [ ] Pulos
+    [ ] golpes básicos
+    [ ] golpes em sequencia
+    [ ] combinações de golpes
+    [ ] especiais(incluindo fatalites se for do mk3)
+    [ ] defesas	
+    [ ] Absolutamente tudo implementado
+    [ ] validação completa do personagem
+
+[ ] 1.12 — Sonya
+    [X] Disponível na seleção.
+    [X] Caminhada para frente 
+    [X] Caminhada para trás
+    [ ] Pulos
+    [ ] golpes básicos
+    [ ] golpes em sequencia
+    [ ] combinações de golpes
+    [ ] especiais(incluindo fatalites se for do mk3)
+    [ ] defesas	
+    [ ] Absolutamente tudo implementado
+    [ ] validação completa do personagem
+
+[ ] 1.13 — Jax
+    [X] Disponível na seleção.
+    [X] Caminhada para frente 
+    [X] Caminhada para trás
+    [ ] Pulos
+    [ ] golpes básicos
+    [ ] golpes em sequencia
+    [ ] combinações de golpes
+    [ ] especiais(incluindo fatalites se for do mk3)
+    [ ] defesas	
+    [ ] Absolutamente tudo implementado
+    [ ] validação completa do personagem
+
+[ ] 1.14 — Nightwolf
+    [X] Disponível na seleção.
+    [X] Caminhada para frente 
+    [X] Caminhada para trás
+    [ ] Pulos
+    [ ] golpes básicos
+    [ ] golpes em sequencia
+    [ ] combinações de golpes
+    [ ] especiais(incluindo fatalites se for do mk3)
+    [ ] defesas	
+    [ ] Absolutamente tudo implementado
+    [ ] validação completa do personagem
+
+[ ] 1.15 — Stryker
+    [X] Disponível na seleção.
+    [X] Caminhada para frente 
+    [X] Caminhada para trás
+    [ ] Pulos
+    [ ] golpes básicos
+    [ ] golpes em sequencia
+    [ ] combinações de golpes
+    [ ] especiais(incluindo fatalites se for do mk3)
+    [ ] defesas	
+    [ ] Absolutamente tudo implementado
+    [ ] validação completa do personagem
+
+[ ] 1.16 — Sindel
+    [X] Disponível na seleção.
+    [X] Caminhada para frente 
+    [X] Caminhada para trás
+    [ ] Pulos
+    [ ] golpes básicos
+    [ ] golpes em sequencia
+    [ ] combinações de golpes
+    [ ] especiais(incluindo fatalites se for do mk3)
+    [ ] defesas	
+    [ ] Absolutamente tudo implementado
+    [ ] validação completa do personagem
+
+[ ] 1.17 — Sektor
+    [X] Disponível na seleção.
+    [X] Caminhada para frente 
+    [X] Caminhada para trás
+    [ ] Pulos
+    [ ] golpes básicos
+    [ ] golpes em sequencia
+    [ ] combinações de golpes
+    [ ] especiais(incluindo fatalites se for do mk3)
+    [ ] defesas	
+    [ ] Absolutamente tudo implementado
+    [ ] validação completa do personagem
+
+[ ] 1.18 — Cyrax
+    [X] Disponível na seleção.
+    [X] Caminhada para frente 
+    [X] Caminhada para trás
+    [ ] Pulos
+    [ ] golpes básicos
+    [ ] golpes em sequencia
+    [ ] combinações de golpes
+    [ ] especiais(incluindo fatalites se for do mk3)
+    [ ] defesas	
+    [ ] Absolutamente tudo implementado
+    [ ] validação completa do personagem
+
+[ ] 1.19 — Kung Lao
+    [X] Disponível na seleção.
+    [X] Caminhada para frente 
+    [X] Caminhada para trás
+    [ ] Pulos
+    [ ] golpes básicos
+    [ ] golpes em sequencia
+    [ ] combinações de golpes
+    [ ] especiais(incluindo fatalites se for do mk3)
+    [ ] defesas	
+    [ ] Absolutamente tudo implementado
+    [ ] validação completa do personagem
+
+[ ] 1.20 — Kabal
+    [X] Disponível na seleção.
+    [X] Caminhada para frente 
+    [X] Caminhada para trás
+    [ ] Pulos
+    [ ] golpes básicos
+    [ ] golpes em sequencia
+    [ ] combinações de golpes
+    [ ] especiais(incluindo fatalites se for do mk3)
+    [ ] defesas	
+    [ ] Absolutamente tudo implementado
+    [ ] validação completa do personagem
+
+[ ] 1.21 — Sheeva
+    [X] Disponível na seleção.
+    [X] Caminhada para frente 
+    [X] Caminhada para trás
+    [ ] Pulos
+    [ ] golpes básicos
+    [ ] golpes em sequencia
+    [ ] combinações de golpes
+    [ ] especiais(incluindo fatalites se for do mk3)
+    [ ] defesas	
+    [ ] Absolutamente tudo implementado
+    [ ] validação completa do personagem
+
+[ ] 1.22 — Shang Tsung
+    [X] Disponível na seleção.
+    [X] Caminhada para frente 
+    [X] Caminhada para trás
+    [ ] Pulos
+    [ ] golpes básicos
+    [ ] golpes em sequencia
+    [ ] combinações de golpes
+    [ ] especiais(incluindo fatalites se for do mk3)
+    [ ] defesas	
+    [ ] Absolutamente tudo implementado
+    [ ] validação completa do personagem
+
+[ ] 1.23 — Liu Kang
+    [X] Disponível na seleção.
+    [X] Caminhada para frente 
+    [X] Caminhada para trás
+    [ ] Pulos
+    [ ] golpes básicos
+    [ ] golpes em sequencia
+    [ ] combinações de golpes
+    [ ] especiais(incluindo fatalites se for do mk3)
+    [ ] defesas	
+    [ ] Absolutamente tudo implementado
+    [ ] validação completa do personagem
+
+[ ] 1.24 — Motaro
+    [X] Disponível na seleção.
+    [X] Caminhada para frente 
+    [X] Caminhada para trás
+    [ ] Pulos
+    [ ] golpes básicos
+    [ ] golpes em sequencia
+    [ ] combinações de golpes
+    [ ] especiais(incluindo fatalites se for do mk3)
+    [ ] defesas	
+    [ ] Absolutamente tudo implementado
+    [ ] validação completa do personagem
+
+[ ] 1.25 — Shao Kahn
+    [X] Disponível na seleção.
+    [X] Caminhada para frente 
+    [X] Caminhada para trás
+    [ ] Pulos
+    [ ] golpes básicos
+    [ ] golpes em sequencia
+    [ ] combinações de golpes
+    [ ] especiais(incluindo fatalites se for do mk3)
+    [ ] defesas	
+    [ ] Absolutamente tudo implementado
+    [ ] validação completa do personagem
+
+[ ] 1.26 — Noob Saibot
+    [X] Disponível na seleção.
+    [X] Caminhada para frente 
+    [X] Caminhada para trás
+    [ ] Pulos
+    [ ] golpes básicos
+    [ ] golpes em sequencia
+    [ ] combinações de golpes
+    [ ] especiais(incluindo fatalites se for do mk3)
+    [ ] defesas	
+    [ ] Absolutamente tudo implementado
+    [ ] validação completa do personagem
+
+SUBPASSOS — STREET FIGHTER
+
+[ ] 1.27 — Ryu
+    [X] Disponível na seleção.
+    [ ] Caminhada para frente 
+    [ ] Caminhada para trás
+    [ ] Pulos
+    [ ] golpes básicos
+    [ ] golpes em sequencia
+    [ ] combinações de golpes
+    [ ] especiais(incluindo fatalites se for do mk3)
+    [ ] defesas	
+    [ ] Absolutamente tudo implementado
+    [ ] validação completa do personagem
+
+[ ] 1.28 — Ken
+    [X] Disponível na seleção.
+    [X] Caminhada para frente 
+    [X] Caminhada para trás
+    [ ] Pulos
+    [ ] golpes básicos
+    [ ] golpes em sequencia
+    [ ] combinações de golpes
+    [ ] especiais(incluindo fatalites se for do mk3)
+    [ ] defesas	
+    [ ] Absolutamente tudo implementado
+    [ ] validação completa do personagem
+
+[ ] 1.29 — Chun-Li
+    [X] Disponível na seleção.
+    [ ] Caminhada para frente 
+    [ ] Caminhada para trás
+    [ ] Pulos
+    [ ] golpes básicos
+    [ ] golpes em sequencia
+    [ ] combinações de golpes
+    [ ] especiais(incluindo fatalites se for do mk3)
+    [ ] defesas	
+    [ ] Absolutamente tudo implementado
+    [ ] validação completa do personagem
+
+[ ] 1.30 — Guile
+    [X] Disponível na seleção.
+    [ ] Caminhada para frente 
+    [ ] Caminhada para trás
+    [ ] Pulos
+    [ ] golpes básicos
+    [ ] golpes em sequencia
+    [ ] combinações de golpes
+    [ ] especiais(incluindo fatalites se for do mk3)
+    [ ] defesas	
+    [ ] Absolutamente tudo implementado
+    [ ] validação completa do personagem
+
+[ ] 1.31 — E. Honda
+    [X] Disponível na seleção.
+    [ ] Caminhada para frente 
+    [ ] Caminhada para trás
+    [ ] Pulos
+    [ ] golpes básicos
+    [ ] golpes em sequencia
+    [ ] combinações de golpes
+    [ ] especiais(incluindo fatalites se for do mk3)
+    [ ] defesas	
+    [ ] Absolutamente tudo implementado
+    [ ] validação completa do personagem
+
+[ ] 1.32 — Blanka
+    [X] Disponível na seleção.
+    [ ] Caminhada para frente 
+    [ ] Caminhada para trás
+    [ ] Pulos
+    [ ] golpes básicos
+    [ ] golpes em sequencia
+    [ ] combinações de golpes
+    [ ] especiais(incluindo fatalites se for do mk3)
+    [ ] defesas	
+    [ ] Absolutamente tudo implementado
+    [ ] validação completa do personagem
+
+[ ] 1.33 — Zangief
+    [X] Disponível na seleção.
+    [X] Caminhada para frente 
+    [X] Caminhada para trás
+    [ ] Pulos
+    [ ] golpes básicos
+    [ ] golpes em sequencia
+    [ ] combinações de golpes
+    [ ] especiais(incluindo fatalites se for do mk3)
+    [ ] defesas	
+    [ ] Absolutamente tudo implementado
+    [ ] validação completa do personagem
+
+[ ] 1.34 — Dhalsim
+    [X] Disponível na seleção.
+    [X] Caminhada para frente 
+    [X] Caminhada para trás
+    [ ] Pulos
+    [ ] golpes básicos
+    [ ] golpes em sequencia
+    [ ] combinações de golpes
+    [ ] especiais(incluindo fatalites se for do mk3)
+    [ ] defesas	
+    [ ] Absolutamente tudo implementado
+    [ ] validação completa do personagem
+
+[ ] 1.35 — Cammy
+    [X] Disponível na seleção.
+    [X] Caminhada para frente 
+    [X] Caminhada para trás
+    [ ] Pulos
+    [ ] golpes básicos
+    [ ] golpes em sequencia
+    [ ] combinações de golpes
+    [ ] especiais(incluindo fatalites se for do mk3)
+    [ ] defesas	
+    [ ] Absolutamente tudo implementado
+    [ ] validação completa do personagem
+
+[ ] 1.36 — Fei Long
+    [X] Disponível na seleção.
+    [ ] Caminhada para frente 
+    [ ] Caminhada para trás
+    [ ] Pulos
+    [ ] golpes básicos
+    [ ] golpes em sequencia
+    [ ] combinações de golpes
+    [ ] especiais(incluindo fatalites se for do mk3)
+    [ ] defesas	
+    [ ] Absolutamente tudo implementado
+    [ ] validação completa do personagem
+
+[ ] 1.37 — T. Hawk
+    [X] Disponível na seleção.
+    [ ] Caminhada para frente 
+    [ ] Caminhada para trás
+    [ ] Pulos
+    [ ] golpes básicos
+    [ ] golpes em sequencia
+    [ ] combinações de golpes
+    [ ] especiais(incluindo fatalites se for do mk3)
+    [ ] defesas	
+    [ ] Absolutamente tudo implementado
+    [ ] validação completa do personagem
+
+[ ] 1.38 — Dee Jay
+    [X] Disponível na seleção.
+    [ ] Caminhada para frente 
+    [ ] Caminhada para trás
+    [ ] Pulos
+    [ ] golpes básicos
+    [ ] golpes em sequencia
+    [ ] combinações de golpes
+    [ ] especiais(incluindo fatalites se for do mk3)
+    [ ] defesas	
+    [ ] Absolutamente tudo implementado
+    [ ] validação completa do personagem
+
+[ ] 1.39 — Balrog
+    [X] Disponível na seleção.
+    [ ] Caminhada para frente 
+    [ ] Caminhada para trás
+    [ ] Pulos
+    [ ] golpes básicos
+    [ ] golpes em sequencia
+    [ ] combinações de golpes
+    [ ] especiais(incluindo fatalites se for do mk3)
+    [ ] defesas	
+    [ ] Absolutamente tudo implementado
+    [ ] validação completa do personagem
+
+[ ] 1.40 — Vega
+    [X] Disponível na seleção.
+    [ ] Caminhada para frente 
+    [ ] Caminhada para trás
+    [ ] Pulos
+    [ ] golpes básicos
+    [ ] golpes em sequencia
+    [ ] combinações de golpes
+    [ ] especiais(incluindo fatalites se for do mk3)
+    [ ] defesas	
+    [ ] Absolutamente tudo implementado
+    [ ] validação completa do personagem
+
+[ ] 1.41 — Sagat
+    [X] Disponível na seleção.
+    [X] Caminhada para frente 
+    [X] Caminhada para trás
+    [ ] Pulos
+    [ ] golpes básicos
+    [ ] golpes em sequencia
+    [ ] combinações de golpes
+    [ ] especiais(incluindo fatalites se for do mk3)
+    [ ] defesas	
+    [ ] Absolutamente tudo implementado
+    [ ] validação completa do personagem
+
+[ ] 1.42 — M. Bison
+    [X] Disponível na seleção.
+    [ ] Caminhada para frente 
+    [ ] Caminhada para trás
+    [ ] Pulos
+    [ ] golpes básicos
+    [ ] golpes em sequencia
+    [ ] combinações de golpes
+    [ ] especiais(incluindo fatalites se for do mk3)
+    [ ] defesas	
+    [ ] Absolutamente tudo implementado
+    [ ] validação completa do personagem
+
+[ ] 1.43 — Akuma
+    [X] Disponível na seleção.
+    [ ] Caminhada para frente 
+    [ ] Caminhada para trás
+    [ ] Pulos
+    [ ] golpes básicos
+    [ ] golpes em sequencia
+    [ ] combinações de golpes
+    [ ] especiais(incluindo fatalites se for do mk3)
+    [ ] defesas	
+    [ ] Absolutamente tudo implementado
+    [ ] validação completa do personagem
+
+CONCLUSÃO DO PASSO 1
+
+[X] Todos os passos foram implementados
+[ ] Todos os passos foram comparados ao original e validados

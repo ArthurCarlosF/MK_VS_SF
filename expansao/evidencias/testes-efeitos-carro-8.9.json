@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "hit": {
+    "fragments": 10,
+    "playbackRate": 0.7491535544395447,
+    "points": 500,
+    "state": 3,
+    "drawn": true
+  },
+  "assetRequests": 21,
+  "completeBonus": false
+}

@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "groups": [
+    "Super usa artes, colisões, pausa, medidor e reações nativos existentes",
+    "Duplo quarto de lua tem prioridade sobre Hadouken em ambos os lados",
+    "Reconhecedor reproduz as seis sondas nativas com direções intermediárias",
+    "Um Super consome a barra na ativação e congela o outro participante",
+    "Contato pausa só o projétil, preserva seu orçamento e admite até cinco acertos",
+    "Combate real permite recontato e movimento do dono durante os impactos",
+    "Choques nativos azul/vermelho gastam um contato; dois Supers inteiros se anulam",
+    "O carro permanece imóvel durante a ativação e recebe o orçamento do Super",
+    "Supers simultâneos com 4, 8 e 16 participantes mantêm pausas e estados válidos"
+  ],
+  "completeGame": false,
+  "limits": [
+    "Native activation, sampled owner animation, initial flight and terminal reactions are integrated.",
+    "Turbo scheduler, random damage, intermediate reaction branches, unequal-super clashes, corner and air contacts remain pending.",
+    "N-player hit allocation is a crossover policy: one native maximum of five contacts is shared by all targets."
+  ]
+}

@@ -1,0 +1,955 @@
+{
+  "data": "2026-11-19",
+  "criterio": "Presença dos golpes e ações originais acionáveis; sem exigir fidelidade de animação, regras, dano ou tempos. Não basta existir uma animação ou nome sem comando/rota utilizável.",
+  "limite": "Conclusão no critério de presença dos golpes e ações originais. Fidelidade de animações, tempos, dano e regras ainda deve ser comparada; as caixas de validação continuam abertas.",
+  "metodo": [
+    "Inspeção dos módulos efetivamente carregados pelo servidor instalado.",
+    "Comparação com tabelas de combo da ROM arcade original, identificadas por observação do jogo em execução.",
+    "Comparação dos golpes direcionais do Ryu na ROM original.",
+    "Sondas seriais de agarrões normais de SF. A troca de lado confirma agarrões em 14 dos 16 personagens; Blanka e Balrog não trocaram de lado nessa sonda, que não exclui agarrões de imobilização.",
+    "Repertório dos chefes comparado também ao MKBOSS.C do código-fonte disponível; não é uma validação de fidelidade da ROM arcade."
+  ],
+  "totais": {
+    "personagens": 43,
+    "completos": 26,
+    "pendentes": 17
+  },
+  "personagens": [
+    {
+      "id": "scorpion",
+      "nome": "Scorpion",
+      "universo": "mk",
+      "repertorioCompleto": true,
+      "coberto": [
+        "Repertório básico e comandos de combate",
+        "Especiais e finalizações originais aplicáveis",
+        "Todas as ramificações das tabelas originais de combo",
+        "Ataques direcionais no ar"
+      ],
+      "faltasConfirmadas": [],
+      "evidencias": [
+        "repertorio-cinco-exportacao.json",
+        "testes-repertorio-cinco.json",
+        "testes-repertorio-cinco-navegador.json",
+        "finalizacoes-elenco-testes.json"
+      ],
+      "faltasAnterioresResolvidas": [
+        "Rota original HP, HP, LP ausente: a continuação elbowFollow só aceita HK.",
+        "Rota original HK, HK, LK, LK ausente: kneeFollow não possui as próximas continuações."
+      ]
+    },
+    {
+      "id": "ryu",
+      "nome": "Ryu",
+      "universo": "sf",
+      "repertorioCompleto": false,
+      "coberto": [],
+      "faltasConfirmadas": [
+        "Frente + soco médio e Frente + soco forte: golpes distintos no original, sem comandos/movimentos correspondentes na implementação."
+      ],
+      "evidencias": [
+        "auditoria-ryu-normais-comando.json"
+      ]
+    },
+    {
+      "id": "sf-1",
+      "nome": "E. Honda",
+      "universo": "sf",
+      "repertorioCompleto": false,
+      "coberto": [],
+      "faltasConfirmadas": [
+        "Agarrões normais do personagem não estão implementados. Agarrões especiais não substituem os normais."
+      ],
+      "evidencias": [
+        "auditoria-agarroes-sf-1.json"
+      ]
+    },
+    {
+      "id": "sf-2",
+      "nome": "Blanka",
+      "universo": "sf",
+      "repertorioCompleto": false,
+      "coberto": [],
+      "faltasConfirmadas": [
+        "Agarrões normais do personagem não estão implementados. Agarrões especiais não substituem os normais."
+      ],
+      "evidencias": [
+        "auditoria-agarroes-sf-2.json"
+      ]
+    },
+    {
+      "id": "sf-3",
+      "nome": "Guile",
+      "universo": "sf",
+      "repertorioCompleto": false,
+      "coberto": [],
+      "faltasConfirmadas": [
+        "Agarrões normais do personagem não estão implementados. Agarrões especiais não substituem os normais."
+      ],
+      "evidencias": [
+        "auditoria-agarroes-sf-3.json"
+      ]
+    },
+    {
+      "id": "sf-4",
+      "nome": "T. Hawk",
+      "universo": "sf",
+      "repertorioCompleto": false,
+      "coberto": [],
+      "faltasConfirmadas": [
+        "Agarrões normais do personagem não estão implementados. Agarrões especiais não substituem os normais."
+      ],
+      "evidencias": [
+        "auditoria-agarroes-sf-4.json"
+      ]
+    },
+    {
+      "id": "sf-5",
+      "nome": "Fei Long",
+      "universo": "sf",
+      "repertorioCompleto": false,
+      "coberto": [],
+      "faltasConfirmadas": [
+        "Agarrões normais do personagem não estão implementados. Agarrões especiais não substituem os normais."
+      ],
+      "evidencias": [
+        "auditoria-agarroes-sf-5.json"
+      ]
+    },
+    {
+      "id": "sf-6",
+      "nome": "Balrog",
+      "universo": "sf",
+      "repertorioCompleto": false,
+      "coberto": [],
+      "faltasConfirmadas": [
+        "Agarrões normais do personagem não estão implementados. Agarrões especiais não substituem os normais."
+      ],
+      "evidencias": [
+        "auditoria-agarroes-sf-6.json"
+      ]
+    },
+    {
+      "id": "sf-7",
+      "nome": "Sagat",
+      "universo": "sf",
+      "repertorioCompleto": false,
+      "coberto": [],
+      "faltasConfirmadas": [
+        "Agarrões normais do personagem não estão implementados. Agarrões especiais não substituem os normais."
+      ],
+      "evidencias": [
+        "auditoria-agarroes-sf-7.json"
+      ]
+    },
+    {
+      "id": "sf-8",
+      "nome": "Ken",
+      "universo": "sf",
+      "repertorioCompleto": false,
+      "coberto": [],
+      "faltasConfirmadas": [
+        "Agarrões normais do personagem não estão implementados. Agarrões especiais não substituem os normais."
+      ],
+      "evidencias": [
+        "auditoria-agarroes-sf-8.json"
+      ]
+    },
+    {
+      "id": "sf-9",
+      "nome": "Chun-Li",
+      "universo": "sf",
+      "repertorioCompleto": false,
+      "coberto": [],
+      "faltasConfirmadas": [
+        "Agarrões normais do personagem não estão implementados. Agarrões especiais não substituem os normais."
+      ],
+      "evidencias": [
+        "auditoria-agarroes-sf-9.json"
+      ]
+    },
+    {
+      "id": "sf-10",
+      "nome": "Zangief",
+      "universo": "sf",
+      "repertorioCompleto": false,
+      "coberto": [],
+      "faltasConfirmadas": [
+        "Agarrões normais do personagem não estão implementados. Agarrões especiais não substituem os normais."
+      ],
+      "evidencias": [
+        "auditoria-agarroes-sf-10.json"
+      ]
+    },
+    {
+      "id": "sf-11",
+      "nome": "Dhalsim",
+      "universo": "sf",
+      "repertorioCompleto": false,
+      "coberto": [],
+      "faltasConfirmadas": [
+        "Agarrões normais do personagem não estão implementados. Agarrões especiais não substituem os normais."
+      ],
+      "evidencias": [
+        "auditoria-agarroes-sf-11.json"
+      ]
+    },
+    {
+      "id": "sf-12",
+      "nome": "Cammy",
+      "universo": "sf",
+      "repertorioCompleto": false,
+      "coberto": [],
+      "faltasConfirmadas": [
+        "Agarrões normais do personagem não estão implementados. Agarrões especiais não substituem os normais."
+      ],
+      "evidencias": [
+        "auditoria-agarroes-sf-12.json"
+      ]
+    },
+    {
+      "id": "sf-13",
+      "nome": "Dee Jay",
+      "universo": "sf",
+      "repertorioCompleto": false,
+      "coberto": [],
+      "faltasConfirmadas": [
+        "Agarrões normais do personagem não estão implementados. Agarrões especiais não substituem os normais."
+      ],
+      "evidencias": [
+        "auditoria-agarroes-sf-13.json"
+      ]
+    },
+    {
+      "id": "sf-14",
+      "nome": "Vega",
+      "universo": "sf",
+      "repertorioCompleto": false,
+      "coberto": [],
+      "faltasConfirmadas": [
+        "Agarrões normais do personagem não estão implementados. Agarrões especiais não substituem os normais."
+      ],
+      "evidencias": [
+        "auditoria-agarroes-sf-14.json"
+      ]
+    },
+    {
+      "id": "sf-15",
+      "nome": "M. Bison",
+      "universo": "sf",
+      "repertorioCompleto": false,
+      "coberto": [],
+      "faltasConfirmadas": [
+        "Agarrões normais do personagem não estão implementados. Agarrões especiais não substituem os normais."
+      ],
+      "evidencias": [
+        "auditoria-agarroes-sf-15.json"
+      ]
+    },
+    {
+      "id": "akuma",
+      "nome": "Akuma",
+      "universo": "sf",
+      "repertorioCompleto": false,
+      "coberto": [],
+      "faltasConfirmadas": [
+        "Agarrões normais do personagem não estão implementados. Agarrões especiais não substituem os normais."
+      ],
+      "evidencias": [
+        "auditoria-agarroes-akuma.json"
+      ]
+    },
+    {
+      "id": "mk-0",
+      "nome": "Kano",
+      "universo": "mk",
+      "repertorioCompleto": true,
+      "coberto": [
+        "Repertório básico e comandos de combate",
+        "Especiais e finalizações originais aplicáveis",
+        "Todas as ramificações das tabelas originais de combo",
+        "Ataques direcionais no ar",
+        "Socos alternando os braços"
+      ],
+      "faltasConfirmadas": [],
+      "evidencias": [
+        "repertorio-cinco-exportacao.json",
+        "testes-repertorio-cinco.json",
+        "testes-repertorio-cinco-navegador.json",
+        "finalizacoes-elenco-testes.json"
+      ],
+      "faltasAnterioresResolvidas": [
+        "Rotas próprias dos combos originais ausentes. A configuração atual permite encadear ataques genéricos na recuperação, mas não representa todas as continuações do personagem."
+      ]
+    },
+    {
+      "id": "mk-1",
+      "nome": "Sonya",
+      "universo": "mk",
+      "repertorioCompleto": true,
+      "coberto": [
+        "Repertório básico e comandos de combate",
+        "Especiais e finalizações originais aplicáveis",
+        "Todas as ramificações das tabelas originais de combo",
+        "Ataques direcionais no ar",
+        "Rasteira",
+        "Chute giratório",
+        "Socos alternando os braços"
+      ],
+      "faltasConfirmadas": [],
+      "evidencias": [
+        "repertorio-cinco-exportacao.json",
+        "testes-repertorio-cinco.json",
+        "testes-repertorio-cinco-navegador.json",
+        "finalizacoes-elenco-testes.json"
+      ],
+      "faltasAnterioresResolvidas": [
+        "Rotas próprias dos combos originais ausentes. A configuração atual permite encadear ataques genéricos na recuperação, mas não representa todas as continuações do personagem."
+      ]
+    },
+    {
+      "id": "mk-2",
+      "nome": "Jax",
+      "universo": "mk",
+      "repertorioCompleto": true,
+      "coberto": [
+        "Golpes básicos e agarrão normal",
+        "Rotas ativas dos combos originais",
+        "Socos alternados e ataques direcionais no ar",
+        "Especiais terrestres e variantes aéreas aplicáveis",
+        "Finalizações existentes no UMK3 arcade para o personagem"
+      ],
+      "faltasConfirmadas": [],
+      "evidencias": [
+        "repertorio-vinte-exportacao.json",
+        "repertorio-vinte-especiais-aereos-origem.json",
+        "testes-repertorio-vinte.json",
+        "testes-repertorio-vinte-grupos.json",
+        "testes-repertorio-vinte-navegador.json",
+        "finalizacoes-elenco-testes.json",
+        "cinema-imagens-recuperadas-vinte.json"
+      ],
+      "faltasAnterioresResolvidas": [
+        "Rotas próprias dos combos originais ausentes. A configuração atual permite encadear ataques genéricos na recuperação, mas não representa todas as continuações do personagem."
+      ]
+    },
+    {
+      "id": "mk-3",
+      "nome": "Nightwolf",
+      "universo": "mk",
+      "repertorioCompleto": true,
+      "coberto": [
+        "Golpes básicos e agarrão normal",
+        "Rotas ativas dos combos originais",
+        "Socos alternados e ataques direcionais no ar",
+        "Especiais terrestres e variantes aéreas aplicáveis",
+        "Finalizações existentes no UMK3 arcade para o personagem"
+      ],
+      "faltasConfirmadas": [],
+      "evidencias": [
+        "repertorio-vinte-exportacao.json",
+        "repertorio-vinte-especiais-aereos-origem.json",
+        "testes-repertorio-vinte.json",
+        "testes-repertorio-vinte-grupos.json",
+        "testes-repertorio-vinte-navegador.json",
+        "finalizacoes-elenco-testes.json",
+        "cinema-imagens-recuperadas-vinte.json"
+      ],
+      "faltasAnterioresResolvidas": [
+        "Rotas próprias dos combos originais ausentes. A configuração atual permite encadear ataques genéricos na recuperação, mas não representa todas as continuações do personagem."
+      ]
+    },
+    {
+      "id": "mk-4",
+      "nome": "Sub-Zero",
+      "universo": "mk",
+      "repertorioCompleto": true,
+      "coberto": [
+        "Golpes básicos e agarrão normal",
+        "Rotas ativas dos combos originais",
+        "Socos alternados e ataques direcionais no ar",
+        "Especiais terrestres e variantes aéreas aplicáveis",
+        "Finalizações existentes no UMK3 arcade para o personagem"
+      ],
+      "faltasConfirmadas": [],
+      "evidencias": [
+        "repertorio-vinte-exportacao.json",
+        "repertorio-vinte-especiais-aereos-origem.json",
+        "testes-repertorio-vinte.json",
+        "testes-repertorio-vinte-grupos.json",
+        "testes-repertorio-vinte-navegador.json",
+        "finalizacoes-elenco-testes.json",
+        "cinema-imagens-recuperadas-vinte.json"
+      ],
+      "faltasAnterioresResolvidas": [
+        "Rotas próprias dos combos originais ausentes. A configuração atual permite encadear ataques genéricos na recuperação, mas não representa todas as continuações do personagem."
+      ]
+    },
+    {
+      "id": "mk-5",
+      "nome": "Stryker",
+      "universo": "mk",
+      "repertorioCompleto": true,
+      "coberto": [
+        "Golpes básicos e agarrão normal",
+        "Rotas ativas dos combos originais",
+        "Socos alternados e ataques direcionais no ar",
+        "Especiais terrestres e variantes aéreas aplicáveis",
+        "Finalizações existentes no UMK3 arcade para o personagem"
+      ],
+      "faltasConfirmadas": [],
+      "evidencias": [
+        "repertorio-vinte-exportacao.json",
+        "repertorio-vinte-especiais-aereos-origem.json",
+        "testes-repertorio-vinte.json",
+        "testes-repertorio-vinte-grupos.json",
+        "testes-repertorio-vinte-navegador.json",
+        "finalizacoes-elenco-testes.json",
+        "cinema-imagens-recuperadas-vinte.json"
+      ],
+      "faltasAnterioresResolvidas": [
+        "Rotas próprias dos combos originais ausentes. A configuração atual permite encadear ataques genéricos na recuperação, mas não representa todas as continuações do personagem."
+      ]
+    },
+    {
+      "id": "mk-6",
+      "nome": "Sindel",
+      "universo": "mk",
+      "repertorioCompleto": true,
+      "coberto": [
+        "Golpes básicos e agarrão normal",
+        "Rotas ativas dos combos originais",
+        "Socos alternados e ataques direcionais no ar",
+        "Especiais terrestres e variantes aéreas aplicáveis",
+        "Finalizações existentes no UMK3 arcade para o personagem"
+      ],
+      "faltasConfirmadas": [],
+      "evidencias": [
+        "repertorio-vinte-exportacao.json",
+        "repertorio-vinte-especiais-aereos-origem.json",
+        "testes-repertorio-vinte.json",
+        "testes-repertorio-vinte-grupos.json",
+        "testes-repertorio-vinte-navegador.json",
+        "finalizacoes-elenco-testes.json",
+        "cinema-imagens-recuperadas-vinte.json"
+      ],
+      "faltasAnterioresResolvidas": [
+        "Rotas próprias dos combos originais ausentes. A configuração atual permite encadear ataques genéricos na recuperação, mas não representa todas as continuações do personagem."
+      ]
+    },
+    {
+      "id": "mk-7",
+      "nome": "Sektor",
+      "universo": "mk",
+      "repertorioCompleto": true,
+      "coberto": [
+        "Golpes básicos e agarrão normal",
+        "Rotas ativas dos combos originais",
+        "Socos alternados e ataques direcionais no ar",
+        "Especiais terrestres e variantes aéreas aplicáveis",
+        "Finalizações existentes no UMK3 arcade para o personagem"
+      ],
+      "faltasConfirmadas": [],
+      "evidencias": [
+        "repertorio-vinte-exportacao.json",
+        "repertorio-vinte-especiais-aereos-origem.json",
+        "testes-repertorio-vinte.json",
+        "testes-repertorio-vinte-grupos.json",
+        "testes-repertorio-vinte-navegador.json",
+        "finalizacoes-elenco-testes.json",
+        "cinema-imagens-recuperadas-vinte.json"
+      ],
+      "faltasAnterioresResolvidas": [
+        "Rotas próprias dos combos originais ausentes. A configuração atual permite encadear ataques genéricos na recuperação, mas não representa todas as continuações do personagem."
+      ]
+    },
+    {
+      "id": "mk-8",
+      "nome": "Cyrax",
+      "universo": "mk",
+      "repertorioCompleto": true,
+      "coberto": [
+        "Golpes básicos e agarrão normal",
+        "Rotas ativas dos combos originais",
+        "Socos alternados e ataques direcionais no ar",
+        "Especiais terrestres e variantes aéreas aplicáveis",
+        "Finalizações existentes no UMK3 arcade para o personagem"
+      ],
+      "faltasConfirmadas": [],
+      "evidencias": [
+        "repertorio-vinte-exportacao.json",
+        "repertorio-vinte-especiais-aereos-origem.json",
+        "testes-repertorio-vinte.json",
+        "testes-repertorio-vinte-grupos.json",
+        "testes-repertorio-vinte-navegador.json",
+        "finalizacoes-elenco-testes.json",
+        "cinema-imagens-recuperadas-vinte.json"
+      ],
+      "faltasAnterioresResolvidas": [
+        "Rotas próprias dos combos originais ausentes. A configuração atual permite encadear ataques genéricos na recuperação, mas não representa todas as continuações do personagem."
+      ]
+    },
+    {
+      "id": "mk-9",
+      "nome": "Kung Lao",
+      "universo": "mk",
+      "repertorioCompleto": true,
+      "coberto": [
+        "Golpes básicos e agarrão normal",
+        "Rotas ativas dos combos originais",
+        "Socos alternados e ataques direcionais no ar",
+        "Especiais terrestres e variantes aéreas aplicáveis",
+        "Finalizações existentes no UMK3 arcade para o personagem"
+      ],
+      "faltasConfirmadas": [],
+      "evidencias": [
+        "repertorio-vinte-exportacao.json",
+        "repertorio-vinte-especiais-aereos-origem.json",
+        "testes-repertorio-vinte.json",
+        "testes-repertorio-vinte-grupos.json",
+        "testes-repertorio-vinte-navegador.json",
+        "finalizacoes-elenco-testes.json",
+        "cinema-imagens-recuperadas-vinte.json"
+      ],
+      "faltasAnterioresResolvidas": [
+        "Rotas próprias dos combos originais ausentes. A configuração atual permite encadear ataques genéricos na recuperação, mas não representa todas as continuações do personagem."
+      ]
+    },
+    {
+      "id": "mk-10",
+      "nome": "Kabal",
+      "universo": "mk",
+      "repertorioCompleto": true,
+      "coberto": [
+        "Golpes básicos e agarrão normal",
+        "Rotas ativas dos combos originais",
+        "Socos alternados e ataques direcionais no ar",
+        "Especiais terrestres e variantes aéreas aplicáveis",
+        "Finalizações existentes no UMK3 arcade para o personagem"
+      ],
+      "faltasConfirmadas": [],
+      "evidencias": [
+        "repertorio-vinte-exportacao.json",
+        "repertorio-vinte-especiais-aereos-origem.json",
+        "testes-repertorio-vinte.json",
+        "testes-repertorio-vinte-grupos.json",
+        "testes-repertorio-vinte-navegador.json",
+        "finalizacoes-elenco-testes.json",
+        "cinema-imagens-recuperadas-vinte.json"
+      ],
+      "faltasAnterioresResolvidas": [
+        "Rotas próprias dos combos originais ausentes. A configuração atual permite encadear ataques genéricos na recuperação, mas não representa todas as continuações do personagem."
+      ]
+    },
+    {
+      "id": "mk-11",
+      "nome": "Sheeva",
+      "universo": "mk",
+      "repertorioCompleto": true,
+      "coberto": [
+        "Golpes básicos e agarrão normal",
+        "Rotas ativas dos combos originais",
+        "Socos alternados e ataques direcionais no ar",
+        "Especiais terrestres e variantes aéreas aplicáveis",
+        "Finalizações existentes no UMK3 arcade para o personagem"
+      ],
+      "faltasConfirmadas": [],
+      "evidencias": [
+        "repertorio-vinte-exportacao.json",
+        "repertorio-vinte-especiais-aereos-origem.json",
+        "testes-repertorio-vinte.json",
+        "testes-repertorio-vinte-grupos.json",
+        "testes-repertorio-vinte-navegador.json",
+        "finalizacoes-elenco-testes.json",
+        "cinema-imagens-recuperadas-vinte.json"
+      ],
+      "faltasAnterioresResolvidas": [
+        "Rotas próprias dos combos originais ausentes. A configuração atual permite encadear ataques genéricos na recuperação, mas não representa todas as continuações do personagem."
+      ]
+    },
+    {
+      "id": "mk-12",
+      "nome": "Shang Tsung",
+      "universo": "mk",
+      "repertorioCompleto": true,
+      "coberto": [
+        "Golpes básicos e agarrão normal",
+        "Rotas ativas dos combos originais",
+        "Socos alternados e ataques direcionais no ar",
+        "Especiais terrestres e variantes aéreas aplicáveis",
+        "Finalizações existentes no UMK3 arcade para o personagem"
+      ],
+      "faltasConfirmadas": [],
+      "evidencias": [
+        "repertorio-vinte-exportacao.json",
+        "repertorio-vinte-especiais-aereos-origem.json",
+        "testes-repertorio-vinte.json",
+        "testes-repertorio-vinte-grupos.json",
+        "testes-repertorio-vinte-navegador.json",
+        "finalizacoes-elenco-testes.json",
+        "cinema-imagens-recuperadas-vinte.json"
+      ],
+      "faltasAnterioresResolvidas": [
+        "Rotas próprias dos combos originais ausentes. A configuração atual permite encadear ataques genéricos na recuperação, mas não representa todas as continuações do personagem."
+      ]
+    },
+    {
+      "id": "mk-13",
+      "nome": "Liu Kang",
+      "universo": "mk",
+      "repertorioCompleto": true,
+      "coberto": [
+        "Golpes básicos e agarrão normal",
+        "Rotas ativas dos combos originais",
+        "Socos alternados e ataques direcionais no ar",
+        "Especiais terrestres e variantes aéreas aplicáveis",
+        "Finalizações existentes no UMK3 arcade para o personagem"
+      ],
+      "faltasConfirmadas": [],
+      "evidencias": [
+        "repertorio-vinte-exportacao.json",
+        "repertorio-vinte-especiais-aereos-origem.json",
+        "testes-repertorio-vinte.json",
+        "testes-repertorio-vinte-grupos.json",
+        "testes-repertorio-vinte-navegador.json",
+        "finalizacoes-elenco-testes.json",
+        "cinema-imagens-recuperadas-vinte.json"
+      ],
+      "faltasAnterioresResolvidas": [
+        "Rotas próprias dos combos originais ausentes. A configuração atual permite encadear ataques genéricos na recuperação, mas não representa todas as continuações do personagem."
+      ]
+    },
+    {
+      "id": "mk-14",
+      "nome": "Smoke",
+      "universo": "mk",
+      "repertorioCompleto": true,
+      "coberto": [
+        "Golpes básicos e agarrão normal",
+        "Rotas ativas dos combos originais",
+        "Socos alternados e ataques direcionais no ar",
+        "Especiais terrestres e variantes aéreas aplicáveis",
+        "Finalizações existentes no UMK3 arcade para o personagem"
+      ],
+      "faltasConfirmadas": [],
+      "evidencias": [
+        "repertorio-vinte-exportacao.json",
+        "repertorio-vinte-especiais-aereos-origem.json",
+        "testes-repertorio-vinte.json",
+        "testes-repertorio-vinte-grupos.json",
+        "testes-repertorio-vinte-navegador.json",
+        "finalizacoes-elenco-testes.json",
+        "cinema-imagens-recuperadas-vinte.json"
+      ],
+      "faltasAnterioresResolvidas": [
+        "Rotas próprias dos combos originais ausentes. A configuração atual permite encadear ataques genéricos na recuperação, mas não representa todas as continuações do personagem."
+      ]
+    },
+    {
+      "id": "mk-15",
+      "nome": "Kitana",
+      "universo": "mk",
+      "repertorioCompleto": true,
+      "coberto": [
+        "Golpes básicos e agarrão normal",
+        "Rotas ativas dos combos originais",
+        "Socos alternados e ataques direcionais no ar",
+        "Especiais terrestres e variantes aéreas aplicáveis",
+        "Finalizações existentes no UMK3 arcade para o personagem"
+      ],
+      "faltasConfirmadas": [],
+      "evidencias": [
+        "repertorio-vinte-exportacao.json",
+        "repertorio-vinte-especiais-aereos-origem.json",
+        "testes-repertorio-vinte.json",
+        "testes-repertorio-vinte-grupos.json",
+        "testes-repertorio-vinte-navegador.json",
+        "finalizacoes-elenco-testes.json",
+        "cinema-imagens-recuperadas-vinte.json"
+      ],
+      "faltasAnterioresResolvidas": [
+        "Rotas próprias dos combos originais ausentes. A configuração atual permite encadear ataques genéricos na recuperação, mas não representa todas as continuações do personagem."
+      ]
+    },
+    {
+      "id": "mk-16",
+      "nome": "Jade",
+      "universo": "mk",
+      "repertorioCompleto": true,
+      "coberto": [
+        "Golpes básicos e agarrão normal",
+        "Rotas ativas dos combos originais",
+        "Socos alternados e ataques direcionais no ar",
+        "Especiais terrestres e variantes aéreas aplicáveis",
+        "Finalizações existentes no UMK3 arcade para o personagem"
+      ],
+      "faltasConfirmadas": [],
+      "evidencias": [
+        "repertorio-vinte-exportacao.json",
+        "repertorio-vinte-especiais-aereos-origem.json",
+        "testes-repertorio-vinte.json",
+        "testes-repertorio-vinte-grupos.json",
+        "testes-repertorio-vinte-navegador.json",
+        "finalizacoes-elenco-testes.json",
+        "cinema-imagens-recuperadas-vinte.json"
+      ],
+      "faltasAnterioresResolvidas": [
+        "Rotas próprias dos combos originais ausentes. A configuração atual permite encadear ataques genéricos na recuperação, mas não representa todas as continuações do personagem."
+      ]
+    },
+    {
+      "id": "mk-17",
+      "nome": "Mileena",
+      "universo": "mk",
+      "repertorioCompleto": true,
+      "coberto": [
+        "Golpes básicos e agarrão normal",
+        "Rotas ativas dos combos originais",
+        "Socos alternados e ataques direcionais no ar",
+        "Especiais terrestres e variantes aéreas aplicáveis",
+        "Finalizações existentes no UMK3 arcade para o personagem"
+      ],
+      "faltasConfirmadas": [],
+      "evidencias": [
+        "repertorio-vinte-exportacao.json",
+        "repertorio-vinte-especiais-aereos-origem.json",
+        "testes-repertorio-vinte.json",
+        "testes-repertorio-vinte-grupos.json",
+        "testes-repertorio-vinte-navegador.json",
+        "finalizacoes-elenco-testes.json",
+        "cinema-imagens-recuperadas-vinte.json"
+      ],
+      "faltasAnterioresResolvidas": [
+        "Rotas próprias dos combos originais ausentes. A configuração atual permite encadear ataques genéricos na recuperação, mas não representa todas as continuações do personagem."
+      ]
+    },
+    {
+      "id": "mk-19",
+      "nome": "Reptile",
+      "universo": "mk",
+      "repertorioCompleto": true,
+      "coberto": [
+        "Golpes básicos e agarrão normal",
+        "Rotas ativas dos combos originais",
+        "Socos alternados e ataques direcionais no ar",
+        "Especiais terrestres e variantes aéreas aplicáveis",
+        "Finalizações existentes no UMK3 arcade para o personagem"
+      ],
+      "faltasConfirmadas": [],
+      "evidencias": [
+        "repertorio-vinte-exportacao.json",
+        "repertorio-vinte-especiais-aereos-origem.json",
+        "testes-repertorio-vinte.json",
+        "testes-repertorio-vinte-grupos.json",
+        "testes-repertorio-vinte-navegador.json",
+        "finalizacoes-elenco-testes.json",
+        "cinema-imagens-recuperadas-vinte.json"
+      ],
+      "faltasAnterioresResolvidas": [
+        "Rotas próprias dos combos originais ausentes. A configuração atual permite encadear ataques genéricos na recuperação, mas não representa todas as continuações do personagem."
+      ]
+    },
+    {
+      "id": "mk-20",
+      "nome": "Ermac",
+      "universo": "mk",
+      "repertorioCompleto": true,
+      "coberto": [
+        "Golpes básicos e agarrão normal",
+        "Rotas ativas dos combos originais",
+        "Socos alternados e ataques direcionais no ar",
+        "Especiais terrestres e variantes aéreas aplicáveis",
+        "Finalizações existentes no UMK3 arcade para o personagem"
+      ],
+      "faltasConfirmadas": [],
+      "evidencias": [
+        "repertorio-vinte-exportacao.json",
+        "repertorio-vinte-especiais-aereos-origem.json",
+        "testes-repertorio-vinte.json",
+        "testes-repertorio-vinte-grupos.json",
+        "testes-repertorio-vinte-navegador.json",
+        "finalizacoes-elenco-testes.json",
+        "cinema-imagens-recuperadas-vinte.json"
+      ],
+      "faltasAnterioresResolvidas": [
+        "Rotas próprias dos combos originais ausentes. A configuração atual permite encadear ataques genéricos na recuperação, mas não representa todas as continuações do personagem."
+      ]
+    },
+    {
+      "id": "mk-21",
+      "nome": "Classic Sub-Zero",
+      "universo": "mk",
+      "repertorioCompleto": true,
+      "coberto": [
+        "Repertório básico e comandos de combate",
+        "Especiais e finalizações originais aplicáveis",
+        "Todas as ramificações das tabelas originais de combo",
+        "Ataques direcionais no ar",
+        "Socos alternando os braços"
+      ],
+      "faltasConfirmadas": [],
+      "evidencias": [
+        "repertorio-cinco-exportacao.json",
+        "testes-repertorio-cinco.json",
+        "testes-repertorio-cinco-navegador.json",
+        "finalizacoes-elenco-testes.json"
+      ],
+      "faltasAnterioresResolvidas": [
+        "Rotas próprias dos combos originais ausentes. A configuração atual permite encadear ataques genéricos na recuperação, mas não representa todas as continuações do personagem."
+      ]
+    },
+    {
+      "id": "human-smoke",
+      "nome": "Smoke Humano",
+      "universo": "mk",
+      "repertorioCompleto": true,
+      "coberto": [
+        "Golpes básicos e agarrão normal",
+        "Rotas ativas dos combos originais",
+        "Socos alternados e ataques direcionais no ar",
+        "Especiais terrestres e variantes aéreas aplicáveis",
+        "Finalizações existentes no UMK3 arcade para o personagem"
+      ],
+      "faltasConfirmadas": [],
+      "evidencias": [
+        "repertorio-vinte-exportacao.json",
+        "repertorio-vinte-especiais-aereos-origem.json",
+        "testes-repertorio-vinte.json",
+        "testes-repertorio-vinte-grupos.json",
+        "testes-repertorio-vinte-navegador.json",
+        "finalizacoes-elenco-testes.json",
+        "cinema-imagens-recuperadas-vinte.json"
+      ],
+      "faltasAnterioresResolvidas": [
+        "Rotas próprias dos combos originais ausentes. A configuração atual permite encadear ataques genéricos na recuperação, mas não representa todas as continuações do personagem."
+      ]
+    },
+    {
+      "id": "motaro",
+      "nome": "Motaro",
+      "universo": "mk",
+      "repertorioCompleto": true,
+      "coberto": [
+        "Soco",
+        "Chute",
+        "Rasteira com a cauda",
+        "Agarrão com soco",
+        "Projétil",
+        "Teletransporte",
+        "Saltos",
+        "Reflexão de projéteis"
+      ],
+      "faltasConfirmadas": [],
+      "evidencias": []
+    },
+    {
+      "id": "shao-kahn",
+      "nome": "Shao Kahn",
+      "universo": "mk",
+      "repertorioCompleto": true,
+      "coberto": [
+        "Soco",
+        "Chute",
+        "Martelo",
+        "Projétil",
+        "Investida terrestre",
+        "Investida aérea",
+        "Repertório básico e comandos de combate",
+        "Especiais e finalizações originais aplicáveis",
+        "Risada",
+        "Provocação"
+      ],
+      "faltasConfirmadas": [],
+      "evidencias": [
+        "repertorio-cinco-exportacao.json",
+        "testes-repertorio-cinco.json",
+        "testes-repertorio-cinco-navegador.json",
+        "finalizacoes-elenco-testes.json"
+      ],
+      "faltasAnterioresResolvidas": [
+        "Provocação e risada originais não estão disponíveis como ações. Todos os seis ataques estão representados."
+      ]
+    },
+    {
+      "id": "noob-saibot",
+      "nome": "Noob Saibot",
+      "universo": "mk",
+      "repertorioCompleto": true,
+      "coberto": [
+        "Golpes básicos e agarrão normal",
+        "Rotas ativas dos combos originais",
+        "Socos alternados e ataques direcionais no ar",
+        "Especiais terrestres e variantes aéreas aplicáveis",
+        "Sem finalizações próprias no UMK3 arcade"
+      ],
+      "faltasConfirmadas": [],
+      "evidencias": [
+        "repertorio-vinte-exportacao.json",
+        "repertorio-vinte-especiais-aereos-origem.json",
+        "testes-repertorio-vinte.json",
+        "testes-repertorio-vinte-grupos.json",
+        "testes-repertorio-vinte-navegador.json",
+        "finalizacoes-elenco-testes.json",
+        "cinema-imagens-recuperadas-vinte.json"
+      ],
+      "faltasAnterioresResolvidas": [
+        "Rotas próprias dos combos originais ausentes. A configuração atual permite encadear ataques genéricos na recuperação, mas não representa todas as continuações do personagem.",
+        "Também faltam agarrão normal e mapeamentos específicos de rasteira/chute giratório."
+      ]
+    }
+  ],
+  "ultimoLote": {
+    "data": "2026-11-19",
+    "personagens": [
+      "human-smoke",
+      "mk-10",
+      "mk-11",
+      "mk-12",
+      "mk-13",
+      "mk-14",
+      "mk-15",
+      "mk-16",
+      "mk-17",
+      "mk-19",
+      "mk-2",
+      "mk-20",
+      "mk-3",
+      "mk-4",
+      "mk-5",
+      "mk-6",
+      "mk-7",
+      "mk-8",
+      "mk-9",
+      "noob-saibot"
+    ],
+    "personagensConcluidos": 20,
+    "comboPlaybacks": 328,
+    "normalInputs": 880,
+    "specialCommandCases": 184,
+    "nativeActiveComboRecords": 143,
+    "disabledOriginalRecordsNotInvented": 1,
+    "nativeComboSpecialCallbacks": 1,
+    "finisherPlaybacks": 330,
+    "shangMorphCases": 38,
+    "restoredCapturedSprites": 42,
+    "browserCharacters": 20,
+    "networkKeyboard": "Jax combo including Block and Noob normal throw synchronized between two browser clients",
+    "originalFidelityValidated": false
+  },
+  "lotesConcluidos": [
+    {
+      "data": "2026-11-19",
+      "personagens": [
+        "Scorpion",
+        "Sub-Zero clássico",
+        "Kano",
+        "Sonya",
+        "Shao Kahn"
+      ],
+      "comboBranchesPlaybackCases": 76,
+      "finisherPlaybackCases": 64,
+      "installedBrowserAndNetwork": "PASS",
+      "fidelityValidated": false
+    }
+  ]
+}

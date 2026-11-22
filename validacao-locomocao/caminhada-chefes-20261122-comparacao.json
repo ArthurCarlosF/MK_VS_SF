@@ -1,0 +1,65 @@
+{
+  "criterion": "Original AI walk invocations: unimpeded displacement exact and own pose within one native frame, both facings. Player input entry is a crossover adapter because these are native AI opponents.",
+  "results": [
+    {
+      "id": "shao-kahn",
+      "mode": "forward",
+      "nativeSpeed": 5,
+      "sourceSamples": 88,
+      "segments": 7,
+      "facings": 2,
+      "failures": [],
+      "pass": true
+    },
+    {
+      "id": "shao-kahn",
+      "mode": "backward",
+      "nativeSpeed": 4,
+      "sourceSamples": 135,
+      "segments": 3,
+      "facings": 2,
+      "failures": [],
+      "pass": true
+    },
+    {
+      "id": "motaro",
+      "mode": "forward",
+      "nativeSpeed": 4.125,
+      "sourceSamples": 63,
+      "segments": 7,
+      "facings": 2,
+      "failures": [],
+      "pass": true
+    },
+    {
+      "id": "motaro",
+      "mode": "backward",
+      "nativeSpeed": 4,
+      "sourceSamples": 142,
+      "segments": 3,
+      "facings": 2,
+      "failures": [],
+      "pass": true
+    },
+    {
+      "id": "noob-saibot",
+      "mode": "forward",
+      "nativeSpeed": 5,
+      "sourceSamples": 279,
+      "segments": 15,
+      "facings": 2,
+      "failures": [],
+      "pass": true
+    },
+    {
+      "id": "noob-saibot",
+      "mode": "backward",
+      "nativeSpeed": 3,
+      "sourceSamples": 145,
+      "segments": 6,
+      "facings": 2,
+      "failures": [],
+      "pass": true
+    }
+  ]
+}

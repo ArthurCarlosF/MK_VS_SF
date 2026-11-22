@@ -1,0 +1,585 @@
+{
+  "originalFidelityValidated": false,
+  "rows": [
+    {
+      "id": "mk-0",
+      "name": "Kano",
+      "expected": [
+        "fatality1",
+        "fatality2",
+        "animality",
+        "babality",
+        "friendship",
+        "stageFatality"
+      ],
+      "notApplicableInArcade": [],
+      "implemented": {
+        "animality": "umk3-r12-kano-animality-mirror-native-terminal",
+        "babality": "umk3-r12-kano-babality-mirror-native-terminal",
+        "fatality1": "umk3-r12-kano-fatality1-mirror-native-terminal",
+        "fatality2": "umk3-r12-kano-fatality2-mirror-native-terminal",
+        "friendship": "umk3-r12-kano-friendship-mirror-native-terminal",
+        "stageFatality": "shared_native_stage_event_with_owned_uppercut"
+      },
+      "pending": []
+    },
+    {
+      "id": "mk-1",
+      "name": "Sonya",
+      "expected": [
+        "fatality1",
+        "fatality2",
+        "animality",
+        "babality",
+        "friendship",
+        "stageFatality"
+      ],
+      "notApplicableInArcade": [],
+      "implemented": {
+        "animality": "umk3-r12-sonya-animality-mirror-native-terminal",
+        "babality": "umk3-r12-sonya-babality-mirror-native-terminal",
+        "fatality1": "umk3-r12-sonya-fatality1-mirror-native-terminal",
+        "fatality2": "umk3-r12-sonya-fatality2-mirror-native-terminal",
+        "friendship": "umk3-r12-sonya-friendship-mirror-native-terminal",
+        "stageFatality": "shared_native_stage_event_with_owned_uppercut"
+      },
+      "pending": []
+    },
+    {
+      "id": "mk-2",
+      "name": "Jax",
+      "expected": [
+        "fatality1",
+        "fatality2",
+        "animality",
+        "babality",
+        "friendship",
+        "stageFatality"
+      ],
+      "notApplicableInArcade": [],
+      "implemented": {
+        "animality": "umk3-r12-jax-animality-mirror-native-terminal",
+        "babality": "umk3-r12-jax-babality-mirror-native-terminal",
+        "fatality1": "umk3-r12-jax-fatality1-mirror-native-terminal",
+        "fatality2": "umk3-r12-jax-fatality2-mirror-native-terminal",
+        "friendship": "umk3-r12-jax-friendship-mirror-native-terminal",
+        "stageFatality": "shared_native_stage_event_with_owned_uppercut"
+      },
+      "pending": []
+    },
+    {
+      "id": "mk-3",
+      "name": "Nightwolf",
+      "expected": [
+        "fatality1",
+        "fatality2",
+        "animality",
+        "babality",
+        "friendship",
+        "stageFatality"
+      ],
+      "notApplicableInArcade": [],
+      "implemented": {
+        "animality": "umk3-r12-nightwolf-animality-mirror-native-terminal",
+        "babality": "umk3-r12-nightwolf-babality-mirror-native-terminal",
+        "fatality1": "umk3-r12-nightwolf-fatality1-mirror-native-terminal",
+        "fatality2": "umk3-r12-nightwolf-fatality2-mirror-native-terminal",
+        "friendship": "umk3-r12-nightwolf-friendship-mirror-native-terminal",
+        "stageFatality": "shared_native_stage_event_with_owned_uppercut"
+      },
+      "pending": []
+    },
+    {
+      "id": "mk-4",
+      "name": "Sub-Zero",
+      "expected": [
+        "fatality1",
+        "fatality2",
+        "animality",
+        "babality",
+        "friendship",
+        "stageFatality"
+      ],
+      "notApplicableInArcade": [],
+      "implemented": {
+        "animality": "umk3-r12-unmasked-sub-zero-animality-mirror-native-terminal",
+        "babality": "umk3-r12-unmasked-sub-zero-babality-mirror-native-terminal",
+        "fatality1": "umk3-r12-unmasked-sub-zero-fatality1-mirror-native-terminal",
+        "fatality2": "umk3-r12-unmasked-sub-zero-fatality2-mirror-native-terminal",
+        "friendship": "umk3-r12-unmasked-sub-zero-friendship-mirror-native-terminal",
+        "stageFatality": "shared_native_stage_event_with_owned_uppercut"
+      },
+      "pending": []
+    },
+    {
+      "id": "mk-5",
+      "name": "Stryker",
+      "expected": [
+        "fatality1",
+        "fatality2",
+        "animality",
+        "babality",
+        "friendship",
+        "stageFatality"
+      ],
+      "notApplicableInArcade": [],
+      "implemented": {
+        "animality": "umk3-r12-stryker-animality-mirror-native-terminal",
+        "babality": "umk3-r12-stryker-babality-mirror-native-terminal",
+        "fatality1": "umk3-r12-stryker-fatality1-mirror-native-terminal",
+        "fatality2": "umk3-r12-stryker-fatality2-mirror-native-terminal",
+        "friendship": "umk3-r12-stryker-friendship-mirror-native-terminal",
+        "stageFatality": "shared_native_stage_event_with_owned_uppercut"
+      },
+      "pending": []
+    },
+    {
+      "id": "mk-6",
+      "name": "Sindel",
+      "expected": [
+        "fatality1",
+        "fatality2",
+        "animality",
+        "babality",
+        "friendship",
+        "stageFatality"
+      ],
+      "notApplicableInArcade": [],
+      "implemented": {
+        "animality": "umk3-r12-sindel-animality-mirror-native-terminal",
+        "babality": "umk3-r12-sindel-babality-mirror-native-terminal",
+        "fatality1": "umk3-r12-sindel-fatality1-mirror-native-terminal",
+        "fatality2": "umk3-r12-sindel-fatality2-mirror-native-terminal",
+        "friendship": "umk3-r12-sindel-friendship-mirror-native-terminal",
+        "stageFatality": "shared_native_stage_event_with_owned_uppercut"
+      },
+      "pending": []
+    },
+    {
+      "id": "mk-7",
+      "name": "Sektor",
+      "expected": [
+        "fatality1",
+        "fatality2",
+        "animality",
+        "babality",
+        "friendship",
+        "stageFatality"
+      ],
+      "notApplicableInArcade": [],
+      "implemented": {
+        "animality": "umk3-r12-sektor-animality-mirror-native-terminal",
+        "babality": "umk3-r12-sektor-babality-mirror-native-terminal",
+        "fatality1": "umk3-r12-sektor-fatality1-mirror-native-terminal",
+        "fatality2": "umk3-r12-sektor-fatality2-mirror-native-terminal",
+        "friendship": "umk3-r12-sektor-friendship-mirror-native-terminal",
+        "stageFatality": "shared_native_stage_event_with_owned_uppercut"
+      },
+      "pending": []
+    },
+    {
+      "id": "mk-8",
+      "name": "Cyrax",
+      "expected": [
+        "fatality1",
+        "fatality2",
+        "animality",
+        "babality",
+        "friendship",
+        "stageFatality"
+      ],
+      "notApplicableInArcade": [],
+      "implemented": {
+        "animality": "umk3-r12-cyrax-animality-mirror-native-terminal",
+        "babality": "umk3-r12-cyrax-babality-mirror-native-terminal",
+        "fatality1": "umk3-r12-cyrax-fatality1-mirror-native-terminal",
+        "fatality2": "umk3-r12-cyrax-fatality2-mirror-native-terminal",
+        "friendship": "umk3-r12-cyrax-friendship-mirror-native-terminal",
+        "stageFatality": "shared_native_stage_event_with_owned_uppercut"
+      },
+      "pending": []
+    },
+    {
+      "id": "mk-9",
+      "name": "Kung Lao",
+      "expected": [
+        "fatality1",
+        "fatality2",
+        "animality",
+        "babality",
+        "friendship",
+        "stageFatality"
+      ],
+      "notApplicableInArcade": [],
+      "implemented": {
+        "animality": "umk3-r12-kung-lao-animality-mirror-native-terminal",
+        "babality": "umk3-r12-kung-lao-babality-mirror-native-terminal",
+        "fatality1": "umk3-r12-kung-lao-fatality1-mirror-native-terminal",
+        "fatality2": "umk3-r12-kung-lao-fatality2-mirror-native-terminal",
+        "friendship": "umk3-r12-kung-lao-friendship-mirror-native-terminal",
+        "stageFatality": "shared_native_stage_event_with_owned_uppercut"
+      },
+      "pending": []
+    },
+    {
+      "id": "mk-10",
+      "name": "Kabal",
+      "expected": [
+        "fatality1",
+        "fatality2",
+        "animality",
+        "babality",
+        "friendship",
+        "stageFatality"
+      ],
+      "notApplicableInArcade": [],
+      "implemented": {
+        "animality": "umk3-r12-kabal-animality-mirror-native-terminal",
+        "babality": "umk3-r12-kabal-babality-mirror-native-terminal",
+        "fatality1": "umk3-r12-kabal-fatality1-mirror-native-terminal",
+        "fatality2": "umk3-r12-kabal-fatality2-mirror-native-terminal",
+        "friendship": "umk3-r12-kabal-friendship-mirror-native-terminal",
+        "stageFatality": "shared_native_stage_event_with_owned_uppercut"
+      },
+      "pending": []
+    },
+    {
+      "id": "mk-11",
+      "name": "Sheeva",
+      "expected": [
+        "fatality1",
+        "fatality2",
+        "animality",
+        "babality",
+        "friendship",
+        "stageFatality"
+      ],
+      "notApplicableInArcade": [],
+      "implemented": {
+        "animality": "umk3-r12-sheeva-animality-mirror-native-terminal",
+        "babality": "umk3-r12-sheeva-babality-mirror-native-terminal",
+        "fatality1": "umk3-r12-sheeva-fatality1-mirror-native-terminal",
+        "fatality2": "umk3-r12-sheeva-fatality2-mirror-native-terminal",
+        "friendship": "umk3-r12-sheeva-friendship-mirror-native-terminal",
+        "stageFatality": "shared_native_stage_event_with_owned_uppercut"
+      },
+      "pending": []
+    },
+    {
+      "id": "mk-12",
+      "name": "Shang Tsung",
+      "expected": [
+        "fatality1",
+        "fatality2",
+        "animality",
+        "babality",
+        "friendship",
+        "stageFatality"
+      ],
+      "notApplicableInArcade": [],
+      "implemented": {
+        "animality": "umk3-r12-shang-tsung-animality-mirror-native-terminal",
+        "babality": "umk3-r12-shang-tsung-babality-mirror-native-terminal",
+        "fatality1": "umk3-r12-shang-tsung-fatality1-mirror-native-terminal",
+        "fatality2": "umk3-r12-shang-tsung-fatality2-mirror-native-terminal",
+        "friendship": "umk3-r12-shang-tsung-friendship-mirror-native-terminal",
+        "stageFatality": "shared_native_stage_event_with_owned_uppercut"
+      },
+      "pending": []
+    },
+    {
+      "id": "mk-13",
+      "name": "Liu Kang",
+      "expected": [
+        "fatality1",
+        "fatality2",
+        "animality",
+        "babality",
+        "friendship",
+        "stageFatality"
+      ],
+      "notApplicableInArcade": [],
+      "implemented": {
+        "animality": "umk3-r12-liu-kang-animality-mirror-native-terminal",
+        "babality": "umk3-r12-liu-kang-babality-mirror-native-terminal",
+        "fatality1": "umk3-r12-liu-kang-fatality1-mirror-native-terminal",
+        "fatality2": "umk3-r12-liu-kang-fatality2-mirror-native-terminal",
+        "friendship": "umk3-r12-liu-kang-friendship-mirror-native-terminal",
+        "stageFatality": "shared_native_stage_event_with_owned_uppercut"
+      },
+      "pending": []
+    },
+    {
+      "id": "mk-14",
+      "name": "Smoke",
+      "expected": [
+        "fatality1",
+        "fatality2",
+        "animality",
+        "babality",
+        "friendship",
+        "stageFatality"
+      ],
+      "notApplicableInArcade": [],
+      "implemented": {
+        "animality": "umk3-r12-smoke-animality-mirror-native-terminal",
+        "babality": "umk3-r12-smoke-babality-mirror-native-terminal",
+        "fatality1": "umk3-r12-smoke-fatality1-mirror-native-terminal",
+        "fatality2": "umk3-r12-smoke-fatality2-mirror-native-terminal",
+        "friendship": "umk3-r12-smoke-friendship-mirror-native-terminal",
+        "stageFatality": "shared_native_stage_event_with_owned_uppercut"
+      },
+      "pending": []
+    },
+    {
+      "id": "mk-15",
+      "name": "Kitana",
+      "expected": [
+        "fatality1",
+        "fatality2",
+        "animality",
+        "babality",
+        "friendship",
+        "stageFatality"
+      ],
+      "notApplicableInArcade": [],
+      "implemented": {
+        "animality": "umk3-r12-kitana-animality-mirror-native-terminal",
+        "babality": "umk3-r12-kitana-babality-mirror-native-terminal",
+        "fatality1": "umk3-r12-kitana-fatality1-mirror-native-terminal",
+        "fatality2": "umk3-r12-kitana-fatality2-mirror-native-terminal",
+        "friendship": "umk3-r12-kitana-friendship-mirror-native-terminal",
+        "stageFatality": "shared_native_stage_event_with_owned_uppercut"
+      },
+      "pending": []
+    },
+    {
+      "id": "mk-16",
+      "name": "Jade",
+      "expected": [
+        "fatality1",
+        "fatality2",
+        "animality",
+        "babality",
+        "friendship",
+        "stageFatality"
+      ],
+      "notApplicableInArcade": [],
+      "implemented": {
+        "animality": "umk3-r12-jade-animality-mirror-native-terminal",
+        "babality": "umk3-r12-jade-babality-mirror-native-terminal",
+        "fatality1": "umk3-r12-jade-fatality1-mirror-native-terminal",
+        "fatality2": "umk3-r12-jade-fatality2-mirror-native-terminal",
+        "friendship": "umk3-r12-jade-friendship-mirror-native-terminal",
+        "stageFatality": "shared_native_stage_event_with_owned_uppercut"
+      },
+      "pending": []
+    },
+    {
+      "id": "mk-17",
+      "name": "Mileena",
+      "expected": [
+        "fatality1",
+        "fatality2",
+        "animality",
+        "babality",
+        "friendship",
+        "stageFatality"
+      ],
+      "notApplicableInArcade": [],
+      "implemented": {
+        "animality": "umk3-r12-mileena-animality-mirror-native-terminal",
+        "babality": "umk3-r12-mileena-babality-mirror-native-terminal",
+        "fatality1": "umk3-r12-mileena-fatality1-mirror-native-terminal",
+        "fatality2": "umk3-r12-mileena-fatality2-mirror-native-terminal",
+        "friendship": "umk3-r12-mileena-friendship-mirror-native-terminal",
+        "stageFatality": "shared_native_stage_event_with_owned_uppercut"
+      },
+      "pending": []
+    },
+    {
+      "id": "scorpion",
+      "name": "Scorpion",
+      "expected": [
+        "fatality1",
+        "fatality2",
+        "animality",
+        "babality",
+        "friendship",
+        "stageFatality"
+      ],
+      "notApplicableInArcade": [],
+      "implemented": {
+        "fatality1": "existing_native_film",
+        "fatality2": "existing_native_film",
+        "animality": "existing_native_film",
+        "babality": "existing_native_film",
+        "friendship": "existing_native_film",
+        "stageFatality": "existing_native_film"
+      },
+      "pending": []
+    },
+    {
+      "id": "mk-19",
+      "name": "Reptile",
+      "expected": [
+        "fatality1",
+        "fatality2",
+        "animality",
+        "babality",
+        "friendship",
+        "stageFatality"
+      ],
+      "notApplicableInArcade": [],
+      "implemented": {
+        "animality": "umk3-r12-reptile-animality-mirror-native-terminal",
+        "babality": "umk3-r12-reptile-babality-mirror-native-terminal",
+        "fatality1": "umk3-r12-reptile-fatality1-mirror-native-terminal",
+        "fatality2": "umk3-r12-reptile-fatality2-mirror-native-terminal",
+        "friendship": "umk3-r12-reptile-friendship-mirror-native-terminal",
+        "stageFatality": "shared_native_stage_event_with_owned_uppercut"
+      },
+      "pending": []
+    },
+    {
+      "id": "mk-20",
+      "name": "Ermac",
+      "expected": [
+        "fatality1",
+        "fatality2",
+        "stageFatality"
+      ],
+      "notApplicableInArcade": [
+        "animality",
+        "babality",
+        "friendship"
+      ],
+      "implemented": {
+        "fatality1": "umk3-r12-ermac-fatality1-mirror-native-terminal",
+        "fatality2": "umk3-r12-ermac-fatality2-mirror-native-terminal",
+        "stageFatality": "shared_native_stage_event_with_owned_uppercut"
+      },
+      "pending": []
+    },
+    {
+      "id": "mk-21",
+      "name": "Sub-Zero",
+      "expected": [
+        "fatality1",
+        "stageFatality"
+      ],
+      "notApplicableInArcade": [
+        "fatality2",
+        "animality",
+        "babality",
+        "friendship"
+      ],
+      "implemented": {
+        "fatality1": "umk3-r12-sub-zero-fatality1-mirror-native-terminal",
+        "stageFatality": "shared_native_stage_event_with_owned_uppercut"
+      },
+      "pending": []
+    },
+    {
+      "id": "human-smoke",
+      "name": "Smoke",
+      "expected": [
+        "fatality1",
+        "babality",
+        "stageFatality"
+      ],
+      "notApplicableInArcade": [
+        "fatality2",
+        "animality",
+        "friendship"
+      ],
+      "implemented": {
+        "babality": "umk3-r12-human-smoke-babality-mirror-native-terminal",
+        "fatality1": "umk3-r12-human-smoke-fatality1-mirror-native-terminal",
+        "stageFatality": "shared_native_stage_event_with_owned_uppercut"
+      },
+      "pending": []
+    },
+    {
+      "id": "noob-saibot",
+      "name": "",
+      "expected": [],
+      "notApplicableInArcade": [
+        "fatality1",
+        "fatality2",
+        "animality",
+        "babality",
+        "friendship",
+        "stageFatality"
+      ],
+      "implemented": {},
+      "pending": []
+    },
+    {
+      "id": "motaro",
+      "name": "Motaro",
+      "expected": [],
+      "implemented": {},
+      "pending": [],
+      "noArcadeFinisherCommands": true
+    },
+    {
+      "id": "shao-kahn",
+      "name": "Shao Kahn",
+      "expected": [],
+      "implemented": {},
+      "pending": [],
+      "noArcadeFinisherCommands": true
+    }
+  ],
+  "animalityOwners": [
+    "mk-0",
+    "mk-1",
+    "mk-2",
+    "mk-3",
+    "mk-4",
+    "mk-5",
+    "mk-6",
+    "mk-7",
+    "mk-8",
+    "mk-9",
+    "mk-10",
+    "mk-11",
+    "mk-12",
+    "mk-13",
+    "mk-14",
+    "mk-15",
+    "mk-16",
+    "mk-17",
+    "scorpion",
+    "mk-19"
+  ],
+  "mercyOwners": [
+    "mk-0",
+    "mk-1",
+    "mk-2",
+    "mk-3",
+    "mk-4",
+    "mk-5",
+    "mk-6",
+    "mk-7",
+    "mk-8",
+    "mk-9",
+    "mk-10",
+    "mk-11",
+    "mk-12",
+    "mk-13",
+    "mk-14",
+    "mk-15",
+    "mk-16",
+    "mk-17",
+    "scorpion",
+    "mk-19",
+    "mk-20",
+    "mk-21",
+    "human-smoke"
+  ],
+  "remaining": 0,
+  "stageOwnerPresentation": "owned native uppercut, shared native stage event",
+  "nativeCommandValidation": "Routine-resume RAM fixtures capture original routines; they do not prove original command acceptance or timing."
+}

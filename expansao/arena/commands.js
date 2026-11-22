@@ -15,6 +15,12 @@
   if(!player.history.length||player.history.at(-1).code!==code)player.history.push({code,time});
   player.history=player.history.filter(e=>time-e.time<.8);
   player.releasedAt ||= {};player.lastPressAt ||= {};
+  player.chargeStarted ??= {};
+  for(const command of definition.commands||[]){
+   if(!command.chargeSeconds)continue;
+   const key=command.button;
+   if(input[key]&&!prev[key])player.chargeStarted[key]=time;
+  }
   // Keep just this simulation tick's edges. Special repeat slots live on the
   // active action; they cannot become a later unrelated move.
   player.buffer=[];
@@ -27,7 +33,27 @@
     }
    }
   }
+  for(const command of definition.commands||[]){
+   if(!command.chargeSeconds)continue;
+   const key=command.button;
+   if(prev[key]&&!input[key]){
+    if(!!command.air!==player.airborne)continue;
+    if(time-(player.chargeStarted[key]??time)>=command.chargeSeconds)
+     player.buffer.push({button:key,time,release:true,chargedMove:command.move});
+    delete player.chargeStarted[key];
+   }
+  }
+  for(const button of ['run','block','up']){
+   if(input[button]&&!prev[button]&&definition.commands?.some(command=>command.button===button||command.buttons?.includes(button)))
+    player.buffer.push({button,time});
+  }
+  if(input.block&&!prev.block&&!player.buffer.some(e=>e.button==='block')&&
+     definition.moves?.[player.action?.name]?.chainEdges?.some(e=>e.button==='block'))
+    player.buffer.push({button:'block',time});
+  if(definition.airThrow&&player.airborne&&input.block&&!prev.block)player.buffer.push({button:'airThrow',time});
   player.jumpPressed=policy.heldJump?input.up:input.up&&!prev.up;
+  if(!player.airborne&&player.jumpPressed&&player.buffer.some(event=>event.button==='up')&&
+     definition.commands?.some(command=>command.button==='up'&&!command.air&&motion(player,command,time)))player.jumpPressed=false;
   player.previousInput={...input};player.input=input;
  }
  function motion(player,command,time){
@@ -47,30 +73,45 @@
  }
  function action(player,definition,time){
   const events=player.buffer;if(!events.length)return null;
+  const charged=events.find(event=>event.chargedMove&&!!definition.moves[event.chargedMove]?.air===player.airborne);
+  if(charged)return {move:charged.chargedMove,event:charged};
+  const grab=events.find(event=>event.button==='airThrow');
+  if(grab&&definition.airThrow)return {move:definition.airThrow,event:grab};
   // Dedicated crossover shortcuts take priority; native directional commands
   // precede normal attacks and may be activated on release in SF.
   for(const button of ['teleport','special','throw']){
    const event=events.find(e=>e.button===button&&!e.release);if(!event)continue;
-   const move=button==='special'?definition.special:button==='teleport'?definition.teleport:(definition.defaultThrow||'throw');
+   const move=button==='special'?definition.special:button==='teleport'?definition.teleport:(player.airborne?definition.airDefaultThrow:definition.defaultThrow)||'throw';
    if(move)return {move,event};
   }
   for(const command of definition.commands||[]){
+   if(command.chargeSeconds)continue;
    const airborne=command.airborneByHeight?player.airborne&&player.y>.01:player.airborne;
    if(!!command.air!==airborne)continue;
-   const event=events.find(e=>e.button===(command.button||'punch')&&(!e.release||command.negativeEdge));
+   const chord=command.buttons;
+   if(chord&&!chord.every(button=>player.input[button]))continue;
+   const event=events.find(e=>(chord?chord.includes(e.button):e.button===(command.button||'punch'))&&(!e.release||!chord&&command.negativeEdge));
    if(event&&motion(player,command,time))return {move:command.move,event};
   }
+  const comboBlock=events.find(e=>e.button==='block'&&!e.release);
+  if(comboBlock&&definition.moves[player.action?.name]?.chainEdges?.some(e=>e.button==='block'))
+    return {move:player.action.name,event:comboBlock};
   if(definition.guard==='button'&&player.input.block)return null;
   const event=events.find(e=>!e.release&&normals.includes(e.button));if(!event)return null;
   const control=definition.normalControls?.[event.button];
   if(control){
-   if(player.airborne)return {move:player.jumpKind==='jump'?control.airVertical:control.airDirectional,event};
+   if(player.airborne){
+    const throws=control.airThrows,back=player.input.x===-player.facing;
+    if(throws&&player.input.x&&player.opponentAirborne&&Math.abs(player.opponentHeight-player.y)<=throws.heightRange&&player.opponentDistance<=Math.max(throws.range,(player.bodyHalfWidth||0)+(player.opponentBodyHalfWidth||0)+4)&&throws[back?'backward':'forward'])
+      return {move:throws[back?'backward':'forward'],event};
+    return {move:player.jumpKind==='jump'?control.airVertical:control.airDirectional,event};
+   }
    if(player.input.down)return {move:control.crouch,event};
    const forward=player.input.x===player.facing,back=player.input.x===-player.facing;
-   if(control.throws&&(forward||back)&&player.opponentDistance<=control.throws.range)
+   if(control.throws&&(forward||back)&&player.opponentDistance<=Math.max(control.throws.range,(player.bodyHalfWidth||0)+(player.opponentBodyHalfWidth||0)+4)&&control.throws[back?'backward':'forward'])
      return {move:control.throws[back?'backward':'forward'],event};
    const standing=control.standing,near=player.opponentDistance<=standing.nearRange;
-   if(back&&control.back&&!near)return {move:control.back,event};
+   if(back&&control.back&&(!near||definition.nativeBackNormals))return {move:control.back,event};
    // UMK3 back+LP deliberately suppresses its automatic close throw.
    if(near&&definition.moves[standing.near]?.grapple?.escapeByBack&&back)
      return {move:standing.far,event};
@@ -90,9 +131,17 @@
  scope.FightSequences={
   request(g,p,request){
    const a=p.action;if(!a||request.event?.release)return null;
-   if(g.definition(p).moves[request.move]?.kind!=='strike')return null;
+   const requested=g.definition(p).moves[request.move];
    const m=g.definition(p).moves[a.name],edges=m.chainEdges||[],fps=g.bank[p.id].fps;
-   const edge=edges.find(e=>e.button===request.event?.button&&(e.direction===undefined||p.input.x*p.facing===e.direction));
+   const normalButton=['punch','punch2','kick','kick2'].includes(request.event?.button);
+   if(requested?.kind!=='strike'&&!(normalButton&&(requested?.grapple||m.nativeComboRoute)))return null;
+   const edge=edges.find(e=>e.button===request.event?.button&&
+    (e.direction===undefined||p.input.x*p.facing===e.direction)&&
+    (e.requirement!==1||p.input.x*p.facing===-1)&&
+    (e.requirement!==2||scope.FightCommands.motion(p,{sequence:[2,6],allowNeutral:true,windowSeconds:.4},g.elapsed))&&
+    (e.requirement!==3||p.input.x*p.facing===1)&&
+    (e.requirement!==4||p.input.down)&&
+    (e.requirement!==6||p.input.up)&&e.requirement!==7);
    if(!edge)return null;
    const age=a.time*fps;
    if(age<edge.window[0]-fps/240-1e-6||age>=edge.window[1]+1e-6)return false;
@@ -113,9 +162,12 @@
    if(!rule.outcomes.includes(a.contactResult||'whiff'))return false;
    const age=a.time*g.bank[p.id].fps;
    const wall=rule.wallByOutcome?.[a.contactResult||'whiff'];
-   if(wall&&a.wallTime!==undefined&&!wall.some(([lo,hi])=>(a.requestWall??a.wallTime)*g.bank[p.id].fps>=lo-.5&&(a.requestWall??a.wallTime)*g.bank[p.id].fps<hi+.5))return false;
+   if(wall&&a.wallTime!==undefined&&!wall.some(([lo,hi])=>(a.requestWall??a.wallTime)*g.bank[p.id].fps>=lo-.5&&(a.requestWall??a.wallTime)*g.bank[p.id].fps<hi-.5))return false;
    const ranges=rule.byOutcome?.[a.contactResult||'whiff']||rule.ranges;
-   return ranges.some(([lo,hi])=>age>=lo-1e-6&&age<hi+1e-6);
+   // Before contact, these SF whiff windows are native video samples. A
+   // simulation step can land just before their integer boundary.
+   const sample=wall&&!a.connected&&a.time<m.startup?Math.round(age):age;
+   return ranges.some(([lo,hi])=>sample>=lo-1e-6&&sample<hi+1e-6);
   }
  };
 })(typeof window==='undefined'?globalThis:window);

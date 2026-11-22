@@ -11,7 +11,7 @@ class Peer{
   close(){this.ws.close();}
 }
 (async()=>{
- const root=path.resolve(__dirname,'..'),app=createGameServer({root,project:path.resolve(root,'..'),graceMs:350,loadingMs:1200});const address=await app.listen(0,'127.0.0.1'),origin='http://127.0.0.1:'+address.port,url=origin.replace('http:','ws:')+'/ws',peers=[],passed=[];
+ const root=path.resolve(__dirname,'..'),app=createGameServer({root,project:'D:/projetos/Mortal Kombat vs Street Fighter',graceMs:350,loadingMs:1200});const address=await app.listen(0,'127.0.0.1'),origin='http://127.0.0.1:'+address.port,url=origin.replace('http:','ws:')+'/ws',peers=[],passed=[];
  const peer=async()=>{const p=await new Peer(url).open();peers.push(p);return p;};
  try{
   const a=await peer();a.send({type:'create',name:'Teste',nick:'Anfitrião',capacity:4,mode:'versus'});const ja=await a.wait('joined'),code=ja.room.code;

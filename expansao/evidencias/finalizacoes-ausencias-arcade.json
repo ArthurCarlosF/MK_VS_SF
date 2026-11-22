@@ -1,0 +1,91 @@
+{
+  "romSha256": "27827b4fc48eb8e2fd2f7291ca9ef84455a54c35776d48bddb9f28152a5053da",
+  "source": "UMK3 r1.2 ROM dispatch tables and extracted input records; shipped collection guide",
+  "rows": [
+    {
+      "nativeId": 20,
+      "guideId": "ermac",
+      "unavailableInArcadeScope": [
+        "animality",
+        "friendship",
+        "babality"
+      ],
+      "dispatchPointers": {
+        "nativeFatalitySlot1": "0xff9fb310",
+        "nativeFatalitySlot2": "0xff9fb050",
+        "animality": "0xffa2ce50",
+        "friendship": "0xffa418b0"
+      },
+      "directInputKinds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "notes": "Human Smoke has one fatality: the guide calls it fatality1 but the ROM dispatches native slot2. Shared empty routines are not new finishers."
+    },
+    {
+      "nativeId": 21,
+      "guideId": "sub_zero",
+      "unavailableInArcadeScope": [
+        "fatality2",
+        "animality",
+        "friendship",
+        "babality"
+      ],
+      "dispatchPointers": {
+        "nativeFatalitySlot1": "0xff9fa530",
+        "nativeFatalitySlot2": "0xffb29ee0",
+        "animality": "0xffa2ce50",
+        "friendship": "0xffa418b0"
+      },
+      "directInputKinds": [
+        0,
+        3
+      ],
+      "notes": "Human Smoke has one fatality: the guide calls it fatality1 but the ROM dispatches native slot2. Shared empty routines are not new finishers."
+    },
+    {
+      "nativeId": 22,
+      "guideId": "human_smoke",
+      "unavailableInArcadeScope": [
+        "fatality2",
+        "animality",
+        "friendship"
+      ],
+      "dispatchPointers": {
+        "nativeFatalitySlot1": "0xffb29ee0",
+        "nativeFatalitySlot2": "0xff9fb050",
+        "animality": "0xffa2ce50",
+        "friendship": "0xffa418b0"
+      },
+      "directInputKinds": [],
+      "notes": "Human Smoke has one fatality: the guide calls it fatality1 but the ROM dispatches native slot2. Shared empty routines are not new finishers."
+    },
+    {
+      "nativeId": 23,
+      "guideId": "noob_saibot",
+      "unavailableInArcadeScope": [
+        "fatality1",
+        "fatality2",
+        "animality",
+        "friendship",
+        "babality",
+        "stageFatality"
+      ],
+      "dispatchPointers": {
+        "nativeFatalitySlot1": "0xffb29ee0",
+        "nativeFatalitySlot2": "0xffb29ee0",
+        "animality": "0xffa2ce50",
+        "friendship": "0xffa418b0"
+      },
+      "directInputKinds": [],
+      "notes": "Human Smoke has one fatality: the guide calls it fatality1 but the ROM dispatches native slot2. Shared empty routines are not new finishers."
+    }
+  ],
+  "bosses": {
+    "motaro": "No player finishing-move repertoire in the selected arcade scope",
+    "shao-kahn": "No player finishing-move repertoire in the selected arcade scope"
+  },
+  "consoleBrutalitiesIncluded": false
+}

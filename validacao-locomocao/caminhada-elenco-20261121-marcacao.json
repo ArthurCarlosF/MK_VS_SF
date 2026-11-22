@@ -1,0 +1,209 @@
+{
+  "approvedCharacters": [
+    "human-smoke",
+    "mk-0",
+    "mk-1",
+    "mk-10",
+    "mk-11",
+    "mk-12",
+    "mk-13",
+    "mk-14",
+    "mk-15",
+    "mk-16",
+    "mk-17",
+    "mk-19",
+    "mk-2",
+    "mk-20",
+    "mk-21",
+    "mk-3",
+    "mk-4",
+    "mk-5",
+    "mk-6",
+    "mk-7",
+    "mk-8",
+    "mk-9",
+    "scorpion"
+  ],
+  "walkingCheckboxes": 46,
+  "newlyMarked": 44,
+  "changes": [
+    {
+      "character": "Sub-Zero",
+      "item": "[ ] Caminhada para frente"
+    },
+    {
+      "character": "Sub-Zero",
+      "item": "[ ] Caminhada para trás"
+    },
+    {
+      "character": "Sub-Zero clássico",
+      "item": "[ ] Caminhada para frente"
+    },
+    {
+      "character": "Sub-Zero clássico",
+      "item": "[ ] Caminhada para trás"
+    },
+    {
+      "character": "Reptile",
+      "item": "[ ] Caminhada para frente"
+    },
+    {
+      "character": "Reptile",
+      "item": "[ ] Caminhada para trás"
+    },
+    {
+      "character": "Ermac",
+      "item": "[ ] Caminhada para frente"
+    },
+    {
+      "character": "Ermac",
+      "item": "[ ] Caminhada para trás"
+    },
+    {
+      "character": "Smoke robô",
+      "item": "[ ] Caminhada para frente"
+    },
+    {
+      "character": "Smoke robô",
+      "item": "[ ] Caminhada para trás"
+    },
+    {
+      "character": "Smoke Humano",
+      "item": "[ ] Caminhada para frente"
+    },
+    {
+      "character": "Smoke Humano",
+      "item": "[ ] Caminhada para trás"
+    },
+    {
+      "character": "Kitana",
+      "item": "[ ] Caminhada para frente"
+    },
+    {
+      "character": "Kitana",
+      "item": "[ ] Caminhada para trás"
+    },
+    {
+      "character": "Mileena",
+      "item": "[ ] Caminhada para frente"
+    },
+    {
+      "character": "Mileena",
+      "item": "[ ] Caminhada para trás"
+    },
+    {
+      "character": "Jade",
+      "item": "[ ] Caminhada para frente"
+    },
+    {
+      "character": "Jade",
+      "item": "[ ] Caminhada para trás"
+    },
+    {
+      "character": "Kano",
+      "item": "[ ] Caminhada para frente"
+    },
+    {
+      "character": "Kano",
+      "item": "[ ] Caminhada para trás"
+    },
+    {
+      "character": "Sonya",
+      "item": "[ ] Caminhada para frente"
+    },
+    {
+      "character": "Sonya",
+      "item": "[ ] Caminhada para trás"
+    },
+    {
+      "character": "Jax",
+      "item": "[ ] Caminhada para frente"
+    },
+    {
+      "character": "Jax",
+      "item": "[ ] Caminhada para trás"
+    },
+    {
+      "character": "Nightwolf",
+      "item": "[ ] Caminhada para frente"
+    },
+    {
+      "character": "Nightwolf",
+      "item": "[ ] Caminhada para trás"
+    },
+    {
+      "character": "Stryker",
+      "item": "[ ] Caminhada para frente"
+    },
+    {
+      "character": "Stryker",
+      "item": "[ ] Caminhada para trás"
+    },
+    {
+      "character": "Sindel",
+      "item": "[ ] Caminhada para frente"
+    },
+    {
+      "character": "Sindel",
+      "item": "[ ] Caminhada para trás"
+    },
+    {
+      "character": "Sektor",
+      "item": "[ ] Caminhada para frente"
+    },
+    {
+      "character": "Sektor",
+      "item": "[ ] Caminhada para trás"
+    },
+    {
+      "character": "Cyrax",
+      "item": "[ ] Caminhada para frente"
+    },
+    {
+      "character": "Cyrax",
+      "item": "[ ] Caminhada para trás"
+    },
+    {
+      "character": "Kung Lao",
+      "item": "[ ] Caminhada para frente"
+    },
+    {
+      "character": "Kung Lao",
+      "item": "[ ] Caminhada para trás"
+    },
+    {
+      "character": "Kabal",
+      "item": "[ ] Caminhada para frente"
+    },
+    {
+      "character": "Kabal",
+      "item": "[ ] Caminhada para trás"
+    },
+    {
+      "character": "Sheeva",
+      "item": "[ ] Caminhada para frente"
+    },
+    {
+      "character": "Sheeva",
+      "item": "[ ] Caminhada para trás"
+    },
+    {
+      "character": "Shang Tsung",
+      "item": "[ ] Caminhada para frente"
+    },
+    {
+      "character": "Shang Tsung",
+      "item": "[ ] Caminhada para trás"
+    },
+    {
+      "character": "Liu Kang",
+      "item": "[ ] Caminhada para frente"
+    },
+    {
+      "character": "Liu Kang",
+      "item": "[ ] Caminhada para trás"
+    }
+  ],
+  "onlyCheckboxBytesChanged": true,
+  "afterSha256": "dfd5d04ad557b2a37b6c3856f665e9998499a7a95be088d1d931a54779cdde8d"
+}

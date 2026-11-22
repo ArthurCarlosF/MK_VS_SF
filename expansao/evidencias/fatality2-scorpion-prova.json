@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "profile": "umk3-r12-scorpion-fatality2-scorpion-victim-native-terminal",
+  "frames": 561,
+  "sprites": 83,
+  "nativeScreenshotSamples": 50,
+  "winnerBannerExcluded": true,
+  "nativeAudio": {
+    "file": "fatality2-verified-mix.wav",
+    "duration": 10.506541666666667,
+    "onsetSeconds": 0.03759048846383666,
+    "sha256": "a920972747a2a47b11ed9a52877f189afcf2bca3030398376c0b74da37720611"
+  },
+  "captureSha256": "4e72c1284aed9aa6e2f680875e3d07bb9cf575655b18114ce0624d49d2227ce7",
+  "nativeCompletionFlag": 232,
+  "nativeSceneTransition": 575,
+  "distance": [
+    160,
+    224
+  ],
+  "pair": "Scorpion → Scorpion",
+  "runtimeIntegrationValidationPending": false,
+  "validatedLocalAndLAN": true
+}

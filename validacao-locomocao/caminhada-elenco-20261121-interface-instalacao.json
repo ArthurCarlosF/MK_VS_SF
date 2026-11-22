@@ -1,0 +1,447 @@
+{
+  "root": "D:\\Projetos\\Mortal Kombat vs Street Fighter\\expansao",
+  "status": "PASS",
+  "results": [
+    {
+      "id": "motaro",
+      "seen": [
+        {
+          "input": {
+            "x": 1
+          },
+          "moved": 74.25,
+          "state": "forward",
+          "frame": 17
+        },
+        {
+          "input": {
+            "x": -1
+          },
+          "moved": -72,
+          "state": "backward",
+          "frame": 17
+        },
+        {
+          "input": {
+            "down": true
+          },
+          "moved": 0,
+          "state": "idle",
+          "frame": 30
+        },
+        {
+          "input": {
+            "x": 1
+          },
+          "moved": 74.25,
+          "state": "forward",
+          "frame": 17
+        },
+        {
+          "input": {
+            "x": 1,
+            "run": true
+          },
+          "moved": 74.25,
+          "state": "forward",
+          "frame": 17
+        },
+        {
+          "input": {},
+          "moved": 0,
+          "state": "idle",
+          "frame": 30
+        }
+      ],
+      "canRun": false,
+      "maximumStep": 8.25,
+      "errors": []
+    },
+    {
+      "id": "shao-kahn",
+      "seen": [
+        {
+          "input": {
+            "x": 1
+          },
+          "moved": 90,
+          "state": "forward",
+          "frame": 17
+        },
+        {
+          "input": {
+            "x": -1
+          },
+          "moved": -72,
+          "state": "backward",
+          "frame": 17
+        },
+        {
+          "input": {
+            "down": true
+          },
+          "moved": 0,
+          "state": "idle",
+          "frame": 30
+        },
+        {
+          "input": {
+            "x": 1
+          },
+          "moved": 90,
+          "state": "forward",
+          "frame": 17
+        },
+        {
+          "input": {
+            "x": 1,
+            "run": true
+          },
+          "moved": 90,
+          "state": "forward",
+          "frame": 17
+        },
+        {
+          "input": {},
+          "moved": 0,
+          "state": "idle",
+          "frame": 30
+        }
+      ],
+      "canRun": false,
+      "maximumStep": 10,
+      "errors": []
+    },
+    {
+      "id": "noob-saibot",
+      "seen": [
+        {
+          "input": {
+            "x": 1
+          },
+          "moved": 90,
+          "state": "forward",
+          "frame": 17
+        },
+        {
+          "input": {
+            "x": -1
+          },
+          "moved": -54,
+          "state": "backward",
+          "frame": 17
+        },
+        {
+          "input": {
+            "down": true
+          },
+          "moved": 0,
+          "state": "crouch",
+          "frame": 10
+        },
+        {
+          "input": {
+            "x": 1
+          },
+          "moved": 90,
+          "state": "forward",
+          "frame": 17
+        },
+        {
+          "input": {
+            "x": 1,
+            "run": true
+          },
+          "moved": 90,
+          "state": "forward",
+          "frame": 17
+        },
+        {
+          "input": {},
+          "moved": 0,
+          "state": "idle",
+          "frame": 30
+        }
+      ],
+      "canRun": false,
+      "maximumStep": 10,
+      "errors": []
+    },
+    {
+      "id": "sf-10",
+      "seen": [
+        {
+          "input": {
+            "x": 1
+          },
+          "moved": 71.875,
+          "state": "forward",
+          "frame": 23
+        },
+        {
+          "input": {
+            "x": -1
+          },
+          "moved": -34.875,
+          "state": "backward",
+          "frame": 24
+        },
+        {
+          "input": {
+            "down": true
+          },
+          "moved": 0,
+          "state": "crouch",
+          "frame": 4
+        },
+        {
+          "input": {
+            "x": 1
+          },
+          "moved": 71.875,
+          "state": "forward",
+          "frame": 23
+        },
+        {
+          "input": {
+            "x": 1,
+            "run": true
+          },
+          "moved": 75,
+          "state": "forward",
+          "frame": 24
+        },
+        {
+          "input": {},
+          "moved": 0,
+          "state": "idle",
+          "frame": 8
+        }
+      ],
+      "canRun": false,
+      "maximumStep": 6.25,
+      "errors": []
+    },
+    {
+      "id": "sf-11",
+      "seen": [
+        {
+          "input": {
+            "x": 1
+          },
+          "moved": 57.5,
+          "state": "forward",
+          "frame": 23
+        },
+        {
+          "input": {
+            "x": -1
+          },
+          "moved": -41.25,
+          "state": "backward",
+          "frame": 24
+        },
+        {
+          "input": {
+            "down": true
+          },
+          "moved": 0,
+          "state": "crouch",
+          "frame": 5
+        },
+        {
+          "input": {
+            "x": 1
+          },
+          "moved": 57.5,
+          "state": "forward",
+          "frame": 23
+        },
+        {
+          "input": {
+            "x": 1,
+            "run": true
+          },
+          "moved": 60,
+          "state": "forward",
+          "frame": 24
+        },
+        {
+          "input": {},
+          "moved": 0,
+          "state": "idle",
+          "frame": 40
+        }
+      ],
+      "canRun": false,
+      "maximumStep": 5,
+      "errors": []
+    },
+    {
+      "id": "sf-12",
+      "seen": [
+        {
+          "input": {
+            "x": 1
+          },
+          "moved": 121.09375,
+          "state": "forward",
+          "frame": 25
+        },
+        {
+          "input": {
+            "x": -1
+          },
+          "moved": -47.375,
+          "state": "backward",
+          "frame": 25
+        },
+        {
+          "input": {
+            "down": true
+          },
+          "moved": 0,
+          "state": "crouch",
+          "frame": 6
+        },
+        {
+          "input": {
+            "x": 1
+          },
+          "moved": 121.09375,
+          "state": "forward",
+          "frame": 25
+        },
+        {
+          "input": {
+            "x": 1,
+            "run": true
+          },
+          "moved": 121.09375,
+          "state": "forward",
+          "frame": 25
+        },
+        {
+          "input": {},
+          "moved": 0,
+          "state": "idle",
+          "frame": 41
+        }
+      ],
+      "canRun": false,
+      "maximumStep": 9.6875,
+      "errors": []
+    },
+    {
+      "id": "sf-7",
+      "seen": [
+        {
+          "input": {
+            "x": 1
+          },
+          "moved": 71.875,
+          "state": "forward",
+          "frame": 23
+        },
+        {
+          "input": {
+            "x": -1
+          },
+          "moved": -37.375,
+          "state": "backward",
+          "frame": 23
+        },
+        {
+          "input": {
+            "down": true
+          },
+          "moved": 0,
+          "state": "crouch",
+          "frame": 4
+        },
+        {
+          "input": {
+            "x": 1
+          },
+          "moved": 71.875,
+          "state": "forward",
+          "frame": 23
+        },
+        {
+          "input": {
+            "x": 1,
+            "run": true
+          },
+          "moved": 71.875,
+          "state": "forward",
+          "frame": 23
+        },
+        {
+          "input": {},
+          "moved": 0,
+          "state": "idle",
+          "frame": 9
+        }
+      ],
+      "canRun": false,
+      "maximumStep": 6.25,
+      "errors": []
+    },
+    {
+      "id": "sf-8",
+      "seen": [
+        {
+          "input": {
+            "x": 1
+          },
+          "moved": 91.640625,
+          "state": "forward",
+          "frame": 23
+        },
+        {
+          "input": {
+            "x": -1
+          },
+          "moved": -42.375,
+          "state": "backward",
+          "frame": 0
+        },
+        {
+          "input": {
+            "down": true
+          },
+          "moved": 0,
+          "state": "crouch",
+          "frame": 5
+        },
+        {
+          "input": {
+            "x": 1
+          },
+          "moved": 95.625,
+          "state": "forward",
+          "frame": 0
+        },
+        {
+          "input": {
+            "x": 1,
+            "run": true
+          },
+          "moved": 91.640625,
+          "state": "forward",
+          "frame": 23
+        },
+        {
+          "input": {},
+          "moved": 0,
+          "state": "idle",
+          "frame": 16
+        }
+      ],
+      "canRun": false,
+      "maximumStep": 7.96875,
+      "errors": []
+    }
+  ],
+  "errors": []
+}

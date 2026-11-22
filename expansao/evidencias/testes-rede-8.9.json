@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "groups": 13,
+  "passed": [
+    "Três participantes na mesma sala; credenciais não são publicadas",
+    "Início exige anfitrião, dois jogadores e todos prontos",
+    "Partida só avança após todos carregarem",
+    "Novas entradas não trocam o elenco de uma luta em andamento",
+    "Cada conexão só controla a própria vaga e não define vida ou resultado",
+    "Comandos expiram e não deixam movimento preso",
+    "Estado autoritativo idêntico distribuído para todos os clientes",
+    "Reconexão recupera a vaga e a identidade da partida",
+    "Desconexão após tolerância elimina só aquele participante",
+    "Migração de anfitrião e retorno à sala para uma nova partida",
+    "Somente arquivos públicos do jogo são servidos",
+    "Desafio do carro também usa uma partida compartilhada na rede",
+    "Fragmentos nativos e pontuação do carro chegam iguais aos dois jogadores"
+  ]
+}

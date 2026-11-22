@@ -1,0 +1,3847 @@
+{
+  "originalFidelityValidated": false,
+  "passed": 480,
+  "results": [
+    {
+      "id": "sf-1",
+      "family": "hundredhandslap",
+      "name": "sfsp_hundredhandslap_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-1",
+      "family": "hundredhandslap",
+      "name": "sfsp_hundredhandslap_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-1",
+      "family": "hundredhandslap",
+      "name": "sfsp_hundredhandslap_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-1",
+      "family": "sumoheadbutt",
+      "name": "sfsp_sumoheadbutt_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-1",
+      "family": "sumoheadbutt",
+      "name": "sfsp_sumoheadbutt_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-1",
+      "family": "sumoheadbutt",
+      "name": "sfsp_sumoheadbutt_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-1",
+      "family": "sumosmash",
+      "name": "sfsp_sumosmash_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-1",
+      "family": "sumosmash",
+      "name": "sfsp_sumosmash_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-1",
+      "family": "sumosmash",
+      "name": "sfsp_sumosmash_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-1",
+      "family": "ooichothrow",
+      "name": "sfsp_ooichothrow_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-1",
+      "family": "ooichothrow",
+      "name": "sfsp_ooichothrow_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-1",
+      "family": "ooichothrow",
+      "name": "sfsp_ooichothrow_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-1",
+      "family": "superkillerheadram",
+      "name": "sfsp_superkillerheadram_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-1",
+      "family": "superkillerheadram",
+      "name": "sfsp_superkillerheadram_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-1",
+      "family": "superkillerheadram",
+      "name": "sfsp_superkillerheadram_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-2",
+      "family": "electricthunder",
+      "name": "sfsp_electricthunder_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-2",
+      "family": "electricthunder",
+      "name": "sfsp_electricthunder_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-2",
+      "family": "electricthunder",
+      "name": "sfsp_electricthunder_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-2",
+      "family": "rollingattack",
+      "name": "sfsp_rollingattack_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-2",
+      "family": "rollingattack",
+      "name": "sfsp_rollingattack_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-2",
+      "family": "rollingattack",
+      "name": "sfsp_rollingattack_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-2",
+      "family": "verticalroll",
+      "name": "sfsp_verticalroll_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-2",
+      "family": "verticalroll",
+      "name": "sfsp_verticalroll_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-2",
+      "family": "verticalroll",
+      "name": "sfsp_verticalroll_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-2",
+      "family": "backsteproll",
+      "name": "sfsp_backsteproll_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-2",
+      "family": "backsteproll",
+      "name": "sfsp_backsteproll_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-2",
+      "family": "backsteproll",
+      "name": "sfsp_backsteproll_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-2",
+      "family": "surpriseforward",
+      "name": "sfsp_surpriseforward_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-2",
+      "family": "surpriseback",
+      "name": "sfsp_surpriseback_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-2",
+      "family": "groundshaveroll",
+      "name": "sfsp_groundshaveroll_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-2",
+      "family": "groundshaveroll",
+      "name": "sfsp_groundshaveroll_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-2",
+      "family": "groundshaveroll",
+      "name": "sfsp_groundshaveroll_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-3",
+      "family": "sonicboom",
+      "name": "sfsp_sonicboom_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-3",
+      "family": "sonicboom",
+      "name": "sfsp_sonicboom_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-3",
+      "family": "sonicboom",
+      "name": "sfsp_sonicboom_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-3",
+      "family": "flashkick",
+      "name": "sfsp_flashkick_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-3",
+      "family": "flashkick",
+      "name": "sfsp_flashkick_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-3",
+      "family": "flashkick",
+      "name": "sfsp_flashkick_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-3",
+      "family": "doubleflash",
+      "name": "sfsp_doubleflash_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-3",
+      "family": "doubleflash",
+      "name": "sfsp_doubleflash_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-3",
+      "family": "doubleflash",
+      "name": "sfsp_doubleflash_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-4",
+      "family": "tomahawkbuster",
+      "name": "sfsp_tomahawkbuster_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-4",
+      "family": "tomahawkbuster",
+      "name": "sfsp_tomahawkbuster_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-4",
+      "family": "tomahawkbuster",
+      "name": "sfsp_tomahawkbuster_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-4",
+      "family": "mexicantyphoon",
+      "name": "sfsp_mexicantyphoon_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-4",
+      "family": "mexicantyphoon",
+      "name": "sfsp_mexicantyphoon_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-4",
+      "family": "mexicantyphoon",
+      "name": "sfsp_mexicantyphoon_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-4",
+      "family": "condordive",
+      "name": "sfsp_condordive_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-4",
+      "family": "doubletyphoon",
+      "name": "sfsp_doubletyphoon_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-4",
+      "family": "doubletyphoon",
+      "name": "sfsp_doubletyphoon_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-4",
+      "family": "doubletyphoon",
+      "name": "sfsp_doubletyphoon_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-5",
+      "family": "rekkaken",
+      "name": "sfsp_rekkaken_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-5",
+      "family": "rekkaken",
+      "name": "sfsp_rekkaken_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-5",
+      "family": "rekkaken",
+      "name": "sfsp_rekkaken_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-5",
+      "family": "shienkyaku",
+      "name": "sfsp_shienkyaku_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-5",
+      "family": "shienkyaku",
+      "name": "sfsp_shienkyaku_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-5",
+      "family": "shienkyaku",
+      "name": "sfsp_shienkyaku_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-5",
+      "family": "rekkukyaku",
+      "name": "sfsp_rekkukyaku_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-5",
+      "family": "rekkukyaku",
+      "name": "sfsp_rekkukyaku_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-5",
+      "family": "rekkukyaku",
+      "name": "sfsp_rekkukyaku_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-5",
+      "family": "rekkashinken",
+      "name": "sfsp_rekkashinken_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-5",
+      "family": "rekkashinken",
+      "name": "sfsp_rekkashinken_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-5",
+      "family": "rekkashinken",
+      "name": "sfsp_rekkashinken_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-6",
+      "family": "turnpunch",
+      "name": "sfsp_turnpunch_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-6",
+      "family": "dashstraight",
+      "name": "sfsp_dashstraight_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-6",
+      "family": "dashstraight",
+      "name": "sfsp_dashstraight_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-6",
+      "family": "dashstraight",
+      "name": "sfsp_dashstraight_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-6",
+      "family": "dashupper",
+      "name": "sfsp_dashupper_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-6",
+      "family": "dashupper",
+      "name": "sfsp_dashupper_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-6",
+      "family": "dashupper",
+      "name": "sfsp_dashupper_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-6",
+      "family": "buffalohead",
+      "name": "sfsp_buffalohead_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-6",
+      "family": "buffalohead",
+      "name": "sfsp_buffalohead_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-6",
+      "family": "buffalohead",
+      "name": "sfsp_buffalohead_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-6",
+      "family": "dashlowstraight",
+      "name": "sfsp_dashlowstraight_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-6",
+      "family": "dashlowstraight",
+      "name": "sfsp_dashlowstraight_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-6",
+      "family": "dashlowstraight",
+      "name": "sfsp_dashlowstraight_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-6",
+      "family": "dashlowupper",
+      "name": "sfsp_dashlowupper_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-6",
+      "family": "dashlowupper",
+      "name": "sfsp_dashlowupper_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-6",
+      "family": "dashlowupper",
+      "name": "sfsp_dashlowupper_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-6",
+      "family": "crazybuffalo",
+      "name": "sfsp_crazybuffalo_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-6",
+      "family": "crazybuffalo",
+      "name": "sfsp_crazybuffalo_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-6",
+      "family": "crazybuffalo",
+      "name": "sfsp_crazybuffalo_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-7",
+      "family": "hightigershot",
+      "name": "sfsp_hightigershot_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-7",
+      "family": "hightigershot",
+      "name": "sfsp_hightigershot_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-7",
+      "family": "hightigershot",
+      "name": "sfsp_hightigershot_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-7",
+      "family": "lowtigershot",
+      "name": "sfsp_lowtigershot_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-7",
+      "family": "lowtigershot",
+      "name": "sfsp_lowtigershot_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-7",
+      "family": "lowtigershot",
+      "name": "sfsp_lowtigershot_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-7",
+      "family": "tigeruppercut",
+      "name": "sfsp_tigeruppercut_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-7",
+      "family": "tigeruppercut",
+      "name": "sfsp_tigeruppercut_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-7",
+      "family": "tigeruppercut",
+      "name": "sfsp_tigeruppercut_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-7",
+      "family": "tigerkneecrush",
+      "name": "sfsp_tigerkneecrush_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-7",
+      "family": "tigerkneecrush",
+      "name": "sfsp_tigerkneecrush_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-7",
+      "family": "tigerkneecrush",
+      "name": "sfsp_tigerkneecrush_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-7",
+      "family": "tigergenocide",
+      "name": "sfsp_tigergenocide_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-7",
+      "family": "tigergenocide",
+      "name": "sfsp_tigergenocide_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-7",
+      "family": "tigergenocide",
+      "name": "sfsp_tigergenocide_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-8",
+      "family": "airtatsumakisenpukyaku",
+      "name": "sfsp_airtatsumakisenpukyaku_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-8",
+      "family": "airtatsumakisenpukyaku",
+      "name": "sfsp_airtatsumakisenpukyaku_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-8",
+      "family": "airtatsumakisenpukyaku",
+      "name": "sfsp_airtatsumakisenpukyaku_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-8",
+      "family": "inazumakick",
+      "name": "sfsp_inazumakick_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-8",
+      "family": "inazumakick",
+      "name": "sfsp_inazumakick_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-8",
+      "family": "inazumakick",
+      "name": "sfsp_inazumakick_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-8",
+      "family": "forwardstepkick",
+      "name": "sfsp_forwardstepkick_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-8",
+      "family": "forwardstepkick",
+      "name": "sfsp_forwardstepkick_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-8",
+      "family": "forwardstepkick",
+      "name": "sfsp_forwardstepkick_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-8",
+      "family": "thunderkick",
+      "name": "sfsp_thunderkick_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-8",
+      "family": "thunderkick",
+      "name": "sfsp_thunderkick_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-8",
+      "family": "thunderkick",
+      "name": "sfsp_thunderkick_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-8",
+      "family": "ssf2t_inazumakick",
+      "name": "sfsp_ssf2t_inazumakick_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-8",
+      "family": "ssf2t_inazumakick",
+      "name": "sfsp_ssf2t_inazumakick_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-8",
+      "family": "ssf2t_inazumakick",
+      "name": "sfsp_ssf2t_inazumakick_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-8",
+      "family": "shoryureppa",
+      "name": "sfsp_shoryureppa_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-8",
+      "family": "shoryureppa",
+      "name": "sfsp_shoryureppa_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-8",
+      "family": "shoryureppa",
+      "name": "sfsp_shoryureppa_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-9",
+      "family": "hyakuretsukyaku",
+      "name": "sfsp_hyakuretsukyaku_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-9",
+      "family": "hyakuretsukyaku",
+      "name": "sfsp_hyakuretsukyaku_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-9",
+      "family": "hyakuretsukyaku",
+      "name": "sfsp_hyakuretsukyaku_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-9",
+      "family": "tenshokyaku",
+      "name": "sfsp_tenshokyaku_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-9",
+      "family": "tenshokyaku",
+      "name": "sfsp_tenshokyaku_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-9",
+      "family": "tenshokyaku",
+      "name": "sfsp_tenshokyaku_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-9",
+      "family": "sfa_spinningbirdkick",
+      "name": "sfsp_sfa_spinningbirdkick_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-9",
+      "family": "sfa_spinningbirdkick",
+      "name": "sfsp_sfa_spinningbirdkick_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-9",
+      "family": "sfa_spinningbirdkick",
+      "name": "sfsp_sfa_spinningbirdkick_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-9",
+      "family": "ssf2t_airspinningbirdkick",
+      "name": "sfsp_ssf2t_airspinningbirdkick_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-9",
+      "family": "ssf2t_airspinningbirdkick",
+      "name": "sfsp_ssf2t_airspinningbirdkick_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-9",
+      "family": "ssf2t_airspinningbirdkick",
+      "name": "sfsp_ssf2t_airspinningbirdkick_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-9",
+      "family": "ssf2_kikoken",
+      "name": "sfsp_ssf2_kikoken_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-9",
+      "family": "ssf2_kikoken",
+      "name": "sfsp_ssf2_kikoken_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-9",
+      "family": "ssf2_kikoken",
+      "name": "sfsp_ssf2_kikoken_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-9",
+      "family": "senretsukyaku",
+      "name": "sfsp_senretsukyaku_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-9",
+      "family": "senretsukyaku",
+      "name": "sfsp_senretsukyaku_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-9",
+      "family": "senretsukyaku",
+      "name": "sfsp_senretsukyaku_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-10",
+      "family": "doublelariat",
+      "name": "sfsp_doublelariat_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-10",
+      "family": "quickdoublelariat",
+      "name": "sfsp_quickdoublelariat_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-10",
+      "family": "spinningpiledriver",
+      "name": "sfsp_spinningpiledriver_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-10",
+      "family": "spinningpiledriver",
+      "name": "sfsp_spinningpiledriver_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-10",
+      "family": "spinningpiledriver",
+      "name": "sfsp_spinningpiledriver_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-10",
+      "family": "flyingpowerbomb",
+      "name": "sfsp_flyingpowerbomb_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-10",
+      "family": "flyingpowerbomb",
+      "name": "sfsp_flyingpowerbomb_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-10",
+      "family": "flyingpowerbomb",
+      "name": "sfsp_flyingpowerbomb_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-10",
+      "family": "atomicsuplex",
+      "name": "sfsp_atomicsuplex_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-10",
+      "family": "atomicsuplex",
+      "name": "sfsp_atomicsuplex_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-10",
+      "family": "atomicsuplex",
+      "name": "sfsp_atomicsuplex_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-10",
+      "family": "banishingflat",
+      "name": "sfsp_banishingflat_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-10",
+      "family": "banishingflat",
+      "name": "sfsp_banishingflat_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-10",
+      "family": "banishingflat",
+      "name": "sfsp_banishingflat_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-10",
+      "family": "finalatomicbuster",
+      "name": "sfsp_finalatomicbuster_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-10",
+      "family": "finalatomicbuster",
+      "name": "sfsp_finalatomicbuster_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-10",
+      "family": "finalatomicbuster",
+      "name": "sfsp_finalatomicbuster_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-11",
+      "family": "yogafire",
+      "name": "sfsp_yogafire_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-11",
+      "family": "yogafire",
+      "name": "sfsp_yogafire_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-11",
+      "family": "yogafire",
+      "name": "sfsp_yogafire_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-11",
+      "family": "yogaflame_2",
+      "name": "sfsp_yogaflame_2_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-11",
+      "family": "yogaflame_2",
+      "name": "sfsp_yogaflame_2_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-11",
+      "family": "yogaflame_2",
+      "name": "sfsp_yogaflame_2_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-11",
+      "family": "yogateleport",
+      "name": "sfsp_yogateleport_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-11",
+      "family": "yogateleport",
+      "name": "sfsp_yogateleport_0_frontK",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-11",
+      "family": "yogateleport",
+      "name": "sfsp_yogateleport_0_backP",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-11",
+      "family": "yogateleport",
+      "name": "sfsp_yogateleport_0_backK",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-11",
+      "family": "yogablast_2",
+      "name": "sfsp_yogablast_2_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-11",
+      "family": "yogablast_2",
+      "name": "sfsp_yogablast_2_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-11",
+      "family": "yogablast_2",
+      "name": "sfsp_yogablast_2_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-11",
+      "family": "yogainferno",
+      "name": "sfsp_yogainferno_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-11",
+      "family": "yogainferno",
+      "name": "sfsp_yogainferno_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-11",
+      "family": "yogainferno",
+      "name": "sfsp_yogainferno_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-12",
+      "family": "spiralarrow",
+      "name": "sfsp_spiralarrow_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-12",
+      "family": "spiralarrow",
+      "name": "sfsp_spiralarrow_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-12",
+      "family": "spiralarrow",
+      "name": "sfsp_spiralarrow_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-12",
+      "family": "cannonspike",
+      "name": "sfsp_cannonspike_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-12",
+      "family": "cannonspike",
+      "name": "sfsp_cannonspike_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-12",
+      "family": "cannonspike",
+      "name": "sfsp_cannonspike_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-12",
+      "family": "ssf2t_axlespinknuckle",
+      "name": "sfsp_ssf2t_axlespinknuckle_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-12",
+      "family": "ssf2t_axlespinknuckle",
+      "name": "sfsp_ssf2t_axlespinknuckle_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-12",
+      "family": "ssf2t_axlespinknuckle",
+      "name": "sfsp_ssf2t_axlespinknuckle_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-12",
+      "family": "hooligancombination",
+      "name": "sfsp_hooligancombination_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-12",
+      "family": "hooligancombination",
+      "name": "sfsp_hooligancombination_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-12",
+      "family": "hooligancombination",
+      "name": "sfsp_hooligancombination_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-12",
+      "family": "fatallegtwist",
+      "name": "sfsp_fatallegtwist_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-12",
+      "family": "fatallegtwist",
+      "name": "sfsp_fatallegtwist_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-12",
+      "family": "fatallegtwist",
+      "name": "sfsp_fatallegtwist_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-12",
+      "family": "crossedscissors",
+      "name": "sfsp_crossedscissors_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-12",
+      "family": "crossedscissors",
+      "name": "sfsp_crossedscissors_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-12",
+      "family": "crossedscissors",
+      "name": "sfsp_crossedscissors_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-12",
+      "family": "spindrivesmasher",
+      "name": "sfsp_spindrivesmasher_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-12",
+      "family": "spindrivesmasher",
+      "name": "sfsp_spindrivesmasher_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-12",
+      "family": "spindrivesmasher",
+      "name": "sfsp_spindrivesmasher_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-13",
+      "family": "doublerollingsobat",
+      "name": "sfsp_doublerollingsobat_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-13",
+      "family": "doublerollingsobat",
+      "name": "sfsp_doublerollingsobat_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-13",
+      "family": "doublerollingsobat",
+      "name": "sfsp_doublerollingsobat_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-13",
+      "family": "airslasher",
+      "name": "sfsp_airslasher_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-13",
+      "family": "airslasher",
+      "name": "sfsp_airslasher_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-13",
+      "family": "airslasher",
+      "name": "sfsp_airslasher_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-13",
+      "family": "machinegunupper",
+      "name": "sfsp_machinegunupper_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-13",
+      "family": "machinegunupper",
+      "name": "sfsp_machinegunupper_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-13",
+      "family": "machinegunupper",
+      "name": "sfsp_machinegunupper_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-13",
+      "family": "jacknifemaximum",
+      "name": "sfsp_jacknifemaximum_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-13",
+      "family": "jacknifemaximum",
+      "name": "sfsp_jacknifemaximum_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-13",
+      "family": "jacknifemaximum",
+      "name": "sfsp_jacknifemaximum_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-13",
+      "family": "sobatcarnival",
+      "name": "sfsp_sobatcarnival_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-13",
+      "family": "sobatcarnival",
+      "name": "sfsp_sobatcarnival_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-13",
+      "family": "sobatcarnival",
+      "name": "sfsp_sobatcarnival_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-14",
+      "family": "rollingcrystalflash",
+      "name": "sfsp_rollingcrystalflash_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-14",
+      "family": "rollingcrystalflash",
+      "name": "sfsp_rollingcrystalflash_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-14",
+      "family": "rollingcrystalflash",
+      "name": "sfsp_rollingcrystalflash_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-14",
+      "family": "flyingbarcelonaattack",
+      "name": "sfsp_flyingbarcelonaattack_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-14",
+      "family": "flyingbarcelonaattack",
+      "name": "sfsp_flyingbarcelonaattack_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-14",
+      "family": "flyingbarcelonaattack",
+      "name": "sfsp_flyingbarcelonaattack_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-14",
+      "family": "izunadrop",
+      "name": "sfsp_izunadrop_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-14",
+      "family": "izunadrop",
+      "name": "sfsp_izunadrop_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-14",
+      "family": "izunadrop",
+      "name": "sfsp_izunadrop_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-14",
+      "family": "skyhighclaw",
+      "name": "sfsp_skyhighclaw_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-14",
+      "family": "skyhighclaw",
+      "name": "sfsp_skyhighclaw_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-14",
+      "family": "skyhighclaw",
+      "name": "sfsp_skyhighclaw_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-14",
+      "family": "backslash",
+      "name": "sfsp_backslash_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-14",
+      "family": "backslash",
+      "name": "sfsp_backslash_0_short",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-14",
+      "family": "scarletterror",
+      "name": "sfsp_scarletterror_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-14",
+      "family": "scarletterror",
+      "name": "sfsp_scarletterror_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-14",
+      "family": "scarletterror",
+      "name": "sfsp_scarletterror_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-14",
+      "family": "ssf2t_rollingizunadrop",
+      "name": "sfsp_ssf2t_rollingizunadrop_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-14",
+      "family": "ssf2t_rollingizunadrop",
+      "name": "sfsp_ssf2t_rollingizunadrop_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-14",
+      "family": "ssf2t_rollingizunadrop",
+      "name": "sfsp_ssf2t_rollingizunadrop_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-15",
+      "family": "psychocrusher",
+      "name": "sfsp_psychocrusher_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-15",
+      "family": "psychocrusher",
+      "name": "sfsp_psychocrusher_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-15",
+      "family": "psychocrusher",
+      "name": "sfsp_psychocrusher_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-15",
+      "family": "doublekneepress",
+      "name": "sfsp_doublekneepress_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-15",
+      "family": "doublekneepress",
+      "name": "sfsp_doublekneepress_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-15",
+      "family": "doublekneepress",
+      "name": "sfsp_doublekneepress_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-15",
+      "family": "headpress",
+      "name": "sfsp_headpress_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-15",
+      "family": "headpress",
+      "name": "sfsp_headpress_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-15",
+      "family": "headpress",
+      "name": "sfsp_headpress_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-15",
+      "family": "somersaultskulldriver",
+      "name": "sfsp_somersaultskulldriver_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-15",
+      "family": "somersaultskulldriver",
+      "name": "sfsp_somersaultskulldriver_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-15",
+      "family": "somersaultskulldriver",
+      "name": "sfsp_somersaultskulldriver_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-15",
+      "family": "ssf2t_devilreverse",
+      "name": "sfsp_ssf2t_devilreverse_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-15",
+      "family": "ssf2t_devilreverse",
+      "name": "sfsp_ssf2t_devilreverse_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-15",
+      "family": "ssf2t_devilreverse",
+      "name": "sfsp_ssf2t_devilreverse_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-15",
+      "family": "kneepressnightmare",
+      "name": "sfsp_kneepressnightmare_0",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-15",
+      "family": "kneepressnightmare",
+      "name": "sfsp_kneepressnightmare_1",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-15",
+      "family": "kneepressnightmare",
+      "name": "sfsp_kneepressnightmare_2",
+      "side": 1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-1",
+      "family": "hundredhandslap",
+      "name": "sfsp_hundredhandslap_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-1",
+      "family": "hundredhandslap",
+      "name": "sfsp_hundredhandslap_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-1",
+      "family": "hundredhandslap",
+      "name": "sfsp_hundredhandslap_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-1",
+      "family": "sumoheadbutt",
+      "name": "sfsp_sumoheadbutt_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-1",
+      "family": "sumoheadbutt",
+      "name": "sfsp_sumoheadbutt_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-1",
+      "family": "sumoheadbutt",
+      "name": "sfsp_sumoheadbutt_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-1",
+      "family": "sumosmash",
+      "name": "sfsp_sumosmash_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-1",
+      "family": "sumosmash",
+      "name": "sfsp_sumosmash_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-1",
+      "family": "sumosmash",
+      "name": "sfsp_sumosmash_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-1",
+      "family": "ooichothrow",
+      "name": "sfsp_ooichothrow_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-1",
+      "family": "ooichothrow",
+      "name": "sfsp_ooichothrow_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-1",
+      "family": "ooichothrow",
+      "name": "sfsp_ooichothrow_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-1",
+      "family": "superkillerheadram",
+      "name": "sfsp_superkillerheadram_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-1",
+      "family": "superkillerheadram",
+      "name": "sfsp_superkillerheadram_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-1",
+      "family": "superkillerheadram",
+      "name": "sfsp_superkillerheadram_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-2",
+      "family": "electricthunder",
+      "name": "sfsp_electricthunder_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-2",
+      "family": "electricthunder",
+      "name": "sfsp_electricthunder_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-2",
+      "family": "electricthunder",
+      "name": "sfsp_electricthunder_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-2",
+      "family": "rollingattack",
+      "name": "sfsp_rollingattack_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-2",
+      "family": "rollingattack",
+      "name": "sfsp_rollingattack_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-2",
+      "family": "rollingattack",
+      "name": "sfsp_rollingattack_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-2",
+      "family": "verticalroll",
+      "name": "sfsp_verticalroll_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-2",
+      "family": "verticalroll",
+      "name": "sfsp_verticalroll_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-2",
+      "family": "verticalroll",
+      "name": "sfsp_verticalroll_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-2",
+      "family": "backsteproll",
+      "name": "sfsp_backsteproll_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-2",
+      "family": "backsteproll",
+      "name": "sfsp_backsteproll_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-2",
+      "family": "backsteproll",
+      "name": "sfsp_backsteproll_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-2",
+      "family": "surpriseforward",
+      "name": "sfsp_surpriseforward_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-2",
+      "family": "surpriseback",
+      "name": "sfsp_surpriseback_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-2",
+      "family": "groundshaveroll",
+      "name": "sfsp_groundshaveroll_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-2",
+      "family": "groundshaveroll",
+      "name": "sfsp_groundshaveroll_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-2",
+      "family": "groundshaveroll",
+      "name": "sfsp_groundshaveroll_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-3",
+      "family": "sonicboom",
+      "name": "sfsp_sonicboom_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-3",
+      "family": "sonicboom",
+      "name": "sfsp_sonicboom_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-3",
+      "family": "sonicboom",
+      "name": "sfsp_sonicboom_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-3",
+      "family": "flashkick",
+      "name": "sfsp_flashkick_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-3",
+      "family": "flashkick",
+      "name": "sfsp_flashkick_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-3",
+      "family": "flashkick",
+      "name": "sfsp_flashkick_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-3",
+      "family": "doubleflash",
+      "name": "sfsp_doubleflash_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-3",
+      "family": "doubleflash",
+      "name": "sfsp_doubleflash_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-3",
+      "family": "doubleflash",
+      "name": "sfsp_doubleflash_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-4",
+      "family": "tomahawkbuster",
+      "name": "sfsp_tomahawkbuster_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-4",
+      "family": "tomahawkbuster",
+      "name": "sfsp_tomahawkbuster_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-4",
+      "family": "tomahawkbuster",
+      "name": "sfsp_tomahawkbuster_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-4",
+      "family": "mexicantyphoon",
+      "name": "sfsp_mexicantyphoon_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-4",
+      "family": "mexicantyphoon",
+      "name": "sfsp_mexicantyphoon_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-4",
+      "family": "mexicantyphoon",
+      "name": "sfsp_mexicantyphoon_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-4",
+      "family": "condordive",
+      "name": "sfsp_condordive_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-4",
+      "family": "doubletyphoon",
+      "name": "sfsp_doubletyphoon_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-4",
+      "family": "doubletyphoon",
+      "name": "sfsp_doubletyphoon_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-4",
+      "family": "doubletyphoon",
+      "name": "sfsp_doubletyphoon_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-5",
+      "family": "rekkaken",
+      "name": "sfsp_rekkaken_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-5",
+      "family": "rekkaken",
+      "name": "sfsp_rekkaken_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-5",
+      "family": "rekkaken",
+      "name": "sfsp_rekkaken_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-5",
+      "family": "shienkyaku",
+      "name": "sfsp_shienkyaku_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-5",
+      "family": "shienkyaku",
+      "name": "sfsp_shienkyaku_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-5",
+      "family": "shienkyaku",
+      "name": "sfsp_shienkyaku_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-5",
+      "family": "rekkukyaku",
+      "name": "sfsp_rekkukyaku_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-5",
+      "family": "rekkukyaku",
+      "name": "sfsp_rekkukyaku_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-5",
+      "family": "rekkukyaku",
+      "name": "sfsp_rekkukyaku_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-5",
+      "family": "rekkashinken",
+      "name": "sfsp_rekkashinken_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-5",
+      "family": "rekkashinken",
+      "name": "sfsp_rekkashinken_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-5",
+      "family": "rekkashinken",
+      "name": "sfsp_rekkashinken_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-6",
+      "family": "turnpunch",
+      "name": "sfsp_turnpunch_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-6",
+      "family": "dashstraight",
+      "name": "sfsp_dashstraight_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-6",
+      "family": "dashstraight",
+      "name": "sfsp_dashstraight_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-6",
+      "family": "dashstraight",
+      "name": "sfsp_dashstraight_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-6",
+      "family": "dashupper",
+      "name": "sfsp_dashupper_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-6",
+      "family": "dashupper",
+      "name": "sfsp_dashupper_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-6",
+      "family": "dashupper",
+      "name": "sfsp_dashupper_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-6",
+      "family": "buffalohead",
+      "name": "sfsp_buffalohead_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-6",
+      "family": "buffalohead",
+      "name": "sfsp_buffalohead_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-6",
+      "family": "buffalohead",
+      "name": "sfsp_buffalohead_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-6",
+      "family": "dashlowstraight",
+      "name": "sfsp_dashlowstraight_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-6",
+      "family": "dashlowstraight",
+      "name": "sfsp_dashlowstraight_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-6",
+      "family": "dashlowstraight",
+      "name": "sfsp_dashlowstraight_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-6",
+      "family": "dashlowupper",
+      "name": "sfsp_dashlowupper_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-6",
+      "family": "dashlowupper",
+      "name": "sfsp_dashlowupper_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-6",
+      "family": "dashlowupper",
+      "name": "sfsp_dashlowupper_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-6",
+      "family": "crazybuffalo",
+      "name": "sfsp_crazybuffalo_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-6",
+      "family": "crazybuffalo",
+      "name": "sfsp_crazybuffalo_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-6",
+      "family": "crazybuffalo",
+      "name": "sfsp_crazybuffalo_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-7",
+      "family": "hightigershot",
+      "name": "sfsp_hightigershot_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-7",
+      "family": "hightigershot",
+      "name": "sfsp_hightigershot_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-7",
+      "family": "hightigershot",
+      "name": "sfsp_hightigershot_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-7",
+      "family": "lowtigershot",
+      "name": "sfsp_lowtigershot_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-7",
+      "family": "lowtigershot",
+      "name": "sfsp_lowtigershot_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-7",
+      "family": "lowtigershot",
+      "name": "sfsp_lowtigershot_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-7",
+      "family": "tigeruppercut",
+      "name": "sfsp_tigeruppercut_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-7",
+      "family": "tigeruppercut",
+      "name": "sfsp_tigeruppercut_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-7",
+      "family": "tigeruppercut",
+      "name": "sfsp_tigeruppercut_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-7",
+      "family": "tigerkneecrush",
+      "name": "sfsp_tigerkneecrush_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-7",
+      "family": "tigerkneecrush",
+      "name": "sfsp_tigerkneecrush_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-7",
+      "family": "tigerkneecrush",
+      "name": "sfsp_tigerkneecrush_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-7",
+      "family": "tigergenocide",
+      "name": "sfsp_tigergenocide_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-7",
+      "family": "tigergenocide",
+      "name": "sfsp_tigergenocide_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-7",
+      "family": "tigergenocide",
+      "name": "sfsp_tigergenocide_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-8",
+      "family": "airtatsumakisenpukyaku",
+      "name": "sfsp_airtatsumakisenpukyaku_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-8",
+      "family": "airtatsumakisenpukyaku",
+      "name": "sfsp_airtatsumakisenpukyaku_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-8",
+      "family": "airtatsumakisenpukyaku",
+      "name": "sfsp_airtatsumakisenpukyaku_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-8",
+      "family": "inazumakick",
+      "name": "sfsp_inazumakick_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-8",
+      "family": "inazumakick",
+      "name": "sfsp_inazumakick_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-8",
+      "family": "inazumakick",
+      "name": "sfsp_inazumakick_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-8",
+      "family": "forwardstepkick",
+      "name": "sfsp_forwardstepkick_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-8",
+      "family": "forwardstepkick",
+      "name": "sfsp_forwardstepkick_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-8",
+      "family": "forwardstepkick",
+      "name": "sfsp_forwardstepkick_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-8",
+      "family": "thunderkick",
+      "name": "sfsp_thunderkick_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-8",
+      "family": "thunderkick",
+      "name": "sfsp_thunderkick_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-8",
+      "family": "thunderkick",
+      "name": "sfsp_thunderkick_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-8",
+      "family": "ssf2t_inazumakick",
+      "name": "sfsp_ssf2t_inazumakick_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-8",
+      "family": "ssf2t_inazumakick",
+      "name": "sfsp_ssf2t_inazumakick_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-8",
+      "family": "ssf2t_inazumakick",
+      "name": "sfsp_ssf2t_inazumakick_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-8",
+      "family": "shoryureppa",
+      "name": "sfsp_shoryureppa_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-8",
+      "family": "shoryureppa",
+      "name": "sfsp_shoryureppa_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-8",
+      "family": "shoryureppa",
+      "name": "sfsp_shoryureppa_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-9",
+      "family": "hyakuretsukyaku",
+      "name": "sfsp_hyakuretsukyaku_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-9",
+      "family": "hyakuretsukyaku",
+      "name": "sfsp_hyakuretsukyaku_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-9",
+      "family": "hyakuretsukyaku",
+      "name": "sfsp_hyakuretsukyaku_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-9",
+      "family": "tenshokyaku",
+      "name": "sfsp_tenshokyaku_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-9",
+      "family": "tenshokyaku",
+      "name": "sfsp_tenshokyaku_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-9",
+      "family": "tenshokyaku",
+      "name": "sfsp_tenshokyaku_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-9",
+      "family": "sfa_spinningbirdkick",
+      "name": "sfsp_sfa_spinningbirdkick_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-9",
+      "family": "sfa_spinningbirdkick",
+      "name": "sfsp_sfa_spinningbirdkick_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-9",
+      "family": "sfa_spinningbirdkick",
+      "name": "sfsp_sfa_spinningbirdkick_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-9",
+      "family": "ssf2t_airspinningbirdkick",
+      "name": "sfsp_ssf2t_airspinningbirdkick_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-9",
+      "family": "ssf2t_airspinningbirdkick",
+      "name": "sfsp_ssf2t_airspinningbirdkick_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-9",
+      "family": "ssf2t_airspinningbirdkick",
+      "name": "sfsp_ssf2t_airspinningbirdkick_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-9",
+      "family": "ssf2_kikoken",
+      "name": "sfsp_ssf2_kikoken_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-9",
+      "family": "ssf2_kikoken",
+      "name": "sfsp_ssf2_kikoken_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-9",
+      "family": "ssf2_kikoken",
+      "name": "sfsp_ssf2_kikoken_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-9",
+      "family": "senretsukyaku",
+      "name": "sfsp_senretsukyaku_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-9",
+      "family": "senretsukyaku",
+      "name": "sfsp_senretsukyaku_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-9",
+      "family": "senretsukyaku",
+      "name": "sfsp_senretsukyaku_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-10",
+      "family": "doublelariat",
+      "name": "sfsp_doublelariat_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-10",
+      "family": "quickdoublelariat",
+      "name": "sfsp_quickdoublelariat_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-10",
+      "family": "spinningpiledriver",
+      "name": "sfsp_spinningpiledriver_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-10",
+      "family": "spinningpiledriver",
+      "name": "sfsp_spinningpiledriver_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-10",
+      "family": "spinningpiledriver",
+      "name": "sfsp_spinningpiledriver_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-10",
+      "family": "flyingpowerbomb",
+      "name": "sfsp_flyingpowerbomb_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-10",
+      "family": "flyingpowerbomb",
+      "name": "sfsp_flyingpowerbomb_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-10",
+      "family": "flyingpowerbomb",
+      "name": "sfsp_flyingpowerbomb_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-10",
+      "family": "atomicsuplex",
+      "name": "sfsp_atomicsuplex_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-10",
+      "family": "atomicsuplex",
+      "name": "sfsp_atomicsuplex_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-10",
+      "family": "atomicsuplex",
+      "name": "sfsp_atomicsuplex_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-10",
+      "family": "banishingflat",
+      "name": "sfsp_banishingflat_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-10",
+      "family": "banishingflat",
+      "name": "sfsp_banishingflat_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-10",
+      "family": "banishingflat",
+      "name": "sfsp_banishingflat_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-10",
+      "family": "finalatomicbuster",
+      "name": "sfsp_finalatomicbuster_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-10",
+      "family": "finalatomicbuster",
+      "name": "sfsp_finalatomicbuster_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-10",
+      "family": "finalatomicbuster",
+      "name": "sfsp_finalatomicbuster_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-11",
+      "family": "yogafire",
+      "name": "sfsp_yogafire_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-11",
+      "family": "yogafire",
+      "name": "sfsp_yogafire_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-11",
+      "family": "yogafire",
+      "name": "sfsp_yogafire_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-11",
+      "family": "yogaflame_2",
+      "name": "sfsp_yogaflame_2_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-11",
+      "family": "yogaflame_2",
+      "name": "sfsp_yogaflame_2_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-11",
+      "family": "yogaflame_2",
+      "name": "sfsp_yogaflame_2_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-11",
+      "family": "yogateleport",
+      "name": "sfsp_yogateleport_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-11",
+      "family": "yogateleport",
+      "name": "sfsp_yogateleport_0_frontK",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-11",
+      "family": "yogateleport",
+      "name": "sfsp_yogateleport_0_backP",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-11",
+      "family": "yogateleport",
+      "name": "sfsp_yogateleport_0_backK",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-11",
+      "family": "yogablast_2",
+      "name": "sfsp_yogablast_2_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-11",
+      "family": "yogablast_2",
+      "name": "sfsp_yogablast_2_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-11",
+      "family": "yogablast_2",
+      "name": "sfsp_yogablast_2_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-11",
+      "family": "yogainferno",
+      "name": "sfsp_yogainferno_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-11",
+      "family": "yogainferno",
+      "name": "sfsp_yogainferno_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-11",
+      "family": "yogainferno",
+      "name": "sfsp_yogainferno_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-12",
+      "family": "spiralarrow",
+      "name": "sfsp_spiralarrow_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-12",
+      "family": "spiralarrow",
+      "name": "sfsp_spiralarrow_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-12",
+      "family": "spiralarrow",
+      "name": "sfsp_spiralarrow_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-12",
+      "family": "cannonspike",
+      "name": "sfsp_cannonspike_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-12",
+      "family": "cannonspike",
+      "name": "sfsp_cannonspike_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-12",
+      "family": "cannonspike",
+      "name": "sfsp_cannonspike_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-12",
+      "family": "ssf2t_axlespinknuckle",
+      "name": "sfsp_ssf2t_axlespinknuckle_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-12",
+      "family": "ssf2t_axlespinknuckle",
+      "name": "sfsp_ssf2t_axlespinknuckle_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-12",
+      "family": "ssf2t_axlespinknuckle",
+      "name": "sfsp_ssf2t_axlespinknuckle_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-12",
+      "family": "hooligancombination",
+      "name": "sfsp_hooligancombination_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-12",
+      "family": "hooligancombination",
+      "name": "sfsp_hooligancombination_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-12",
+      "family": "hooligancombination",
+      "name": "sfsp_hooligancombination_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-12",
+      "family": "fatallegtwist",
+      "name": "sfsp_fatallegtwist_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-12",
+      "family": "fatallegtwist",
+      "name": "sfsp_fatallegtwist_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-12",
+      "family": "fatallegtwist",
+      "name": "sfsp_fatallegtwist_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-12",
+      "family": "crossedscissors",
+      "name": "sfsp_crossedscissors_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-12",
+      "family": "crossedscissors",
+      "name": "sfsp_crossedscissors_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-12",
+      "family": "crossedscissors",
+      "name": "sfsp_crossedscissors_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-12",
+      "family": "spindrivesmasher",
+      "name": "sfsp_spindrivesmasher_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-12",
+      "family": "spindrivesmasher",
+      "name": "sfsp_spindrivesmasher_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-12",
+      "family": "spindrivesmasher",
+      "name": "sfsp_spindrivesmasher_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-13",
+      "family": "doublerollingsobat",
+      "name": "sfsp_doublerollingsobat_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-13",
+      "family": "doublerollingsobat",
+      "name": "sfsp_doublerollingsobat_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-13",
+      "family": "doublerollingsobat",
+      "name": "sfsp_doublerollingsobat_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-13",
+      "family": "airslasher",
+      "name": "sfsp_airslasher_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-13",
+      "family": "airslasher",
+      "name": "sfsp_airslasher_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-13",
+      "family": "airslasher",
+      "name": "sfsp_airslasher_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-13",
+      "family": "machinegunupper",
+      "name": "sfsp_machinegunupper_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-13",
+      "family": "machinegunupper",
+      "name": "sfsp_machinegunupper_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-13",
+      "family": "machinegunupper",
+      "name": "sfsp_machinegunupper_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-13",
+      "family": "jacknifemaximum",
+      "name": "sfsp_jacknifemaximum_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-13",
+      "family": "jacknifemaximum",
+      "name": "sfsp_jacknifemaximum_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-13",
+      "family": "jacknifemaximum",
+      "name": "sfsp_jacknifemaximum_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-13",
+      "family": "sobatcarnival",
+      "name": "sfsp_sobatcarnival_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-13",
+      "family": "sobatcarnival",
+      "name": "sfsp_sobatcarnival_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-13",
+      "family": "sobatcarnival",
+      "name": "sfsp_sobatcarnival_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-14",
+      "family": "rollingcrystalflash",
+      "name": "sfsp_rollingcrystalflash_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-14",
+      "family": "rollingcrystalflash",
+      "name": "sfsp_rollingcrystalflash_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-14",
+      "family": "rollingcrystalflash",
+      "name": "sfsp_rollingcrystalflash_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-14",
+      "family": "flyingbarcelonaattack",
+      "name": "sfsp_flyingbarcelonaattack_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-14",
+      "family": "flyingbarcelonaattack",
+      "name": "sfsp_flyingbarcelonaattack_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-14",
+      "family": "flyingbarcelonaattack",
+      "name": "sfsp_flyingbarcelonaattack_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-14",
+      "family": "izunadrop",
+      "name": "sfsp_izunadrop_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-14",
+      "family": "izunadrop",
+      "name": "sfsp_izunadrop_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-14",
+      "family": "izunadrop",
+      "name": "sfsp_izunadrop_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-14",
+      "family": "skyhighclaw",
+      "name": "sfsp_skyhighclaw_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-14",
+      "family": "skyhighclaw",
+      "name": "sfsp_skyhighclaw_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-14",
+      "family": "skyhighclaw",
+      "name": "sfsp_skyhighclaw_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-14",
+      "family": "backslash",
+      "name": "sfsp_backslash_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-14",
+      "family": "backslash",
+      "name": "sfsp_backslash_0_short",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-14",
+      "family": "scarletterror",
+      "name": "sfsp_scarletterror_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-14",
+      "family": "scarletterror",
+      "name": "sfsp_scarletterror_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-14",
+      "family": "scarletterror",
+      "name": "sfsp_scarletterror_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-14",
+      "family": "ssf2t_rollingizunadrop",
+      "name": "sfsp_ssf2t_rollingizunadrop_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-14",
+      "family": "ssf2t_rollingizunadrop",
+      "name": "sfsp_ssf2t_rollingizunadrop_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-14",
+      "family": "ssf2t_rollingizunadrop",
+      "name": "sfsp_ssf2t_rollingizunadrop_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-15",
+      "family": "psychocrusher",
+      "name": "sfsp_psychocrusher_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-15",
+      "family": "psychocrusher",
+      "name": "sfsp_psychocrusher_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-15",
+      "family": "psychocrusher",
+      "name": "sfsp_psychocrusher_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-15",
+      "family": "doublekneepress",
+      "name": "sfsp_doublekneepress_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-15",
+      "family": "doublekneepress",
+      "name": "sfsp_doublekneepress_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-15",
+      "family": "doublekneepress",
+      "name": "sfsp_doublekneepress_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-15",
+      "family": "headpress",
+      "name": "sfsp_headpress_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-15",
+      "family": "headpress",
+      "name": "sfsp_headpress_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-15",
+      "family": "headpress",
+      "name": "sfsp_headpress_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-15",
+      "family": "somersaultskulldriver",
+      "name": "sfsp_somersaultskulldriver_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-15",
+      "family": "somersaultskulldriver",
+      "name": "sfsp_somersaultskulldriver_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-15",
+      "family": "somersaultskulldriver",
+      "name": "sfsp_somersaultskulldriver_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-15",
+      "family": "ssf2t_devilreverse",
+      "name": "sfsp_ssf2t_devilreverse_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-15",
+      "family": "ssf2t_devilreverse",
+      "name": "sfsp_ssf2t_devilreverse_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-15",
+      "family": "ssf2t_devilreverse",
+      "name": "sfsp_ssf2t_devilreverse_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-15",
+      "family": "kneepressnightmare",
+      "name": "sfsp_kneepressnightmare_0",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-15",
+      "family": "kneepressnightmare",
+      "name": "sfsp_kneepressnightmare_1",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    },
+    {
+      "id": "sf-15",
+      "family": "kneepressnightmare",
+      "name": "sfsp_kneepressnightmare_2",
+      "side": -1,
+      "activated": true,
+      "finite": true
+    }
+  ],
+  "failures": []
+}

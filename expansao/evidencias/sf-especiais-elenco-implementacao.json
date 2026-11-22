@@ -1,0 +1,855 @@
+{
+  "originalFidelityValidated": false,
+  "rows": [
+    {
+      "character": "sf-1",
+      "family": "hundredhandslap",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r2\\sf-1",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "3e799e4ce4215bbf330e358393789da0d78b8c0e49e2f823798aa7b7eddc8336"
+    },
+    {
+      "character": "sf-1",
+      "family": "sumoheadbutt",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-1",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "785eb5a970c33ec44d6d8678f67cb3a7d8912938a63f05aa38eb87e9f61280b6"
+    },
+    {
+      "character": "sf-1",
+      "family": "sumosmash",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-1",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "e51368111895239d67b4f3677e9e4531bdf33ee40e2b458e6d567f6c5ca03007"
+    },
+    {
+      "character": "sf-1",
+      "family": "ooichothrow",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-near-r1\\sf-1",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "d0b20c273bdb8a0291f116ecfcb6e2458f491753a0e5d1e7e4d31250cb8c0bed"
+    },
+    {
+      "character": "sf-1",
+      "family": "superkillerheadram",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-1",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "fecb4fa5bfd34d41337cf3cea89cda72bc1044a444403a30d2ee568b2aeb98e3"
+    },
+    {
+      "character": "sf-2",
+      "family": "electricthunder",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r2\\sf-2",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "696c762ffbc15e43d859d0c3f52684870fc737899620ad235600fc8f29c571c5"
+    },
+    {
+      "character": "sf-2",
+      "family": "rollingattack",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-2",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "c9d9e03ae0d33d95fda65b85021150c1f3bedcee1c1fa4ba331e3ead70132b8e"
+    },
+    {
+      "character": "sf-2",
+      "family": "verticalroll",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-2",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "d9b19ea724ce5da39ba9dce4a2e586cd6f76394d4e128d90e3f4e06bde379fe4"
+    },
+    {
+      "character": "sf-2",
+      "family": "backsteproll",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-2",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "ca75146442a56a33edf812f051c9aa28ce330fa805df54c77df0d9ed16de98e9"
+    },
+    {
+      "character": "sf-2",
+      "family": "surpriseforward",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-2",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "63c862aad9197d74966f15075439bd0756198fc3159d23ce1083dea47f09fa02"
+    },
+    {
+      "character": "sf-2",
+      "family": "surpriseback",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-2",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "72c66ec0dfa64064e2a522aad22acfeb85aad72bd4bd7ef6d65ed0ce4ecba28f"
+    },
+    {
+      "character": "sf-2",
+      "family": "groundshaveroll",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-2",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "d3c88e2449f69bf5e3b87a866de33ee3a27885a98c1528bf655589f73720173a"
+    },
+    {
+      "character": "sf-3",
+      "family": "sonicboom",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-3",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "9c8002b81b50c43dd8d70f443144d106aa469817ebf90563bf96af3fc30c2a71"
+    },
+    {
+      "character": "sf-3",
+      "family": "flashkick",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r2\\sf-3",
+      "derivedRelatedAnimation": true,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "e23908ec04262cbc9e031fa6b4e23e6838cc4ac7bf32644b264bcee3ccee66cd"
+    },
+    {
+      "character": "sf-3",
+      "family": "doubleflash",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r2\\sf-3",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "e23908ec04262cbc9e031fa6b4e23e6838cc4ac7bf32644b264bcee3ccee66cd"
+    },
+    {
+      "character": "sf-4",
+      "family": "tomahawkbuster",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-near-r1\\sf-4",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "d3c8ff03210e9b720ce085efe5d511f8595f2e8b0156fb51877878eff8f4f43f"
+    },
+    {
+      "character": "sf-4",
+      "family": "mexicantyphoon",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-near-r1\\sf-4",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "843adf77f153096f21faec9d3394bb93fa2317826380f03c29b6e7e8802b0a77"
+    },
+    {
+      "character": "sf-4",
+      "family": "condordive",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-4",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "81c3a9945269742d325c2100098bb7bf3aabbe01edb8ba34e94b0e866c7f4dde"
+    },
+    {
+      "character": "sf-4",
+      "family": "doubletyphoon",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-near-r3\\sf-4",
+      "derivedRelatedAnimation": true,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "34a9bf4f338a849fde1e9652ef5418f38f8fb50651b66982bb299dc77ba22bef"
+    },
+    {
+      "character": "sf-5",
+      "family": "rekkaken",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-5",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "409d5eb7d10766c861fa498579b438bb9a61502611d700148abbaaf5e4dde8e9"
+    },
+    {
+      "character": "sf-5",
+      "family": "shienkyaku",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-5",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "6bcb865b7245b30016aab46da89aae4cccf0a01e2a884ca83591c75b1a7e7355"
+    },
+    {
+      "character": "sf-5",
+      "family": "rekkukyaku",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r2\\sf-5",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "b5fb43f2d8b04ed0f9171610181c6765280f53cea06dc74e0a87b5a45ec33c1d"
+    },
+    {
+      "character": "sf-5",
+      "family": "rekkashinken",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-5",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "1c6b6653d3ba02849071ef79fc0702a2179d05b6a0e8dfe17c8b3f0425db7cad"
+    },
+    {
+      "character": "sf-6",
+      "family": "turnpunch",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-6",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "ed87f5f79963271338f127d6178a5a756db10e1c05f5e9c111e9cdcf65d9455b"
+    },
+    {
+      "character": "sf-6",
+      "family": "dashstraight",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-6",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "ce15956e4d55da16ad86fc4de3d4c780e9be9a9940fceb8da86a1c650f2038b1"
+    },
+    {
+      "character": "sf-6",
+      "family": "dashupper",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-6",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "7d2d9dc728feaab0b63bef01c2ce2ac4610edfdeaec9dbbe421c5b42f2cd2a0f"
+    },
+    {
+      "character": "sf-6",
+      "family": "buffalohead",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-6",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "7f9226aabb763b054347e5b82ab3935abdb60e0dc7dde4c35d80737b0858b5c7"
+    },
+    {
+      "character": "sf-6",
+      "family": "dashlowstraight",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-6",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "59ecd056f656b5b492e6c4bd3baf9befd3329c1f84aeb6a37b0eb1f8dfcad39b"
+    },
+    {
+      "character": "sf-6",
+      "family": "dashlowupper",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-6",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "fb1881ccc3558447778a8db8cb6cf2d50815a2e404de3fef1fdc762d6a99ee6d"
+    },
+    {
+      "character": "sf-6",
+      "family": "crazybuffalo",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-6",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "2f88df8f383ecf49be5b0f24089409b3fb54ee726de937766286cf7022bf7987"
+    },
+    {
+      "character": "sf-7",
+      "family": "hightigershot",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-7",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "1a3da44b6352f72248fe5960e85cda703b1115425932d65e0ae16a8e943501a3"
+    },
+    {
+      "character": "sf-7",
+      "family": "lowtigershot",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-7",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "b0541babd2b1fe7696698231c44396d76bb3642ad89c2c260281d303919307d2"
+    },
+    {
+      "character": "sf-7",
+      "family": "tigeruppercut",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-7",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "e20d794f3dfaba57d9c5b2e00e6371d8032c5442e251d51113194e726bf9d07d"
+    },
+    {
+      "character": "sf-7",
+      "family": "tigerkneecrush",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-7",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "2c7cda3d9639eee82c1db407d12eb3a6b35c45c92789ff18ec392848e1e4189c"
+    },
+    {
+      "character": "sf-7",
+      "family": "tigergenocide",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-7",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "b6d0951b28e9131a544b3698d5e9ea95c524e528b1276c35ce902c7d6b8ac582"
+    },
+    {
+      "character": "sf-8",
+      "family": "airtatsumakisenpukyaku",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-8",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "1e498c3bc074873ac06f9b3d6fbd8287e6a7bc217c675de7e746acc4a7af41cc"
+    },
+    {
+      "character": "sf-8",
+      "family": "inazumakick",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-8",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "157148c75e5dcc7f7cbd9a9c9194f2c6b9248057794416b520af82845312f3f6"
+    },
+    {
+      "character": "sf-8",
+      "family": "forwardstepkick",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-8",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "97b32bca6efc1e3bd56e6c0ed8e065a89b58d45d1a81e3a9f3d1cacb03284bf6"
+    },
+    {
+      "character": "sf-8",
+      "family": "thunderkick",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-8",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "0c119827a0523907a4146d3dc3cc3075107b497090cc1e96ee2a58b5a5ea3f7e"
+    },
+    {
+      "character": "sf-8",
+      "family": "ssf2t_inazumakick",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-8",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "adaa38aa14d2e09b500bf324062576d9e2beb572039eae299ab3ebdd26966d20"
+    },
+    {
+      "character": "sf-8",
+      "family": "shoryureppa",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-8",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "b37d72172e2b7f0a8648076dfaf502b19045f6125e69eac9e7545159b2d88bc2"
+    },
+    {
+      "character": "sf-9",
+      "family": "hyakuretsukyaku",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r2\\sf-9",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "16f22583edbb2cb4e4bc6a4b05325cec2ce9f8c6476b6384382bf9b5712a8335"
+    },
+    {
+      "character": "sf-9",
+      "family": "tenshokyaku",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-9",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "2e0cff1db29a8e35b6b97044e71ba3664d5e007ecd14e0754637a1de2ff26913"
+    },
+    {
+      "character": "sf-9",
+      "family": "sfa_spinningbirdkick",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-9",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "7cc72fadc3ed69e90dc9102fc5f20167be4ddd132568bd72d55286582ec4cc9a"
+    },
+    {
+      "character": "sf-9",
+      "family": "ssf2t_airspinningbirdkick",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-9",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "b2b72d05a73f99b60a0bbf4b2bde5364c5c3227884994468dcdec61a477011ae"
+    },
+    {
+      "character": "sf-9",
+      "family": "ssf2_kikoken",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-9",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "8467426f35f0c2096ef5b18e33c9ed700d274256c66ffc5db5c1903565944055"
+    },
+    {
+      "character": "sf-9",
+      "family": "senretsukyaku",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-9",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "5f1fd4372058ff7b90d47fdc36cdf5c6ce6ac1f01ca25f0c13ed2ea5834a1fc9"
+    },
+    {
+      "character": "sf-10",
+      "family": "doublelariat",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-10",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "9ea41a62304670d2ccf8bdfcf8ca948cc62013474285a99fc41af20a281be438"
+    },
+    {
+      "character": "sf-10",
+      "family": "quickdoublelariat",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-10",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "602a87aa74e84742fda9db4903514f8212cfe57650890aeec0e7272a3170944f"
+    },
+    {
+      "character": "sf-10",
+      "family": "spinningpiledriver",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-near-r1\\sf-10",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "c52ef3bc6d56b189d87b9cb022e41147e21d4dc76c1afa3f1e531b545e0db655"
+    },
+    {
+      "character": "sf-10",
+      "family": "flyingpowerbomb",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-10",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "7532970778d519a0325040d955566cac6dc017b9e558736c43d1dc0a95b0b7e5"
+    },
+    {
+      "character": "sf-10",
+      "family": "atomicsuplex",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-near-r1\\sf-10",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "c1eba90aa0097cde7b060ae11e860cb107771a7f4e2cf9e9eeed0d12619eefc4"
+    },
+    {
+      "character": "sf-10",
+      "family": "banishingflat",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-10",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "e3e58ce0b8b72010fb16a8e19ea240af0fb055786b1ee343264051e53dd05e61"
+    },
+    {
+      "character": "sf-10",
+      "family": "finalatomicbuster",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-near-r3\\sf-10",
+      "derivedRelatedAnimation": true,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "d94617667c9a9ab9c97585f5b187cc66e44f267db10cee92b6dfaae1c8f3b030"
+    },
+    {
+      "character": "sf-11",
+      "family": "yogafire",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-11",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "289ae414e97dd237965d0d5be39c306e0c0d14368b501f3c6b135439d57308cf"
+    },
+    {
+      "character": "sf-11",
+      "family": "yogaflame_2",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-11",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "f70e1e60b4ca14b4e57de0fce5efff563aa1783e638e0b5e454da430669c1985"
+    },
+    {
+      "character": "sf-11",
+      "family": "yogateleport",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-11",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "e93dce031a09d7e2a2406f8432918642d78dd426d9353d9251b81ea2388e9650"
+    },
+    {
+      "character": "sf-11",
+      "family": "yogablast_2",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-11",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "fc2b51d2e28fc7125225f711490b43e0b755d89504ea6ba3914923f46cf73d68"
+    },
+    {
+      "character": "sf-11",
+      "family": "yogainferno",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-11",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "d14f86254f4d585a0cef8ff7f571e76f3cd8598ec2946a7211483668375de13e"
+    },
+    {
+      "character": "sf-12",
+      "family": "spiralarrow",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-12",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "96f1a5278d4428806a414aec0b3ab529bb45acf34eaa39ff5d7bbcd4ac2ffde8"
+    },
+    {
+      "character": "sf-12",
+      "family": "cannonspike",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-12",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "58d9e114510097de03ef63ddb2702c4abe2a1b5002554a2527bf9852001e0b1a"
+    },
+    {
+      "character": "sf-12",
+      "family": "ssf2t_axlespinknuckle",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-12",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "06389ad40339189e7aa66fcf5964a2d1918c989d9c3f67bffe7413ff34e03eaa"
+    },
+    {
+      "character": "sf-12",
+      "family": "hooligancombination",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r2\\sf-12",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "48aceb1a495631cbf3d46c08a2ddc01484a776e14db50d1b510d7741d2396503"
+    },
+    {
+      "character": "sf-12",
+      "family": "razersedgeslicer",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r2\\sf-12",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "13f02dc08f446dbbeb8bfe228fc23cbfd9b1d22d2a9b130d06fb6d249f50579e"
+    },
+    {
+      "character": "sf-12",
+      "family": "fatallegtwist",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-near-r2\\sf-12",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "9fda8a44ce6ed55aac8ef2fcaf5b0671143414546000d0171b850047433ffda2"
+    },
+    {
+      "character": "sf-12",
+      "family": "crossedscissors",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-near-r2\\sf-12",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "9e98567a3cb6e03c5ae20db25a46eb8e1037ef9eaf7640ae616b42b3959d9941"
+    },
+    {
+      "character": "sf-12",
+      "family": "spindrivesmasher",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-12",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "22ecafac42b50d79908ac51a0ff4b46a9d4789889812c7be86ba22926f045055"
+    },
+    {
+      "character": "sf-13",
+      "family": "doublerollingsobat",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-13",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "8ecf1506a3efee9ed768e8beddbc965291f8381ebe59d4a00823345e5640e7aa"
+    },
+    {
+      "character": "sf-13",
+      "family": "airslasher",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-13",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "de745f8d8bd2b89532ebad13320eccaa1a906ac0c6a56c09abf482c4ff66e722"
+    },
+    {
+      "character": "sf-13",
+      "family": "machinegunupper",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r2\\sf-13",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "866de8cb0c69a77eeeaf5ed505a4e2549995a64339178e3aaade679a3c06ad01"
+    },
+    {
+      "character": "sf-13",
+      "family": "jacknifemaximum",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-13",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "1e7947f4b249292277e56aaa0bc973b18795c5d0d636fac68d030e5584a83ea8"
+    },
+    {
+      "character": "sf-13",
+      "family": "sobatcarnival",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-13",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "fd20f1fbfba6edfde9eaa61d8a71745b6b619e0ef547f4222858ce2313dc1bcf"
+    },
+    {
+      "character": "sf-14",
+      "family": "rollingcrystalflash",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-14",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "60a4c1cf8cdaabd2e10d9fe1827f1b9f3ec2ab727f6e6cc74608ce487abd4f5d"
+    },
+    {
+      "character": "sf-14",
+      "family": "flyingbarcelonaattack",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r2\\sf-14",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "0615feb8c0b21057e8f9d439d22776c4c2e9afb09cfe4c78770a4d1839d98574"
+    },
+    {
+      "character": "sf-14",
+      "family": "izunadrop",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-near-r2\\sf-14",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "a14893b80348e6e79fdda8742eb7deb15a1fd4e7d952f7b95e7fcea031c880aa"
+    },
+    {
+      "character": "sf-14",
+      "family": "skyhighclaw",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-14",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "f96050d34ad98d98bca2a7e8c7bab6c4201d577ff9369964690d79cf9da78b37"
+    },
+    {
+      "character": "sf-14",
+      "family": "backslash",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-14",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "7f930396e3c3558f3bc1e68ce4a456e860cc8bb52d8acffcfec4019be41e89ad"
+    },
+    {
+      "character": "sf-14",
+      "family": "scarletterror",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-14",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "031daba12e3170e0b5e66e97fbc6f8122babd11dc86d2ab7295eff6ddf80a7fc"
+    },
+    {
+      "character": "sf-14",
+      "family": "ssf2t_rollingizunadrop",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-near-r2\\sf-14",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "cb4dd3d77e5cd63e965c329d0edafe52f1b014951ac7203dba4e7598519939c7"
+    },
+    {
+      "character": "sf-15",
+      "family": "psychocrusher",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-15",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "218efeb8e2a8fd8a6f5f641c946a9b828eb0a67b0302e5b67af27049c24e631b"
+    },
+    {
+      "character": "sf-15",
+      "family": "doublekneepress",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-15",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "883c1ca3ce06c5d1b7c75dbc5ad0787ca8c04f155768f0331074dbc629962411"
+    },
+    {
+      "character": "sf-15",
+      "family": "headpress",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-15",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "c2d6c30f37a685fdf53f83d7762ff4535275f1feaebc08860fc91a97496f2327"
+    },
+    {
+      "character": "sf-15",
+      "family": "somersaultskulldriver",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r2\\sf-15",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "6e03c3adc4a298289f4b01cd55a9447df4ae1f9e3b3d98e7ffb1c32198696882"
+    },
+    {
+      "character": "sf-15",
+      "family": "ssf2t_devilreverse",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r2\\sf-15",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "6ae3e4075f5ef55ffa59b7ba2a68a5d77b8cd14ce089bdfef0b2c350807d43a3"
+    },
+    {
+      "character": "sf-15",
+      "family": "kneepressnightmare",
+      "status": "IMPLEMENTED_PROVISIONAL",
+      "capture": "especiais-sf-completo-far-r1\\sf-15",
+      "derivedRelatedAnimation": false,
+      "controlledContactFixture": false,
+      "airStateNotIdentityProof": false,
+      "sourceHash": "648b3e74f02d463df47ff19528313f44c13f9df7ee43247e3369ba435b16d6c2"
+    }
+  ]
+}

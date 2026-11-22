@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "url": "http://192.168.0.199:8765",
+  "installedRevision": "8.5",
+  "twoIndependentContexts": true,
+  "authoritativeMove": "air_tatsumaki_lk",
+  "matchingTick": 364,
+  "physicalControllersTested": false,
+  "errors": []
+}

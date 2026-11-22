@@ -1,0 +1,93 @@
+{
+  "schema": 1,
+  "game": "umk3",
+  "nativeStageId": 10,
+  "nativeViewport": [
+    400,
+    254
+  ],
+  "nativeFps": 53.20494842529297,
+  "camera": {
+    "min": 0,
+    "max": 800,
+    "base": 324
+  },
+  "layers": [
+    {
+      "type": "module",
+      "id": "layer-0",
+      "origin": [
+        0,
+        28
+      ],
+      "scrollAtBase": [
+        30,
+        0
+      ],
+      "scrollXPerCameraPixel": 0.0,
+      "texture": {
+        "file": "layer-0.png",
+        "width": 458,
+        "height": 226,
+        "sha256": "009755001a53c63ac1e2660d20f42a53b76522be8aadaff2250e0db0f3e74a53"
+      }
+    },
+    {
+      "type": "module",
+      "id": "layer-1",
+      "origin": [
+        0,
+        109
+      ],
+      "scrollAtBase": [
+        -134,
+        0
+      ],
+      "scrollXPerCameraPixel": 0.25,
+      "texture": {
+        "file": "layer-1.png",
+        "width": 169,
+        "height": 35,
+        "sha256": "6269796b2e87dcdeffb941bbab0b6f166c242b37eaff732c50f196a4835d9094"
+      }
+    },
+    {
+      "type": "module",
+      "id": "layer-2",
+      "origin": [
+        50,
+        -7
+      ],
+      "scrollAtBase": [
+        135,
+        0
+      ],
+      "scrollXPerCameraPixel": 0.375,
+      "texture": {
+        "file": "layer-2.png",
+        "width": 583,
+        "height": 310,
+        "sha256": "8b7e7aa5d3bc6256200e1b66356ebe3a532cd073dbae85ebce630dc89bacdf72"
+      }
+    },
+    {
+      "type": "module",
+      "id": "layer-3",
+      "origin": [
+        371,
+        193
+      ],
+      "scrollAtBase": [
+        447,
+        0
+      ],
+      "scrollXPerCameraPixel": 1.0,
+      "texture": {
+        "file": "layer-3.png",
+        "width": 546,
+        "height": 102,
+        "sha256": "e486b651989c9603737edc3c01c1473fbac2438897373794efc228ee719ab53a"
+      }
+    }
+  ]
+}

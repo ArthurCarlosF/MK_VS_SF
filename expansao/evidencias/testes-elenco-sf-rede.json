@@ -1,10 +1,11 @@
 {
   "status": "PASS",
   "characters": [
-    "sf-8",
-    "sf-1"
+    "sf-11",
+    "sf-10"
   ],
-  "matchingTick": 936,
+  "stage": "sf-cammy",
+  "matchingTick": 316,
   "errors": [],
   "completeCharacters": false
 }

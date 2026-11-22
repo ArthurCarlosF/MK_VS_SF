@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "characters": [
+    "akuma",
+    "scorpion"
+  ],
+  "stage": "sf-cammy",
+  "matchingTick": 304,
+  "errors": [],
+  "completeCharacters": false
+}

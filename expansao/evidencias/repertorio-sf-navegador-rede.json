@@ -1,0 +1,126 @@
+{
+  "status": "PASS",
+  "root": "D:\\Projetos\\Mortal Kombat vs Street Fighter\\expansao",
+  "groups": [
+    {
+      "ids": [
+        "ryu",
+        "sf-1",
+        "sf-2",
+        "sf-3",
+        "sf-4",
+        "sf-5",
+        "sf-6",
+        "sf-7"
+      ],
+      "started": [
+        {
+          "id": "ryu",
+          "started": true
+        },
+        {
+          "id": "sf-1",
+          "started": true
+        },
+        {
+          "id": "sf-2",
+          "started": true
+        },
+        {
+          "id": "sf-3",
+          "started": true
+        },
+        {
+          "id": "sf-4",
+          "started": true
+        },
+        {
+          "id": "sf-5",
+          "started": true
+        },
+        {
+          "id": "sf-6",
+          "started": true
+        },
+        {
+          "id": "sf-7",
+          "started": true
+        }
+      ],
+      "errors": [],
+      "help": 16
+    },
+    {
+      "ids": [
+        "sf-8",
+        "sf-9",
+        "sf-10",
+        "sf-11",
+        "sf-12",
+        "sf-13",
+        "sf-14",
+        "sf-15"
+      ],
+      "started": [
+        {
+          "id": "sf-8",
+          "started": true
+        },
+        {
+          "id": "sf-9",
+          "started": true
+        },
+        {
+          "id": "sf-10",
+          "started": true
+        },
+        {
+          "id": "sf-11",
+          "started": true
+        },
+        {
+          "id": "sf-12",
+          "started": true
+        },
+        {
+          "id": "sf-13",
+          "started": true
+        },
+        {
+          "id": "sf-14",
+          "started": true
+        },
+        {
+          "id": "sf-15",
+          "started": true
+        }
+      ],
+      "errors": [],
+      "help": 16
+    },
+    {
+      "ids": [
+        "akuma",
+        "scorpion"
+      ],
+      "started": [
+        {
+          "id": "akuma",
+          "started": true
+        },
+        {
+          "id": "scorpion",
+          "started": true
+        }
+      ],
+      "errors": [],
+      "help": 4
+    }
+  ],
+  "authoritativeSonicBoom": true,
+  "authoritativeNativeGuileThrow": true,
+  "throwSharedTick": 1020,
+  "sameTick": 580,
+  "errors": [],
+  "failedImages": []
+}

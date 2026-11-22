@@ -1,0 +1,47 @@
+{
+  "status": "VALIDATED_AWAITING_FIDELITY_REVIEW",
+  "completeGame": false,
+  "automaticallyPublishes": false,
+  "steps": [
+    {
+      "name": "export",
+      "exitCode": 0
+    },
+    {
+      "name": "metadata",
+      "exitCode": 0
+    },
+    {
+      "name": "combat",
+      "exitCode": 0
+    },
+    {
+      "name": "interface",
+      "exitCode": 0
+    }
+  ],
+  "capture": {
+    "status": "CAPTURED_REVIEW_PENDING",
+    "completed": [
+      "sf-8",
+      "sf-1",
+      "sf-2",
+      "sf-3",
+      "sf-4",
+      "sf-5",
+      "sf-6",
+      "sf-7",
+      "sf-9",
+      "sf-10",
+      "sf-11",
+      "sf-12",
+      "sf-13",
+      "sf-14",
+      "sf-15"
+    ],
+    "failed": [],
+    "active": null,
+    "total": 15
+  },
+  "finishedAt": "2026-11-03T07:56:02-0300"
+}

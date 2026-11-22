@@ -1,0 +1,177 @@
+{
+  "schema": 1,
+  "character": "ryu",
+  "source": "ssf2tu",
+  "fps": 59.633331298828125,
+  "baseline_sha256": "9a40eba8074327eaa1bf05410dc463921f5bfffb7d011d5991f101b7eeb8f76a",
+  "originCalibration": {
+    "method": "pixel-identical calibrated idle plus native world/camera positions",
+    "idlePixelsSha256": "012d581f2053b04b064b95fa15f48eec7d180c13982a477dbc32f91e6fa70acf",
+    "idleMatch": 1.0,
+    "worldScreenCorrection": [
+      2,
+      4
+    ]
+  },
+  "assets": {
+    "frame-0000": {
+      "file": "quadros/frame-0000.png",
+      "width": 64,
+      "height": 96,
+      "sha256_pixels": "3570e9b6c6cbf1c0e64db175279616f8eece524a160a46169f53d0fe4323b50a"
+    },
+    "frame-0001": {
+      "file": "quadros/frame-0001.png",
+      "width": 64,
+      "height": 96,
+      "sha256_pixels": "9d46aa63e421f7e6e334b9f8d1f4bcf384cef0fd73b1a6dd3bcba1f38f1ac3ea"
+    },
+    "frame-0002": {
+      "file": "quadros/frame-0002.png",
+      "width": 64,
+      "height": 96,
+      "sha256_pixels": "b5cfefafa96c58907ae40104305fd1ed2b7971eb9944278d1564a8c6ec6a51f9"
+    },
+    "frame-0003": {
+      "file": "quadros/frame-0003.png",
+      "width": 64,
+      "height": 112,
+      "sha256_pixels": "da671229867853628efd605bf389a329204a2c8c003fce1ad4c84f2607c337ca"
+    },
+    "frame-0004": {
+      "file": "quadros/frame-0004.png",
+      "width": 64,
+      "height": 112,
+      "sha256_pixels": "9324513891a1d429a9774049ea70d3ae1e7661f9125aae5653972c76442436ca"
+    },
+    "frame-0005": {
+      "file": "quadros/frame-0005.png",
+      "width": 96,
+      "height": 112,
+      "sha256_pixels": "cfe62151deb6767dec363d533847deca67d62d3e3c4b6c1b7e6da12ad469f55b"
+    },
+    "frame-0006": {
+      "file": "quadros/frame-0006.png",
+      "width": 64,
+      "height": 112,
+      "sha256_pixels": "d91814e3177f144ef28853d19524b1ce48b2dcaffad8d5588824181b2a1b3d14"
+    },
+    "frame-0007": {
+      "file": "quadros/frame-0007.png",
+      "width": 96,
+      "height": 96,
+      "sha256_pixels": "2d42d077fd11e88873c691979ac28f186de04148cbfc5fe6a4e609cc2cd1404d"
+    },
+    "frame-0008": {
+      "file": "quadros/frame-0008.png",
+      "width": 64,
+      "height": 96,
+      "sha256_pixels": "09845e15319e09ebe3dd9f0b6e684e9be463b0d74fd7ca82015e5aaab9fcb74c"
+    },
+    "frame-0009": {
+      "file": "quadros/frame-0009.png",
+      "width": 64,
+      "height": 112,
+      "sha256_pixels": "d736742b176d7d30ab2805b54103d7597a8eed8bb43f14515c351848a8633dc7"
+    },
+    "frame-0010": {
+      "file": "quadros/frame-0010.png",
+      "width": 64,
+      "height": 112,
+      "sha256_pixels": "01c9a949f61cfc0ca0cb1f7f288e4949772fce670fe2b4e3568e3b3dd6a656d9"
+    },
+    "frame-0011": {
+      "file": "quadros/frame-0011.png",
+      "width": 64,
+      "height": 96,
+      "sha256_pixels": "e6d72da097daaf7821c7179b1f0fb0c34ccb4259600e6cfcc429bf1c9d393af4"
+    },
+    "frame-0012": {
+      "file": "quadros/frame-0012.png",
+      "width": 64,
+      "height": 96,
+      "sha256_pixels": "9ab3bb92b17f2374953fad45dc01f3e5ca98d3129410ddd07523344e46093783"
+    },
+    "frame-0013": {
+      "file": "quadros/frame-0013.png",
+      "width": 64,
+      "height": 112,
+      "sha256_pixels": "cc889dde4af2efd5086f129786990f1c6784363bba4f00b2db7ef92def92d561"
+    },
+    "frame-0014": {
+      "file": "quadros/frame-0014.png",
+      "width": 64,
+      "height": 96,
+      "sha256_pixels": "f2ff5871668e4d5b15a603ff7640356b384a9f48bc2bc0c807234abc90e32c2a"
+    },
+    "frame-0015": {
+      "file": "quadros/frame-0015.png",
+      "width": 64,
+      "height": 96,
+      "sha256_pixels": "012d581f2053b04b064b95fa15f48eec7d180c13982a477dbc32f91e6fa70acf"
+    },
+    "frame-0016": {
+      "file": "quadros/frame-0016.png",
+      "width": 64,
+      "height": 96,
+      "sha256_pixels": "5ac42d951fd51c66163b9430efa4dece7dc84ee1481297478230c94c095a2baa"
+    },
+    "frame-0017": {
+      "file": "quadros/frame-0017.png",
+      "width": 64,
+      "height": 96,
+      "sha256_pixels": "b044dbb70cdf0a9cec7ced8873dd1ef7da6456a894407d625b30361c8d071621"
+    },
+    "frame-0018": {
+      "file": "quadros/frame-0018.png",
+      "width": 64,
+      "height": 96,
+      "sha256_pixels": "b65300aa89936acfd80c675f7dc35b10707547b20a1c337213174dde32bd88f4"
+    },
+    "frame-0019": {
+      "file": "quadros/frame-0019.png",
+      "width": 64,
+      "height": 96,
+      "sha256_pixels": "8cde3c0c47f00e5bd9b3d0e1df0ebd824e1a97cfec4b4d0b6b63391357a3941e"
+    }
+  },
+  "cases": {
+    "air_tatsumaki_lk_isolationEarly": {
+      "file": "provas/air_tatsumaki_lk_isolationEarly/trace.json",
+      "samples": 179
+    },
+    "air_tatsumaki_lk_isolationLate": {
+      "file": "provas/air_tatsumaki_lk_isolationLate/trace.json",
+      "samples": 192
+    },
+    "air_tatsumaki_lk_isolationDescending": {
+      "file": "provas/air_tatsumaki_lk_isolationDescending/trace.json",
+      "samples": 200
+    },
+    "air_tatsumaki_mk_isolationEarly": {
+      "file": "provas/air_tatsumaki_mk_isolationEarly/trace.json",
+      "samples": 179
+    },
+    "air_tatsumaki_mk_isolationLate": {
+      "file": "provas/air_tatsumaki_mk_isolationLate/trace.json",
+      "samples": 192
+    },
+    "air_tatsumaki_mk_isolationDescending": {
+      "file": "provas/air_tatsumaki_mk_isolationDescending/trace.json",
+      "samples": 200
+    },
+    "air_tatsumaki_hk_isolationEarly": {
+      "file": "provas/air_tatsumaki_hk_isolationEarly/trace.json",
+      "samples": 179
+    },
+    "air_tatsumaki_hk_isolationLate": {
+      "file": "provas/air_tatsumaki_hk_isolationLate/trace.json",
+      "samples": 192
+    },
+    "air_tatsumaki_hk_isolationDescending": {
+      "file": "provas/air_tatsumaki_hk_isolationDescending/trace.json",
+      "samples": 200
+    }
+  },
+  "status": "CAPTURED_REVIEW_PENDING"
+}

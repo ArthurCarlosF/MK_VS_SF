@@ -54,6 +54,7 @@ PENDÊNCIAS JÁ CONHECIDAS
 45 divergências SF do passo 7; recuperação/bloqueio dos combos MK;
 cancelamentos por braço; validação cruzada; repertórios completos de especiais,
 supers e finalizações; demais lutadores e cenários; áudio; campanha; apresentação,
-empacotamento e aprovação final. A revisão 8.7 em bancada acrescenta básicos
-de cinco lutadores SF; a cobertura completa do elenco continua pendente.
+empacotamento e aprovação final. A revisão 9.1 inclui básicos e reações próprias de 16 lutadores SF,
+Scorpion’s Lair, duas fatalities e Babality do Scorpion com áudio, e avanços no carro.
+A cobertura integral do elenco, das finalizações e do áudio segue pendente.
 O roteiro principal continua com uma única sequência de 1 a 15.

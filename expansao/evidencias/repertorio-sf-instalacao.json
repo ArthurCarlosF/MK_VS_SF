@@ -1,0 +1,4212 @@
+{
+  "status": "PASS",
+  "destination": "D:\\Projetos\\Mortal Kombat vs Street Fighter\\expansao",
+  "files": 1051,
+  "backup": "C:\\Users\\Pichau\\Documents\\ChatGPT\\ALL_FIGHT\\expansao-trabalho\\evidencias\\backup-repertorio-sf-20261120",
+  "verified": [
+    {
+      "file": "arena/commands.js",
+      "sha256": "82dacbadbbf315755f77d54bf6e4b6481ee76a28b4ab042cde6837a30ebcf05a"
+    },
+    {
+      "file": "arena/fight-engine.js",
+      "sha256": "2b6eefb84576d5fea8d92f470df0e6cc1dbcef82757c9f079f757d4fa076321e"
+    },
+    {
+      "file": "arena/arena.js",
+      "sha256": "ea3cf50c16b1bfc598bc2988eede1bd175bd1872fc54d96e7e6007efb118cf11"
+    },
+    {
+      "file": "arena/index.html",
+      "sha256": "8c4f12b20319fc8f3d187d15f05ae91ad77456ab9e9d0d4c67c24d31e513d644"
+    },
+    {
+      "file": "arena/repertorio-sf-data.js",
+      "sha256": "da831011b5cc57062f1e2d0c4d8c452ea67899b1f9544226a4451f254fa39e6c"
+    },
+    {
+      "file": "arena/repertorio-sf.js",
+      "sha256": "c598048709b7be9dde44aee78d933a24c9a0698e46c6aa4aa5c0723e54a9cb2d"
+    },
+    {
+      "file": "rede/server.cjs",
+      "sha256": "df3519d69e225ed94e6a2e2008995f14c50c7e24f11bab555df2410c4b695356"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0024.png",
+      "sha256": "b48e318069c0b6c5e771ca238d991ef5bcb24c930e1f0ab2811544d1430733c5"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0025.png",
+      "sha256": "f57d36de65ca6ccb1800196154726074f1be1a863a0ee00a6d80f1d438205a46"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0026.png",
+      "sha256": "337da199c45b11b0fe54c1d573efcc1c227fa8af483c70d72f0e3e250c47120b"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0027.png",
+      "sha256": "a43c35a33a6a47580ea9e669b85c3004ab879d7b34ef49f9dbc2e594819148ad"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0028.png",
+      "sha256": "3c8d9f3764167204ddbd118072a07cd9da355bec1f614de44fb8d029e00df2c7"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0029.png",
+      "sha256": "30956c7ed1c4f5d14969c59c124fbe5b3b7865f8abd3689ccf0daa396a63f54b"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0036.png",
+      "sha256": "e520ba37e4c87145f6d497805ddc50ed849140540b10801b959d9ca99f2856a9"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0037.png",
+      "sha256": "97ab05f60f233634cef698a78398d87b33b729a75801d47c55a11f23fbe7188d"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0038.png",
+      "sha256": "2fc5390c49d1d5e351492a1c1f89cc48f33b0a0d1ca1da7cb28ad1d03b813a59"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0039.png",
+      "sha256": "2a943ec2967d6692230f2512a7a58d3e1341874f823b0c352832c35b488a9a59"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0040.png",
+      "sha256": "cf246e4b29b163f93d91508025cc3bf48bd54acd6a96e28aeddccb747dde9faa"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0041.png",
+      "sha256": "b50e3643aab14a5454b6c80bf5393be3917682760b1923e58ca0adb21b433459"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0042.png",
+      "sha256": "6ad65a982441ce4bd8bd96f41da20ee86373a608d8eea79207e201bae83fec89"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0043.png",
+      "sha256": "ef203c7123cf6af27976f065b61adad2f06aa8b061998d4303827083dbe4e745"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0044.png",
+      "sha256": "665504486e8b05f20548f7533417f9eb9cf5cd6ad5e9e2fdc33b0141839f6468"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0045.png",
+      "sha256": "6d195d4c4a78c3235056554c091918ba5b131f476220b26864f9fd3279e038f8"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0046.png",
+      "sha256": "afc9f69da2c76b8acfe40aa0a88a9af842ae7a8cf85915996eb8d9d70e33caa4"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0047.png",
+      "sha256": "fe18da3b79c0c3a153c92b232adbd4d07f3d043d6f8c6d1cb45fd09a17358568"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0048.png",
+      "sha256": "7f80e6633fce96213cc3f8016521700ba5a8ae2a7f9f9e28ac014375a0d02d1b"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0049.png",
+      "sha256": "5901c95b12525c32b96d5ddfd90c530809e8c9468d7547ecea0f87a7357298f9"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0050.png",
+      "sha256": "c3010ae191fec699cde7760a3bd70c8d66ac4efba7716c4caccb091367feacb4"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0051.png",
+      "sha256": "e93196e85b98c5091efd37bf5edef9a1eb9eed68566c04806bc6e823fca33fc1"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0052.png",
+      "sha256": "7d600fb78a9eb2b0d561698bc501a9cd190c34d44d5a37be59180a6000765be8"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0053.png",
+      "sha256": "50959b1c43006e225492ebe1563499014b1e0130c2449fa5730534db21298372"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0054.png",
+      "sha256": "a9882da2d00e09c7f921acf014a3f088050835e69613cfc7f9da4a49d29aafd6"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0055.png",
+      "sha256": "1285b82907988a0cef52ebad004b449fa35063ecbf14195cb1f18746bd12788b"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0056.png",
+      "sha256": "b69a50778bfce088de5cb09f0eb32d40f5008c197e070e39e51327568158240f"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0057.png",
+      "sha256": "7b6fdbbf99006d7a978076a14474e5a0998aebfa9f0d805524650769d52712d7"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0058.png",
+      "sha256": "b403956aaf6abcc87b1940bdec14c7a815d9c368d0d3edc75d7ed8f44f72f5a9"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0059.png",
+      "sha256": "f928ea86ae2681ec65f7745644b10e1ef890899681e2c8d4b97f95ec44ca5de4"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0060.png",
+      "sha256": "899f8e172cf75f12c7d467977cd45a2160be759f2c38394f5bfcbd1a6dc33f80"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0061.png",
+      "sha256": "94316236708cc4aac2cacde05d1b16fa9d3ce694c9b64bf2a2d3f93f6fea915e"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0062.png",
+      "sha256": "50fdf5ce4dc1d74ca5f50d8f6efc9093c90627c96152f97db50f1fe671ec49bd"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0063.png",
+      "sha256": "78a819bdeb7105189aabd08e9dd0822f224a908cd28438e37355b6bb16d1c995"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0064.png",
+      "sha256": "8aaa459ab58feb4cd7ce422e3fa2a82975f368ed588e8072685727e9e0af0fad"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0065.png",
+      "sha256": "d647731ef856ed86c36e3f208cd059b115e9d5b2e2b884d2d2f89dcadeea7ca7"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0066.png",
+      "sha256": "9a123d3be22c087fcf73763e0b1ef4a2e1c2a31a03128f257c5d263dffbd0ecb"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0067.png",
+      "sha256": "5faeee552bf25419720d126e243b89ba77a9e17474a84826fe6235ad78f14587"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0068.png",
+      "sha256": "dbf3788d2415fdf551485d2c42389c0cf0c151f2dd369df3cc60de3b85b152be"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0069.png",
+      "sha256": "22c282f2de4be87a8e06999b433de99f9a980f481a1b00ab6f7dbb32c8c37dec"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0070.png",
+      "sha256": "9d15e42207417dc7fd9898a6067389e3af0c5bdee2b0c89a0d20bded6e9e6d4b"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0071.png",
+      "sha256": "4bb3d1fc8b7eb44eaaac8f903d1e4481a036e8c620f327f2a77cfd5705ef74f4"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0072.png",
+      "sha256": "fedcfb3c436a8771d3393be22addd6997bec70ad55080d11bb2869c2b6378e12"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0073.png",
+      "sha256": "c00ee59239a49e41e54b33a1612edf0cace9c4564f058f5a0582cd1cea9daae1"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0074.png",
+      "sha256": "18a7c6087b9d46cb1fefdbaa05d4490d81bd54cbc54ac9b78fa5408b093c6247"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0075.png",
+      "sha256": "cd0b5f68cb9c6d46039e007adb3fa4bffcbdb8e54a333a3c70c6ab14d2358b49"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0076.png",
+      "sha256": "d5447cf07b1acbd09a8a66dce74bd4b6f7d2c209043190b7622498d0ef7ae0c1"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0077.png",
+      "sha256": "47bb80966a35d8fe143cc20fac8eff8c8f3d5eb6830fedd42de51462617d222e"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0078.png",
+      "sha256": "fd01ce0bfcc1aff687cea15dc2196c985c15e0aa52c793c376d261bac060c6e7"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0079.png",
+      "sha256": "b16727164d87c3e5be812ee0eb94c799b6e89ee61dc13f10a81f78eaa8e83ec6"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0080.png",
+      "sha256": "b57359227fdac283ca7da88476782f241cdfda0be996806569f29ff1dcb740ec"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0081.png",
+      "sha256": "3e9d12215675ca97a30f308daf1ce9c160f93b3b071c101720d3dc35766b61ae"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0082.png",
+      "sha256": "3012895d1f125cddbe0de80364a23649fe453095dcf5d347e341cf5b8bee4915"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0083.png",
+      "sha256": "6a59f3c6d4788e7c0a80dbdce4393bcc6cf331802a1f05e504f87e034430fc24"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0084.png",
+      "sha256": "cbdd203b75e708314e4043ca14f93bcf9d712517a3f9b7c430e4f28bb168cb97"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0085.png",
+      "sha256": "9c610fddc2f4539c06ba27dfa0bc41222035faf0ca201787856d2ce89aa60ef2"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0086.png",
+      "sha256": "71f0170e58be2125bd88631784ee6b25fba13bf309db3adb33d5404f3a7908cb"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0087.png",
+      "sha256": "ae6f0c6543c442afe04c48fbddeba497fc01f48fefe430015a8f1a51c3d54ed9"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0088.png",
+      "sha256": "b143678a88a045b1ba8f545e282ab26d4ca658c28e501e27c973d0a7a5d133ae"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/akuma/frame-0089.png",
+      "sha256": "33c3cb595a5a5d66a407fcc92d3056a25a1afa1d23773ae28bab2459eceb79a5"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/ryu/frame-0019.png",
+      "sha256": "0045712f416cd9843ff62ad085e57e219e9ef3e0dcd88e2fb3b877defddaa638"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/ryu/frame-0020.png",
+      "sha256": "3ef2d392fae909fe97128f62edcf482a4ab12cd0ef35594ff61f32a51c192296"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/ryu/frame-0021.png",
+      "sha256": "e1fee750f6fad0d22c47873ea61bf3caa4c82c5d602ce8f0f2a2e4c80fec50e5"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/ryu/frame-0022.png",
+      "sha256": "f39a4bb387193d03531b743fde2b32631738da5462b3d341a8609c14100edd52"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/ryu/frame-0023.png",
+      "sha256": "ceed013a9e880166a390bea43b53d23a193b95649ea534bdf3df18c863ea0a8e"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/ryu/frame-0024.png",
+      "sha256": "ab66ce5c1e99fc4340b2043dc714c61c0560cfd6ed0b6251c37d81c8cc6e0d47"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/ryu/frame-0025.png",
+      "sha256": "4694f787a236518daa7cd63047ee8cf080134065c1cd3a126860b2e48c68b252"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/ryu/frame-0026.png",
+      "sha256": "f7fd1285029e8a4c8f58846b227662ab0fb84335980d8d3907d632c6c8df5364"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/ryu/frame-0027.png",
+      "sha256": "cfa71e0a43dfe89111e372e0f36c7de79f6b31cad9af3da8367ec066208f0167"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/ryu/frame-0028.png",
+      "sha256": "77115cf04273fc1885506c0591fd18f6e58c329635c3830c85c0c9581166a838"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/ryu/frame-0029.png",
+      "sha256": "5d6ae09565abc2bf5bc113807d3abe09e4bb03c1a6ad4360d40b3ea71585f851"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/ryu/frame-0030.png",
+      "sha256": "553a299465e10c9e0c3fa9ba6b62389448472395353086cbfb89b223d56e3472"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/ryu/frame-0037.png",
+      "sha256": "e66e3be62513e985e5b76f7c60fe5170abf82074be9b5524686ab2b8fac85ff8"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/ryu/frame-0038.png",
+      "sha256": "d303a847556c86e3e3f39d49151e27dedeaf8aa0a337b6dccf44cf725dedae30"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/ryu/frame-0039.png",
+      "sha256": "6bfb903f7652d45667a4fb717fc40990d771b3747431ef4e84e63ddf3c1ddb9f"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/ryu/frame-0040.png",
+      "sha256": "081948f9a4974a27979257269f0c5a1857dcdb032f0d58af6b6f7d7697c59632"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/ryu/frame-0041.png",
+      "sha256": "71512a079e11edb3e56ca5d77d00156c1d198d18f94489720ee96e339d07fd61"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/ryu/frame-0042.png",
+      "sha256": "5a363546b4d8aa0c02a81194367f32ee44005a87fd0daf61c5fbc2f856cf088a"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/ryu/frame-0043.png",
+      "sha256": "af1d76815936cd675d27a0e6246949ab523a990800e3c91f5c9a10bb6b1dad40"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/ryu/frame-0044.png",
+      "sha256": "ab1ee03de158e57e633c6a9baeb76c131657d001b155d7654a592dff43101c55"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/ryu/frame-0045.png",
+      "sha256": "760f7eefac09462e8eaf5c2cbe675eadb216982305b8146ff798e8b07320740b"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-1/frame-0017.png",
+      "sha256": "cf03c57a828c0618dab6fc210b70fa0303f74f3fe6dbea43411b8510f8a4db96"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-1/frame-0018.png",
+      "sha256": "4b6c62faf3c53c141b27b220ed632921e15af3ecc323fa774124c3f45c411426"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-1/frame-0019.png",
+      "sha256": "5520e6078b93393d3f4df3d03309165561ae4b9497ed7cebce5a250d3328576e"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-1/frame-0020.png",
+      "sha256": "adaacd503b5df6aa6699bb37f0fa50d655743815d50e4a731d08cc06f19520dc"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-1/frame-0021.png",
+      "sha256": "c66b40e3c4041445c41b05cdbb90e93d153bcc7faeb04725e7558ea44c2a12eb"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-1/frame-0022.png",
+      "sha256": "580b0e4ea9e7b97b7cbee4293b0e1d4d2789b27b06141d981449d725fd75813b"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-1/frame-0023.png",
+      "sha256": "8947312b125882a55d2be0a715332b7e4f8a908b2d535e0c80d0472ee28edc24"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-1/frame-0024.png",
+      "sha256": "4e83a509eac463d26538e945e6cd1325c06ed6ec5111e52f4de7b3cec2a57b44"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-1/frame-0025.png",
+      "sha256": "b15cb9b84a532dd43faa8efc90aca55d426bca586a2410dc5b3f6f35c71ed5ce"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-1/frame-0036.png",
+      "sha256": "63e0779bceb43f186be9a22302036c458010d5f61576dbb295e371f5a268f492"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-1/frame-0037.png",
+      "sha256": "4c649d34f0e31b57d00b2b720e500fdb5479fa2352e1c9fca76e6e326f718bde"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-1/frame-0038.png",
+      "sha256": "8416eff26ff556dc5e34b999a2fe00431700e34137ee76d325059a0cd30be90c"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-1/frame-0039.png",
+      "sha256": "cb4f251ad5db7d775321faeb81507cf00684f23b1ffb6cd51a9e0fc0a418993f"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-1/frame-0040.png",
+      "sha256": "cee30c0c8e80db7b7ebf00b6e8b5c9b8fe7f9881ca2ae3e2c63e9a81bc1028d9"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-1/frame-0041.png",
+      "sha256": "89f754d8d5bd96ae2b679feec42225195d5ce9581afff45398f430a278b8c2f3"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-1/frame-0042.png",
+      "sha256": "78df9c07f59fbe550467b7c3ca183518c2d13defa588060228a1973142ab66b0"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-1/frame-0043.png",
+      "sha256": "4015064683d71cbd39bf8c96d7dff14594f18b57c3c41ea89c842c5de40bea26"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-1/frame-0044.png",
+      "sha256": "3b69bd7e7efedc49ccf4545d0f2139587db02ce8f95073c03e75d99de935f764"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-1/frame-0045.png",
+      "sha256": "2a22cc7b1930e53e5fb0f6f236b97d556f14866f5d1f3574799d2f011870dc0c"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-1/frame-0046.png",
+      "sha256": "ce4e04febd0ef3a4a95f3bc5e83bf59483487930f698d6ab9920e91a04fca690"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-1/frame-0047.png",
+      "sha256": "780482f9fa42583ed5b5e2f04b43b4f2217a99b1ce0ea3c2035cd36cbe0c0d82"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-1/frame-0048.png",
+      "sha256": "8f840f32fef56cc1e476fb306d760a9390259098b504ca36087461b8015487c9"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-1/frame-0049.png",
+      "sha256": "cefd6a9a264d5c603086bc5edb01b48e83fa0a207ceaffee358f529f47245512"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-1/frame-0050.png",
+      "sha256": "1c92d65e04816f7398f44b11908a87115b8c581aaa4f7ce3cf97c782a682229e"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-1/frame-0051.png",
+      "sha256": "80d8fce56ccdf745f3bbdae8bb50dd21c492417ef478215d84f1030938cca120"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-1/frame-0052.png",
+      "sha256": "0d5706f32a739fae8841ac372678a85cd6b78818382fc2639dab1af4ebfc26a6"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-1/frame-0053.png",
+      "sha256": "463c493dd00389d044907eebd1ef21fde39bb32d37e2d62bf080f8ddbd5f88ed"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-1/frame-0054.png",
+      "sha256": "8653acf14eb49f1e432fee4bf3ec523c6c76e26b479756e2e70164caba8cc620"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-1/frame-0055.png",
+      "sha256": "df277e9b9436a01c8a5f7e5f10f5d672a08a24b782bbf9e7f3303cfa4d32d7c3"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-1/frame-0056.png",
+      "sha256": "3d51c58adf1ff16338f2440c5200d9359dfcde32280b9545076d4ec232767ed6"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-1/frame-0057.png",
+      "sha256": "e48c96bb695bd639331c0d8928b3af719a0c4e08ab52e37624c4b519869064c0"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-1/frame-0058.png",
+      "sha256": "28fde783ca160505c1a816eab59eef199711929245d067ba3d26ae6319dd690d"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-1/frame-0059.png",
+      "sha256": "62d457c0aa959d5ec528b5f46f0cce51bb01a7dd2f451d2352c7d3bc39fcf9e9"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-1/frame-0060.png",
+      "sha256": "c34ec3d43d446eddfe205286a5f9daa6bb6051f7ecdd83ab5789e5160e3948bb"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-1/frame-0061.png",
+      "sha256": "44e899faf2498705d8075c8013cace712ad07202d310f076b522f508265757d0"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-1/frame-0062.png",
+      "sha256": "fbe233fc572c448b8860ccb5a6098f25c298ead62bf73466dcef5ec638b385ec"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-1/frame-0063.png",
+      "sha256": "da87c5a363c85794548adbfa28fc4fe79565fc22bd0b77596fee9ae6a54889ec"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-1/frame-0064.png",
+      "sha256": "6343526d35179eef87112dfba9ccfe43df594cce1f830b43c8be995feb2b4269"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-1/frame-0065.png",
+      "sha256": "19ad793cf092356927577de6759b2902f30042005670eb4714f8c8ecbfd990ae"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-1/frame-0066.png",
+      "sha256": "fb2c33689ac79b6f41efef1744eb955b2534a465da5f26078b1e295d714c03d2"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-1/frame-0067.png",
+      "sha256": "2c74a64da815ee794640789cfb8017b266d5c1d45d35c72995a712805cd314c8"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-1/frame-0068.png",
+      "sha256": "2a7873ba83d7c56c54b6cb39ff884454fb7fdc6e4494a9a1a2a474154b711ef2"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-1/frame-0069.png",
+      "sha256": "ec0fdb17bb431bbcf2ce2710b0b770285d113ff5e81149ba17ddb95025c6b3af"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-1/frame-0070.png",
+      "sha256": "bcda2e547162f7c034414736c505692b756dc1edc42c00fdd3967a610044bef0"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-1/frame-0071.png",
+      "sha256": "4cf55441753d5716f1d158b313fd084fc7bdd4b1a752ce58b234091b4e9849ae"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-1/frame-0072.png",
+      "sha256": "f0e16797c251e09926640a6cb7accce82b0c234565cd4f5d188033dcba6c860d"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-1/frame-0073.png",
+      "sha256": "d98f331d7800ab742dda9f7fda2e15f72993b4c77ad509345f6db0a37f6af987"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-1/frame-0074.png",
+      "sha256": "96721798c880fe8a0635fcd4b8f8ef1803e7ccd361e0eef5ea38d3361be62300"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0001.png",
+      "sha256": "d470bd04f62d111a494db48d3443d5e6fc6cde9c387b57683027a641b87cfa44"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0002.png",
+      "sha256": "3b025358799bd740241d48d37e0ed270a27ac7d8b88b49d8834f04f1bc7740ad"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0010.png",
+      "sha256": "cb45e016d7fabe527932c25fca4160c7a7f18f7f6d33dbd8a6b15e514eb5db54"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0011.png",
+      "sha256": "c3ed0565b5968f42b9253cd075394fca902f37544e4ae000ee38241a19d91a47"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0012.png",
+      "sha256": "f74cf247a519e5a2bdde8f848af7742c2005c107fa7a121e89772071d3794b10"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0013.png",
+      "sha256": "4ea3787a8541a7a545141ba6b2dfe20d24ecf751703b8563048d40d130abb57e"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0014.png",
+      "sha256": "b2f930bc316aa9fdf0aaa2ab0e6f4903d11b488cce8269ab17ca8cb0d987f083"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0015.png",
+      "sha256": "39dd7ef4ca444db850959d6eaf5796ac231ecf83e2afe1bcc72bdf3d3af8c8c9"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0016.png",
+      "sha256": "87cd07bad2317943c26592a711be45556803fc9eaff782663f2a0881fa2b1292"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0017.png",
+      "sha256": "5853d19d79c5d77f403e36bc8681a3ca34888451bea4b3d6a45dd66f272ad811"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0018.png",
+      "sha256": "301d4d722edb9ffd93b412950d32cd3ddd8802611004adee2a20b369c833f592"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0026.png",
+      "sha256": "d8d00c594b7607d9761f0362979a03a27ad0fe5ff0e383b75e5dc46e490ca1f4"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0032.png",
+      "sha256": "73baef5e97ffe8e51ca26f9bf400ffb43f05b1fbcb7b3aec2b795035633351e3"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0033.png",
+      "sha256": "0f02df4cf476f30a97a93d4fe0b4a85028974c8776a82539c6231a5a42f56b1f"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0034.png",
+      "sha256": "b797c835d90e628041762f9692a348ff611dcaa22ef419c547f88e4d1d1c41f7"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0035.png",
+      "sha256": "d2d8c42038d3fb0ac93bd3b88f96fd9cee6061142782ecbc3b96568075921f0d"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0036.png",
+      "sha256": "ad234d27a6ded0fb02fef048e624efc862aad85feeb0197cbeb4b488c520faf3"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0037.png",
+      "sha256": "f339f6615c1d68d8f3ab456b42d7eccdda21b82592cc544b1a8349f85269b0b9"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0038.png",
+      "sha256": "b87d43cbbd11d87cff9a447bcf30f0bdd1db813068bb4939e5a0719fe5d9bebb"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0039.png",
+      "sha256": "3bb7587bfe729cab5a9e26c219bcf0ffaf3246000f24369803841bcaa5c9b586"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0040.png",
+      "sha256": "c5e9e57dcf8ab996682dec9a0aecb10d045590f318a116c773fee9de2304a295"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0041.png",
+      "sha256": "d0153fcf425ca3aedabf1cf554b5426f22b8cf71ede5ef4aadff9b1949960587"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0042.png",
+      "sha256": "f095b44f25c1e11e969f1549e503bf79f7627213ed6baecbe7402c582206ab7b"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0043.png",
+      "sha256": "7fbbafe8dacb928a2c5717e232162ebdca1c83cab6f708ad08e4be64a74a3a93"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0044.png",
+      "sha256": "7eb9c9622a141e88f8b8b000824b20e3e04aaa38bdce0a2d66b50628a20b84a7"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0045.png",
+      "sha256": "55c41c592789b1c7ea3bb97df0850215b51fc2ba514dc2c351ca3d515bea97db"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0046.png",
+      "sha256": "d50644f2fa4859abdfaaece689ee78ec238341dacf32a72f1ad5361d9eb1d960"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0047.png",
+      "sha256": "210466813f23f712e2cab8deb59887ab91aaf539681b3bb8b2189ce3be112265"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0048.png",
+      "sha256": "d31aaabe60894df9a69ac48f9ec76b40cf28ecc3f9600cf9bd4e9e23845dc9b2"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0049.png",
+      "sha256": "81562b6c1576d70c727ed113684173351a85f1e07d89d1cdfcdc90da8516ada7"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0050.png",
+      "sha256": "1c4b3e3925bb776d716f21ef83d379cc84f988ee45a293f4eabc9aebcb232442"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0051.png",
+      "sha256": "785ba759a98712cf39a7bf1e86aa42e4153e3107903254fe6aabc79a6731efb4"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0052.png",
+      "sha256": "c334a74d5bbac25b21c1af300de831579f9bacb7f1896657eeb32c7f8a04de35"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0053.png",
+      "sha256": "96deb8def0add640e0fbefcb4476c474c515466f9995ded69c89bc0f0a2d2f76"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0054.png",
+      "sha256": "d677a9d2b4f73795c60a70fb8cf9b7f1cf51e9af99737004e9631935fcf02213"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0055.png",
+      "sha256": "d82c39c934efe8588950696909a24f790fe92f9438b790eaa3d343c3ce2c326d"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0056.png",
+      "sha256": "4b9505f54e365b761e6d6d3f31e9759c09fd4c832a33097d73c3d92336a1929c"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0057.png",
+      "sha256": "036d8e716f5f08f5fccc5cd70534e52fda71dec9867060d4e657c0cf2fad6a70"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0058.png",
+      "sha256": "ed3e928ec97b2746c1b0f3f00d39698f198f4e6e4416a5d9b152b400ccc28e4d"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0059.png",
+      "sha256": "b49a376ae487062f3071f71e185299a836aaee49094d4c7597449d9f7d67dec1"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0060.png",
+      "sha256": "02ac320595eb72b78ddc4c5267203e26b7429b5c726fd22364c3483713197b22"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0061.png",
+      "sha256": "c1b968ce3c26875a775bde971e3e19b3a1cc648a8d88e5778af81ebbaffadf6e"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0062.png",
+      "sha256": "f76a2b91bc57ea1343e87882f9ed6b08b5ae9baa7809d92a389b53c0a74864fa"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0063.png",
+      "sha256": "31bfae887aa11d1ae1c3d4945f0926158bbe19d162f71f4a8b7faf51490804f6"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0064.png",
+      "sha256": "d25cc4f0bc5b7e8b96b7792aa39ce9757503656f54e552ea68dbb4fdbb63aa6e"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0065.png",
+      "sha256": "440f46dee177e82b511c93aa0b2ac3dc65aa854aa5ad0b9aaed93cef145fabfa"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0066.png",
+      "sha256": "e38d00eb67651fdf1d1e31e9649d2a5f4b20409f09d69c48fc42a1cc3039dc7d"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0067.png",
+      "sha256": "50a50bb598375011f6a9f7f91a5a69fbee943f2631691e8a4a5b0dd1f7105215"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0068.png",
+      "sha256": "1c3d46d499fcbbd360f7d7289625a80a2cfeffcbeb646d29897f108129d31f92"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0069.png",
+      "sha256": "25e437ee153553f1d163aac6e4e936b7c62aeac7851d23676d3664bd57a052a3"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0070.png",
+      "sha256": "b14ab534efe52a0bd243ef898d3c7803e3aeb48b360614ea51ba8a1927abfd8a"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0071.png",
+      "sha256": "1a8546da2578e5b45a0706e517a764ddbbadce4c83e8cc1e5ea0ec9558edc8b6"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0072.png",
+      "sha256": "e2a36618081e1d183e90aa1ea7cc2c333c2c844c810f562656a997ec599b0ec3"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0073.png",
+      "sha256": "afa8d721654fccd0873c76010a7f48a05027a53b8616273a085fdf6a8288cb08"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0074.png",
+      "sha256": "e06a1650db2176ee3dbf5e0616f49de0118edc99cf3d8875da293aad6315130f"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0075.png",
+      "sha256": "8126bd4c32f9edc7e54d493944e504468e402aaac016e58cad180af1fd945f83"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0076.png",
+      "sha256": "c739db6cb21912042cfc647d85af6099867956ad912ce23852d3f970ad129ea5"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0077.png",
+      "sha256": "b31199a72791cd93cf0b3aac547aac90607358e2765cb2ac6c67e617950adc74"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0078.png",
+      "sha256": "50e6cd8c4ab249428136e7670298a6d46c51c0f585c65cf92f42100c2f879ed5"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0079.png",
+      "sha256": "e0ba12a91d79ecae5fdc2089695cfbd3718df0ce10e754ea61bf4433d22a925a"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0080.png",
+      "sha256": "e4094ab98bbfabe94a4c90bae17c187c9326fed232a55385db6aeb63123c6e20"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0081.png",
+      "sha256": "8a82a6da7728cc293bdb0ca6d518ec8f49440f37e82d8fafa543b433b46055be"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0082.png",
+      "sha256": "c6ec2a4af5eadae1a16e0e51f5767532849821012a0c3862160fc0e4b47391dc"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0083.png",
+      "sha256": "732dc354d636e6f2a5fee25f1b3d1541f9611dc5685852f43a7ea830841c0506"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0084.png",
+      "sha256": "c79e82bfd2206feb183f912d629655c4013d08972044e949116ea1dc229df208"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0085.png",
+      "sha256": "cd6f0b2b79ba7b0ca991a46f4ddbb56fb75cea63b28e18fb2dd3751969624f5a"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0086.png",
+      "sha256": "3741029353816989074dbd7ba331b4e90730ee0ca95fe35f95ee79d104e7c143"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0087.png",
+      "sha256": "07c8e56a2e4e6fedc31a63505498660d93d0024270e95839329f72bd091c3e07"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0088.png",
+      "sha256": "93b3664ce564c7693cee2d13e8da91db19d5a71d196509359b151b532e784a18"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0089.png",
+      "sha256": "a071e7e9734237be8f54be6db5a58a550dc2b94357501ee7157546a22f5b422b"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0090.png",
+      "sha256": "b07c3831aa959a1a6f9f744c97d8b8faa77d996ea1b12c7badb864ed497b22ea"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0091.png",
+      "sha256": "3a69334863456f152937920655bf806f31f76ea2d485bea41bc1df0bdf2abb9c"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0092.png",
+      "sha256": "8c857d892c1dac2e71b869982d8dd653fe822f6c5c59351d97ba1b7a634d8929"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0093.png",
+      "sha256": "b26373ad58c9c4f0facb13292bac67bc914b628afc56237dadd85aaa148016e3"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0094.png",
+      "sha256": "ad357cac328ba384325678c2d4c954d286d4d2881284abdabadccfdc0c3ecd87"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0095.png",
+      "sha256": "98e1aff9b892e9eb1e59a35c7b41c5242481dd4bf3fb93702e9c9645dfc61fbe"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0096.png",
+      "sha256": "361417e73184acbff440942007516127db0a956e8cfb20b27c8e2cc7e296671d"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0097.png",
+      "sha256": "51100aeb9c6d8ef1f754f694b368531d700b11d082e401011dc90d3bb977c3c7"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0098.png",
+      "sha256": "c677cc6593e2de413c536090c16ad1d70491f1859961ddba44c1e9c118b11e6f"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0099.png",
+      "sha256": "dc871aaabf309cb568c6e0b2d7fe43f5c125ed0e55984fd232d3463304d2ba01"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-10/frame-0100.png",
+      "sha256": "0f38d0364845e94119ba306a5cbde8ef1e793c46c2c1e7b45c1dafd9cdeeac3c"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0000.png",
+      "sha256": "3b3d545f3c0856bf61ee98513a88ced963914b701476ae48a2e05d09df5b59f8"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0001.png",
+      "sha256": "931964b90e6170dbac0b513baa16c8da119d2068a891db3e9dafca6aa4e6440b"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0006.png",
+      "sha256": "ae698d254df9c9fe7eecb2ab377ec024cf07ae043a6dbcc6fc70bec3d2cd8cd3"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0009.png",
+      "sha256": "a3038943f3553501881435d87ea6f93df2850e248ad69d357a2605dd5d8d0a88"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0014.png",
+      "sha256": "7a31b4adcca850fed2f976f7cbdfd78c4979674dd9593bf2ab0a27351341fbba"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0015.png",
+      "sha256": "7efabe4f5deb5126c24349a39b56993898fc128612784711c177f363388791e7"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0021.png",
+      "sha256": "585886168da6033134c2999a9b9e704e962dbd355cc509a487dda47ab6300103"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0022.png",
+      "sha256": "e104b5936a304fbcf03a7c41072a4924fa569d454af8016554d917c6e447cb7f"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0023.png",
+      "sha256": "262bcfde1fcafb7304d79e22d594f34a0775e011561cc4cd166ed3e4a04494aa"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0024.png",
+      "sha256": "728cb2ebf756652e8677798131d761f47c270061c5a84c4a17e0ed23439cdc0c"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0025.png",
+      "sha256": "b2c7d390eb9a95afb6950259da155fdf01c2af948454ffa0ad1183a88f5befae"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0026.png",
+      "sha256": "2b9a112342c904bd8ced5843c515b7dd46921f78bcc90b155d40c357032f526e"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0034.png",
+      "sha256": "1323a8907237e23598d2d9fb6bff67c529220b5af77a9c728abfa28646a2c480"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0035.png",
+      "sha256": "876af94d900eea6115a45c7b8e69224988d69fee56e1eec579bb663c5bd49516"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0036.png",
+      "sha256": "5ea4a910c3f7f3c431779ec70c85d65a647e3f0007b83aa435ebf76794f8c07c"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0037.png",
+      "sha256": "17f770a243e3b749e885030a0b1ae8550149b7d5882c526c4076f32a417aaa34"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0038.png",
+      "sha256": "5423b9ac81ca3701a5b4dccd66bdf8c07c5e849185fd1c6a93f5a65f33b0a495"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0039.png",
+      "sha256": "ef83d5191a376c8fc8f750e70589da63fe0d29687be947014172c8a03410eaf6"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0040.png",
+      "sha256": "1d524364202a3326edf0282fe6a301d038d4801c4a88315c004a28f3b4fc38b9"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0041.png",
+      "sha256": "031bb6705ba1d9eb9bd3602cc7bf252bae2f04b052feac752125f58c6d36a71b"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0042.png",
+      "sha256": "b7e1f0e0a5c2f0d4b614b8039abda800101767e4f4fadd1952d3f5f1d85eba0a"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0043.png",
+      "sha256": "b0c76c2c8d4ac6ba673d13382cf3c7f361a68385b4423063321f38cf8058f8fa"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0044.png",
+      "sha256": "74c499b74f0db58cd5059a37064b455d299fc0ccb93472fe178621d7b53f42b1"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0045.png",
+      "sha256": "664b12943bd986aa1ed34f1a9a79a07e136b9c7a356b8326c4231ba77088e4a8"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0046.png",
+      "sha256": "d51e47a1f211a2251a89f5cbd8f2ca8e56bf20e90ac1afb2cf6e2dae50143cf2"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0047.png",
+      "sha256": "714db26c29be685684ca1e9b6a43004c11e8c666b6bade82273ac94f813adc5b"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0048.png",
+      "sha256": "6cbf43dd92a96b349b0e5d453b6be3e02d18c4a9aca629244136f598d28d7155"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0049.png",
+      "sha256": "b01544b1f369b170e6954dea7fd4ca5f9d6f5e486ed42b9e51a2637bfc259f78"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0050.png",
+      "sha256": "5f530073be0fa168c55a695c348792bb338791d2fa5d7886c9993ff6a4923ec6"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0051.png",
+      "sha256": "3ca5c37831814d8830f3d8c06cfaca401103ba77ca56c41c454db082ec472552"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0052.png",
+      "sha256": "42d5165f60c2adfcf5db0af1113db61af80ea60f66a80ea4ef5f4d1ab506c60b"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0053.png",
+      "sha256": "57895728e3298d6bd2bc9d09baf2430ec936e2e006fc2ab029f0644cddb8051d"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0054.png",
+      "sha256": "55861805ce1e1f7422b173f90a02234a2809ff107f1a0125f458ca9d6e350e85"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0055.png",
+      "sha256": "22b12c466ab99c444bda264bb631054dde3513674a75879d5e6603c6b1eaaac5"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0056.png",
+      "sha256": "e46f69e97427c5265e20deaa23168303f77888362fe9855a3673394bb6657487"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0059.png",
+      "sha256": "854cc7133e7b8f93f3841f7d7c2da691583f6453465486e4720001df32017576"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0060.png",
+      "sha256": "800516c5403df810e5c100511009a0e35b379fa6696cd3a94473a2aa1fab4de5"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0061.png",
+      "sha256": "5798f24dd8639a19d6ae77752f236227bb480ad6664f0d4e2b6e4cc1941743f7"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0062.png",
+      "sha256": "b330e62a4c35fe8814dc007c82a16e08cf2f9146a157d72be64d5d4b6048ad6f"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0063.png",
+      "sha256": "07f6db228b25f2cf79e46119788a0447a9766e7c8d2248fd807e577d871a4d85"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0064.png",
+      "sha256": "6c0c404a176adb71708c75417193918afd3beb7ef175e249f63f3dc95ee0f7b6"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0065.png",
+      "sha256": "84950413f5e64e97c38771f1626d2956b41ccea9aa4b470944e2a3d73be76cce"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0066.png",
+      "sha256": "2d661782d856cc6ef02d1283e62150d11e3b912a43cb7e32e77f3c20416db8df"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0067.png",
+      "sha256": "4bae349a36ef9dba5dac378da04582eaa543d850195b2c269bd0b9c537c588bf"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0068.png",
+      "sha256": "01641330987f8ec0f11246c9d079c87727f5872c216a66357c506a65226fb7cc"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0069.png",
+      "sha256": "8957b9f7c7a5bf133e82bf36c24321ae1c10d6169970fb0211ab8dbd0f225cdd"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0070.png",
+      "sha256": "5e223927a1ab3240e7051906f6a51a0240ecdfe8a500362c05ac88c384e7f539"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0071.png",
+      "sha256": "f4cc28301b8842b96cf0046834b16e18710b4ae310579a097d5f6ae9717160d0"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0073.png",
+      "sha256": "5d79a48a2b5b9f454094177d01fa1c632bc9b2dd0aea1c001f3198b0400cc2ee"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0074.png",
+      "sha256": "9a004a4a1eb0c7befd2ba60aa79f3a2e9df7af2e5713fe651f113c736727e8e2"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0075.png",
+      "sha256": "a22f8998b5b67f12cb88906f3e09b128749fd3f900ea8c220240c18d1967e17d"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0076.png",
+      "sha256": "06fd7af7dcaac5ddf2dd9e33dafc5b609511d2bf987ec53908b8b71d7ec66579"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0077.png",
+      "sha256": "eb37157a68fb08e152836acca10c097c598bae7b1a83a6caa4953a74cbf83704"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0078.png",
+      "sha256": "78c5baad96d23cee3a98bd73fbd714fe4f2cec0d3d9797a82dae1f09bac57fdc"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0079.png",
+      "sha256": "a3ba08235c22cd2836f0584d058e4d1e0e9c37325d3836fe4ffe689dd9c7f6c1"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0080.png",
+      "sha256": "b42ef25cbb88b13f850690620d00fbbca9d751117c82f00005d4d25139bbfa16"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0081.png",
+      "sha256": "faa0d1dc494c37707453b56f1aff25b7324055134b9d867e10c8d4d42f0167b1"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0082.png",
+      "sha256": "bdd84a1c399bba50a08d3cfc2ecf66f1eb28ea86136d3b6b691648f6e796945b"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0083.png",
+      "sha256": "1e8a6d2ef5a4570196873291ac0110a8367a8f3c3e4be42cd96f3ca1a21fdc7d"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0084.png",
+      "sha256": "41c8d0a7010dfe8bce8aa2cccd48b4bda2ce6022b8febe933edfcc38d614b584"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0085.png",
+      "sha256": "289f0815d7dfb2ed48def47a01aed042cb5828269ef1b64b5e7eed7efb1a50b0"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0086.png",
+      "sha256": "6daffb7f4021ecbb69c12ae7e925c22aec297b4b89b89c6783153c56180f50fc"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0087.png",
+      "sha256": "144123b2b0519d2d42838e4330e8b73a5fe1c7891d2e63a7efbe1c23206cd62b"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0088.png",
+      "sha256": "c5f19e69f02e37963c1094fd503d441905cd8f91b632d560e53001f3ac49ff6b"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0089.png",
+      "sha256": "c646e0ad1eeec1023b9aafe0d4fb5d06e45074198731e4633f048da77b47d8df"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0090.png",
+      "sha256": "0c3aeba02eac2afc3a9e59c734f9c291b98301c01a09e86a18188e978f541bfb"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0091.png",
+      "sha256": "73ad3f1408ecafcb4b9fc370467b06bacfb13f0a1f868e4e1c9a59a543b67149"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0092.png",
+      "sha256": "061d634d4cf6e84ce7aa350441895aeeed90b6a3429b74c0f6bbe4c1f10a9355"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0093.png",
+      "sha256": "815f478523901a14030354a740c77527bfdcff3dcfc05a4a7e3a1e86ba25bd22"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0094.png",
+      "sha256": "2adf9ab546663d64bc55965d488d003c5e1e4aea5c93552c90ad579dd0aaf9de"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0095.png",
+      "sha256": "85ad84c61e2e7bed4c9874d6f68a554e77629fef95e7a790f695be00ea9a8905"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0096.png",
+      "sha256": "72e7232a127424c9fa2c5427a0e510f6af25aa84a32268de01821be6ff864789"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0097.png",
+      "sha256": "193d6aac754fdb48d86a08f30db230f22a7d15846c4a128360c92ab13d7f401f"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0098.png",
+      "sha256": "3c4fbcf7de2485330bea94bc607a8db6148d57583d7cd98e27f73976cde6ef87"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0099.png",
+      "sha256": "d7701baa1414d3ac1328cfb602017b897aef599c44a87436718be78c81c0a3c9"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0100.png",
+      "sha256": "60d34e24e02a46c56876b665c44d744125fcf6ba3492123f039485bcaf9b3b53"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0101.png",
+      "sha256": "4b77bcfac923dc2cb4a63ce0d98e22a76a1478b4a7eaf01def3802a213cd54e0"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0102.png",
+      "sha256": "8dd9f90d3c00851f2e1e26f1afd93cbfc66eba1256b4c207b26d3c3043587e0f"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0103.png",
+      "sha256": "548c8650b6d948f99a151ae6cf95454b1e4aed5201360de5b351b29b273932b3"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-11/frame-0104.png",
+      "sha256": "05f2cb5444a7d0a56640e8f52ced875e760eefa4fd62cb0797c5e17238bfac87"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0000.png",
+      "sha256": "bcfd0411048243f00295efe147235fd831a8db1f31ae862dd71e967936182303"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0001.png",
+      "sha256": "6a24cc73ba516bf63e894d9da74156c890bfc0aa65d0fc5e7d1c9b37e5d8b86b"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0005.png",
+      "sha256": "d191fe103f1acd6d1831e86c2a13ca38d345834ef046391c07ffbe1ec473738a"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0026.png",
+      "sha256": "45d5ea587df6ef31a5643443a47cb2acf2c86e36e25633cb4b5269e27c647a09"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0027.png",
+      "sha256": "20dce37f5308d5e0d2ef5db3e084f245799741f0e32989bc6e7726bd12b4d586"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0028.png",
+      "sha256": "a281ab8f2760618c85e342eea328f5b00d1be625d18b65febf6a6771cf34e8f1"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0029.png",
+      "sha256": "64fceab85116ad80e02fba6bfccad01fc7078708ed498275f0eeb636e1485c64"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0030.png",
+      "sha256": "06980ca55c174e7f5d58119ba08420434a7decf527cae0275c6b0d19acf8d2d8"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0031.png",
+      "sha256": "946f434a82f118c5cdd44e90804f10a5542756743ada0f7f3c8d7aa3abe60949"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0032.png",
+      "sha256": "4e6bd8a30a1487d746daff7aeb766777129cf19d77f62530e22b2add794f48c5"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0033.png",
+      "sha256": "b420520ea0f44482a2595a4f66b01652d0817408e1b944dce2955ea91bc7e62f"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0034.png",
+      "sha256": "52b05da6c9fd74d28e3e5bf7a9384bd4aa624109b3569dd681d7e56f8188214a"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0035.png",
+      "sha256": "05a89fa8f390f7eb47e28d1a19eb4e4857ca9d045d3031d1d8a7048ca53e045a"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0036.png",
+      "sha256": "cd72b7fb56fa939c683f4eb8d67fe683dac25a5751f9d33cd189833bb42bd048"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0037.png",
+      "sha256": "6d26dd77e55e257d8e42fb8f8c36ed755e4f6a1d308b11b2fb3974a4879712c5"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0038.png",
+      "sha256": "0910c147c37510fd226f4391dd2bcdae57db9cb02591544321b00b01cf55d3c8"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0039.png",
+      "sha256": "041ef2d520f8cdbe205e1efa156a295965b041b8f4c2b660de706deda7b89d1a"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0042.png",
+      "sha256": "32daf52bfc38bbb4cf7120e6252a6cc4eecf4f36b6bf3a8e3e855045bb19226a"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0043.png",
+      "sha256": "fd5eb0c95bd4e9303c19782aa8add3b049b17dd3ad3832b98aaa6b4124f31565"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0044.png",
+      "sha256": "ca26acd92ed817066282fa289d59e4729334e9c4e6b4470e566dc4373ab94d02"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0045.png",
+      "sha256": "99b0f9eae7122f8d06f84a66926039cbf3384855721ca6046251fb492c239075"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0058.png",
+      "sha256": "1bc9f4e8f0777e538626643123724c237f2ac20a321ada4c372d55c595baa526"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0059.png",
+      "sha256": "391320de6b551e58433b36e4145bf2e20c2940d31dad02f899be13687dcc6453"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0060.png",
+      "sha256": "78648385f53d0817fdd10548d8fba9b35100aca1d690405ca1e4d35517fa5b6a"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0061.png",
+      "sha256": "268ecc2dbf3798bd7b5c6566eea81ac42da61a91af63b4e7f9808af5afb17b52"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0062.png",
+      "sha256": "910ef15236eb35a2a508f874250e8f922633da85656124b30cae9510d2424485"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0063.png",
+      "sha256": "e1c73b6c37a87db2dc42b2d6a1aa316c1c5dd4f465e40e757f2c08ecc84a1b97"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0064.png",
+      "sha256": "210346e9564b8689a33670c2d24c8e8a8b5d8f5ebb719e5b7a4165f1a82b7c6c"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0065.png",
+      "sha256": "073d8e1708811cdf5bd9dbbf51fb03b4c1069cf9990db393aba0eeca2b993cad"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0066.png",
+      "sha256": "b3cb21cd9ac142344287b160799872b87af8431a68650ffb427a4580c926e370"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0067.png",
+      "sha256": "ae3897c41ebf43fc4458cd6f6221f306822bd82b47f56cf401504881dc5a7870"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0068.png",
+      "sha256": "36a18b7f15f113757e40bdc6599b9dec861bf417c0ce5db3a191ea6457367468"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0069.png",
+      "sha256": "9022026d7bf11e89ae4e85cd25eb9a54d06a86b253238c95aee26e762526f5a0"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0070.png",
+      "sha256": "afc49f18ed63c6223be138979714edca439a7f5214e439aab74281fc9b1b3b4c"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0071.png",
+      "sha256": "840a25288d3b54e122d12705711cf74919106de23ee27caf9237e15a43bf4855"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0072.png",
+      "sha256": "2d45b7259a9b94ef4348a8099cd64523de21b230b910212e67031756a9f402d0"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0073.png",
+      "sha256": "4324b204975e96c380a0f1620f614da4943e45f97ecb65737b483593a8136354"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0074.png",
+      "sha256": "04d10ca51187886180ef3f2375f604bda13e7b15c1c971adf0c37b9ca94c8f94"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0075.png",
+      "sha256": "dfcd0f76eba19b74c891195cc26664f84c1fa9028d54b6868995a627dbc938b6"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0076.png",
+      "sha256": "57a4489c5938504b6b52679efadeaeeb310b8d71130826ea358abfbfa1449098"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0077.png",
+      "sha256": "af63593e040c43862f5f132a0fb982ac0673625ed93d048e6e9dd5f9711e7bee"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0078.png",
+      "sha256": "dc04a90a6a735a2659a14e6c63f9f916ca61e46bdd85c5b3a31fc75d0485dc52"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0079.png",
+      "sha256": "84f4205e568732981afb8e2304653de9b9f9b6a988b72e3d93f782b44a35d01e"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0080.png",
+      "sha256": "4d7ba2b3dad3f8a04049a0e6f12b513642bd09201a22e33e8173a5895276797e"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0081.png",
+      "sha256": "ccd1ec9beebde955753c0fdeb1b99e9f522f33348f542aa2768f492cdcf78c7e"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0082.png",
+      "sha256": "9e84a4c4d9cfc5b61f6ef8a1bdef944c9a5e29a97e135c781e3532c43df9acb9"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0083.png",
+      "sha256": "2d67fe2466be10e59cb676eca35aa73a4e450b8b747dde5f7d6810e432adff47"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0084.png",
+      "sha256": "a4889cfa09118c1de6b5f1c624e9694df5043060e2756e975a6f34e67d6a52f1"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0085.png",
+      "sha256": "375b883ab51ed5ea67771a72c0b41e6bede2fd8e31802ce2f1b86bffd0f894fb"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0086.png",
+      "sha256": "6ed26b84f3cc5e7f41561de8f48d9e719468e4b5f62080857d683b35458f6044"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0087.png",
+      "sha256": "6867afc2e83e14644ff31eb30bd1d3fb7f66347750dbd4467baa7aacf4ff8716"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0088.png",
+      "sha256": "e2340279ec0eaf1464d5c79b1d27113bd22a8e301ee8d0e8e226c10f8d62cc5a"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0089.png",
+      "sha256": "cec4a641b9e8e212cbef4169e5af94fc67159658397d893e7fb167588cb0ebce"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0090.png",
+      "sha256": "1704af672423e570345524b1f14c4ee78c788055eb2553a46e8dcdaa9086fed1"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0091.png",
+      "sha256": "6b619df2356e06a1d46aee19cf97ef6097a46689e11abcf04d1172eabb653546"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0092.png",
+      "sha256": "195d900a0e04d69a6404a982f56e843aab2ac6b695c168df2080d882786ae5b8"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0093.png",
+      "sha256": "36b2f6ee8959b6feab9f293cbea0cb821b371aacbea965eadfeea01779ce0132"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0094.png",
+      "sha256": "c6bd7b49e2ee448e2562d62194e9a18d06c8defa92897633a08a6cf0cf25fc6a"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0095.png",
+      "sha256": "d3c769c65c7b9ca109235074a3164de6c104f57cbac0cf3aae7508e17d22dd8d"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0096.png",
+      "sha256": "1542b8e8444e7c30e073d849ed86cd82ffb6beac696d7e2c2d362264bac507b5"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0097.png",
+      "sha256": "b8e1199afa27902e5353512850f13f5f7b97ffa5894a51768e8599a76f9d0383"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0098.png",
+      "sha256": "c2e51fee451d1f622cc41615c89b2e0f958bbae716de2657282f3a2af73a4de2"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0099.png",
+      "sha256": "44d2916c31a490f3f93d86ed05c973d90944f3a50008fa91081ce978b04c016d"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0100.png",
+      "sha256": "def0292c32bbb8f480b454bbad63fe622fe7d57f63e171ff575bba452866cc9c"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0101.png",
+      "sha256": "c5ecbd4b7a63ed8e1b73645242aa8748f0cc8443f20a19d63b6ca8fde06030cf"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0102.png",
+      "sha256": "d10609afda76ac341c572aa19bc0c7ac57757e5d0e3cd5fe04997b0bbca7c157"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0103.png",
+      "sha256": "8d343c177740fc1e3c8354dad6bc607d497857dd1e2f4f3be86e94809424e1c4"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0104.png",
+      "sha256": "8be12bab8d8fabaa0c5b5bdb48202a0315a573f82c3ece9b70ba11a8a471c6db"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0105.png",
+      "sha256": "7fb30fa204bc001073cab2e435cc7f4a1d412647415d4a8491b92182ced3434b"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0106.png",
+      "sha256": "cdb33698bb7863697907686c84ae3f9e89ed9296c795a3f4185954ef274b24a6"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0107.png",
+      "sha256": "a6812b379ea2e118f0cb3f44dd1713f95b75f20a8b1c6eba849c78394323604e"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0108.png",
+      "sha256": "900aa607eed1ce24a9e3744c6cb2f42154f105b89d9446c1dda22d90015a5685"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0109.png",
+      "sha256": "24176578e198a7840d1f0854e5b3856ef0f5dc115ad55f87b08135a102048a77"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0110.png",
+      "sha256": "ad01498c4c3afe87fc07af69c215ad60bbd79fbf74d9d8f1eeadeff4b6f35161"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0111.png",
+      "sha256": "f2d4b6c20c37d30fa99bf662677c33e5744e3aeeb0d248c85ae9f6a83e0065f6"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0112.png",
+      "sha256": "94c41e6c001a2b002cea8cb8e8b31fa2b2e73e106c1cd008b6a49aa55ca98bab"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0113.png",
+      "sha256": "f14e16f92bb45b18543df10acd253a2602be298f2aeb0a2736d2cfeee45f362d"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0114.png",
+      "sha256": "81733cf335a8dd9e4a9a97e43dc98377aef81927c70135d06323c7c01b5800a3"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0115.png",
+      "sha256": "c7333ea126c34dcc378803883f7d599e1c7c9f2bce601ddb8ce1a7095089b334"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0116.png",
+      "sha256": "461ed24bdc2c11a58e4e4c2e109760dbce370880e4ac29ffe1337ef34af8534f"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0117.png",
+      "sha256": "74d35c770719973130c98557016ad439a08bb7c2191affa231d2396ab1bed457"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0118.png",
+      "sha256": "3d4eafeb2acafed1a7465459c062a390fa5c648938076a58322fef142710bf7d"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0119.png",
+      "sha256": "1dd66a99a58644434b06029ba302b0279193c47a60c36e24cc9691f93e53f04c"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0120.png",
+      "sha256": "b2cc5d1656ef5f1322037bff533f81046ff8b79d16f7bb26907604030b762add"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0121.png",
+      "sha256": "09c0a39335695d33b4594e587e36c34bbe61802927be027828cd845a0b8e568d"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0122.png",
+      "sha256": "be900d27b7e021da2dad019e95f3632a6b1a71c91059de2851715bfed5dc21c7"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0123.png",
+      "sha256": "70acf43b26ebf87ace26c89e3340ca5bd7723843bb0bf4ae83810e58bc908f3e"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0124.png",
+      "sha256": "af0cbf9aa0b58503f9c7cd8cca22a8f2984abfff0c52f4762bf90031dfbce176"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0125.png",
+      "sha256": "1a07a183a8f0bc341fc2154a89dd1ad60c19c63bc28fc55a7d7ebcab4f7e8f86"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0126.png",
+      "sha256": "175e0c02d0da37fd44d5582988753f76c2328ca9c9ef76cc712f220418e9b335"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0127.png",
+      "sha256": "913d1de001fd1ca85400cf3952a1152e77338caf4d929a0f5f6b975a78223c0b"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0128.png",
+      "sha256": "709d558fca5bda712b784591ba1b5d771ce75c81a9017a630f381d92795dc7d8"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0129.png",
+      "sha256": "3ba5589828bc7239d789a09f94108997ce92fb6932feed66ca87c31dbf37776a"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0130.png",
+      "sha256": "402140dadbe12ab308f149f5502e24664633178c618acf64df92e5c62ce51927"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0131.png",
+      "sha256": "edd89de6f5bf8ecc0c513f3251aec81e9c3850f1991e36ceb07cb74d90b75220"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0132.png",
+      "sha256": "6328e74b63abe1eea1de2262c2eb0d663ee16c300585aafd304288fb86ac3c0f"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0133.png",
+      "sha256": "ecdf05153cba96160123d4ef5e91be6e7fbe027b3570269dbeaef6f0cc992b7c"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0134.png",
+      "sha256": "aef902ad4ad3d2dc0e813c7759da13a7863bd56d7e534058d69846d6bee8c06c"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0135.png",
+      "sha256": "8ca65b7e08c1300763ad8bbc302353a92798ab87c94586ae70032625cba420c5"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0136.png",
+      "sha256": "0281602b521900787e848a49b07cfde2818bb32f53c8773650118aa0d0afd82c"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0137.png",
+      "sha256": "381be7a890256bf93e80248b1166cfaf70c07a223bc819a0b770da35a337b6b0"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0138.png",
+      "sha256": "e2ca7126831a07c77c157435d3f262151bc8f8d856db9f0a2cc801944057ad8e"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0139.png",
+      "sha256": "dbfd672f267950c584169ef4e450e48bd4d2037a9d78c8b828f715c6ecc7a6fc"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0140.png",
+      "sha256": "7c9aebc52e6ec5373893384254fce84813923e418c04aeda52c4db4245275a8e"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0141.png",
+      "sha256": "8c9318b3da6e1561f564c406c64888729691de47a2117144fb398d776cd10203"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0142.png",
+      "sha256": "d4a00c99ae57b32c2e6f0bf4cf06a00d95d8ea4dacacf05ef8824e4e60c42832"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0143.png",
+      "sha256": "0a4f21be2c5f68116694f9ab79cfbb2b45f9df4d44e2ebb9c85fbbfb877ab6dc"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0144.png",
+      "sha256": "ab8ba82067f09517ae49429ef30b72d45a7bae8da8fdfb9e0a68deaa80f2f438"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0145.png",
+      "sha256": "b69a149bb163a5c648d13372a4bbf3f7b6ebcdab6943637578766b09ddf1a009"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0146.png",
+      "sha256": "00bb1128731efb3681b7869bc33c6054dfc8f0383f825b48450904394a847731"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0147.png",
+      "sha256": "9261b19b20ca98b9ae275eaace60671b74a8f34d50308e13f157572dca335e96"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-12/frame-0148.png",
+      "sha256": "798d2635a0eb6a14773ea8371b10f929c583fd915ee70763c375084ea190d267"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0035.png",
+      "sha256": "16ef9931d06b28c8f243962079433d2cc3229045be1c379f3cee217657bb967e"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0036.png",
+      "sha256": "53e209ab1875b2c98f263768ff29de4b356bcd76aa9919e2ee2c74842c3f954c"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0037.png",
+      "sha256": "a2c9fd1616a3a8d18e28e45b996daaecd8db3425487232b88db50bb0b3b70675"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0038.png",
+      "sha256": "913a6020d15a2a59297d9bb5435c4ed1e94a8d2935d7cdcd59f6f876a03b7701"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0039.png",
+      "sha256": "801bc8283149f13d0442223d3da2b7e50730d19510af24134a32c32cdac62726"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0040.png",
+      "sha256": "57f21aca28ccbe910c4e325909e9aa2664a45286a41089cd9dd4bc6b80dcfecf"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0041.png",
+      "sha256": "5a8d9d2f1df270d8861c5d14aba590e49273026c2c2e59944571ae41e536e5cf"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0042.png",
+      "sha256": "67e47233dbf194c616831b77182958873c1dfa197754feddac917e0362ef2510"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0043.png",
+      "sha256": "5d0db180c1439f99d34286632ef32ae0e765a8a9b0a16d3eb95bffffe80fa369"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0044.png",
+      "sha256": "620a42448e8e5ca91e9b6d6a4f6b6d887890e779d4fa3dc22c0bd59f5debe112"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0045.png",
+      "sha256": "d8a6615adcc7620a5ade87145e2207483cd3bd9d4e357aef87e1ee10e797c988"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0046.png",
+      "sha256": "c07a7cf6368697eb86c51630db2507f05f1bda3c6880c0b5dfe274353e7f00a3"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0047.png",
+      "sha256": "39036d3ae3259b57342faa47e247be19e18ebd890e709c7a7d71c7974f2715d3"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0048.png",
+      "sha256": "92f2f8ef6f806b360fe44e22d5485409ae31c28a53422a9a463e2cd00505fbf0"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0049.png",
+      "sha256": "871b95deedfb3f57ef706e805393feb6fc6e8809934073c5eb345dcaed139ac1"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0050.png",
+      "sha256": "1de707a06d88b53b97b5bc741a92c6f9efb25145ced821107aa7a69aae51d504"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0051.png",
+      "sha256": "94fa2c0a65481c6de82aacdf00e46a57d62a1a258ae091a9e24da2cdd2178600"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0052.png",
+      "sha256": "eba409b87ce5055bec667ed586c290035c87e3e707e089c8d52f54b866312ca8"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0053.png",
+      "sha256": "ca3b6d524e20cd4d2887bd314c41c45f967b6c8de5dd14b69876d0f3a05ad526"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0054.png",
+      "sha256": "d5661306194aa7026894c29c1712699719aa3204101fb1992156c2c5bb0f95eb"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0055.png",
+      "sha256": "d8d4fb87ce7f1146f24457c11349ff6383d9db34c0ebd5657b00c934f57b6c55"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0056.png",
+      "sha256": "55a212f2ba7aab6e385196bc6600760f644ac17983e589a298d1c9d55b6ceded"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0057.png",
+      "sha256": "6e6caeb20c87506fd23a79736c3e560420a3db55143e621815782f2d05c8f28a"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0058.png",
+      "sha256": "16110475ee3315e7d7767cc44d4c5d032b7e6f7a3b19613f6287230d76d8d9fc"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0059.png",
+      "sha256": "c4b7f05c9d6487eaf99cd0647b7e346f00fb0d45e3ff01f67c0f3f8d92049ff2"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0060.png",
+      "sha256": "1ce8473d6e43515d5def507cbcdb1f4aa12ec9f8b658b6ca0bb964213530d428"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0061.png",
+      "sha256": "15a15bdadb976469de4a614452382c22eace08675d2035064ed5ce5531f25665"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0062.png",
+      "sha256": "aa19f7f282fb1875ec13ebd50a518a256d0519f2fd7dcb294ad71b1c80f818f6"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0063.png",
+      "sha256": "9ff1221984e0cdec0c216e7f99fc95d424d72ac3a9536dc42e3e19f015007d5d"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0064.png",
+      "sha256": "81bb42f18d78f33089ecde2ea0d7d65d3399c0cfba4400fbe7bc748b4450296f"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0065.png",
+      "sha256": "d19a2d90f08e5e0c14dde2cc49341106841fffdfacc89858e5d0b8d6dde69355"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0066.png",
+      "sha256": "449d4e0e2ff9934aa6c00eb3e4dfe7f9477b473e4b48ff438e563434e6419b1c"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0067.png",
+      "sha256": "e774ee792696610346b3b8fa5045e2e926a64df05ee5ab3a2cc93e7be346d96f"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0068.png",
+      "sha256": "9d7fa87d4e5e7b6680b7579c9263bab086ecad943161736813c2add99cb93997"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0069.png",
+      "sha256": "03b426cd6b4ae9708a508ec2f0feec19a79411ac0572a676aa8964493b00fb8c"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0070.png",
+      "sha256": "6c9c934a33e7e3f4a934057d8cbc4d17bbb98a00938abaf12f29fd0347ff507e"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0071.png",
+      "sha256": "bf03c172ab6d6e419561877f8c7dc36bad40f8cf2abe410f2245b4f2686d2fef"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0072.png",
+      "sha256": "a1fb9e86bd988bea89004baa9c44bc797c40e00cb6142e2ffbf4340b7b69ab71"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0073.png",
+      "sha256": "93f49d5869114b6860adb9d97a6bf9f3552083959ca65be6b8eba2c96e2086ec"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0074.png",
+      "sha256": "4d1bcc5b398e9b1e4accf3bbfb01834fb32ccbd5490160798d6339e403900d46"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0075.png",
+      "sha256": "491b42bcb7eb8025c30ed4a63a7f97d2497824590574672c1776d6c7a543d146"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0076.png",
+      "sha256": "3f085e2f182e964b82a7e77ffb6ad416505fae07dfa562303ddb8907e8a83feb"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0077.png",
+      "sha256": "1886908da7c395ba018ef4fba4fa58f7af652ad71d628168e17b43dee8459565"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0078.png",
+      "sha256": "745b0d976215dabba6dcdb32e8457442a0cff9d70cb71483a9b9c535ca4f2eed"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0079.png",
+      "sha256": "6039f664d9e1e5a7d8a1cc4404bccd8dd15baa8896d4ff5c64dcfa726d26cec1"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0080.png",
+      "sha256": "231e5b06aab07f29d44a22b9ecc5e6765fa8d771917c01278e5432bd0361c93a"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0081.png",
+      "sha256": "7e2c62ce43c3c564dc2d15e5c660e19e0164fcee7b8ccd9962a41def9c1c1d5d"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0082.png",
+      "sha256": "f4e194c14e2f3c58e02eb08023835b7497f893f81a4fc1d6ba96f7288dca5933"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0083.png",
+      "sha256": "31b1861d555073e407a36afaf9b38275ac397b5ad31a7b7ff3d9e5156e8e93a3"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0084.png",
+      "sha256": "bc32ea195857b5b37560b8ef3650bee0b35d25ee02718c15f824bde84ab11470"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0085.png",
+      "sha256": "de8fe066d24ee6a0dbc902a37fea327f66e9a13db03a0408e32dbee2898c1c86"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0086.png",
+      "sha256": "bc69499bc8add042a7262cbfd07acd269c77bc38e6861a5ea718cc93c1c54205"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0087.png",
+      "sha256": "f8cc26f889e93d75b854a68007f51c42d76968477cc7c3773c14e3bdb4a872ee"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0088.png",
+      "sha256": "1d8bc0815673edec3a50cc348511a7f01d9bab976654a0a6abbbbf05a8da1242"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0089.png",
+      "sha256": "268579a022eda0a60d82abd9247cd5d58002c132e2dc5d932c9d28cd6b3f5245"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0090.png",
+      "sha256": "50e7f0b42b0bb28815de6241eda3b03ac2824f010d2812303317b0dda6718fcc"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0091.png",
+      "sha256": "d4d790463f673a76213e5fb267044c3462b6fd114851be4ef71c09130a260cd6"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0092.png",
+      "sha256": "9b404e49ca5b7f8ff1173ec5628b597aae2fdfef33199d09ddaa0f54da7e4ab9"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0093.png",
+      "sha256": "9291a72fff4cd8555271c5a3a559101cdbb9ba56583ca1c47000b9f1d16d2ed9"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0094.png",
+      "sha256": "bd4e02c58d76d92e14033a44dbe5dbd045637c404f403584cdd893cdf097db93"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0095.png",
+      "sha256": "3da258785b6d32784f562fa6ccb167aa25dec063ef670efaa0b00165f4b54689"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0096.png",
+      "sha256": "88dd6dde20181a283a60ab6b544b5cb4a6235db37579556f427fb004d930765a"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0097.png",
+      "sha256": "48f2158fd112468d5791f4f5481f37223141e9e11207faff99e716e705f1e7d0"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0098.png",
+      "sha256": "b14c7a9f47b765f3bb0be65657f1eed2ee74053a79a069fdfc9bbfba95a30b09"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0099.png",
+      "sha256": "048bca84056c1c856bb08a80f7e1441726950072543c2b97f77b07129a5049fc"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0100.png",
+      "sha256": "03b601d2fc55b59831d135f61173df8ad7ab1b4c2847803e01368d4f8014fc85"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0101.png",
+      "sha256": "c7bf0e53c1f91cf638fec901b2e3ab3228da81d292e3039801cc656defc4afce"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0102.png",
+      "sha256": "b4eed86071955ce8a5a0439b20cef7a97eddd0021a529d61b0d1d1f4fe44fdf7"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0103.png",
+      "sha256": "76541de14b3c178ef54c621b7c11557ce1912ef90ddac1cb0a38728e155b2b9e"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0104.png",
+      "sha256": "36817eed3ed2aa2e466217d85ed7b3673afd2e3dc437098bd3243725844ff9a1"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0105.png",
+      "sha256": "997d2a91ed9af38e3f68db9af1cb2e7696dc0c5246a7431e39855fe3617903ad"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-13/frame-0106.png",
+      "sha256": "8eea4c65739fb34708c980f92ef132bf0c298ef475d827b5ec87708bb142e27b"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-14/frame-0013.png",
+      "sha256": "1ff9636b6227b0094acbeef7a55e4be6fa5765edcdf04d85ec8b9e690dbeacba"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-14/frame-0014.png",
+      "sha256": "a463b8f76c8c971850234b57216101c30466bf5640dda8886e083964a4362759"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-14/frame-0015.png",
+      "sha256": "01003de36ac4a939068e5c704d15c9dce6dc82fb2478833bee44618700502952"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-14/frame-0016.png",
+      "sha256": "e68d34f42721fd14b808179a84f3a18220d413e1790161a25ac0315d9e3d23d2"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-14/frame-0017.png",
+      "sha256": "0c23a9cad1b629627c4b68c5bb9bd638356f946950aa37b400d5e78e54884642"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-14/frame-0018.png",
+      "sha256": "4eb593d2fb0ffb7f138f8243b9aa737701a4e7b5412f3a6b5d4c98c1cac71f78"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-14/frame-0019.png",
+      "sha256": "e2037dbf2274d39270cc4cd000243b55e49422024c9b3e6c867a7c7ebfcbe565"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-14/frame-0020.png",
+      "sha256": "03318536a12d732c889e9ba617d4ad0ad90aa6a0a51b1a9730ae2b8af3349ee5"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-14/frame-0021.png",
+      "sha256": "b5a0b2251d160b2e0d74bcafdcf65eae024913c3e132f2bb1cc3c63cf3b5e837"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-14/frame-0022.png",
+      "sha256": "e3deb13ec2454f1784390a8564b5612a2cda547994b26f799a261ec0f1d75aff"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-14/frame-0023.png",
+      "sha256": "557bc1fa6d1c30c125c183f092422a2a88b461cb8db1af490e8ddc9e0762aaf5"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-14/frame-0024.png",
+      "sha256": "1e9da98e4114d6a50a76da0369cbb956b0408d7fb5ea4ca3a991a28b38909846"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-14/frame-0025.png",
+      "sha256": "63b39db6f1a6679205310da50f105bad34f842a2ec42f9db4e33d72dea17c630"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-14/frame-0026.png",
+      "sha256": "b7ddfd40bc358d97f5e2631beea763cf0759b7f4bd7d921b0df966765c6f271f"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-14/frame-0027.png",
+      "sha256": "6987fefdffbd707f56d0c966c565cfab49b2fb8da63f562e189c07e19d77ca83"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-14/frame-0028.png",
+      "sha256": "fb834bc5355e54f7ab736216bf32081b821e06f9676085156414819e95288d64"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-14/frame-0029.png",
+      "sha256": "c99ecf7c3e9b79d178fe717c0979e0344b40c81939db69960d8f7d4e74caf7ac"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-14/frame-0030.png",
+      "sha256": "017dbbe771f3ae2df510733e849ccd17bd064fabec45ffc74a7b6ddce145286b"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-14/frame-0031.png",
+      "sha256": "aa1ba5780134cad7eb2239289c0ff6138c94d5fb9e983806e572f3d0fa553819"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-14/frame-0032.png",
+      "sha256": "4dd23f2853bf168f50dc597daefc395d536255edade5b2bd18906ab764351770"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-14/frame-0033.png",
+      "sha256": "bcb2ecb432560bcff3ff230e846b00be43a343503fc6771525a7557f47f964a7"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-14/frame-0034.png",
+      "sha256": "eb0def7417da27db07f9aeddfbf79b58fba86521fd85acdbc854c371a584a71c"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-14/frame-0035.png",
+      "sha256": "10a9381fe282308576151f294788a7feb9a92722c8340852b2eaeca012d14419"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-14/frame-0036.png",
+      "sha256": "6978ac1ff24a7ffe9b2af57fcf68f3cd858fb9ca4071760afb4d99e365e6dfaf"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-14/frame-0037.png",
+      "sha256": "ad4e0b2955eb799eb935d53aeca68bdb4ef36583e742341d68cf1e5794e9f9c4"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-14/frame-0038.png",
+      "sha256": "bad3653e17eb7e277e7f475054d02f51e25974b5a8a206fafa380f5e7ec95155"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-14/frame-0039.png",
+      "sha256": "5135d3d145a54fbc3a2e6345b7a74f708d836e98672a124fd913647f5020c6a8"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-14/frame-0040.png",
+      "sha256": "0032e76845346bf43914bc11f409d4c12e0af6a55d9a298272fca4af8bdafc94"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-14/frame-0041.png",
+      "sha256": "4395323dd545713c2441c2e331da4530b16f0c5ad35ccf86892b0f4336a3ff71"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-15/frame-0012.png",
+      "sha256": "6d306b86c93c42a848557827b2cd0be021bd6d4157b4005888ef76a1966b1afa"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-15/frame-0013.png",
+      "sha256": "0b1d783d08f5a27c1e7fa1fc4f3249f5ba5a47bcb2d24d9c9ea7a88bc83c5a7c"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-15/frame-0014.png",
+      "sha256": "db89ea255e2877197d9de4f80322acc68053a7bd90d90b7e7498402bada29a8c"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-15/frame-0015.png",
+      "sha256": "d59fc0705a15515478559bc1969e349a9c1fde767f93d311bd36ed120145b343"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-15/frame-0016.png",
+      "sha256": "a7347ea11e21f96879211fdfacfb564148554c8d2b554b9ffefbfdfafcba4a43"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-15/frame-0017.png",
+      "sha256": "56d7d36e6969628f4452b4eb646ccf68fd4ec699da3cc39d02c5e2018a467c50"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-15/frame-0018.png",
+      "sha256": "e1e42491134056a71c954c3a024ee17cf204d7134eb687eae73616ed5a81c5cd"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-15/frame-0019.png",
+      "sha256": "691ccada6e729eab923679d070bf8e6a69266fd7f31ed4a0894ad07412bc597d"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-15/frame-0020.png",
+      "sha256": "f4f2768e79eae7996e5e4b8075e81a6c697e2f235f48667a3a01738bc184b9f8"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-15/frame-0021.png",
+      "sha256": "452780d8dbb2968a1074226e23c924201a07fac2c091d04884c86fbc6c996841"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-15/frame-0022.png",
+      "sha256": "706a7ba13bd22e5280e84c08d41bfc7294f09c5084ea52ffc498de7ea7c0c9dd"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-15/frame-0023.png",
+      "sha256": "5bee4c303d5119e25ba777a8c99f0f9d32d45fea3fffdd3b1b76ed52861b45a3"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-15/frame-0024.png",
+      "sha256": "f2c7c5afb59f5cad513f430bb50ebc64d2b160127eae5e0717bf99c38a8cc14a"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-15/frame-0025.png",
+      "sha256": "0e1654280ea6349ef1e7a3a7b008893331a980387d785268891096ce24969b22"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-15/frame-0026.png",
+      "sha256": "50c21cb8cc101adacece8c51e1044ec319a45eab4974cf89c8e1b8045665f7a6"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-15/frame-0027.png",
+      "sha256": "f1d9064e4e5ef0a09369db59e5c58a9e1df96ce0df183512ced3628e4e3307cc"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-15/frame-0028.png",
+      "sha256": "5081517a1d9491ecb8fe59769eafa51abba8d460fa4b9b8965b08799dc5d3a99"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-15/frame-0029.png",
+      "sha256": "322e2ad8138da1719d00ad045d76509079ba120920ce5d648a629fcd931b8f92"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-15/frame-0030.png",
+      "sha256": "b8db728613d58f2c8a9322d3020c13de22287e6f71e1449307c1a97094167837"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-15/frame-0031.png",
+      "sha256": "0dd41d1c9fbd90e3b17cec7da1b445e1529af3fe5b1dcb4f40dcc847126c22ff"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-15/frame-0032.png",
+      "sha256": "f860f87614ce4c5b761884f2cdd67dc1fc66acad2b8385325c9967798bbae7d2"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-15/frame-0033.png",
+      "sha256": "8a98a98b51648001bce34dab4af30bbaf5133c07eb3e8244d59bb79754e8bf46"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-15/frame-0034.png",
+      "sha256": "22850f5ad84fe6301604e75c8244f26736b370aa0bee15455c41ba9b694221f6"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-15/frame-0035.png",
+      "sha256": "35ec842f186ec3e75ed00f15d25a2f94335678b6d9637867f0e733695afd2910"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-15/frame-0036.png",
+      "sha256": "88407b1bd92f9992ab832411d583005d2813598a96278c0f654156efd38bbb8d"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-15/frame-0037.png",
+      "sha256": "d7a970a84d8f5835c8b60908d0c01e3868b63e3059dbbe10fb5ddab9ffd7d631"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-15/frame-0038.png",
+      "sha256": "3f1a3aaf371e931625cbd09249788284aa996e4c4e5ab97fca6e66670d5dc78d"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-15/frame-0039.png",
+      "sha256": "8fae51226a84e8dce002b3b1572f6f825f4e68d6747d4cc75cfae8c12be11a30"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-15/frame-0040.png",
+      "sha256": "e03221cf124cd6022173e72f056d8352d03c6de0865ab3872a9767280627f044"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-15/frame-0041.png",
+      "sha256": "b077893b44606d001acbfab2aa85342c175ed4448d9e52b66684d08b1ce30335"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-15/frame-0042.png",
+      "sha256": "229916a97c668ee9ba29e51ec49f5af902edd67bc565fca2b9c1d58bb24f9711"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-15/frame-0043.png",
+      "sha256": "63eff9eed25d326f0a60870368974cc8477385ca2995a8351bfdb763a667cb88"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-15/frame-0044.png",
+      "sha256": "ae6e8dad19c3fe1b349c6620c4cb279175281a6519436b3c4cd9e2aac74e86cc"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-15/frame-0045.png",
+      "sha256": "b8102ccdf3067d2b58c8ef0d7caa3271f6be84a219b346a3c3037a88fb1512b5"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-15/frame-0046.png",
+      "sha256": "35b15f4ce08a6b3d6652e39ec01b505c952e351051999d4a03804a2845620bd2"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-15/frame-0047.png",
+      "sha256": "528ef0cfd1b42977bca4a554cfa41f3ff4fd7394fe626269ac731c3bff717938"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-15/frame-0048.png",
+      "sha256": "ad0094b4a27f3f7a0589e858a05ddfc2856e9dc12bc79bd871db69e287f0cc0c"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-15/frame-0049.png",
+      "sha256": "32f9473031486a99c9b57e962c2cacc1206346195c3c7e4682d3ab17cb4f8a86"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-15/frame-0050.png",
+      "sha256": "1e0c102fc5e86763a104636fa575702277d65782aa9312ad7d99ae5412f5a231"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-15/frame-0051.png",
+      "sha256": "65467c2757be6e2829e30a876ea3c26b4be18dbb0b6833e192b2e2077fd6d858"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-2/frame-0000.png",
+      "sha256": "3b51fe675e975880342ac841c9b68a4b428cc01c346fe4c08c61efd82fcb09c5"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-2/frame-0001.png",
+      "sha256": "aeed3072ddbebd29925cc04ddec06efaecee4f71a02ddb7db1e69755bf20fca8"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-2/frame-0002.png",
+      "sha256": "b942cc80730c52ffa5a3a2dc04e99eff98c4943b5a87ccf319555b561c6d3dea"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-2/frame-0019.png",
+      "sha256": "02d350286e4873b370fa924deb9503a0fb998bc60120ae54dc0747bddbd1a0d6"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-2/frame-0020.png",
+      "sha256": "93639f3fccece8829030807bc735928244652aeeba472910eb62ae077b2a1575"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-2/frame-0022.png",
+      "sha256": "e62d33c9e02217ed3c8f96a27f4aa427f4896e3cdad99047340a7fe633b9647e"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-2/frame-0023.png",
+      "sha256": "980bd9b149a76dd42ef6361e07d675bf0cde29e34a2663378758cc76a87efe06"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-2/frame-0024.png",
+      "sha256": "1710dcf321917e64d909c70c4ba8d9f8cc45973605148ae1482399774ef3325b"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-2/frame-0025.png",
+      "sha256": "2051a28d805bd65dae1a89cdacf5513f8f4edfecd3bf791f70a5370d2959b2cd"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-2/frame-0026.png",
+      "sha256": "bff6b2510214e0b93f83108b9cda933b1602a21d575771669f0aad1526e0e77a"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-2/frame-0027.png",
+      "sha256": "d8c3c0008ea82bbecb512514b4cb0302a1760117bc4c9674cfea7e189a506cda"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-2/frame-0028.png",
+      "sha256": "2c8346f118393f81d8aeabaf530c49d05e34885692cb5d285f4c1ceced8fe3a6"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-2/frame-0029.png",
+      "sha256": "7056a3c35335050f63603f6ecc36aadf21973e8ad5016cdfbb23d8e7a63efa6c"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-2/frame-0030.png",
+      "sha256": "5f9837a67a25db748867c4c158edc72e3972bd1bddea1cb467424ceeb219df86"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-2/frame-0031.png",
+      "sha256": "2a5dad2d2156ff956bba506bcdeae19db586ac36fd51bcd4c0a094cfc69c6da6"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-2/frame-0032.png",
+      "sha256": "5ebcb67e9475c7c9b1ee50a29e65043bdc2869efa5c12a426e4b680ccf686e18"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-2/frame-0033.png",
+      "sha256": "49666fc8e7864312e774a1328d1b18172f334028673e559c1682bae71cd343d1"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-2/frame-0034.png",
+      "sha256": "ce2274488d1eb20f0e3064d10180ac5cc860865e2338b073a9533173d0feb936"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-2/frame-0035.png",
+      "sha256": "97796111fea2ea88c385fcbee7e555ab0789e82b6b85fbc230342b4d6fecde13"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-2/frame-0036.png",
+      "sha256": "dceecb6e05ba7ed450c157f4b2721d2949bfe23590c02330f4bae9966ef4e6dd"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-2/frame-0037.png",
+      "sha256": "ac818ebcb77ee2b1dcb23c7c196c596bbd096da3473f5c225bdc15bccccba33d"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-2/frame-0038.png",
+      "sha256": "40eceb35247401a7b0e3376c101e4cadcabae8850da1d1382ff21d61ad281a13"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-2/frame-0039.png",
+      "sha256": "bedff02e4d418c38670d498a14d84d59bc42cda8e00e6d3b8f2c3c221a2f4522"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-2/frame-0040.png",
+      "sha256": "ded29e00d730eee791b83868e2d314e696be1236be0297978b7ade950bd3853a"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0000.png",
+      "sha256": "b456c375dba52844ff5f8af719c4fc50395d8fa0cdf2870cd1d11cb771faff36"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0001.png",
+      "sha256": "b221c5f0343b0e5b24da426d7593f2269b3815849e5041e15cfddeb357f76ed5"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0012.png",
+      "sha256": "9779e3bf0e90c34c34c1fa98f9c86de8b510922d1719dabcd2cdef850a5814b9"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0024.png",
+      "sha256": "1baf2193b98687510c2fbd4e1dc11e257e722a9bf7f5e7a5660c63738e3df9d2"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0025.png",
+      "sha256": "22ff38b26fcec5e0ccdb4b7c353c1e5d8a414c26621dd4a7e8ecb6e6ded3bec7"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0026.png",
+      "sha256": "640fec9091c2a74629a7ec8bc747bdee147a94adb1cd820dcdaa1fff137b5c1b"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0027.png",
+      "sha256": "f267b4130b5d83fcd50c19f8335fd2888f7fd253c90fc49b6fd7919068ee4214"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0028.png",
+      "sha256": "6f867f244a6c65ab3939b1475424a3f345677cd936c0035068af6e7d2b8dbd3c"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0029.png",
+      "sha256": "678b23906e9d50441ed3dcc3a036dcd58c303790d2095b95988aee5ea511f632"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0030.png",
+      "sha256": "b69597e6b98b6950819869b537b7a9b89055481af77a96233c73a7875c5801e5"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0031.png",
+      "sha256": "1416e0f907a484aa7990eb7f4c84ed546592ade86048e9d31fe17415031e60a4"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0032.png",
+      "sha256": "b20f931b2a178a68108993550ee3da981caa46488bec2a6852963064ced85e6a"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0033.png",
+      "sha256": "aca2358f5fd58b5d8d085943a3fe494a3992b69870cd459c3867428a2c914e0e"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0034.png",
+      "sha256": "a476e88a6877201364393d1c6c8e3b54de02c8825d1d3401ca185ef40e28cdb3"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0035.png",
+      "sha256": "5b76f472d7b8e12b016e1dd9ac9515cac24958ed5f42e825a37033d98a7802d8"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0036.png",
+      "sha256": "fda8f298a74a3afc87e2eade0b2876aeff76338f6c038ddd289172aa8c887bd1"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0037.png",
+      "sha256": "70c152d77a2cb77500c283515ba9766803ff1ee22160e449f75ef401393d1475"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0038.png",
+      "sha256": "6ec7d8f9fd02fd5f322eda3baf398f57335df9e8d49c12a8554c4dc6e898a8c9"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0039.png",
+      "sha256": "561ee199a178ca6b2553df88ac25416365b816540e662d724a80e5fb6ec58743"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0040.png",
+      "sha256": "20dd31ec8a229e2556f918d7fe68a5fa33863df559306ddb8b97f0ef67a1f4aa"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0041.png",
+      "sha256": "5ce344af7d6ff5f14a5d6f60e7a3f8ce28f5f5c19d5272e82b28c166192c1f71"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0042.png",
+      "sha256": "e22106667494a0f8f6c56efadd83a8e55bd7416b5cfa470fb6924f124ae212e6"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0043.png",
+      "sha256": "5c82f2de708321458292e68e7158fadf30779cf085d1a8602dd5323399f84afd"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0044.png",
+      "sha256": "da8170c9348e79a0bff224ae818b9926346351b06cc79455f70338b0f937ce46"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0045.png",
+      "sha256": "31ec12c857a9e2e046ff15412354268f06e98809257f745bcfb1678de2c97941"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0046.png",
+      "sha256": "6c29f3ca9a726cd1a7ffd8740a0afedd4de6d221852100fab52922f271e9a746"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0052.png",
+      "sha256": "4bb6a754ef0cc317fc58169ffc458744de221cb825b9332f55838b3267a74d32"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0053.png",
+      "sha256": "1eb44f4ec008dbd1984cd751a7427c8d4fcb718b8fe4fc78876b4f0c093a2763"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0054.png",
+      "sha256": "8c71937693b2751d81f1076e95aa3011ddf66e78292a7a64764490d249b23dd6"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0055.png",
+      "sha256": "d2653b80f51e65c63307f26ead8d7b047a82317046402af0a9f1d02710c7c793"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0056.png",
+      "sha256": "c09513a6200901a99ccee5947f2d0ed8c8e6d99825651d9152e94902ca3996bb"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0057.png",
+      "sha256": "8ba8791271229787b5f9f84b628cb7c9acff204870f66bf1be52210696836969"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0058.png",
+      "sha256": "c88d5402d8a14910b3ab393e5b82ac407f46ce35572f8a46b6f58708e8b4dd9e"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0059.png",
+      "sha256": "5f7fb840f9b027ddb9974eedcf904a9044f6421c238e3aa7d2fe1b30cbac8191"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0060.png",
+      "sha256": "3262503297a755dae5ba04a29f1b5db72a5f232a982f2bdcbe5f1a28e1a317dd"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0061.png",
+      "sha256": "999de37ddca3f64ad1e4aae8a782b466b8fa3cbebdf22aed806592c45f999604"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0062.png",
+      "sha256": "038020af2fa5185b2ff4ac9b39baceb10dd2ecfa5d2c379de27a3546c9f76c32"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0063.png",
+      "sha256": "70b43eb6fbd53189f283b6a1538cb04d5d682ee22c8b708b2fdd177c8b780c63"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0064.png",
+      "sha256": "3f09722ab18bb06b5d477544348363f39c1a4a00318e831685d9a8f46272e9bb"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0065.png",
+      "sha256": "b88163f4e5a5b7be06434d9dcfbaeae72d4303759dc86aeaf08459a5e08e1a72"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0066.png",
+      "sha256": "2ca775c298bf811553c1407c9fd7723e3c22d7bfa7f41e92c19bd2e5a6df3a90"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0067.png",
+      "sha256": "c71bf8291eedc71b630f25f4842fc43bb2aa2f1cf374ea23dd0efddeb6e7de91"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0068.png",
+      "sha256": "f49b19ee1e0463a864c8e3f7bfab127248bb9e5eee8eb22e85b70a8c12bbddfd"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0069.png",
+      "sha256": "875d630ef31b94694cc758a026545dac03fecc846fa20c499808ed08d31a5cc9"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0070.png",
+      "sha256": "753462cccb3e352033e55a50b89aa03b94f60bec102f74e68007cacf1a563396"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0071.png",
+      "sha256": "057886a5d2ffe7bd49308a31f8dff991781ab204135a660eb523971b3ac1c596"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0072.png",
+      "sha256": "d65ce74d707e0a4f3b847f6527c3efcc21fbc364cf295cdf43269b98c2544258"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0073.png",
+      "sha256": "4b77c859cb68065bdc7cc4f81dcb85efec7811cd30335f67b14f151f8cc812e9"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0074.png",
+      "sha256": "c2860eea64e6635234983a0abce46e3bc56e30dcc80c52241291668621efe575"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0075.png",
+      "sha256": "5cb1c62b4dbbb3917b713f854bd1e3162c37ce9781aaf15871d88dbdf2046f1f"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0076.png",
+      "sha256": "36d3136a1f574bbc202443218e8333200bb23b1e44195c10da550000ac94b42d"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0077.png",
+      "sha256": "381322ba13cbce0052b66c84dcb1277b7bcb5bd913c3c9e4388ddab19f4ee1cf"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0078.png",
+      "sha256": "47c75e5c77e8794371675179cb53ee48e757e1bad59a524d2bc3e99ebad6544f"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0079.png",
+      "sha256": "39ab78c93f79657ea501b55675f45069751ac4491aad73271dab60cf2c383877"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0080.png",
+      "sha256": "ad3d3bec7e0c192d0e2eea09237079a9b8807625ad10f683cc12cc5a4b0e1c75"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0081.png",
+      "sha256": "9b558da037f706557b7108c5a6c0ca8011dc2e4ddf6b980b6e542f8c34c66cac"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0082.png",
+      "sha256": "75e0719b09f062f209e3a4d10b8bbfc75d14f7d3c12a05db7dd94d1b3e9232cd"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0083.png",
+      "sha256": "6d949a67a69072371a6b535298a57407af96fe7128b4ea70c2dd959c2e9b4610"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0084.png",
+      "sha256": "42de6e8c3ca1b9bd7e9955e9f11bcccf3b51a6f20b4ea498e0cc789d319aa528"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0085.png",
+      "sha256": "a7750902386bcaa31679da4f854f4da0b481354b7d17026b4cdde09e17a37e93"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0086.png",
+      "sha256": "b2f753287c57760869d62b411310fbe10e157f0961e6f06ddf5c156f68c4f173"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0087.png",
+      "sha256": "8f14cf5731e28cef9f296d9232808232c7b596739267a0fe6f911549a7ef1079"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0088.png",
+      "sha256": "3039812cb13357563f61c48329f4abfdf8ef527da71d0467bdc38bf8e03b20a9"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0089.png",
+      "sha256": "7900fac41c1f850cf536df842d966f71833679c62bf58ed7dfad15b4f509e301"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0090.png",
+      "sha256": "6f29423b30b32c9101ecee5713f64319a337047e6da4a8646f3c1c10c16b0eb2"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0091.png",
+      "sha256": "0b81446cc9b4941950c3bb23ebee07982ceec485bc964c4463a91d9435a04eb4"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0092.png",
+      "sha256": "0b7d9b7caafcd31d8aaad05e5492814599359e7c6708cb543055344fe34a4580"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0093.png",
+      "sha256": "68a502c33151f0dc603e58878274e608666df314016dc2c839519c1099bdc5de"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0094.png",
+      "sha256": "0be5dc1a591b3a917ee65eca253358bc62b294c103bdd047b49f8ce7864a1a66"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0095.png",
+      "sha256": "d399fe497825a5016edc8bdf407563c4c1e1b25a5f8aa36f05a5a2f11cb513e2"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0096.png",
+      "sha256": "1dd66d94851ca5878908fc787f173163eec0176e3dd9b39642eb79e15141acd0"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0097.png",
+      "sha256": "f8118e557a205520ad4330d020aeb96eb7e4e846ce6bcd588c6bd36ffef4d0dc"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0098.png",
+      "sha256": "b6b6a7e015c69353faa2f94911a69229183b359e73cfa26340339867d4050322"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0099.png",
+      "sha256": "ffba70002f65aa20daac0170126709d97f8d3890bac897e189d0ee12da2b819e"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0100.png",
+      "sha256": "8378effcc0d5b340a618fa96bc66f7d64221086c6ee92a02b85097e871872ad7"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0101.png",
+      "sha256": "fd3f5613a1b4fcc01104ae0f64b4d865bdd7849a3ba27119d740800fa92e7cb4"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0102.png",
+      "sha256": "5cbd6fa542238e23ea827ccb9247c1f998269b3101619f605e3d081da072f237"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0103.png",
+      "sha256": "481421b3eed120afaae191bf95784b6fae2cd927535911f0476a43433229a611"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0104.png",
+      "sha256": "f4767bfb0bab0c2972fbec3c81b657bbd055092707079de013b62a280c325ebf"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0105.png",
+      "sha256": "59b7dc93366c86fda251eb0d217b1b6500d5730949f421255122875cfcedf07e"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0106.png",
+      "sha256": "4209961519ccab725c4ce181039364c8ec17b91132e9f55a548babbad6c261ec"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0107.png",
+      "sha256": "f3163972254eb920b5665520deec01d5ebfbc7b4c432963546bcdc5461929848"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0108.png",
+      "sha256": "99767cdf7895d0ea99587089e838e7d3242503afe6fb206f6468898c80132fb4"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0109.png",
+      "sha256": "bc6b2126035fbc700f81ccc9d7031bed5bc4e0a02fb5300d2227a7a3cefd2f31"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0110.png",
+      "sha256": "abd29f0d0384527e8d4ae1dcec7419caf9698f40ad53328d09caedcdeda1fa72"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0111.png",
+      "sha256": "6c9517e7749492b5167c9a76b0d50050d3aa3ec125c5d0678b195ba619c66e88"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0112.png",
+      "sha256": "bf4519c5f6ff1f3a9594e8dcf60a737d80f7cce115eac63eb4cabddf2efc0e5b"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0113.png",
+      "sha256": "9d0345b1f6e1dbafba15d7bcb172165063bb6aff43eb263b24e3341243731a75"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0114.png",
+      "sha256": "12bf0f3a28e8813cefee2c06e13f89a5fc27f896fc13796b40f395bc932d646c"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0115.png",
+      "sha256": "81c0735788a4c40411bc185b0bf7a5d9f18406ab31af03973600430b71395d3e"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0116.png",
+      "sha256": "5191da9a3c4ea711c5983211e49c3bb55d7584e766d8dea6781f8ea2262bb553"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0117.png",
+      "sha256": "fc375d5a0dfe2073165d6d394cdc0c2ad5d92379ef7c5ed2c9966956892aefd7"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0118.png",
+      "sha256": "0300a1db0b4171d869444489c60a1bc6257cabbdd977166d5a39b931ae6728bf"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0119.png",
+      "sha256": "f22223e848325dfe743bffd6a34bfc61f0abe7a11e5203a60aee9780e867d219"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0120.png",
+      "sha256": "f7d062721b12e069e2ade1a9715fe810dbcee0858f981a412df858c45378d183"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0121.png",
+      "sha256": "445a959b2eb08ce087d2cead7afdcf73c31594c6970c1a9798a1da178a858201"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0122.png",
+      "sha256": "03332066996d9e679bbcaa456d626dc08aa901b1672a0368da990606357a1668"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0123.png",
+      "sha256": "2063ce534efc27c159366a5975ce1cd610ae0417a827ccc1839baa552b6022e7"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-3/frame-0124.png",
+      "sha256": "6e296789676715ebc139e3559fd75ac794e08ea45ff3f41b562e9cf017967ad3"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0000.png",
+      "sha256": "d8989e77f6b203807911a5aa4bfaa2471299d726d365bcf7f2bdd85b83701575"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0023.png",
+      "sha256": "d89f3f29b5b7fc640e41fed831eaaf82729d68ac39404aea775fb857678a87a3"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0024.png",
+      "sha256": "95e057d23661b64d494828c0b1c9817a095c9989c38ac3c37d7e672225ef82a9"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0025.png",
+      "sha256": "bef144ad8594ce0bc4f4e319a6f3aa75413d3c4ce15729b5b9c60c27ff09c350"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0026.png",
+      "sha256": "4b8c7db35924143e7e156d5f9a19738bdfe97aaf0f78000cc03a8e117b01b843"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0027.png",
+      "sha256": "fffa275569cd2f7376f522cc054fc66d1c0cfcae9e084e28687d573847e1c0c1"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0028.png",
+      "sha256": "2e90a8c1209cbc60d7e9ca7a33dc44ecef9ea43be56ef91eeaaa9d4b44c83c9c"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0029.png",
+      "sha256": "1a96b0fcc1963ac33eb2d58a3b69845101df98603c458db39911fe7867f00dd4"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0030.png",
+      "sha256": "24d1e6135303a83b71ea6d7b6fcbb66631f8e46a344b8366c7d530bbf276703b"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0031.png",
+      "sha256": "f121b7adae7975a1ac08c355ddc5131b604a65bac1949f8eaff04349bcfa619d"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0032.png",
+      "sha256": "e9355ce94a67fb8b7c0138fb68c84e38213a53326015bbf366bf66faded1811e"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0033.png",
+      "sha256": "27cdfec7cee3b65c400bd4fd6770309ba05b8a37536e86ba88410fbbb71cba5e"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0034.png",
+      "sha256": "28e399e48f8186f497394f5e93e2ff641de1319693aece3a622b4289fb57a4f9"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0035.png",
+      "sha256": "bee1898083805f8bc26d94b495f5277ea0dd25a4796e40dc9823b5df7c4d0595"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0036.png",
+      "sha256": "ac085ca88ea21ee54b873195a5f6c4568ad85ed9dc5fc0c7509b73f69102a091"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0037.png",
+      "sha256": "0c9286978f3b3fff67348bc48de241ad78befb67959df9ddd725e3e8c7bbb560"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0038.png",
+      "sha256": "75138ffb66c14c74a62a3c3ed9779a52095a34aba43a51a7f6faf5f5d8cb433a"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0039.png",
+      "sha256": "72a630a89d2bf794dcc0a44179e6992b149a5903a1cb6b0abb3f325148fb72b2"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0050.png",
+      "sha256": "1828e1996678f16dab44ec28a08a0a996a3399978c163e55316ea21a0a7929c9"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0051.png",
+      "sha256": "f49239711750face2b4105ce597548a6ac0faa6e74a90cead284da10a6ba1a04"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0052.png",
+      "sha256": "9d8b475862adb8958b73498833a984104b36277589190e910568ea768e36f47a"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0053.png",
+      "sha256": "35e1c71d7dc37dee594cd30aabf34d8f4a1317351b21367da436e0af741c7881"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0054.png",
+      "sha256": "972b5b8f30939c4410e59ded49b6cd8f7c794a20adb6ff5a2b679bcd61040c43"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0055.png",
+      "sha256": "69467aa9ed75bb72ba8e1f922d79d4584bdac4189eb72586e2c42f7401c6ea50"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0056.png",
+      "sha256": "087c6c1eee0d51c847124677223b9884648623c861016903686922337f81dfba"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0057.png",
+      "sha256": "39b25386bf047cbd3cd58c67a725dd7dd9c181de2c825387532fb55b53f522c9"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0058.png",
+      "sha256": "147d0da8b99f577526a8b1fbbfdc9fae29d38e2748ddc69a10693aa5912467ee"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0059.png",
+      "sha256": "6f73678c0411a67fe19a5878a142d9302b71e85f1f718d371de9b488df202d75"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0060.png",
+      "sha256": "e0d49a8d46d5ad994a284721f8806040ed4acf0116925c87ddb915939e3b2f04"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0061.png",
+      "sha256": "f51249ec4d11f6aa96049cdb1282c72d2ed59d90f4e11e57fb34ba1676440970"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0062.png",
+      "sha256": "2ca88aaa6b90c68d2e868d7370eafa0db6496ab155051547a302db0f11ffae5d"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0063.png",
+      "sha256": "ae765417ad1fd1b8ed9de6af9b63553e5da447a7dad0ede83e385d66273a2ab2"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0064.png",
+      "sha256": "e8009fb2f0901fefd7a2dfe6ee96386d4d28b93053d249ab8e8df5a20de0ad7b"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0065.png",
+      "sha256": "d619ddd5c5af83183a29cbabb6875e1ccde3486cef4d3d19d1bbcb5a9a7fc6a3"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0066.png",
+      "sha256": "3621ef8432a2fe68bd5162471ed0bcc52678bb3623b7e128b0ee03b1635afd70"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0067.png",
+      "sha256": "09d3a8edb6dc62b4acfea6587ca6eda7261af93771f32a5d42d13ee167501b1a"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0068.png",
+      "sha256": "2c6a0d63b98d712dc87ca0fc07811855ecf7d7119f7c947e8f4792b4fcf1f52e"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0069.png",
+      "sha256": "f512eccf5d6c7edffde97d6080ded29afca32ff72f749d6d8d92e911c9b265c6"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0070.png",
+      "sha256": "4e33ec64a6c7eedd0bbbdb48fe04ead94210a5777df4eef6f29c65202fcf9bbb"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0071.png",
+      "sha256": "3a9b92341343b542941ba5f951b5efd4c559255c376a021b9e07a0c053afd327"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0072.png",
+      "sha256": "635fa4e49e97101f9bf03f89f2556a6a004184be2cb24e263665059087c2fba7"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0073.png",
+      "sha256": "1683687fbf40e423091219cb85d1047f7d7e3a7923d482c4b1fb874420ce5b5a"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0074.png",
+      "sha256": "c02c3257582e6a8c5308a1f9bfe3fb9dbc94685b27a0bb5f9b0dba3e37a39323"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0075.png",
+      "sha256": "b14d864934dbde92f0a327faf3ca04592554e4b09e2445fb815fda64f66fa0b2"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0076.png",
+      "sha256": "360885712f048786a51ade7f50ea0cd7a11c1c35b2c0db8a9dfe2a25adef441c"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0077.png",
+      "sha256": "61316d512e4d6d86fdf1762a799ae6cb9b050796e95959ce85564245abd89e2a"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0078.png",
+      "sha256": "48f1bd505feb22f1f43772bd7e40d1f54376bad60c7f93a69867abf849d860fa"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0079.png",
+      "sha256": "a21fb237ee202227ad412e8feac86351a25e7c39d42b45a6018d0560a18349ea"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0080.png",
+      "sha256": "1f2d7c041f29078506d8fb0ec46be1aa9e41392fd83fd5bf5fd07b402c0a9223"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0081.png",
+      "sha256": "a7d291a7ac4db85512d0861ef791963f40e14ae985843ca22020e86ac952b9f6"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0082.png",
+      "sha256": "bf55cae33ce22c71bb98560493b0b26d787138c480de7bd5424f67189550a54c"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0083.png",
+      "sha256": "9cb4efc6838826c23d109a23ed3ba8eeb190ac083fb0abb2bb58051d74c234a0"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0084.png",
+      "sha256": "d383d825c2536d5f236d9411b180410ed8a8fd214fbd7b49fd2490e8f6f1925e"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0085.png",
+      "sha256": "99a11a24684dd6fc0f69798b2fd59174cf67d2d6bc2ccffedcfcdedd6b7969c1"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0086.png",
+      "sha256": "1d8db41d18898077395b322445f288bbff2978b5b54acb4eb30ba0c64569a74b"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0087.png",
+      "sha256": "b1e2f931b5bf66f5b1eeb0ab36094df7af6dae02036ca92dfb180436ff22b881"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0088.png",
+      "sha256": "ed257e24ba322c0c4aac515ad831e18681f162885b4155af0828c2f6dbee9b62"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0089.png",
+      "sha256": "1820c04333a34cca7e52c12f85788d23bd3a80d96d59f4aeb07e4b2156d7d7bc"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0090.png",
+      "sha256": "9449d698108ac3b59f74b87c67272bcee23649d84dbf0de2d7ac68909cecbd01"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0091.png",
+      "sha256": "cac39606992940597121df2cf4226d0b35e433c62fcbad5b2b1bcdac5ab432e4"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0092.png",
+      "sha256": "fd986df4ad1b54a776fd566df10a593975c825301c9efa19956218205582f8ec"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0093.png",
+      "sha256": "94f7ceb1061c284f0d00a1cd36fde8dd70d1477bea54c8a290bbe083008eef6b"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0094.png",
+      "sha256": "180f04d51c02ab7169643afd4b413a95355feb577dd09fc6336c666b6edcd41e"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0095.png",
+      "sha256": "9f9e0a85c3ee95ff60124b45ce0a570cc93b8a8503435437a4baccf26eb63b4a"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0096.png",
+      "sha256": "9fb713ea395093ebe6f65ede5b3baa73b08042d3507eb377f82ce21c0e1fd3a0"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0097.png",
+      "sha256": "b610b7f786566d3a22f72644810fae6db2bc4d6a83ab20dfe5bf687fa9d67e45"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0098.png",
+      "sha256": "9067ee4454455599a717b44df44bd1ce2c815f789deba3967e9aa118174abf1d"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0099.png",
+      "sha256": "e22e744fa07667727c95669cf04b5e85d94bcf548c9f95dd701ef792909b0626"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0100.png",
+      "sha256": "45fc1b6a2a6e35853ff3772641fb5b9759a9c363eef9cfdf012bf12b4b33ed56"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0101.png",
+      "sha256": "1342ee0415f496ff3df2a85e6cd2cf19ad9ca093f0cb49c9f4cb0b0d095d8941"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0102.png",
+      "sha256": "62c69f8f1d994bc97403c4e901662b7d0efc4c497bdbae3331e2a3ff913b0d35"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0103.png",
+      "sha256": "0418561442b00368350b1d9598a5dd5a95eee1f53b72fc09e9a174b39e473abc"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0104.png",
+      "sha256": "91ccb9cb3375fce602cb5e4ae0a62a785606f7f376a23b801b9f7853b8f3f8ff"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0105.png",
+      "sha256": "73df87d3533f8fb8b206174a425e1c5751b0690a7501f1cefdd18eafc2418925"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0106.png",
+      "sha256": "5f81402889fc4cdf3412da94fd70001d003a61f7fc138cd0d886cc13f1027294"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0107.png",
+      "sha256": "096868c6830c5c82ffbb9b79a890aa51131c168e30a285e2a74cb6cbfd0f7514"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0108.png",
+      "sha256": "ff84e4949cccffa6148ccb9c8855686383cf11e53d14c7557d143c3890d49f19"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0109.png",
+      "sha256": "9d5df6c72ed927748396358646ffe0f766b325f5c49a5539deb7548401708aa9"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0110.png",
+      "sha256": "d60f8da3b0a5ea0e28c26797b7e55fc2ca12ca21c9655d595a591d6d12cc7d35"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0111.png",
+      "sha256": "21c6eefd71d4a17951953a53ce60ec241f80d56b0211430f94f59664877c4648"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0112.png",
+      "sha256": "30851a001c77f42cf3fac460b81d8ac73debaac35a7254c2937d0f66b16cb10c"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0113.png",
+      "sha256": "2e2812d9d553a04d0c089c7aab9b06f98144ab1f0eb218b9fb6b7a2eac2efcd8"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0114.png",
+      "sha256": "ba6d36e3707293ae276c575f7affdff5f7ba6aa408a0c5ab73f07cbc9e60e0bb"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-4/frame-0115.png",
+      "sha256": "8c2a054c7aab969bbee94ab10de2432eba5c65ad7dfb9a1ae45dcc3045cbb2e7"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0000.png",
+      "sha256": "6c77b25b8641cf771aaaa8b8f38cc10619e4e831f57c7538b47f02dc7723eaa2"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0001.png",
+      "sha256": "df7f3044c8a4c21a85ac3e57d68ea64234ab982a015c78d924368e5066eaaa3c"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0023.png",
+      "sha256": "69f706daabd5e5c6306c8020110be73065a3cd7d0749a9b5e94f37d33d0fedd1"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0024.png",
+      "sha256": "1ec0213d1b81c41511232606d5c69e8760b106f48181a618542efe419261d6ed"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0025.png",
+      "sha256": "510d55b7a88ad3cb5dd52d3a159ecb5e56beed064a35c4c160e7dfeec4a039d8"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0026.png",
+      "sha256": "6811d964681eb0e5853a1d1761d8e4b53b47695c09f3e73e446e5c35b806c9fb"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0027.png",
+      "sha256": "dcad2156023156d3a7ed829d0d00d73264c52a39bf62c54e0a0caa06fa1733df"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0028.png",
+      "sha256": "83046bf33409581e21b055d5d257cc3d16fc82c80016c16af4dc5d4bbd53871a"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0029.png",
+      "sha256": "ac6f6010b190dafbdd947f1c45abc7f3ba6346cb764b27d3ea88ec50a3aab897"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0030.png",
+      "sha256": "516a3df8e41bd20d07dd9ea519b3b0c3f93dd4ee02e074bdc08adb9ddebae7b5"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0031.png",
+      "sha256": "80c82102a18c883430881686a381e0a43bbb604ef1f5a9baa35cd2e453137d18"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0032.png",
+      "sha256": "a1d2baaf07394bce56240f53170f0d8d3b1cb09f5f58dfa065ec8f10005ed42f"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0033.png",
+      "sha256": "1e069ef9a2a7eeb041acbae86dab62109211e8ed692d236a60e4fa5c3f5ecbec"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0034.png",
+      "sha256": "3248746df84da3ea5cf8e42360f2803a5f2fa422f957ba0eef98696a5d381366"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0035.png",
+      "sha256": "77546a28bb14c177f3ff69f56ee1e730c555718eb1880d447bc3db296ffd1083"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0036.png",
+      "sha256": "0e76a73c06a54774f60b1f4483edad2ad2458f90e16b189743959bc103816800"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0037.png",
+      "sha256": "81b2eaebfe6fc117bf0ffeae29cd0534dfea11cdce06df583d4f4ffa3d30926b"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0038.png",
+      "sha256": "b6be2bd7569f2e30757c50b3d96b5dccc0031b108fd2a7d145c022c8627259b2"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0039.png",
+      "sha256": "223cf81bc1d6ab1827ed9069884c7105908a5ef3bdeffa32186cc03603efae38"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0040.png",
+      "sha256": "8c47e922abeea03f5dce92ec13759d5227cadac88e80390ac222b277976710c6"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0041.png",
+      "sha256": "c9c94c4891ab874ed30862351249f3d215fbd083b33b40e0730ee575f6bef9cb"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0042.png",
+      "sha256": "1991306f8a2a8e976c1365ea25dece02c125c0d68486d310600f98bfd3bb6e6c"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0043.png",
+      "sha256": "32b2e0ab292254eac0c8da1d374e9685e77487cfee47e1faba364bb28b4f1165"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0044.png",
+      "sha256": "54015c0afb98cf2d6c7909506dd3cf7367390bc64542930f6ca2af090f93b04a"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0045.png",
+      "sha256": "07ed270a90717724479d599b1660dbe5821817c8f6e667a43aac5a02f887a953"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0046.png",
+      "sha256": "7f04049240bec5793817df17e56bc934c369b1889c7526660837d57c9be62e4e"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0047.png",
+      "sha256": "54707b2e96c2b93c2292f726a01aa08ed55798b1cba35e305cfbb218fdb6f3a6"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0048.png",
+      "sha256": "fd6b1b2d44bb09e96a5063b15e201c006f8438f8df94760861825c13fea0191a"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0049.png",
+      "sha256": "ddf4a9afe7e10ad8f1346eb8820ea4853a39a1f1adb51e07891f9cbda29edaad"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0050.png",
+      "sha256": "ca07bd23151946a431e8d35df84c4ca48b7fdd489df37b103efa17edf0b19164"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0056.png",
+      "sha256": "cf3f8f0e7d1566caca945cb1864bf55c03c0472c23c055e2d8a316a4c0b53f29"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0057.png",
+      "sha256": "ccd5e7eac96c0d667f6c85770227d65dd44100d2b496ecf527b744888ecb8831"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0058.png",
+      "sha256": "37901bb23d6b126d623d0aedf793fa58f4c68eb8bb2df6d4035317b4024e2c99"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0059.png",
+      "sha256": "72d3e9b013cff5c91e068afbfc3644b9cc89aed1a038372c16c3abfffa8526f4"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0060.png",
+      "sha256": "142485021c89d318228e324ba07ab75831e9aac85f44addbdfe93dab781c13f7"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0061.png",
+      "sha256": "70a0994440432b0414251f2a8156728c74d14ad438591e74fb0102dc9b98be50"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0062.png",
+      "sha256": "d14ac7685db6ee301d9444a177586fd928d3f3c098a735ae46073c713ff0f3d6"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0063.png",
+      "sha256": "d1692b59fcbf5f3a99b5cc1449aea01e0b2ec39e5f9d26902f9c05eb61927948"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0064.png",
+      "sha256": "1883efb6c04b2e2f018c9b94901f5a50f2d290f5c6f955e59610edec51927520"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0065.png",
+      "sha256": "13981f458a1a098d4c66fa74bd2e51ea61a376ad9f036c23f95c012c2b6408fa"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0066.png",
+      "sha256": "50e1052f60b6921df1e51dcc24c1be8ba2e2b08ee9bef9cfcfa090f9d4e84477"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0067.png",
+      "sha256": "48d3c0cbaa7d3c6bae20d217450990de67cd8b0a08b0467376857c0b41391a62"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0068.png",
+      "sha256": "757fc58a1de3bc7c3dd6fdbbe4b7014e9fc00fbc5806d876668781112c72c1b2"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0069.png",
+      "sha256": "f966d73b83538f4437e736342ec1ccc477f16ee4ede543098e0b3b753e717769"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0070.png",
+      "sha256": "fc8bd8330ff7b42278653cd513e111c8410916ab7f418763a53e152d2b2b3db6"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0071.png",
+      "sha256": "702182386dcc0dcc18df24ebe2e6a9635cf4617e85ec944b372135d3860075ad"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0072.png",
+      "sha256": "2be477c8de5973e0e50085fd4e6bac683815dbfe1791dec594b1dd6d6175f305"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0073.png",
+      "sha256": "8b26c374eb65ea78ff827571ea19e0c263cec692d5408d7fb44de5916ecf705b"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0074.png",
+      "sha256": "bf7d44264aef9541e19b3cf85d1dfc79e36c900c0164c36e0a5231154fc487ea"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0075.png",
+      "sha256": "839daee6ea07e014f0e5a53da1953be800c974ed9f30c3885bad929dc03bac18"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0076.png",
+      "sha256": "486fc92920f85f3596751736001442ffbf4012866345248fbb3d938d569f8cca"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0077.png",
+      "sha256": "5293c4ab7925ee440a3158de136f4339644b01e1848e0652e11b02997ea5869e"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0078.png",
+      "sha256": "418d72f24981eae0c10d87aeaaba77421e5654e99bb28ce3ddd71240d3615290"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0079.png",
+      "sha256": "c8736c3394dc0b231cdd9c7c179e7a0e2f72efc6077a64583659581008d7831c"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0080.png",
+      "sha256": "3769b7b71ebc3780510b7f2b1ab3fc4caf3b768efcf2415d21ebd936200be40e"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0081.png",
+      "sha256": "8c96006c74aba80d3249cacaae8e458d6c37fb50836f23a884ebfb6eccc480f1"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0082.png",
+      "sha256": "b410b57ab84753a90f7bd68131526b002974523b44ef917c96ac8a265d95a7c5"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0083.png",
+      "sha256": "20a50da43233cf27ef04fbc834116cca949bfba7fdf8367515e09974732aa1ce"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0084.png",
+      "sha256": "ddbe163a48188453878ecbc2270152122250e3190bea74694bf4c6f6f91116c7"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0085.png",
+      "sha256": "cf85bd38d7f114030f50289bb3f210f32dff92d24d3c34391e89ec6a42b595db"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0086.png",
+      "sha256": "8e50b3da77b2290dfbfb03cba02b23b56192ce0a75425cdd50bc7c1cb27524da"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0087.png",
+      "sha256": "f1248c319e8f2213cb217a466ee4d77d20fbf1cb6585ad295e9f06b62edc8fa1"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0088.png",
+      "sha256": "9c6e47b296802cd493fb8c0b40ff8a89db1867c3a958cc34cd80685cb0b979b3"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0089.png",
+      "sha256": "f11f1933d023c5bdd10016449dc4629679f1dd0326c61254407ab15c2d8cc769"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0090.png",
+      "sha256": "045fb6b5c91212b8e924c1066b0c13be4e49c48b95ef9de642cf93989630e0ea"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0091.png",
+      "sha256": "25d4acb5a1f619bff924e0146e006664ca7e7a290ef4849f6b5e6f5a27de702f"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0092.png",
+      "sha256": "f111ad2af45b725b95e9bb348dbcea6e3c7ea9f2dcc94b82b75505a086ab17d4"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0093.png",
+      "sha256": "bef9c4ddca6e7caa6a65d9930f5c8797a72a0799dbc66a5a685c966ab11cec16"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0094.png",
+      "sha256": "e69bcf2c1abde8812b952e39a893dc4c5c4d2beebaf219de7dd9c3752f1e73d9"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0095.png",
+      "sha256": "34e35f0e7769aaafa8237cd507675e7a78bced3fc8b31ef08bc48b6e57d3f64a"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0096.png",
+      "sha256": "991dfe067470227b30cb8aedebe15c3724a31980e0efdf5dd15b16144515794f"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0097.png",
+      "sha256": "fc8ff93a869875c6ed88ac0d29401b479089f54730d4464cc2661ef54a5e4d6b"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0098.png",
+      "sha256": "37e09d442ce2bde453e91fd4400db86a45c01db1d144d54fe806e1ce75318cdb"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0099.png",
+      "sha256": "fd01862af783b408541278412bf269efdf07a45e3e30d50af090624b74a21369"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0100.png",
+      "sha256": "3fdede9630e39e44bfe47af3da08dccfc184fb1b602eecfc2b9886f86bb322cb"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0101.png",
+      "sha256": "741cfcc47dfc42efd4d75e1cc690c2c01f3dfbac8938ed68cce275bc45fa63e5"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0102.png",
+      "sha256": "52a2d2fbc3fa8b767f538de7b412daafa025a1479cc69ff56e1c9b01d351f623"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0103.png",
+      "sha256": "36257af25e945098ad68fb3d3db58cf2c809c6f3e0fe4fa8646e5503605df8aa"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0104.png",
+      "sha256": "3d539b2b97cba14cd1cfd56aa9e281069f63ae1b32c838473f2abda1f4dd2133"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0105.png",
+      "sha256": "5a95177a1a83bd4ba706a7f78096643d4cc45fb0a5fe959afb3817007a76a3c6"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0106.png",
+      "sha256": "9b2e4db0d8d0bdb0d3e8ab71936560413aa0370427e2df5c0d46cd165e9e44ab"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0107.png",
+      "sha256": "62046d73ec21d574f647bc36edf58d82428edb33d64b86a9cd0d627a082fafb0"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0108.png",
+      "sha256": "b1424d82757997457a66b1c5e7aef4dc28fd02b5b168c7ffd588b1a34aabc86a"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0109.png",
+      "sha256": "e3972a0f24b3b90ebb6ecedb1baa96f4f6e5d0a0b6d78a17c595ac4827461e10"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0110.png",
+      "sha256": "9a32e5732f9fcae42b18e880fd59b0ed4aa65c3209741af62daf072c9fefe56e"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0111.png",
+      "sha256": "3185ff0af84df602eb992a006952b1dd02cb9cde12cf0ee870ddccfb16d06f5e"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0112.png",
+      "sha256": "f675e0a65a9510804f40c968febeb48cf245684d11ee3b005e5c446113bec481"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0113.png",
+      "sha256": "527f45925a9f64c9419da5705744aab2f1a075a260eb0a6e7f7a0b332ad122e3"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0114.png",
+      "sha256": "22a54bb70360c6d8c623f3dc678441a349dcd442c2891f374f2f4760090ac6eb"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0115.png",
+      "sha256": "6c499013a85572f8446906c2292d12c3b58738a22861ce2e9555da2c527d8c95"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0116.png",
+      "sha256": "2ec67851d025bd61c63b75965e1b2ec2a11cfc7d44b2043e9faae10bb8999b27"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0117.png",
+      "sha256": "00cea4702e4b1cec30289dd2ee759dd6302e65b8a711599d02689a236639fea8"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0118.png",
+      "sha256": "cb91f9f51be5408b76ad243feafb3219a46cb750d725ede8a1fb0da298f67e8c"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0119.png",
+      "sha256": "7605271d760351df7467f8fd7ad1507786d717052c4ab887686cfe07d6be5876"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0120.png",
+      "sha256": "525886d48af084561a4a8102820436def5e5da92a62c4dd3570863bf0d8e18ce"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0121.png",
+      "sha256": "1d4e66dceae43cd88fc5bc4f80db728a7f8a030d00217cb5b444f046efe77d91"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0122.png",
+      "sha256": "04eb9f7b61fd61f2d3092496e2532d629568a0fc130934c74351826eded15a6f"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0123.png",
+      "sha256": "dc27338078ca562822ddcb440d02986bd352e433a008c2cbd863b10c1aa2e4c4"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0124.png",
+      "sha256": "330b3bd9b8ee3e7138362fe424573cfb55c42f95806e8232c0500e9871ca61a8"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0125.png",
+      "sha256": "e11af8380011ceb1e4c5ee070b93b9a479338e598a0cd566fabba3af36804143"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0126.png",
+      "sha256": "b5f8fd901f01b5e623d0118216570ea2f4cf765cd3147d53f328f95bd00dfe3c"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0127.png",
+      "sha256": "96f6ea961d69816bc2349ea9fbdb1382e30fae245410c1a8ac8a73fbbf20049b"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0128.png",
+      "sha256": "38d03ebf65be952d17e7bc8aa2968952ef4fc3e6f71c009673fa4353c928973c"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0129.png",
+      "sha256": "5cc8a635c5fbf3ad0b26004a44a7e3fae99cb0e789142b32389b1d6dae4061fb"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0130.png",
+      "sha256": "1b02f9b13eb64e379946e2056439c2438a0710252fa339dc0546767962d3b3ec"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0131.png",
+      "sha256": "82e39f6da9f7aa9dadbc18e67b666c1a11983e5f44e411aa719051f4d3e427c2"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0132.png",
+      "sha256": "06ced28722c6598e46ca8afcbf6e7baf7f0b7a8d95033518f406fb52acc0fcf0"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0133.png",
+      "sha256": "521be68cae42e4bb9835df73aa003075d2fdc4b8ff63a8f9398fd7921fa3b5f2"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0134.png",
+      "sha256": "19871580b24b29627ec2ef893e26f8c35b5c527139b58cea9c452008b73951cd"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0135.png",
+      "sha256": "72e1bbbd959dcf11a25ae4b9dc3432a3b68e0898df0e037c32b981964eaaebee"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-5/frame-0136.png",
+      "sha256": "d92c8d158120c6f76fb8dda4c4925d8d38b8fc6b40f3d647b71fe0638c489c12"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-6/frame-0025.png",
+      "sha256": "f40349e9248d3160f2a9902eb7098279573af73092ddc6063df58af00876b437"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-6/frame-0026.png",
+      "sha256": "280ec0a5d578f0bda64809091fe0d4509471798fb19bcb6f38d65121f8efeb0c"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-6/frame-0027.png",
+      "sha256": "ae2f14427ef2e4a04c51fe13df441c00c73d52dcadddf0377d689fbd63c75cfe"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-6/frame-0028.png",
+      "sha256": "526d16c77aeeebf3e754cc6e19ce3251edd65f60a2ab22645687313326601b17"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-6/frame-0029.png",
+      "sha256": "ccb0435e0bd096ffd636a5df1ee87a0cf6666ddee1dc77cff5bdd2ad087832f8"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-6/frame-0030.png",
+      "sha256": "e6fb1d6199cc5895834411853461fb7796286174cba596e33accd2d403c58779"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-6/frame-0031.png",
+      "sha256": "00ef23dacfa705ca0f616a7197a27fade705f4f2f094f112c44f64d9f142138f"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-6/frame-0032.png",
+      "sha256": "d2de1c73b1fec8804615abd067950b539b61ad944c8dc3a365c0540aacaff98d"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-7/frame-0013.png",
+      "sha256": "7d75fad6a602f111117fe997862b2b1c998f5b44835fd03d96405aa76a2e2096"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-7/frame-0018.png",
+      "sha256": "cdbe6b2cb5497ac0db22c190ec9efa00b29b1116e1d87e69451b821be2a2a919"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-7/frame-0019.png",
+      "sha256": "f44ef823a47f66c9c702cf7bad1cc1ca5459a4a19255cbd5dd73ef83988cd8d6"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-7/frame-0020.png",
+      "sha256": "c96718f8e53cfda2c1a108e7e8a3ce03472d2332a630bbb06955619ac1bfd4d1"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-7/frame-0021.png",
+      "sha256": "47cfbdc6e226b6168075b73830b948fe964cc6a610041e2f47ce006eaffb7d84"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-7/frame-0022.png",
+      "sha256": "041745c4c99ddfcf0af683acbe3169a90f6e687a0e51b170769fac4907003be2"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-7/frame-0023.png",
+      "sha256": "df0f488f2a675d8a91bccbfaebfac318c79eaf0f598d825633850081cbb90e3b"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-7/frame-0024.png",
+      "sha256": "793d77a79801ac59f89507b00d1cbe37a3a33fa353d876c4f5af590bbc82bfb8"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-7/frame-0025.png",
+      "sha256": "b0a76568659850716c864fc51dcaa62b3ebefecfab908293d8dbbab17f63e43a"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-7/frame-0026.png",
+      "sha256": "1504860f5a2b6fd782bfcb07efe461102f595fa2a066517f21cf1d135c4d8f51"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-7/frame-0027.png",
+      "sha256": "5def543c60938fdca61632837abd694aaa90025304d1e9a4261743cc2db622e4"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-7/frame-0028.png",
+      "sha256": "71c127a70de2595ce09334695a11734c23707b1dc37c75e5e6c69d35ca8a682c"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-7/frame-0029.png",
+      "sha256": "95811c2b5239f48d2e83f8f00b1ee15a16221d21521efdc7110a74fc8e572ed5"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-7/frame-0030.png",
+      "sha256": "d0cb78546517c9cf702925fb1c1f3649c39e94f43e4dfb77772d440e413fe61e"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-7/frame-0031.png",
+      "sha256": "ac89c3d7abd43ca1651f214ef6dd28eca64cf9dd7ba3cd4779bd68ddc5ea94a4"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-7/frame-0032.png",
+      "sha256": "b23290f412f9876c9f7c0366daff846f1122b49c8d996026140401a73670c4e7"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-7/frame-0033.png",
+      "sha256": "738129ddf2c592ac7bc347db40b520d68a1e62e812b3d7b7467a735b08dc2604"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-7/frame-0034.png",
+      "sha256": "aa4b178fb55676af256f435c9cd18041cef1062ae4ff8ddbdb8bfbe5e4aed696"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-7/frame-0035.png",
+      "sha256": "e1f812c3672fd6b9f178ad421dc1239e511a7d18504d3fe4a768e18b1e0407f2"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-7/frame-0036.png",
+      "sha256": "af857607d55158914fdf8a7e53a28e32d092ede7acb6e41e3f86899f34a48a2a"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-7/frame-0037.png",
+      "sha256": "db4968ccbbb4b569527cb518c4255550090785423b7607396e1edd1cfe5fd29d"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-7/frame-0038.png",
+      "sha256": "5c2ff19b6c8f03b1f73f02575d6b97d88d22452171a15e9ba0d319fe282db7b8"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-7/frame-0039.png",
+      "sha256": "0fe411d194061b9cf89e0370bf19f298abb1e1e61ef5791ed0b5e1b658131bcf"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-7/frame-0040.png",
+      "sha256": "4d357aa62f7c9b4358a08fb93aa04efc4a9566e485bd73adbe230d60ea3cb97f"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-7/frame-0041.png",
+      "sha256": "e15b88e8efca9c8860fa382b2d90a2418889a5fa80984fc50714d13a45d3c910"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-7/frame-0042.png",
+      "sha256": "0c7c5c9cf59326326bec0ade2fc5b2cfe6b1d3fe669e6a46487bcc2c4529376b"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-7/frame-0043.png",
+      "sha256": "109b94f0f65f805f8e045445523287efa1d148baefafcf51b982215276e59d5a"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-7/frame-0044.png",
+      "sha256": "38a4d49d9f50c035def18235c3ac7bac6961f31d19cd28261586f5170b864950"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-7/frame-0045.png",
+      "sha256": "ca3eac92fedbf2e93ead3e6d2e60885b01cfb23c97384d5a5b1eb15acf23b111"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-7/frame-0046.png",
+      "sha256": "071e57d4a0e22ae7614b7de62dbf8ab1b5e499287f8c1a8cfdcbe12fa455c599"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-7/frame-0047.png",
+      "sha256": "7460171d1c05ca0613af215a8d3a3eba202bffd90766b581201b0777d3d7e046"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-7/frame-0048.png",
+      "sha256": "8880e770647f508d5e45e67d08a4ea737b42e0e772e2366bf4210d8daf1f6e33"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0024.png",
+      "sha256": "a6e3bf2ebda7f4d78fdbe666f2fcd29c4b18410805cc787c786683a0b9406584"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0025.png",
+      "sha256": "91c7457583bab0254d724d981d002176fd36bee393d95d649f6b49cadaa13e18"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0026.png",
+      "sha256": "4a69812811ee13a6a4b18fa08a8babb0dd46b71ce288ea74b0b93e50a97f7fdc"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0027.png",
+      "sha256": "091e40812ec64a62acea470cdda6dd8b15a7300795c22f60840811197a3ff93f"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0028.png",
+      "sha256": "a8900b1f4cf2335d10689c341113d8ceecdf3018375d3eda92d6ad2ba1bb652d"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0029.png",
+      "sha256": "319c27e08cfb95014f3903eff3e64b61781388aa975d46a5705dad79d46bf974"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0030.png",
+      "sha256": "5e91d1c613366885119695ce0aea8d572d9271a305453e7ab2e8bec8d4b0126d"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0031.png",
+      "sha256": "6a5818184e2b064fbfe7c8e87d4976def7ab4210b3791f4365ffb98e720ab080"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0036.png",
+      "sha256": "3e6f1366e70c0cfc79c7aac8bda1237706b08ecd829e6d8a753cc9d7f833bc5c"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0037.png",
+      "sha256": "1eb737c282e3c2e7e8289994c6c331bfa143ab1f3f5dbe49b2cb0605199e81fd"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0038.png",
+      "sha256": "a8f2b7ad04990bfa041872572756f8257134cf77d20c8d40d4d1a8a4bd85b53f"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0039.png",
+      "sha256": "e92dbd16ca2466cc2bd830e846a8174f048a50db2a5dfd213e95fc3880c4166b"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0040.png",
+      "sha256": "9cd381a410c6df9ffba6de54e62a9116f01bb0248d4f5d1d4c643a01e0ca0c28"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0041.png",
+      "sha256": "ffd035313e47246a561a92ce5a92486a0adbfd9698482ad7f39dcd1578737e66"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0042.png",
+      "sha256": "4fad94e9660c08bd99deda702b9092ac3b7bb94bda05584ee4314e7dd880fb7a"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0043.png",
+      "sha256": "ff21277b6824acf6f26d528182d2350b8e7b864b2b01a6c8c160f2f56d5636ce"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0044.png",
+      "sha256": "b231aa6bdace0e75fac9f54fbf05e00f2b7263329794795dc093a62c2a0d8f41"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0045.png",
+      "sha256": "72edc8ca0b1941cc7bcfb41e427fdcead02b8008a91e92696cb88fd419d28e8e"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0046.png",
+      "sha256": "8c56f7b50876a0c5f3eeb0c984c9df78f74a12b1b77c8a3446bf1a304446871a"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0047.png",
+      "sha256": "2eca66294d2825faac88e38935108176888d02f27bbf987a79a5991855d7f850"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0048.png",
+      "sha256": "091c95be60512ee830f7065cb7029674ea13868847443682715034c394995402"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0049.png",
+      "sha256": "aea27e0a5ecf8112cdbd598549de02c9dac3906880030092d684f81c0b8a3b7a"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0050.png",
+      "sha256": "798a1c5681a4de8666bc0250fdd7c4e23e19fa1487d964d20550269ae9846b26"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0051.png",
+      "sha256": "8816f569c4d39fa654db66c540c105fa37aaa31c5b4863d13eb9d6b0fcd3887f"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0052.png",
+      "sha256": "744891e754f31a88dd58a476826da529912e92370bf127ee04bf0bd80b75aac7"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0053.png",
+      "sha256": "3937c38aacd1b158fca6cc015b64b422f7d4d484426a1ecb4ce796bcfe89d2be"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0054.png",
+      "sha256": "baf50a74f9bb21011b3986b04509056e4c6c8060716328006cb4d3b991e412ea"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0055.png",
+      "sha256": "5bf7c5a752e996e0937a0483104518e4bfeec42e81e9873ece09f81e0ab6d8c6"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0056.png",
+      "sha256": "ca42b7a61f781f70ab2f0c8667ffc64f358aa1966bfef7026b9ef258f3a0f784"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0057.png",
+      "sha256": "7efc80547eefaed017d832948b0bf24934df655f01f9233bf08c0abc471fbba2"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0058.png",
+      "sha256": "b739f1bcb8c797bbb8dce7a6411226f7856980ddce51425bfd09fd32c6d58844"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0059.png",
+      "sha256": "686236788c91dc9aa6f7b8ac724633c1b0a6246ed8c0303dc8d38f90e1b8c2aa"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0060.png",
+      "sha256": "027138d88dc1b8d7f34e26780b7a895dc62f5e8abbc5f679ac541c806ec0d478"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0061.png",
+      "sha256": "d882f43fea99da8094be96ecdd1695c9d2e4bf360d1ba596360eceed7724181e"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0062.png",
+      "sha256": "b94f5907e66297b03b8a7a348c60a2c94a5b2cbcb28b51ec2c52c1552bc46839"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0063.png",
+      "sha256": "e4f2c03e30c73bda5d47acad812f9b96ba9ff96e34bc1322a7b84b338b0c9c14"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0064.png",
+      "sha256": "858b97767d27e1bf9f1f85a22f0047eb596ca2364b2f5f9ed6e37802fde27317"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0065.png",
+      "sha256": "566768e55ae83d8249c63afa48c959c2df918b79504f651ed9cf8f47ddebe02d"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0066.png",
+      "sha256": "90154273f024eaec9549d9c8cabe25b35d9a8dd1977d9fab237e46ac4c274409"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0067.png",
+      "sha256": "6aa3146c223fd495aac7d69faad42d47b9c5ff8a929270f2d42f368d690ee24e"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0068.png",
+      "sha256": "25db2c3a4a9327bc6aeedb13b2927dc76cd99053ed67ff11e13bd8ba203f76f7"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0069.png",
+      "sha256": "7c490a3e53c2f6c7bb8c2581c574663ebce370849a8011288566f42868aa2bb4"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0070.png",
+      "sha256": "32eecb52abe2043fe2a9d026150e9f8c2358c83f26c9db5b821a9aa9019c83e7"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0071.png",
+      "sha256": "2f6be13f5b3fc65738be65a09255567d173688bca4b77a819f52842915a8a010"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0072.png",
+      "sha256": "a2dd85e624fe750ee5e047526a827b260e114449059fd9c6b327c8ac6e75c062"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0073.png",
+      "sha256": "1d3d4f4abae056f1eb9552efee6d0504137ae3a9d921e907803240aebc3f19da"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0074.png",
+      "sha256": "bc90db45b9153e0410a967f28b2dacc471e59e98af8df5c6f0e78bc11dadd512"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0075.png",
+      "sha256": "eb41a409490ae7a9c788ecea3eff6e238814dc7f8f5ef3261b450e5127d5b5c9"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0076.png",
+      "sha256": "34786a4b14b437c0a04a46109e3cec081668bad94c5484ccdd5ed0d85afbf7bf"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0077.png",
+      "sha256": "efdc50359788eee0e2bfd3c4212c5989896c09374d6686f310c7d1c0e93d1a3a"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0078.png",
+      "sha256": "e4247a1607368a76df2345a6ce182ea5b917a13acdfcbc952be0c355e312a9fe"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0079.png",
+      "sha256": "c60688a187acd6016548d395959f30cdf388c9b4c3ec370b0630077ed62ed019"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0080.png",
+      "sha256": "607157fd649028446e058f78beaf2d448628dcce2a89dcdaf460a31d4ee0d82e"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0081.png",
+      "sha256": "30608efaeaa550ca480135167476b99f6ea9b1b2b2b9f9e5fdb29ffe9cdeb14f"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0082.png",
+      "sha256": "3366a9948eb257c5fda733871fa6d5c6e4ea2c121a89358b5bd8d943da9ad122"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0083.png",
+      "sha256": "8d6024a8d850f7ac10c5156675130230ea86aff051aa15ae28452dd5c19c9fd7"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0084.png",
+      "sha256": "cd7321c8d0ba418ccb92090d67fdbfb2f1b3946480ea7a246bfcfda8b875d734"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0085.png",
+      "sha256": "46f3b8d5476dcdc8b7954bff56adc1f94c1344e2a09f3db02b5cf2eaa1cf401d"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0086.png",
+      "sha256": "bb33b62638f07b3b22cc3d83fec8d32eb944d07652c841b708e1fb7f59e5d48a"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0087.png",
+      "sha256": "3a0170db8a71506d264982d3e08fcec77bdf4b735f070ebf5e157178443f2791"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0088.png",
+      "sha256": "5d171cd9b3e4f77e785cc5eb5b0a2d4ab355a9f75b280f59be52ebd13eebf383"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0089.png",
+      "sha256": "89f45603bdda86e151e32b4a44d02722fe86d92bd85cf8ead3f8b82caab96df2"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0090.png",
+      "sha256": "bf3aa3736d425628410fed343993de2ef5e8c031bdfa19a3c8c49c509b253aee"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0091.png",
+      "sha256": "9aa9b8e0ca8c26a17949f2ad5999dd73fee030d0ac47afcc14953541ba1b2bec"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0092.png",
+      "sha256": "3a81e346b222c5e2e27c6e957ea5c5c5da8a8ef0aa2c3903825bc5e4a463e400"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0093.png",
+      "sha256": "4525614186ad00d5bda7ba89b5983f594129c1ae0af31a7820b39b201f773123"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0094.png",
+      "sha256": "bc3df646578310a2f1f2bed5ec45f8e3af43ce25c415c853953452b282be006a"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0095.png",
+      "sha256": "c210f23ab2a64bde243c692aad1a50032a5ba4bcf7962ed3dd43195c961df935"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0096.png",
+      "sha256": "f1c1b4adcaa7fc3791803159a3e7042a3b27283e01aa1be78e437fbe83d5d6c8"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0097.png",
+      "sha256": "023c9ad0356307fbe91475a33810c0d3e50f949c1fb4a36799b87e394abe7566"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0098.png",
+      "sha256": "e25b62f0a7f168fc8ed360b6d06ec51304d4b0eda94e4111fa5ca14b43db15ae"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0099.png",
+      "sha256": "48f71d882411c513eadff974673505e56e0dcec2e8979f2e996256c78784147b"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0100.png",
+      "sha256": "1241ebb63146e5b87dd706d8ee54371d954ddd7e6f2b6ec79fef9e3719788273"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0101.png",
+      "sha256": "93f37eddc0376d25be71b5bd5fa16c0f20d2933534eeff14528ca5ec9c8995ab"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0102.png",
+      "sha256": "8acbc36054fdba4e0dbebbc40b9f4728da10407f9d354fc21ad99394c3597b2d"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0103.png",
+      "sha256": "74d3d46ca76da9f95f2666f65f27fd16d3657aaf2b0aefdc1eff1c1d42802863"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0104.png",
+      "sha256": "d736b758ecba73f9f94079797e3336e0dcc1997dfdb3353b982abe095320817a"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0105.png",
+      "sha256": "d2cf47344ddcd49123b5147e059e1f1c9b1e0d4dd58e6888c4a2ce9bebe23955"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0106.png",
+      "sha256": "0747ece40de6747b501d0abff0dc46b34b8063fd20a695dfb036652354c50834"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0107.png",
+      "sha256": "b711b9bde1a6effae63d1bcc66a926bdd266383677c8aeb771c5ff427cc44c85"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0108.png",
+      "sha256": "344f08c51c36cc23668ff9db889873f33e933d6444f7dad0746f6e154eda7429"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0109.png",
+      "sha256": "35e8cd1857f9e97be167d5058661820186bb31f98ae32bb7a1c2f86022ff1439"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0110.png",
+      "sha256": "a55aa14661d63fca4749489a36a242a0feb57aa3e4da0274ad8a6fee0f60bb8d"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0111.png",
+      "sha256": "f0190cfd0b6b9a2842a09a23d5f00e1ee3e777af6d5102a2ce676a950c61e287"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0112.png",
+      "sha256": "3fbd9042149fa783da519f7a8dc56bf52be2b8578d9f61c9b405da8800118ef9"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0113.png",
+      "sha256": "44c6645a3144a65f1944ed595ace3a8fbd41c070f539783d4b19ad4c6335843f"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0114.png",
+      "sha256": "11271e35dfe71eda50be3d80a5553fea01af0d6b5bcaa551f87b9cdf939ffb9e"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0115.png",
+      "sha256": "63337eafcada545e60d0f06247a17b771ca0966850bcfe60782ec057d09092bc"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0116.png",
+      "sha256": "1ebacf5ac75ca356677093eb98e6c295c5c70c3c9accccd218a91434633ae265"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0117.png",
+      "sha256": "8e02a11660447b6ac55d128c2367551fcf48870b3be671e004d02f5c173cd208"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0118.png",
+      "sha256": "17b09431ecf4998818d476345e5263ff84ec9afafbc035af648e2c24ccebcf5f"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-8/frame-0119.png",
+      "sha256": "3f8790ebb998743cae2282d73d21ffad3b1844a5e28db2f59bdaabc8390368ca"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-9/frame-0001.png",
+      "sha256": "a3a022faa4b80b8fcb93ab732b4f659d2ca13677dcbcfecccbc073b19d865067"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-9/frame-0019.png",
+      "sha256": "580982761aab0f1be5a8a5643cade1bae8e3233b075cfa5dcc2ff16da82966e3"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-9/frame-0020.png",
+      "sha256": "a26607661d98c33507bec459ecda3eccead7a2bdf63b322384422b287a9ebc49"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-9/frame-0021.png",
+      "sha256": "6643d5c4fbf9efef17b47794f41c67b680a26f4bb35a17154522c2c5d13ab586"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-9/frame-0022.png",
+      "sha256": "15afe20eca7991146e158f6049929f4b5734e6d5cf5896a2cf99edac530d0de9"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-9/frame-0023.png",
+      "sha256": "b869a7090e7a01f9032a9aa0c4876fe9e83a93b56eb3bb6088daec5d1dd0066f"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-9/frame-0024.png",
+      "sha256": "52c2230813a9a5f038d8c508675dc735960d0d4049fc1c85b21a8508812787da"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-9/frame-0025.png",
+      "sha256": "ae25b98b4f8620717fe91aeb307d5c7c1e0d4d20dfededcf1f07f05e2e8ad5c7"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-9/frame-0026.png",
+      "sha256": "5797cbd14e383ac3830fc13b8542b650d3044681ccf24eaf280f6455c73eb9a2"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-9/frame-0027.png",
+      "sha256": "f012ed98d367453fb2fa93cd3bd96b2de3d122fc63b551a0288ec027e855d72a"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-9/frame-0028.png",
+      "sha256": "f4a9e513410177d48a17c71ccfb7095206866e4dabfa9d3c4ba20d945ea051cb"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-9/frame-0029.png",
+      "sha256": "f9ff6dbb4bc1da67e3daa92b84001a9803cd37c0ab66f24c94884bfffce0247b"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-9/frame-0030.png",
+      "sha256": "8286c1a9630119add996b060459006e28795ee11031a742dd4a0633cc9ee3eec"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-9/frame-0031.png",
+      "sha256": "7f1218263a04ace91b6ca69c0e2d021420aadd20884bdc36cf2a9e931d6c18a5"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-9/frame-0032.png",
+      "sha256": "49d1aa7ca0ac93e0f5256ee66bf36e495a57c5f0edd7f24c51c9b90efb2a892d"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-9/frame-0033.png",
+      "sha256": "9e7e2050f87d18016d9494a7ea960c8d2e94f24e5c435eaf45e0b01d6989049f"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-9/frame-0034.png",
+      "sha256": "0e383c2c86f0d358badce0a21f00bce3e3eedf52a9e3d5f1e12335156f1ca98f"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-9/frame-0038.png",
+      "sha256": "aa698712260dabb2bdeab11303e15bed384887e866ca2e1ffa82aceb94c1a94e"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-9/frame-0039.png",
+      "sha256": "0be579ae0b510970fd91ce80dc96c0e28af993e5101f76555d941e803c0e85ce"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-9/frame-0040.png",
+      "sha256": "5b4b32bd7387532220e8b41acf076beb5ebfcb122f64cc9f65ba61de946ea279"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-9/frame-0041.png",
+      "sha256": "5efb683a9b799424824fad544d8633f10367bb7d818aa02f74ae12cce1ee3939"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-9/frame-0045.png",
+      "sha256": "1c40e1b04f0cd60aac2e3f1fefef9727118b5bab27c91ca40fe58f530183f147"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-9/frame-0046.png",
+      "sha256": "11b70b9358f7f6dc7fa557a99c158fc2405ea54cf426adf39efe80c1b5af2c88"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-9/frame-0047.png",
+      "sha256": "407c7a21295b8312df296d09a140973eedd57e798cac748895c39d34e531ba13"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-9/frame-0048.png",
+      "sha256": "a7731676cb717b7d8b8f3c20afe51cdae79169af1bec886bd6331bd3c8abe302"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-9/frame-0049.png",
+      "sha256": "40ad072f8f710a73586cb05c82460815d2d6707186c5306a3c14c153589d7690"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-9/frame-0050.png",
+      "sha256": "4feb19c14e75226fadc42cc3e659769a27cbdfac0b3ec0f9df88245cc3b376b2"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-9/frame-0051.png",
+      "sha256": "e099aed9cd81796994f702819330e843983b5fa15a3505e42fc854c236f7fcfe"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-9/frame-0052.png",
+      "sha256": "133cc4ac32a8cb83eef70e34681d832ef7104a9e80ebdf7f264905a4523b684a"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-9/frame-0053.png",
+      "sha256": "f79f4bcb4fe41ebe1a192bff9b6bd6a70760cdef7c83f5c5fca11c4d9119a495"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-9/frame-0054.png",
+      "sha256": "a4334bf5164be39acaca2f6596a111059f8760418ac70fba2819b414b1e9847e"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-9/frame-0055.png",
+      "sha256": "9a36483a54b1a3734eabc1ca6d2a0bfaaebf43c647ff79e5dafde6df7b83c4c9"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-9/frame-0056.png",
+      "sha256": "bb61be76e710739a6355e95572c1f6ffc9972351d4cd3149101a4f5b8184d869"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-9/frame-0057.png",
+      "sha256": "5c2e440b2fcb3c0aee4997d9fe49b98a6a5bc76e726cec1a7f0a4a628c56f0f9"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-9/frame-0058.png",
+      "sha256": "20b853c00cf1a6682a07b734404ac1ed0be505ea0795de694609baef0670d2cd"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-9/frame-0059.png",
+      "sha256": "6d65332371d828351007cd3c9c3e75eae8eebbe2d4ed835f8a00f9d92ce04cd4"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-9/frame-0060.png",
+      "sha256": "08508bdbee14db42de109696e1edd944304b572c107395962ef26f02fe18e9a8"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-9/frame-0061.png",
+      "sha256": "bcb61fc6abe2a790a890ccc482900d0b5640b8fe206a80917e2e4f436df36df4"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-9/frame-0062.png",
+      "sha256": "180cddd97fd3dc29201bacd4b1885e375f7f1e1147fe9feb378ecef34d84f3ae"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-9/frame-0063.png",
+      "sha256": "468347de55afd4bf96665ed09e179ac97a28b8db05abea50561324fcd6b9d717"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-9/frame-0064.png",
+      "sha256": "6cac018d9cd349da3b2e1a1ab75da0e3fa4d12ceb03fc3e0cbb2288669d3d226"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-9/frame-0065.png",
+      "sha256": "da8f1bfd399fbad07e00862248015488848a2b3cb03cc8546e4ba97a4c16f389"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-9/frame-0066.png",
+      "sha256": "9ec9b2557f97380f88e973697142d7b4d930daa0c9811587d1c751e3d9acd33a"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-9/frame-0067.png",
+      "sha256": "9c4f665519ba46ea13050bab9568ed06a31bbc08db97a995f46fc4c246a05c3e"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-9/frame-0068.png",
+      "sha256": "bf7d70f2d67e8ac41eb0842aea6dcce13f7eba198d2aa6138d171a08ee9e20b0"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-9/frame-0069.png",
+      "sha256": "32964fdec107e4fb2ae2de6556cb5d4b2346231b7dc4de6ac9a133ffb6bde89f"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-9/frame-0070.png",
+      "sha256": "cd9c39aec5051bdd950e8721e86c405ea9f1657b7aff77f7a4da6db8e9a948b7"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-9/frame-0071.png",
+      "sha256": "3df75996ba45ca873ae5a9b36996a34db44c9b74b27509cc78c4524b1f37ddd5"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-9/frame-0072.png",
+      "sha256": "9c50b317e29e2b3fcd6cae60b4ed088d8e314975a057d5d5230601fa72172664"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-9/frame-0073.png",
+      "sha256": "dafe19fbe378e061635976d2d743642384f4cfcc70a0ebebb3658db8a099b0f2"
+    },
+    {
+      "file": "arena/assets/repertorio-sf/sf-9/frame-0074.png",
+      "sha256": "208f7bd461056c35b6df19ff5165bf9ad83179b0c0ed6d216db871e97709287e"
+    }
+  ]
+}

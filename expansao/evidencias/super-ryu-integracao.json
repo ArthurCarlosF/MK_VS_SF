@@ -1,0 +1,47 @@
+{
+  "status": "IMPLEMENTED_CALIBRATION_PENDING",
+  "limits": [
+    "Native activation, sampled owner animation, initial flight and terminal reactions are integrated.",
+    "Turbo scheduler, random damage, intermediate reaction branches, unequal-super clashes, corner and air contacts remain pending.",
+    "N-player hit allocation is a crossover policy: one native maximum of five contacts is shared by all targets."
+  ],
+  "sourceStart": 18,
+  "commit": 20,
+  "birth": 41,
+  "ownerEnd": 76,
+  "freezeSamples": [
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39
+  ],
+  "damageWitness": [
+    13,
+    16,
+    14,
+    14,
+    14
+  ],
+  "chipWitness": [
+    3,
+    3,
+    3,
+    4,
+    3
+  ],
+  "pauseCounter": 10,
+  "pauseApproximation": "4/3 native updates per video frame; exact phase scheduler pending",
+  "assets": 24,
+  "reactions": 4,
+  "clashEvidence": "choques-super-nativo-r1.json",
+  "sourceSha256": "09164dfd7df9f17ae9fa73b8d014334bf6ff1dd2f1cc5194a69070d697a42a19"
+}

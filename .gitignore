@@ -4,6 +4,7 @@ runtime/
 __pycache__/
 *.pyc
 *.state
+*.state.gz
 *.sav
 *.nv
 *.rom

@@ -1,6 +1,6 @@
 # Mortal Kombat vs Street Fighter
 
-Protótipo independente de um crossover entre **UMK3 arcade 1.2** e **Super Street Fighter II Turbo US**. Este repositório contém a revisão **8.7 experimental**.
+Protótipo independente de um crossover entre **UMK3 arcade 1.2** e **Super Street Fighter II Turbo US**. Esta publicação reúne o elenco implementado e a validação de locomoção de novembro de 2026. O jogo continua em desenvolvimento.
 
 ## Executar
 
@@ -19,8 +19,8 @@ Para preparar uma partida no mesmo aparelho, abra <http://localhost:8765/expansa
 
 ## Estado atual
 
-- Ryu e Scorpion integrados ao combate. E. Honda, Blanka, Guile, T. Hawk e Ken têm ataques básicos e reações próprias.
-- Seleção com 38 retratos, separando os universos MK e SF.
+- 43 personagens selecionáveis, separando os universos MK e SF, com repertórios implementados em revisão.
+- Caminhada aprovada para os 26 personagens MK e para Ken, Sagat, Zangief, Dhalsim e Cammy. Os outros 12 SF permanecem pendentes de correções na comparação nativa.
 - Movimento, ataques básicos, defesa, agarrões, lança e teleporte, em calibração.
 - Especiais terrestres do Ryu, Tatsumaki aéreo e Shinku Hadouken em calibração.
 - Partidas simultâneas, câmera conforme sobreviventes e salas de rede local para 2 a 8 participantes; o motor aceita até 16.
@@ -28,11 +28,11 @@ Para preparar uma partida no mesmo aparelho, abra <http://localhost:8765/expansa
 - Desafio cooperativo do carro com cais, colisões, estados de dano e pontuação recuperados do SSF2. Relógio e efeitos ainda em revisão.
 - Capturas iniciais dos outros personagens, ferramentas de análise e relatórios de desenvolvimento.
 
-Ainda faltam o restante do elenco, repertórios completos, cenários MK, áudio, campanha e finalizações. Há 45 divergências SF na comparação anterior de sequências e a validação física de lutas e controles em rede segue pendente.
+Implementação não significa validação integral: golpes, finalizações, cenários, áudio, colisões e controles em rede continuam exigindo comparação e correções. Esta publicação não certifica o jogo completo ou fidelidade integral aos arcades. Os dados experimentais de caminhada dos 12 SF pendentes não foram ativados.
 
 As finalizações planejadas são as existentes no **UMK3 arcade**, sem Brutalities de console. Personagens SF preservam seu próprio repertório, sem finalizações inéditas.
 
-Veja [Etapas do projeto.txt](Etapas%20do%20projeto.txt), [estado da expansão](expansao/Estado%20da%20expansao.txt) e [ponto de retomada da bancada](expansao/RETOMAR%20AMANH%C3%83.txt).
+Veja o [plano com as caixas atuais](Novo%20plano%20do%20projeto.txt), a [validação das caminhadas](Validacao%20das%20caminhadas.txt) e o [ponto de retomada](PROGRESSO%20PARA%20CONTINUAR.txt). Os resumos dos testes estão em `validacao-locomocao/`.
 
 ## Testes
 

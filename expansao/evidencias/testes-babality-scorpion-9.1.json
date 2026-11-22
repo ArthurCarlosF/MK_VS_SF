@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "profile": "umk3-r12-scorpion-babality-scorpion-victim-native-terminal",
+  "sprites": 57,
+  "completeGame": false,
+  "noBlock": {
+    "blockedRoundDenied": true,
+    "resetCleared": true
+  },
+  "local": {
+    "facing": 1,
+    "scenery": "mk-scorpions-lair",
+    "immune": true,
+    "othersCanFight": true,
+    "phase": "fight",
+    "visible": true
+  },
+  "audio": {
+    "nativePcm": true,
+    "resumeOffset": 4.295742844869571,
+    "verifiedDuration": 10.017875
+  },
+  "lan": {
+    "matchingTick": 588,
+    "facing": -1,
+    "roundWinner": 0
+  }
+}

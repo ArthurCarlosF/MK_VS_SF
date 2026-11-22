@@ -1,0 +1,205 @@
+{
+  "status": "PASS",
+  "coverage": [
+    {
+      "id": "scorpion",
+      "controls": 4,
+      "hits": 40
+    },
+    {
+      "id": "ryu",
+      "controls": 6,
+      "hits": 40
+    },
+    {
+      "id": "sf-1",
+      "controls": 6,
+      "hits": 40
+    },
+    {
+      "id": "sf-2",
+      "controls": 6,
+      "hits": 46
+    },
+    {
+      "id": "sf-3",
+      "controls": 6,
+      "hits": 44
+    },
+    {
+      "id": "sf-4",
+      "controls": 6,
+      "hits": 44
+    },
+    {
+      "id": "sf-5",
+      "controls": 6,
+      "hits": 38
+    },
+    {
+      "id": "sf-6",
+      "controls": 6,
+      "hits": 52
+    },
+    {
+      "id": "sf-7",
+      "controls": 6,
+      "hits": 44
+    },
+    {
+      "id": "sf-8",
+      "controls": 6,
+      "hits": 42
+    },
+    {
+      "id": "sf-9",
+      "controls": 6,
+      "hits": 44
+    },
+    {
+      "id": "sf-10",
+      "controls": 6,
+      "hits": 46
+    },
+    {
+      "id": "sf-11",
+      "controls": 6,
+      "hits": 14
+    },
+    {
+      "id": "sf-12",
+      "controls": 6,
+      "hits": 36
+    },
+    {
+      "id": "sf-13",
+      "controls": 6,
+      "hits": 46
+    },
+    {
+      "id": "sf-14",
+      "controls": 6,
+      "hits": 44
+    },
+    {
+      "id": "sf-15",
+      "controls": 6,
+      "hits": 44
+    },
+    {
+      "id": "akuma",
+      "controls": 6,
+      "hits": 46
+    },
+    {
+      "id": "mk-15",
+      "controls": 4,
+      "hits": 22
+    },
+    {
+      "id": "mk-19",
+      "controls": 4,
+      "hits": 22
+    },
+    {
+      "id": "mk-1",
+      "controls": 4,
+      "hits": 24
+    },
+    {
+      "id": "mk-2",
+      "controls": 4,
+      "hits": 24
+    },
+    {
+      "id": "mk-3",
+      "controls": 4,
+      "hits": 22
+    },
+    {
+      "id": "mk-16",
+      "controls": 4,
+      "hits": 22
+    },
+    {
+      "id": "mk-0",
+      "controls": 4,
+      "hits": 24
+    },
+    {
+      "id": "mk-17",
+      "controls": 4,
+      "hits": 22
+    },
+    {
+      "id": "mk-20",
+      "controls": 4,
+      "hits": 22
+    },
+    {
+      "id": "mk-21",
+      "controls": 4,
+      "hits": 22
+    },
+    {
+      "id": "mk-4",
+      "controls": 4,
+      "hits": 22
+    },
+    {
+      "id": "mk-7",
+      "controls": 4,
+      "hits": 22
+    },
+    {
+      "id": "mk-6",
+      "controls": 4,
+      "hits": 22
+    },
+    {
+      "id": "mk-5",
+      "controls": 4,
+      "hits": 22
+    },
+    {
+      "id": "mk-8",
+      "controls": 4,
+      "hits": 22
+    },
+    {
+      "id": "mk-9",
+      "controls": 4,
+      "hits": 22
+    },
+    {
+      "id": "mk-10",
+      "controls": 4,
+      "hits": 22
+    },
+    {
+      "id": "mk-11",
+      "controls": 4,
+      "hits": 20
+    },
+    {
+      "id": "mk-12",
+      "controls": 4,
+      "hits": 22
+    },
+    {
+      "id": "mk-13",
+      "controls": 4,
+      "hits": 22
+    },
+    {
+      "id": "mk-14",
+      "controls": 4,
+      "hits": 22
+    },
+    {
+      "id": "human-smoke",
+      "controls": 4,
+      "hits": 22
+    }
+  ]
+}

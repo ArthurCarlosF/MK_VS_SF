@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "owner": "mk-0",
+      "kind": "fatality1",
+      "stage": "mk-scorpions-lair",
+      "id": "umk3-r12-kano-fatality1-mirror-native-terminal",
+      "adaptOwner": false,
+      "errors": []
+    },
+    {
+      "owner": "mk-4",
+      "kind": "friendship",
+      "stage": "mk-scorpions-lair",
+      "id": "umk3-r12-unmasked-sub-zero-friendship-mirror-native-terminal",
+      "adaptOwner": false,
+      "errors": []
+    },
+    {
+      "owner": "mk-0",
+      "kind": "stageFatality",
+      "stage": "mk-subway",
+      "id": "umk3-r12-scorpion-stage-fatality-subway",
+      "adaptOwner": true,
+      "errors": []
+    }
+  ],
+  "errors": [],
+  "missing": []
+}

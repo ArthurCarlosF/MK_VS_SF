@@ -1,0 +1,124 @@
+{
+  "records": {
+    "mk-10": {
+      "record": "0xff9ef6d0",
+      "kind": 1,
+      "dispatch": "0xff9d7c20",
+      "queue": [
+        8,
+        8,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mk-13": {
+      "record": "0xff9eb9c0",
+      "kind": 1,
+      "dispatch": "0xff9d7d10",
+      "queue": [
+        9,
+        9,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mk-14": {
+      "record": "0xff9df960",
+      "kind": 1,
+      "dispatch": "0xff9d7640",
+      "queue": [
+        9,
+        9,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mk-15": {
+      "record": "0xff9deb00",
+      "kind": 1,
+      "dispatch": "0xff9d7e90",
+      "queue": [
+        9,
+        9,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mk-17": {
+      "record": "0xff9dd700",
+      "kind": 1,
+      "dispatch": "0xff9d8040",
+      "queue": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mk-20": {
+      "record": "0xff9d2e20",
+      "kind": 1,
+      "dispatch": "0xff9d7960",
+      "queue": [
+        8,
+        7,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "scorpion": {
+      "record": "0xff9da7c0",
+      "kind": 1,
+      "dispatch": "0xff9d7870",
+      "queue": [
+        8,
+        7,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mk-4": {
+      "record": "0xff9e52b0",
+      "kind": 1,
+      "dispatch": "0xff9d7550",
+      "queue": [
+        8,
+        7,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "mk-7": {
+      "source": "chefes-especiais-trabalho/MOVES.C",
+      "function": "robo1_lk_close",
+      "dispatch": "airborn_xfer(do_robo_tele)"
+    },
+    "mk-8": {
+      "source": "chefes-especiais-trabalho/MOVES.C",
+      "function": "robo2_block_close",
+      "dispatch": "airborn_xfer(do_tele_explode)"
+    },
+    "human-smoke": {
+      "source": "human Smoke original Scorpion teleport routine and commands",
+      "runtime": "humanSmokeTeleport"
+    }
+  },
+  "kind1Meaning": "Input may transfer from ground or air; kind 0 rejects airborne actors.",
+  "nativeRequirements": "Original input tables; not full native timing validation."
+}

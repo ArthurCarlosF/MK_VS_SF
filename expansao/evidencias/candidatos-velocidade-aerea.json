@@ -1,0 +1,57 @@
+{
+  "witnesses": 112,
+  "candidates": {
+    "vertical": [
+      {
+        "offset": "0x3e",
+        "bytes": 2,
+        "factor": 256,
+        "phase": "after",
+        "sign": 1,
+        "matches": 100
+      },
+      {
+        "offset": "0x1c8",
+        "bytes": 4,
+        "factor": 1,
+        "phase": "after",
+        "sign": 1,
+        "matches": 100
+      }
+    ],
+    "horizontal": [
+      {
+        "offset": "0x3c",
+        "bytes": 2,
+        "factor": 256,
+        "phase": "before",
+        "sign": 1,
+        "matches": 103
+      },
+      {
+        "offset": "0x3c",
+        "bytes": 2,
+        "factor": 256,
+        "phase": "after",
+        "sign": 1,
+        "matches": 103
+      },
+      {
+        "offset": "0x1c4",
+        "bytes": 4,
+        "factor": 1,
+        "phase": "before",
+        "sign": 1,
+        "matches": 103
+      },
+      {
+        "offset": "0x1c4",
+        "bytes": 4,
+        "factor": 1,
+        "phase": "after",
+        "sign": 1,
+        "matches": 103
+      }
+    ]
+  }
+}

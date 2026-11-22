@@ -1,0 +1,330 @@
+{
+  "romModified": false,
+  "setup": "isolated RAM frame pointer and animation timer fixtures",
+  "cases": [
+    {
+      "case": "hold",
+      "requestedPointer": "0x11145e",
+      "timerFixture": 32767,
+      "frames": [
+        {
+          "sample": 0,
+          "pose": "0x11145e",
+          "size": [
+            64,
+            96
+          ],
+          "match": 1.0,
+          "pixels": "9d46aa63e421f7e6e334b9f8d1f4bcf384cef0fd73b1a6dd3bcba1f38f1ac3ea",
+          "descriptorAnchor": [
+            53,
+            65
+          ]
+        },
+        {
+          "sample": 1,
+          "pose": "0x11145e",
+          "size": [
+            128,
+            80
+          ],
+          "match": 1.0,
+          "pixels": "c13eb67200baf8bf3b110d1a40f075669fd2d883111ca94847edcc95da53312e",
+          "descriptorAnchor": [
+            5,
+            49
+          ]
+        },
+        {
+          "sample": 2,
+          "pose": "0x11145e",
+          "size": [
+            128,
+            80
+          ],
+          "match": 1.0,
+          "pixels": "c13eb67200baf8bf3b110d1a40f075669fd2d883111ca94847edcc95da53312e",
+          "descriptorAnchor": [
+            5,
+            49
+          ]
+        },
+        {
+          "sample": 3,
+          "pose": "0x11145e",
+          "size": [
+            128,
+            80
+          ],
+          "match": 1.0,
+          "pixels": "c13eb67200baf8bf3b110d1a40f075669fd2d883111ca94847edcc95da53312e",
+          "descriptorAnchor": [
+            5,
+            49
+          ]
+        },
+        {
+          "sample": 4,
+          "pose": "0x11145e",
+          "size": [
+            128,
+            80
+          ],
+          "match": 1.0,
+          "pixels": "c13eb67200baf8bf3b110d1a40f075669fd2d883111ca94847edcc95da53312e",
+          "descriptorAnchor": [
+            5,
+            49
+          ],
+          "calibratedAnchor": [
+            35,
+            81
+          ]
+        }
+      ]
+    },
+    {
+      "case": "advance",
+      "requestedPointer": "0x11145e",
+      "timerFixture": 1,
+      "frames": [
+        {
+          "sample": 0,
+          "pose": "0x11145e",
+          "size": [
+            64,
+            96
+          ],
+          "match": 1.0,
+          "pixels": "9d46aa63e421f7e6e334b9f8d1f4bcf384cef0fd73b1a6dd3bcba1f38f1ac3ea",
+          "descriptorAnchor": [
+            53,
+            65
+          ]
+        },
+        {
+          "sample": 1,
+          "pose": "0x11145e",
+          "size": [
+            128,
+            80
+          ],
+          "match": 1.0,
+          "pixels": "c13eb67200baf8bf3b110d1a40f075669fd2d883111ca94847edcc95da53312e",
+          "descriptorAnchor": [
+            5,
+            49
+          ]
+        },
+        {
+          "sample": 2,
+          "pose": "0x11145e",
+          "size": [
+            128,
+            80
+          ],
+          "match": 1.0,
+          "pixels": "c13eb67200baf8bf3b110d1a40f075669fd2d883111ca94847edcc95da53312e",
+          "descriptorAnchor": [
+            5,
+            49
+          ]
+        },
+        {
+          "sample": 3,
+          "pose": "0x11145e",
+          "size": [
+            128,
+            80
+          ],
+          "match": 1.0,
+          "pixels": "c13eb67200baf8bf3b110d1a40f075669fd2d883111ca94847edcc95da53312e",
+          "descriptorAnchor": [
+            5,
+            49
+          ]
+        },
+        {
+          "sample": 4,
+          "pose": "0x11145e",
+          "size": [
+            128,
+            80
+          ],
+          "match": 1.0,
+          "pixels": "c13eb67200baf8bf3b110d1a40f075669fd2d883111ca94847edcc95da53312e",
+          "descriptorAnchor": [
+            5,
+            49
+          ],
+          "calibratedAnchor": [
+            35,
+            81
+          ]
+        }
+      ]
+    },
+    {
+      "case": "previous",
+      "requestedPointer": "0x111446",
+      "timerFixture": 1,
+      "frames": [
+        {
+          "sample": 0,
+          "pose": "0x11145e",
+          "size": [
+            64,
+            96
+          ],
+          "match": 1.0,
+          "pixels": "9d46aa63e421f7e6e334b9f8d1f4bcf384cef0fd73b1a6dd3bcba1f38f1ac3ea",
+          "descriptorAnchor": [
+            53,
+            65
+          ]
+        },
+        {
+          "sample": 1,
+          "pose": "0x11145e",
+          "size": [
+            128,
+            80
+          ],
+          "match": 1.0,
+          "pixels": "c13eb67200baf8bf3b110d1a40f075669fd2d883111ca94847edcc95da53312e",
+          "descriptorAnchor": [
+            5,
+            49
+          ]
+        },
+        {
+          "sample": 2,
+          "pose": "0x11145e",
+          "size": [
+            128,
+            80
+          ],
+          "match": 1.0,
+          "pixels": "c13eb67200baf8bf3b110d1a40f075669fd2d883111ca94847edcc95da53312e",
+          "descriptorAnchor": [
+            5,
+            49
+          ]
+        },
+        {
+          "sample": 3,
+          "pose": "0x11145e",
+          "size": [
+            128,
+            80
+          ],
+          "match": 1.0,
+          "pixels": "c13eb67200baf8bf3b110d1a40f075669fd2d883111ca94847edcc95da53312e",
+          "descriptorAnchor": [
+            5,
+            49
+          ]
+        },
+        {
+          "sample": 4,
+          "pose": "0x11145e",
+          "size": [
+            128,
+            80
+          ],
+          "match": 1.0,
+          "pixels": "c13eb67200baf8bf3b110d1a40f075669fd2d883111ca94847edcc95da53312e",
+          "descriptorAnchor": [
+            5,
+            49
+          ],
+          "calibratedAnchor": [
+            35,
+            81
+          ]
+        }
+      ]
+    },
+    {
+      "case": "air",
+      "requestedPointer": "0x111ade",
+      "timerFixture": 1,
+      "frames": [
+        {
+          "sample": 0,
+          "pose": "0x111af6",
+          "size": [
+            64,
+            96
+          ],
+          "match": 1.0,
+          "pixels": "9d46aa63e421f7e6e334b9f8d1f4bcf384cef0fd73b1a6dd3bcba1f38f1ac3ea",
+          "descriptorAnchor": [
+            40,
+            93
+          ]
+        },
+        {
+          "sample": 1,
+          "pose": "0x111af6",
+          "size": [
+            64,
+            112
+          ],
+          "match": 1.0,
+          "pixels": "d91814e3177f144ef28853d19524b1ce48b2dcaffad8d5588824181b2a1b3d14",
+          "descriptorAnchor": [
+            -8,
+            61
+          ]
+        },
+        {
+          "sample": 2,
+          "pose": "0x111af6",
+          "size": [
+            64,
+            112
+          ],
+          "match": 1.0,
+          "pixels": "d91814e3177f144ef28853d19524b1ce48b2dcaffad8d5588824181b2a1b3d14",
+          "descriptorAnchor": [
+            -8,
+            61
+          ]
+        },
+        {
+          "sample": 3,
+          "pose": "0x111af6",
+          "size": [
+            64,
+            112
+          ],
+          "match": 1.0,
+          "pixels": "d91814e3177f144ef28853d19524b1ce48b2dcaffad8d5588824181b2a1b3d14",
+          "descriptorAnchor": [
+            -8,
+            61
+          ]
+        },
+        {
+          "sample": 4,
+          "pose": "0x111af6",
+          "size": [
+            64,
+            112
+          ],
+          "match": 1.0,
+          "pixels": "d91814e3177f144ef28853d19524b1ce48b2dcaffad8d5588824181b2a1b3d14",
+          "descriptorAnchor": [
+            -8,
+            61
+          ],
+          "calibratedAnchor": [
+            31,
+            115
+          ]
+        }
+      ]
+    }
+  ]
+}

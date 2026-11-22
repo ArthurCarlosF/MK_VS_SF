@@ -1,0 +1,438 @@
+{
+  "romSha256": "27827b4fc48eb8e2fd2f7291ca9ef84455a54c35776d48bddb9f28152a5053da",
+  "characters": {
+    "scorpion": {
+      "slot": 18,
+      "roots": {
+        "elbow": "0xff9f38a0",
+        "knee": "0xff9f3a60"
+      },
+      "records": {
+        "0xff9f38a0": {
+          "address": "0xff9f38a0",
+          "button": "punch2",
+          "attack": 4099,
+          "speed": 2,
+          "retract": 4098,
+          "requirement": 0,
+          "reaction": 1,
+          "window": 9,
+          "next": 4288624912,
+          "lastOption": true
+        },
+        "0xff9f3910": {
+          "address": "0xff9f3910",
+          "button": "kick",
+          "attack": 4353,
+          "speed": 1,
+          "retract": 4098,
+          "requirement": 0,
+          "reaction": 1,
+          "window": 9,
+          "next": 4288625136,
+          "lastOption": false
+        },
+        "0xff9f39f0": {
+          "address": "0xff9f39f0",
+          "button": "kick",
+          "attack": 5377,
+          "speed": 2,
+          "retract": 4354,
+          "requirement": 1,
+          "reaction": 18,
+          "window": 9,
+          "next": 16,
+          "lastOption": true
+        },
+        "0xff9f3980": {
+          "address": "0xff9f3980",
+          "button": "punch",
+          "attack": 4100,
+          "speed": 2,
+          "retract": 4098,
+          "requirement": 6,
+          "reaction": 2,
+          "window": 9,
+          "next": 16,
+          "lastOption": true
+        },
+        "0xff9f3a60": {
+          "address": "0xff9f3a60",
+          "button": "kick",
+          "attack": 4867,
+          "speed": 3,
+          "retract": 4866,
+          "requirement": 0,
+          "reaction": 1,
+          "window": 9,
+          "next": 4288625360,
+          "lastOption": true
+        },
+        "0xff9f3ad0": {
+          "address": "0xff9f3ad0",
+          "button": "kick2",
+          "attack": 4868,
+          "speed": 2,
+          "retract": 4866,
+          "requirement": 0,
+          "reaction": 1,
+          "window": 9,
+          "next": 4288625472,
+          "lastOption": true
+        },
+        "0xff9f3b40": {
+          "address": "0xff9f3b40",
+          "button": "kick2",
+          "attack": 4869,
+          "speed": 2,
+          "retract": 4866,
+          "requirement": 0,
+          "reaction": 2,
+          "window": 9,
+          "next": 16,
+          "lastOption": true
+        }
+      },
+      "newMoves": [
+        "nativeCombo_ff9f38a0",
+        "nativeCombo_ff9f3910",
+        "nativeCombo_ff9f39f0",
+        "nativeCombo_ff9f3980",
+        "nativeCombo_ff9f3a60",
+        "nativeCombo_ff9f3ad0",
+        "nativeCombo_ff9f3b40"
+      ],
+      "assets": 26
+    },
+    "mk-21": {
+      "slot": 21,
+      "roots": {
+        "elbow": "0xff9f33d0",
+        "knee": "0xff9f3590"
+      },
+      "records": {
+        "0xff9f33d0": {
+          "address": "0xff9f33d0",
+          "button": "punch2",
+          "attack": 33539,
+          "speed": 2,
+          "retract": 32770,
+          "requirement": 0,
+          "reaction": 1,
+          "window": 9,
+          "next": 4288623680,
+          "lastOption": true
+        },
+        "0xff9f3440": {
+          "address": "0xff9f3440",
+          "button": "punch",
+          "attack": 32772,
+          "speed": 2,
+          "retract": 32770,
+          "requirement": 4,
+          "reaction": 1,
+          "window": 9,
+          "next": 4288623904,
+          "lastOption": false
+        },
+        "0xff9f3520": {
+          "address": "0xff9f3520",
+          "button": "punch2",
+          "attack": 32772,
+          "speed": 2,
+          "retract": 32770,
+          "requirement": 4,
+          "reaction": 5,
+          "window": 9,
+          "next": 8,
+          "lastOption": true
+        },
+        "0xff9f34b0": {
+          "address": "0xff9f34b0",
+          "button": "kick2",
+          "attack": 5377,
+          "speed": 2,
+          "retract": 32770,
+          "requirement": 5,
+          "reaction": 1,
+          "window": 9,
+          "next": 4288624016,
+          "lastOption": true
+        },
+        "0xff9f3590": {
+          "address": "0xff9f3590",
+          "button": "kick",
+          "attack": 37377,
+          "speed": 1,
+          "retract": 5378,
+          "requirement": 1,
+          "reaction": 1,
+          "window": 9,
+          "next": 4288624128,
+          "lastOption": true
+        },
+        "0xff9f3600": {
+          "address": "0xff9f3600",
+          "button": "kick2",
+          "attack": 37377,
+          "speed": 1,
+          "retract": 5378,
+          "requirement": 3,
+          "reaction": 4,
+          "window": 9,
+          "next": 14,
+          "lastOption": true
+        }
+      },
+      "newMoves": [
+        "nativeCombo_ff9f33d0",
+        "nativeCombo_ff9f3440",
+        "nativeCombo_ff9f3520",
+        "nativeCombo_ff9f34b0",
+        "nativeCombo_ff9f3590",
+        "nativeCombo_ff9f3600",
+        "nativeRapidLP",
+        "nativeRapidHP",
+        "nativeDirectionalPunch",
+        "nativeDirectionalKick"
+      ],
+      "assets": 26
+    },
+    "mk-0": {
+      "slot": 0,
+      "roots": {
+        "elbow": "0xff9f5660",
+        "knee": "0xff9f56d0"
+      },
+      "records": {
+        "0xff9f5660": {
+          "address": "0xff9f5660",
+          "button": "punch2",
+          "attack": 4097,
+          "speed": 3,
+          "retract": 4098,
+          "requirement": 0,
+          "reaction": 1,
+          "window": 9,
+          "next": 4288632528,
+          "lastOption": true
+        },
+        "0xff9f56d0": {
+          "address": "0xff9f56d0",
+          "button": "kick",
+          "attack": 4865,
+          "speed": 3,
+          "retract": 4098,
+          "requirement": 0,
+          "reaction": 0,
+          "window": 9,
+          "next": 4288633200,
+          "lastOption": false
+        },
+        "0xff9f5970": {
+          "address": "0xff9f5970",
+          "button": "kick2",
+          "attack": 4353,
+          "speed": 2,
+          "retract": 4866,
+          "requirement": 0,
+          "reaction": 1,
+          "window": 9,
+          "next": 4288633312,
+          "lastOption": true
+        },
+        "0xff9f59e0": {
+          "address": "0xff9f59e0",
+          "button": "kick",
+          "attack": 5377,
+          "speed": 2,
+          "retract": 4866,
+          "requirement": 1,
+          "reaction": 2,
+          "window": 9,
+          "next": 16,
+          "lastOption": true
+        },
+        "0xff9f5740": {
+          "address": "0xff9f5740",
+          "button": "punch",
+          "attack": 4099,
+          "speed": 3,
+          "retract": 4098,
+          "requirement": 4,
+          "reaction": 6,
+          "window": 9,
+          "next": 4288633088,
+          "lastOption": false
+        },
+        "0xff9f5900": {
+          "address": "0xff9f5900",
+          "button": "punch2",
+          "attack": 2817,
+          "speed": 2,
+          "retract": 4100,
+          "requirement": 4,
+          "reaction": 5,
+          "window": 9,
+          "next": 16,
+          "lastOption": true
+        },
+        "0xff9f57b0": {
+          "address": "0xff9f57b0",
+          "button": "punch",
+          "attack": 2817,
+          "speed": 2,
+          "retract": 4098,
+          "requirement": 0,
+          "reaction": 5,
+          "window": 9,
+          "next": 16,
+          "lastOption": true
+        }
+      },
+      "newMoves": [
+        "nativeCombo_ff9f5660",
+        "nativeCombo_ff9f56d0",
+        "nativeCombo_ff9f5970",
+        "nativeCombo_ff9f59e0",
+        "nativeCombo_ff9f5740",
+        "nativeCombo_ff9f5900",
+        "nativeCombo_ff9f57b0",
+        "nativeRapidLP",
+        "nativeRapidHP",
+        "nativeDirectionalPunch",
+        "nativeDirectionalKick"
+      ],
+      "assets": 36
+    },
+    "mk-1": {
+      "slot": 1,
+      "roots": {
+        "elbow": "0xff9f5d60",
+        "knee": "0xff9f4b70"
+      },
+      "records": {
+        "0xff9f5d60": {
+          "address": "0xff9f5d60",
+          "button": "punch2",
+          "attack": 4099,
+          "speed": 3,
+          "retract": 4098,
+          "requirement": 0,
+          "reaction": 0,
+          "window": 9,
+          "next": 4288634320,
+          "lastOption": true
+        },
+        "0xff9f5dd0": {
+          "address": "0xff9f5dd0",
+          "button": "punch",
+          "attack": 2817,
+          "speed": 2,
+          "retract": 4098,
+          "requirement": 6,
+          "reaction": 5,
+          "window": 9,
+          "next": 16,
+          "lastOption": false
+        },
+        "0xff9f5e40": {
+          "address": "0xff9f5e40",
+          "button": "punch",
+          "attack": 4100,
+          "speed": 3,
+          "retract": 4098,
+          "requirement": 0,
+          "reaction": 1,
+          "window": 9,
+          "next": 4288634544,
+          "lastOption": true
+        },
+        "0xff9f5eb0": {
+          "address": "0xff9f5eb0",
+          "button": "punch2",
+          "attack": 4101,
+          "speed": 3,
+          "retract": 4098,
+          "requirement": 1,
+          "reaction": 2,
+          "window": 9,
+          "next": 15,
+          "lastOption": true
+        },
+        "0xff9f4b70": {
+          "address": "0xff9f4b70",
+          "button": "kick",
+          "attack": 4353,
+          "speed": 1,
+          "retract": 4866,
+          "requirement": 0,
+          "reaction": 0,
+          "window": 6,
+          "next": 4288629840,
+          "lastOption": false
+        },
+        "0xff9f4c50": {
+          "address": "0xff9f4c50",
+          "button": "kick",
+          "attack": 5377,
+          "speed": 3,
+          "retract": 4866,
+          "requirement": 1,
+          "reaction": 2,
+          "window": 9,
+          "next": 14,
+          "lastOption": false
+        },
+        "0xff9f4cc0": {
+          "address": "0xff9f4cc0",
+          "button": "punch2",
+          "attack": 4103,
+          "speed": 2,
+          "retract": 4866,
+          "requirement": 0,
+          "reaction": 1,
+          "window": 9,
+          "next": 4288634208,
+          "lastOption": true
+        },
+        "0xff9f4be0": {
+          "address": "0xff9f4be0",
+          "button": "punch2",
+          "attack": 4097,
+          "speed": 3,
+          "retract": 4098,
+          "requirement": 0,
+          "reaction": 0,
+          "window": 9,
+          "next": 4288634208,
+          "lastOption": true
+        }
+      },
+      "newMoves": [
+        "nativeCombo_ff9f5d60",
+        "nativeCombo_ff9f5dd0",
+        "nativeCombo_ff9f5e40",
+        "nativeCombo_ff9f5eb0",
+        "nativeCombo_ff9f4b70",
+        "nativeCombo_ff9f4c50",
+        "nativeCombo_ff9f4cc0",
+        "nativeCombo_ff9f4be0",
+        "nativeRoundhouse",
+        "nativeSweep",
+        "nativeRapidLP",
+        "nativeRapidHP",
+        "nativeDirectionalPunch",
+        "nativeDirectionalKick"
+      ],
+      "assets": 46
+    },
+    "shao-kahn": {
+      "newMoves": [
+        "kahnLaugh",
+        "kahnTaunt"
+      ],
+      "assets": 9
+    }
+  }
+}

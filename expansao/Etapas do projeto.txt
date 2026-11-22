@@ -1,6 +1,6 @@
-﻿MORTAL KOMBAT VS STREET FIGHTER
-ETAPAS DO PROJETO — STATUS ATUALIZADO EM 02/11/2026
-Versão de referência: sequências 7.0 | Expansão experimental: 8.7
+MORTAL KOMBAT VS STREET FIGHTER
+ETAPAS DO PROJETO — STATUS ATUALIZADO EM 03/11/2026
+Versão de referência: sequências 7.0 | Expansão experimental: 9.3
 Pasta: D:\projetos\Mortal Kombat vs Street Fighter
 Iniciar referência: Abrir arena.cmd | Expansão: Abrir expansao.cmd
 Seleção: Abrir seleção.cmd | Entrega parcial: expansao/Estado da expansao.txt
@@ -86,12 +86,13 @@ ROTEIRO GERAL DO PROJETO
     Cenário de treino e regras ainda sujeitos à calibração e apresentação final.
 
 Pendências de calibração de Ryu e Scorpion:
-[ ] Corrigir as divergências do Ryu e repetir a comparação.
+[x] Corrigir as 45 divergências de contagem de contatos do Ryu e repetir a comparação.
+    Os 1.402 casos válidos passaram. Os tempos e danos completos ainda estão em revisão.
 [ ] Validar melhor as janelas de bloqueio e recuperação de cada continuação
     dos combos do Scorpion.
 [ ] Conferir os cancelamentos em cada braço da sequência de socos;
     alguns ainda reutilizam a regra do primeiro soco.
-[ ] Ampliar os testes entre Ryu e Scorpion, nos dois lados da tela.
+[x] Ampliar os testes entre Ryu e Scorpion, nos dois lados da tela e nas duas vagas.
 
 8. ENCONTRO ENTRE AS MECÂNICAS — [~] BASE IMPLEMENTADA
 [x] Botão de bloqueio MK e defesa para trás SF.
@@ -102,22 +103,33 @@ Pendências de calibração de Ryu e Scorpion:
     fatalities, babalities, animalities, friendships e finalizações de cenário.
     Decisão do usuário: preservar o arcade, sem importar Brutalities de console.
     Personagens SF preservam o próprio repertório, sem finalizações inéditas.
-[x] Proteção por dupla durante a finalização testada no motor com dados de teste.
+[x] Duas fatalities e Babality do Scorpion contra Scorpion, com comandos e animações arcade.
+[x] Babality exige uma rodada sem Bloqueio, conforme o arcade.
+[x] Proteção por dupla validada em luta local com quatro jogadores.
+[x] Finalização sincronizada em duelo de rede, nos testes em navegador.
+[x] Áudio capturado e sincronizado nas três finalizações.
+[ ] Cobertura das demais finalizações e dos outros pares.
     Em partidas simultâneas, cada eliminação pode dar oportunidade; a dupla
     fica visível na arena e protegida, enquanto os demais seguem lutando.
-[~] Guia arcade: 128 entradas; primeira animação do Scorpion capturada.
-    Validação do encerramento e ativação no jogo ainda pendentes.
+[~] Guia arcade de 128 entradas e três finalizações do Scorpion integradas.
+    As demais entradas precisam de captura e validação de execução.
 
 9. FIDELIDADE E EXPANSÃO DO ELENCO — [~] REFERÊNCIAS EM VALIDAÇÃO
 [x] Bancada de comparação com os originais e registros reproduzíveis.
-[ ] Concluir a calibração de Ryu/Scorpion antes de ampliar o elenco.
-[~] Básicos e reações próprias integrados: E. Honda, Blanka, Guile, T. Hawk, Ken.
-    Especiais, capturas do elenco restante e fidelidade integral pendentes.
+[ ] Concluir a calibração de Ryu e Scorpion.
+[x] Básicos e reações próprias dos 17 lutadores SF integrados, incluindo Akuma.
+[ ] Especiais, agarrões e fidelidade integral do elenco SF.
 [x] Guia oficial de 101 entradas de especiais para 17 lutadores SF extraído.
+[x] Corrigir os controles de Chute alto e Chute baixo do Scorpion e comparar os combos.
+[x] Básicos dos 22 lutadores da grade UMK3 e do Smoke Humano com arte própria.
+[x] 40 lutadores testados em combate, carregamento no navegador e partidas LAN.
+[ ] Medir todas as janelas de contato, completar repertórios e avaliar
+    os personagens secretos e chefes de UMK3 fora da grade.
 [ ] Completar repertórios, variantes e calibração de todos os lutadores.
 
 10. CENÁRIOS, ÁUDIO E APRESENTAÇÃO — [~] PRIMEIRA INTEGRAÇÃO EM BANCADA
 [x] 16 cenários SF comparados com quadros nativos; escolha local e em rede.
+[x] Scorpion’s Lair integrado com arte, chamas e música nativa por rodada.
 [~] Músicas SF da coletânea e primeiros efeitos do Scorpion integrados.
 [ ] Fechar cenários MK, cobertura de efeitos, locução e ciclos completos.
 [ ] Telas versus, resultados e apresentação definitiva.
@@ -134,6 +146,8 @@ Pendências de calibração de Ryu e Scorpion:
 [ ] Validação física das lutas em vários aparelhos, manetes e condições de rede.
 [~] Destruir carro: colisões, arte, estados de dano e pontuação do arcade.
     Compatibilidade de impactos MK/SF testada na arena.
+[x] Relógio do carro comparado com 182 quadros do arcade em sequência.
+[x] Fragmentos e três efeitos do carro ligados e testados na expansão.
 [ ] Arte, cenário, áudio e regras do desafio do carro fiéis à referência.
 [ ] Equilíbrio, controles físicos e aceite de partidas com vários jogadores.
 [ ] Definir e implementar campanha, finais e demais modos aprovados.
@@ -142,8 +156,8 @@ Pendências de calibração de Ryu e Scorpion:
 [x] Testes funcionais de comandos, movimento, combate, reações e sequências.
 [x] Testes de interface e repetições independentes dos experimentos nativos.
 [x] Regressões da expansão e testes de vários jogadores/carro aprovados.
-[x] 12 grupos de rede e fluxo em três navegadores independentes aprovados.
-[ ] Resolver divergências de fidelidade, incluindo as 45 SF do passo 7.
+[x] 13 grupos de rede e fluxo em três navegadores independentes aprovados.
+[ ] Resolver as demais divergências de fidelidade e ampliar os ensaios nativos.
 [ ] Validar repertório completo, áudio, desempenho e controles físicos.
 
 13. CONFIGURAÇÕES E DADOS PRÓPRIOS — [~] PERFIL LOCAL DO PROTÓTIPO CRIADO

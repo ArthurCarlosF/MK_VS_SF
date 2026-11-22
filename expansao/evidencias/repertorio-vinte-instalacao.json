@@ -1,0 +1,3250 @@
+{
+  "status": "INSTALLED_AND_TESTED",
+  "root": "D:\\Projetos\\Mortal Kombat vs Street Fighter\\expansao",
+  "files": [
+    {
+      "file": "arena/commands.js",
+      "sha256": "9a68a380821d0746dc8709a195c9e6609f3e1cf27e842b86436f4a0597b86e0b"
+    },
+    {
+      "file": "arena/fight-engine.js",
+      "sha256": "c4532eea0c318cccbcbdf5fc4d89aee0f6cf4a97ef3f61a8a82eed35cf82e0b2"
+    },
+    {
+      "file": "arena/index.html",
+      "sha256": "59ea887d02111cccf67fa0a363c98691ed1cb17ebb52789ef258f0798d0b5391"
+    },
+    {
+      "file": "arena/repertorio-cinco.js",
+      "sha256": "17feb2c2fee1761dcb8619b7e2ab3b97496af815a1a892fba53fc32c5ba2d8f5"
+    },
+    {
+      "file": "arena/repertorio-vinte-data.js",
+      "sha256": "c59a46551281032cf4a7b7c15fe9a640319855d28bc633a16016aac4ef01c050"
+    },
+    {
+      "file": "arena/repertorio-vinte.js",
+      "sha256": "f6c316b7d727b1b1ff36f286a93cdb879b492fdb78a9a3e521a32226952b41f3"
+    },
+    {
+      "file": "rede/server.cjs",
+      "sha256": "04843ba9e5b2744bfbe6010c7009d236263855e94f52e8b4e2605189e6b1deba"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/human-smoke/repertorio-ff9385d0.png",
+      "sha256": "d4e5963191eb1cfdfa242ef1c68aa1597239a1f187a4882d035acccfc492e8d4"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/human-smoke/repertorio-ff938630.png",
+      "sha256": "f103c947fee5cafc46134c35118abdbe4835528ef118fd451027f6ab5bf7b50b"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/human-smoke/repertorio-ff938690.png",
+      "sha256": "99e59defb80aba21dd572317cf093b8fbc8149829b302e975eecc465bd5dbfec"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/human-smoke/repertorio-ff9386f0.png",
+      "sha256": "9d5297026c716243a3339fc635c607cb834f1da1218cd8bbeced7c3d87eb7763"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/human-smoke/repertorio-ff938770.png",
+      "sha256": "d45ea9cdce14771ec8de760cbc756e82657c84cddbc2629c6948132e0e54f160"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/human-smoke/repertorio-ff938e30.png",
+      "sha256": "160e3d0048462b4aca8b245a0b3407e70fb48bf432d898af90b509e65f450a40"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/human-smoke/repertorio-ff938e90.png",
+      "sha256": "61c2782069a90be937d055e49063487cce36def4659fe91a879bb57feaea18e8"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/human-smoke/repertorio-ff938ef0.png",
+      "sha256": "aa4d3973d7e6023d95fbbda4b979390cb6714cb949e2eda1dee07ebf651f75ca"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/human-smoke/repertorio-ff939430.png",
+      "sha256": "5828bb974fd71693afb72dce519775a5264f0c32c54dc074c084508a741bd752"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/human-smoke/repertorio-ff939490.png",
+      "sha256": "ff6695019c269cbba41f418cb4f557ea1c1fba5a95658a94c971aea6a59a2f5a"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/human-smoke/repertorio-ff9394f0.png",
+      "sha256": "6deb2501624091774a4d524568cd854a6e402bcc54f3fd6eda3004e76277a757"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/human-smoke/repertorio-ff93a370.png",
+      "sha256": "0aefa85b7054da446e8f1bdc141d1d08ebdd7a515d956b048ca0a3d12d4deef2"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/human-smoke/repertorio-ff93a3d0.png",
+      "sha256": "9605a12e94d10809cd2053d010c2902722038df9edfb73ad1f310a7d636b60ad"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/human-smoke/repertorio-ff93a430.png",
+      "sha256": "c613e67369235f46cea9b469c3585964ed01a166d8d6c0b3d9f2cc16971046ce"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/human-smoke/repertorio-ff93a490.png",
+      "sha256": "61f8e501ba4c528309e78006c515b69f834a53dac5d7ad027920637c9a48a3a8"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/human-smoke/repertorio-ff93a4f0.png",
+      "sha256": "814413bb6fa076e444ecd5f1ea91f95ef77833d29955b2c7be8fb083b01eb9b4"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/human-smoke/repertorio-ff93a550.png",
+      "sha256": "3651ffbb15f71d1536acdab1316f2814a3cb9db6cb4b40be5c21fab2009175bc"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/human-smoke/repertorio-ff93a5b0.png",
+      "sha256": "5a4b396a815a6b22ceae23c4e9e953a8fd0436979b0a4023afb11065b7ec3495"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/human-smoke/repertorio-ff93ae70.png",
+      "sha256": "4ee7bfc49f39094038d87d08db79459156cc75d3b245633070bf0878ed1c7f64"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/human-smoke/repertorio-ff93aed0.png",
+      "sha256": "d5165ed9c87fac68ad4d1e8d50ade1ab9f14335ff02120ff7b044ea8d4822994"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/human-smoke/repertorio-ff93af30.png",
+      "sha256": "62807b6d639b5e3417ffd8de2166cbe78736d0ff67a1f2253d991c2cf02fdbd1"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/human-smoke/repertorio-ff93af70.png",
+      "sha256": "81232043716640af20d31de0193389bc8a35fbb967d8afc560a429dbff8ddb44"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/human-smoke/repertorio-ff93afd0.png",
+      "sha256": "e2c7dbd8193640113b4fa5305b387ba02c273a305b5e8f1bd21d54294598d71f"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/human-smoke/repertorio-ff93b010.png",
+      "sha256": "b8f8c55de617463e15e7a89283badd2609e48cc439d93c2e3301505caa2ac6ad"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/human-smoke/repertorio-ff93b810.png",
+      "sha256": "d7975c95e9744efa4aa55285c7f1085aa9f2923f2b6741e7fffb7e96209ed50a"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/human-smoke/repertorio-ff93b870.png",
+      "sha256": "4233e7c3c52cc25bdf10171044552efb4dd3a3980b8f04c7eb8c05d48c6ad3da"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/human-smoke/repertorio-ff93b8b0.png",
+      "sha256": "99cd8f4125da5d4098e103d3b819c08e69b0e8d78205908c19e66da382ac727d"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/human-smoke/repertorio-ff93be10.png",
+      "sha256": "079ad4ea6e7ff63b54533ea8c8e54093c206991a2fb535ea7da454776313c52d"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/human-smoke/repertorio-ff93be70.png",
+      "sha256": "efea03b3384fdcb26b836e1e28b31aa66380d769955aa937fb28d604442ca0bb"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/human-smoke/repertorio-ff93bed0.png",
+      "sha256": "8b6d2186e4df29f8fef820477a9e778ad27cd72357bb90d65fc7c2843351cdb4"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/human-smoke/repertorio-ff93bf30.png",
+      "sha256": "fa4c4f4a9c7a7d2800b58a41669e7e9f2c8477584a00765c30ac60d79655150b"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/human-smoke/repertorio-ff93bf90.png",
+      "sha256": "f1df52a44cc0034511ccc29f87e57f222be97ac412c0ef6baab9b4cd80ff535d"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/human-smoke/repertorio-ff93c430.png",
+      "sha256": "b9c99899c7a27aa739b31e6804dfb4cd0c78c0c3c50522bfa83656152e074852"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/human-smoke/repertorio-ff93c490.png",
+      "sha256": "4fe21592346cd688e0f19feabbc1384a5677d19f8c007bf0cc2d04d284a69278"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/human-smoke/repertorio-ff93c4f0.png",
+      "sha256": "3d308f309bc9a7632fe56c3e15a535166e502bb6d6742b1457109f684dc8d055"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/human-smoke/repertorio-ff93c530.png",
+      "sha256": "d43614e11840473f3021ba20497e953ec5025f48c977728e19e0f9f9fc6eb881"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/human-smoke/repertorio-ff93c590.png",
+      "sha256": "0668473e1e031ed00d7e75ccbebdea049e80a23e532eed9f79cc944121c9ab39"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/human-smoke/repertorio-ff93cfd0.png",
+      "sha256": "1df0fa2fc94422d1b78cae972188ce5398d15ba6d7e6734f0928ea2199782303"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/human-smoke/repertorio-ff93d010.png",
+      "sha256": "9a9b9a41be2a3e411fcd7b525025b912297f687a0a36ecef480edc4aece16acd"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/human-smoke/repertorio-ff93d050.png",
+      "sha256": "d0b971a0fd59cdf797e97d3413e54201ddb1cc432b6ce680c4c59b278f3e27f5"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/human-smoke/repertorio-ff93d170.png",
+      "sha256": "9705c9945d0619e06431f0f7eb83d4e4c32a0792dbd87ead3e424adcfc3176ba"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/human-smoke/repertorio-ff93d1b0.png",
+      "sha256": "cc60c63bf91b4650ee80794601003d2fd58e2651c34b70887a0f2930ded47d66"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/human-smoke/repertorio-ff93d210.png",
+      "sha256": "d12eda699973deb44111bd951257fb680a1af4c3debaf2266f501ea78b87f051"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-10/repertorio-ff8c81a0.png",
+      "sha256": "3221c19b18700b3d6148bc1f4010a03f547845c9ecfc57a7fcafae2890d0f011"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-10/repertorio-ff8c8200.png",
+      "sha256": "4a9c997794a55eae1b8e86ee7c510589614f35d43596415bd7fe657895d47e7a"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-10/repertorio-ff8c8260.png",
+      "sha256": "48ce0e68b22aa075604b7cc7c7342b7e3bef1b1cd398e940c692b4d2c89b18cc"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-10/repertorio-ff8c82c0.png",
+      "sha256": "ed85e56444491cb7b3845a6972fdfb4ec447d247ecf693daad39974f4af7a948"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-10/repertorio-ff8c8380.png",
+      "sha256": "10117ecfa0a5307d499983beddc59ced403acb31ff084e798f67ac156a5bb4e1"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-10/repertorio-ff8c8be0.png",
+      "sha256": "e642237a0dbc62d380709d694114b6d77be041f387ae9b7b13b60438ab0b0e38"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-10/repertorio-ff8c8c40.png",
+      "sha256": "f4309c679ba6fdbf69d203fcc87c1261051183cd85500b3416f5983cb374b8f1"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-10/repertorio-ff8c8ca0.png",
+      "sha256": "1c99ae158729b385f3b8097e77de6bb51aaa6b5dc513d6855bbb93dfd17fb5f4"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-10/repertorio-ff8c91e0.png",
+      "sha256": "bd81d76be76688188d720a8b39dbcdbf4f600a5d1c36341705b49a229bfe8424"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-10/repertorio-ff8c9240.png",
+      "sha256": "cfa4237dc1c436d8f51eb0b8af9d831497ae1ace9fa6b0298f184b39ea222312"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-10/repertorio-ff8c92a0.png",
+      "sha256": "c5ba81e8a4bca017d9d347cbe105c54606c318709664a7147756758e505f750b"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-10/repertorio-ff8c96c0.png",
+      "sha256": "c29e0bcb92b3a93cc8dd5360aa89d2aedb22dc5d35f155f1c885d56664a6abfd"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-10/repertorio-ff8c9720.png",
+      "sha256": "ec79abdf7cdd331b81b896977cc7e16c05379c488b2018362aedd1bb45237b30"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-10/repertorio-ff8c9780.png",
+      "sha256": "437da83282b02baa18db83ba68e2ef6fac9527d2b95359012f068b80952253d4"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-10/repertorio-ff8c97e0.png",
+      "sha256": "f1e272e384ce5db86f5c7ba31b983b8a2a3dbd1bde16d02baea09b1a11bf5554"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-10/repertorio-ff8c9860.png",
+      "sha256": "6d5088058f26a5301ae63b4b1355f6a77468b063c9c1642d87546fda76e3314b"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-10/repertorio-ff8c98e0.png",
+      "sha256": "18bd0f3fdfbb832b481f5283b99f2b51720f9311080c39007c9d2c4e5dc5f34d"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-10/repertorio-ff8c9960.png",
+      "sha256": "2479dc891dc0d96f5ff875e0e28f8cfe0a1bc6a5c5c2cdcc15084b3a4f23c469"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-10/repertorio-ff8c99e0.png",
+      "sha256": "be5d602ed35bbdad99b84426afd19e904a1d9e9dd0a810aa5e090830cdd6d3ec"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-10/repertorio-ff8c9a60.png",
+      "sha256": "abeaf6b3d67e5aed4f327a865a048fbcb0a9b2b0329e5fafcff9487c3b3b8eac"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-10/repertorio-ff8c9ae0.png",
+      "sha256": "ee94568027f123d324cddcbc97ad6a98bc346a215e2d89acbe035fed73b55da7"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-10/repertorio-ff8c9b40.png",
+      "sha256": "85990c0cf8b863576698fe34e31abe27904ec3f3258f4969c4b81088372f34d5"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-10/repertorio-ff8c9be0.png",
+      "sha256": "d2c7d353b37f3b7e65e8479d7c1ca31a57566895a069a203e99ab43aea3f9f6c"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-10/repertorio-ff8c9c60.png",
+      "sha256": "f29390ff5e123da293774811cb0815db942adab51199c90d7764fca30209ce7e"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-10/repertorio-ff8c9ce0.png",
+      "sha256": "5f48a821bdaeea2d6c6758d2670ba66c44ec5b800129ae7b271bf22095472b0f"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-10/repertorio-ff8c9d60.png",
+      "sha256": "8a2729732513e09aa4cc68e89260607c164a369b876ec1a009134db6fbc2f2f1"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-10/repertorio-ff8c9de0.png",
+      "sha256": "c87c4e1740acc6e232ee0c504f21ec77c49e4555ae75b10bf0945da35c658750"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-10/repertorio-ff8c9ea0.png",
+      "sha256": "a3b3cb5cec49991b34fa84e29b35472fbca85cbe818fc55b5c8e2853bfb2fdc8"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-10/repertorio-ff8ca240.png",
+      "sha256": "1d3109447c37cab490944e8077754c485b348ad697eaa4afdb238e2ca2d4f66a"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-10/repertorio-ff8ca2a0.png",
+      "sha256": "0814ab6a99798e3258f1425eee67f45789b009e4f03d3b559f72aca9cfcd6d18"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-10/repertorio-ff8ca2e0.png",
+      "sha256": "f09cd87a690f3aeea008e2b918b03cfe9062d640e6d83d5c7edd4c17315bb0bf"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-10/repertorio-ff8ca5e0.png",
+      "sha256": "b4c6cc30e80b569f764caf7dd562f50e5aa00a77bb68721335616a56fcb17a63"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-10/repertorio-ff8ca640.png",
+      "sha256": "afc8193b8e7550dc7d5ebd8db80cc615b11710a82f19cbaba0f5a88610687f8f"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-10/repertorio-ff8ca680.png",
+      "sha256": "c8ebe2aeaba02880b6ecc13954e254327b6f2680cab6c3c3db0febdc748097e0"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-10/repertorio-ff8caa40.png",
+      "sha256": "3be1890a9d3f84c022e7b3e6f31beb33f56b33a70ffb3f3134e3c201eb645848"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-10/repertorio-ff8caa80.png",
+      "sha256": "6805b01e10260f488df5260c64df0694b10f810a1ca0e3774baf396d9f683599"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-10/repertorio-ff8caac0.png",
+      "sha256": "ade31c7323a7564dd77f6c82341f51f89435b09fd1c76559101bfd4abdb791be"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-10/repertorio-ff8cab00.png",
+      "sha256": "b76d06e17331d2e63b5334b60a1cc786b78ddfc55067f5512ea0af3e5d94e52e"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-10/repertorio-ff8cb140.png",
+      "sha256": "3ed9413bdea8d7929acade18fce043a7b504088892feff27dca25915c071fd1f"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-10/repertorio-ff8cb1a0.png",
+      "sha256": "330b396e3468373021cb239b2fc295435256d5819a6e85b47f30630457d2c7e5"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-10/repertorio-ff8cb1e0.png",
+      "sha256": "081fb917d44baa21a05921027cf409cbeb2dcba0f7462f6e311de915319b5fe7"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-10/repertorio-ff8cb240.png",
+      "sha256": "e560677b574d321449564b8a68f3e287590d9b19e8266ecdbea62613b16eb62e"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-10/repertorio-ff8cb2a0.png",
+      "sha256": "3839558f81d0f93c9ef2e86c9fdf439f603bcbf20ce8a4363f249b8254e8f448"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-10/repertorio-ff8cb840.png",
+      "sha256": "a2fbdf99a14eadd8cf672c0a9c3daae37b8eb0111422166ca118b14e5ede978d"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-10/repertorio-ff8cb8a0.png",
+      "sha256": "6aafc6251bbd4e55f18df7f3ded348aa5926b3e5821e812a67850f4c9746e4cf"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-10/repertorio-ff8cb900.png",
+      "sha256": "ff8e69478a3e1b35a9f0a63eb9bc49ea57bb013c18200ec155171567f75a0e8a"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-10/repertorio-ff8cba20.png",
+      "sha256": "69ecce4a29f6d60239d5a12a400d1e19c752fbc0743903ef373a3b2b96a8f325"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-10/repertorio-ff8cba80.png",
+      "sha256": "af361d5606c47bb2c26be48d3ba3336d84511a1a758b55f6c743448251a9a7d6"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-10/repertorio-ff8cbb00.png",
+      "sha256": "83ab0f2463fc8ee8b72017820e374448501e9e9ba54660ecec6c704a2786f82e"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-10/repertorio-ff8cc0c0.png",
+      "sha256": "7debb5215434e3b335272f27abf12b51de6e3690874fee97bce74b3e915f74f7"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-10/repertorio-ff8cc120.png",
+      "sha256": "bde7b1bdd96c635b3a0c821ce9ae61f6cad5fd32d18734d060c793ed7b99c661"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-11/repertorio-ff8dc990.png",
+      "sha256": "b60eed02a4fc69fd08c030f600aa06abe6a3c3fd20ea981239d023041641c72a"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-11/repertorio-ff8dc9f0.png",
+      "sha256": "add166fdec64189d90f5e31d33fa85e9e99d9ab1fed944f4a1056f0894e3fb49"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-11/repertorio-ff8dca50.png",
+      "sha256": "9041fef1eb049b33d4dc4e90deca8391272a4c683b89ce54b250a2ee05ad9862"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-11/repertorio-ff8dd030.png",
+      "sha256": "236f261617d1552565c2817f0ac8794784f6fdb5e579c46d84178f58e046de7b"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-11/repertorio-ff8dd090.png",
+      "sha256": "7751685e0b340f95d960d612bf438700c0b666f16a791d669d896b2eb17a8c00"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-11/repertorio-ff8dd0f0.png",
+      "sha256": "3a4ac6e19bb213e8925f863ea81c78ac0a933261acbebf6526a33882f9b2f9d1"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-11/repertorio-ff8dd150.png",
+      "sha256": "815e5e56df99826cf083fcad0db9eba8e08a67363695eaec985c4503b0b32e0a"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-11/repertorio-ff8dd1b0.png",
+      "sha256": "27c70e3d149e3f1f511fc5a6242c0d452c491aef318f19f3a3c7429be962a251"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-11/repertorio-ff8dd210.png",
+      "sha256": "5fd5145d8d55703e30d3c3d891346b0bb2cc03877dd2dd9d0c0cd9dcd6a3cf18"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-11/repertorio-ff8dd270.png",
+      "sha256": "e0569f6db1fee084a56c77b059f07bed89dcd53d47bc7bcae7e6fc5e19bf5381"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-11/repertorio-ff8dd2d0.png",
+      "sha256": "eb49d22cfdd705d76c938b2506f985354273a6526235661379a876a76ee2728f"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-11/repertorio-ff8dd9d0.png",
+      "sha256": "83d392aaf271f24a305af0aad0a3074544b0b3c628dbd924786a887b140eece1"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-11/repertorio-ff8dda30.png",
+      "sha256": "edc1ae18683e567a8edb2b7060a1cb40f9ca1774f27ced51e3a267141a4012e2"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-11/repertorio-ff8dda90.png",
+      "sha256": "468d44bbe062301f3b0dedd3d9fce5202ed13d2d7a1a69709deced650429453e"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-11/repertorio-ff8de510.png",
+      "sha256": "75e1ec93601844bca5a481f98118db05fa47a25d103a8c7d8e53dfa98899f86c"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-11/repertorio-ff8de570.png",
+      "sha256": "aaafe2e9f64f21d40c5689e0fd70213826c22c94d1e1a62c98082b8d81ff32df"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-11/repertorio-ff8de5b0.png",
+      "sha256": "c8aecbc14d6956345eaa01bd206f5eace8a4eb792a24b8a60a59a65757fe7d21"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-11/repertorio-ff8de610.png",
+      "sha256": "8c6d85bfe85e93cabfc9e99fae64e28243b84a5bbe4499b228fe8548ced21d0a"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-11/repertorio-ff8de670.png",
+      "sha256": "b63a28e11530f1f518ee93c520f8af0d2203f2cf2fd65b1cd2f37c1c9028ace0"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-11/repertorio-ff8dec50.png",
+      "sha256": "24d27ca4d90cdc6750925dc42e623aad9c18126676a2c611a3e69122461955ed"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-11/repertorio-ff8decb0.png",
+      "sha256": "9d51927393de921469607fa85531d76640f96ce6a0d81c76bb78f972ca48673b"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-11/repertorio-ff8ded10.png",
+      "sha256": "74ec91535d4d1abd6a8f0d2e2ac20cdff6f2d49d1609c29e76c53b5efab0a819"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-11/repertorio-ff8ded50.png",
+      "sha256": "f5d78d1f95f6154faf45daae7087c757660af233ce513a37f5964037162c5986"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-11/repertorio-ff8ded90.png",
+      "sha256": "c5080f27399342081c652b82424423ede4004148f2dd04fd9970b7b275aec01e"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-11/repertorio-ff8df7d0.png",
+      "sha256": "0d02489a59e4f4a8fc3e473c2a52713449d586627cf8d86fc42ac72ddee88f1f"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-11/repertorio-ff8df830.png",
+      "sha256": "5d3b5c8fd7dabb7d83bed6817c8454a049a0c4e8f6f02158453244b2bebba7d4"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-11/repertorio-ff8df890.png",
+      "sha256": "6159ed5518ac9cd7f6a9464af3e53efe79b06387043f904d634abc22d75d13a1"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-11/repertorio-ff8df9b0.png",
+      "sha256": "02091cbd4f6e899e6c54b016b98878b6bd973c35a8a2465f8fb7e3ed8c68648e"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-11/repertorio-ff8df9f0.png",
+      "sha256": "01c5ed21db60af362a99a650aab9eb6afd4512503abb42a88ff45d90cfa55f03"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-11/repertorio-ff8dfa30.png",
+      "sha256": "3e1b21b68f3be5f47172ce683105da3a2936dc52bd293bc36b4799a6d7e40e3a"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-12/repertorio-ff8ebcf0.png",
+      "sha256": "a44c43f4d09030d8dea6f3c526929028522aa441a78bcfe9fa66e107ba096ae3"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-12/repertorio-ff8ebd50.png",
+      "sha256": "4f9abdcdd90266782f5e755421f048ebb9fef526d897290c03ede57986bee2da"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-12/repertorio-ff8ebdb0.png",
+      "sha256": "13e3dce80f1bd383d704ecfb435af2761fd601e4655f479a257c473d5113f77e"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-12/repertorio-ff8ebf90.png",
+      "sha256": "089b44ea64e81e4e4c6092323607618493a0f6bf07cb9f3ff27b8cf6382b9d95"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-12/repertorio-ff8ebff0.png",
+      "sha256": "f717bc9ead73576f1537411a51d002e483dc8feb9639bfd317dd6239e6bf01c4"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-12/repertorio-ff8ec050.png",
+      "sha256": "d4def1ba8c738e774a849d4424734ac51c6c42db0e5271f9354114373acf61b6"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-12/repertorio-ff8ec470.png",
+      "sha256": "f7ad4333fd181a19ec254a12677eb40522c59c413287fc101016a112189dffff"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-12/repertorio-ff8ec4d0.png",
+      "sha256": "f9a5c07dde7e9fbed45f2d72ad609850f3de5f8c9554d803aae4834ca1155638"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-12/repertorio-ff8ec530.png",
+      "sha256": "4cdc2c5ad3b2ba4845ad83551c7f0d3a87e56dd07fd5c28187c08d967430eff7"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-12/repertorio-ff8ec590.png",
+      "sha256": "f81040d06e4b1b01dca6fa6f0307f6a70e5e3752181e1040e47c7175829b6489"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-12/repertorio-ff8ec5f0.png",
+      "sha256": "83c833b838856a7688cf8d446e98c9b5a6951525569d91a4e5d16707b4b13742"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-12/repertorio-ff8ec650.png",
+      "sha256": "e02f4f2ba3951d65e8394538c2a94669034ede2a8a4612d9f8fc49d1edd39f8b"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-12/repertorio-ff8ec6b0.png",
+      "sha256": "c85061a7a77a4bec6a181e64beb2bb6d6a595090943bc3f8e58cc01a2317bfee"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-12/repertorio-ff8ec710.png",
+      "sha256": "7f934ea7aebec6e66ba544503412d2093ff4a71749fa2b8f20e725176f0c472f"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-12/repertorio-ff8ec770.png",
+      "sha256": "f4d6854034114e26f93196629664144cce0ce0238440a914ce41fa1fc5bcd5be"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-12/repertorio-ff8ec7d0.png",
+      "sha256": "6856a3f344557887326009b4cdcb8f403b31fe40110ff656d74df98c35a91a21"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-12/repertorio-ff8ec830.png",
+      "sha256": "58db4334118351d8fc1bc9ff2d93c2c1cb52107c73328f0e86613875a2a383f9"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-12/repertorio-ff8ec890.png",
+      "sha256": "e4fd0d1b1071efabc2a665ec2d591b51d1ed6c250241a40f4ceae65ad558249e"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-12/repertorio-ff8ecc30.png",
+      "sha256": "51294001ed90b389b92a5d86dd4b49204fa51d000f786336dd4b042bfc4b5054"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-12/repertorio-ff8ecc90.png",
+      "sha256": "1aba505e7323bf6203f29289f1e3a48a7aec77bf7a20418a560209d9669706ba"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-12/repertorio-ff8eccf0.png",
+      "sha256": "365397c14138da06d89482dd1d5a00c56d8b240b755e4eeaeba4dcb1e5a9875f"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-12/repertorio-ff8ece30.png",
+      "sha256": "71655613869d5696f847ece848df9556cd5dc22760d16fa68de4a7ea300aa11b"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-12/repertorio-ff8ece70.png",
+      "sha256": "e56785a7884ea8ba9150706567249a0e1d863fa8d65677b349a042769984ce19"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-12/repertorio-ff8eceb0.png",
+      "sha256": "3b8895bfab347468848f92472ab1100ab5f818860cf92f75722c989b3e8c933e"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-12/repertorio-ff8ed870.png",
+      "sha256": "8c7da2b32d2fb4f637b3afc7eba260476ae05e593953d522f5c91b89c6f37b9a"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-12/repertorio-ff8ed8d0.png",
+      "sha256": "85bb5be3d628efbfc204fd2e3783570b2aed12ca379f9f1a4845ab4b1f3fe573"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-12/repertorio-ff8ed930.png",
+      "sha256": "bcfecba9bf2b797c8b6c1dff2f524ff588ff878b7b93809e3c722e910e217581"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-12/repertorio-ff8ed970.png",
+      "sha256": "cd49412671d46ea73283ef8f8505ce9be97a03f468a46a5db271c1bedc0c6aca"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-12/repertorio-ff8ed9b0.png",
+      "sha256": "aa21cafff0b8fc4e597e97a6c968f0bb9203aaf2e4882afdd102463bb646062f"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-12/repertorio-ff8ee3f0.png",
+      "sha256": "1fda1b76a423718d4365498f9fb9bebe48cf88ed0dafca923a7bf5ab945c2d65"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-12/repertorio-ff8ee430.png",
+      "sha256": "70882526d18d2eb0287e112cbfee0b20a126cfa7d75c9b523a2a68732f16f9ab"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-12/repertorio-ff8ee490.png",
+      "sha256": "e00a1cc2b35c5e20d545dc3d51dccb0b94d774b26b6c5468963bff779caa5fb4"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-12/repertorio-ff8ee5b0.png",
+      "sha256": "d065f4c590fadaa7a64f1d420dff47445aae4abe564fb6e972541e4903955796"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-12/repertorio-ff8ee610.png",
+      "sha256": "0f44e59133fdbfb7b07bbb2cfe72a1a8478249e118bc8658037ec16311133cb9"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-12/repertorio-ff8ee670.png",
+      "sha256": "3f1853b5cf9d6c9fd45b20fe71b62ac714b9618da115d7b62f6ae59da63da196"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-13/repertorio-ff8fbfd0.png",
+      "sha256": "f632ef81f414939f7b5ca44af20d420cf39be84a41d16cd157808b336c2aeded"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-13/repertorio-ff8fc030.png",
+      "sha256": "cd047661d6834ac969c3cbce83e83b6e5ed4a6f771509dfcd442e98715e5609a"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-13/repertorio-ff8fc090.png",
+      "sha256": "c2b7ae5be5144530866d8a116ae280ce1ac131ea8a4fbc581f7118f1494af056"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-13/repertorio-ff8fc0f0.png",
+      "sha256": "b04d189b2c06fe94777885434355653a988d8f588419aea26fedc8b979798037"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-13/repertorio-ff8fc1b0.png",
+      "sha256": "6d2a05527e35de3be13d0e4e3696750ecd0122ecd3bb1b4efc56c3ca1637ee54"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-13/repertorio-ff8fca10.png",
+      "sha256": "98b634016e88c10f3785a4fdd3ca4ce41dedcc9d66f5cd60a1cdcbc02be5a2c6"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-13/repertorio-ff8fca70.png",
+      "sha256": "ccbbd41b6cf31cd4d984359ed738c2f4b0673f763ce20318679dbc33539e588f"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-13/repertorio-ff8fcad0.png",
+      "sha256": "07426d334057861aac8bb46f549ddf8114100d58df9aa168b599b03184842125"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-13/repertorio-ff8fcc50.png",
+      "sha256": "e8262132dffe483ca78ef7ed3aacaa6543a2b21e382912fb8e1399502958026e"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-13/repertorio-ff8fccb0.png",
+      "sha256": "ed60ef74179206a78f2534562d66886ef297fecbcc0790f9777ecb8ec4176352"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-13/repertorio-ff8fcd10.png",
+      "sha256": "6a2e0d7886e8bcebf91bc1570e0f160ef2a1ebf8a10d1c6dd637821cf1a24052"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-13/repertorio-ff8fd3b0.png",
+      "sha256": "0a71c164dea1a3633d154c06247141a4d993352c9ee33e4ffaecd6fd73913bf6"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-13/repertorio-ff8fd410.png",
+      "sha256": "606e9149aa823b82d6e70c197d850c98f3ce9042b308eace89bacf206a7cb7b1"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-13/repertorio-ff8fd470.png",
+      "sha256": "60e33ea91dc1d17d4bb5303859e1c552b0a1d1ffd57dfd530ef73542ebdee4a9"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-13/repertorio-ff8fd4d0.png",
+      "sha256": "3adfe02364f953b758953b2d865e329ee7877ee530aa3dc67a1121565011bbc9"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-13/repertorio-ff8fd530.png",
+      "sha256": "95262521d966060a15164db600b87d85724af309f91e1660811981ed58f067e9"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-13/repertorio-ff8fde90.png",
+      "sha256": "92e93438af42a35c43aa0924e1179e010c0ff72aa9ebe6e9730a21cde1d573d9"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-13/repertorio-ff8fdef0.png",
+      "sha256": "4fc9030dfdcff24b781825bfb1da5eff00daa04296c7871c7bac90e3366dc030"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-13/repertorio-ff8fdf30.png",
+      "sha256": "f60f0923d5fb41091542ca03f0ba5ed85367e84d07c43f62a1422966234253d4"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-13/repertorio-ff8fdf70.png",
+      "sha256": "3f5aae67606632b2452e3bbd16bb726835b906bf189a2113bcf1f04b9cec956e"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-13/repertorio-ff8fdfd0.png",
+      "sha256": "07e461b1f17726f8eef605389246e11f7ec2168b0d283b725835e3fce628b324"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-13/repertorio-ff8fe030.png",
+      "sha256": "5ec6ae12233c5f65ebb7597d52f46c91941e99c437f6db0115de05ffe1ea31da"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-13/repertorio-ff8fe090.png",
+      "sha256": "eb25a30b5a71f0727709eb3fdd0003b62161e2c5c20255de5f4e1479e42d0c66"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-13/repertorio-ff8fe0f0.png",
+      "sha256": "5a582979992ff13e61e260610c05058ecf369551f8e1c596efb215ca9a8e4224"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-13/repertorio-ff8fe130.png",
+      "sha256": "e3945254f71f9b5c3560a6827d46cb19de75e02be69d16f7f01c0786300d91ed"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-13/repertorio-ff8fe170.png",
+      "sha256": "f24b63f691bb0e206fcbf0b4e4c553ddcfc10620fd6c625451b3e8737189dc5b"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-13/repertorio-ff8fe1d0.png",
+      "sha256": "e30dd46f28e9ed8e44a3fc91f82a6340d0dd534fd3c925711296a85a0e761a42"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-13/repertorio-ff8ff450.png",
+      "sha256": "eece60ee08acab50e75c566df0fa2532d16457abc45bc4b44b48a72cd8bfdbe7"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-13/repertorio-ff8ff490.png",
+      "sha256": "05dc1c791e6845808c947248cb5f473702ac81085d032c432294a400ef13357a"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-13/repertorio-ff8ff4f0.png",
+      "sha256": "86df1e6c53c29e46d74160a65e4293ae4d4db017eb20b730ce5c868697f6faa4"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-13/repertorio-ff8ff610.png",
+      "sha256": "06c220575e553b5a99222bf8fecf4419506b284a7b1dcb53e73a91e8cb6375f6"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-13/repertorio-ff8ff650.png",
+      "sha256": "981363b3b98e900c8d16240732ddd8c6382e8a308a783f6b0d60b09af9123111"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-13/repertorio-ff8ff6d0.png",
+      "sha256": "29357146ed8fdef7cc3e553387de55fd4443340f8c1dc8ac248e405c86156cde"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-13/repertorio-ff907110.png",
+      "sha256": "f71ab15621d27656486f2b6dbd1ad2d299b912f41673431420c09e238297b8dc"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-13/repertorio-ff907170.png",
+      "sha256": "7e349ef3f3574793f7de4f4e23361a031ba444ac3ebc4973b9c71c7d782cd206"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-13/repertorio-ff9071b0.png",
+      "sha256": "dd86fd4f9f89f7ef2f8a97b524589a74a29de3775837f9d27745fcaef5fb613c"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-13/repertorio-ff907210.png",
+      "sha256": "eb5ac1056db844f07203aaf7f41350db4d4e2b3c52afce5e2292ed246e210559"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-14/repertorio-ff8a3080.png",
+      "sha256": "04315486da547ef5100cf5db3ddac71cae9175130f4ca7b404e4528878bc62d7"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-14/repertorio-ff8a30e0.png",
+      "sha256": "18bdc3100776bc472dd8cf9ef9b2cb76bcbf35b79b0b9dff6e252751e1f23a57"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-14/repertorio-ff8a3140.png",
+      "sha256": "628189f68f3933aa7617394f9dd0a790473a8ea37679bbf3154b094f2b6c34e4"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-14/repertorio-ff8a36c0.png",
+      "sha256": "b7af111df627588b0e9c754d4e9368ec2dfe383059910d6384d00a606f7edf8f"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-14/repertorio-ff8a3720.png",
+      "sha256": "db17be35680dbaf03f56f96ce410404c19f2169acd1d11ccbb3241721c2de2f5"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-14/repertorio-ff8a3780.png",
+      "sha256": "ddee604d50a677f3defc91c4b326214d96106d1bf3e1f509b1a23dc2e116a440"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-14/repertorio-ff8a37e0.png",
+      "sha256": "136b05d10d9f84bd1c51da7e79d5c4c3630efa22f4e382e7761e9ccf0ec76d49"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-14/repertorio-ff8a3840.png",
+      "sha256": "0b97a4c9748573fce6fbbcca241afccf0d23e86d01d4207686f82c6739d150bd"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-14/repertorio-ff8a3880.png",
+      "sha256": "0192947747cb495b63ca9d51ff12f6788722422cf32808beaa6f27a190400b8c"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-14/repertorio-ff8a38e0.png",
+      "sha256": "44bfb0c8cee14287a78788b138fa1582982fe63c0e00521fa2796067153ea9aa"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-14/repertorio-ff8a3a60.png",
+      "sha256": "c5e2a97b23c9b329f2a03fb4181f1250e6d8cdbfa9a1fed4f0372dfecbd43ece"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-14/repertorio-ff8a3ac0.png",
+      "sha256": "d32c2b98377c5cf945a4a12a0304c18085153809c61bddc0bd26a09c764f8ced"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-14/repertorio-ff8a3b20.png",
+      "sha256": "3c49b76e3923ba08caa0154607994ca639d87d12048245f34194f150d0c129c7"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-14/repertorio-ff8a3f20.png",
+      "sha256": "b252d24a31a34f5108d5cff66c22862d19861876cd9de27905f30bfffc28dda3"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-14/repertorio-ff8a3f80.png",
+      "sha256": "0728de3be2ec48cebf5bb4d2bc3d98204e8411a22f00cf69b03e1161d369caf6"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-14/repertorio-ff8a3fe0.png",
+      "sha256": "fefca529c11cca4944f222a59b0ca14e9161dc36f75929086217fcd815b20156"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-14/repertorio-ff8a4020.png",
+      "sha256": "b83b09d539b2c74d58c83fa212a3ee109872211be0bbfd9b5c11f10d55ec2b11"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-14/repertorio-ff8a4080.png",
+      "sha256": "29b60344c72ba234af7fa0b72152867490078177206c2f711f485e80e1539906"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-14/repertorio-ff8a4340.png",
+      "sha256": "51788361c3ee2044888607543603fdea4ea34bec6b26b4b683008b66315e6e64"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-14/repertorio-ff8a43a0.png",
+      "sha256": "70d4611f726db92aefda2d598db726b16fa3fceb993c66eb36c68b0a2e9a9deb"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-14/repertorio-ff8a43e0.png",
+      "sha256": "6b192d926999d41e4a6c7c31bf8f512e2f6bbd441828e291c9e0f6cb1ce071e0"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-14/repertorio-ff8a4e40.png",
+      "sha256": "324f3168849805a0c9b99fe10c61f2aad30eb202fd93849ff2052face5605f32"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-14/repertorio-ff8a52e0.png",
+      "sha256": "8433d05a39dee8f5cff1720ec124ba237e8024a3db71de3677a4e7a18172a1f5"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-14/repertorio-ff8a5320.png",
+      "sha256": "08853d40edad696473c66d0e2f81b3fa05c654afb0232515a75d6ff6046a19b1"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-14/repertorio-ff8a5360.png",
+      "sha256": "5af3bf5348314d771715f0505f1ac9622d68fca3ecd5983cd011a95d96741862"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-14/repertorio-ff8a5480.png",
+      "sha256": "3242da30b5d4ad3c0c1aa24e0712dec18826992c286c06977bbe0dcc5c21a312"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-14/repertorio-ff8a54c0.png",
+      "sha256": "657278c08ffe4349ee0de6958fcb588c352dc28032cb44782b10a1ac1ffc7eb2"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-14/repertorio-ff8a5500.png",
+      "sha256": "3f8817f2025f1351c6ed79f9627072f9fe383f3c2b525e4d8cb56fc6eb8a7be6"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-15/repertorio-ff91c700.png",
+      "sha256": "d16035f888784acbefb78f706506252e586aaa3a10030c998b0e860daf1cf8bf"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-15/repertorio-ff91c780.png",
+      "sha256": "8eb21a7b943c7a46873f8bb8d652b3045c9b057d1c9a2d4e4c48c1d2569ea8b2"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-15/repertorio-ff91c7e0.png",
+      "sha256": "b06b27403c8bb8f313ca56736118b851446122cff753358e3c4c34344f050d0d"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-15/repertorio-ff91c9a0.png",
+      "sha256": "2f6ccf1e7b27db0249a64ac7c92aa57b81cd8f64acd25d0bfe7bdae1e91cb6cb"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-15/repertorio-ff91ca00.png",
+      "sha256": "1756fa54b87edf12908cca29ce6b3a22db76edc5706cc952354f6f09a0269cd7"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-15/repertorio-ff91ca60.png",
+      "sha256": "0899d573827f7a6937e466d669930d77a0c6722a8f39112e69d02ad770f986a9"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-15/repertorio-ff91dfe0.png",
+      "sha256": "8e68978f83d690849c3adc4de6cbcd53d36df64c19547086b2276dc63ec612c8"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-15/repertorio-ff91e040.png",
+      "sha256": "b58874f0f2e2b930e8a5d8bbb9a3d8ad2976ddbd90de8d65e94549ce69b0c2dd"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-15/repertorio-ff91e0c0.png",
+      "sha256": "a98a2b0591b9f76dabed35c1d0a81daa9e22e02f59873039a8a80ab58cf9c93d"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-15/repertorio-ff91e160.png",
+      "sha256": "87559a50a0b7ed1a2aabca7fef675f40ef80c4a0502f84ba7cd99fb9ee470903"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-15/repertorio-ff91e1e0.png",
+      "sha256": "c13c6ff0db929956dd643e2fd400d0d57dd034b979841382bdf8dd321cfc6864"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-15/repertorio-ff91e280.png",
+      "sha256": "19c2ca9cb1a727da14df1662e4087ba75ce2b0bcca5447aa25088bca22227f6d"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-15/repertorio-ff91e300.png",
+      "sha256": "4aa3e4d17da0647bfd181ea0086fa646bee00dcaa6cbf3443eda2c0badfe7769"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-15/repertorio-ff91e360.png",
+      "sha256": "b26006c50af093f482eee4451e6f5dd516081d30d87b649f71c86e0de2dafdc6"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-15/repertorio-ff91f7c0.png",
+      "sha256": "92a42883bf87b495ce63c7dcae7a22de4b910e4c516a270d0f3ccc1277cc9748"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-15/repertorio-ff91f800.png",
+      "sha256": "8c1a4ebbb5b9c82fab802bad190617671a367633c8d5e4d4ad4f1bef99a562e1"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-15/repertorio-ff91f860.png",
+      "sha256": "011f753a7e43386fe6067d9c3a4f9c55b8121acdf83aff6f62f3a0510943721b"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-15/repertorio-ff91f8c0.png",
+      "sha256": "86fc58190ab46b16021005bffd1ff94fef5916036565778eda99c9c805add863"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-15/repertorio-ff91f920.png",
+      "sha256": "c60181a154dc5aa0a589aabb99e42dbe1688cef908fcfbc900b8893d7d938325"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-15/repertorio-ff91f980.png",
+      "sha256": "c24fcc4e8bb9b02d7239053854120d9865fa852ea37425329dbddc12620813ad"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-15/repertorio-ff91f9c0.png",
+      "sha256": "0ccbc18638e913b03ef77fc36dfe075467f9fd4487ef6530ce6b78885c4d8a17"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-15/repertorio-ff91ff60.png",
+      "sha256": "263703acf84b613c49eb39f11781f07be308ac5eb6787f83426a2d7e73e9c082"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-15/repertorio-ff91ffc0.png",
+      "sha256": "d3baa84a66ac3930f78e008d02d0ae2339266c0d26c1a4a527b58d88be97ba11"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-15/repertorio-ff920020.png",
+      "sha256": "1f32485b34219753d90ad5fdd66be724078c5c428c9c0f233991c904920c2546"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-15/repertorio-ff920060.png",
+      "sha256": "a4bcd12600656e573151172df1639b9cdc7b834a0eaee467222de79fe2293a65"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-15/repertorio-ff9200c0.png",
+      "sha256": "a0a4353d70ed37eb63c3da80e3c5b32b47e38c3c2cb83bf995318615f4346108"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-15/repertorio-ff920680.png",
+      "sha256": "dc71c1745c89b522049e01073c9e77c267492e2c999a52924bc864a20ce9a9ac"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-15/repertorio-ff9206c0.png",
+      "sha256": "42279d6cdaafa2ccc819e2446c076f315157aa9c41607555cef9655967aef9a0"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-15/repertorio-ff920700.png",
+      "sha256": "1f7b9327ed21759c1c085c96a3d0c7fda1a01b3f732eb75319e1b4c2b49951c5"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-15/repertorio-ff920920.png",
+      "sha256": "7689d5059e3cf205afebe9b38fb5cdee8be6f2e2ba14b9d93fe248810449303d"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-15/repertorio-ff920960.png",
+      "sha256": "ff1b1dce1377dded71cb74b9f99c3691db1afca214637aa1e361d1f1b212c7f4"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-15/repertorio-ff9209c0.png",
+      "sha256": "9aceecbfc268cac905284cdf331ee80bf42205c974813c5964f2780c39648f77"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-15/repertorio-ff923920.png",
+      "sha256": "b7f1fb0fb14b586f3aa9ee6b13b1a898b215377f8344d1129be0a03e3e47de8c"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-15/repertorio-ff923e40.png",
+      "sha256": "4f0ca37b7f6a6391d2423ccfa3e1df07d6eb0a5acfe6b90a8c884d7c107a296a"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-15/repertorio-ff923ea0.png",
+      "sha256": "23019c34a260745308bbafd51c7bf8dfb551ba1893f92ac4c8b889a158c69b14"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-15/repertorio-ff923ee0.png",
+      "sha256": "145f3e44f83a93d40ee610751b1a4a5bff0b5c466b2eeab6988e918d2b19850b"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-16/repertorio-ff91c700.png",
+      "sha256": "43e27213d664177986059b1d00e5e2f7cd4ab13717268fd24cbaa2a0f695ba2f"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-16/repertorio-ff91c780.png",
+      "sha256": "1f7101ba78c95c7ac5fa8b5d59f695e0cfa247683ea70d1fabe8dfe0c9241b55"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-16/repertorio-ff91c7e0.png",
+      "sha256": "371aa0fba7cb2824bac21efc1d2056f707a9fd5526db78651f4a3a1843b451b1"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-16/repertorio-ff91c9a0.png",
+      "sha256": "f0ba50a550a3ed6433746bf7d635d7e19e25dbf01d6df10751476a4a8ded0558"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-16/repertorio-ff91ca00.png",
+      "sha256": "957abbab591601714984c5b1f7c73566a238b37c51bb66f08c3f56cd672535b4"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-16/repertorio-ff91ca60.png",
+      "sha256": "4600b3005aade28afa13839c3ccbed17616269e7825982da52ce57c3618682b4"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-16/repertorio-ff91e480.png",
+      "sha256": "47baa2dbcf8cc67f77d722b2f1252292f9051854ffe86a68103bf3f01079db9d"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-16/repertorio-ff91e500.png",
+      "sha256": "cd17e556c9ebaaa57185554411a064c34da116045eed7a3bcfb58d177ed0cee3"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-16/repertorio-ff91e580.png",
+      "sha256": "02b4f81f1a51fb8a1f32fdfea4b97ae62dfed854eec590e9a4fdaba62a4c08f8"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-16/repertorio-ff91e5e0.png",
+      "sha256": "fab0e2fea603981d803fbf72cc3801975e654b36df1d335ce2c13733d93a055d"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-16/repertorio-ff91e660.png",
+      "sha256": "5c92685d13c076066f49441b1de31f54c1605f802f1fb308d427b57ab7d04404"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-16/repertorio-ff91e6e0.png",
+      "sha256": "11b49aa91942bee5153d9e066292b237e89e24b0cc492b5e70c572a7f7241239"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-16/repertorio-ff91e760.png",
+      "sha256": "71c4b2c21adfd88c3bf0931d9add24a14ddd2f5223bbce88769b5959023a98c3"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-16/repertorio-ff91e7e0.png",
+      "sha256": "e0dc569fe877a8d4d41a7f9ee16a6dcbe26258dbe36ebb0ddc06e179f0500768"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-16/repertorio-ff91f720.png",
+      "sha256": "a85727742e217575a6159e9132577c2b12060bac2f20ad771bd63793c72427c2"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-16/repertorio-ff91f760.png",
+      "sha256": "e7982d338fd2f476fde36370c57de05cd58012f76be1427073a73c33bc28ef6d"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-16/repertorio-ff91f7c0.png",
+      "sha256": "37dab64af02e7502e5e7edd5c94b840ad6bd86640c4f24918180e684609b4cc6"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-16/repertorio-ff91f800.png",
+      "sha256": "a542eb7d8a6534d51c3f76b05c49fb724db9d2382b16d9b7982831b4aafa6cff"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-16/repertorio-ff91f860.png",
+      "sha256": "ded6fbf6626469cfe01285e93e2a0760a534edfc84394aa837d85ead47339ec5"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-16/repertorio-ff91f8c0.png",
+      "sha256": "b4aac287b78f5db0566a49f5cba84dba5697b8f67cd9f90c3f142679c3f52269"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-16/repertorio-ff91f920.png",
+      "sha256": "3450faa1b64d55366779c287aae60b6f583d121ea415ce12008a65c5a02d459c"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-16/repertorio-ff91f980.png",
+      "sha256": "9838d6a43c8a3a2d1bd992c953b4fb8f576f4908b8f68e1dca58f07f2e5c18e6"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-16/repertorio-ff91f9c0.png",
+      "sha256": "cfd8f8089f009ca327f1604b2e6a2c86c25c6614798beeb404454fcad0ebf81b"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-16/repertorio-ff91ff60.png",
+      "sha256": "334fb77ac50b7dd5546c0497aa3fff0570077cee5cf878791f1499b495e66d78"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-16/repertorio-ff91ffc0.png",
+      "sha256": "c64a6eb1ecf5b150d89d21b16fe695e0fac43803afc5355ac13c1976b69b3816"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-16/repertorio-ff920020.png",
+      "sha256": "3c176be02e8ae250ae1753fd92b8004c97f0ab8760589533261f1add3d6b9d82"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-16/repertorio-ff920060.png",
+      "sha256": "1506cdb66b272816e05c003afc381f992c7eb37b080ec0f656075db8f98bb55c"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-16/repertorio-ff9200c0.png",
+      "sha256": "cf244f6c0219bcbf123f605e5bf21b655fe64837cf574f589f51681f0f913426"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-16/repertorio-ff920680.png",
+      "sha256": "f0adca7bea8e1dc5fd249e2dce6782c7c53054d1118d8dd512f3ff8d7fc6030f"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-16/repertorio-ff9206c0.png",
+      "sha256": "d923bccad9255b72354848b6abdef9cef265a4d605206a2b9e6dbe6c3a20b35b"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-16/repertorio-ff920700.png",
+      "sha256": "485a986b193b4dc217941a6b111cf2369c3c5529c379e6b173ae77456c6ea0de"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-16/repertorio-ff920920.png",
+      "sha256": "47d99a7108f02f9c8596487396644ba34fe244f1ed4e2d19073cad45e1d0ddfe"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-16/repertorio-ff920960.png",
+      "sha256": "0b5d08f848d9a8624399306a30c6f96b31c6b01a7fcfe76b999bbe4274e97e1b"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-16/repertorio-ff9209c0.png",
+      "sha256": "d8f13df185ac43387a187a5e37a4b0abbc53fc5b24fee61b27e13469c7573744"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-17/repertorio-ff91c700.png",
+      "sha256": "37609740b6438d064a6cf43febb8a0b8d294a39d66901b5be8fdb2df0364dd4e"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-17/repertorio-ff91c780.png",
+      "sha256": "cf19c70b726f2f33ac3805a7426e2089d2be45ed2a74f13a789b84abde5fc724"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-17/repertorio-ff91c7e0.png",
+      "sha256": "3821ca247a209582894c270ff7538f1a89b39e99407734c455e70acb2f4eb7a0"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-17/repertorio-ff91c9a0.png",
+      "sha256": "14cc4f96016e730683e80170c8e8b92cf0bfb2036687d66225a20bff77ce444a"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-17/repertorio-ff91ca00.png",
+      "sha256": "06a33bf63190f52cef32bd8333f1b966381a16e6d8fb75e83e7e52b070a8e3e8"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-17/repertorio-ff91ca60.png",
+      "sha256": "f5d14c02e8fc4f54f27b22a5e0134b5c10faa2b713794d22873b9f53b30e8415"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-17/repertorio-ff91cfc0.png",
+      "sha256": "f9cfd647fc7f69cdc0dcccee5397577e7bcb85d422c071645e1640e983429999"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-17/repertorio-ff91d020.png",
+      "sha256": "8bbb6090c114ca199f6ffc4a7e68ec1583c9c46eeff9e746c5ea9ea9926c397f"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-17/repertorio-ff91d080.png",
+      "sha256": "e435b3079f27d02bf4023f4456b6d8b30c60f8a74cb24f8be7d17def10df181e"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-17/repertorio-ff91d100.png",
+      "sha256": "7d709413d5bf9c95330f988f934f4fbf0f2cee9adc3ccb625e71432066dd9be9"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-17/repertorio-ff91d160.png",
+      "sha256": "7b1faed55a037e1181cc362be8979685f54db40496ffb6a02553f1bb1f5c8cec"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-17/repertorio-ff91d1c0.png",
+      "sha256": "7576db62611e6185938b71c564edce389a560e672d36a309d9bcd54dae4d1b7e"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-17/repertorio-ff91d240.png",
+      "sha256": "c1521b5fb9e21e224dd58888650033932d65b949d94f67b98bebea866c38a4fe"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-17/repertorio-ff91d2a0.png",
+      "sha256": "0e8ad0238c136527b78e4394efcb1e4fcd4013e3b5f167d21d18951be088fc09"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-17/repertorio-ff91eee0.png",
+      "sha256": "a4d6ed50929aebc4a3175a69236c2641376a80ee1ee26e40c50709810990c064"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-17/repertorio-ff91ef20.png",
+      "sha256": "516287c07e452db4b495d50eec8f063cb508c4bf4f35c7ce98410d62a98bf709"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-17/repertorio-ff91ef60.png",
+      "sha256": "673e1c6e1a651538b27d05d13745109db50bc8bf23a5b7df245bfb1952e21d75"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-17/repertorio-ff91efc0.png",
+      "sha256": "672ad0e22415968d267b76a6252d88606c84f0c7be596a395b377d8cf4824c97"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-17/repertorio-ff91f080.png",
+      "sha256": "ab38fb6481f7614ef2bfdd59a71310cb8e424a36952cb892f40a3c5b8dd88329"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-17/repertorio-ff91f0e0.png",
+      "sha256": "943de3ef4c1c6fa377595b2f4b4e2aff4553a8cb30d88044dfe1890ab68640d8"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-17/repertorio-ff91f7c0.png",
+      "sha256": "72595b4d09f8e03d932aaaf3366defd41c94e29c5b0eff4757dfbcee950b1e80"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-17/repertorio-ff91f800.png",
+      "sha256": "596f31674e15824692dc789805a5c0ec928b17c0dd3d4a82a600f752f3ff3db8"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-17/repertorio-ff91f860.png",
+      "sha256": "87a08d5164b36d5ae799f88a3c379b9e65be9a4f8c9f3ccd9db134784fc8847a"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-17/repertorio-ff91f8c0.png",
+      "sha256": "2866212cad14af1152e0e1c07f8a4cf29d14c1cc38c71349e1ccbaba79d405fd"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-17/repertorio-ff91f920.png",
+      "sha256": "a1d674a8864eef59edade65c3a6f7331f4c41004a393204b1c10defb3ecc5d8c"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-17/repertorio-ff91f980.png",
+      "sha256": "0f7d03e0ce2de087eab061b7cfdf341354bb12e2dfbafe9a491839454a3d08f9"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-17/repertorio-ff91f9c0.png",
+      "sha256": "c9ceb52d952413d89cec431a3222bf4f395a01e6efb032e938e95d22e8b69b6d"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-17/repertorio-ff91ff60.png",
+      "sha256": "1e14c4d1ab4873891f7378669464e4b3a5513a254346ff2a64aa27a66429d9b2"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-17/repertorio-ff91ffc0.png",
+      "sha256": "41db2291502b44f050707b138edf7fb18d2138578729a2117a4336c9402d7e00"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-17/repertorio-ff920020.png",
+      "sha256": "589565e84bf71cb83873a16312074391a133f40e9b8eb225f7f2b30fa715707a"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-17/repertorio-ff920060.png",
+      "sha256": "2cabe2d29e36c674e111c14bb8ba8b4ba0e0a6be0c6491d7f13e0daaf4fb7c2d"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-17/repertorio-ff9200c0.png",
+      "sha256": "5ff174fbffa2140a5ed93b12b2b8d94e2ddc967ee69f307a76549d53fa6b6ae0"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-17/repertorio-ff920680.png",
+      "sha256": "e22d9038e95fc292ef1001d19f85c99d0ce93f3aa7e3efe8d8abe33a2973896e"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-17/repertorio-ff9206c0.png",
+      "sha256": "00bc8abe4a98cd09774456575cd312818f67e752bd9666752ccd1ee8678296eb"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-17/repertorio-ff920700.png",
+      "sha256": "196eb5c2f9a10ee55df1bbcfae6df0799ed4272338687a410a561f9fc9ea459f"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-17/repertorio-ff920920.png",
+      "sha256": "22e55e1be2c863a1c492872c69c12d97ce6828ccefa992d5de2d28f40b759472"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-17/repertorio-ff920960.png",
+      "sha256": "6a01991ef2f6126ed6daabf0936548cd8efa09dd96c1a51a410038bd48bcbd31"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-17/repertorio-ff9209c0.png",
+      "sha256": "55cd3f26758ccc339f5404285426c2fc82d79c386dbe4f871cde14b23d3e7966"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-17/repertorio-ff9240e0.png",
+      "sha256": "660b52b84d52f5516ad0e4a023e195f9c62d5c84d73f5b2a92015f7c13b3111b"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-17/repertorio-ff924120.png",
+      "sha256": "dea46d1be24b2b26a1203603f63222c495b144316baddcc81feea3722042426b"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-17/repertorio-ff924160.png",
+      "sha256": "071ed02cdbc7cdfbcdff2978b7f88674deb5ee0d4946e0e14fb61b85e7dae06b"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-19/repertorio-ff938e30.png",
+      "sha256": "a03bb918982080dbb0941f6431659a86b27076aabf5fbfb02e26ea08d190e118"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-19/repertorio-ff938e90.png",
+      "sha256": "5ac6a9a4d15c1e7f77bd5be0b92fb9f8b418f1a3be16363dd69102d9afb4de90"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-19/repertorio-ff938ef0.png",
+      "sha256": "fca01b637be069034feb570befe5fcd55fa6841f070e61d4170c3f3cad1ceecc"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-19/repertorio-ff939430.png",
+      "sha256": "a862a9db364ef1ea43eb283e46f9e110463453d4c6c63fd40badf682276d9acf"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-19/repertorio-ff939490.png",
+      "sha256": "1dae5a217f38066c61e58583212ff511a2ee70df3ff714f259f9059a0f74e6af"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-19/repertorio-ff9394f0.png",
+      "sha256": "428834578455455abd09dfa24eb70022dd6bbb4d5344b0d413102caabdb37110"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-19/repertorio-ff93a4f0.png",
+      "sha256": "73c6bc6ed0c4eabec2705bd239f5a03a4e2fcd839f1fce2a5978a71570810c4c"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-19/repertorio-ff93a550.png",
+      "sha256": "82b1628081e435cd1ce1c223da717c0b966603b2907b8914ec4af483d6f8122f"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-19/repertorio-ff93a5b0.png",
+      "sha256": "854247ae9192983cdf43ef6be16758a26be9bc7c144e51b91d4017b087884f8e"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-19/repertorio-ff93a770.png",
+      "sha256": "e97e4bfa6a97f55a380efa228a6f1e3cfa0495e354fc208f403b532b2abeb426"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-19/repertorio-ff93a7d0.png",
+      "sha256": "5d1ad4e8e308550efa085fe75fab685959166a1e570494f9627d8866256d4143"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-19/repertorio-ff93a830.png",
+      "sha256": "6f5d2764dd79716c90c0a24e2c4e57754507268edcf873a91e9d06670c4ad251"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-19/repertorio-ff93a890.png",
+      "sha256": "1873ced1480afc6a4deb335bc1c0ab59e481fb66c652700508ce68b143a1ae28"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-19/repertorio-ff93a8f0.png",
+      "sha256": "8ba904a98835a5a9588c6362333dbafe3fef193f5c5598aa4d368dc892fcca79"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-19/repertorio-ff93ae70.png",
+      "sha256": "1091082e59b22b77cfd5cd02963158585cbfcd49830f4f53995f51e1a325d4e8"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-19/repertorio-ff93aed0.png",
+      "sha256": "02a0bc84f7107d52832308b2b888c33d4bbc2c9980ba26e0a4176664bcf31d8c"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-19/repertorio-ff93af30.png",
+      "sha256": "e9594ce340616a436a1b3c039a81cdd7e8f28fd064f6bc9c440659c30eb1c9ed"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-19/repertorio-ff93af70.png",
+      "sha256": "25f826f0f2ac5b488eece10f1be4f349cb05f06e26b19613625f1c57da14d333"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-19/repertorio-ff93afd0.png",
+      "sha256": "f1fc28ff03602106d7751736fc9e87e998eb6c33b197e541c7e080d81f6e4551"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-19/repertorio-ff93b010.png",
+      "sha256": "f1e5cb67f8d8e3db9971337deb015018f0933bccc9666be7e3c99a35eb094a7d"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-19/repertorio-ff93c430.png",
+      "sha256": "239525058b2ae4aa525778e8f14686c42ce780baf6f55966e66a7c816714bce2"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-19/repertorio-ff93c490.png",
+      "sha256": "11085b4f9e7376dbc9eb5e977a2b789e119d3f2b94fc86e3316757017a1e44c8"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-19/repertorio-ff93c4f0.png",
+      "sha256": "6ba66a8a3f37c94f24dce83e86e8b886010137979b90a44ce0d0786433723143"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-19/repertorio-ff93c530.png",
+      "sha256": "04364b71bf7023a2bc0fdc55a1f2ffac6d5e8e056ed4a3081ddbb22cce22ed51"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-19/repertorio-ff93c590.png",
+      "sha256": "3a75f669e88a6649a3286ebbae4fa70b1c4b2f636dc413b5a5019fbcf84e895f"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-19/repertorio-ff93cfd0.png",
+      "sha256": "c78556dc192f6f0a3672c2121998180c8e5a7380fb943fb6451d84571bc7240e"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-19/repertorio-ff93d010.png",
+      "sha256": "6334cb73ea6bddba6e43ddbbce5d91abb72ae43b7ad7fa99b032cb47b996fd64"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-19/repertorio-ff93d050.png",
+      "sha256": "de23c387c10734f2b92608942f947307ad2106c15625f9d6224e77201fa98436"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-19/repertorio-ff93d170.png",
+      "sha256": "478581cac7a728ffc4f9ef5cfd3b6d7325ebd52c2bf9632488316f25aaf500e4"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-19/repertorio-ff93d1b0.png",
+      "sha256": "78cb5468353bc3d0464d3dc9f464dcca3747297d3ac17a43be30e5e19e90105f"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-19/repertorio-ff93d210.png",
+      "sha256": "4c8d8ac409ec57afd21a4855c13de78ff8a8382f5a58d3884e2d137dfc4dcab5"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-2/repertorio-ff8498d0.png",
+      "sha256": "7cf68a8ad1dd65d3bfdc2229f301b917e89775b489c7394acc63292e9cc4c1b7"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-2/repertorio-ff849950.png",
+      "sha256": "d4d8228ebe674464cc657d7e171e01fc55debaf17ee0364b682c43e5b8aef842"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-2/repertorio-ff8499b0.png",
+      "sha256": "5f484683c894fd1b9aa99f43eb92f3376a296e7d1d27740f638439c1c63c7fbd"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-2/repertorio-ff849a10.png",
+      "sha256": "017792403505e7821f6c72824668ca36e9fed858391eb088e16b712b5ef592d7"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-2/repertorio-ff849a70.png",
+      "sha256": "aaf2c7daf5d440b61592ef5cadec909edfea2061b7df5eb5c10006a61cc8744e"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-2/repertorio-ff849ad0.png",
+      "sha256": "77b96a54cf356c9f10bf0272f0efd998371e340f12ad8e1269355f2a14051b47"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-2/repertorio-ff849b30.png",
+      "sha256": "8fa3a8bd0e4c01f36cca532d8d6a43e6dc2e8a7828212a5c8e32eee99f517fc5"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-2/repertorio-ff849b90.png",
+      "sha256": "d3920bec9feac37a4ad9c875f03cd804de97c4861a29957e7539d9c3d047e5ca"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-2/repertorio-ff849bf0.png",
+      "sha256": "d2cffd3a556960e71888dc7d917774c42ae0f0a8563d0d7a462383ad14512b4b"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-2/repertorio-ff849c50.png",
+      "sha256": "b59228c481229e5c030a8e978c20fea6c218aef2f2164cc61002ef3e440fdac8"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-2/repertorio-ff849cb0.png",
+      "sha256": "d914b8da2891c73ba6a7af2c20e56af283da8241230aeccaa998636f01ec55fb"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-2/repertorio-ff849d10.png",
+      "sha256": "827d16bf3a635771b99bc2ab268d301bc23cc90ce90163be4cf25f520575d5ac"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-2/repertorio-ff849d70.png",
+      "sha256": "0b46037be5053ca7f1a9357d94e09ae49bbec210dabdaced71046e47ce898f70"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-2/repertorio-ff849dd0.png",
+      "sha256": "1b0d94d2875bde8ab4f3948faaf50f2d641ec93826d04b7bd2d2d9c928a906a7"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-2/repertorio-ff849e30.png",
+      "sha256": "b0f3bb08a3146922628572a6d62a563cd8fcbc11184041e47a33030623815ad6"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-2/repertorio-ff849e90.png",
+      "sha256": "0dc92b6127eccbceca6c503d523b5c19038c161aed3f51be36ec6ec798e2d83f"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-2/repertorio-ff849ef0.png",
+      "sha256": "e0457a6cdead013a18c4b42513f891f82d5ae1d7d05bbed66cf44f27164e3496"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-2/repertorio-ff849f50.png",
+      "sha256": "00fc3df8bd1095d8e9af4b8e174e8a214c86740524bb5610dc0512efa89e51ad"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-2/repertorio-ff849fb0.png",
+      "sha256": "9cb9d56151d9db3411d61ea19be2f0e4040e8b7cbec6ae9fe1a51570e46fa288"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-2/repertorio-ff84a010.png",
+      "sha256": "f98d0a524ae1917b323df06bbcee4eebd73b3fb8b8b314e783be1264b03806a9"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-2/repertorio-ff84a8d0.png",
+      "sha256": "e3b9115425162ff2db1f39c8d122f0f2e4cf039d8db14e0d3732a4d6eb28b3c3"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-2/repertorio-ff84a930.png",
+      "sha256": "1626cbd0c7225f3db692af03b584ea67cfa1c25f76e45719b45b5e3eb4fe97ac"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-2/repertorio-ff84a990.png",
+      "sha256": "754e806e1ebe49de4a02a174b9d98d21dd5fd38e6d0a92652843d3777e258649"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-2/repertorio-ff84ab90.png",
+      "sha256": "f2d1881df1498b37826277a48dfe35d248471421ec429a269e32e263d4475626"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-2/repertorio-ff84abf0.png",
+      "sha256": "c9267b61775444fcea60bfc7b05b8bd3539624064b667bb810372c0fa6ec8b9f"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-2/repertorio-ff84ac50.png",
+      "sha256": "56e964b6e8b7d0781e9e7e35ef8befc308946f5d4fc6fa415d251493c9a1ce70"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-2/repertorio-ff84b1b0.png",
+      "sha256": "21f54f818ad8cccd6faa307c9b933dd9b90353df2dc48b1019e64dc976926a33"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-2/repertorio-ff84b210.png",
+      "sha256": "51a537cff63f658ddc2f02345222974cd69d667ae944c65518217febc97eb785"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-2/repertorio-ff84b270.png",
+      "sha256": "ee5b2cf6743aad383a4751c5df61edac09f23055393c3567c53278aa664c418c"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-2/repertorio-ff84b390.png",
+      "sha256": "0a8b9aaa368379cc6dfb7afaeca8165b5c8953c79be2271f7880cae13bf4cc76"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-2/repertorio-ff84b3f0.png",
+      "sha256": "7bbf29d9a0f31bde5eaea2d284428dc45529dc1b8ab9f21008b09cc10ec6eb34"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-2/repertorio-ff84b450.png",
+      "sha256": "ae4aebb97a3cb635a033e7348429286a37a945181039fca01cc95baae22964ab"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-2/repertorio-ff851730.png",
+      "sha256": "60b82d22bf4716c0baf5ca8d3acdce592c6214c88040930e1625bc1f5e15fdb4"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-2/repertorio-ff8517b0.png",
+      "sha256": "8012596904e403c55ac0ae7b8a3016e2f950b405252ed8100dacfeef2d787e8d"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-2/repertorio-ff851830.png",
+      "sha256": "b9c13a81341ed32461f4565007a4b2a6642dbf01fea1889bb7ed078dafa7252f"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-2/repertorio-ff8518b0.png",
+      "sha256": "6585c318657ceed911010f21d02793041a0a717f5ab624370f7cdb0dd13ec274"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-2/repertorio-ff851910.png",
+      "sha256": "fd340485a93a3375be23e4dc3c7e64b7d2208fa32dd60b903c75b4635f4c6534"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-2/repertorio-ff851990.png",
+      "sha256": "ac267c2b52e24f39e642e761bb2b300b604f881bd92836c8c96221749d2b5761"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-2/repertorio-ff851d30.png",
+      "sha256": "b15d4bb5b9a0c6cc9e016e27b64401c4b2f7bc4ca862293141e2ea6008bd5be8"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-2/repertorio-ff851d90.png",
+      "sha256": "640a87011a6e45d95c234b3e16cb900f41b5440301d32859bf620c54797e265d"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-2/repertorio-ff851df0.png",
+      "sha256": "3bdc614fc8f7b72231813a1d867325738fe1fe1c3dee0e7e75db51f0e3db83fc"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-2/repertorio-ff851e30.png",
+      "sha256": "3e68da580eaf8a371cb8a29ec07516bdd41ae05ee5a141cdf2a86596877902a1"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-2/repertorio-ff851e90.png",
+      "sha256": "766889aedf2b5978a0fca7ae1e42f4c95c02ecbb03ef20216549cb2c4c25fa23"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-2/repertorio-ff852130.png",
+      "sha256": "bc729d28134d5c67e60eebd3ec0a7a3090b25ee62e134799d539110eb0706726"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-2/repertorio-ff852190.png",
+      "sha256": "cad709bbb4cbb03b830f15c818024f0dc9e8e023671b5a2132485ba1cefbc1cb"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-2/repertorio-ff8521d0.png",
+      "sha256": "6c246bebfabf03981e1b58f3e506afb28c134be69c27ebc5e8dc17233bdd688e"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-2/repertorio-ff852210.png",
+      "sha256": "4ad74b8a15b00ca1a197d1563c6248916b6efa396d475e36769e96daadf087dc"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-20/repertorio-ff9385d0.png",
+      "sha256": "d66413c75e6e73800c102483f73886dec27db5c3f50b9d30f87fcdee872fccf2"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-20/repertorio-ff938630.png",
+      "sha256": "03e4010b3363ad25785c02102e06bfdaa63de4857ec92955230e6ad6ebbc43a4"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-20/repertorio-ff938690.png",
+      "sha256": "a720a16e67bccd720401edb79930f7d657706ce40b9c1076121a21a6bfb8ad28"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-20/repertorio-ff9386f0.png",
+      "sha256": "b4ec7c2491b7314052358e1dfff84fcdcf44e9972616c5e9a21024f84e1b2d11"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-20/repertorio-ff938770.png",
+      "sha256": "37b3cc98f2fedb9d079b9b4a3f09bc2f45e51d4152a1fec31f162acbc29101d0"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-20/repertorio-ff938e30.png",
+      "sha256": "85ddc1efdf15c6b09f289449dd06b26fc19881614a55feb9af794da13071bd23"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-20/repertorio-ff938e90.png",
+      "sha256": "72405ab0a604497b6879308782d54c9790eccac5bd6c8998453e0f3eb823f2c1"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-20/repertorio-ff938ef0.png",
+      "sha256": "5e50ec48c8a497e33170118882e42dc307372eee1458d937fcb46fe728d2ed7d"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-20/repertorio-ff939430.png",
+      "sha256": "f9bcfa6e71beaf55356126b635585c3c58243083c24d314d768d58906addaba6"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-20/repertorio-ff939490.png",
+      "sha256": "fe90168ddd61800dfc7f94d5d940bfcd5fdfe2a0ee6d2b6036e31c28c45c6482"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-20/repertorio-ff9394f0.png",
+      "sha256": "1e696076c9ac28e06a81b68230e8c2a2d8bd51e2bd857284865514e194fd95d8"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-20/repertorio-ff93a610.png",
+      "sha256": "bc2db70de39d41701a33c09835de8acb3182fafe48a43f0b850462359570f1db"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-20/repertorio-ff93a670.png",
+      "sha256": "69d6b5d5e281bfd52ac36d0cd8fdf55cc77d0bbd55a28746c8645a8833d1fec2"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-20/repertorio-ff93a6d0.png",
+      "sha256": "0e15a12c3c8058bdc87e69c533ddbf317d6599c2011040ac3c48ed5bf5e06a78"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-20/repertorio-ff93a710.png",
+      "sha256": "8cb0c7da3868ed2073af03229f82eff8feb2d24417b6e37d811246ea630d2e6c"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-20/repertorio-ff93ae70.png",
+      "sha256": "65cda111a5a73ec04178a33d4d0c572795350ee505682d9900c8a298f7334dab"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-20/repertorio-ff93aed0.png",
+      "sha256": "deeff5e344e354180e13fa39a6829b7312409afbabfbd56f5fbe9e5677612763"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-20/repertorio-ff93af30.png",
+      "sha256": "873ee9fa79ca93a46cd5b456a2f2ae75147c8804c22067773508af3c4c52d91e"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-20/repertorio-ff93af70.png",
+      "sha256": "a76252cf6f7d3c867573c7d4f782db3f3f3dda770e400c0ba26deb54b7ff302d"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-20/repertorio-ff93afd0.png",
+      "sha256": "97ccc361f57600be4549f798d137dd502802017892c73eef7e500383452e13e9"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-20/repertorio-ff93b010.png",
+      "sha256": "ccb75606e34c9a939396ae6ea94f76dfd9d2408ccb3f99c227a61ad3feba5609"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-20/repertorio-ff93b810.png",
+      "sha256": "919386911cf0a602b2c8be72ef7b5c7be04ed8aaaba18d59ca2ff01999b47ddd"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-20/repertorio-ff93b870.png",
+      "sha256": "a2ece8659da41ba7642d96b245dd4aabd6e60d07cd5589d7cffc231ffce07feb"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-20/repertorio-ff93b8b0.png",
+      "sha256": "37f6347be6fce2dd2070f0823866472718acaa5d3bcf822b10e01d2fe41e9d13"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-20/repertorio-ff93c430.png",
+      "sha256": "4723c4b4239274d3650302ced14c5f3d82868c84b1f96b29dc4bb4b41823fde1"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-20/repertorio-ff93c490.png",
+      "sha256": "f77a9bd69ca18aa3593b2db60ee78dfb9350fad9862f266a4426d400dffe7917"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-20/repertorio-ff93c4f0.png",
+      "sha256": "9f07dea51419afab2780f00cfc859032b31072e76406593dfff360fd0fa500d2"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-20/repertorio-ff93c530.png",
+      "sha256": "1ba59915871b2289cfee1a15b658215cefb3b5f1a35e6993531d587ab9c62f7e"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-20/repertorio-ff93c590.png",
+      "sha256": "12ce8898bf26262cf6d18d53b8054bdc4a74816e79eb3e5ba1270c5cf5b38adf"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-20/repertorio-ff93cfd0.png",
+      "sha256": "bc4d8a8e88719ddb03638159354dd8e991d108dba8a973b249c439599cdc5e65"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-20/repertorio-ff93d010.png",
+      "sha256": "9ba5bd0e01420891e098eb029bd628603eddeb1c93aab7c6ce61d397e79fb8b1"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-20/repertorio-ff93d050.png",
+      "sha256": "a2773f397975d8b6c30693dec322bbe1d6046a044da6f83b56020f86de7e8777"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-20/repertorio-ff93d170.png",
+      "sha256": "8f4fdae0579e6dc84963e50c1a293a19c72df6ee07f8dddaa7ad5727640224f1"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-20/repertorio-ff93d1b0.png",
+      "sha256": "7bdace6b20b67b6e199045a0e4237e616b1dd3eeef2a619672f2b0e8705e41b6"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-20/repertorio-ff93d210.png",
+      "sha256": "d0e796e1d2a9b37e6b47cf3f4530df3bd8d72854a7e655573c7c8a709535e75a"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-3/repertorio-ff85a880.png",
+      "sha256": "13fa367ded89e5605b7370d153c36ebfe69d74ac8a47dfe36198a02ad321e93b"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-3/repertorio-ff85a8e0.png",
+      "sha256": "1a45d3973bcb1cec9aa9431f3aa70029414d65c9f62db79bae364a9fa6a4fb4d"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-3/repertorio-ff85a940.png",
+      "sha256": "f1da0f9317ee2f0a93acbe760289132dab281788a9766a2126d1ab59afc07a36"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-3/repertorio-ff85a9c0.png",
+      "sha256": "d40b4c0036a02c840bd697cc59f036b4066e9ceb7603b7907a07fb2ae250c2cc"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-3/repertorio-ff85aa40.png",
+      "sha256": "a72b0b1c47617fb198ba533ad036cdb4620205ac828454f279b537f91f2ff0f4"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-3/repertorio-ff85aae0.png",
+      "sha256": "c1b937e871bd84155179ee843eac75521049de0bfa5777fc40a2d181691e679f"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-3/repertorio-ff85ab80.png",
+      "sha256": "5eea2090334a5965d03fadcdffe683629c9640b0ddc92019dd9b0d77050299cd"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-3/repertorio-ff85ac20.png",
+      "sha256": "faa5a1bb5b526d7630dd42451f0cbce508e52ac3c7e2dca6c80cbe3a7c833877"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-3/repertorio-ff85aca0.png",
+      "sha256": "19fbda60db0a1b62f2c2bb0cea27053aff769d90d115f1a7f61bf2611867283d"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-3/repertorio-ff85b560.png",
+      "sha256": "6e6c84489f88c972df4ed451a60c57573f5b6c975a2f0403412073c8d8c68c64"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-3/repertorio-ff85b5e0.png",
+      "sha256": "30dd0d34e5864af96af7f78aa2289d74f9d9d51c6debf5c6e2bf51bf9d79b8ed"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-3/repertorio-ff85b660.png",
+      "sha256": "1c1ea9b447c1bf9b3a398de6ed6de1e20ffe0ca798fcdfc3d64b86d1fdb183fc"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-3/repertorio-ff85b900.png",
+      "sha256": "2f15c815a8466f7ac4504a5db900db74303038911812588001ae24e86ead17b6"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-3/repertorio-ff85b980.png",
+      "sha256": "1f01c089eec3bb21cb8ee0c9c4039a4facc2b3d9a74581d8529940fe77070288"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-3/repertorio-ff85b9e0.png",
+      "sha256": "a12d1a2286c2e21be9e5b499635ff2b7bdc9723e648ab1c8fbcb457f32518889"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-3/repertorio-ff85c000.png",
+      "sha256": "58973a6fee631dd3b999c42e1fbfce50a56d8b6481befc0c71c48a3ec3a9b162"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-3/repertorio-ff85c060.png",
+      "sha256": "4ced014961290dd62bb58f8543c5e899474280fb0e01bbe198ea0d8e36069e87"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-3/repertorio-ff85c0e0.png",
+      "sha256": "f0db676ce6476b6fe82120d37550e943f88537e011a46a8e81bbe4d287842a02"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-3/repertorio-ff85c220.png",
+      "sha256": "d5a6a05bdab09cc65b3d2fc77019ed4a38144d40e0cd1e19769a5856b97f7c56"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-3/repertorio-ff85c280.png",
+      "sha256": "70022554ee4e7d9f9c79406150e28290209b6e370f49c042bfbad9a8ae0603d8"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-3/repertorio-ff85c300.png",
+      "sha256": "fc2d287cb1cde7e854326ec1c1d94d1e0a342f4d20be1bcc04c426aad64012ae"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-3/repertorio-ff8636c0.png",
+      "sha256": "5e95daa8217abf28db0b8faa87a0d2b823f0047b7a1c4d212c28af0bf9aa424e"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-3/repertorio-ff863760.png",
+      "sha256": "e7eb0fddce92238f703225efaaf7297e9d4e87eb29bf90c211132db2486f61e2"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-3/repertorio-ff8637e0.png",
+      "sha256": "a1a875cd845cdf1b035b41e4b2947e525bd1c4b16fd848be01592d57fdc36f77"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-3/repertorio-ff863860.png",
+      "sha256": "04073ee20545be5f127edb1610143aae78d049ae24f0eb5b000c9227703ac0c6"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-3/repertorio-ff8638e0.png",
+      "sha256": "6c4ba028b2074bb5ade39d8804f8973230874564b40778e6ab033c1f08941ad7"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-3/repertorio-ff8639e0.png",
+      "sha256": "a4a85e764e23f5354e12cf58ed2edac5df1138029d62c54be5cc8259bdf71487"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-3/repertorio-ff8644a0.png",
+      "sha256": "7bc3c7abd18133293c84bb530791bf347425fd6450eeb84db5d8f097af0eaa74"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-3/repertorio-ff864520.png",
+      "sha256": "dadccc2a4b2084b66743985aee0c0449bc902e778e048c51af0d54b74e95174e"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-3/repertorio-ff864580.png",
+      "sha256": "f9b87d6932123204dd950041d850991d70b645f084d2fda52780196f26d95f00"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-3/repertorio-ff864600.png",
+      "sha256": "8572559701d59b444de559f05a6ad224dad8de2285cfee6ec2bd3bedc9a160b9"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-3/repertorio-ff8646a0.png",
+      "sha256": "11bdf3b4901f93e489554134527aaf34e493d2d6a607d6890ee9ff17d5397ec9"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-4/repertorio-ff86f200.png",
+      "sha256": "0cf362636fbc1c74dc5be1d6124d340488dff3e7ec3fbea757c38625dc74568c"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-4/repertorio-ff86f260.png",
+      "sha256": "653233ad473d8b37f828400443949d37f71ab4510d63530370fb74c967186fa4"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-4/repertorio-ff86f2c0.png",
+      "sha256": "eb96d613de06c0208eb163b15be373cd018be0d8c300822b9c3de59ab5d375d5"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-4/repertorio-ff86f440.png",
+      "sha256": "2fc6b95fecd840f48326e9f1a2d802cc3ea2603d75281cd4e9167fbe47dbec16"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-4/repertorio-ff86f4a0.png",
+      "sha256": "3aa327ef81205468628d8f602874249c77f52c138f358633ef25f10678c50215"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-4/repertorio-ff86f500.png",
+      "sha256": "49617e2c5387e312786f1f7233fa3263ec76fc106d3e956b57622f815b57917e"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-4/repertorio-ff86f9c0.png",
+      "sha256": "7c7123be090a22c5c771b1286d4aa59530fa81a6d2e9b1caae6f3474527565e5"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-4/repertorio-ff86fa20.png",
+      "sha256": "909adc21e3d039ef764b862309d78377c44651caf6cf5b158573991dcfa64e23"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-4/repertorio-ff86fa80.png",
+      "sha256": "3ac174cc441991634bc82afecca52eefa7bd91745baf51082b8412695d1c1ba8"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-4/repertorio-ff86fae0.png",
+      "sha256": "81ffa6e1c1b39cc2152739612cd87e2c24111e9d63ce824c5b433a6291d6e04b"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-4/repertorio-ff86fb40.png",
+      "sha256": "9e68c3076caafba7eaf652e7194cff100a6c353d40d8beead8eecc5a4b26359e"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-4/repertorio-ff86fba0.png",
+      "sha256": "81b38e2224a1913727dd8961b60c2451ab1d253d319981316f98416ea0b8a1b2"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-4/repertorio-ff86fc00.png",
+      "sha256": "843970aeb50d63eaa1ca85d8d2d23766f3722e42d275fb67d8ae254be73c0671"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-4/repertorio-ff871200.png",
+      "sha256": "e2d7d6e1191c067c9c703a2a74c2db7b1f57fd6d20986609468e49a6831f94cd"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-4/repertorio-ff871260.png",
+      "sha256": "0ed64ab4ed92529782ab99cd6bd14c2da3907835f7a94bb0a7b168de15ba460c"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-4/repertorio-ff871400.png",
+      "sha256": "b5940aabd35dda96b052e85147e13ae1b5206f1a905c61cc860a70cb8ae65a8e"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-4/repertorio-ff871460.png",
+      "sha256": "9d329c250d123ba9206471dcbcae735f3968cc39afef2637052c9bbf352991fe"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-4/repertorio-ff8714c0.png",
+      "sha256": "cd810a39ca24757f1b82153a38499f52dc879f6ef77c2d9cd0b4a634429faae3"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-4/repertorio-ff871500.png",
+      "sha256": "74750408c709f786b99cd00ed03811d5bca02fc7707c14a91b7bce0b1616e1e3"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-4/repertorio-ff871540.png",
+      "sha256": "b676cd5be4773db1e6e89de2515f48a89afc5b11f327dcf924d3616158287700"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-4/repertorio-ff871f40.png",
+      "sha256": "790e4bd32ab0c81128c6a85912eb0cea2eb8b3eb9479ad1c9e1b06655189592e"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-4/repertorio-ff871f80.png",
+      "sha256": "165c824fed3b8a939fe2f3884de1ee20a7b55247d954cbaf170d129b9b8e24ef"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-4/repertorio-ff871fc0.png",
+      "sha256": "5fded6f64e6331a5ec2a74b71cf005c2ac02d70d8b32fb41667a365af02b84ed"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-4/repertorio-ff8720e0.png",
+      "sha256": "b000e8320f6d414538792c53f6114bd629f22d197692814517edc5911cbed09b"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-4/repertorio-ff872140.png",
+      "sha256": "aaf4c170c65dd78d6b50dec85a9861d1ea5f4714134ea0c65216130846f9024b"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-4/repertorio-ff8721a0.png",
+      "sha256": "e7de519e6c9d7043c18d300c9b8e58bf7f28d41a5a5ec8da01bafe77bad30312"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-5/repertorio-ff87f4e0.png",
+      "sha256": "a195d18b70ebc3c69605887c7a66fd69acad8f35129fe93351d5443f326fc81d"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-5/repertorio-ff87f540.png",
+      "sha256": "8170adb213c5c92f33c1c655a9dd7174e35a92841ecdfd624e4c3155b764cbb9"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-5/repertorio-ff87f5a0.png",
+      "sha256": "9b01b3d0e421ae2a06e4612a7e8adea14f2ecea0d914e500864b0a5cc0449633"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-5/repertorio-ff87f780.png",
+      "sha256": "44b0ecd3eee00dc9f11aaf4fb41c1bab16d55844f302d1fbb72b6cc2e10444da"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-5/repertorio-ff87f7e0.png",
+      "sha256": "3b48f12468dde060790ac29fbed99462b344e0df4a2b64b8def1d57879c98624"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-5/repertorio-ff87f840.png",
+      "sha256": "f7d363c4f1afe93b8e10a79706c2345786203df0833d206e7aeca42ee96183ed"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-5/repertorio-ff87fe60.png",
+      "sha256": "c15afcead0bf23c52d7213d8fc447ae476b88b42b5f9a96595042741ae88ff5e"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-5/repertorio-ff87fec0.png",
+      "sha256": "0f53d933dd3c187c85506447d42b67a39c59cc5a02e6d9fbaf75373676789236"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-5/repertorio-ff87ff20.png",
+      "sha256": "b05ee012bbe21989c53e523be285000067bfdec1a30c71fabfe7fff3f4473d12"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-5/repertorio-ff87ff80.png",
+      "sha256": "dd0d197f3e0c451ee469e139da90635460cd6371855124026c0e727245e0788a"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-5/repertorio-ff87ffe0.png",
+      "sha256": "35e2ff2d30691f3c8678c5ab54ddb0ed3857d92df43e9450d282a1fc7036c880"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-5/repertorio-ff880040.png",
+      "sha256": "e3b0f94284c3d95bb363dddf1c8af074e806138325c847b1e06ed27340cee211"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-5/repertorio-ff8800a0.png",
+      "sha256": "f8b6a1206499e56a1cfde6ced72ee0e16ecdf9965d65dd1afe200b5d666404a1"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-5/repertorio-ff880100.png",
+      "sha256": "e788614fb6d646e8e3170a1e3aac53fe9854691a2030e2e254ab9d06d53e216c"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-5/repertorio-ff880160.png",
+      "sha256": "dda01b63c3cea7a22f67bfd712214c2afd7b3766d53ca9329144d644716ac04a"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-5/repertorio-ff8801c0.png",
+      "sha256": "870a83b58482248df698561cfad0437051e0f4ab6f3053725d83c84eed5dca29"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-5/repertorio-ff880220.png",
+      "sha256": "f20e46b294343a483b9a3e7203c81a88ebb326b10cb5c979e2d2124b22ed403b"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-5/repertorio-ff880280.png",
+      "sha256": "a39d9227bddd9a7d2ae0d1e179eeba27be2bb0a7c384b83fdbe0709f691c9dbb"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-5/repertorio-ff8802e0.png",
+      "sha256": "542e525d13b5c62138d90d03f7f950b8785b98feddb4db02d89d79840ca812a0"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-5/repertorio-ff880340.png",
+      "sha256": "a1c263f672a177382a21f8e39c13206f8dc0a4fe4db7bf717f3a4a6d44a5dbcd"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-5/repertorio-ff8806c0.png",
+      "sha256": "28a73c036af94148d80b97cf522fee075575dee4535a0564b2ca3c70a0956665"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-5/repertorio-ff880720.png",
+      "sha256": "13ba277ff831ea4785f58309ff587182ad954b510ead66df12cc154c0c8aa8ed"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-5/repertorio-ff880760.png",
+      "sha256": "37179067feb158715bfd059896a0fa0c365288a9d68710a61bc334c771d85afc"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-5/repertorio-ff8807a0.png",
+      "sha256": "0e31585b08ab9ffe8d7c3cdfbac3a499fff769ca9ed412f5a3686305f7aea4c2"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-5/repertorio-ff880a40.png",
+      "sha256": "8d17c8c237567105dc7e51dd27c9b926abd06742d6de623470c3f421685b7a5c"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-5/repertorio-ff880a80.png",
+      "sha256": "23b5359703877a0aaa9e71b8c07523883a500937c34062c7bb0aa132a0f4a447"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-5/repertorio-ff881200.png",
+      "sha256": "83fefca85245a46ff7a4201b025ab67a95621344310da60fafdd68333eaf9271"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-5/repertorio-ff881260.png",
+      "sha256": "ab4cb5fbb114d198bda1d9f14623d58952326efb3c415fedb945b8ab43990b15"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-5/repertorio-ff8812c0.png",
+      "sha256": "0ba92acdddf261b7eb6172ba4bab5fdb47eb99ecc8cef3f9520c7241fa036233"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-5/repertorio-ff881300.png",
+      "sha256": "65b6ef9369e7a11f4683b7e265d8b83e890917f42db2f71a8c3c30f76b6f660d"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-5/repertorio-ff881360.png",
+      "sha256": "63b2f2a93af32f18e0de558f73bc50be835c8217392812e782b0055e2b926976"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-5/repertorio-ff881da0.png",
+      "sha256": "d2399595c03bd801b060652226b762b1c3965da8e110e44b54bc60423d6070ec"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-5/repertorio-ff881de0.png",
+      "sha256": "3f909c2ef07c8b49f925e3ad428ed050effff56d2967ac78fe56e1611b0df427"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-5/repertorio-ff881e40.png",
+      "sha256": "08bdc4b6fc43c6a5530b5da9df47e6ffa473befd57dcef3195b86dec86d9dd91"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-5/repertorio-ff881f60.png",
+      "sha256": "6478ee064e5be91f54c515361c59324cc68ac5ccc6394cbaf4781eae2a89c87b"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-5/repertorio-ff881fa0.png",
+      "sha256": "0ee0a272174f5dd878e26a0aa6135f2f1b917671de686c3670042c2a5e56be6d"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-5/repertorio-ff882000.png",
+      "sha256": "e983aedf5b2c61bd0a9f8a56fccb2f35c38962bd3a26dcd20686e41e67cb2954"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-6/repertorio-ff88eba0.png",
+      "sha256": "9b70542c5ce013c1e26b6aa550891fb15534668600d9f1204e3ed75b5aa888aa"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-6/repertorio-ff88ebe0.png",
+      "sha256": "2a4ef17799d094261ec1b5c821fdee87432ae869fc66bdc809be5c54b6960bbd"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-6/repertorio-ff88ec40.png",
+      "sha256": "e5289896d1164945f29936357483d8ee5dd1b803d87ee7cf6166a592bebdefba"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-6/repertorio-ff88eca0.png",
+      "sha256": "243ebb9457b468152c68bde68bc3940863df715205462e2c4ccad550b25d4157"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-6/repertorio-ff88ed00.png",
+      "sha256": "e7c8b642732ca096cd7682497b3cb58f3dbe85582088f7090b26fd298e50efcf"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-6/repertorio-ff88f720.png",
+      "sha256": "4223f247ebbe70a662d5db1b0061e704810ade010b354737bc64b5c2a7f1e896"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-6/repertorio-ff88f780.png",
+      "sha256": "628db6e6def9f5ea9f5dbc56eff530b1d32e46a1d4266d126cfc7ffa20d4853d"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-6/repertorio-ff88f7e0.png",
+      "sha256": "211dde3acab9968c9504aaa59096b3b00b72c92a238a2a262862955a334f486a"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-6/repertorio-ff88f960.png",
+      "sha256": "1a899ff8f2c3b969bec4c8b8cd4e344f52d99f324fae8416f359607b786b6e0a"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-6/repertorio-ff88f9c0.png",
+      "sha256": "89e811196c92191bdc521e1b10f5d94496902b0c5db163aa28e4c16e1c715575"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-6/repertorio-ff88fa20.png",
+      "sha256": "a8cc2a88d4ce502ddf189e2fbb7d909d50797daf253e0c82ee1759adfb4a4625"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-6/repertorio-ff88ff00.png",
+      "sha256": "86bf88e9204ac33ad301ac4445511ca5eb16ee1a250d03069732d89dbf47e289"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-6/repertorio-ff88ff60.png",
+      "sha256": "985cfce87992d02647a777e4a47fbb34b0b42b654b29526305af83200fc2cd4c"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-6/repertorio-ff88ffc0.png",
+      "sha256": "51c21c9e999ce257f1c73a49b9052631479a051d72750a9dd09faff99c42cc85"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-6/repertorio-ff890020.png",
+      "sha256": "82baaaa43032dc9d30f2ee4f7e9dd8ae01d089c730be9abef52b891912d631bd"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-6/repertorio-ff890080.png",
+      "sha256": "fe8bc31da2b092b0d17abc13bea1737e2656142712c9cb084ab63f9a794e011e"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-6/repertorio-ff8900e0.png",
+      "sha256": "5c321811f9f9a6a309641353efc931e50f28a1a8b3269d51ef9ea4c6d91381e8"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-6/repertorio-ff890140.png",
+      "sha256": "d45707c3483d8589901e787848951e9fc1dc328ca465bf5ac3e6941ed851cf5d"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-6/repertorio-ff8901a0.png",
+      "sha256": "f5d50500b490fe1178bfac25aa7cf6e39988252a85b33e3e96a55b790849d384"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-6/repertorio-ff890200.png",
+      "sha256": "244a2320060d6c2bc6d9968348a593917f6e89d112650070a661e84ee73ad88e"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-6/repertorio-ff890260.png",
+      "sha256": "359ecc33ece4667c2a48546de5e3047af5fc29343efa03c636deeb41fa596269"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-6/repertorio-ff8902c0.png",
+      "sha256": "6e2749fa78e840d67708d3872768ad8a56e8af938c9abf9b4ce1cbe9754bb943"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-6/repertorio-ff890320.png",
+      "sha256": "8eb52b9b657922c78987deef729fc4dfcec662584eedb9e3c524aa78db21961a"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-6/repertorio-ff890380.png",
+      "sha256": "5a085739d734bf8226ccc6060d59157b9f731727d01b646f534d5281a06a1513"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-6/repertorio-ff8903e0.png",
+      "sha256": "c832898701fcfa9d39a61642ed25e7a286b4509a798600179e05c12f9e0053e5"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-6/repertorio-ff890440.png",
+      "sha256": "05d13ea534889c806451635f0a2f22541e791fe29f30a27c13aa9d8f63d12998"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-6/repertorio-ff890840.png",
+      "sha256": "ba95732fad3d39f8284a054df373882f424ec9680a3d57d3d65aeb04b9a9b32f"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-6/repertorio-ff8908a0.png",
+      "sha256": "549dbed6f5d305ae1f032476dcb4ea0b15bc5c43c73739fa9066dd7112541d24"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-6/repertorio-ff890900.png",
+      "sha256": "a9f4970481588c97cbb893c6f609d9ae462712b028e036d8d364766f1e78e083"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-6/repertorio-ff890c00.png",
+      "sha256": "e77b02127f6ad6d8c8be1e199b62c358e98411cfe6d202aaf2541cce49a13928"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-6/repertorio-ff890c60.png",
+      "sha256": "71e35959abc864537e323b6cb2c3ab2ed49df123eca0805d92ac6e6682cbf800"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-6/repertorio-ff890ca0.png",
+      "sha256": "e567c4f07cd2639d57effc51f281e685955645694437e091af62e15f7e585c40"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-6/repertorio-ff891220.png",
+      "sha256": "610592b700705a4d73f9fa2dbc1e558ca3a6fa92b718e137f17a9a6d9147ef4c"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-6/repertorio-ff891280.png",
+      "sha256": "e3e243f79bae21ced73a4f603885197b986f72961b7b40ada2acafd81c4c62b1"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-6/repertorio-ff8912e0.png",
+      "sha256": "c7cfb9ba46332a68eac29ea9f0d37123148112dd75d0d6e592b93534b2e58c09"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-6/repertorio-ff891320.png",
+      "sha256": "e761db8b8ec3f61d09ddd4066f36c10ba2bde77f3bb49f471d2cfdb5bf69b17e"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-6/repertorio-ff891380.png",
+      "sha256": "dd5eb360d5742f7aa509e819b8bee695df5f2ec0c9cbf8cbf323cb9f8e59c3f8"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-6/repertorio-ff892280.png",
+      "sha256": "a132aa2cb646a5287b0916f7c289ed93475fb24c62fab656b5e6e3d483a632bf"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-6/repertorio-ff8922c0.png",
+      "sha256": "88561933c199d0a598d68079449b73ac3075854b13ec078e2d4b64aa5eeb1757"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-6/repertorio-ff892300.png",
+      "sha256": "6123c7e8ed76e4716f59634186b0e9c5e68a17b70e0b5a964404cb39a76c3bc6"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-6/repertorio-ff892440.png",
+      "sha256": "dfccfab8fc51dfb9eafaa5d953588bc89428fb029264bbabb736a9172fbfee1a"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-6/repertorio-ff8924a0.png",
+      "sha256": "c20c26e428e79dd654c719d89c449f37c77d20210bde4b8568840aa71ea460df"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-6/repertorio-ff892500.png",
+      "sha256": "1bf6d2b8f6101750a10320292406019c0ecd939d030299fe1c4455cf4cbefd96"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-7/repertorio-ff8a2660.png",
+      "sha256": "7dcb9a759c7bf0f7714c1609c136e215704bb604f5b59eb4fde3d5b9d279beff"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-7/repertorio-ff8a26e0.png",
+      "sha256": "a2bf497718ec5d995bf278eb317e00b642705539a5f57aa475282429db025002"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-7/repertorio-ff8a2720.png",
+      "sha256": "f8abab9b55194d334a39fe9ef208cd63669028a2328b0db0ee82a211689521ab"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-7/repertorio-ff8a2760.png",
+      "sha256": "2c696c6cb06e16e33e2e185dc1e512719d6e5fb3f151d036fb1f63e232c9d4df"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-7/repertorio-ff8a2820.png",
+      "sha256": "2eba0895fb0fbfd7fed4f4acc2323587509d63f832d85dc99f49eaa29faa8712"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-7/repertorio-ff8a3080.png",
+      "sha256": "a5988b13f636b19953cdb883ad6c8b2c41337e3ab67d7099522c513359cb5958"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-7/repertorio-ff8a30e0.png",
+      "sha256": "2ab6db8105d4d8e20d56ac0ed1bd16d5e2365c1f561d5eccdea760ce663ea0d8"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-7/repertorio-ff8a3140.png",
+      "sha256": "06290e1d07393fae1e4afe6c1440e19ef83b55ff0fa38a1434b0fe6e064e905c"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-7/repertorio-ff8a36c0.png",
+      "sha256": "a2451c17cc4fa985ce4d38fa79741054eb7101b79ede894b2f591ae52b41de53"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-7/repertorio-ff8a3720.png",
+      "sha256": "0c0fb6a8de0f987f59e095cddd6cb502dbfee822303823e8919db8c676ec8007"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-7/repertorio-ff8a3780.png",
+      "sha256": "bb2abbaa1742f3f86b004a3a38ec423908a7aab7cdcf81aec34567f58f8010ce"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-7/repertorio-ff8a3a60.png",
+      "sha256": "30d7f4d3b9aa189b8d13fb4d38a45643457435435b17ed982d38678c9da0c046"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-7/repertorio-ff8a3ac0.png",
+      "sha256": "685355e33050e4aba95f3ab03a34e788487df20ae8354351d1e51ea4825e5b8b"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-7/repertorio-ff8a3b20.png",
+      "sha256": "90b31c2cb0c1ba35d1f33a5732f1f9ffa5ff5001f1f81b59793c4a649bac066a"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-7/repertorio-ff8a3f20.png",
+      "sha256": "36b8336ce20ea57e5620630a2122ff619b4ac2de9374c9947edeb0b320a271ac"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-7/repertorio-ff8a3f80.png",
+      "sha256": "ec21287475f4b4d740f57466890bfb3c9d23c50a2992599f651a3fc05ec01a85"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-7/repertorio-ff8a3fe0.png",
+      "sha256": "8929d72cfce6fe9049f209c95caf8dd1a5d3fd1b8a1b8209032328254bbf4624"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-7/repertorio-ff8a4020.png",
+      "sha256": "316a4629e33d1c96b6145ce50ae064163c3a45f1892e4b77e783d3a49aa69370"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-7/repertorio-ff8a4080.png",
+      "sha256": "ea0f0df13638a6f3e4ed9e860c2c143e10615c949799951242c7af36f29c5373"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-7/repertorio-ff8a4340.png",
+      "sha256": "d4673abbc1e99563a48a6318af58c955832c1c0cd99bf39c3271c21825beed44"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-7/repertorio-ff8a43a0.png",
+      "sha256": "30bba5ad110bdc305c58758711c25842a3caf4cd0e57d5208dc094c82413e77a"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-7/repertorio-ff8a43e0.png",
+      "sha256": "6126b6698ab6bfb4c011fb2de32d1f7425e008fcd476258ba3861a03dea60cc8"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-7/repertorio-ff8a4b40.png",
+      "sha256": "169747339bd2ab9c8d7101bbe6b67049784fef4b41ee4ab576db3308dd405349"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-7/repertorio-ff8a4ba0.png",
+      "sha256": "4c314c43681e8eaac709c1d203c1ec27e06bbd81949b6873f78c6b15d1c96a9c"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-7/repertorio-ff8a4c00.png",
+      "sha256": "d5d67849640e2a4841109307771de64b46466e5f0f7adebe61821a04a8e2201c"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-7/repertorio-ff8a4c40.png",
+      "sha256": "cc40a2d12d35bd7abbfd4abfac0f616c547586505bd051d80684f9b84130de5f"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-7/repertorio-ff8a4e40.png",
+      "sha256": "06909ae79526a2cb2378238de0e76cb94cf1eb7b34b2f087be2d9f430ed0eb67"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-7/repertorio-ff8a52e0.png",
+      "sha256": "fd6f8889c541202a2fba5bc0a4237c794ab8e5f8d7cd5ba1a44153620df98ab7"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-7/repertorio-ff8a5320.png",
+      "sha256": "f93ab3cf6788060f1e7daf57821356c874534ebd2b69fef99754b3639ab38c39"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-7/repertorio-ff8a5360.png",
+      "sha256": "54f7b4667d5da1b8760b85017266a884b7570b7184ebebd6372803ecc48d3adf"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-7/repertorio-ff8a5480.png",
+      "sha256": "997b60cddfc33828dd3f93c9827e1a2980add17d89c4c0280d078b608d586d6b"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-7/repertorio-ff8a54c0.png",
+      "sha256": "c0a7399e05b3fb649e95c4cedf459f951614ff6ce57ec021877fbd0cae1bcebc"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-7/repertorio-ff8a5500.png",
+      "sha256": "3eb9f1f0865690b3485131fed5125a4bbe2c18ddea02c6717d7fb521d075c980"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-8/repertorio-ff8a3080.png",
+      "sha256": "d0ac336927466ad5cc91a1aea2231f036953060c966546ba3eb7be6f11c3cd7d"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-8/repertorio-ff8a30e0.png",
+      "sha256": "ed9c03a28f0c94c95207b3fcc43475aa6d5f656471abe46911dd154b87f8b33a"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-8/repertorio-ff8a3140.png",
+      "sha256": "88bc2d3296181be67508d5cc7094dfcee267ae7de28dc861130ff193b555c3a4"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-8/repertorio-ff8a35a0.png",
+      "sha256": "e37cdcb152f70270c108b1788ed6a48c7d06fa5c7c4c7d6b7521aa0788fc7f54"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-8/repertorio-ff8a3600.png",
+      "sha256": "c0e4331cf9d32fab9b379333cc55467a05c085b0bc7125258459d1324581d5c4"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-8/repertorio-ff8a3660.png",
+      "sha256": "5bd8ad56d0d448f1fb64419f23920448a9dd79b26a40ddc38fd43c1d6f8d564e"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-8/repertorio-ff8a36c0.png",
+      "sha256": "bd83e8f30b997aace9334183cb698e96f8e56212440f3e50794e6c7cca677091"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-8/repertorio-ff8a3720.png",
+      "sha256": "2c8ec31bff39290c99e6cf9ea52b6999ae0602d1fe6df9c4fb0811b03cc33e29"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-8/repertorio-ff8a3780.png",
+      "sha256": "6c2d4b380481f4d46890ba1596515b5e8153322822997f4e1a0cd684b4908366"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-8/repertorio-ff8a37e0.png",
+      "sha256": "72c8d89aeddfa3a6f48fe8b38edfe32666b004c7a053e9cbbcd34e444e6f81dc"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-8/repertorio-ff8a3840.png",
+      "sha256": "0a4e1c8bc4a300c312dad2aaabb55c4a86a30459878798b18e98c26ddfd220fc"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-8/repertorio-ff8a3880.png",
+      "sha256": "269b9509c068910db330067db470bcb1141e03aed8d23a2b27211fd9b6595e5c"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-8/repertorio-ff8a38e0.png",
+      "sha256": "1c8b8896a1da173413ed3c4dd0398792cd53b382491b57b04ad65e292043383d"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-8/repertorio-ff8a3a60.png",
+      "sha256": "399e7c2df4872c61b9a4279e4edc29f3fbc6ec3c79aee83c007844630c1d37c7"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-8/repertorio-ff8a3ac0.png",
+      "sha256": "06b154868bad0e6c0f7dd327752c3c8950de7bcf92f0719399e1f491bb428b60"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-8/repertorio-ff8a3b20.png",
+      "sha256": "e4e3bd02e48fc7a6206debb2447d27af196bbaa565a0696fc5758c2ceb8d0bdb"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-8/repertorio-ff8a3f20.png",
+      "sha256": "b15f279e2df2961c0a96cbd457f4fcee92c3815125b86ee08f853dd584aab3f3"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-8/repertorio-ff8a3f80.png",
+      "sha256": "1e0d3805f9d28accb52193cbab07a07aac936b91ed5d118635768ed986f0ea18"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-8/repertorio-ff8a3fe0.png",
+      "sha256": "611af3d8a2504163e822ac51b5276c36f288d58cb94cc20226ca13d4a08dcb35"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-8/repertorio-ff8a4020.png",
+      "sha256": "391af2e37f544d1772f050305eaf9921e23149f9b4e999b830f9cedddec68f03"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-8/repertorio-ff8a4080.png",
+      "sha256": "6047bf8d563de153747a6469fd509300db712d011d17de88ebbc8fe649d21544"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-8/repertorio-ff8a4340.png",
+      "sha256": "ae1ddd7c9b473a48fe3fa72aa23b5823303165b4bcc8895fac55bc10a25ef125"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-8/repertorio-ff8a43a0.png",
+      "sha256": "c8419ec25f174ddbb73c19126ea24fd18d9ff65c2f75509b57c836538b792a37"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-8/repertorio-ff8a43e0.png",
+      "sha256": "d225c88ea248e4bd6d38b9f3e0f023dd9db5401cb74bb600c23e60105e60b22e"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-8/repertorio-ff8a49e0.png",
+      "sha256": "67cec0b6e91b5c740e4a2c1f219068d3ca7c2a2f92d18bc3306af5cc3f14ed65"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-8/repertorio-ff8a4a40.png",
+      "sha256": "f099f0a841e9fbfe378c44dfb74a24c72286413a7057c553d6f337dc520334f5"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-8/repertorio-ff8a4aa0.png",
+      "sha256": "ec314183da2f9cf9f0bcd7612d7a382e7a6cae4e449837f5a3c2597be71b4f66"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-8/repertorio-ff8a4ae0.png",
+      "sha256": "fea9a09871569836e39470dae42d11f34a22c2e2c0203b151d6328bdc58059cf"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-8/repertorio-ff8a4b40.png",
+      "sha256": "1cabb7c218c4eed4ef01e24238e28e5422c6800b2b1d1869d54bf2b07ce41043"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-8/repertorio-ff8a4e40.png",
+      "sha256": "67f0536702ea6c4ad693a409a6006d1a61c67ce30a4c1e7e866c5feceb67e722"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-8/repertorio-ff8a52e0.png",
+      "sha256": "16736fa329d403e0daba9972cd323f7d5c19acdf4ae0670b19ef89e9e42d4750"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-8/repertorio-ff8a5320.png",
+      "sha256": "ce07f407e0ac697a839a67e8be2026b2dbab8385b0718bdba99153a3416ae01f"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-8/repertorio-ff8a5360.png",
+      "sha256": "6970c0d9a3f203f2726eb137f3dfd423dc696bc2620a9bdaa6dfec954f087a3a"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-8/repertorio-ff8a5480.png",
+      "sha256": "582d7dfd31bd5c765bb83c8d83f88d0ffc3b49fb0a76c30752f24f56439c2f51"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-8/repertorio-ff8a54c0.png",
+      "sha256": "7968233a7b6857bf248c5fb001058f458ff14270fdae95f358740b65c22552e5"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-8/repertorio-ff8a5500.png",
+      "sha256": "af2834bfe8b668af67897a64a83c6ae968f82f3e5eef466c36104d8062bda703"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-9/repertorio-ff8b89a0.png",
+      "sha256": "879c45f3510987f94a360d3585646b87e55ca5008b7c39ba744ca48f451cf435"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-9/repertorio-ff8b8a00.png",
+      "sha256": "46be7f3d013664d05e6acb8c75c846c11c3f1b4148f72f1252d41fedb6ff5500"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-9/repertorio-ff8b8a60.png",
+      "sha256": "a452b064207574c3bb85497fe1dc904cef05db01f243442288b44d99e6c196f6"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-9/repertorio-ff8b8be0.png",
+      "sha256": "646c6c345d6daa06102b84acc343355095b5a6c92faebf289ea740a7977bf4a1"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-9/repertorio-ff8b8c40.png",
+      "sha256": "881a46ed77ec778e6f798c75ecc28f41c3b32630ba7d55f34e87e5df8d70e9e8"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-9/repertorio-ff8b8ca0.png",
+      "sha256": "a22b5a06545568ba62c3ee7f7b6f43f90e7bc4167e2c081ce5f83dae07f218a7"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-9/repertorio-ff8b9240.png",
+      "sha256": "3503ad04adbf9cd30dd3995c368714e5c8d5a7bd84d51c0e38f537ae5636f79e"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-9/repertorio-ff8b92a0.png",
+      "sha256": "736d18ecac1fc0d050f406515fbf1cbdee07b57ff024b4f078cb83e8801cfe95"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-9/repertorio-ff8b9300.png",
+      "sha256": "bde85ddc3882052df43819e86de89cb0b6aa61ca4acd5e74b69eadecd26d3021"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-9/repertorio-ff8b9360.png",
+      "sha256": "c10468c6baafd3ba857794b9aecca3b8ca9a7fce8e94e5cf148cb9829e05d6c8"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-9/repertorio-ff8b93c0.png",
+      "sha256": "2027cc0d216dfc4fffcdef525265421c21840f70c8402ea677d0ecd3df516c22"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-9/repertorio-ff8b9420.png",
+      "sha256": "419467d348605d7754b25f24445715179fc430224cb24bec2de84270b03a069b"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-9/repertorio-ff8b9480.png",
+      "sha256": "9df57c9ed9e7f8eb7b0e08d59f93672de2a64cacf0050b230886c1c6b6eb0445"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-9/repertorio-ff8b98c0.png",
+      "sha256": "3b88ac54b9731ee594d0e093b9215dd7b87ded39b6754453d15bf5ad497650fa"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-9/repertorio-ff8b9920.png",
+      "sha256": "3d908083ac17914d8cb575906d29ef3e4c1ea0200da0b8c7a5a7b4a60de36af9"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-9/repertorio-ff8b9980.png",
+      "sha256": "4986ad1ba5fce93f84b60e51a55fa4f790d6a1e48929448d14181b24f9af7641"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-9/repertorio-ff8b99e0.png",
+      "sha256": "91d782ddfcea627ed0d6817b386e613ba33ec50ef83b17d212ab647ef629ba5d"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-9/repertorio-ff8b9a20.png",
+      "sha256": "5b452b19d65fbe9ab06e96ed1cb0bf29b515f032893c6ee7c052530584f2578b"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-9/repertorio-ff8b9a80.png",
+      "sha256": "86747762f942ea579ec1871362b5b3858159b7f77ab168807393a8be073a7096"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-9/repertorio-ff8b9ae0.png",
+      "sha256": "2c6f96f062140a0004bd5f4abbe418bbc9bbca736e96772b555419f2960bd439"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-9/repertorio-ff8b9b40.png",
+      "sha256": "330177cc0671904ea86607adfaeb365a37330383a7627183ea439ce40a88b90a"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-9/repertorio-ff8b9b80.png",
+      "sha256": "d0c6b8d52456471cb330daf420efdec2ca852cf96c04305b3636f8427c28e855"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-9/repertorio-ff8b9be0.png",
+      "sha256": "b817f8ca522b148e3c7d9a4bf13bd1679f69ea0691ec0a233aa3bbdf106fb430"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-9/repertorio-ff8b9da0.png",
+      "sha256": "b55518e9e13852aeeb29dce57ba40d6c379d6a4a34a7f8ae336ee260edbf1fa6"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-9/repertorio-ff8b9e00.png",
+      "sha256": "4109b09341a04a1c7268ec049cc416aebc0a64531e1df7ad4d267db6fd9dbf37"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-9/repertorio-ff8b9e40.png",
+      "sha256": "e5d4aecf39e85119c99f468dd233fee4a7a5c5b2409f399d29d3242cb2d3df7a"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-9/repertorio-ff8b9e80.png",
+      "sha256": "73f48ded2f2e83aa60f56792aa8a5bd04ad5742101adafd7f57096f3a7a80b6f"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-9/repertorio-ff8b9ec0.png",
+      "sha256": "3bf832333f57e3d9f2e0d4baf12db7697689df71e53dbe6b59188a53e1e0181b"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-9/repertorio-ff8ba640.png",
+      "sha256": "17b63cb29419a1697d8299bda6bc8414f0637eedf7ba2fe43badaac6dd0e667e"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-9/repertorio-ff8ba6a0.png",
+      "sha256": "67007e7cb259506c54218187108cc1b3eb68aeeb3f58400d2139f6a7f070b60e"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-9/repertorio-ff8ba6e0.png",
+      "sha256": "9569cf118cfcc039315abe7673e2020f916b26c5508bf14bff20438ba8925a23"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-9/repertorio-ff8ba8e0.png",
+      "sha256": "2a94387369d2100adfd99393c68592c2da58dad6ea002e94766dbb17cdd8dfa9"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-9/repertorio-ff8ba940.png",
+      "sha256": "b5d8e29065e9fb2cec6e5cfe4e32f9d79dd2d2cf7510d6e5c2feb02c35357a49"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-9/repertorio-ff8ba9a0.png",
+      "sha256": "9bdcd838c6d1f6f87d87a1ac89f047f82b1f7f651037d8d8db144ba76d935661"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-9/repertorio-ff8bb420.png",
+      "sha256": "0463f519c6c83cb96c61e4490669b83337b747cb97baf963c5ba4dc263228b58"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-9/repertorio-ff8bb460.png",
+      "sha256": "5b183f6d10b8ebcda7f32120b14e32e299ef0fcd1a4c0cdc2010dbe2d8e2eb12"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-9/repertorio-ff8bb4c0.png",
+      "sha256": "a8a6e9b6e72061c41f8443ab2c53d0faaefb64da0ef6f6d1828a341430710833"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-9/repertorio-ff8bb600.png",
+      "sha256": "3ffaa13735004b4e7e63f8a5208702a75f0191cdc18401b15b19ec3ab598ecd9"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-9/repertorio-ff8bb640.png",
+      "sha256": "3ace971f4ce0c7b7cc6c075faff8bba1d97151db793fb95652f644164cd900fc"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/mk-9/repertorio-ff8bb680.png",
+      "sha256": "e170b3971f1d0890c01128fb97383cc6d64be6d974a31b12511739da2d3995d7"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/noob-saibot/repertorio-ff9385d0.png",
+      "sha256": "eeb3e9ebb293aef5e21775ab8c33c44367b4ae5afbb9ef7ecfb6a91b0dbb4d3c"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/noob-saibot/repertorio-ff938630.png",
+      "sha256": "041c980418a21de83f4ea3e3b7ef4701150c573ffc9ad9eb192886ff9b25be58"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/noob-saibot/repertorio-ff938690.png",
+      "sha256": "f0f57891029c5d6619888c7da9e47f6258964acdd7494d6f9ebd9ae8086cd3d4"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/noob-saibot/repertorio-ff9386f0.png",
+      "sha256": "674e30472588cf7e51d83291e5f9820361a0c5fd136b88c46f486e1bfdc95d17"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/noob-saibot/repertorio-ff938770.png",
+      "sha256": "961747b8a35dc6dfb05a6e99236ce552d6bd98eded2323f76a63f496bab47af9"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/noob-saibot/repertorio-ff938e30.png",
+      "sha256": "8d0bdd1e96c45140bbf4d9521a35f5428cc0ebbca05ba9026dba8d3cfb59dd36"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/noob-saibot/repertorio-ff938e90.png",
+      "sha256": "e27ec22b0b3d5ddcede26d478f2d7b33f15a226474c07401e8487fcfe31873f0"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/noob-saibot/repertorio-ff938ef0.png",
+      "sha256": "d21f9ad139b1e638584e0f5100cabe8bba53e2f6f8682ad21bc43d5ab0745e1f"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/noob-saibot/repertorio-ff939430.png",
+      "sha256": "9c6caf608ca3c5653384d72e3ef6de1dd8fd06771f2ed5dcd3841ea7d2e996b2"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/noob-saibot/repertorio-ff939490.png",
+      "sha256": "c850b32975beb5c8eec9da36e8d6db437706a7f6448bb2d0f65f39d36eacab09"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/noob-saibot/repertorio-ff9394f0.png",
+      "sha256": "d81e5204f4f557e6c4df74d582d33778b196e58c261d588456c84aea82a9137c"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/noob-saibot/repertorio-ff93a1d0.png",
+      "sha256": "61d6c0333e3d84052608521130054e3c4c4fdea79c0cc8038c52e8f04a4570cf"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/noob-saibot/repertorio-ff93a230.png",
+      "sha256": "b3231f0196f49102e094f0d4f06eadbf62f301faeca61f754b0e788ca27fefe5"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/noob-saibot/repertorio-ff93a290.png",
+      "sha256": "c250d87e0360419cdac8746f71a8a43fa0cf134bb9ef9da5d61db0e418f5cdc5"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/noob-saibot/repertorio-ff93a310.png",
+      "sha256": "1459878bc15e3112be83ee0faa1ba41b9f75a34a12006cbc3fdf178ea18bd292"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/noob-saibot/repertorio-ff93a370.png",
+      "sha256": "974dc4331b340b8a1388d7b5457e4d81d09bd560c1215a2cabf32b0a19191946"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/noob-saibot/repertorio-ff93a3d0.png",
+      "sha256": "ba7abe5db52206b70956a0794563f73a3943f5aa26f7f150795f3d269c0b71e4"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/noob-saibot/repertorio-ff93a430.png",
+      "sha256": "d3c003b66e92a0a664beecb416604c2fa3348d4dbba06077078171471ce2890e"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/noob-saibot/repertorio-ff93a490.png",
+      "sha256": "aee116d59c197a53174203b78cd4d0547020f5e0721677eb01a4c72ed0e8971e"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/noob-saibot/repertorio-ff93ae70.png",
+      "sha256": "f7ca0c881b5670b2734db8fa157b5ee00dc7cd6c80fb0ee6d54a88097ab4c96e"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/noob-saibot/repertorio-ff93aed0.png",
+      "sha256": "2f57d0d574c4e319131b6c6cc76247388daf65b44f9274670dc5004058efc4cd"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/noob-saibot/repertorio-ff93af30.png",
+      "sha256": "be94590389d06111359a85925db481d54ff6e2b9cd4e2a2243f23e1d0787eb5b"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/noob-saibot/repertorio-ff93af70.png",
+      "sha256": "cc4379504537eef817df572e15c1203d1d5aaa8dab7a6beb24811ab2a9079335"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/noob-saibot/repertorio-ff93afd0.png",
+      "sha256": "645e35b7dfda9a35023f0c0fe1f21cc4b3a7b149391caf387ff8c39d9deb3eab"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/noob-saibot/repertorio-ff93b010.png",
+      "sha256": "647d661fee5903ad7865b5958df3c3be3f082a8b628fbe791678e8c36f242fd4"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/noob-saibot/repertorio-ff93b810.png",
+      "sha256": "ec1e2b5a04c43d99feb28623e8c16942b01ea8b989082d67d07f7271632c39c6"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/noob-saibot/repertorio-ff93b870.png",
+      "sha256": "b968325025f3619297358580ced3082ad6f18b204ddefa7d7181186e32f5f896"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/noob-saibot/repertorio-ff93b8b0.png",
+      "sha256": "c7f89de04eba074cda6cc1bf3f9ae343df2a7463651097b343948ad3bb3a56d4"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/noob-saibot/repertorio-ff93be10.png",
+      "sha256": "427f0ab2a4d671c377764932bbbf418ed7a3c3b089afb6fe517c96576fd05da8"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/noob-saibot/repertorio-ff93be70.png",
+      "sha256": "5e5ca811eec450d42da42eae8938c4d54acc4e35c39310fbc63c526139c26957"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/noob-saibot/repertorio-ff93bed0.png",
+      "sha256": "f673b51df7a1e3685dea3dc919f49ce3ef4a09055798f0c1503f07a10e0eb777"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/noob-saibot/repertorio-ff93bf30.png",
+      "sha256": "d5b0c2ccb380a8018fa20216f5e97000a502c790a08c641dcb4ece5b2e0d9fb6"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/noob-saibot/repertorio-ff93bf90.png",
+      "sha256": "d30eb3d49e0561f0e3adbff91c6d52f1e30e64da65fdbc9f60e62c7349b6063c"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/noob-saibot/repertorio-ff93c430.png",
+      "sha256": "4f0dd5d47baf7a183f53043535ecee90a9d79891c0afbe83f5de9cfdf537c14c"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/noob-saibot/repertorio-ff93c490.png",
+      "sha256": "ffd01c4dc404922e919ab215f45d448034551e78c452378dbab29f061799cf69"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/noob-saibot/repertorio-ff93c4f0.png",
+      "sha256": "68dee24be6148dcc132c37d2e7b634f034362f7680d544f775cae8076ce102af"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/noob-saibot/repertorio-ff93c530.png",
+      "sha256": "f0a2d8da198dbdc85f4e7578578798d9c1c73e4d96d2fbcc4cb5f4cc8259a01b"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/noob-saibot/repertorio-ff93c590.png",
+      "sha256": "b1223dff0914039eea333d2fff498a66fa2785d939a9b66393de5a893615dbad"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/noob-saibot/repertorio-ff93cfd0.png",
+      "sha256": "ba9bedb236549973fbb429dd6d60a1ba91ee38ca7ea1358eb29de3800e95d151"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/noob-saibot/repertorio-ff93d010.png",
+      "sha256": "3093933b37340cf83798eec219afbaab21c8e3a7c7016f93a582f7139c019b2a"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/noob-saibot/repertorio-ff93d050.png",
+      "sha256": "353d7a607700c978e60601fbc1e405eb9effbee0350a0dd03746dbbcb63bd923"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/noob-saibot/repertorio-ff93d170.png",
+      "sha256": "f93287a0004d4bf5128b05f08fb7e0251aa0896e66ab75df6078ed2b00ea77b9"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/noob-saibot/repertorio-ff93d1b0.png",
+      "sha256": "188ffb6e454ea674e392cd233c3b6d7cac19f932c0e1ee47eabbaa0bed136e96"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/noob-saibot/repertorio-ff93d210.png",
+      "sha256": "b87514fe265d3b4bfdc052f051c10a0194cf636301998c577af119c3505f8cb6"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/noob-saibot/repertorio-ff9430c0.png",
+      "sha256": "775c31cf6a3a1cfff877745c9ae27b019793cc586cae3737deb75989d5308378"
+    },
+    {
+      "file": "arena/assets/repertorio-vinte/noob-saibot/repertorio-ff943120.png",
+      "sha256": "f45001efbf1423df5e25f0f9fb60f7ac09772652839a0126d0c23196149c4b7b"
+    },
+    {
+      "file": "arena/assets/cinematics/elenco-smoke-fatality1/sprites/sprite-0035.png",
+      "sha256": "2a29530b30d7ab7bb8529a60f1623474fd4deaa86fc8be2ba2ea874bef8cd667",
+      "repair": "matches_original_captured_RGBA"
+    },
+    {
+      "file": "arena/assets/cinematics/elenco-smoke-fatality1/sprites/sprite-0036.png",
+      "sha256": "0486cf8d28fd7f8b3aec1bceac74403b8b1f37f739bd6dbd3f525ea165a5a2a0",
+      "repair": "matches_original_captured_RGBA"
+    },
+    {
+      "file": "arena/assets/cinematics/elenco-smoke-fatality1/sprites/sprite-0037.png",
+      "sha256": "d84b9e97ab47393d1dc62cfb1f14461b7a9dc3242c0f4863314e2aba74a96e70",
+      "repair": "matches_original_captured_RGBA"
+    },
+    {
+      "file": "arena/assets/cinematics/elenco-smoke-fatality1/sprites/sprite-0038.png",
+      "sha256": "4c0ee426ec556744c242e48bc19ffb3c561e1ebb39480e58f862884228a3f95e",
+      "repair": "matches_original_captured_RGBA"
+    },
+    {
+      "file": "arena/assets/cinematics/elenco-smoke-fatality1/sprites/sprite-0039.png",
+      "sha256": "38044fabb77bbce7ee7657d6a98e9a0a87474e93762f6509959dc14bc7c2a883",
+      "repair": "matches_original_captured_RGBA"
+    },
+    {
+      "file": "arena/assets/cinematics/elenco-smoke-fatality1/sprites/sprite-0040.png",
+      "sha256": "a27aca513d03b440c77f9fb4e9c0dceaccfce098b40fffc485a2519d7434875f",
+      "repair": "matches_original_captured_RGBA"
+    },
+    {
+      "file": "arena/assets/cinematics/elenco-smoke-fatality1/sprites/sprite-0043.png",
+      "sha256": "1063235d5a6be784c8cd6bc9b85fee1da55e11bdf5b919c0184cfe2949124a50",
+      "repair": "matches_original_captured_RGBA"
+    },
+    {
+      "file": "arena/assets/cinematics/elenco-smoke-fatality1/sprites/sprite-0046.png",
+      "sha256": "afa5c736dee411587392dae193bb51111d88f6efbdd12c0dda6aa38fd09c811e",
+      "repair": "matches_original_captured_RGBA"
+    },
+    {
+      "file": "arena/assets/cinematics/elenco-smoke-fatality1/sprites/sprite-0049.png",
+      "sha256": "bb4a3b144fdfd0cfd32d76be3e0e99338feb6b3192ad503957a0c0dd49371426",
+      "repair": "matches_original_captured_RGBA"
+    },
+    {
+      "file": "arena/assets/cinematics/elenco-smoke-fatality1/sprites/sprite-0051.png",
+      "sha256": "a74b47e58f9268ba8da4a4f8ba56036789069bc539fbf22d8a1843405f944291",
+      "repair": "matches_original_captured_RGBA"
+    },
+    {
+      "file": "arena/assets/cinematics/elenco-smoke-fatality1/sprites/sprite-0052.png",
+      "sha256": "56b72254801c08b6b1bccad1d7cf02cc59dd4b468e938d241c93622d93dab200",
+      "repair": "matches_original_captured_RGBA"
+    },
+    {
+      "file": "arena/assets/cinematics/elenco-smoke-fatality1/sprites/sprite-0053.png",
+      "sha256": "d80a23fa298b747c6c0fb61464f17fb03b40af857d5e09c58a6326eed08948a6",
+      "repair": "matches_original_captured_RGBA"
+    },
+    {
+      "file": "arena/assets/cinematics/elenco-smoke-fatality1/sprites/sprite-0055.png",
+      "sha256": "2a2e611342487b5405dd8e0f2d1e882a0e0b589b39b038fef66fd0cd07856d40",
+      "repair": "matches_original_captured_RGBA"
+    },
+    {
+      "file": "arena/assets/cinematics/elenco-smoke-fatality1/sprites/sprite-0056.png",
+      "sha256": "36a1fd42f7e7512d1b3eaaf5ff4c4183fa92450f2dbdd033f7b5335592582156",
+      "repair": "matches_original_captured_RGBA"
+    },
+    {
+      "file": "arena/assets/cinematics/elenco-smoke-fatality1/sprites/sprite-0057.png",
+      "sha256": "49c7bf555bdeffd70ae21f3f75bffd304b1ba6a6078a719146ae245feaec21ac",
+      "repair": "matches_original_captured_RGBA"
+    },
+    {
+      "file": "arena/assets/cinematics/elenco-smoke-fatality1/sprites/sprite-0059.png",
+      "sha256": "58dc8d63fc40e9d25a8be2b013fd7dd76e3018e1ee80a5357657e08048cfc55c",
+      "repair": "matches_original_captured_RGBA"
+    },
+    {
+      "file": "arena/assets/cinematics/elenco-smoke-fatality1/sprites/sprite-0060.png",
+      "sha256": "42ce30e55ee0a1d26f90b805ddfe502981ed27b666dc5a6b9034b8a30aa2450b",
+      "repair": "matches_original_captured_RGBA"
+    },
+    {
+      "file": "arena/assets/cinematics/elenco-smoke-fatality1/sprites/sprite-0063.png",
+      "sha256": "0da597d0a69484d4e57721aa3a777c7fb70cd3cf73e837bd623511578c876d95",
+      "repair": "matches_original_captured_RGBA"
+    },
+    {
+      "file": "arena/assets/cinematics/elenco-smoke-fatality1/sprites/sprite-0064.png",
+      "sha256": "9c0e3235c82d680bfa07eae14f115309c58db9974060c178b5ebde55d4cf09d1",
+      "repair": "matches_original_captured_RGBA"
+    },
+    {
+      "file": "arena/assets/cinematics/elenco-smoke-fatality1/sprites/sprite-0065.png",
+      "sha256": "02c3a84acc54530d0119c6fdc52df0a3cc987335d28730a8bb41eb6e43fef1e6",
+      "repair": "matches_original_captured_RGBA"
+    },
+    {
+      "file": "arena/assets/cinematics/elenco-smoke-fatality1/sprites/sprite-0067.png",
+      "sha256": "1ffa663dcbdf0e75b354d0398eb3901bbd81196bcd27468f833924ae360c060c",
+      "repair": "matches_original_captured_RGBA"
+    },
+    {
+      "file": "arena/assets/cinematics/elenco-smoke-fatality1/sprites/sprite-0068.png",
+      "sha256": "8269d7ccc23d42a4a46b98128f63651c8c9984ccdb63386d52495312b4e06386",
+      "repair": "matches_original_captured_RGBA"
+    },
+    {
+      "file": "arena/assets/cinematics/elenco-smoke-fatality1/sprites/sprite-0069.png",
+      "sha256": "81e6d1cc268b621a184bb710aa42c98b43e03ca25516c81646ab0adf237f75d6",
+      "repair": "matches_original_captured_RGBA"
+    },
+    {
+      "file": "arena/assets/cinematics/elenco-smoke-fatality1/sprites/sprite-0071.png",
+      "sha256": "334e0313230e7d4d90161a13e2d1b11765bb10dc1ed97dd12164c721d546dd2e",
+      "repair": "matches_original_captured_RGBA"
+    },
+    {
+      "file": "arena/assets/cinematics/elenco-smoke-fatality1/sprites/sprite-0072.png",
+      "sha256": "0c91d807531c0c9ddc1090e50f3bd6c239d61d86f579595dff289ecb9ed7dd23",
+      "repair": "matches_original_captured_RGBA"
+    },
+    {
+      "file": "arena/assets/cinematics/elenco-smoke-fatality1/sprites/sprite-0073.png",
+      "sha256": "de05995ba05a45b3796137b3fa5e26bff715d293e031d2414112d4c4c4a267ef",
+      "repair": "matches_original_captured_RGBA"
+    },
+    {
+      "file": "arena/assets/cinematics/elenco-smoke-fatality1/sprites/sprite-0075.png",
+      "sha256": "c01d6ed924670e263baf529aebaab0286f167accb04350e082433d0ccb4470f0",
+      "repair": "matches_original_captured_RGBA"
+    },
+    {
+      "file": "arena/assets/cinematics/elenco-smoke-fatality1/sprites/sprite-0076.png",
+      "sha256": "74ed8d78c78349a3954c0da0e4e586e253e2c64685fb1afe30a60ecac07dd1a8",
+      "repair": "matches_original_captured_RGBA"
+    },
+    {
+      "file": "arena/assets/cinematics/elenco-smoke-fatality1/sprites/sprite-0078.png",
+      "sha256": "898172a0596214bd327499142d5db87b111351742e6377a064f4b3cc89a7f377",
+      "repair": "matches_original_captured_RGBA"
+    },
+    {
+      "file": "arena/assets/cinematics/elenco-smoke-fatality1/sprites/sprite-0079.png",
+      "sha256": "d29b8f350c609080bb1929ab4628c03c7a06509ee9f58b6eaeb681a86b6f12b3",
+      "repair": "matches_original_captured_RGBA"
+    },
+    {
+      "file": "arena/assets/cinematics/elenco-smoke-fatality1/sprites/sprite-0081.png",
+      "sha256": "c8b81249b6b69cfd7c4c780338a78359547b3438aab178236012d6fedd784c87",
+      "repair": "matches_original_captured_RGBA"
+    },
+    {
+      "file": "arena/assets/cinematics/elenco-smoke-fatality1/sprites/sprite-0082.png",
+      "sha256": "3a0d7073fb0087fe7383d979543b8288a10e17cec9a421674db33de90b28beca",
+      "repair": "matches_original_captured_RGBA"
+    },
+    {
+      "file": "arena/assets/cinematics/elenco-smoke-fatality1/sprites/sprite-0085.png",
+      "sha256": "cc1ac6ea9292022d3fbffd4c3824b3cb30ed4388e4ab2bb2ab63e06f5bb25241",
+      "repair": "matches_original_captured_RGBA"
+    },
+    {
+      "file": "arena/assets/cinematics/elenco-smoke-fatality1/sprites/sprite-0086.png",
+      "sha256": "83aedcc6e628ec2476a20973991a61732773262b8c9c64a3e91e85d5884f21a6",
+      "repair": "matches_original_captured_RGBA"
+    },
+    {
+      "file": "arena/assets/cinematics/elenco-smoke-fatality1/sprites/sprite-0088.png",
+      "sha256": "5ca4e5b9c0f6cb47cc27a4d8662809d3578a91cdb42718aba664359a195063c0",
+      "repair": "matches_original_captured_RGBA"
+    },
+    {
+      "file": "arena/assets/cinematics/elenco-smoke-fatality1/sprites/sprite-0089.png",
+      "sha256": "96f58d6009c5c55d4337546051e6359b37965fed41ecfd18a2fd2ce525366c47",
+      "repair": "matches_original_captured_RGBA"
+    },
+    {
+      "file": "arena/assets/cinematics/elenco-smoke-fatality1/sprites/sprite-0092.png",
+      "sha256": "ebf330996fea0c7b42a12c27f94a8d94940dd40cbe7c7b5a4a301185e25eb833",
+      "repair": "matches_original_captured_RGBA"
+    },
+    {
+      "file": "arena/assets/cinematics/elenco-smoke-fatality1/sprites/sprite-0093.png",
+      "sha256": "6305d3b8de2f14c58bbef21b1915f3fa0a55333727c25e9cb4c72e703ca2a388",
+      "repair": "matches_original_captured_RGBA"
+    },
+    {
+      "file": "arena/assets/cinematics/elenco-smoke-fatality1/sprites/sprite-0094.png",
+      "sha256": "9b5594779082babb066c97895a3375c4bd5ae56226c3bdc05edf98c4700d8fc3",
+      "repair": "matches_original_captured_RGBA"
+    },
+    {
+      "file": "arena/assets/cinematics/elenco-smoke-fatality1/sprites/sprite-0095.png",
+      "sha256": "3d9503d5c501eca5c45a2b706d56b425ab016ac8a32384a98bc15711c659a3c4",
+      "repair": "matches_original_captured_RGBA"
+    },
+    {
+      "file": "arena/assets/cinematics/elenco-smoke-fatality1/sprites/sprite-0099.png",
+      "sha256": "e5b602482836a77a66f68a1bcd0155f46c93943373372b67884784b562de3a57",
+      "repair": "matches_original_captured_RGBA"
+    },
+    {
+      "file": "arena/assets/cinematics/elenco-smoke-fatality1/sprites/sprite-0100.png",
+      "sha256": "72f20cb07a5252a2f072805f29192c5dac7224ed266249e2a4549a052bb08026",
+      "repair": "matches_original_captured_RGBA"
+    }
+  ],
+  "recoveredCinematicSprites": 42,
+  "checks": {
+    "data": "2026-11-19",
+    "personagens": [
+      "human-smoke",
+      "mk-10",
+      "mk-11",
+      "mk-12",
+      "mk-13",
+      "mk-14",
+      "mk-15",
+      "mk-16",
+      "mk-17",
+      "mk-19",
+      "mk-2",
+      "mk-20",
+      "mk-3",
+      "mk-4",
+      "mk-5",
+      "mk-6",
+      "mk-7",
+      "mk-8",
+      "mk-9",
+      "noob-saibot"
+    ],
+    "personagensConcluidos": 20,
+    "comboPlaybacks": 328,
+    "normalInputs": 880,
+    "specialCommandCases": 184,
+    "nativeActiveComboRecords": 143,
+    "disabledOriginalRecordsNotInvented": 1,
+    "nativeComboSpecialCallbacks": 1,
+    "finisherPlaybacks": 330,
+    "shangMorphCases": 38,
+    "restoredCapturedSprites": 42,
+    "browserCharacters": 20,
+    "networkKeyboard": "Jax combo including Block and Noob normal throw synchronized between two browser clients",
+    "originalFidelityValidated": false
+  },
+  "totalMKComplete": 26,
+  "remainingSF": 17,
+  "planChangedBytes": 20
+}

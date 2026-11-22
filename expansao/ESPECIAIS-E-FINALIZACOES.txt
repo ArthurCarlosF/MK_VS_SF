@@ -1,0 +1,23 @@
+ESPECIAIS E FINALIZAÇÕES — IMPLEMENTAÇÃO DO ELENCO
+
+O item de implementação de especiais e finalizações está concluído no plano: os 43 personagens têm a caixa de especiais marcada, inclusive Sub-Zero. Os campos de testes gerais e validação com os originais continuam abertos.
+
+UMK3 ARCADE
+44 fatalities, 20 Animalities, 21 Babalities, 20 Friendships e comandos de finalização de cenário para os 23 lutadores que os possuem. Os quatro cenários são Scorpion’s Lair, Subway, Bell Tower e Pit 3. Mercy está disponível aos 23 lutadores correspondentes.
+
+As lacunas do guia foram conferidas nas tabelas da ROM: conteúdo inexistente no repertório arcade dos secretos e chefes não foi inventado. Brutalities de outras versões permanecem fora do escopo escolhido.
+
+As cenas usam os sprites, efeitos e áudio das rotinas originais capturadas. Parte das cenas foi acionada por uma alteração de estado somente na memória do emulador para obter os recursos: isso não é prova de aceitação do comando original nem da sua janela de tempo. As ROMs originais permaneceram intactas.
+
+COMPATIBILIDADE
+A cada eliminação, a dupla envolvida fica protegida até a cena terminar; os demais continuam lutando. As finalizações de cenário compartilham o evento nativo, usando o uppercut próprio do atacante. Vítimas de outro personagem/jogo têm adaptação de animação e fragmentos; fidelidade visual completa e calibração permanecem para a etapa posterior. As cenas que mudavam o mundo no original foram mantidas como efeitos da dupla, preservando a partida dos demais.
+
+VERIFICAÇÃO DE IMPLEMENTAÇÃO
+394 casos de comandos/cenas nos dois lados: passaram, sem pendências de filme. Mercy dos 23 personagens: passou. Fatality de Kano digitada por teclado e executada pelo servidor, sincronizada e encerrada em dois navegadores: passou. Transformações do Shang Tsung e os testes existentes de isolamento das duplas continuaram passando. Isso não substitui a comparação de fidelidade com os jogos originais.
+
+STREET FIGHTER
+Os especiais e Supers dos 17 personagens seguem implementados; não receberam finalizações inventadas de MK.
+
+INICIAR
+D:\Projetos\Mortal Kombat vs Street Fighter\Abrir expansao.cmd
+Recarregue uma página antiga com Ctrl+F5. Os comandos por personagem aparecem abaixo da arena.

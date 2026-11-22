@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "groups": [
+    "Seis projéteis com arte própria, âncoras, colisões e reações existentes",
+    "Saída e percurso medidos espelhados nos dois lados, com continuação finita",
+    "Três velocidades e prioridades dos comandos azul/vermelho nas três forças",
+    "Dano e defesa funcionam contra os dois universos, sem contato duplicado",
+    "Um projétil por dono e liberação após o fim do voo",
+    "Colisão entre projéteis usa os retângulos nativos e não atinge os donos",
+    "Contato tardio do projétil não confirma um soco diferente do dono",
+    "Projéteis nativos atingem o carro sem aplicar reação humana",
+    "Quatro, oito e dezesseis participantes com os novos projéteis permanecem estáveis"
+  ],
+  "limits": [
+    "Native sampled flight is retained until the first contact witness; later flight is extrapolated.",
+    "Turbo phase, random damage, cancellation differences, close-range red knockdown and corner branches remain pending.",
+    "Super and air Tatsumaki are not included in this pack."
+  ]
+}

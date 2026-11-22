@@ -79,7 +79,7 @@
     return entry.request;
   }
 
-  function draw(ctx, {cinematics = [], cameraLeft, cameraY = 0, scale, floor}) {
+  function draw(ctx, {cinematics = [], cameraLeft, cameraY = 0, scale, floor, drawVictim, drawOwner, localizeEffects = false}) {
     if (![cameraLeft, cameraY, scale, floor].every(Number.isFinite) || scale <= 0) return 0;
     let drawn = 0;
     for (const scene of cinematics) {
@@ -99,8 +99,31 @@
         // MK's presentation uses one native pixel per world unit. The scene
         // transform mirrors every root and sprite around the initial owner.
         ctx.scale(mirror * scale, scale);
+        if(frame.screenFade>0){
+          ctx.save();ctx.globalAlpha=Math.min(1,frame.screenFade);ctx.fillStyle='#000';
+          if(localizeEffects){const left=-(entry.profile.origin.nativeOwnerInitialX-entry.profile.origin.nativeCameraInitialX);ctx.fillRect(left,-260,400,300);}else ctx.fillRect(-3000,-3000,6000,6000);
+          ctx.restore();
+        }
         for (const object of frame.objects) {
           const {x, rootY} = object.stageAlignedWorldFromOwnerInitial;
+          const baby = entry.profile.babySourcePose===object.nativePose;
+          if(scene.adaptOwner&&object.role==='owner'&&drawOwner){
+            drawOwner(ctx,{scene,object,x,feetY:object.stageAlignedWorldFromOwnerInitial.feetY,sourceFacing:entry.profile.origin.sourceFacing});
+            drawn++;continue;
+          }
+          if (scene.adaptVictim && (object.role==='victim'||baby)) {
+            const babyId=baby&&entry.profile.babyVictims?.[scene.victimFighter];
+            const feetY=baby ? rootY-object.anchor[1]-entry.profile.assets[object.asset].height
+                             : object.stageAlignedWorldFromOwnerInitial.feetY;
+            if (babyId) {
+              const image=entry.sprites.get(babyId);
+              ctx.drawImage(image,x-image.naturalWidth/2,-feetY-image.naturalHeight);
+            } else if (drawVictim) {
+              drawVictim(ctx,{scene,object,x,feetY,baby,sourceFacing:entry.profile.origin.sourceFacing});
+            }
+            drawn++;
+            continue;
+          }
           const [anchorX, anchorY] = object.anchor;
           const image = entry.sprites.get(object.asset);
           if (object.flipX) {
@@ -124,6 +147,23 @@
     return drawn;
   }
 
+  function drawScenery(ctx, {cinematics, cameraLeft, cameraY, scale, floor, isolatedDuel}) {
+    for (const scene of cinematics) {
+      const entry=profiles.get(scene.profile)?.ready;
+      const frame=entry?.profile.frames[scene.frame];
+      if (!frame?.scenery?.length || frame.sceneryMode==='descent'&&!isolatedDuel) continue;
+      ctx.save();
+      if (frame.sceneryMode==='descent') {
+        ctx.fillStyle='#000';
+        ctx.fillRect(0,0,ctx.canvas.width,ctx.canvas.height);
+      }
+      ctx.translate((scene.originX-cameraLeft)*scale, floor+(cameraY-scene.originY)*scale);
+      ctx.scale(scene.facing*entry.profile.origin.sourceFacing*scale,scale);
+      for (const [asset,x,y] of frame.scenery) ctx.drawImage(entry.sprites.get(asset),x,y);
+      ctx.restore();
+    }
+  }
+
   function bounds(cinematics) {
     let left=Infinity,right=-Infinity;
     for(const scene of cinematics){
@@ -140,5 +180,5 @@
     return Number.isFinite(left)?{left,right}:null;
   }
 
-  scope.NativeCinematics = Object.freeze({load, draw, bounds});
+  scope.NativeCinematics = Object.freeze({load, draw, drawScenery, bounds});
 })(typeof window === 'undefined' ? globalThis : window);

@@ -4,11 +4,17 @@
   const params = new URLSearchParams(location.search);
   const storedSession=window.FightSession.parse(params);
   const ids=storedSession.ids;
+  const loadedIds=[...new Set([...ids,...(ids.includes('mk-12')?(window.SHANG_MORPHS||[]).map(f=>f.target):[])])];
   let SCALE=2;
   const canvas = document.querySelector('canvas'), ctx = canvas.getContext('2d');
   const overlay = document.querySelector('#overlay'), status = document.querySelector('#status');
   const images = new Map(), keys = new Set(), pulses = new Set(), pointers = new Map(), pointerPulses = [], errors = [];
   let game, ready = false, paused = false, last = null, accumulator = 0;
+  const cinemaOwners=new Set();
+  function cinematicFilmsFor(ownerIds){
+    return Object.entries(window.NATIVE_FINISHERS||{}).filter(([,profile])=>profile.url&&
+      (profile.provenPairs.some(pair=>ownerIds.includes(pair.owner))||profile.adaptOwners?.some(id=>ownerIds.includes(id))));
+  }
   let network=null;
   const sound=window.ArenaSound?new window.ArenaSound({toggle:document.querySelector('#audio-enabled'),volume:document.querySelector('#audio-volume'),status:document.querySelector('#audio-status')}):null;
   let diagnostics = false;
@@ -60,6 +66,12 @@
   }
   function setPaused(value) {
     if (!ready) return;
+    const newCinemaOwners=game.players.flatMap(p=>[p.id,window.FIGHT_DATA.characters[p.id].moves[p.action?.name]?.morphTarget]).filter(id=>id&&!cinemaOwners.has(id));
+    if(newCinemaOwners.length&&window.NativeCinematics){
+      newCinemaOwners.forEach(id=>cinemaOwners.add(id));
+      const films=cinematicFilmsFor(newCinemaOwners);sound?.prepareCinematicAudio(films);
+      Promise.all(films.map(([id,p])=>window.NativeCinematics.load(p.url,id))).catch(e=>{errors.push(e.message);status.textContent=e.message;});
+    }
     paused = value; accumulator = 0; last = null; clearInput();
     if(network)network.input({},true);
     document.querySelector('#pause').textContent = paused ? 'Continuar' : 'Pausar';
@@ -76,6 +88,33 @@
     if (!ready) return;
     if(network){network.rematch();return;}
     game.reset();sound?.reset(); clearInput(); accumulator = 0; last = null; status.textContent=window.FightSession.label(game);draw();
+  }
+  function drawCinematicVictim(context,{scene,object,x,feetY,baby,sourceFacing}) {
+    const fighter=bank[scene.victimFighter];
+    if (!fighter||!Number.isFinite(feetY)) return;
+    const airborne=feetY>4 || object.nativePose==='0xff93df90';
+    const knockedDown=object.nativePose==='0xff9465c0';
+    const clip=baby ? fighter.clips.crouch : airborne ? fighter.clips.fall : knockedDown ? fighter.clips.knockdown : fighter.clips.hit;
+    const frames=(clip||fighter.clips.idle).frames;
+    const index=knockedDown?frames.length-1:Math.floor(scene.frame/6)%frames.length;
+    const frame=frames[index],image=images.get(scene.victimFighter+'/'+frame.asset);
+    if (!image) return;
+    const size=(ARENA_PRESENTATION.universeScale[fighter.universe]||1)*(baby?.34:1);
+    context.save();
+    context.translate(x,-feetY);
+    context.scale(-sourceFacing*(frame.sourceFacing||1)*size,size);
+    context.drawImage(image,frame.x,frame.y);
+    context.restore();
+  }
+  function drawCinematicOwner(context,{scene,x,feetY,sourceFacing}) {
+    const fighter=bank[scene.ownerFighter],definition=window.FIGHT_DATA.characters[scene.ownerFighter];
+    if(!fighter||!Number.isFinite(feetY))return;
+    const move=definition.moves[definition.normalControls?.punch2?.crouch];
+    const strike=fighter.clips[move?.clip]||fighter.clips.idle;
+    const clip=scene.frame<strike.frames.length?strike:fighter.clips.idle;
+    const frame=clip.frames[Math.min(clip.frames.length-1,scene.frame<strike.frames.length?scene.frame:Math.floor(scene.frame/4)%clip.frames.length)];
+    const texture=images.get(scene.ownerFighter+'/'+frame.asset);if(!texture)return;
+    context.save();context.translate(x,-feetY);context.scale(sourceFacing*(frame.sourceFacing||1),1);context.drawImage(texture,frame.x,frame.y);context.restore();
   }
   function scenery(camera) {
     if(game.bonus?.native&&window.NativeCarArt?.drawStage(ctx,{b:game.bonus,left:camera-WIDTH/SCALE/2,scale:SCALE,floor:FLOOR+(game.cameraY||0)*SCALE,width:WIDTH,height:HEIGHT}))return;
@@ -130,7 +169,7 @@
   }
   function draw() {
     if (!ready) return;
-    sound?.tick(game,network?.match);
+    sound?.tick(game,network?.match,paused&&!network);
     const scenes=window.NativeCinematics?(game.cinematics||[]):[];
     const range=scenes.length?window.NativeCinematics.bounds(scenes):null;
     let camera=game.camera;
@@ -150,24 +189,38 @@
     const floor=FLOOR+(game.cameraY||0)*SCALE;
     ctx.imageSmoothingEnabled = false; scenery(camera);
     const left = camera - WIDTH / SCALE / 2;
+    if(scenes.length)window.NativeCinematics.drawScenery(ctx,{
+      cinematics:scenes,cameraLeft:left,cameraY:game.cameraY||0,scale:SCALE,floor:FLOOR,isolatedDuel:game.players.length===2
+    });
     window.FightSession.drawBonus(ctx,game,left,SCALE,floor);
     const carClip=game.bonus?.native&&window.NativeCarArt;
     if(carClip)window.NativeCarArt.clip(ctx,game.bonus,left,SCALE,floor);
     const protectedSlots=new Set(scenes.flatMap(c=>[c.owner,c.target]));
     const finishSlots=new Set((network?game.finishOffers:game.visibleFinishOffers?.()||[]).map(c=>c.owner));
     for (const [i, p] of game.players.entries()) {
+      document.querySelector('#p'+(i+1)+' strong').textContent=(p.morphBase?'SHANG TSUNG → ':'')+bank[p.id].name.toUpperCase();
       const c = bank[p.id], clip=c.clips[p.state]||c.clips.idle, frame = clip.frames[Math.min(p.frame,clip.frames.length-1)];
       const asset = c.assets[frame.asset], im = images.get(p.id + '/' + frame.asset);
       const spriteScale = SCALE * (ARENA_PRESENTATION.universeScale[c.universe] || 1);
-      const x = Math.round((p.x - left) * SCALE);
-      if(!protectedSlots.has(i)){
+      const sourceUnit=c.movement?.sourceScale||1;
+      const visualX=c.nativeGroundGait?.universe==='sf'?Math.floor(p.x/sourceUnit)*sourceUnit:p.x;
+      const x = Math.round((visualX - left) * SCALE);
+      if(!protectedSlots.has(i)&&!p.finisherRemoved){
       ctx.fillStyle = '#0007'; ctx.beginPath(); ctx.ellipse(x, floor + 2, 50, 8, 0, 0, Math.PI * 2); ctx.fill();
       ctx.save(); ctx.translate(x, floor-p.y*SCALE);
       // Normalize the PNG's captured orientation around its own anchor before
       // applying the live facing. Some teleport poses already face left.
       ctx.scale(p.facing * (frame.sourceFacing || 1) * spriteScale, spriteScale);
+      if(p.projectileImmuneUntil>game.elapsed&&Math.floor(game.elapsed*18)%2===0)ctx.filter='brightness(1.5) saturate(1.8)';
+      if(p.frozenUntil>game.elapsed&&!p.bindStyle)ctx.filter='brightness(1.15) saturate(.85) sepia(.65) hue-rotate(145deg)';
       if(p.flash>0)ctx.globalAlpha=.55+Math.sin(game.elapsed*100)*.25;
-      ctx.drawImage(im, Math.round(frame.x), Math.round(frame.y)); ctx.restore();
+      if(!p.invisible)ctx.drawImage(im, Math.round(frame.x), Math.round(frame.y)); ctx.restore();
+      if(p.bindStyle==='net'&&p.frozenUntil>game.elapsed){
+        const net=bank['mk-8'].clips.netBinding?.frames||[];
+        const index=Math.min(net.length-1,Math.max(0,Math.floor((game.elapsed-p.bindStarted)*bank['mk-8'].fps)));
+        const pose=net[index],texture=pose&&images.get('mk-8/'+pose.asset);
+        if(texture){ctx.save();ctx.translate(x,floor-p.y*SCALE);ctx.scale(SCALE,SCALE);ctx.drawImage(texture,pose.x,pose.y);ctx.restore();}
+      }
       ctx.font = 'bold 10px Arial'; ctx.textAlign = 'center'; ctx.fillStyle = i ? '#a9bfff' : '#efd38d';
       ctx.fillText((i + 1) + 'P', x, Math.min(HEIGHT-10, floor + 26));
       if (diagnostics) {
@@ -181,25 +234,35 @@
       panel.querySelector('span').textContent=p.reaction?(p.reaction.guarded?'DEFENDENDO':p.reaction.phase==='getup'?'LEVANTANDO':p.reaction.phase==='down'?'CAÍDO':'ATINGIDO'):({idle:'EM GUARDA',forward:'AVANÇANDO',backward:'RECUANDO',crouch:'AGACHADO',guard:'DEFENDENDO',crouchGuard:'DEFESA BAIXA',jump:'NO AR',jumpForward:'NO AR',jumpBackward:'NO AR',jumpRunForward:'NO AR',run:'CORRENDO',hit:'ATINGIDO',impaled:'PRESO NA LANÇA',reel:'PUXANDO',ko:'K.O.',knockdown:'CAÍDO'})[p.state]||'ATACANDO';
       if(protectedSlots.has(i))panel.querySelector('span').textContent='FINALIZAÇÃO';
       else if(finishSlots.has(i))panel.querySelector('span').textContent='PODE FINALIZAR';
+      else if(p.finisherRemoved)panel.querySelector('span').textContent='ELIMINADO';
       const stamina=panel.querySelector('.run-energy');if(stamina){const m=c.movement?.run;stamina.hidden=!m;if(m){stamina.querySelector('i').style.width=(100*(p.motion?.runEnergy??m.maximum)/m.maximum)+'%';stamina.setAttribute('aria-valuenow',String(Math.round(p.motion?.runEnergy??m.maximum)));}}
       const meter=panel.querySelector('.super-meter');if(meter&&!meter.hidden){meter.querySelector('i').style.width=p.meter+'%';meter.setAttribute('aria-valuenow',String(Math.round(p.meter)));meter.classList.toggle('full',p.meter>=100-1e-8);}
       panel.querySelector('.health i').style.width=p.health+'%';panel.querySelector('.health').setAttribute('aria-valuenow',p.health);
       panel.querySelector('.score').textContent=game.mode==='bonus'?game.bonus.scores[i]+' PONTOS':'●'.repeat(game.wins[i])+'○'.repeat(Math.max(0,2-game.wins[i]))+(p.combo>1?' · '+p.combo+' ACERTOS':'');
     }
-    if(scenes.length)window.NativeCinematics.draw(ctx,{cinematics:scenes,cameraLeft:left,cameraY:game.cameraY||0,scale:SCALE,floor:FLOOR});
+    if(scenes.length)window.NativeCinematics.draw(ctx,{cinematics:scenes,cameraLeft:left,cameraY:game.cameraY||0,scale:SCALE,floor:FLOOR,drawVictim:drawCinematicVictim,drawOwner:drawCinematicOwner,localizeEffects:ids.length>2});
     for(const q of game.projectiles){
       const sx=(q.x-left)*SCALE,sy=floor-q.y*SCALE,owner=game.players[q.owner];
       if(q.rope){
         const hand=game.socket(owner,'spear');
         if(!hand)continue;
-        drawRope((hand.x-left)*SCALE,floor-hand.y*SCALE,sx,sy);
-        ctx.fillStyle='#ddd0a3';ctx.beginPath();ctx.moveTo(sx+q.facing*14,sy);ctx.lineTo(sx-q.facing*8,sy-6);ctx.lineTo(sx-q.facing*8,sy+6);ctx.fill();
+        const native=game.definition(owner).moves[q.name].projectile,head=native.nativeSpear&&bank[owner.id].clips[native.clip]?.frames[0],im=head&&images.get(owner.id+'/'+head.asset);
+        if(im){
+          const distance=Math.max(0,(q.x-hand.x)*q.facing);ctx.save();ctx.translate(sx,sy);ctx.scale(q.facing*SCALE,SCALE);
+          ctx.beginPath();ctx.rect(-distance-1,-40,distance+3,80);ctx.clip();ctx.drawImage(im,head.x,head.y);
+          const span=im.naturalWidth-70;
+          for(let x=head.x-span;x>-distance-span;x-=span)ctx.drawImage(im,0,0,span,im.naturalHeight,x,head.y,span,im.naturalHeight);
+          ctx.restore();
+        }else{
+          drawRope((hand.x-left)*SCALE,floor-hand.y*SCALE,sx,sy);
+          ctx.fillStyle='#ddd0a3';ctx.beginPath();ctx.moveTo(sx+q.facing*14,sy);ctx.lineTo(sx-q.facing*8,sy-6);ctx.lineTo(sx-q.facing*8,sy+6);ctx.fill();
+        }
       }else{
         const native=game.definition(owner).moves[q.name].projectile;
         if(native?.clip){
           const c=bank[owner.id],clip=c.clips[native.clip],at=Math.floor(q.age*native.sampleRate),loop=native.loopStart||0;
           const index=at<clip.frames.length?at:loop+(at-loop)%Math.max(1,clip.frames.length-loop),frame=clip.frames[index];
-          if(frame){const im=images.get(owner.id+'/'+frame.asset);if(im){ctx.save();ctx.translate(sx,sy);ctx.scale(q.facing*(frame.sourceFacing||1)*SCALE*1.25,SCALE*1.25);ctx.drawImage(im,frame.x,frame.y);ctx.restore();}}
+          if(frame){const im=images.get(owner.id+'/'+frame.asset);if(im){ctx.save();const unit=SCALE*(ARENA_PRESENTATION.universeScale[c.universe]||1);ctx.translate(sx,sy-(native.visualOffsetY||0)*SCALE);ctx.scale(q.facing*(frame.sourceFacing||1)*unit,unit);ctx.drawImage(im,frame.x,frame.y);ctx.restore();}}
           continue;
         }
         const c=bank[owner.id],ids=c.projectileAssets||[],id=ids[Math.floor(q.age*18)%ids.length],a=c.assets[id],im=images.get(owner.id+'/'+id);
@@ -214,7 +277,15 @@
       drawRope((hand.x-left)*SCALE,floor-hand.y*SCALE,
         (target.x+target.facing*9-left)*SCALE,floor-(target.y+body.height*.78)*SCALE);
     }
-    for(const e of game.effects){ctx.strokeStyle=e.guarded?'#92baff':'#ffe59a';ctx.lineWidth=3;const x=(e.x-left)*SCALE,y=floor-e.y*SCALE,r=8+e.age*100;ctx.beginPath();ctx.arc(x,y,r,0,Math.PI*2);ctx.stroke();}
+    for(const e of game.effects){
+      if(e.kind==='nativeScorpionSpearBlood'){
+        const film=window.SCORPION_NATIVE_PHYSICS_ART.scorpion.effects.spearBlood,frame=film.frames[Math.floor(e.age*film.sampleRate)]||[];
+        ctx.save();ctx.translate((e.x-left)*SCALE,floor-e.y*SCALE);ctx.scale(e.facing*SCALE,SCALE);
+        for(const particle of frame){const image=images.get('scorpion/'+particle.asset);if(image)ctx.drawImage(image,particle.x,-particle.y);}
+        ctx.restore();continue;
+      }
+      ctx.strokeStyle=e.guarded?'#92baff':'#ffe59a';ctx.lineWidth=3;const x=(e.x-left)*SCALE,y=floor-e.y*SCALE,r=8+e.age*100;ctx.beginPath();ctx.arc(x,y,r,0,Math.PI*2);ctx.stroke();
+    }
     if(carClip)ctx.restore();
     document.querySelector('#timer').textContent=game.mode==='training'?'∞':Math.ceil(game.timer);
     document.querySelector('#round').textContent=game.mode==='bonus'?'CARRO · '+game.bonus.score+' PONTOS':'ROUND '+game.round;
@@ -289,11 +360,39 @@
   async function start() {
     try {
       game = new FightArena(bank, ids,window.FIGHT_DATA,storedSession.options);
+      if(ids.includes('mk-12'))overlay.querySelector('span').textContent='Carregando os lutadores e as 19 transformações do Shang Tsung…';
       if(window.NativeStages?.get(game.stageId))await window.NativeStages.load('assets/stages/',game.stageId);
       if(game.mode==='bonus')await window.NativeCarArt?.load();
-      if(window.NativeCinematics)await Promise.all(Object.entries(window.NATIVE_FINISHERS||{}).filter(([,profile])=>profile.url&&profile.provenPairs.some(pair=>ids.some((id,i)=>id===pair.owner&&ids.some((target,j)=>j!==i&&target===pair.victim)))).map(([id,profile])=>window.NativeCinematics.load(profile.url,id)));
+      if(window.NativeCinematics){
+        const films=cinematicFilmsFor(ids);ids.forEach(id=>cinemaOwners.add(id));
+        await Promise.all(films.map(([id,profile])=>window.NativeCinematics.load(profile.url,id)));
+        sound?.prepareCinematicAudio(films);
+        const help=document.querySelector('#finisher-help');
+        if(help){
+          help.hidden=!films.length;
+          if(ids.includes('mk-4')){
+            const subZeroHelp=document.createElement('p');
+            subZeroHelp.className=help.className;
+            subZeroHelp.textContent='Sub-Zero: de distância de rasteira, Trás, Trás, Baixo, Trás, Correr. De perto, Bloqueio, Bloqueio, Correr, Bloqueio, Correr. Babality: Baixo, Trás, Trás, Chute alto, sem bloquear na rodada. Animality: após Mercy e outro nocaute, segure Bloqueio e faça Frente, Frente, Cima, Cima. Nos quatro cenários compatíveis, de perto: Trás, Baixo, Frente, Frente, Chute alto.';
+            help.after(subZeroHelp);
+            help.hidden=!ids.includes('scorpion');
+          }
+        }
+      }
+      if(ids.includes('mk-12')){
+        const help=document.createElement('details');help.className='prototype-note';
+        const title=document.createElement('summary');title.textContent='Transformações do Shang Tsung';help.append(title);
+        const labels={forward:'Frente',back:'Trás',down:'Baixo',up:'Cima',punch:'Soco baixo',punch2:'Soco alto',kick:'Chute alto',kick2:'Chute baixo',block:'Bloqueio',run:'Correr'};
+        for(const form of window.SHANG_MORPHS){const row=document.createElement('p');row.textContent=form.name+': '+form.sequence.map(step=>step.map(k=>labels[k]).join(' + ')).join(', ');help.append(row);}
+        const tip=document.createElement('p');tip.textContent='Solte entre os toques repetidos. Segure Bloqueio para movimentos com Cima sem pular. A transformação dura cerca de 8 segundos; o retorno espera o golpe em andamento terminar.';help.append(tip);
+        document.querySelector('#finisher-help').after(help);
+      }
+      window.SFSpecialGuide?.add(ids,document.querySelector('#finisher-help'));
+      window.MKFinisherHelp?.add(ids,document.querySelector('#finisher-help'));
+      window.MKRepertoireHelp?.add(ids,document.querySelector('#finisher-help'));
+      window.SFRepertoireHelp?.add(ids,document.querySelector('#finisher-help'));
       document.querySelector('#mode').value=game.mode;
-      await Promise.all([...new Set(ids)].flatMap(id => Object.entries(bank[id].assets).map(([key, a]) => load(id, key, a))));
+      await Promise.all(loadedIds.flatMap(id => Object.entries(bank[id].assets).map(([key, a]) => load(id, key, a))));
       game.players.forEach((p, i) => {
         const panel = document.querySelector('#p' + (i + 1)); panel.classList.toggle('sf', bank[p.id].universe === 'sf');
         panel.querySelector('strong').textContent = bank[p.id].name.toUpperCase();

@@ -129,7 +129,7 @@
      p.x+=dx*t.jumpFacing;p.y=j.heights[index]||0;p.jumpTime=t.jumpAge/m.sampleRate;
      if(!p.action){g.state(p,p.jumpKind);p.frame=Math.min(index,g.clip(p,p.jumpKind).frames.length-1);p.clock=0;}
      if(index>=j.landingSample){
-      p.y=0;p.airborne=false;p.vx=0;p.vy=0;t.landing=Math.max(0,j.totalSamples-index-1);
+      p.y=0;p.airborne=false;p.vx=0;p.vy=0;t.landedSample=t.sample;t.landing=Math.max(0,j.totalSamples-index-1);
       g.emit('land',{player:p.index});g.resolvePositions();
      }
     }else if(p.airborne){
@@ -140,15 +140,14 @@
      if(index>=j.landingSample){
       const m=p.action&&g.definition(p).moves[p.action.name];
       if(m?.untilLanding&&m.landingClip)g.beginActionLanding(p,m);
-      else{p.y=0;p.airborne=false;p.action=null;t.landing=j.totalSamples-index-1;g.emit('land',{player:p.index});}
+      else{p.y=0;p.airborne=false;if(m?.nativeLandingContact)p.action.lastLandingContact=true;else p.action=null;t.landing=j.totalSamples-index-1;g.emit('land',{player:p.index});}
      }
     }else if(t.landing>0){
      t.landing--;if(!p.action&&!locked){g.state(p,p.jumpKind);p.frame=Math.min((m.jumps[p.jumpKind]?.landingSample||0)+(m.jumps[p.jumpKind]?.totalSamples||0)-t.landing-(m.jumps[p.jumpKind]?.landingSample||0)-1,g.clip(p,p.jumpKind).frames.length-1);}
     }else if(!locked){
      const guard=(g.definition(p).guard==='button'&&input.block)||
-      (g.definition(p).guard==='back'&&input.x===-p.facing&&
-       ((g.opponent(p).action&&Math.abs(g.opponent(p).x-p.x)<150)||g.projectiles.some(q=>q.owner!==p.index&&Math.abs(q.x-p.x)<150)));
-     if(input.x&&!input.down&&!guard){
+      (g.definition(p).guard==='back'&&input.x===-p.facing&&g.hasGuardThreat(p));
+     if(input.x&&!input.down&&!guard&&!(p.nativeStandUpUntil>g.elapsed)){
       const kind=input.x===p.facing?'forward':'backward';
       running=!!(m.run&&input.run&&kind==='forward'&&t.runEnergy>0);
       const state=running?'run':kind;
@@ -172,26 +171,31 @@
    const sorted=[...g.players].sort((a,b)=>a.x-b.x),[a,b]=sorted;
    const am=M.profile(g,a),bm=M.profile(g,b);
    const clearance=((am?.bodyClearanceHeight||38)+(bm?.bodyClearanceHeight||38))/2;
-   if(Math.abs(a.y-b.y)<clearance&&(!a.reaction||a.reaction.bodyPush)&&(!b.reaction||b.reaction.bodyPush)&&(!g.bodyCollidable||g.bodyCollidable(a)&&g.bodyCollidable(b))){
+   const nativePush=[a,b].map(p=>g.definition(p).nativeGroundPush).find(Boolean);
+   const mkGroundPair=nativePush&&[a,b].every(p=>g.bank[p.id].universe==='mk');
+   const justLanded=p=>Number.isFinite(p.motion?.landedSample)&&p.motion.landedSample===p.motion.sample;
+   if((!mkGroundPair||!a.airborne&&!b.airborne&&!justLanded(a)&&!justLanded(b))&&Math.abs(a.y-b.y)<clearance&&(!a.reaction||a.reaction.bodyPush)&&(!b.reaction||b.reaction.bodyPush)&&(!g.bodyCollidable||g.bodyCollidable(a)&&g.bodyCollidable(b))){
     const minimum=(am?.pushHalfWidth||23)+(bm?.pushHalfWidth||23),gap=b.x-a.x;
     if(gap<minimum){
      const overlap=minimum-gap;
      // Walking into a stationary fighter pushes both, as observed in both
      // originals. Two opposing approaches share the correction symmetrically.
-     a.x-=overlap/2;b.x+=overlap/2;
+     let correction=overlap/2;
+     if(mkGroundPair){const sample=Math.max(a.motion?.sample||0,b.motion?.sample||0);correction=g._nativePushSample===sample?0:nativePush.maximumPerSample;g._nativePushSample=sample;}
+     a.x-=correction;b.x+=correction;
      if(a.x<edge){b.x+=edge-a.x;a.x=edge;}if(b.x>width-edge){a.x-=b.x-(width-edge);b.x=width-edge;}
     }
    }
    const max=((am?.maximumDistance||350)+(bm?.maximumDistance||350))/2;
    const gap=b.x-a.x;
-   if(gap>max){
+   if(gap>max&&!g.players.some(p=>g.definition(p).moves[p.action?.name]?.ignoreMaximumDistance)){
     const da=Math.max(0,old[a.index]-a.x),db=Math.max(0,b.x-old[b.index]),total=da+db;
     // At maximum separation, only the fighter attempting to move away is
     // stopped. The stationary fighter is never dragged toward the retreat.
     if(total>1e-8){a.x+=(gap-max)*da/total;b.x-=(gap-max)*db/total;}
     else{a.x+=(gap-max)/2;b.x-=(gap-max)/2;}
    }
-   g.players.forEach(p=>{const q=g.opponent(p);if(!p.action&&!p.airborne&&Math.abs(q.x-p.x)>1)p.facing=q.x>p.x?1:-1;});
+   g.players.forEach(p=>{const q=g.opponent(p);if(!p.action&&!p.airborne&&Math.abs(q.x-p.x)>1){if(g.faceOpponent)g.faceOpponent(p,q);else p.facing=q.x>p.x?1:-1;}});
   },
   camera(g,dt){
    if(g.players.length!==2||g.mode==='bonus')return;
@@ -316,7 +320,11 @@
    const rt=p.reaction;if(!rt)return;
    const profile=R.profile(g,rt.profile);p.reaction=null;p.stun=0;p.guardStun=0;p.knockdown=0;p.vx=0;p.vy=0;
    if(profile.knockdown){p.y=0;p.airborne=false;if(p.health>0&&!rt.getupEmitted)g.emit('getup',{player:p.index});}
-   if(p.motion){p.motion.queue=[];p.motion.landing=0;p.motion.lastWalk='';if(p.airborne&&(g.players.length>2||p.motionAttack))p.motion.reactionFall={velocity:0};}
+   if(p.airborne&&g.bank[p.id].movement&&(!p.motion?.jumpFacing||g.players.length>2||p.motionAttack)){
+    p.motion ||= scope.FightMovement.init(g,p);
+    p.motion.reactionFall={velocity:0};
+   }
+   if(p.motion){p.motion.queue=[];p.motion.landing=0;p.motion.lastWalk='';}
    p.buffer=[];if(p.health<=0)g.state(p,'ko');else g.state(p,p.airborne?p.jumpKind:p.input.down?'crouch':'idle');
   },
   tail(g,p){

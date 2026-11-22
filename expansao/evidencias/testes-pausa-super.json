@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "groups": [
+    "Medidor exigido, consumido na fase medida e cobrado uma única vez",
+    "Pausa preserva corpos, projéteis e reações, mas mantém o relógio correndo",
+    "Apertar cedo, inclusive mantendo o botão, não cria um soco depois da pausa",
+    "Apertar nos dois últimos quadros preserva a entrada até o retorno",
+    "Movimentos direcionais feitos durante a pausa não avançam o reconhecedor",
+    "Supers simultâneos de participantes diferentes não disputam um dono único"
+  ],
+  "nativeEvidence": "sondas-pausa-super-r2.json",
+  "syntheticMoveFixture": true,
+  "liveSuperIntegrated": false
+}

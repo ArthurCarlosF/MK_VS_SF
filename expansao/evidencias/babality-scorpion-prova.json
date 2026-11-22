@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "profile": "umk3-r12-scorpion-babality-scorpion-victim-native-terminal",
+  "frames": 535,
+  "sprites": 57,
+  "nativeScreenshotSamples": 49,
+  "nativeViewportShakeKeptPairLocal": true,
+  "nativeAudio": {
+    "file": "babality-verified-mix.wav",
+    "duration": 10.017875,
+    "onsetSeconds": 0.03759048846383666,
+    "sha256": "5e262d9b57747ea07d4e8eb3e61bb7d28754cce13a9c298b86baad9ac9082a47"
+  },
+  "captureSha256": "d2842b5a1574963894f609afae0c3412c8e149c30da52dff31c8abff2c516fb6",
+  "nativeCompletionFlag": 130,
+  "nativeSceneTransition": 553,
+  "requiresNoBlock": true,
+  "pair": [
+    "scorpion",
+    "scorpion"
+  ],
+  "runtimeIntegrationValidationPending": false,
+  "validatedLocalAndLAN": true
+}

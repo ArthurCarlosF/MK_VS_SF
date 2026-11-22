@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "characters": [
+    "sf-8",
+    "sf-1"
+  ],
+  "stage": "mk-scorpions-lair",
+  "matchingTick": 372,
+  "errors": [],
+  "completeCharacters": false
+}

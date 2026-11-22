@@ -1,0 +1,25 @@
+{
+  "approvedCharacters": [
+    "sf-10",
+    "sf-11",
+    "sf-12",
+    "sf-7",
+    "sf-8"
+  ],
+  "pending": [
+    "akuma",
+    "ryu",
+    "sf-1",
+    "sf-13",
+    "sf-14",
+    "sf-15",
+    "sf-2",
+    "sf-3",
+    "sf-4",
+    "sf-5",
+    "sf-6",
+    "sf-9"
+  ],
+  "comparisonSha256": "7747cf0f1d70b879ff94ce1edf15698491e0d12e119a12850f3952b53ce3ea04",
+  "criterion": "Compare native raster X against the measured envelope of six original repetitions, within one displayed native frame and one native pixel; sprite descriptor uses the same one-frame temporal window. Fractional physical velocities are independently measured in velocidades-sf.json. No original ROM/control/timing routine modified."
+}

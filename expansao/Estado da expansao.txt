@@ -1,38 +1,48 @@
-﻿MORTAL KOMBAT VS STREET FIGHTER — EXPANSÃO 8.7 EXPERIMENTAL
-Atualizado em 02/11/2026
+MORTAL KOMBAT VS STREET FIGHTER — EXPANSÃO 9.3 EXPERIMENTAL
+Atualizado em 03/11/2026
 
-Abra “Abrir expansao.cmd” para jogo no mesmo aparelho.
+Abra “Abrir expansao.cmd” para jogar no mesmo aparelho.
 Para salas, abra http://192.168.0.199:8765/ em aparelhos na rede local.
-A expansão usa perfis de navegador próprios, separados da arena anterior.
+A expansão usa um perfil de navegador próprio.
 
-CONTEÚDO DESTA REVISÃO
-Além de Ryu e Scorpion, os básicos e reações próprias estão disponíveis para:
-E. Honda, Blanka, Guile, T. Hawk, Ken.
-Os personagens novos ainda não têm repertório completo. Os dados foram medidos
-no Super Turbo original; os resultados de calibração discriminam inferências
-de dano e as variantes que ainda não têm testemunho direto.
+ELENCO E COMBATE
+Chute alto e Chute baixo do Scorpion foram corrigidos conforme os comandos
+e as poses do arcade. Os combos seguem os botões medidos no original.
+Os básicos e as reações dos 17 lutadores de Super Street Fighter II Turbo,
+incluindo Akuma, usam dados próprios.
+Ryu, E. Honda, Blanka, Guile, T. Hawk, Fei Long, Balrog, Sagat, Ken, Chun-Li, Zangief, Dhalsim, Cammy, Dee Jay, Vega, M. Bison e Akuma.
+Os 22 lutadores da grade UMK3 e o Smoke Humano estão disponíveis com
+movimentos e golpes básicos. Os 22 novos pacotes usam seus próprios sprites e registros do arcade. Parte
+das janelas de contato usa valores provisórios. Repertórios, personagens
+chefes e adversários secretos, finalizações e fidelidade integral seguem em trabalho.
 
-Seleção de 16 cenários SF, com arte e quadros de animação confrontados com o
-arcade. A escolha de cenário é sincronizada na rede. As músicas SF vêm da
-coletânea e precisam de um clique/toque para iniciar. Primeiros efeitos
-nativos do Scorpion: soco baixo, impacto de soco alto, lança e teleporte.
+Os 1.402 casos válidos da bateria do passo 7 do Ryu coincidiram na contagem
+de contatos. O teste de sequências também passou nas duas ordens e nos dois
+lados com Scorpion. Tempos, dano e repertórios completos continuam em revisão.
 
-Carro: cais, arte, estados de dano, colisões e tabela de pontos da versão SSF2.
-A força de golpes sem descritor confirmado usa conversão do crossover.
-Relógio, efeitos e apresentação final do bônus ainda estão em revisão.
+FINALIZAÇÃO E CENÁRIOS
+As duas fatalities e a Babality do Scorpion funcionam contra outro Scorpion.
+As três cenas usam arte e áudio capturados do UMK3 arcade.
 
-CONTINUA EM CONSTRUÇÃO
-Proteção por dupla em finalizações testada no motor com perfis de teste:
-os dois envolvidos ficam no cenário e terceiros continuam lutando.
-Nenhuma finalização nativa incompleta foi habilitada nesta revisão.
-Os guias das versões locais foram extraídos: 128 entradas de finalizações MK
-e 101 entradas de especiais SF. Guias não substituem capturas de execução.
+• De perto, frente, frente, baixo, cima, Correr.
+• De longe, baixo, baixo, cima, Chute alto.
+• Babality, baixo, trás, trás, frente, Soco alto. Vale se você não usou Bloqueio na rodada.
 
-Pendentes: repertório e calibração completos, personagens restantes e
-secretos, finalizações arcade, cenários MK, áudio restante, apresentação,
-campanha, controles físicos e aprovação da versão final. As divergências
-anteriores do passo 7 não foram declaradas resolvidas.
+Solte entre toques repetidos. No teclado do jogador 1, Correr é Shift direito
+e Chute alto é K. Soco alto é N. Em duelo, a oportunidade abre na rodada decisiva. Durante a
+cena, a dupla fica protegida e os outros continuam lutando na mesma arena.
+O áudio da cena ocupa a faixa de música durante sua execução. Os outros
+participantes mantêm seus efeitos de combate.
 
-A arena anterior e as instalações originais continuam preservadas.
-Roteiro único: Etapas do projeto.txt. Evidências: expansao/evidencias.
-GitHub ainda contém a publicação intermediária 8.2 (8017028).
+Há 16 cenários SF e Scorpion’s Lair, com chamas e música DCS por rodada.
+Os outros cenários MK, as demais finalizações e a compatibilidade com outros alvos seguem em trabalho.
+
+BÔNUS DO CARRO
+Cais, arte, colisões, danos, pontuação, fragmentos e três efeitos do SSF2u.
+O relógio exibe 40 unidades e se esgota em cerca de 27,5 segundos de luta
+contínua. Fragmentos usam um sorteio e um limite próprios do crossover.
+Os três efeitos usam o PCM e o tom recuperados. Ganho, espacialização e
+mixagem QSound permanecem em revisão. A força de golpes sem descritor
+confirmado usa uma conversão do crossover.
+
+Roteiro em Etapas do projeto.txt. Resultados dos testes em expansao/evidencias.

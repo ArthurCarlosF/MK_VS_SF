@@ -1,0 +1,6445 @@
+{
+  "criterion": "Same native input, both facings; unimpeded position within one native pixel and pose within one source frame. Visual coverage explicitly counted.",
+  "rows": [
+    {
+      "id": "human-smoke",
+      "case": "idle",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 0,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "human-smoke",
+      "case": "idle",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 0,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "human-smoke",
+      "case": "forward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 53,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "human-smoke",
+      "case": "forward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 53,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "human-smoke",
+      "case": "backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 62,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "human-smoke",
+      "case": "backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 62,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "human-smoke",
+      "case": "forward_release",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 30,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "human-smoke",
+      "case": "forward_release",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 30,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "human-smoke",
+      "case": "backward_release",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 20,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "human-smoke",
+      "case": "backward_release",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 20,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "human-smoke",
+      "case": "forward_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 60,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "human-smoke",
+      "case": "forward_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 60,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "human-smoke",
+      "case": "crouch_forward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "human-smoke",
+      "case": "crouch_forward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "human-smoke",
+      "case": "backward_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 50,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "human-smoke",
+      "case": "backward_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 50,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "human-smoke",
+      "case": "crouch_backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 19,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "human-smoke",
+      "case": "crouch_backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 19,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "human-smoke",
+      "case": "diagonal_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "human-smoke",
+      "case": "diagonal_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "human-smoke",
+      "case": "direction_change",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "human-smoke",
+      "case": "direction_change",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "human-smoke",
+      "case": "run",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 27,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "human-smoke",
+      "case": "run",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 27,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "human-smoke",
+      "case": "run_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "human-smoke",
+      "case": "run_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "human-smoke",
+      "case": "run_backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "human-smoke",
+      "case": "run_backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-0",
+      "case": "idle",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 0,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-0",
+      "case": "idle",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 0,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-0",
+      "case": "forward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 60,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-0",
+      "case": "forward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 60,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-0",
+      "case": "backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 62,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-0",
+      "case": "backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 62,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-0",
+      "case": "forward_release",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 30,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-0",
+      "case": "forward_release",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 30,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-0",
+      "case": "backward_release",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 20,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-0",
+      "case": "backward_release",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 20,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-0",
+      "case": "forward_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 60,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-0",
+      "case": "forward_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 60,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-0",
+      "case": "crouch_forward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-0",
+      "case": "crouch_forward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-0",
+      "case": "backward_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 50,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-0",
+      "case": "backward_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 50,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-0",
+      "case": "crouch_backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 19,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-0",
+      "case": "crouch_backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 19,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-0",
+      "case": "diagonal_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-0",
+      "case": "diagonal_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-0",
+      "case": "direction_change",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-0",
+      "case": "direction_change",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-0",
+      "case": "run",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 27,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-0",
+      "case": "run",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 27,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-0",
+      "case": "run_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-0",
+      "case": "run_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-0",
+      "case": "run_backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-0",
+      "case": "run_backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-1",
+      "case": "idle",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 0,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-1",
+      "case": "idle",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 0,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-1",
+      "case": "forward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 72,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-1",
+      "case": "forward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 72,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-1",
+      "case": "backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 63,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-1",
+      "case": "backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 63,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-1",
+      "case": "forward_release",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 30,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-1",
+      "case": "forward_release",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 30,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-1",
+      "case": "backward_release",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 21,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-1",
+      "case": "backward_release",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 21,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-1",
+      "case": "forward_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 60,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-1",
+      "case": "forward_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 60,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-1",
+      "case": "crouch_forward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-1",
+      "case": "crouch_forward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-1",
+      "case": "backward_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 51,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-1",
+      "case": "backward_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 51,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-1",
+      "case": "crouch_backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 20,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-1",
+      "case": "crouch_backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 20,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-1",
+      "case": "diagonal_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-1",
+      "case": "diagonal_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-1",
+      "case": "direction_change",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-1",
+      "case": "direction_change",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-1",
+      "case": "run",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 27,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-1",
+      "case": "run",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 27,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-1",
+      "case": "run_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-1",
+      "case": "run_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-1",
+      "case": "run_backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-1",
+      "case": "run_backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-10",
+      "case": "idle",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 0,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-10",
+      "case": "idle",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 0,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-10",
+      "case": "forward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 72,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-10",
+      "case": "forward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 72,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-10",
+      "case": "backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 63,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-10",
+      "case": "backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 63,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-10",
+      "case": "forward_release",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 30,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-10",
+      "case": "forward_release",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 30,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-10",
+      "case": "backward_release",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 21,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-10",
+      "case": "backward_release",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 21,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-10",
+      "case": "forward_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 60,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-10",
+      "case": "forward_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 60,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-10",
+      "case": "crouch_forward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-10",
+      "case": "crouch_forward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-10",
+      "case": "backward_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 51,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-10",
+      "case": "backward_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 51,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-10",
+      "case": "crouch_backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 20,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-10",
+      "case": "crouch_backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 20,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-10",
+      "case": "diagonal_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-10",
+      "case": "diagonal_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-10",
+      "case": "direction_change",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-10",
+      "case": "direction_change",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-10",
+      "case": "run",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 27,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-10",
+      "case": "run",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 27,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-10",
+      "case": "run_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-10",
+      "case": "run_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-10",
+      "case": "run_backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-10",
+      "case": "run_backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-11",
+      "case": "idle",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 0,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-11",
+      "case": "idle",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 0,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-11",
+      "case": "forward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 72,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-11",
+      "case": "forward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 72,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-11",
+      "case": "backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 63,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-11",
+      "case": "backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 63,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-11",
+      "case": "forward_release",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 30,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-11",
+      "case": "forward_release",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 30,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-11",
+      "case": "backward_release",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 21,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-11",
+      "case": "backward_release",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 21,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-11",
+      "case": "forward_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 60,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-11",
+      "case": "forward_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 60,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-11",
+      "case": "crouch_forward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-11",
+      "case": "crouch_forward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-11",
+      "case": "backward_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 51,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-11",
+      "case": "backward_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 51,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-11",
+      "case": "crouch_backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 20,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-11",
+      "case": "crouch_backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 20,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-11",
+      "case": "diagonal_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-11",
+      "case": "diagonal_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-11",
+      "case": "direction_change",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-11",
+      "case": "direction_change",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-11",
+      "case": "run",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 27,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-11",
+      "case": "run",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 27,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-11",
+      "case": "run_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-11",
+      "case": "run_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-11",
+      "case": "run_backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-11",
+      "case": "run_backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-12",
+      "case": "idle",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 0,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-12",
+      "case": "idle",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 0,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-12",
+      "case": "forward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 72,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-12",
+      "case": "forward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 72,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-12",
+      "case": "backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 63,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-12",
+      "case": "backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 63,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-12",
+      "case": "forward_release",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 30,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-12",
+      "case": "forward_release",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 30,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-12",
+      "case": "backward_release",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 21,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-12",
+      "case": "backward_release",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 21,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-12",
+      "case": "forward_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 60,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-12",
+      "case": "forward_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 60,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-12",
+      "case": "crouch_forward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-12",
+      "case": "crouch_forward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-12",
+      "case": "backward_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 51,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-12",
+      "case": "backward_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 51,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-12",
+      "case": "crouch_backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 20,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-12",
+      "case": "crouch_backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 20,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-12",
+      "case": "diagonal_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-12",
+      "case": "diagonal_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-12",
+      "case": "direction_change",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-12",
+      "case": "direction_change",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-12",
+      "case": "run",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 27,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-12",
+      "case": "run",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 27,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-12",
+      "case": "run_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-12",
+      "case": "run_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-12",
+      "case": "run_backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-12",
+      "case": "run_backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-13",
+      "case": "idle",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 0,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-13",
+      "case": "idle",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 0,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-13",
+      "case": "forward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 72,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-13",
+      "case": "forward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 72,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-13",
+      "case": "backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 63,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-13",
+      "case": "backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 63,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-13",
+      "case": "forward_release",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 30,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-13",
+      "case": "forward_release",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 30,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-13",
+      "case": "backward_release",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 21,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-13",
+      "case": "backward_release",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 21,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-13",
+      "case": "forward_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 60,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-13",
+      "case": "forward_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 60,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-13",
+      "case": "crouch_forward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-13",
+      "case": "crouch_forward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-13",
+      "case": "backward_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 51,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-13",
+      "case": "backward_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 51,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-13",
+      "case": "crouch_backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 20,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-13",
+      "case": "crouch_backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 20,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-13",
+      "case": "diagonal_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-13",
+      "case": "diagonal_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-13",
+      "case": "direction_change",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-13",
+      "case": "direction_change",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-13",
+      "case": "run",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 27,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-13",
+      "case": "run",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 27,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-13",
+      "case": "run_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-13",
+      "case": "run_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-13",
+      "case": "run_backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-13",
+      "case": "run_backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-14",
+      "case": "idle",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 0,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-14",
+      "case": "idle",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 0,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-14",
+      "case": "forward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 72,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-14",
+      "case": "forward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 72,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-14",
+      "case": "backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 63,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-14",
+      "case": "backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 63,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-14",
+      "case": "forward_release",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 30,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-14",
+      "case": "forward_release",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 30,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-14",
+      "case": "backward_release",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 21,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-14",
+      "case": "backward_release",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 21,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-14",
+      "case": "forward_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 60,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-14",
+      "case": "forward_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 60,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-14",
+      "case": "crouch_forward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-14",
+      "case": "crouch_forward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-14",
+      "case": "backward_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 51,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-14",
+      "case": "backward_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 51,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-14",
+      "case": "crouch_backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 20,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-14",
+      "case": "crouch_backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 20,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-14",
+      "case": "diagonal_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-14",
+      "case": "diagonal_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-14",
+      "case": "direction_change",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-14",
+      "case": "direction_change",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-14",
+      "case": "run",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 27,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-14",
+      "case": "run",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 27,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-14",
+      "case": "run_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-14",
+      "case": "run_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-14",
+      "case": "run_backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-14",
+      "case": "run_backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-15",
+      "case": "idle",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 0,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-15",
+      "case": "idle",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 0,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-15",
+      "case": "forward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 72,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-15",
+      "case": "forward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 72,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-15",
+      "case": "backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 63,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-15",
+      "case": "backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 63,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-15",
+      "case": "forward_release",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 30,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-15",
+      "case": "forward_release",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 30,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-15",
+      "case": "backward_release",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 21,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-15",
+      "case": "backward_release",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 21,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-15",
+      "case": "forward_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 60,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-15",
+      "case": "forward_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 60,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-15",
+      "case": "crouch_forward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-15",
+      "case": "crouch_forward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-15",
+      "case": "backward_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 51,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-15",
+      "case": "backward_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 51,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-15",
+      "case": "crouch_backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 20,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-15",
+      "case": "crouch_backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 20,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-15",
+      "case": "diagonal_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-15",
+      "case": "diagonal_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-15",
+      "case": "direction_change",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-15",
+      "case": "direction_change",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-15",
+      "case": "run",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 27,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-15",
+      "case": "run",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 27,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-15",
+      "case": "run_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-15",
+      "case": "run_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-15",
+      "case": "run_backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-15",
+      "case": "run_backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-16",
+      "case": "idle",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 0,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-16",
+      "case": "idle",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 0,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-16",
+      "case": "forward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 60,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-16",
+      "case": "forward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 60,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-16",
+      "case": "backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 62,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-16",
+      "case": "backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 62,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-16",
+      "case": "forward_release",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 30,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-16",
+      "case": "forward_release",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 30,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-16",
+      "case": "backward_release",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 20,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-16",
+      "case": "backward_release",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 20,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-16",
+      "case": "forward_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 60,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-16",
+      "case": "forward_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 60,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-16",
+      "case": "crouch_forward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-16",
+      "case": "crouch_forward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-16",
+      "case": "backward_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 50,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-16",
+      "case": "backward_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 50,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-16",
+      "case": "crouch_backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 19,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-16",
+      "case": "crouch_backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 19,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-16",
+      "case": "diagonal_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-16",
+      "case": "diagonal_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-16",
+      "case": "direction_change",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-16",
+      "case": "direction_change",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-16",
+      "case": "run",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 27,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-16",
+      "case": "run",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 27,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-16",
+      "case": "run_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-16",
+      "case": "run_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-16",
+      "case": "run_backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-16",
+      "case": "run_backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-17",
+      "case": "idle",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 0,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-17",
+      "case": "idle",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 0,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-17",
+      "case": "forward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 72,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-17",
+      "case": "forward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 72,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-17",
+      "case": "backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 63,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-17",
+      "case": "backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 63,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-17",
+      "case": "forward_release",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 30,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-17",
+      "case": "forward_release",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 30,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-17",
+      "case": "backward_release",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 21,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-17",
+      "case": "backward_release",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 21,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-17",
+      "case": "forward_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 60,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-17",
+      "case": "forward_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 60,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-17",
+      "case": "crouch_forward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-17",
+      "case": "crouch_forward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-17",
+      "case": "backward_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 51,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-17",
+      "case": "backward_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 51,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-17",
+      "case": "crouch_backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 20,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-17",
+      "case": "crouch_backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 20,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-17",
+      "case": "diagonal_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-17",
+      "case": "diagonal_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-17",
+      "case": "direction_change",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-17",
+      "case": "direction_change",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-17",
+      "case": "run",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 27,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-17",
+      "case": "run",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 27,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-17",
+      "case": "run_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-17",
+      "case": "run_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-17",
+      "case": "run_backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-17",
+      "case": "run_backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "scorpion",
+      "case": "idle",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 0,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "scorpion",
+      "case": "idle",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 0,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "scorpion",
+      "case": "forward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 72,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "scorpion",
+      "case": "forward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 72,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "scorpion",
+      "case": "backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 63,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "scorpion",
+      "case": "backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 63,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "scorpion",
+      "case": "forward_release",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 30,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "scorpion",
+      "case": "forward_release",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 30,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "scorpion",
+      "case": "backward_release",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 21,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "scorpion",
+      "case": "backward_release",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 21,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "scorpion",
+      "case": "forward_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 60,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "scorpion",
+      "case": "forward_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 60,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "scorpion",
+      "case": "crouch_forward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "scorpion",
+      "case": "crouch_forward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "scorpion",
+      "case": "backward_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 51,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "scorpion",
+      "case": "backward_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 51,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "scorpion",
+      "case": "crouch_backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 20,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "scorpion",
+      "case": "crouch_backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 20,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "scorpion",
+      "case": "diagonal_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "scorpion",
+      "case": "diagonal_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "scorpion",
+      "case": "direction_change",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "scorpion",
+      "case": "direction_change",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "scorpion",
+      "case": "run",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 27,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "scorpion",
+      "case": "run",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 27,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "scorpion",
+      "case": "run_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "scorpion",
+      "case": "run_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "scorpion",
+      "case": "run_backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "scorpion",
+      "case": "run_backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-19",
+      "case": "idle",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 0,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-19",
+      "case": "idle",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 0,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-19",
+      "case": "forward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 72,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-19",
+      "case": "forward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 72,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-19",
+      "case": "backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 63,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-19",
+      "case": "backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 63,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-19",
+      "case": "forward_release",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 30,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-19",
+      "case": "forward_release",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 30,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-19",
+      "case": "backward_release",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 21,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-19",
+      "case": "backward_release",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 21,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-19",
+      "case": "forward_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 60,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-19",
+      "case": "forward_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 60,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-19",
+      "case": "crouch_forward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-19",
+      "case": "crouch_forward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-19",
+      "case": "backward_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 51,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-19",
+      "case": "backward_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 51,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-19",
+      "case": "crouch_backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 20,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-19",
+      "case": "crouch_backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 20,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-19",
+      "case": "diagonal_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-19",
+      "case": "diagonal_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-19",
+      "case": "direction_change",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-19",
+      "case": "direction_change",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-19",
+      "case": "run",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 27,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-19",
+      "case": "run",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 27,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-19",
+      "case": "run_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-19",
+      "case": "run_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-19",
+      "case": "run_backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-19",
+      "case": "run_backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-2",
+      "case": "idle",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 0,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-2",
+      "case": "idle",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 0,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-2",
+      "case": "forward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 72,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-2",
+      "case": "forward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 72,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-2",
+      "case": "backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 63,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-2",
+      "case": "backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 63,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-2",
+      "case": "forward_release",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 30,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-2",
+      "case": "forward_release",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 30,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-2",
+      "case": "backward_release",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 21,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-2",
+      "case": "backward_release",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 21,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-2",
+      "case": "forward_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 60,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-2",
+      "case": "forward_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 60,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-2",
+      "case": "crouch_forward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-2",
+      "case": "crouch_forward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-2",
+      "case": "backward_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 51,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-2",
+      "case": "backward_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 51,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-2",
+      "case": "crouch_backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 20,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-2",
+      "case": "crouch_backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 20,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-2",
+      "case": "diagonal_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-2",
+      "case": "diagonal_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-2",
+      "case": "direction_change",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-2",
+      "case": "direction_change",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-2",
+      "case": "run",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 27,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-2",
+      "case": "run",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 27,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-2",
+      "case": "run_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-2",
+      "case": "run_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-2",
+      "case": "run_backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-2",
+      "case": "run_backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-20",
+      "case": "idle",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 0,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-20",
+      "case": "idle",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 0,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-20",
+      "case": "forward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 72,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-20",
+      "case": "forward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 72,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-20",
+      "case": "backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 63,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-20",
+      "case": "backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 63,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-20",
+      "case": "forward_release",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 30,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-20",
+      "case": "forward_release",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 30,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-20",
+      "case": "backward_release",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 21,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-20",
+      "case": "backward_release",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 21,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-20",
+      "case": "forward_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 60,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-20",
+      "case": "forward_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 60,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-20",
+      "case": "crouch_forward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-20",
+      "case": "crouch_forward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-20",
+      "case": "backward_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 51,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-20",
+      "case": "backward_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 51,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-20",
+      "case": "crouch_backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 20,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-20",
+      "case": "crouch_backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 20,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-20",
+      "case": "diagonal_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-20",
+      "case": "diagonal_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-20",
+      "case": "direction_change",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-20",
+      "case": "direction_change",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-20",
+      "case": "run",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 27,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-20",
+      "case": "run",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 27,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-20",
+      "case": "run_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-20",
+      "case": "run_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-20",
+      "case": "run_backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-20",
+      "case": "run_backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-21",
+      "case": "idle",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 0,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-21",
+      "case": "idle",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 0,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-21",
+      "case": "forward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 72,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-21",
+      "case": "forward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 72,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-21",
+      "case": "backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 63,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-21",
+      "case": "backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 63,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-21",
+      "case": "forward_release",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 30,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-21",
+      "case": "forward_release",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 30,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-21",
+      "case": "backward_release",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 21,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-21",
+      "case": "backward_release",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 21,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-21",
+      "case": "forward_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 60,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-21",
+      "case": "forward_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 60,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-21",
+      "case": "crouch_forward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-21",
+      "case": "crouch_forward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-21",
+      "case": "backward_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 51,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-21",
+      "case": "backward_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 51,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-21",
+      "case": "crouch_backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 20,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-21",
+      "case": "crouch_backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 20,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-21",
+      "case": "diagonal_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-21",
+      "case": "diagonal_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-21",
+      "case": "direction_change",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-21",
+      "case": "direction_change",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-21",
+      "case": "run",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 27,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-21",
+      "case": "run",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 27,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-21",
+      "case": "run_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-21",
+      "case": "run_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-21",
+      "case": "run_backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-21",
+      "case": "run_backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-3",
+      "case": "idle",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 0,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-3",
+      "case": "idle",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 0,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-3",
+      "case": "forward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 72,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-3",
+      "case": "forward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 72,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-3",
+      "case": "backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 63,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-3",
+      "case": "backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 63,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-3",
+      "case": "forward_release",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 30,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-3",
+      "case": "forward_release",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 30,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-3",
+      "case": "backward_release",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 21,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-3",
+      "case": "backward_release",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 21,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-3",
+      "case": "forward_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 60,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-3",
+      "case": "forward_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 60,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-3",
+      "case": "crouch_forward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-3",
+      "case": "crouch_forward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-3",
+      "case": "backward_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 51,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-3",
+      "case": "backward_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 51,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-3",
+      "case": "crouch_backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 20,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-3",
+      "case": "crouch_backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 20,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-3",
+      "case": "diagonal_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-3",
+      "case": "diagonal_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-3",
+      "case": "direction_change",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-3",
+      "case": "direction_change",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-3",
+      "case": "run",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 27,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-3",
+      "case": "run",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 27,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-3",
+      "case": "run_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-3",
+      "case": "run_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-3",
+      "case": "run_backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-3",
+      "case": "run_backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-4",
+      "case": "idle",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 0,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-4",
+      "case": "idle",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 0,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-4",
+      "case": "forward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 72,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-4",
+      "case": "forward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 72,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-4",
+      "case": "backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 63,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-4",
+      "case": "backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 63,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-4",
+      "case": "forward_release",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 30,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-4",
+      "case": "forward_release",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 30,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-4",
+      "case": "backward_release",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 21,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-4",
+      "case": "backward_release",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 21,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-4",
+      "case": "forward_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 60,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-4",
+      "case": "forward_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 60,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-4",
+      "case": "crouch_forward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-4",
+      "case": "crouch_forward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-4",
+      "case": "backward_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 51,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-4",
+      "case": "backward_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 51,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-4",
+      "case": "crouch_backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 20,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-4",
+      "case": "crouch_backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 20,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-4",
+      "case": "diagonal_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-4",
+      "case": "diagonal_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-4",
+      "case": "direction_change",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-4",
+      "case": "direction_change",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-4",
+      "case": "run",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 27,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-4",
+      "case": "run",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 27,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-4",
+      "case": "run_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-4",
+      "case": "run_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-4",
+      "case": "run_backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-4",
+      "case": "run_backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-5",
+      "case": "idle",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 0,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-5",
+      "case": "idle",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 0,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-5",
+      "case": "forward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 72,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-5",
+      "case": "forward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 72,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-5",
+      "case": "backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 63,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-5",
+      "case": "backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 63,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-5",
+      "case": "forward_release",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 30,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-5",
+      "case": "forward_release",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 30,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-5",
+      "case": "backward_release",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 21,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-5",
+      "case": "backward_release",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 21,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-5",
+      "case": "forward_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 60,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-5",
+      "case": "forward_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 60,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-5",
+      "case": "crouch_forward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-5",
+      "case": "crouch_forward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-5",
+      "case": "backward_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 51,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-5",
+      "case": "backward_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 51,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-5",
+      "case": "crouch_backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 20,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-5",
+      "case": "crouch_backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 20,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-5",
+      "case": "diagonal_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-5",
+      "case": "diagonal_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-5",
+      "case": "direction_change",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-5",
+      "case": "direction_change",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-5",
+      "case": "run",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 27,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-5",
+      "case": "run",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 27,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-5",
+      "case": "run_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-5",
+      "case": "run_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-5",
+      "case": "run_backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-5",
+      "case": "run_backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-6",
+      "case": "idle",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 0,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-6",
+      "case": "idle",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 0,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-6",
+      "case": "forward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 60,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-6",
+      "case": "forward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 60,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-6",
+      "case": "backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 62,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-6",
+      "case": "backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 62,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-6",
+      "case": "forward_release",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 30,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-6",
+      "case": "forward_release",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 30,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-6",
+      "case": "backward_release",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 20,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-6",
+      "case": "backward_release",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 20,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-6",
+      "case": "forward_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 60,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-6",
+      "case": "forward_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 60,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-6",
+      "case": "crouch_forward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-6",
+      "case": "crouch_forward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-6",
+      "case": "backward_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 50,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-6",
+      "case": "backward_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 50,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-6",
+      "case": "crouch_backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 19,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-6",
+      "case": "crouch_backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 19,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-6",
+      "case": "diagonal_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-6",
+      "case": "diagonal_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-6",
+      "case": "direction_change",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-6",
+      "case": "direction_change",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-6",
+      "case": "run",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 27,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-6",
+      "case": "run",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 27,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-6",
+      "case": "run_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-6",
+      "case": "run_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-6",
+      "case": "run_backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-6",
+      "case": "run_backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-7",
+      "case": "idle",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 0,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-7",
+      "case": "idle",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 0,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-7",
+      "case": "forward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 72,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-7",
+      "case": "forward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 72,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-7",
+      "case": "backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 63,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-7",
+      "case": "backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 63,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-7",
+      "case": "forward_release",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 30,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-7",
+      "case": "forward_release",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 30,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-7",
+      "case": "backward_release",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 21,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-7",
+      "case": "backward_release",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 21,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-7",
+      "case": "forward_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 60,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-7",
+      "case": "forward_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 60,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-7",
+      "case": "crouch_forward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-7",
+      "case": "crouch_forward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-7",
+      "case": "backward_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 51,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-7",
+      "case": "backward_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 51,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-7",
+      "case": "crouch_backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 20,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-7",
+      "case": "crouch_backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 20,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-7",
+      "case": "diagonal_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-7",
+      "case": "diagonal_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-7",
+      "case": "direction_change",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-7",
+      "case": "direction_change",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-7",
+      "case": "run",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 27,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-7",
+      "case": "run",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 27,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-7",
+      "case": "run_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-7",
+      "case": "run_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-7",
+      "case": "run_backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-7",
+      "case": "run_backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-8",
+      "case": "idle",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 0,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-8",
+      "case": "idle",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 0,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-8",
+      "case": "forward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 72,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-8",
+      "case": "forward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 72,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-8",
+      "case": "backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 63,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-8",
+      "case": "backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 63,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-8",
+      "case": "forward_release",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 30,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-8",
+      "case": "forward_release",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 30,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-8",
+      "case": "backward_release",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 21,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-8",
+      "case": "backward_release",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 21,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-8",
+      "case": "forward_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 60,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-8",
+      "case": "forward_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 60,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-8",
+      "case": "crouch_forward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-8",
+      "case": "crouch_forward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-8",
+      "case": "backward_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 51,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-8",
+      "case": "backward_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 51,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-8",
+      "case": "crouch_backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 20,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-8",
+      "case": "crouch_backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 20,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-8",
+      "case": "diagonal_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-8",
+      "case": "diagonal_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-8",
+      "case": "direction_change",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-8",
+      "case": "direction_change",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-8",
+      "case": "run",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 27,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-8",
+      "case": "run",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 27,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-8",
+      "case": "run_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-8",
+      "case": "run_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-8",
+      "case": "run_backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-8",
+      "case": "run_backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-9",
+      "case": "idle",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 0,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-9",
+      "case": "idle",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 0,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-9",
+      "case": "forward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 72,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-9",
+      "case": "forward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 72,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-9",
+      "case": "backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 63,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-9",
+      "case": "backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 63,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-9",
+      "case": "forward_release",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 30,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-9",
+      "case": "forward_release",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 30,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-9",
+      "case": "backward_release",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 21,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-9",
+      "case": "backward_release",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 21,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-9",
+      "case": "forward_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 60,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-9",
+      "case": "forward_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 60,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-9",
+      "case": "crouch_forward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-9",
+      "case": "crouch_forward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-9",
+      "case": "backward_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 51,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-9",
+      "case": "backward_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 51,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-9",
+      "case": "crouch_backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 20,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-9",
+      "case": "crouch_backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 20,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-9",
+      "case": "diagonal_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-9",
+      "case": "diagonal_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-9",
+      "case": "direction_change",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-9",
+      "case": "direction_change",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-9",
+      "case": "run",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 27,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-9",
+      "case": "run",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 27,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-9",
+      "case": "run_crouch",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-9",
+      "case": "run_crouch",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 48,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-9",
+      "case": "run_backward",
+      "side": 1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    },
+    {
+      "id": "mk-9",
+      "case": "run_backward",
+      "side": -1,
+      "maxPositionError": 0,
+      "visualSamples": 36,
+      "visualMismatches": 0,
+      "first": [],
+      "pass": true
+    }
+  ]
+}

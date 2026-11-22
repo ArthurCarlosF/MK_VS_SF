@@ -1,0 +1,100 @@
+AUDITORIA DE PRESENÇA DO REPERTÓRIO — 20/11/2026
+
+Presença dos golpes e ações originais acionáveis; sem exigir fidelidade de animação, regras, dano ou tempos. Não basta existir uma animação ou nome sem comando/rota utilizável.
+
+Implementação do repertório identificado concluída no critério acordado de presença e execução. Comparação exaustiva com os originais, fidelidade, animações, dano e tempos continuam pendentes; não é certificação de ausência de qualquer omissão ainda desconhecida.
+
+RESULTADO: 43 personagens com repertório identificado implementado — 26 MK e 17 SF. Nenhuma pendência de implementação identificada nesta etapa. Fidelidade e conferência exaustiva posteriores.
+
+[X] Scorpion
+    Coberto: Repertório básico e comandos de combate, Especiais e finalizações originais aplicáveis, Todas as ramificações das tabelas originais de combo, Ataques direcionais no ar.
+[X] Ryu
+    Coberto: Seis botões de golpes básicos, variantes de proximidade, agachados e aéreos, Especiais, continuações e supers originais aplicáveis, Agarrões normais próprios, nas direções e botões identificados, Golpes direcionais e agarrões aéreos próprios quando existentes, Imobilizações, fuga e amortecimento quando aplicáveis.
+[X] E. Honda
+    Coberto: Seis botões de golpes básicos, variantes de proximidade, agachados e aéreos, Especiais, continuações e supers originais aplicáveis, Agarrões normais próprios, nas direções e botões identificados, Golpes direcionais e agarrões aéreos próprios quando existentes, Imobilizações, fuga e amortecimento quando aplicáveis.
+[X] Blanka
+    Coberto: Seis botões de golpes básicos, variantes de proximidade, agachados e aéreos, Especiais, continuações e supers originais aplicáveis, Agarrões normais próprios, nas direções e botões identificados, Golpes direcionais e agarrões aéreos próprios quando existentes, Imobilizações, fuga e amortecimento quando aplicáveis.
+[X] Guile
+    Coberto: Seis botões de golpes básicos, variantes de proximidade, agachados e aéreos, Especiais, continuações e supers originais aplicáveis, Agarrões normais próprios, nas direções e botões identificados, Golpes direcionais e agarrões aéreos próprios quando existentes, Imobilizações, fuga e amortecimento quando aplicáveis.
+[X] T. Hawk
+    Coberto: Seis botões de golpes básicos, variantes de proximidade, agachados e aéreos, Especiais, continuações e supers originais aplicáveis, Agarrões normais próprios, nas direções e botões identificados, Golpes direcionais e agarrões aéreos próprios quando existentes, Imobilizações, fuga e amortecimento quando aplicáveis.
+[X] Fei Long
+    Coberto: Seis botões de golpes básicos, variantes de proximidade, agachados e aéreos, Especiais, continuações e supers originais aplicáveis, Agarrões normais próprios, nas direções e botões identificados, Golpes direcionais e agarrões aéreos próprios quando existentes, Imobilizações, fuga e amortecimento quando aplicáveis.
+[X] Balrog
+    Coberto: Seis botões de golpes básicos, variantes de proximidade, agachados e aéreos, Especiais, continuações e supers originais aplicáveis, Agarrões normais próprios, nas direções e botões identificados, Golpes direcionais e agarrões aéreos próprios quando existentes, Imobilizações, fuga e amortecimento quando aplicáveis.
+[X] Sagat
+    Coberto: Seis botões de golpes básicos, variantes de proximidade, agachados e aéreos, Especiais, continuações e supers originais aplicáveis, Agarrões normais próprios, nas direções e botões identificados, Golpes direcionais e agarrões aéreos próprios quando existentes, Imobilizações, fuga e amortecimento quando aplicáveis.
+[X] Ken
+    Coberto: Seis botões de golpes básicos, variantes de proximidade, agachados e aéreos, Especiais, continuações e supers originais aplicáveis, Agarrões normais próprios, nas direções e botões identificados, Golpes direcionais e agarrões aéreos próprios quando existentes, Imobilizações, fuga e amortecimento quando aplicáveis.
+[X] Chun-Li
+    Coberto: Seis botões de golpes básicos, variantes de proximidade, agachados e aéreos, Especiais, continuações e supers originais aplicáveis, Agarrões normais próprios, nas direções e botões identificados, Golpes direcionais e agarrões aéreos próprios quando existentes, Imobilizações, fuga e amortecimento quando aplicáveis, Salto na parede.
+[X] Zangief
+    Coberto: Seis botões de golpes básicos, variantes de proximidade, agachados e aéreos, Especiais, continuações e supers originais aplicáveis, Agarrões normais próprios, nas direções e botões identificados, Golpes direcionais e agarrões aéreos próprios quando existentes, Imobilizações, fuga e amortecimento quando aplicáveis.
+[X] Dhalsim
+    Coberto: Seis botões de golpes básicos, variantes de proximidade, agachados e aéreos, Especiais, continuações e supers originais aplicáveis, Agarrões normais próprios, nas direções e botões identificados, Golpes direcionais e agarrões aéreos próprios quando existentes, Imobilizações, fuga e amortecimento quando aplicáveis.
+[X] Cammy
+    Coberto: Seis botões de golpes básicos, variantes de proximidade, agachados e aéreos, Especiais, continuações e supers originais aplicáveis, Agarrões normais próprios, nas direções e botões identificados, Golpes direcionais e agarrões aéreos próprios quando existentes, Imobilizações, fuga e amortecimento quando aplicáveis.
+[X] Dee Jay
+    Coberto: Seis botões de golpes básicos, variantes de proximidade, agachados e aéreos, Especiais, continuações e supers originais aplicáveis, Agarrões normais próprios, nas direções e botões identificados, Golpes direcionais e agarrões aéreos próprios quando existentes, Imobilizações, fuga e amortecimento quando aplicáveis.
+[X] Vega
+    Coberto: Seis botões de golpes básicos, variantes de proximidade, agachados e aéreos, Especiais, continuações e supers originais aplicáveis, Agarrões normais próprios, nas direções e botões identificados, Golpes direcionais e agarrões aéreos próprios quando existentes, Imobilizações, fuga e amortecimento quando aplicáveis, Salto na parede.
+[X] M. Bison
+    Coberto: Seis botões de golpes básicos, variantes de proximidade, agachados e aéreos, Especiais, continuações e supers originais aplicáveis, Agarrões normais próprios, nas direções e botões identificados, Golpes direcionais e agarrões aéreos próprios quando existentes, Imobilizações, fuga e amortecimento quando aplicáveis.
+[X] Akuma
+    Coberto: Seis botões de golpes básicos, variantes de proximidade, agachados e aéreos, Especiais, continuações e supers originais aplicáveis, Agarrões normais próprios, nas direções e botões identificados, Golpes direcionais e agarrões aéreos próprios quando existentes, Imobilizações, fuga e amortecimento quando aplicáveis.
+[X] Kano
+    Coberto: Repertório básico e comandos de combate, Especiais e finalizações originais aplicáveis, Todas as ramificações das tabelas originais de combo, Ataques direcionais no ar, Socos alternando os braços.
+[X] Sonya
+    Coberto: Repertório básico e comandos de combate, Especiais e finalizações originais aplicáveis, Todas as ramificações das tabelas originais de combo, Ataques direcionais no ar, Rasteira, Chute giratório, Socos alternando os braços.
+[X] Jax
+    Coberto: Golpes básicos e agarrão normal, Rotas ativas dos combos originais, Socos alternados e ataques direcionais no ar, Especiais terrestres e variantes aéreas aplicáveis, Finalizações existentes no UMK3 arcade para o personagem.
+[X] Nightwolf
+    Coberto: Golpes básicos e agarrão normal, Rotas ativas dos combos originais, Socos alternados e ataques direcionais no ar, Especiais terrestres e variantes aéreas aplicáveis, Finalizações existentes no UMK3 arcade para o personagem.
+[X] Sub-Zero
+    Coberto: Golpes básicos e agarrão normal, Rotas ativas dos combos originais, Socos alternados e ataques direcionais no ar, Especiais terrestres e variantes aéreas aplicáveis, Finalizações existentes no UMK3 arcade para o personagem.
+[X] Stryker
+    Coberto: Golpes básicos e agarrão normal, Rotas ativas dos combos originais, Socos alternados e ataques direcionais no ar, Especiais terrestres e variantes aéreas aplicáveis, Finalizações existentes no UMK3 arcade para o personagem.
+[X] Sindel
+    Coberto: Golpes básicos e agarrão normal, Rotas ativas dos combos originais, Socos alternados e ataques direcionais no ar, Especiais terrestres e variantes aéreas aplicáveis, Finalizações existentes no UMK3 arcade para o personagem.
+[X] Sektor
+    Coberto: Golpes básicos e agarrão normal, Rotas ativas dos combos originais, Socos alternados e ataques direcionais no ar, Especiais terrestres e variantes aéreas aplicáveis, Finalizações existentes no UMK3 arcade para o personagem.
+[X] Cyrax
+    Coberto: Golpes básicos e agarrão normal, Rotas ativas dos combos originais, Socos alternados e ataques direcionais no ar, Especiais terrestres e variantes aéreas aplicáveis, Finalizações existentes no UMK3 arcade para o personagem.
+[X] Kung Lao
+    Coberto: Golpes básicos e agarrão normal, Rotas ativas dos combos originais, Socos alternados e ataques direcionais no ar, Especiais terrestres e variantes aéreas aplicáveis, Finalizações existentes no UMK3 arcade para o personagem.
+[X] Kabal
+    Coberto: Golpes básicos e agarrão normal, Rotas ativas dos combos originais, Socos alternados e ataques direcionais no ar, Especiais terrestres e variantes aéreas aplicáveis, Finalizações existentes no UMK3 arcade para o personagem.
+[X] Sheeva
+    Coberto: Golpes básicos e agarrão normal, Rotas ativas dos combos originais, Socos alternados e ataques direcionais no ar, Especiais terrestres e variantes aéreas aplicáveis, Finalizações existentes no UMK3 arcade para o personagem.
+[X] Shang Tsung
+    Coberto: Golpes básicos e agarrão normal, Rotas ativas dos combos originais, Socos alternados e ataques direcionais no ar, Especiais terrestres e variantes aéreas aplicáveis, Finalizações existentes no UMK3 arcade para o personagem.
+[X] Liu Kang
+    Coberto: Golpes básicos e agarrão normal, Rotas ativas dos combos originais, Socos alternados e ataques direcionais no ar, Especiais terrestres e variantes aéreas aplicáveis, Finalizações existentes no UMK3 arcade para o personagem.
+[X] Smoke
+    Coberto: Golpes básicos e agarrão normal, Rotas ativas dos combos originais, Socos alternados e ataques direcionais no ar, Especiais terrestres e variantes aéreas aplicáveis, Finalizações existentes no UMK3 arcade para o personagem.
+[X] Kitana
+    Coberto: Golpes básicos e agarrão normal, Rotas ativas dos combos originais, Socos alternados e ataques direcionais no ar, Especiais terrestres e variantes aéreas aplicáveis, Finalizações existentes no UMK3 arcade para o personagem.
+[X] Jade
+    Coberto: Golpes básicos e agarrão normal, Rotas ativas dos combos originais, Socos alternados e ataques direcionais no ar, Especiais terrestres e variantes aéreas aplicáveis, Finalizações existentes no UMK3 arcade para o personagem.
+[X] Mileena
+    Coberto: Golpes básicos e agarrão normal, Rotas ativas dos combos originais, Socos alternados e ataques direcionais no ar, Especiais terrestres e variantes aéreas aplicáveis, Finalizações existentes no UMK3 arcade para o personagem.
+[X] Reptile
+    Coberto: Golpes básicos e agarrão normal, Rotas ativas dos combos originais, Socos alternados e ataques direcionais no ar, Especiais terrestres e variantes aéreas aplicáveis, Finalizações existentes no UMK3 arcade para o personagem.
+[X] Ermac
+    Coberto: Golpes básicos e agarrão normal, Rotas ativas dos combos originais, Socos alternados e ataques direcionais no ar, Especiais terrestres e variantes aéreas aplicáveis, Finalizações existentes no UMK3 arcade para o personagem.
+[X] Classic Sub-Zero
+    Coberto: Repertório básico e comandos de combate, Especiais e finalizações originais aplicáveis, Todas as ramificações das tabelas originais de combo, Ataques direcionais no ar, Socos alternando os braços.
+[X] Smoke Humano
+    Coberto: Golpes básicos e agarrão normal, Rotas ativas dos combos originais, Socos alternados e ataques direcionais no ar, Especiais terrestres e variantes aéreas aplicáveis, Finalizações existentes no UMK3 arcade para o personagem.
+[X] Motaro
+    Coberto: Soco, Chute, Rasteira com a cauda, Agarrão com soco, Projétil, Teletransporte, Saltos, Reflexão de projéteis.
+[X] Shao Kahn
+    Coberto: Soco, Chute, Martelo, Projétil, Investida terrestre, Investida aérea, Repertório básico e comandos de combate, Especiais e finalizações originais aplicáveis, Risada, Provocação.
+[X] Noob Saibot
+    Coberto: Golpes básicos e agarrão normal, Rotas ativas dos combos originais, Socos alternados e ataques direcionais no ar, Especiais terrestres e variantes aéreas aplicáveis, Sem finalizações próprias no UMK3 arcade.
+
+VERIFICAÇÕES SF: 903 casos de repertório; 514 variantes de golpes e mecânicas; 480 comandos de especiais. Carregamento dos 17 no navegador; grupos com oito participantes; Sonic Boom e agarrão normal do Guile sincronizados em dois clientes.
+INSTALAÇÃO: D:\Projetos\Mortal Kombat vs Street Fighter\expansao
+EVIDÊNCIAS: C:\Users\Pichau\Documents\ChatGPT\ALL_FIGHT\expansao-trabalho\evidencias
+
+A marcação no plano indica implementação, conforme combinado. As caixas de validação completa continuam abertas.

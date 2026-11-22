@@ -1,0 +1,2318 @@
+{
+  "originalFidelityValidated": false,
+  "remaining": 0,
+  "passed": 330,
+  "results": [
+    {
+      "owner": "mk-2",
+      "id": "umk3-r12-scorpion-stage-fatality-scorpion-victim-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-2",
+      "id": "umk3-r12-scorpion-stage-fatality-subway",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-2",
+      "id": "umk3-r12-scorpion-stage-fatality-bell-tower",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-2",
+      "id": "umk3-r12-scorpion-stage-fatality-pit-3",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-2",
+      "id": "umk3-r12-jax-animality-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-2",
+      "id": "umk3-r12-jax-babality-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-2",
+      "id": "umk3-r12-jax-fatality1-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-2",
+      "id": "umk3-r12-jax-fatality2-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-2",
+      "id": "umk3-r12-jax-friendship-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-2",
+      "id": "umk3-r12-scorpion-stage-fatality-scorpion-victim-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-2",
+      "id": "umk3-r12-scorpion-stage-fatality-subway",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-2",
+      "id": "umk3-r12-scorpion-stage-fatality-bell-tower",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-2",
+      "id": "umk3-r12-scorpion-stage-fatality-pit-3",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-2",
+      "id": "umk3-r12-jax-animality-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-2",
+      "id": "umk3-r12-jax-babality-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-2",
+      "id": "umk3-r12-jax-fatality1-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-2",
+      "id": "umk3-r12-jax-fatality2-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-2",
+      "id": "umk3-r12-jax-friendship-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-3",
+      "id": "umk3-r12-scorpion-stage-fatality-scorpion-victim-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-3",
+      "id": "umk3-r12-scorpion-stage-fatality-subway",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-3",
+      "id": "umk3-r12-scorpion-stage-fatality-bell-tower",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-3",
+      "id": "umk3-r12-scorpion-stage-fatality-pit-3",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-3",
+      "id": "umk3-r12-nightwolf-animality-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-3",
+      "id": "umk3-r12-nightwolf-fatality1-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-3",
+      "id": "umk3-r12-nightwolf-fatality2-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-3",
+      "id": "umk3-r12-nightwolf-babality-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-3",
+      "id": "umk3-r12-nightwolf-friendship-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-3",
+      "id": "umk3-r12-scorpion-stage-fatality-scorpion-victim-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-3",
+      "id": "umk3-r12-scorpion-stage-fatality-subway",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-3",
+      "id": "umk3-r12-scorpion-stage-fatality-bell-tower",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-3",
+      "id": "umk3-r12-scorpion-stage-fatality-pit-3",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-3",
+      "id": "umk3-r12-nightwolf-animality-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-3",
+      "id": "umk3-r12-nightwolf-fatality1-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-3",
+      "id": "umk3-r12-nightwolf-fatality2-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-3",
+      "id": "umk3-r12-nightwolf-babality-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-3",
+      "id": "umk3-r12-nightwolf-friendship-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-4",
+      "id": "umk3-r12-unmasked-sub-zero-babality-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-4",
+      "id": "umk3-r12-unmasked-sub-zero-fatality2-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-4",
+      "id": "umk3-r12-unmasked-sub-zero-stage-fatality-scorpions-lair",
+      "side": 1,
+      "command": false,
+      "completed": true
+    },
+    {
+      "owner": "mk-4",
+      "id": "umk3-r12-unmasked-sub-zero-animality-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-4",
+      "id": "umk3-r12-unmasked-sub-zero-fatality1-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-4",
+      "id": "umk3-r12-unmasked-sub-zero-stage-fatality-subway",
+      "side": 1,
+      "command": false,
+      "completed": true
+    },
+    {
+      "owner": "mk-4",
+      "id": "umk3-r12-unmasked-sub-zero-stage-fatality-bell-tower",
+      "side": 1,
+      "command": false,
+      "completed": true
+    },
+    {
+      "owner": "mk-4",
+      "id": "umk3-r12-unmasked-sub-zero-stage-fatality-pit-3",
+      "side": 1,
+      "command": false,
+      "completed": true
+    },
+    {
+      "owner": "mk-4",
+      "id": "umk3-r12-unmasked-sub-zero-friendship-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-4",
+      "id": "umk3-r12-unmasked-sub-zero-babality-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-4",
+      "id": "umk3-r12-unmasked-sub-zero-fatality2-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-4",
+      "id": "umk3-r12-unmasked-sub-zero-stage-fatality-scorpions-lair",
+      "side": -1,
+      "command": false,
+      "completed": true
+    },
+    {
+      "owner": "mk-4",
+      "id": "umk3-r12-unmasked-sub-zero-animality-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-4",
+      "id": "umk3-r12-unmasked-sub-zero-fatality1-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-4",
+      "id": "umk3-r12-unmasked-sub-zero-stage-fatality-subway",
+      "side": -1,
+      "command": false,
+      "completed": true
+    },
+    {
+      "owner": "mk-4",
+      "id": "umk3-r12-unmasked-sub-zero-stage-fatality-bell-tower",
+      "side": -1,
+      "command": false,
+      "completed": true
+    },
+    {
+      "owner": "mk-4",
+      "id": "umk3-r12-unmasked-sub-zero-stage-fatality-pit-3",
+      "side": -1,
+      "command": false,
+      "completed": true
+    },
+    {
+      "owner": "mk-4",
+      "id": "umk3-r12-unmasked-sub-zero-friendship-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-5",
+      "id": "umk3-r12-scorpion-stage-fatality-scorpion-victim-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-5",
+      "id": "umk3-r12-scorpion-stage-fatality-subway",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-5",
+      "id": "umk3-r12-scorpion-stage-fatality-bell-tower",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-5",
+      "id": "umk3-r12-scorpion-stage-fatality-pit-3",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-5",
+      "id": "umk3-r12-stryker-animality-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-5",
+      "id": "umk3-r12-stryker-babality-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-5",
+      "id": "umk3-r12-stryker-fatality1-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-5",
+      "id": "umk3-r12-stryker-fatality2-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-5",
+      "id": "umk3-r12-stryker-friendship-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-5",
+      "id": "umk3-r12-scorpion-stage-fatality-scorpion-victim-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-5",
+      "id": "umk3-r12-scorpion-stage-fatality-subway",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-5",
+      "id": "umk3-r12-scorpion-stage-fatality-bell-tower",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-5",
+      "id": "umk3-r12-scorpion-stage-fatality-pit-3",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-5",
+      "id": "umk3-r12-stryker-animality-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-5",
+      "id": "umk3-r12-stryker-babality-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-5",
+      "id": "umk3-r12-stryker-fatality1-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-5",
+      "id": "umk3-r12-stryker-fatality2-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-5",
+      "id": "umk3-r12-stryker-friendship-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-6",
+      "id": "umk3-r12-scorpion-stage-fatality-scorpion-victim-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-6",
+      "id": "umk3-r12-scorpion-stage-fatality-subway",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-6",
+      "id": "umk3-r12-scorpion-stage-fatality-bell-tower",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-6",
+      "id": "umk3-r12-scorpion-stage-fatality-pit-3",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-6",
+      "id": "umk3-r12-sindel-animality-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-6",
+      "id": "umk3-r12-sindel-babality-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-6",
+      "id": "umk3-r12-sindel-fatality1-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-6",
+      "id": "umk3-r12-sindel-fatality2-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-6",
+      "id": "umk3-r12-sindel-friendship-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-6",
+      "id": "umk3-r12-scorpion-stage-fatality-scorpion-victim-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-6",
+      "id": "umk3-r12-scorpion-stage-fatality-subway",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-6",
+      "id": "umk3-r12-scorpion-stage-fatality-bell-tower",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-6",
+      "id": "umk3-r12-scorpion-stage-fatality-pit-3",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-6",
+      "id": "umk3-r12-sindel-animality-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-6",
+      "id": "umk3-r12-sindel-babality-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-6",
+      "id": "umk3-r12-sindel-fatality1-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-6",
+      "id": "umk3-r12-sindel-fatality2-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-6",
+      "id": "umk3-r12-sindel-friendship-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-7",
+      "id": "umk3-r12-scorpion-stage-fatality-scorpion-victim-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-7",
+      "id": "umk3-r12-scorpion-stage-fatality-subway",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-7",
+      "id": "umk3-r12-scorpion-stage-fatality-bell-tower",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-7",
+      "id": "umk3-r12-scorpion-stage-fatality-pit-3",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-7",
+      "id": "umk3-r12-sektor-animality-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-7",
+      "id": "umk3-r12-sektor-babality-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-7",
+      "id": "umk3-r12-sektor-fatality1-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-7",
+      "id": "umk3-r12-sektor-fatality2-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-7",
+      "id": "umk3-r12-sektor-friendship-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-7",
+      "id": "umk3-r12-scorpion-stage-fatality-scorpion-victim-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-7",
+      "id": "umk3-r12-scorpion-stage-fatality-subway",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-7",
+      "id": "umk3-r12-scorpion-stage-fatality-bell-tower",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-7",
+      "id": "umk3-r12-scorpion-stage-fatality-pit-3",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-7",
+      "id": "umk3-r12-sektor-animality-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-7",
+      "id": "umk3-r12-sektor-babality-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-7",
+      "id": "umk3-r12-sektor-fatality1-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-7",
+      "id": "umk3-r12-sektor-fatality2-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-7",
+      "id": "umk3-r12-sektor-friendship-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-8",
+      "id": "umk3-r12-scorpion-stage-fatality-scorpion-victim-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-8",
+      "id": "umk3-r12-scorpion-stage-fatality-subway",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-8",
+      "id": "umk3-r12-scorpion-stage-fatality-bell-tower",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-8",
+      "id": "umk3-r12-scorpion-stage-fatality-pit-3",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-8",
+      "id": "umk3-r12-cyrax-animality-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-8",
+      "id": "umk3-r12-cyrax-babality-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-8",
+      "id": "umk3-r12-cyrax-fatality1-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-8",
+      "id": "umk3-r12-cyrax-fatality2-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-8",
+      "id": "umk3-r12-cyrax-friendship-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-8",
+      "id": "umk3-r12-scorpion-stage-fatality-scorpion-victim-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-8",
+      "id": "umk3-r12-scorpion-stage-fatality-subway",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-8",
+      "id": "umk3-r12-scorpion-stage-fatality-bell-tower",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-8",
+      "id": "umk3-r12-scorpion-stage-fatality-pit-3",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-8",
+      "id": "umk3-r12-cyrax-animality-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-8",
+      "id": "umk3-r12-cyrax-babality-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-8",
+      "id": "umk3-r12-cyrax-fatality1-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-8",
+      "id": "umk3-r12-cyrax-fatality2-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-8",
+      "id": "umk3-r12-cyrax-friendship-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-9",
+      "id": "umk3-r12-scorpion-stage-fatality-scorpion-victim-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-9",
+      "id": "umk3-r12-scorpion-stage-fatality-subway",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-9",
+      "id": "umk3-r12-scorpion-stage-fatality-bell-tower",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-9",
+      "id": "umk3-r12-scorpion-stage-fatality-pit-3",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-9",
+      "id": "umk3-r12-kung-lao-animality-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-9",
+      "id": "umk3-r12-kung-lao-babality-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-9",
+      "id": "umk3-r12-kung-lao-fatality1-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-9",
+      "id": "umk3-r12-kung-lao-fatality2-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-9",
+      "id": "umk3-r12-kung-lao-friendship-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-9",
+      "id": "umk3-r12-scorpion-stage-fatality-scorpion-victim-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-9",
+      "id": "umk3-r12-scorpion-stage-fatality-subway",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-9",
+      "id": "umk3-r12-scorpion-stage-fatality-bell-tower",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-9",
+      "id": "umk3-r12-scorpion-stage-fatality-pit-3",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-9",
+      "id": "umk3-r12-kung-lao-animality-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-9",
+      "id": "umk3-r12-kung-lao-babality-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-9",
+      "id": "umk3-r12-kung-lao-fatality1-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-9",
+      "id": "umk3-r12-kung-lao-fatality2-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-9",
+      "id": "umk3-r12-kung-lao-friendship-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-10",
+      "id": "umk3-r12-scorpion-stage-fatality-scorpion-victim-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-10",
+      "id": "umk3-r12-scorpion-stage-fatality-subway",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-10",
+      "id": "umk3-r12-scorpion-stage-fatality-bell-tower",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-10",
+      "id": "umk3-r12-scorpion-stage-fatality-pit-3",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-10",
+      "id": "umk3-r12-kabal-animality-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-10",
+      "id": "umk3-r12-kabal-babality-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-10",
+      "id": "umk3-r12-kabal-fatality1-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-10",
+      "id": "umk3-r12-kabal-fatality2-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-10",
+      "id": "umk3-r12-kabal-friendship-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-10",
+      "id": "umk3-r12-scorpion-stage-fatality-scorpion-victim-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-10",
+      "id": "umk3-r12-scorpion-stage-fatality-subway",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-10",
+      "id": "umk3-r12-scorpion-stage-fatality-bell-tower",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-10",
+      "id": "umk3-r12-scorpion-stage-fatality-pit-3",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-10",
+      "id": "umk3-r12-kabal-animality-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-10",
+      "id": "umk3-r12-kabal-babality-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-10",
+      "id": "umk3-r12-kabal-fatality1-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-10",
+      "id": "umk3-r12-kabal-fatality2-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-10",
+      "id": "umk3-r12-kabal-friendship-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-11",
+      "id": "umk3-r12-scorpion-stage-fatality-scorpion-victim-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-11",
+      "id": "umk3-r12-scorpion-stage-fatality-subway",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-11",
+      "id": "umk3-r12-scorpion-stage-fatality-bell-tower",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-11",
+      "id": "umk3-r12-scorpion-stage-fatality-pit-3",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-11",
+      "id": "umk3-r12-sheeva-animality-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-11",
+      "id": "umk3-r12-sheeva-babality-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-11",
+      "id": "umk3-r12-sheeva-fatality1-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-11",
+      "id": "umk3-r12-sheeva-fatality2-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-11",
+      "id": "umk3-r12-sheeva-friendship-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-11",
+      "id": "umk3-r12-scorpion-stage-fatality-scorpion-victim-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-11",
+      "id": "umk3-r12-scorpion-stage-fatality-subway",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-11",
+      "id": "umk3-r12-scorpion-stage-fatality-bell-tower",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-11",
+      "id": "umk3-r12-scorpion-stage-fatality-pit-3",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-11",
+      "id": "umk3-r12-sheeva-animality-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-11",
+      "id": "umk3-r12-sheeva-babality-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-11",
+      "id": "umk3-r12-sheeva-fatality1-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-11",
+      "id": "umk3-r12-sheeva-fatality2-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-11",
+      "id": "umk3-r12-sheeva-friendship-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-12",
+      "id": "umk3-r12-scorpion-stage-fatality-scorpion-victim-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-12",
+      "id": "umk3-r12-scorpion-stage-fatality-subway",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-12",
+      "id": "umk3-r12-scorpion-stage-fatality-bell-tower",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-12",
+      "id": "umk3-r12-scorpion-stage-fatality-pit-3",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-12",
+      "id": "umk3-r12-shang-tsung-animality-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-12",
+      "id": "umk3-r12-shang-tsung-babality-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-12",
+      "id": "umk3-r12-shang-tsung-fatality1-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-12",
+      "id": "umk3-r12-shang-tsung-fatality2-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-12",
+      "id": "umk3-r12-shang-tsung-friendship-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-12",
+      "id": "umk3-r12-scorpion-stage-fatality-scorpion-victim-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-12",
+      "id": "umk3-r12-scorpion-stage-fatality-subway",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-12",
+      "id": "umk3-r12-scorpion-stage-fatality-bell-tower",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-12",
+      "id": "umk3-r12-scorpion-stage-fatality-pit-3",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-12",
+      "id": "umk3-r12-shang-tsung-animality-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-12",
+      "id": "umk3-r12-shang-tsung-babality-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-12",
+      "id": "umk3-r12-shang-tsung-fatality1-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-12",
+      "id": "umk3-r12-shang-tsung-fatality2-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-12",
+      "id": "umk3-r12-shang-tsung-friendship-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-13",
+      "id": "umk3-r12-scorpion-stage-fatality-scorpion-victim-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-13",
+      "id": "umk3-r12-scorpion-stage-fatality-subway",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-13",
+      "id": "umk3-r12-scorpion-stage-fatality-bell-tower",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-13",
+      "id": "umk3-r12-scorpion-stage-fatality-pit-3",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-13",
+      "id": "umk3-r12-liu-kang-fatality1-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-13",
+      "id": "umk3-r12-liu-kang-animality-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-13",
+      "id": "umk3-r12-liu-kang-babality-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-13",
+      "id": "umk3-r12-liu-kang-fatality2-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-13",
+      "id": "umk3-r12-liu-kang-friendship-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-13",
+      "id": "umk3-r12-scorpion-stage-fatality-scorpion-victim-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-13",
+      "id": "umk3-r12-scorpion-stage-fatality-subway",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-13",
+      "id": "umk3-r12-scorpion-stage-fatality-bell-tower",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-13",
+      "id": "umk3-r12-scorpion-stage-fatality-pit-3",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-13",
+      "id": "umk3-r12-liu-kang-fatality1-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-13",
+      "id": "umk3-r12-liu-kang-animality-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-13",
+      "id": "umk3-r12-liu-kang-babality-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-13",
+      "id": "umk3-r12-liu-kang-fatality2-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-13",
+      "id": "umk3-r12-liu-kang-friendship-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-14",
+      "id": "umk3-r12-scorpion-stage-fatality-scorpion-victim-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-14",
+      "id": "umk3-r12-scorpion-stage-fatality-subway",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-14",
+      "id": "umk3-r12-scorpion-stage-fatality-bell-tower",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-14",
+      "id": "umk3-r12-scorpion-stage-fatality-pit-3",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-14",
+      "id": "umk3-r12-smoke-animality-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-14",
+      "id": "umk3-r12-smoke-babality-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-14",
+      "id": "umk3-r12-smoke-fatality1-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-14",
+      "id": "umk3-r12-smoke-fatality2-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-14",
+      "id": "umk3-r12-smoke-friendship-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-14",
+      "id": "umk3-r12-scorpion-stage-fatality-scorpion-victim-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-14",
+      "id": "umk3-r12-scorpion-stage-fatality-subway",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-14",
+      "id": "umk3-r12-scorpion-stage-fatality-bell-tower",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-14",
+      "id": "umk3-r12-scorpion-stage-fatality-pit-3",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-14",
+      "id": "umk3-r12-smoke-animality-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-14",
+      "id": "umk3-r12-smoke-babality-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-14",
+      "id": "umk3-r12-smoke-fatality1-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-14",
+      "id": "umk3-r12-smoke-fatality2-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-14",
+      "id": "umk3-r12-smoke-friendship-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-15",
+      "id": "umk3-r12-scorpion-stage-fatality-scorpion-victim-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-15",
+      "id": "umk3-r12-scorpion-stage-fatality-subway",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-15",
+      "id": "umk3-r12-scorpion-stage-fatality-bell-tower",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-15",
+      "id": "umk3-r12-scorpion-stage-fatality-pit-3",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-15",
+      "id": "umk3-r12-kitana-animality-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-15",
+      "id": "umk3-r12-kitana-babality-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-15",
+      "id": "umk3-r12-kitana-fatality1-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-15",
+      "id": "umk3-r12-kitana-fatality2-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-15",
+      "id": "umk3-r12-kitana-friendship-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-15",
+      "id": "umk3-r12-scorpion-stage-fatality-scorpion-victim-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-15",
+      "id": "umk3-r12-scorpion-stage-fatality-subway",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-15",
+      "id": "umk3-r12-scorpion-stage-fatality-bell-tower",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-15",
+      "id": "umk3-r12-scorpion-stage-fatality-pit-3",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-15",
+      "id": "umk3-r12-kitana-animality-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-15",
+      "id": "umk3-r12-kitana-babality-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-15",
+      "id": "umk3-r12-kitana-fatality1-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-15",
+      "id": "umk3-r12-kitana-fatality2-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-15",
+      "id": "umk3-r12-kitana-friendship-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-16",
+      "id": "umk3-r12-scorpion-stage-fatality-scorpion-victim-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-16",
+      "id": "umk3-r12-scorpion-stage-fatality-subway",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-16",
+      "id": "umk3-r12-scorpion-stage-fatality-bell-tower",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-16",
+      "id": "umk3-r12-scorpion-stage-fatality-pit-3",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-16",
+      "id": "umk3-r12-jade-animality-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-16",
+      "id": "umk3-r12-jade-babality-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-16",
+      "id": "umk3-r12-jade-fatality1-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-16",
+      "id": "umk3-r12-jade-fatality2-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-16",
+      "id": "umk3-r12-jade-friendship-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-16",
+      "id": "umk3-r12-scorpion-stage-fatality-scorpion-victim-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-16",
+      "id": "umk3-r12-scorpion-stage-fatality-subway",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-16",
+      "id": "umk3-r12-scorpion-stage-fatality-bell-tower",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-16",
+      "id": "umk3-r12-scorpion-stage-fatality-pit-3",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-16",
+      "id": "umk3-r12-jade-animality-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-16",
+      "id": "umk3-r12-jade-babality-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-16",
+      "id": "umk3-r12-jade-fatality1-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-16",
+      "id": "umk3-r12-jade-fatality2-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-16",
+      "id": "umk3-r12-jade-friendship-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-17",
+      "id": "umk3-r12-scorpion-stage-fatality-scorpion-victim-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-17",
+      "id": "umk3-r12-scorpion-stage-fatality-subway",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-17",
+      "id": "umk3-r12-scorpion-stage-fatality-bell-tower",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-17",
+      "id": "umk3-r12-scorpion-stage-fatality-pit-3",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-17",
+      "id": "umk3-r12-mileena-animality-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-17",
+      "id": "umk3-r12-mileena-babality-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-17",
+      "id": "umk3-r12-mileena-fatality1-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-17",
+      "id": "umk3-r12-mileena-fatality2-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-17",
+      "id": "umk3-r12-mileena-friendship-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-17",
+      "id": "umk3-r12-scorpion-stage-fatality-scorpion-victim-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-17",
+      "id": "umk3-r12-scorpion-stage-fatality-subway",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-17",
+      "id": "umk3-r12-scorpion-stage-fatality-bell-tower",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-17",
+      "id": "umk3-r12-scorpion-stage-fatality-pit-3",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-17",
+      "id": "umk3-r12-mileena-animality-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-17",
+      "id": "umk3-r12-mileena-babality-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-17",
+      "id": "umk3-r12-mileena-fatality1-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-17",
+      "id": "umk3-r12-mileena-fatality2-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-17",
+      "id": "umk3-r12-mileena-friendship-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-19",
+      "id": "umk3-r12-scorpion-stage-fatality-scorpion-victim-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-19",
+      "id": "umk3-r12-scorpion-stage-fatality-subway",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-19",
+      "id": "umk3-r12-scorpion-stage-fatality-bell-tower",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-19",
+      "id": "umk3-r12-scorpion-stage-fatality-pit-3",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-19",
+      "id": "umk3-r12-reptile-animality-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-19",
+      "id": "umk3-r12-reptile-babality-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-19",
+      "id": "umk3-r12-reptile-fatality1-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-19",
+      "id": "umk3-r12-reptile-fatality2-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-19",
+      "id": "umk3-r12-reptile-friendship-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-19",
+      "id": "umk3-r12-scorpion-stage-fatality-scorpion-victim-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-19",
+      "id": "umk3-r12-scorpion-stage-fatality-subway",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-19",
+      "id": "umk3-r12-scorpion-stage-fatality-bell-tower",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-19",
+      "id": "umk3-r12-scorpion-stage-fatality-pit-3",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-19",
+      "id": "umk3-r12-reptile-animality-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-19",
+      "id": "umk3-r12-reptile-babality-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-19",
+      "id": "umk3-r12-reptile-fatality1-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-19",
+      "id": "umk3-r12-reptile-fatality2-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-19",
+      "id": "umk3-r12-reptile-friendship-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-20",
+      "id": "umk3-r12-scorpion-stage-fatality-scorpion-victim-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-20",
+      "id": "umk3-r12-scorpion-stage-fatality-subway",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-20",
+      "id": "umk3-r12-scorpion-stage-fatality-bell-tower",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-20",
+      "id": "umk3-r12-scorpion-stage-fatality-pit-3",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-20",
+      "id": "umk3-r12-ermac-fatality1-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-20",
+      "id": "umk3-r12-ermac-fatality2-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-20",
+      "id": "umk3-r12-scorpion-stage-fatality-scorpion-victim-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-20",
+      "id": "umk3-r12-scorpion-stage-fatality-subway",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-20",
+      "id": "umk3-r12-scorpion-stage-fatality-bell-tower",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-20",
+      "id": "umk3-r12-scorpion-stage-fatality-pit-3",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-20",
+      "id": "umk3-r12-ermac-fatality1-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "mk-20",
+      "id": "umk3-r12-ermac-fatality2-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "human-smoke",
+      "id": "umk3-r12-scorpion-stage-fatality-scorpion-victim-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "human-smoke",
+      "id": "umk3-r12-scorpion-stage-fatality-subway",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "human-smoke",
+      "id": "umk3-r12-scorpion-stage-fatality-bell-tower",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "human-smoke",
+      "id": "umk3-r12-scorpion-stage-fatality-pit-3",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "human-smoke",
+      "id": "umk3-r12-human-smoke-babality-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "human-smoke",
+      "id": "umk3-r12-human-smoke-fatality1-mirror-native-terminal",
+      "side": 1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "human-smoke",
+      "id": "umk3-r12-scorpion-stage-fatality-scorpion-victim-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "human-smoke",
+      "id": "umk3-r12-scorpion-stage-fatality-subway",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "human-smoke",
+      "id": "umk3-r12-scorpion-stage-fatality-bell-tower",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "human-smoke",
+      "id": "umk3-r12-scorpion-stage-fatality-pit-3",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "human-smoke",
+      "id": "umk3-r12-human-smoke-babality-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    },
+    {
+      "owner": "human-smoke",
+      "id": "umk3-r12-human-smoke-fatality1-mirror-native-terminal",
+      "side": -1,
+      "command": true,
+      "completed": true
+    }
+  ],
+  "failures": []
+}

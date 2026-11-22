@@ -1,0 +1,90 @@
+{
+  "status": "IMPLEMENTED_CALIBRATION_PENDING",
+  "limits": [
+    "Native sampled flight is retained until the first contact witness; later flight is extrapolated.",
+    "Turbo phase, random damage, cancellation differences, close-range red knockdown and corner branches remain pending.",
+    "Super and air Tatsumaki are not included in this pack."
+  ],
+  "variants": [
+    {
+      "move": "hadouken_lp",
+      "birthSample": 10,
+      "durationSamples": 46,
+      "observedDamage": 16,
+      "observedChip": 4,
+      "flightSamples": 13,
+      "sampledDistance": 60.0,
+      "continuationSpeed": 298.1666564941406,
+      "firstVisibleSample": 2,
+      "colorPalette": 14,
+      "traceSha256": "c1a532d7a5e3572691c9424a359902ae3fbc476ea96ce36fa6bedb8ec8f8efbc"
+    },
+    {
+      "move": "hadouken_mp",
+      "birthSample": 10,
+      "durationSamples": 49,
+      "observedDamage": 17,
+      "observedChip": 4,
+      "flightSamples": 10,
+      "sampledDistance": 60.0,
+      "continuationSpeed": 397.5555419921875,
+      "firstVisibleSample": 2,
+      "colorPalette": 14,
+      "traceSha256": "1fcbd7013818ab5b92f4a02e4b62639e1c5dd161ad3a5307457131e8dba34e1a"
+    },
+    {
+      "move": "hadouken_hp",
+      "birthSample": 10,
+      "durationSamples": 52,
+      "observedDamage": 19,
+      "observedChip": 4,
+      "flightSamples": 8,
+      "sampledDistance": 62.5,
+      "continuationSpeed": 532.4404580252511,
+      "firstVisibleSample": 2,
+      "colorPalette": 14,
+      "traceSha256": "eebfdfc49517c50b16f0f04a2ed9933f47e60235ad1897171cbc06c0292b387e"
+    },
+    {
+      "move": "red_hadouken_lp",
+      "birthSample": 10,
+      "durationSamples": 45,
+      "observedDamage": 16,
+      "observedChip": 4,
+      "flightSamples": 16,
+      "sampledDistance": 75.0,
+      "continuationSpeed": 298.1666564941406,
+      "firstVisibleSample": 2,
+      "colorPalette": 15,
+      "traceSha256": "a45719c2e79f626d235c8104f77c6e650b329514d61694b7d35b743e007f7bcd"
+    },
+    {
+      "move": "red_hadouken_mp",
+      "birthSample": 10,
+      "durationSamples": 48,
+      "observedDamage": 17,
+      "observedChip": 4,
+      "flightSamples": 12,
+      "sampledDistance": 75.0,
+      "continuationSpeed": 406.5908952192827,
+      "firstVisibleSample": 2,
+      "colorPalette": 15,
+      "traceSha256": "e1faa8c70d1a7c47a0500d397891ecb335c414644b37ebd930269b9885601da8"
+    },
+    {
+      "move": "red_hadouken_hp",
+      "birthSample": 10,
+      "durationSamples": 51,
+      "observedDamage": 19,
+      "observedChip": 4,
+      "flightSamples": 9,
+      "sampledDistance": 68.75,
+      "continuationSpeed": 512.4739408493042,
+      "firstVisibleSample": 2,
+      "colorPalette": 15,
+      "traceSha256": "f8bba91d48759e6a47aac26adc5ebce2642574cf5f3f5932f63157801db64cf5"
+    }
+  ],
+  "assets": 56,
+  "reactions": 12
+}

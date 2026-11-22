@@ -12,11 +12,12 @@
       bottom:player.y,top:player.y+height};
   }
   function canGuard(defender,definition,move){
-    if(defender.airborne||defender.action||defender.stun>0||defender.knockdown>0||defender.health<=0||move.kind==='throw')return false;
+    if(defender.airborne||defender.action&&!definition.moves[defender.action.name]?.allowGuardDuringAction||defender.stun>0||defender.knockdown>0||defender.health<=0||move.kind==='throw'||move.level==='unblockable')return false;
     const input=defender.input,holding=(definition.guard==='button'&&input.block)||(definition.guard==='back'&&input.x===-defender.facing);
     if(!holding)return false;
-    if(move.level==='low')return input.down;
-    if(move.level==='overhead')return !input.down;
+    const crouchingGuard=input.down&&!definition.highGuardOnly;
+    if(move.level==='low')return crouchingGuard;
+    if(move.level==='overhead')return !crouchingGuard;
     return true;
   }
   scope.FightCollision={overlap,box,hurt,canGuard};

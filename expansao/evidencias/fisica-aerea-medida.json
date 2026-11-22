@@ -1,0 +1,537 @@
+{
+  "fieldUnits": {
+    "position": "16.16 at offsets6/10",
+    "velocity": "8.8 at offsets3c/3e",
+    "deceleration": "8.8 at offsets40/42"
+  },
+  "reports": [
+    {
+      "case": "air_tatsumaki_hk_isolation",
+      "folder": "aereo-nativo-r1",
+      "commit": 18,
+      "landing": 54,
+      "end": 58,
+      "initialVx": 0.0,
+      "initialVy": 2.125,
+      "floatApplied": true,
+      "firstNormalGravity": {
+        "sample": 41,
+        "observedActorTicks": 30
+      },
+      "physicsWitnesses": 34,
+      "physicsErrors": [],
+      "unresolvedSamples": [],
+      "observedActorTicks": 46
+    },
+    {
+      "case": "air_tatsumaki_lk_isolation",
+      "folder": "aereo-nativo-r1",
+      "commit": 18,
+      "landing": 46,
+      "end": 50,
+      "initialVx": 0.0,
+      "initialVy": 2.125,
+      "floatApplied": true,
+      "firstNormalGravity": {
+        "sample": 28,
+        "observedActorTicks": 13
+      },
+      "physicsWitnesses": 26,
+      "physicsErrors": [],
+      "unresolvedSamples": [],
+      "observedActorTicks": 36
+    },
+    {
+      "case": "air_tatsumaki_mk_isolation",
+      "folder": "aereo-nativo-r1",
+      "commit": 18,
+      "landing": 51,
+      "end": 55,
+      "initialVx": 0.0,
+      "initialVy": 2.125,
+      "floatApplied": true,
+      "firstNormalGravity": {
+        "sample": 37,
+        "observedActorTicks": 24
+      },
+      "physicsWitnesses": 31,
+      "physicsErrors": [],
+      "unresolvedSamples": [],
+      "observedActorTicks": 43
+    },
+    {
+      "case": "air_tatsumaki_hk_isolationDescending",
+      "folder": "aereo-nativo-r2",
+      "commit": 35,
+      "landing": 39,
+      "end": 43,
+      "initialVx": 0.0,
+      "initialVy": -5.0625,
+      "floatApplied": false,
+      "firstNormalGravity": null,
+      "physicsWitnesses": 3,
+      "physicsErrors": [],
+      "unresolvedSamples": [],
+      "observedActorTicks": 6
+    },
+    {
+      "case": "air_tatsumaki_hk_isolationEarly",
+      "folder": "aereo-nativo-r2",
+      "commit": 14,
+      "landing": 57,
+      "end": 61,
+      "initialVx": 0.0,
+      "initialVy": 3.6875,
+      "floatApplied": true,
+      "firstNormalGravity": {
+        "sample": 37,
+        "observedActorTicks": 30
+      },
+      "physicsWitnesses": 41,
+      "physicsErrors": [],
+      "unresolvedSamples": [],
+      "observedActorTicks": 56
+    },
+    {
+      "case": "air_tatsumaki_hk_isolationLate",
+      "folder": "aereo-nativo-r2",
+      "commit": 27,
+      "landing": 39,
+      "end": 43,
+      "initialVx": 0.0,
+      "initialVy": -1.625,
+      "floatApplied": false,
+      "firstNormalGravity": null,
+      "physicsWitnesses": 11,
+      "physicsErrors": [],
+      "unresolvedSamples": [],
+      "observedActorTicks": 17
+    },
+    {
+      "case": "air_tatsumaki_lk_isolationDescending",
+      "folder": "aereo-nativo-r2",
+      "commit": 35,
+      "landing": 39,
+      "end": 43,
+      "initialVx": 0.0,
+      "initialVy": -5.0625,
+      "floatApplied": false,
+      "firstNormalGravity": null,
+      "physicsWitnesses": 3,
+      "physicsErrors": [],
+      "unresolvedSamples": [],
+      "observedActorTicks": 6
+    },
+    {
+      "case": "air_tatsumaki_lk_isolationEarly",
+      "folder": "aereo-nativo-r2",
+      "commit": 14,
+      "landing": 48,
+      "end": 51,
+      "initialVx": 0.0,
+      "initialVy": 3.6875,
+      "floatApplied": true,
+      "firstNormalGravity": {
+        "sample": 22,
+        "observedActorTicks": 12
+      },
+      "physicsWitnesses": 32,
+      "physicsErrors": [],
+      "unresolvedSamples": [],
+      "observedActorTicks": 44
+    },
+    {
+      "case": "air_tatsumaki_lk_isolationLate",
+      "folder": "aereo-nativo-r2",
+      "commit": 27,
+      "landing": 39,
+      "end": 43,
+      "initialVx": 0.0,
+      "initialVy": -1.625,
+      "floatApplied": false,
+      "firstNormalGravity": null,
+      "physicsWitnesses": 11,
+      "physicsErrors": [],
+      "unresolvedSamples": [],
+      "observedActorTicks": 17
+    },
+    {
+      "case": "air_tatsumaki_mk_isolationDescending",
+      "folder": "aereo-nativo-r2",
+      "commit": 35,
+      "landing": 39,
+      "end": 43,
+      "initialVx": 0.0,
+      "initialVy": -5.0625,
+      "floatApplied": false,
+      "firstNormalGravity": null,
+      "physicsWitnesses": 3,
+      "physicsErrors": [],
+      "unresolvedSamples": [],
+      "observedActorTicks": 6
+    },
+    {
+      "case": "air_tatsumaki_mk_isolationEarly",
+      "folder": "aereo-nativo-r2",
+      "commit": 14,
+      "landing": 54,
+      "end": 58,
+      "initialVx": 0.0,
+      "initialVy": 3.6875,
+      "floatApplied": true,
+      "firstNormalGravity": {
+        "sample": 32,
+        "observedActorTicks": 24
+      },
+      "physicsWitnesses": 38,
+      "physicsErrors": [],
+      "unresolvedSamples": [],
+      "observedActorTicks": 53
+    },
+    {
+      "case": "air_tatsumaki_mk_isolationLate",
+      "folder": "aereo-nativo-r2",
+      "commit": 27,
+      "landing": 39,
+      "end": 43,
+      "initialVx": 0.0,
+      "initialVy": -1.625,
+      "floatApplied": false,
+      "firstNormalGravity": null,
+      "physicsWitnesses": 11,
+      "physicsErrors": [],
+      "unresolvedSamples": [],
+      "observedActorTicks": 17
+    },
+    {
+      "case": "air_tatsumaki_hk_block",
+      "folder": "aereo-nativo-r3",
+      "commit": 19,
+      "landing": 50,
+      "end": 54,
+      "initialVx": 0.0,
+      "initialVy": 1.5,
+      "floatApplied": true,
+      "firstNormalGravity": {
+        "sample": 40,
+        "observedActorTicks": 30
+      },
+      "physicsWitnesses": 29,
+      "physicsErrors": [],
+      "unresolvedSamples": [],
+      "observedActorTicks": 44
+    },
+    {
+      "case": "air_tatsumaki_hk_hit",
+      "folder": "aereo-nativo-r3",
+      "commit": 19,
+      "landing": 49,
+      "end": 52,
+      "initialVx": 0.0,
+      "initialVy": 1.1875,
+      "floatApplied": true,
+      "firstNormalGravity": {
+        "sample": 40,
+        "observedActorTicks": 30
+      },
+      "physicsWitnesses": 28,
+      "physicsErrors": [],
+      "unresolvedSamples": [],
+      "observedActorTicks": 42
+    },
+    {
+      "case": "air_tatsumaki_hk_isolationBackward",
+      "folder": "aereo-nativo-r3",
+      "commit": 18,
+      "landing": 54,
+      "end": 58,
+      "initialVx": -3.6875,
+      "initialVy": 2.25,
+      "floatApplied": true,
+      "firstNormalGravity": {
+        "sample": 42,
+        "observedActorTicks": 30
+      },
+      "physicsWitnesses": 34,
+      "physicsErrors": [],
+      "unresolvedSamples": [
+        18,
+        41
+      ],
+      "observedActorTicks": 45
+    },
+    {
+      "case": "air_tatsumaki_hk_isolationBackwardLate",
+      "folder": "aereo-nativo-r3",
+      "commit": 27,
+      "landing": 40,
+      "end": 43,
+      "initialVx": -3.453125,
+      "initialVy": -1.5,
+      "floatApplied": false,
+      "firstNormalGravity": null,
+      "physicsWitnesses": 12,
+      "physicsErrors": [],
+      "unresolvedSamples": [],
+      "observedActorTicks": 18
+    },
+    {
+      "case": "air_tatsumaki_hk_isolationForward",
+      "folder": "aereo-nativo-r3",
+      "commit": 18,
+      "landing": 54,
+      "end": 58,
+      "initialVx": 3.20703125,
+      "initialVy": 2.3125,
+      "floatApplied": true,
+      "firstNormalGravity": {
+        "sample": 41,
+        "observedActorTicks": 29
+      },
+      "physicsWitnesses": 33,
+      "physicsErrors": [],
+      "unresolvedSamples": [
+        18
+      ],
+      "observedActorTicks": 46
+    },
+    {
+      "case": "air_tatsumaki_hk_isolationForwardLate",
+      "folder": "aereo-nativo-r3",
+      "commit": 27,
+      "landing": 40,
+      "end": 44,
+      "initialVx": 2.9921875,
+      "initialVy": -1.125,
+      "floatApplied": false,
+      "firstNormalGravity": null,
+      "physicsWitnesses": 12,
+      "physicsErrors": [],
+      "unresolvedSamples": [],
+      "observedActorTicks": 18
+    },
+    {
+      "case": "air_tatsumaki_lk_block",
+      "folder": "aereo-nativo-r3",
+      "commit": 19,
+      "landing": 44,
+      "end": 48,
+      "initialVx": 0.0,
+      "initialVy": 1.5,
+      "floatApplied": true,
+      "firstNormalGravity": {
+        "sample": 27,
+        "observedActorTicks": 13
+      },
+      "physicsWitnesses": 23,
+      "physicsErrors": [],
+      "unresolvedSamples": [],
+      "observedActorTicks": 35
+    },
+    {
+      "case": "air_tatsumaki_lk_hit",
+      "folder": "aereo-nativo-r3",
+      "commit": 19,
+      "landing": 43,
+      "end": 46,
+      "initialVx": 0.0,
+      "initialVy": 1.1875,
+      "floatApplied": true,
+      "firstNormalGravity": {
+        "sample": 27,
+        "observedActorTicks": 12
+      },
+      "physicsWitnesses": 22,
+      "physicsErrors": [],
+      "unresolvedSamples": [],
+      "observedActorTicks": 34
+    },
+    {
+      "case": "air_tatsumaki_lk_isolationBackward",
+      "folder": "aereo-nativo-r3",
+      "commit": 18,
+      "landing": 46,
+      "end": 50,
+      "initialVx": -3.6875,
+      "initialVy": 2.25,
+      "floatApplied": true,
+      "firstNormalGravity": {
+        "sample": 28,
+        "observedActorTicks": 11
+      },
+      "physicsWitnesses": 26,
+      "physicsErrors": [
+        {
+          "sample": 28,
+          "ticks": 1,
+          "expectedDy": -12288,
+          "actualDy": -4096,
+          "expectedVy": -48,
+          "actualVy": -48
+        }
+      ],
+      "unresolvedSamples": [
+        18,
+        27
+      ],
+      "observedActorTicks": 34
+    },
+    {
+      "case": "air_tatsumaki_lk_isolationBackwardLate",
+      "folder": "aereo-nativo-r3",
+      "commit": 27,
+      "landing": 40,
+      "end": 43,
+      "initialVx": -3.453125,
+      "initialVy": -1.5,
+      "floatApplied": false,
+      "firstNormalGravity": null,
+      "physicsWitnesses": 12,
+      "physicsErrors": [],
+      "unresolvedSamples": [],
+      "observedActorTicks": 18
+    },
+    {
+      "case": "air_tatsumaki_lk_isolationForward",
+      "folder": "aereo-nativo-r3",
+      "commit": 18,
+      "landing": 46,
+      "end": 50,
+      "initialVx": 3.20703125,
+      "initialVy": 2.3125,
+      "floatApplied": true,
+      "firstNormalGravity": {
+        "sample": 27,
+        "observedActorTicks": 11
+      },
+      "physicsWitnesses": 26,
+      "physicsErrors": [],
+      "unresolvedSamples": [
+        18
+      ],
+      "observedActorTicks": 36
+    },
+    {
+      "case": "air_tatsumaki_lk_isolationForwardLate",
+      "folder": "aereo-nativo-r3",
+      "commit": 27,
+      "landing": 40,
+      "end": 44,
+      "initialVx": 2.9921875,
+      "initialVy": -1.125,
+      "floatApplied": false,
+      "firstNormalGravity": null,
+      "physicsWitnesses": 12,
+      "physicsErrors": [],
+      "unresolvedSamples": [],
+      "observedActorTicks": 18
+    },
+    {
+      "case": "air_tatsumaki_mk_block",
+      "folder": "aereo-nativo-r3",
+      "commit": 19,
+      "landing": 49,
+      "end": 53,
+      "initialVx": 0.0,
+      "initialVy": 1.5,
+      "floatApplied": true,
+      "firstNormalGravity": {
+        "sample": 36,
+        "observedActorTicks": 25
+      },
+      "physicsWitnesses": 28,
+      "physicsErrors": [],
+      "unresolvedSamples": [],
+      "observedActorTicks": 42
+    },
+    {
+      "case": "air_tatsumaki_mk_hit",
+      "folder": "aereo-nativo-r3",
+      "commit": 19,
+      "landing": 50,
+      "end": 54,
+      "initialVx": 0.0,
+      "initialVy": 1.1875,
+      "floatApplied": true,
+      "firstNormalGravity": {
+        "sample": 36,
+        "observedActorTicks": 24
+      },
+      "physicsWitnesses": 29,
+      "physicsErrors": [],
+      "unresolvedSamples": [],
+      "observedActorTicks": 40
+    },
+    {
+      "case": "air_tatsumaki_mk_isolationBackward",
+      "folder": "aereo-nativo-r3",
+      "commit": 18,
+      "landing": 51,
+      "end": 55,
+      "initialVx": -3.6875,
+      "initialVy": 2.25,
+      "floatApplied": true,
+      "firstNormalGravity": {
+        "sample": 37,
+        "observedActorTicks": 24
+      },
+      "physicsWitnesses": 30,
+      "physicsErrors": [],
+      "unresolvedSamples": [
+        18,
+        36
+      ],
+      "observedActorTicks": 42
+    },
+    {
+      "case": "air_tatsumaki_mk_isolationBackwardLate",
+      "folder": "aereo-nativo-r3",
+      "commit": 27,
+      "landing": 40,
+      "end": 44,
+      "initialVx": -3.453125,
+      "initialVy": -1.5,
+      "floatApplied": false,
+      "firstNormalGravity": null,
+      "physicsWitnesses": 12,
+      "physicsErrors": [],
+      "unresolvedSamples": [],
+      "observedActorTicks": 18
+    },
+    {
+      "case": "air_tatsumaki_mk_isolationForward",
+      "folder": "aereo-nativo-r3",
+      "commit": 18,
+      "landing": 52,
+      "end": 56,
+      "initialVx": 3.20703125,
+      "initialVy": 2.3125,
+      "floatApplied": true,
+      "firstNormalGravity": {
+        "sample": 36,
+        "observedActorTicks": 23
+      },
+      "physicsWitnesses": 32,
+      "physicsErrors": [],
+      "unresolvedSamples": [
+        18
+      ],
+      "observedActorTicks": 43
+    },
+    {
+      "case": "air_tatsumaki_mk_isolationForwardLate",
+      "folder": "aereo-nativo-r3",
+      "commit": 27,
+      "landing": 40,
+      "end": 44,
+      "initialVx": 2.9921875,
+      "initialVy": -1.125,
+      "floatApplied": false,
+      "firstNormalGravity": null,
+      "physicsWitnesses": 12,
+      "physicsErrors": [],
+      "unresolvedSamples": [],
+      "observedActorTicks": 18
+    }
+  ]
+}

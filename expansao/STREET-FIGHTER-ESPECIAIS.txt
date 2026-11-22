@@ -1,0 +1,17 @@
+ESPECIAIS DO ELENCO STREET FIGHTER — IMPLEMENTAÇÃO
+
+Os 17 personagens de Super Street Fighter II Turbo têm seus especiais ligados ao combate. O conjunto do guia tem 101 entradas, incluindo continuações e Supers; Akuma mantém seu repertório de SSF2T sem Super inventado. Street Fighter não recebe fatalities, babalities ou animalities.
+
+Ryu, Ken, Chun-Li, Guile, E. Honda, Blanka, Zangief, Dhalsim, Cammy, Fei Long, T. Hawk, Dee Jay, Balrog, Vega, Sagat, M. Bison e Akuma.
+
+Adicionados: golpes de carga, sequências por repetição, acordes de três botões, giros de 360/720 graus, comandos ao soltar botões, especiais no ar, Supers com medidor, Rekka até a terceira etapa, aproximação e agarrão de Zangief, ramos do Hooligan, salto/ataque/agarrão de parede de Vega e continuação de Devil Reverse/Head Press.
+
+COMO ABRIR
+Abra Abrir expansao.cmd, escolha os personagens e inicie. Há uma lista de comandos por personagem abaixo da arena. Recarregue a página com Ctrl+F5 para obter os módulos novos.
+
+LIMITES DESTA ETAPA
+Implementado não significa validado contra os originais. Forças compartilham parte das imagens capturadas; danos, janelas, movimentos de vítimas e determinadas continuações ainda são provisórios. O Flash Kick usa a primeira volta da animação nativa de Double Flash. Os Supers de dois giros de T. Hawk e Zangief são compostos com suas próprias animações nativas de agarrão de 360 graus; a animação exata desses Supers ainda precisa ser substituída/calibrada. As tentativas de agarrões aéreos/parede não provaram todas as trajetórias de contato: esses vínculos têm trajetórias adaptadas para funcionar no crossover.
+
+As capturas mantiveram as ROMs originais intactas. Os registros distinguem tentativas, estados observados e a utilização de posições de teste controladas; estado nativo de especial, sozinho, não prova a identidade completa do golpe.
+
+O TXT do usuário teve apenas as caixas de especiais dos personagens de SF marcadas. Caixas de validação e conclusão global continuam abertas.

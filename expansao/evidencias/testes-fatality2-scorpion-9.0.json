@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "profile": "umk3-r12-scorpion-fatality2-scorpion-victim-native-terminal",
+  "sprites": 83,
+  "completeGame": false,
+  "local": {
+    "facing": 1,
+    "scenery": "mk-scorpions-lair",
+    "immune": true,
+    "othersCanFight": true,
+    "phase": "fight",
+    "visible": true
+  },
+  "audio": {
+    "nativePcm": true,
+    "resumeOffset": 5.129076178202857,
+    "verifiedDuration": 10.506541666666667
+  },
+  "lan": {
+    "matchingTick": 884,
+    "facing": -1,
+    "roundWinner": 0
+  }
+}

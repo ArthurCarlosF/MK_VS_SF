@@ -1,4 +1,45 @@
-﻿CONTEXTO PARA CONTINUAR O PEDIDO INTEGRAL — 02/11/2026
+﻿CONTINUIDADE — REVISÃO LOCAL 8.5, 02/11/2026
+Estado atual de uso: Estado da expansao.txt. Roteiro: Etapas do projeto.txt.
+Super e Tatsumaki aéreo agora integrados; notas anteriores de ausência são históricas.
+Originais e arena anterior preservados. GitHub ainda contém a publicação 8.2.
+
+NOVOS DADOS E MOTOR
+arena/ryu-super.js e ryu-aereos.js gerados de sessões nativas SSF2T US.
+arena/special-engine.js: pausa de ativação e física aérea reutilizáveis.
+fight-engine.js: orçamento/pausa de recontato e choque entre projéteis,
+fases aéreas/aterrissagem e continuidade do voo no fim de rodada.
+commands.js: direções intermediárias verificadas e limites de intervalo
+entre etapas. Retorno pelo neutro não renova o tempo da direção anterior.
+session.js: carro respeita pausas e orçamento do projétil.
+Servidor e HTML carregam os mesmos dados. combatRevision: ryu-aereos-8.5.
+Snapshots de rede incluem superFreeze, medidor e fase de aterrissagem.
+
+EVIDÊNCIAS
+super-nativo-r1: quatro situações; sondas-pausa-super-r2.json:
+pausa não congela FF8DCE, entradas precoces descartadas, últimas duas
+amostras aceitas; movimentos direcionais/reconhecedores param na ativação.
+choques-super-nativo-r1.json: azul/vermelho gastam um contato e pausam
+o Super; dois Supers inteiros se anulam. Orçamentos diferentes pendentes.
+comando-super-nativo-r1.json: seis sondas, incluindo retornos neutro,
+diagonal e trás aceitos; ausência do primeiro frente rejeitada.
+aereo-nativo-r1/r2/r3: 30 situações, forças/altura/direção/momento do salto.
+aereo-nativo-r4: impactos aéreos reais, dano testemunhado16/17/19.
+fisica-aerea-medida.json: campos 8.8 em3c/3e, desaceleração40, gravidade42;
+656 testemunhas estáveis, uma divergência de0,125px e nove não resolvidas.
+Impulso256/384/512, gravidade32 durante12/24/30 atualizações na subida;
+normal80. Na descida não há impulso/flutuação. Arrasto magnitudinal5.
+Velocidade inicial dos saltos: vertical(0,1824), frente(896,1792),
+trás(-1024,1856), em8.8. Curvas de altura existentes sem divergências
+na inferência registrada; fase de atualização continua aproximada.
+Não interpretar essa aprovação como fidelidade completa ou elenco completo.
+
+Scripts exportar-super-ryu.py, exportar-aereos-ryu.py e testes correspondentes.
+Testes novos: Super9, aéreos9, pausa6; UI e dois navegadores independentes.
+Teste de rede usa barra100 preparada no servidor de teste, não acesso pelo cliente.
+Nenhuma declaração de que todos os personagens/finalizações já existem.
+
+HISTÓRICO ANTERIOR (pode descrever pendências já substituídas acima)
+CONTEXTO PARA CONTINUAR O PEDIDO INTEGRAL — 02/11/2026
 
 O projeto NÃO está completo. O usuário pediu concluir todo o jogo com fidelidade,
 todos os personagens/cenários/recursos/modos e finalizações nativas MK. Rede local
@@ -117,3 +158,35 @@ Tatsumaki aéreo também continua pendente. Ryu não está completo.
 O pedido integral continua incompleto: demais 36 personagens jogáveis,
 secretos/chefes adicionais, finishers MK arcade, cenários, áudio, campanha,
 carro fiel, calibração e testes finais. Nenhum commit/envio final foi feito.
+
+PROJÉTEIS DO RYU — REVISÃO 8.3 EXPERIMENTAL, 02/11/2026
+Integrados Hadouken azul e vermelho nas três forças. O LP mantém a identidade
+projectile para preservar os vínculos anteriores de cancelamento; os demais
+não receberam cópias não medidas dessas regras.
+Origem, percurso inicial, retângulos de ataque/choque, três velocidades,
+animações, dano/bloqueio e reações usam testemunhas nativas do SSF2T US.
+Golpe vermelho inclui a reação nativa de queimadura do Ryu, preservando a
+paleta15. Contra Scorpion utiliza o catálogo próprio de reações MK.
+O motor aceita imagens/âncoras e colisões por projétil. Contato tardio do
+projétil não confirma um soco posterior do dono; o carro respeita essa regra.
+As poses do lançador usam imagens comprovadamente idênticas às do atlas já
+calibrado. Offsets do descritor nativo não são um apoio de pés comum.
+Nove grupos funcionais de projéteis aprovados, incluindo 4/8/16 participantes.
+Interface testada e conferida visualmente: azul, vermelho e queimadura.
+Regressões anteriores de combate39 e sequências9 continuam aprovadas.
+Limites: percurso após a amostra de contato extrapolado; cadência turbo,
+dano aleatório, cancelamentos, cenários de proximidade/canto e refinamento
+de paleta/latência visual de queimadura continuam pendentes de fidelidade.
+Super e Tatsumaki aéreo ainda não integrados. Elenco, finalizações, cenários,
+áudio e demais pendências do pedido integral continuam abertos.
+GitHub contém a publicação intermediária8.2, commit8017028; esta revisão local
+não representa a conclusão do projeto nem recebeu envio final.
+
+VALIDAÇÃO POSTERIOR À INSTALAÇÃO — 02/11/2026
+Tatsumaki aéreo leve executado por teclado no servidor real da rede local,
+com dois navegadores independentes recebendo o mesmo estado e altura.
+Salas do teste encerradas ao final. Testes novos: Super9, aéreos9, pausa6.
+Regressões: projéteis9, especiais terrestres8, combate39, sequências9 e rede12
+aprovados. Comparações de fidelidade ainda pendentes não foram encerradas.
+Conferência de instalação: arena nova idêntica à testada e677 arquivos da
+arena anterior preservados. Roteiro continua em uma única sequência1 a15.

@@ -1,0 +1,78 @@
+VALIDAÇÃO DO SCORPION — 20/11/2026
+
+CRITÉRIO: marcar cada item somente depois de execução, comparação aplicável com o arcade e correção das divergências encontradas. Execução sem travamento não comprova fidelidade.
+
+ADVERSÁRIOS: Sub-Zero e Sonya (MK); Ryu e Zangief (SF).
+
+CAIXAS MARCADAS NESTA ETAPA
+[X] Disponível na seleção — selecionado pelo menu e carregado contra os quatro adversários; teclado real no navegador da instalação.
+[X] Caminhada para frente — posição e ciclo visual comparados às capturas do arcade.
+[X] Caminhada para trás — posição e ciclo visual comparados às capturas do arcade.
+[X] Pulos — vertical, frente, trás e corrida; posição e altura sem divergência nos oito casos de referência; quadros visuais ativos compatíveis, com tolerância máxima de um quadro nativo. Inclui a separação dos corpos após aterrissar no caso original de salto com corrida.
+
+CORREÇÕES INSTALADAS
+- Ciclos visuais da caminhada refeitos com sprites, ordem e cadência do arcade.
+- Dano do chute baixo distante corrigido, sem reutilizar o dano da joelhada próxima.
+- Dano bloqueado dos ataques calibrados ligado aos registros originais de cada golpe.
+- Retângulos provisórios desses ataques substituídos pela geometria original.
+- Vulnerabilidade dos alvos MK considera os limites de seus próprios sprites e a redução horizontal original.
+- Soco baixo passa sobre a defesa agachada no caso medido em ambos os alvos MK.
+- Dano do arremesso ajustado ao momento da queda observado no arcade.
+- Empurrão de corpos em duelos MK com Scorpion começa após aterrissar e avança na cadência original, em vez de deslocar instantaneamente o adversário ainda no ar.
+
+COMPARAÇÕES DE COMBATE JÁ APROVADAS
+192 comparações de golpes em pé contra Sub-Zero/Sonya, nos dois sentidos: três distâncias; alvo em pé, defendendo, agachado e defendendo agachado. Dano normalizado exato; contato dentro de um quadro nativo.
+Há também testes de execução de ataques aéreos, especiais, sequências, finalizações e diversas situações contra os quatro adversários. Esses testes não substituem a comparação completa restante.
+
+AINDA NÃO MARCADOS
+Golpes básicos: falta concluir a comparação dos ataques do próprio Scorpion agachado e no ar, reações e recuperação completas, distâncias limítrofes e interrupções, incluindo os alvos SF.
+Golpes em sequência e combinações: ampliar a comparação de todas as ramificações, bloqueio, interrupção e recuperação nos quatro adversários.
+Especiais/finalizações: comparar integralmente colisão, trajetórias, tempo, condições, áudio e apresentação; os testes de acionamento e término já executados não bastam para marcar fidelidade completa.
+Defesas: concluir a bateria inversa, com Scorpion recebendo os golpes dos quatro adversários.
+Absolutamente tudo implementado e validação completa do personagem permanecem vazios nesta rodada de validação.
+
+O Scorpion ainda NÃO foi declarado totalmente validado.
+
+CONCLUSÃO GERAL
+A caixa redundante "Todos os passos foram testados" foi removida a pedido do usuário. Permanecem a implementação geral já marcada e a comparação/validação geral ainda vazia. O restante do plano só recebeu as quatro marcações indicadas.
+
+EVIDÊNCIAS
+C:\Users\Pichau\Documents\ChatGPT\ALL_FIGHT\expansao-trabalho\evidencias\validacao-scorpion-20261120
+
+ATUALIZAÇÃO — 21/11/2026
+
+Correções instaladas na cópia jogável:
+- Retângulos originais também nos ataques aéreos e nos golpes recebidos de Sub-Zero/Sonya; dano bloqueado dos registros do arcade.
+- Transição de agachar: comandos de golpe rejeitados durante os primeiros quadros, conforme observado no original. Levantar também respeita a transição.
+- Colisões aéreas conferidas na cadência nativa, evitando contatos intermediários criados pela atualização mais rápida do navegador.
+- Ciclo completo de espera do Sub-Zero: 60 amostras; a versão anterior omitia duas poses. Sonya usa seu próprio ciclo de 48 amostras.
+- Virada de corpo dos três MK de teste com arte e momento de inversão observados no original; defesa permanece disponível durante a virada.
+- Teleporte terrestre/aéreo: comando com pequenas pausas aceito; câmera, saída/retorno, colisão depois do retorno, pausa, queda e recuo bloqueado medidos no arcade.
+- Lança: arte original da corda/ponta, colisão por amostra nativa, reação própria dos dois alvos MK, espera e puxão progressivo, distância final e recuperação. Corrigido quadro fracionário que podia impedir o desenho durante a recuperação.
+
+Resultados das baterias delimitadas (não representam validação integral do personagem):
+192/192 comparações originais de golpes em pé.
+560/560 comparações R2: ataques agachados/aéreos, defesa inversa, especiais e sequências, ambos os lados.
+400/400 comparações R3: transição de agachar e ataques aéreos tardios, ambos os lados.
+50/50 comparações R4: distâncias/posturas na lança e no teleporte, ambos os lados.
+Critério dessas comparações: dano normalizado exato e contatos dentro de um quadro nativo, com os mesmos comandos de entrada.
+8 casos de movimento continuam sem erro de posição/altura e sem divergência dos quadros ativos pelo critério registrado.
+Matriz de execução: 3.384 aprovações, zero falhas após corrigir o quadro fracionário da lança.
+Sequências: 9 grupos aprovados, incluindo 28 prefixos mistos e 17 variantes de cancelamento.
+Finalizações: 72 testes de acionamento/término aprovados; isso NÃO certifica imagem/áudio/condições integrais.
+Navegador: 16 cenas de lança/teleporte contra os quatro alvos, em ambos os lados, sem erro de desenho ou recurso ausente.
+
+PENDÊNCIAS REAIS
+- Reações completas, recuperação, interrupções e distâncias limítrofes dos ataques, com aprofundamento dos dois alvos SF.
+- Defesa inversa completa contra Ryu e Zangief; ampliar ramificações/cancelamentos/interrupções das sequências nos quatro alvos.
+- Conferência integral das finalizações por par de personagens, incluindo imagem e áudio: a nova captura Scorpion x Sub-Zero da primeira fatality terminou, mas a exportação ainda apresenta diferenças em 5 das 27 imagens comparáveis. Ela permanece NÃO verificada e NÃO substituiu o filme da instalação.
+- Efeitos de sangue dos golpes comuns/lança ainda precisam de comparação e acabamento; o efeito genérico não equivale ao arcade.
+As caixas restantes do plano continuam vazias. Não houve novas marcações nesta atualização.
+
+Código/evidências desta atualização: C:\Users\Pichau\Documents\ChatGPT\ALL_FIGHT\expansao-trabalho\evidencias\validacao-scorpion-20261121
+89 arquivos instalados com cópia anterior preservada e hashes conferidos em instalacao.json.
+
+COMPLEMENTO — EFEITO DA LANÇA
+O círculo genérico dos impactos bem-sucedidos da lança foi substituído pelas partículas extraídas da captura original, com 88 amostras de animação. A defesa mantém seu próprio indicador. As partículas expiram e acompanham corretamente o espelhamento; 16 casos com três jogadores passaram (quatro alvos, dois lados, acertando/defendendo), inclusive na instalação.
+A comparação visual limitada a duas imagens originais ainda apresenta diferenças (88,36% e 91,27% dos pixels sobrepostos correspondem). Portanto o efeito foi implementado, mas NÃO recebeu certificado de reprodução visual integral. Os efeitos dos demais ataques continuam pendentes.
+Instalação final desta atualização: 104 arquivos conferidos, versão de carregamento scorpion-validacao-20261121-3. O plano não recebeu novas marcações.

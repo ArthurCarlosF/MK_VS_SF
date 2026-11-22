@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "stage": "mk-scorpions-lair",
+  "players": 4,
+  "loop": [
+    true,
+    2.12736,
+    36.30336
+  ],
+  "roundTracks": true,
+  "assets": 13,
+  "completeGame": false
+}

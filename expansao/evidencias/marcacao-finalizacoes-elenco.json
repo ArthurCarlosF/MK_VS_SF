@@ -1,0 +1,10 @@
+{
+  "onlyCheckboxSpacesChanged": true,
+  "newlyMarkedSpecials": 25,
+  "specialsChecked": 43,
+  "implementationSummaryChecked": true,
+  "validationAndTestingSummaryLeftUnchanged": true,
+  "pendingFeatures": [],
+  "beforeSha256": "d1e8d11608cfa619258671e1ed6b02480ee8c29a39e51d9607aba75883bd9fdf",
+  "afterSha256": "ce7dcc1a70731c9b8535e3fb4f883c6789c729c6b0697a11bc46f402aee5b3a7"
+}

@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "root": "D:/Projetos/Mortal Kombat vs Street Fighter/expansao",
+  "passed": [
+    "Original ROM combo records all have reachable commands and their own original animation",
+    "Every registered move references existing assets and finite combat values",
+    "All terminal combo branches execute from real buttons against MK and SF on either side",
+    "Kano and Sonya directional branches select uppercuts instead of the plain LP route",
+    "Missed combo starters cannot produce follow-ups; holding a button does not repeat",
+    "Rapid high/low punches alternate hands for the three newly completed normal packs",
+    "Sonya sweep and roundhouse use back commands, connect and knock down both universes",
+    "Directional air normals execute and land for each completed fighter",
+    "Shao Kahn laugh and taunt have real inputs, do no damage and remain vulnerable",
+    "Existing specials, normal throws, air throws and original finisher families remain available"
+  ],
+  "details": [
+    {
+      "id": "scorpion",
+      "nativeRecordsReached": 7
+    },
+    {
+      "id": "mk-21",
+      "nativeRecordsReached": 6
+    },
+    {
+      "id": "mk-0",
+      "nativeRecordsReached": 7
+    },
+    {
+      "id": "mk-1",
+      "nativeRecordsReached": 8
+    },
+    {
+      "terminalComboPlaybackCases": 76
+    }
+  ]
+}

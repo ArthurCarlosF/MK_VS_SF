@@ -19,7 +19,7 @@
    const m=await this.bank.load();if(!m.cues||!Array.isArray(m.bindings))throw Error('Invalid combat cue manifest');
    for(const [id,cue] of Object.entries(m.cues)){
     if(!cue.groups?.length)throw Error('Empty native combat cue');
-    for(const group of cue.groups)if(!group.variants?.length||group.variants.some(v=>!this.bank.samples.has(v.sampleId)||!Number.isFinite(v.gain)||v.gain<0))throw Error('Invalid native cue variants');
+    for(const group of cue.groups)if(!group.variants?.length||group.variants.some(v=>!this.bank.samples.has(v.sampleId)||!Number.isFinite(v.gain)||v.gain<0||(v.playbackRate!==undefined&&(!Number.isFinite(v.playbackRate)||v.playbackRate<=0))))throw Error('Invalid native cue variants');
    }
    for(const b of m.bindings)if(!m.cues[b.cue]||!b.eventType||!Array.isArray(b.moves))throw Error('Invalid native event binding');
    this.manifest=m;return m;
@@ -29,7 +29,7 @@
    if(!this.manifest)await this.load();const cue=this.manifest.cues[id];if(!cue)throw Error('Unknown proven combat cue');
    const selected=cue.groups.map((g,i)=>g.variants[hash(String(seed)+':'+id+':'+i)%g.variants.length]);
    await Promise.all(selected.map(v=>this.bank.buffer(v.sampleId)));
-   await Promise.all(selected.map(v=>this.bank.play(v.sampleId,{gain:v.gain,group,startTime})));
+   await Promise.all(selected.map(v=>this.bank.play(v.sampleId,{gain:v.gain,playbackRate:v.playbackRate,group,startTime})));
    return selected.map(v=>v.sampleId);
   }
   async consume(events,{match='local',characters=[],initialSync=false}={}){

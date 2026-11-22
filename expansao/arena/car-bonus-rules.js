@@ -32,5 +32,13 @@
   }
   return s.frame;
  }
- root.NativeCarRules={create,hit,hitboxes,tick};
+ const fps=59.633331298828125,clockReload=40;
+ function createClock(){return {units:40,divider:clockReload,expired:false};}
+ function tickClock(clock){
+  if(clock.expired||--clock.divider!==0)return;
+  if(clock.units===0){clock.expired=true;return;}
+  clock.units--;clock.divider=clockReload;
+ }
+ function clockAllowsHit(clock){return !clock.expired&&(clock.units!==0||clock.divider>1);}
+ root.NativeCarRules={create,hit,hitboxes,tick,fps,createClock,tickClock,clockAllowsHit};
 })(typeof window==='undefined'?globalThis:window);

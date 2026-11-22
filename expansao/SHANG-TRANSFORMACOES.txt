@@ -1,0 +1,12 @@
+TRANSFORMAÇÕES DO SHANG TSUNG — IMPLEMENTAÇÃO
+
+As 19 formas listadas no guia da coletânea UMK3 estão ligadas aos personagens jogáveis: Cyrax, Ermac, Jade, Jax, Kabal, Kano, Kitana, Kung Lao, Liu Kang, Mileena, Nightwolf, Reptile, Scorpion, Sektor, Sindel, Sonya, Stryker, Sub-Zero clássico e Sub-Zero sem máscara.
+Os comandos aparecem em “Transformações do Shang Tsung”, abaixo da arena quando Shang é selecionado. Solte entre toques repetidos; segure Bloqueio para os movimentos com Cima.
+
+A forma usa os movimentos e especiais já implementados do personagem de destino. Vida, jogador, equipe e medidor são preservados. Retorno automático após aproximadamente 8 segundos, aguardando o ataque/projétil/agarrão em andamento terminar. Transformações independentes para vários jogadores e sincronizadas pelo servidor.
+
+Tempos, transição visual e fidelidade ao arcade permanecem provisórios. Não há transformações extras em chefes ou personagens que não estejam no conjunto de 19 do guia.
+
+Estado do elenco: os 26 personagens de MK têm implementação de especiais de combate. Isso não equivale ao elenco inteiro 100% completo: as finalizações ainda estão parciais e são acompanhadas separadamente. O TXT do usuário não foi alterado porque a caixa combina especiais e fatalities.
+
+Verificações: 19 comandos nos dois lados, caminhada, ataque, retorno, preservação de vida/medidor, interrupção por golpe, espera por projétil, múltiplos Shang e reinício; transformação e retorno sincronizados em dois navegadores. Não constitui validação contra os originais.

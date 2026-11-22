@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "root": "D:/Projetos/Mortal Kombat vs Street Fighter/expansao",
+  "groups": [
+    [
+      "mk-2",
+      "mk-3",
+      "mk-4",
+      "mk-5",
+      "mk-6",
+      "mk-7",
+      "mk-8"
+    ],
+    [
+      "mk-9",
+      "mk-10",
+      "mk-11",
+      "mk-12",
+      "mk-13",
+      "mk-14",
+      "mk-15"
+    ],
+    [
+      "mk-16",
+      "mk-17",
+      "mk-19",
+      "mk-20",
+      "human-smoke",
+      "noob-saibot"
+    ]
+  ],
+  "charactersLoadedAndRendered": 20,
+  "sourceLog": "C:\\Users\\Pichau\\Documents\\ChatGPT\\ALL_FIGHT\\expansao-trabalho\\evidencias\\repertorio-vinte-navegador-instalado.log",
+  "assertions": "Each group asserted ready, character IDs, original move start, no arena errors and per-character command help before emitting PASS.",
+  "networkCheck": "Run separately; initial combined run stopped later in the keyboard portion.",
+  "screenshots": [
+    "repertorio-vinte-grupo-1.png",
+    "repertorio-vinte-grupo-2.png",
+    "repertorio-vinte-grupo-3.png"
+  ]
+}

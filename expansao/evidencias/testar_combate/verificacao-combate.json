@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "date": "2026-11-02T18:23:21.732Z",
+  "date": "2026-11-02T21:59:05.777Z",
   "passed": [
     "Intro prohibits damage; transitions into fight",
     "Each fighter keeps a separate animation clock",

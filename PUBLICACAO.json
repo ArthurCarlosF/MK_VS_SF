@@ -1,7 +1,7 @@
 {
-  "version": "8.7 experimental",
+  "version": "validacao-locomocao-2026-11-22",
   "completeGame": false,
-  "included": "Código e recursos da revisão 8.7 validada na instalação isolada, com documentação e evidências selecionadas.",
+  "included": "Elenco atual implementado, recursos exportados, rede e resumos de validação; 31 caminhadas aprovadas e 12 SF pendentes.",
   "excludedDirectories": [
     ".git",
     "__pycache__",
@@ -27,5 +27,7 @@
   "installationManifest": {
     "files": 3061,
     "legacyFilesVerified": 677
-  }
+  },
+  "approvedWalkingCharacters": 31,
+  "pendingSfWalkingCharacters": 12
 }

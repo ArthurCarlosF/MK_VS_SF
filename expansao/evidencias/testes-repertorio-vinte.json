@@ -1,0 +1,135 @@
+{
+  "status": "PASS",
+  "root": "D:/Projetos/Mortal Kombat vs Street Fighter/expansao",
+  "characters": [
+    "mk-2",
+    "mk-3",
+    "mk-4",
+    "mk-5",
+    "mk-6",
+    "mk-7",
+    "mk-8",
+    "mk-9",
+    "mk-10",
+    "mk-11",
+    "mk-12",
+    "mk-13",
+    "mk-14",
+    "mk-15",
+    "mk-16",
+    "mk-17",
+    "mk-19",
+    "mk-20",
+    "human-smoke",
+    "noob-saibot"
+  ],
+  "passed": [
+    "All twenty original active combo graphs are reachable and retain the original attacks and requirements",
+    "Every original terminal combo executes through real inputs, on both sides against MK and SF",
+    "Normal inputs, directional jumps, alternate punches and back attacks are available for every fighter",
+    "Noob normal throw works with either victim and both facings; his uppercut and near normals are distinct",
+    "Every existing special command still starts from its real directional, chord or charged input",
+    "All moves have files, finite combat values and original applicable finishing families",
+    "Invalid inputs and misses do not create autonomous combos; disabled original branches stay disabled"
+  ],
+  "details": [
+    {
+      "id": "mk-2",
+      "originalActiveBranches": 7
+    },
+    {
+      "id": "mk-3",
+      "originalActiveBranches": 7
+    },
+    {
+      "id": "mk-4",
+      "originalActiveBranches": 6
+    },
+    {
+      "id": "mk-5",
+      "originalActiveBranches": 6
+    },
+    {
+      "id": "mk-6",
+      "originalActiveBranches": 7
+    },
+    {
+      "id": "mk-7",
+      "originalActiveBranches": 7
+    },
+    {
+      "id": "mk-8",
+      "originalActiveBranches": 8
+    },
+    {
+      "id": "mk-9",
+      "originalActiveBranches": 8
+    },
+    {
+      "id": "mk-10",
+      "originalActiveBranches": 10
+    },
+    {
+      "id": "mk-11",
+      "originalActiveBranches": 7
+    },
+    {
+      "id": "mk-12",
+      "originalActiveBranches": 5
+    },
+    {
+      "id": "mk-13",
+      "originalActiveBranches": 7
+    },
+    {
+      "id": "mk-14",
+      "originalActiveBranches": 6
+    },
+    {
+      "id": "mk-15",
+      "originalActiveBranches": 6
+    },
+    {
+      "id": "mk-16",
+      "originalActiveBranches": 7
+    },
+    {
+      "id": "mk-17",
+      "originalActiveBranches": 8
+    },
+    {
+      "id": "mk-19",
+      "originalActiveBranches": 5
+    },
+    {
+      "id": "mk-20",
+      "originalActiveBranches": 9
+    },
+    {
+      "id": "human-smoke",
+      "originalActiveBranches": 10
+    },
+    {
+      "id": "noob-saibot",
+      "originalActiveBranches": 7
+    },
+    {
+      "nativeRecords": 143,
+      "disabledOriginalRecords": 1,
+      "nativeSpecialCallbacks": 1
+    },
+    {
+      "terminalComboPlaybacks": 328,
+      "problems": []
+    },
+    {
+      "normalInputs": 880,
+      "problems": []
+    },
+    {
+      "specialCommands": 184,
+      "problems": []
+    }
+  ],
+  "failures": []
+}

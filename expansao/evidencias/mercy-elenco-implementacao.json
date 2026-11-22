@@ -1,0 +1,120 @@
+{
+  "originalFidelityValidated": false,
+  "results": [
+    {
+      "id": "mk-0",
+      "mercy": true,
+      "animalityGate": true
+    },
+    {
+      "id": "mk-1",
+      "mercy": true,
+      "animalityGate": true
+    },
+    {
+      "id": "mk-2",
+      "mercy": true,
+      "animalityGate": true
+    },
+    {
+      "id": "mk-3",
+      "mercy": true,
+      "animalityGate": true
+    },
+    {
+      "id": "mk-4",
+      "mercy": true,
+      "animalityGate": true
+    },
+    {
+      "id": "mk-5",
+      "mercy": true,
+      "animalityGate": true
+    },
+    {
+      "id": "mk-6",
+      "mercy": true,
+      "animalityGate": true
+    },
+    {
+      "id": "mk-7",
+      "mercy": true,
+      "animalityGate": true
+    },
+    {
+      "id": "mk-8",
+      "mercy": true,
+      "animalityGate": true
+    },
+    {
+      "id": "mk-9",
+      "mercy": true,
+      "animalityGate": true
+    },
+    {
+      "id": "mk-10",
+      "mercy": true,
+      "animalityGate": true
+    },
+    {
+      "id": "mk-11",
+      "mercy": true,
+      "animalityGate": true
+    },
+    {
+      "id": "mk-12",
+      "mercy": true,
+      "animalityGate": true
+    },
+    {
+      "id": "mk-13",
+      "mercy": true,
+      "animalityGate": true
+    },
+    {
+      "id": "mk-14",
+      "mercy": true,
+      "animalityGate": true
+    },
+    {
+      "id": "mk-15",
+      "mercy": true,
+      "animalityGate": true
+    },
+    {
+      "id": "mk-16",
+      "mercy": true,
+      "animalityGate": true
+    },
+    {
+      "id": "mk-17",
+      "mercy": true,
+      "animalityGate": true
+    },
+    {
+      "id": "scorpion",
+      "mercy": true,
+      "animalityGate": true
+    },
+    {
+      "id": "mk-19",
+      "mercy": true,
+      "animalityGate": true
+    },
+    {
+      "id": "mk-20",
+      "mercy": true,
+      "animalityGate": false
+    },
+    {
+      "id": "mk-21",
+      "mercy": true,
+      "animalityGate": false
+    },
+    {
+      "id": "human-smoke",
+      "mercy": true,
+      "animalityGate": false
+    }
+  ]
+}

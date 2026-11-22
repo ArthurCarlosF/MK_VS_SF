@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "groups": [
+    "Três forças têm arte aérea, aterrissagem, física e reações próprias",
+    "A física 8.8 preserva direção, aplica impulso na subida e respeita duração do flutuar",
+    "Começar na descida mantém velocidade horizontal e gravidade normal",
+    "Preparação do salto ainda no chão aceita Tatsumaki terrestre e impede o aéreo",
+    "Todos os tipos de salto e momentos de ativação aterrissam sem saltos de posição",
+    "Contato aéreo atinge os dois universos e não se repete por quadro",
+    "Quatro, oito e dezesseis lutadores terminam especiais aéreos sem estados inválidos",
+    "Pausa de Super interrompe a física aérea e depois permite a continuação",
+    "Fim de rodada preserva o voo modificado até a aterrissagem"
+  ],
+  "completeGame": false,
+  "limits": [
+    "Air velocity/gravity/boost fields use native measurements; video-to-logic scheduler phase remains approximate.",
+    "Normal jump velocity is inferred from the existing integer-height curves; unresolved samples remain in the audit.",
+    "Initial air-to-air contacts are measured; ground/corner/late contacts, multirotation behavior and cancellation branches remain pending.",
+    "Artwork origin latency and random damage still require final native comparison."
+  ]
+}

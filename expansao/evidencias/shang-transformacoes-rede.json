@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "twoBrowsers": true,
+  "keyboardCommand": "Block, Block, Block",
+  "form": "Cyrax",
+  "returnToShang": true,
+  "states": [
+    {
+      "id": "mk-8",
+      "base": "mk-12",
+      "name": "SHANG TSUNG → CYRAX",
+      "errors": []
+    },
+    {
+      "id": "mk-8",
+      "base": "mk-12",
+      "name": "SHANG TSUNG → CYRAX",
+      "errors": []
+    }
+  ],
+  "errors": []
+}

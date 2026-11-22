@@ -1,0 +1,16 @@
+﻿PUBLICAÇÃO INTERMEDIÁRIA CONFIRMADA — 02/11/2026
+Repositório: https://github.com/ArthurCarlosF/MK_VS_SF
+Branch: main
+Commit: 80170288b5cbeaefd1fb2eadf36dc6b796689b2c
+Versão: 8.2 experimental; jogo integral ainda incompleto.
+Cópia de trabalho Git: C:\Users\Pichau\Documents\ChatGPT\ALL_FIGHT\repositorio-github
+Fonte de desenvolvimento local: D:\projetos\Mortal Kombat vs Street Fighter
+
+Enviados código, recursos visuais exportados, ferramentas e relatórios selecionados.
+Não enviados ROMs/coletâneas completas, estados de memória, saves, perfis de
+navegador, runtimes instalados, dependências node_modules e capturas brutas volumosas.
+README e PUBLICACAO.json no repositório explicam execução, escopo e exclusões.
+Dependências instaladas a partir de package-lock; 20 grupos de testes aprovados.
+Navegador: salas, 38 retratos e arena/seis especiais carregados sem falhas.
+O hash de main no GitHub foi conferido e é igual ao commit local.
+O servidor e as coletâneas locais não foram alterados por esta publicação.

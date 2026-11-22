@@ -61,11 +61,11 @@
       if(this.grapples?.some(t=>t.owner===p.index||t.target===p.index))return false;
       if(move.grapple&&(this.mode==='bonus'||!this.enemies(p).length))return false;
       if(move.grapple){const other=this.opponent(p);
-        if(other.airborne||other.stun>0||other.knockdown>0||other.invulnerable>0||
-          Math.abs(other.x-p.x)>move.grapple.range)return false;
+        if(!this.grappleHeightMatches(p,other,move.grapple)||other.stun>0||other.knockdown>0||other.invulnerable>0||
+          Math.abs(other.x-p.x)>this.grappleRange(p,other,move.grapple))return false;
         if(move.grapple.escapeByBack&&other.input.x===-other.facing)return false;
       }
-      if(move.kind==='projectile'&&this.projectiles.filter(q=>q.owner===p.index).length>=this.rules.maximumProjectiles)return false;
+      if(move.kind==='projectile'&&this.projectiles.filter(q=>q.owner===p.index).length>=(move.projectile?.ownerLimit??this.rules.maximumProjectiles))return false;
       if(p.action){
         const current=this.definition(p).moves[p.action.name];
         if(scope.SEQUENCE_CALIBRATION){if(!scope.FightSequences.canCancel(this,p,name))return false;}
@@ -81,7 +81,7 @@
       p.action={name,time:0,wallTime:0,startedAt:this.elapsed,hit:new Set(),spawned:false,connected:false,initialFacing:p.facing,target:this.opponent(p).index};
       const motion=this.definition(p).moves[name].motionTimeline;
       if(motion){
-        p.action.motionOriginY=p.y;p.action.motionX=0;
+        p.action.motionOriginY=p.y-(this.definition(p).moves[name].airPathAbsolute?(motion[0]?.y||0):0);p.action.motionOriginX=p.x;p.action.motionX=0;
         p.motion ||= scope.FightMovement.init(this,p);p.motion.jumpFacing=p.facing;
         p.motion.queue=[];p.motion.lastWalk='';p.motion.contactFall=null;p.motion.reactionFall=null;
       }
@@ -101,7 +101,20 @@
     requestAction(p,request){
       const def=this.definition(p),a=p.action,m=a&&def.moves[a.name],fps=this.bank[p.id].fps;
       if(a)a.requestWall=(request.event?.time??this.elapsed)-(a.startedAt??this.elapsed-a.wallTime);
+      // Character-owned branches must win over generic full-recovery links.
       const chained=scope.FightSequences?.request(this,p,request);if(chained!==null&&chained!==undefined)return chained;
+      const repeat = def.basicRepeat?.[request.event?.button];
+      const combinations = def.basicCombinations;
+      if(a && combinations && !request.event?.release && !p.airborne &&
+        combinations.includes(a.name) && combinations.includes(request.move)){
+        a.chain={to:request.move,at:m.startup+m.active+m.recovery,contact:'none',skip:0};
+        return true;
+      }
+      if(a && repeat && !request.event.release && !p.airborne &&
+        repeat.includes(a.name) && repeat.includes(request.move)){
+        a.chain={to:request.move,at:m.startup+m.active+m.recovery,contact:'none',skip:0};
+        return true;
+      }
       if(a&&(m.repeat?.family.includes(request.move)||def.moves[request.move]?.kind==='strike'&&m.repeat?.buttons?.includes(request.event?.button))){
         const r=m.repeat,age=a.time*fps;
         const next=r.nextByButton?.[request.event?.button]||r.next;
@@ -120,7 +133,23 @@
       if(a&&request.move===a.name&&m.lateRepeatFrames!==undefined&&
         a.time>=(m.startup+m.active+m.recovery)-(m.lateRepeatFrames||0)/fps-1/240-1e-8)
         return this.startAction(p,a.name,true);
-      if(a&&m.lateLinkFrames&&['punch','punch2','punch3','kick','kick2','kick3'].includes(request.event?.button)&&!def.moves[request.move]?.grapple&&def.moves[request.move]?.kind!=='specialStrike'){
+      // Some recognized specials wait for normal recovery. The wall-sample
+      // witness is separate from cancel windows, which can cut recovery short.
+      const earlySamples=m?.preContactCancelWallSamples?.[request.move];
+      if(earlySamples?.includes(Math.round(a.requestWall*fps))&&!a.connected&&a.time<m.startup&&m.startup-a.time<=1.5/fps){
+        a.preContactCancel=request;return true;
+      }
+      const lateSpecial=m?.specialLinkWallSamples?.[request.move]?.[a.contactResult];
+      if(lateSpecial?.includes(Math.round(a.requestWall*fps))){
+        a.chain={to:request.move,at:m.startup+m.active+m.recovery,contact:'none',skip:0,link:true};return true;
+      }
+      const rejectedLink=m?.specialLinkRejectWallSamples?.[request.move]?.[a.contactResult];
+      if(!request.event?.release&&rejectedLink?.includes(Math.round(a.requestWall*fps))&&!this.canStart(p,request.move)){
+        // The native press and release both fail in these trials. A later
+        // release cannot re-use the same directional history after recovery.
+        p.motionConsumedAt=request.event.time;
+      }
+      if(a&&m.lateLinkFrames&&!Object.hasOwn(m.specialLinkWallSamples||{},request.move)&&['punch','punch2','punch3','kick','kick2','kick3'].includes(request.event?.button)&&!def.moves[request.move]?.grapple&&def.moves[request.move]?.kind!=='specialStrike'){
         const end=m.startup+m.active+m.recovery;
         if(a.time>=end-m.lateLinkFrames/fps-1e-8){a.chain={to:request.move,at:end,contact:'none',skip:1/fps,link:true};return true;}
       }
@@ -129,7 +158,7 @@
       }
       return this.startAction(p,request.move);
     }
-    beginJump(p){
+    beginJump(p){if(this.definition(p).walkOnly)return;
       if(this.bank[p.id].movement)return scope.FightMovement.beginJump(this,p);
       p.airborne=true;p.jumpTime=0;p.jumpDirection=p.input.x;p.jumpKind=p.input.x?'jumpForward':'jump';
       const jump=this.bank[p.id].jump?.[p.jumpKind];
@@ -160,12 +189,17 @@
       p.motion ||= scope.FightMovement.init(this,p);p.motion.queue=[];p.motion.landing=0;p.motion.lastWalk='';
       this.state(p,m.landingClip);this.emit('land',{player:p.index});
     }
+    grappleHeightMatches(owner,target,config){
+      if(!config.airborne)return !target.airborne;
+      return owner.airborne&&target.airborne&&owner.y>0&&target.y>0&&Math.abs(target.y-owner.y)<=config.heightRange;
+    }
+    grappleRange(owner,target,config){return config.sfRangeForBodies?Math.max(config.range,this.definition(owner).body.halfWidth+this.definition(target).body.halfWidth+4):config.range;}
     beginGrapple(p,move){
       const target=this.opponent(p);
-      if(target.health<=0||target.airborne||target.knockdown>0||Math.abs(target.x-p.x)>move.grapple.range)return false;
+      if(target.health<=0||!this.grappleHeightMatches(p,target,move.grapple)||target.knockdown>0||Math.abs(target.x-p.x)>this.grappleRange(p,target,move.grapple))return false;
       target.action=null;target.buffer=[];target.vx=0;target.vy=0;
       this.grapples.push({owner:p.index,target:target.index,move:p.action.name,
-        originX:p.x,facing:p.facing,damageApplied:false});
+        originX:p.x,originY:p.y,targetX:target.x,targetY:target.y,facing:p.facing,damageApplied:false});
       this.emit('grab',{player:p.index,target:target.index,move:p.action.name});return true;
     }
     updateGrapples(){
@@ -183,30 +217,89 @@
         // facing. At stage edges, clamp both roots while preserving continuity.
         p.x=clamp(grab.originX+row.ownerX*grab.facing,40,1060);p.y=row.ownerY;
         q.x=clamp(grab.originX+row.targetX*grab.facing,40,1060);q.y=row.targetY;
+        if(cfg.airborne||cfg.allowOwnerAir){
+          const start=cfg.timeline[0];
+          const settle=Math.max(0,1-index/cfg.damageSample);
+          const align=Math.max(0,1-index/5);
+          p.y=Math.max(0,p.y+(grab.originY-start.ownerY)*settle);
+          q.y=Math.max(0,q.y+(grab.targetY-start.targetY)*settle);
+          q.x=clamp(q.x+(grab.targetX-grab.originX-start.targetX*grab.facing)*align,40,1060);
+          p.airborne=p.y>.01;p.vx=0;p.vy=0;
+        }
         p.facing=grab.facing*row.ownerFacing;q.facing=grab.facing*row.targetFacing;
         this.state(p,move.clip);p.frame=Math.min(index,actorClip.frames.length-1);p.clock=0;
-        const victimClip=p.id===q.id?cfg.victimClip:this.definition(q).defaultVictimClip;
+        const victimClip=p.id===q.id?cfg.victimClip:cfg.airborne?(q.y>0?'airHit':'knockdown'):this.definition(q).defaultVictimClip;
         this.state(q,victimClip||'knockdown');q.frame=Math.min(index,this.clip(q,q.state).frames.length-1);q.clock=0;
         q.buffer=[];q.action=null;q.vx=0;q.vy=0;q.airborne=false;
-        if(index>=cfg.damageSample&&!grab.damageApplied){
-          grab.damageApplied=true;q.health=Math.max(0,q.health-move.damage);q.flash=.1;
-          p.combo=1;p.comboTime=1.1;this.emit('hit',{player:p.index,target:q.index,damage:move.damage,move:grab.move,combo:1});
+        let endedEarly=false;
+        if(cfg.phasedDamage){
+          const pressed=!!p.input.punch2;
+          if(pressed&&!grab.highPunchHeld)grab.followup=true;
+          grab.highPunchHeld=pressed;
+          grab.phaseIndex??=0;
+          const contact=cfg.phasedDamage[grab.phaseIndex];
+          if(contact&&index>=contact.sample){
+            if(grab.phaseIndex>0&&!grab.followup&&!cfg.automaticPhases)endedEarly=true;
+            else{
+              q.health=Math.max(0,q.health-contact.damage);
+              q.flash=.1;
+              grab.phaseIndex++;
+              grab.followup=false;
+              this.emit('hit',{player:p.index,target:q.index,damage:contact.damage,move:grab.move});
+              endedEarly=q.health<=0;
+            }
+          }
+        }else if(index>=cfg.damageSample&&!grab.damageApplied){
+          const damage=move.damage*(grab.sfSoftened?.5:1);
+          grab.damageApplied=true;q.health=Math.max(0,q.health-damage);q.flash=.1;
+          p.combo=1;p.comboTime=1.1;this.emit('hit',{player:p.index,target:q.index,damage,move:grab.move,combo:1});
         }
-        if(index>=cfg.timeline.length-1){
+        if(endedEarly||index>=cfg.timeline.length-1){
           const release=this.data.reactions?.[cfg.releaseReaction];
-          if(release){
-            const deferred=!grab.damageApplied&&cfg.deferredDamageSample!==null?{sample:cfg.deferredDamageSample,damage:move.damage,move:grab.move,applied:false}:null;
-            scope.FightReactions.start(this,q,p,release,{direction:q.x>=p.x?1:-1,deferred});
-          }else{q.y=0;q.stun=.1;q.invulnerable=.2;this.state(q,'knockdown');}
-          if(p.action.time>=move.startup+move.active+move.recovery){p.action=null;this.state(p,'idle');}
+          const deferred=release&&!grab.damageApplied&&Number.isInteger(cfg.deferredDamageSample)?
+            {sample:cfg.deferredDamageSample,damage:move.damage*(grab.sfSoftened?.5:1),move:grab.move,applied:false}:null;
+          if(!release||!scope.FightReactions.start(this,q,p,release,{direction:q.x>=p.x?1:-1,deferred})){
+            if(deferred){
+              q.health=Math.max(0,q.health-deferred.damage);
+              this.emit('hit',{player:p.index,target:q.index,damage:deferred.damage,move:grab.move,combo:1,committedThrow:true});
+            }
+            q.y=0;q.stun=cfg.airborne?0:.1;q.invulnerable=.2;
+            if(cfg.airborne){q.knockdown=cfg.knockdownSeconds;q.motion=null;p.motion=null;p.airborne=false;}
+            this.state(q,'knockdown');
+          }
+          if(endedEarly||p.action.time>=move.startup+move.active+move.recovery){p.action=null;this.state(p,'idle');}
           this.emit('grabEnd',{player:p.index,target:q.index});
         }else keep.push(grab);
       }
       this.grapples=keep;
     }
+    hasGuardThreat(p){
+      const rival=this.opponent(p),action=rival.action;
+      const move=action&&this.definition(rival).moves[action.name];
+      const closeAttack=action&&Math.abs(rival.x-p.x)<150&&action.time+1e-9>=(move?.guardThreatDelay||0);
+      return closeAttack||this.projectiles.some(q=>q.owner!==p.index&&Math.abs(q.x-p.x)<150);
+    }
     updatePlayer(p,dt){
+      if(p.frozenUntil>this.elapsed){
+        if(p.bindLift){
+          const index=Math.min(p.bindLift.samples.length-1,Math.floor((this.elapsed-p.bindStarted)*p.bindLift.fps));
+          p.y=p.bindLift.samples[Math.max(0,index)];p.airborne=p.y>0;
+        }
+        p.buffer=[];p.vx=0;p.vy=0;return;
+      }
+      if(p.frozenUntil){
+        const impact=p.bindImpact;
+        p.frozenUntil=0;p.bindStyle=null;p.bindLift=null;p.bindImpact=null;p.stun=0;
+        if(impact&&p.health>0){
+          p.y=0;p.airborne=false;p.motion=null;
+          p.health=Math.max(0,p.health-impact.damage);
+          p.knockdown=.55;
+          this.emit('hit',{player:impact.owner,target:p.index,damage:impact.damage,move:impact.move});
+        }
+      }
       if(this.grapples?.some(t=>t.target===p.index))return;
       if(p.localHitstop>1e-9){p.localHitstop=Math.max(0,p.localHitstop-dt);p.buffer=[];return;}
+      if(p.action?.nativeLandingRecovery){p.action=null;if(p.motion){p.motion.landing=0;p.motion.contactFall=null;}this.state(p,'idle');}
       p.flash=Math.max(0,p.flash-dt);p.invulnerable=Math.max(0,p.invulnerable-dt);
       p.comboTime=Math.max(0,p.comboTime-dt);if(!p.comboTime)p.combo=0;
       if(p.reaction&&scope.FightReactions.update(this,p,dt))return;
@@ -229,12 +322,27 @@
       else if(p.guardStun>0){p.guardStun=Math.max(0,p.guardStun-dt);this.state(p,p.input.down?'crouchGuard':'guard');}
       else{
         if(!p.action&&!p.airborne&&p.jumpPressed&&!p.input.down&&!(p.motion?.landing>0)&&!(this.definition(p).guard==='button'&&p.input.block))this.beginJump(p);
-        p.opponentDistance=Math.abs(this.opponent(p).x-p.x);
+        p.opponentDistance=Math.abs(this.opponent(p).x-p.x);p.opponentAirborne=!!this.opponent(p).airborne;p.opponentHeight=this.opponent(p).y;
+        p.bodyHalfWidth=this.definition(p).body.halfWidth;p.opponentBodyHalfWidth=this.definition(this.opponent(p))?.body?.halfWidth||0;
+        const pending=p.action?.preContactCancel;
+        if(pending){
+          const action=p.action,move=this.definition(p).moves[action.name];
+          if(action.connected||action.time>=move.startup+1/this.bank[p.id].fps){
+            delete action.preContactCancel;
+            if(action.connected){
+              action.requestWall=pending.event.time-action.startedAt;
+              this.startAction(p,pending.move);
+            }
+          }
+        }
         const request=Commands.action(p,this.definition(p),this.elapsed);
         if(request){
           const move=this.definition(p).moves[request.move],other=this.opponent(p);
-          if(move?.grapple?.escapeByBack&&other.input.x===-other.facing&&request.event?.button==='punch')
-            request.move=this.definition(p).normalControls.punch.standing.far;
+          if(move?.grapple&&this.definition(p).normalControls?.[request.event?.button]&&
+            (move.grapple.escapeByBack&&other.input.x===-other.facing||move.grapple.fallbackToNormal&&!this.canStart(p,request.move)))
+            {const c=this.definition(p).normalControls[request.event.button];const near=p.opponentDistance<=c.standing.nearRange;
+             request.move=p.airborne?(p.jumpKind==='jump'?c.airVertical:c.airDirectional):p.input.down?c.crouch:
+              near&&!this.definition(p).moves[c.standing.near]?.grapple?c.standing.near:c.standing.far;}
           this.requestAction(p,request);
         }
         p.buffer=[];
@@ -245,10 +353,36 @@
         if(p.action){
           const a=p.action,m=this.definition(p).moves[a.name];a.time+=dt;
           if(m.airPhysics)this.advanceAirSpecial(p,m,dt);
+          if(m.jumpGrab&&p.input.punch&&a.time*this.bank[p.id].fps>=m.jumpGrab.startSample&&a.time*this.bank[p.id].fps<=m.jumpGrab.endSample){
+            const grabMove=this.definition(p).moves[m.jumpGrab.move],target=this.opponent(p);
+            if(this.grappleHeightMatches(p,target,grabMove.grapple)&&Math.abs(target.x-p.x)<=grabMove.grapple.range){
+              p.action=null;
+              if(this.startAction(p,m.jumpGrab.move)){
+                this.beginGrapple(p,grabMove);
+                p.action.grabbed=true;
+                p.buffer=[];
+                return;
+              }
+            }
+          }
           if(m.motionTimeline){
             const sample=Math.min(m.motionTimeline.length-1,Math.floor((a.time+1e-9)*(m.sampleRate||this.bank[p.id].fps))),row=m.motionTimeline[sample];
-            p.x+=(row.x-(a.motionX||0))*a.initialFacing;a.motionX=row.x;
-            p.y=Math.max(0,(a.motionOriginY||0)+row.y);p.airborne=p.y>.01;p.motionAttack=p.airborne;
+            let motionX=row.x;
+            if(m.targetWarp&&sample>=m.targetWarp.sample){
+              if(m.targetWarp.lockDestination)motionX=m.motionTimeline[m.targetWarp.sample].x;
+              if(a.warpCorrection===undefined){
+                const target=this.players[a.target];
+                const nextX=p.x+(motionX-(a.motionX||0))*a.initialFacing;
+                const destination=m.targetWarp.relativeToOwner?(a.motionOriginX??p.x)+a.initialFacing*m.targetWarp.behind:
+                  target?.health>0?target.x+a.initialFacing*m.targetWarp.behind:nextX;
+                a.warpCorrection=(clamp(destination,40,1060)-nextX)*a.initialFacing;
+              }
+              motionX+=a.warpCorrection;
+            }
+            p.x+=(motionX-(a.motionX||0))*a.initialFacing;a.motionX=motionX;
+            if(m.flightSpeed)p.x+=p.input.x*m.flightSpeed*dt;
+            const originY=(a.motionOriginY||0)*(m.airToGround?Math.max(0,1-sample/Math.max(1,m.motionTimeline.length-1)):1);
+            p.y=Math.max(0,originY+row.y);p.airborne=p.y>.01;p.motionAttack=p.airborne;
           }
           if(m.meterGain!==undefined&&!a.meterGained&&a.time+1e-9>=(m.meterGainSample||0)/(m.sampleRate||this.bank[p.id].fps)){
             a.meterGained=true;p.meter=clamp(p.meter+m.meterGain,0,this.rules.meter);
@@ -262,20 +396,29 @@
           if(a.time>=m.startup&&!a.spawned){
             a.spawned=true;
             if(m.kind==='projectile')this.spawnProjectile(p,a.name);
+            if(m.projectileImmuneSeconds)p.projectileImmuneUntil=this.elapsed+m.projectileImmuneSeconds;
+            if(m.toggleInvisible)p.invisible=!p.invisible;
             if(m.kind==='teleport')this.teleport(p);
           }
           // A tethered projectile must finish its flight before its throwing
           // pose can recover. Otherwise the animation's shorter timer cuts
           // the spear off before it can cross the full visible arena.
+          if(m.extraProjectiles){
+            a.extraProjectilesSpawned??=0;
+            while(a.extraProjectilesSpawned<m.extraProjectiles.length){
+              const extra=m.extraProjectiles[a.extraProjectilesSpawned];
+              if(a.time<m.startup+extra.delay)break;
+              this.spawnProjectile(p,a.name,extra);
+              a.extraProjectilesSpawned++;
+            }
+          }
           const grappling=this.grapples.some(t=>t.owner===p.index);
           const ropeInFlight=this.projectiles.some(q=>q.owner===p.index&&q.name===a.name&&q.rope);
           const contactInAir=m.holdContactUntilLanding&&a.connected&&p.airborne;
           if(a.time>=(a.endsAt??m.startup+m.active+m.recovery)&&(!m.untilLanding||a.landed)&&!ropeInFlight&&!grappling&&!a.repeatName&&!contactInAir){p.action=null;this.state(p,p.airborne?p.jumpKind:p.input.down?'crouch':'idle');}
         }else if(p.airborne)this.state(p,p.jumpKind);
         else if(p.input.block&&this.definition(p).guard==='button')this.state(p,p.input.down?'crouchGuard':'guard');
-        else if(this.definition(p).guard==='back'&&p.input.x===-p.facing&&
-          ((this.opponent(p).action&&Math.abs(this.opponent(p).x-p.x)<150)||
-           this.projectiles.some(q=>q.owner!==p.index&&Math.abs(q.x-p.x)<150))){
+        else if(this.definition(p).guard==='back'&&p.input.x===-p.facing&&this.hasGuardThreat(p)){
           this.state(p,p.input.down?'crouchGuard':'guard');
         }
         else if(p.input.down)this.state(p,'crouch');
@@ -288,7 +431,7 @@
         }else if(!this.bank[p.id].movement||!p.motion?.lastInput?.x)this.state(p,'idle');
       }
       if(p.vx&&!p.airborne){p.x+=p.vx*dt;p.vx*=Math.exp(-12*dt);if(Math.abs(p.vx)<.1)p.vx=0;}
-      if(this.bank[p.id].movement&&!this.definition(p).moves[p.action?.name]?.motionTimeline&&!this.definition(p).moves[p.action?.name]?.airPhysics){
+      if(this.bank[p.id].movement&&!this.grapples.some(g=>g.owner===p.index&&this.definition(p).moves[g.move]?.grapple.airborne)&&!this.definition(p).moves[p.action?.name]?.motionTimeline&&!this.definition(p).moves[p.action?.name]?.airPhysics){
         if(p.motionAttack&&p.airborne&&!p.action&&!p.reaction){p.motion ||= scope.FightMovement.init(this,p);p.motion.reactionFall ||= {velocity:0};}
         scope.FightMovement.tick(this,p,dt);
       }
@@ -303,10 +446,11 @@
       return {x:p.x+p.facing*(frame.sourceFacing||1)*(frame.x+point.x),
         y:p.y-frame.y-point.y};
     }
-    spawnProjectile(p,name){
+    spawnProjectile(p,name,offset={}){
       const m=this.definition(p).moves[name],q=m.projectile;
-      const hand=q.socket?this.socket(p,q.socket):null;
-      const x=hand?hand.x+p.facing*q.radius:p.x+p.facing*(q.spawnX??35),y=hand?hand.y:p.y+q.y;
+      const hand=q.socket&&!q.ignoreSocketSpawn?this.socket(p,q.socket):null;
+      const x=(hand?hand.x+p.facing*q.radius:p.x+p.facing*(q.spawnX??35))+p.facing*(offset.dx||0);
+      const y=(hand?hand.y:p.y+q.y)+(offset.dy||0);
       const shot={id:++this.serial,owner:p.index,name,x,y,
         facing:p.facing,age:0,speed:q.speed,radius:q.radius,lifetime:q.lifetime,rope:!!q.rope};
       if(q.motionSamples){shot.originX=x;shot.originY=y;}
@@ -316,18 +460,37 @@
     }
     advanceProjectile(q,dt){
       q.previousX=q.x;
+      if(q.reflectedBy!==undefined){q.age+=dt;q.x+=q.facing*q.speed*dt;return;}
       if(q.contactPause>0){q.contactPause=Math.max(0,q.contactPause-dt);return;}
       q.age+=dt;
       const cfg=this.definition(this.players[q.owner]).moves[q.name].projectile;
+      if(cfg.returnAfter&&q.age>=cfg.returnAfter){
+        const owner=this.players[q.owner],distance=owner.x-q.x;
+        if(Math.abs(distance)<=q.speed*dt){q.age=q.lifetime;return;}
+        q.facing=Math.sign(distance);
+        q.x+=q.facing*q.speed*dt;
+        return;
+      }
+      const scriptedTime=cfg.motionSamples?.length/cfg.sampleRate;
+      if(cfg.homing&&q.age>=scriptedTime){
+        const target=this.enemies(this.players[q.owner]).sort((a,b)=>Math.abs(a.x-q.x)-Math.abs(b.x-q.x))[0];
+        if(target){
+          const dx=target.x-q.x,dy=target.y+68-q.y,scale=Math.min(1,q.speed*dt/Math.max(1,Math.hypot(dx,dy)));
+          q.facing=Math.sign(dx)||q.facing;
+          q.x+=dx*scale;q.y+=dy*scale;
+          return;
+        }
+      }
       if(cfg.motionSamples){
         const at=q.age*cfg.sampleRate,index=Math.floor(at+1e-9),path=cfg.motionSamples;
         const row=path[Math.min(index,path.length-1)];
         const tail=Math.max(0,q.age-(path.length-1)/cfg.sampleRate);
-        q.x=q.originX+q.facing*(row.x+tail*q.speed);q.y=q.originY+row.y;
+        q.x=q.originX+q.facing*(row.x+tail*q.speed);q.y=q.originY+row.y-tail*(cfg.tailFall||0);
       }else q.x+=q.facing*q.speed*dt;
     }
     projectileBox(q,field='attackTimeline'){
       const cfg=this.definition(this.players[q.owner]).moves[q.name].projectile;
+      if(q.age<(cfg.contactDelay||0))return null;
       if(cfg[field]){
         const index=Math.min(cfg[field].length-1,Math.floor((q.age+1e-9)*cfg.sampleRate)),r=cfg[field][index]?.[0];
         if(!r)return null;
@@ -338,7 +501,7 @@
     }
     projectileContact(q,target){
       if(q.contactPause>1e-9)return {hit:false,remove:false};
-      const owner=this.players[q.owner],base=this.definition(owner).moves[q.name],cfg=base.projectile;
+      const owner=this.players[q.reflectedBy??q.owner],base=this.definition(this.players[q.owner]).moves[q.name],cfg=base.projectile;
       const move=cfg.contacts?.[q.contacts||0]?{...base,...cfg.contacts[q.contacts||0]}:base;
       if(!this.hit(owner,target,move,q.name))return {hit:false,remove:false};
       q.contacts=(q.contacts||0)+1;q.contactPause=cfg.contactPauseSeconds||0;
@@ -476,6 +639,7 @@
       }
       return [C.hurt(p,definition)];
     }
+    strikeHurtBoxes(p,attacker,move){return this.hurtBoxes(p);}
     hit(attacker,defender,move,source){
       if(defender.invulnerable>0||defender.health<=0||defender.reaction&&!defender.reaction.vulnerable||this.grapples?.some(t=>t.target===defender.index))return false;
       const reaction=defender.reaction,profile=reaction&&scope.FightReactions.profile(this,reaction.profile);
@@ -490,11 +654,23 @@
       const nativeReaction=scope.FightReactions.select(this,attacker,defender,move,guarded);
       const chained=defender.stun>0||defender.knockdown>0;
       const damage=guarded?(move.nativeChip??(nativeReaction?.guarded?nativeReaction.damagePercent:move.chip||0)):move.damage;
+      if(damage>0)defender.invisible=false;
       defender.health=Math.max(0,defender.health-damage);defender.flash=.1;
       defender.buffer=[];defender.action=null;
       defender.reaction=null;defender.localHitstop=0;
       if(defender.motion)defender.motion.contactFall=null;
       this.tethers=this.tethers.filter(t=>t.target!==defender.index);
+      if(!guarded){
+        if(move.freezeSeconds){
+          defender.frozenUntil=this.elapsed+move.freezeSeconds;
+          defender.bindStyle=move.bindStyle||null;
+          defender.bindStarted=this.elapsed;
+          defender.bindLift=move.liftSamples?{samples:move.liftSamples,fps:move.liftFps}:null;
+          defender.bindImpact=move.bindImpact?{owner:attacker.index,damage:move.bindImpact,move:source}:null;
+          defender.vy=0;
+          this.state(defender,defender.airborne?defender.jumpKind:'hit');
+        }else{defender.frozenUntil=0;defender.bindStyle=null;defender.bindLift=null;defender.bindImpact=null;}
+      }
       if(guarded)defender.guardStun=move.blockstun||.15;
       else{
         defender.stun=move.hitstun||.3;
@@ -513,7 +689,7 @@
       const nativeUsed=nativeReaction&&scope.FightReactions.start(this,defender,attacker,nativeReaction,{guarded});
       this.hitstop=Math.max(this.hitstop,nativeUsed?nativeReaction.ownerPauseSeconds:((guarded?move.blockHitstop:move.hitstop)??move.hitstop??.05));
       const response=move.contactResponse;
-      if(response&&attacker.airborne&&(!guarded||response.onBlock)){
+      if(response&&(attacker.airborne||attacker.action?.lastLandingContact)&&(!guarded||response.onBlock)){
         attacker.localHitstop=Math.max(attacker.localHitstop,response.ownerPauseSamples/this.bank[attacker.id].fps);
         if(attacker.motion)attacker.motion.contactFall={velocity:0,gravity:response.fallGravityPerSample,horizontal:response.horizontalSpeedPerSample};
         if(attacker.action)attacker.action.contactFrame=attacker.frame;
@@ -532,8 +708,9 @@
           const base=this.definition(p).moves[strike.name],sample=Math.floor((strike.time+1e-9)*(base.sampleRate||this.bank[p.id].fps));
           const group=base.contactGroupTimeline?.[sample]||1,hitKey=base.contactGroupTimeline?opponent.index+':'+group:opponent.index;
           const box=this.activeBox(p,strike);
-          if(box&&!strike.hit.has(hitKey)&&this.hurtBoxes(opponent).some(hurt=>C.overlap(box,hurt))){
+          if(box&&!strike.hit.has(hitKey)&&this.strikeHurtBoxes(opponent,p,base).some(hurt=>C.overlap(box,hurt))){
             const m=base.contactGroups?.[group]?{...base,...base.contactGroups[group]}:base;
+            if(m.groundOnly&&opponent.airborne)continue;
             if(m.kind==='throw'&&(opponent.airborne||opponent.stun>0||opponent.knockdown>0))continue;
             strike.hit.add(hitKey);action.connected=true;
             pending.push({p,target:opponent,m,name:strike.name});
@@ -552,22 +729,32 @@
         const native=this.definition(this.players[a.owner]).moves[a.name].projectile.clashTimeline||this.definition(this.players[b.owner]).moves[b.name].projectile.clashTimeline;
         const ab=native&&this.projectileBox(a,'clashTimeline'),bb=native&&this.projectileBox(b,'clashTimeline');
         const clash=native?ab&&bb&&C.overlap(ab,bb):Math.abs(a.y-b.y)<a.radius+b.radius&&Math.abs(a.x-b.x)<=a.radius+b.radius;
-        if(a.owner!==b.owner&&this.teams[a.owner]!==this.teams[b.owner]&&clash){
+        if((a.reflectedBy??a.owner)!==(b.reflectedBy??b.owner)&&this.teams[a.reflectedBy??a.owner]!==this.teams[b.reflectedBy??b.owner]&&clash){
           const [removeA,removeB]=this.clashProjectiles(a,b);if(removeA)removed.add(a.id);if(removeB)removed.add(b.id);
         }
       }
       for(const q of this.projectiles){
-        if(removed.has(q.id))continue;
-        const attacker=this.players[q.owner],move=this.definition(attacker).moves[q.name];
+        if(removed.has(q.id)||q.nativeCollisionReady===false)continue;
+        const attacker=this.players[q.reflectedBy??q.owner];
         const box=this.projectileBox(q);if(!box)continue;
         if(q.contactPause>1e-9)continue;
         for(const target of this.enemies(attacker)){
-          if(!this.hurtBoxes(target).some(hurt=>C.overlap(box,hurt)))continue;
+          const projectileMove=this.definition(this.players[q.owner]).moves[q.name];
+          if(!this.strikeHurtBoxes(target,attacker,projectileMove).some(hurt=>C.overlap(box,hurt)))continue;
+          if(target.projectileImmuneUntil>this.elapsed)continue;
+          const defense=target.action&&this.definition(target).moves[target.action.name];
+          if(!q.rope&&(this.definition(target).reflectProjectiles||defense?.reflectSeconds&&defense.reflectSeconds>target.action.time)){
+            q.reflectedBy=target.index;
+            q.facing*=-1;
+            q.speed=Math.max(180,q.speed);
+            this.emit('projectileReflect',{player:target.index,move:q.name});
+            break;
+          }
           const contact=this.projectileContact(q,target);
           if(contact.hit){if(contact.remove)removed.add(q.id);break;}
         }
       }
-      this.projectiles=this.projectiles.filter(q=>!removed.has(q.id)&&q.age<q.lifetime&&q.x>0&&q.x<1100&&
+      this.projectiles=this.projectiles.filter(q=>!removed.has(q.id)&&q.age<q.lifetime&&(q.x>0&&q.x<1100||this.definition(this.players[q.owner]).moves[q.name].projectile.keepAtEdge)&&
         (!q.rope||this.players[q.owner].action?.name===q.name));
     }
     endRound(reason){
@@ -597,7 +784,7 @@
         const frozenLead=repeat?.frozenLeadByOutcome?.[p.action?.contactResult]??2;
         p.frozenEdges=this.hitstop>0?p.buffer.filter((e,j,list)=>(!scope.SEQUENCE_CALIBRATION||(specialInput&&e===frozenRequest.event)||this.hitstop<=frozenLead/this.bank[p.id].fps||['special','teleport'].includes(e.button))&&list.findIndex(q=>q.button===e.button&&q.release===e.release)===j):[];
       });
-      this.effects=this.effects.filter(e=>(e.age+=dt)<.18);
+      this.effects=this.effects.filter(e=>(e.age+=dt)<(e.duration||.18));
       if(this.phase==='intro'){
         this.phaseTime-=dt;this.players.forEach(p=>{p.buffer=[];this.animation(p,dt);});
         if(this.phaseTime<=0){this.phase='fight';this.emit('fight');}return;
@@ -629,6 +816,7 @@
       if(this.mode!=='training')this.timer=Math.max(0,this.timer-dt);
       this._positionBefore=this.players.map(p=>p.x);
       this.players.forEach(p=>this.updatePlayer(p,dt));this.updateTethers(dt);this.updateGrapples();this.resolvePositions();this.collisions(dt);this.resolvePositions();
+      for(const p of this.players)if(p.action?.lastLandingContact){if(p.action.connected&&p.localHitstop>0){delete p.action.lastLandingContact;p.action.nativeLandingRecovery=true;}else{p.action=null;this.state(p,p.jumpKind);}}
       if(this.players.length===2&&this.mode!=='bonus'&&this.players.every(p=>this.bank[p.id].movement))scope.FightMovement.camera(this,dt);
       scope.FightReactions.camera(this,dt);
       if(this.mode==='training'){

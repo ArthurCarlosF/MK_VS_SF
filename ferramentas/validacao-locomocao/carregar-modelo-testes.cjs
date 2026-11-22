@@ -1,0 +1,2 @@
+const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm');
+module.exports=function(root=process.env.MK_ROOT||__dirname){const c={window:{}};vm.createContext(c);for(const name of vm.runInNewContext(fs.readFileSync(path.join(root,'rede/server.cjs'),'utf8').match(/for\(const file of (\[[^\n]*?\])\)vm/)[1])){const file=name==='locomocao-validada-data'&&process.env.MK_TEST_SF_GAIT==='1'?'locomocao-sf-em-validacao-data':name;vm.runInContext(fs.readFileSync(path.join(root,'arena',file+'.js'),'utf8'),c,{filename:file+'.js'});}return c.window;};

@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "twoIndependentContexts": true,
+  "authoritativeMove": "shinkuhadouken",
+  "matchingTick": 400,
+  "freezeAndMeterSynchronized": true,
+  "serverMeterFixture": 100,
+  "physicalControllersTested": false,
+  "errors": []
+}

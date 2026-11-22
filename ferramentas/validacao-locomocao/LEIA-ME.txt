@@ -1,0 +1,1 @@
+Ferramentas de pesquisa da bancada local. Preservam os caminhos e dependências de captura originais e não integram npm test. Os traços brutos e ROMs ficam locais. Para repetir a pesquisa, usar na raiz de uma cópia da bancada expansao-trabalho com suas fontes autorizadas e evidências. Os resumos portáteis ficam em validacao-locomocao/.

@@ -10,9 +10,10 @@ function createGameServer(options={}){
   const root=path.resolve(options.root||path.join(__dirname,'..'));
   const project=path.resolve(options.project||path.join(root,'..'));
   const scope={window:{}};vm.createContext(scope);
-  for(const file of ['assets','stage-data','engine','commands','collisions','calibration','combat-data','ryu-especiais','ryu-projeteis','ryu-super','ryu-aereos','elenco-sf','fight-engine','special-engine','car-bonus-rules','session','finisher-engine'])vm.runInContext(fs.readFileSync(path.join(root,'arena',file+'.js'),'utf8'),scope,{filename:file+'.js'});
+  for(const file of ['assets','stage-data','mk-stage-data','engine','commands','collisions','calibration','combat-data','ryu-especiais','ryu-projeteis','ryu-super','ryu-aereos','elenco-sf','elenco-mk','akuma-especiais','ken-especiais','motaro','chefes-caminhada','basicos-chefes','sequencias-elenco','scorpion-airthrow','sub-zero-especiais','sub-zero-classico-especiais','sonya-especiais','especiais-mk-capturados','especiais-chefes','repertorio-cinco-data','repertorio-cinco','repertorio-vinte-data','repertorio-vinte','fight-engine','special-engine','car-bonus-rules','car-bonus-debris-data','car-bonus-debris','session','finisher-profiles','finisher-elenco-status','finisher-engine','shang-morphs-data','shang-morphs','sf-especiais-elenco','sf-special-input','repertorio-sf-data','repertorio-sf','scorpion-strikes-data','scorpion-walk-data','scorpion-validacao','scorpion-fisica-data','scorpion-fisica','locomocao-validada-data','locomocao-validada'])vm.runInContext(fs.readFileSync(path.join(root,'arena',file+'.js'),'utf8'),scope,{filename:file+'.js'});
   const W=scope.window,bank=W.ARENA_ASSETS.characters,roster=Object.keys(W.FIGHT_DATA.characters),rooms=new Map(),clients=new Set(),cache=new Map();
   const graceMs=options.graceMs??15000,loadingMs=options.loadingMs??30000,roomTtl=options.roomTtl??180000;
+  const roomLoadingMs=r=>r.players.some(p=>bank[p.character]?.universe==='mk')?Math.max(loadingMs,120000):loadingMs;
   let closed=false,last=performance.now(),accumulator=0;
   const selectStage=id=>{const choice=id??'sf-ryu';if(choice==='practice'||W.NATIVE_STAGE_DATA.stages.some(s=>s.id===choice&&s.selectable))return choice;throw Error('Cenário indisponível.');};
   const send=(ws,value)=>{if(ws?.readyState===1)ws.send(typeof value==='string'?value:JSON.stringify(value));};
@@ -25,7 +26,7 @@ function createGameServer(options={}){
   const requireHost=ws=>{const r=requireMember(ws);if(r.hostId!==ws.player.id)throw Error('Apenas o anfitrião pode fazer isso.');return r;};
   function migrate(r){
     const host=r.players.find(p=>p.id===r.hostId);
-    if(host&&!host.forfeit&&(host.socket||Date.now()-host.disconnectedAt<graceMs))return;
+    if(host&&!host.forfeit&&(host.socket||r.phase==='loading'&&Date.now()-r.loadingAt<roomLoadingMs(r)||Date.now()-host.disconnectedAt<graceMs))return;
     r.hostId=r.players.find(p=>p.socket)?.id||r.players[0]?.id||null;
   }
   function disconnect(ws,leave=false){
@@ -113,7 +114,7 @@ function createGameServer(options={}){
     throw Error('Ação indisponível.');
   }
   function renderPlayer(p){
-    const value={};for(const k of ['id','index','x','y','facing','state','frame','clock','motionTick','stateTime','airborne','health','meter','combo','comboTime','flash','stun','guardStun','knockdown','invulnerable','blocked','reaction','input'])value[k]=p[k];
+    const value={};for(const k of ['id','index','x','y','facing','state','frame','clock','motionTick','stateTime','airborne','health','meter','combo','comboTime','flash','stun','guardStun','knockdown','invulnerable','blocked','reaction','input','finisherRemoved','frozenUntil','bindStyle','bindStarted','invisible','projectileImmuneUntil','morphBase','morphExpires'])value[k]=p[k];
     value.motion=p.motion?{runEnergy:p.motion.runEnergy}:null;
     value.action=p.action?{name:p.action.name,time:p.action.time,landed:!!p.action.landed,landedAt:p.action.landedAt,overrideClip:p.action.overrideClip,hit:[],carriedStrike:null}:null;
     return value;
@@ -130,7 +131,7 @@ function createGameServer(options={}){
     if(route==='/api/info'){
       const address=server.address(),scheme=options.tls?'https':'http';
       const urls=lanAddresses().map(n=>`${scheme}://${n.address}:${address.port}/`);
-      res.setHeader('Cache-Control','no-store');res.setHeader('Content-Type','application/json');res.end(JSON.stringify({build:BUILD,urls,characters:roster,activeRooms:rooms.size,combatRevision:'cenarios-elenco-8.7',rooms:[...rooms.values()].filter(r=>r.phase==='lobby').map(r=>({code:r.code,name:r.name,count:r.players.length,capacity:r.capacity,mode:r.mode}))}));return;
+      res.setHeader('Cache-Control','no-store');res.setHeader('Content-Type','application/json');res.end(JSON.stringify({build:BUILD,urls,characters:roster,activeRooms:rooms.size,combatRevision:'expansao-9.4',rooms:[...rooms.values()].filter(r=>r.phase==='lobby').map(r=>({code:r.code,name:r.name,count:r.players.length,capacity:r.capacity,mode:r.mode}))}));return;
     }
     let file;
     if(route==='/'||route==='/salas.html')file=path.join(__dirname,'salas.html');
@@ -139,14 +140,16 @@ function createGameServer(options={}){
     else if(route==='/roster.js')file=path.join(project,'roster.js');
     else if(route==='/personagens.js'||route==='/expansao/personagens.js')file=path.join(root,'personagens.js');
     else if(/^\/expansao\/audio\/ssf2t\/(manifesto\.json|musicas-manifesto\.json|(music|samples)\/[a-zA-Z0-9_-]+\.(ogg|wav))$/.test(route))file=path.join(root,route.slice('/expansao/'.length));
-    else if(/^\/expansao\/audio\/umk3\/(sfx-manifesto\.json|musicas-confirmadas\.json|(tracks\/dcs-_[a-f0-9]{4}|streams\/dcs-_[0-9A-F]{4}_[0-9]{2}_[0-9A-F]{6})\.wav)$/.test(route))file=path.join(root,route.slice('/expansao/'.length));
-    else if(/^\/expansao\/arena\/assets\/cinematics\/[a-z0-9-]+\/profile-flat\.json$/.test(route))file=path.join(root,route.slice('/expansao/'.length));
+    else if(/^\/expansao\/audio\/ssf2t\/car\/(manifesto\.json|ssf2u-qs-(098|111|233)\.wav)$/.test(route))file=path.join(root,route.slice('/expansao/'.length));
+    else if(/^\/expansao\/audio\/umk3\/(sfx-manifesto\.json|musicas-(?:confirmadas|cenarios)\.json|(tracks\/dcs-_[a-f0-9]{4}|streams\/dcs-_[0-9A-F]{4}_[0-9]{2}_[0-9A-F]{6})\.wav)$/.test(route))file=path.join(root,route.slice('/expansao/'.length));
+    else if(/^\/expansao\/arena\/assets\/cinematics\/[a-z0-9-]+\/(?:profile-flat\.json|(?:fatality[12]|babality|friendship|animality|stage-fatality)-verified-mix\.wav)$/.test(route))file=path.join(root,route.slice('/expansao/'.length));
+    else if(/^\/expansao\/arena\/assets\/stages\/mk\/[a-z0-9-]+\/manifesto\.json$/.test(route))file=path.join(root,route.slice('/expansao/'.length));
     else if(/^\/assets\/(mk|sf)\/[a-zA-Z0-9_-]+\.png$/.test(route))file=path.join(project,route.slice(1));
     else if(/^\/expansao\/(index\.html|lobby\.js|arena\/(index\.html|style\.css|[a-z-]+\.js|assets\/[a-zA-Z0-9_/-]+\.png))$/.test(route))file=path.join(root,route.slice('/expansao/'.length));
     if(!file||!fs.existsSync(file)){res.writeHead(404);res.end('Arquivo indisponível');return;}
     res.setHeader('Content-Type',mime[path.extname(file)]||'application/octet-stream');res.setHeader('Cache-Control',file.endsWith('.png')?'public, max-age=86400':'no-cache');
     if(req.method==='HEAD'){res.end();return;}
-    if(/\.(js|html|css)$/.test(file)&&req.headers['accept-encoding']?.includes('gzip')){
+    if(/\.(js|html|css|json)$/.test(file)&&req.headers['accept-encoding']?.includes('gzip')){
       if(!cache.has(file))cache.set(file,zlib.gzipSync(fs.readFileSync(file)));
       res.setHeader('Content-Encoding','gzip');res.setHeader('Vary','Accept-Encoding');res.end(cache.get(file));
     }else{const stream=fs.createReadStream(file);stream.on('error',()=>res.destroy());stream.pipe(res);}
@@ -175,7 +178,7 @@ function createGameServer(options={}){
     }
     for(const r of rooms.values()){
       const oldHost=r.hostId;migrate(r);if(oldHost!==r.hostId)announce(r);
-      if(r.phase==='loading'&&wall-r.loadingAt>loadingMs)backToLobby(r,'Nem todos carregaram a arena. Confiram as conexões e tentem novamente.');
+      if(r.phase==='loading'&&wall-r.loadingAt>roomLoadingMs(r))backToLobby(r,'Nem todos carregaram a arena. Confiram as conexões e tentem novamente.');
       if(r.phase==='lobby'){
         const old=r.players.length;r.players=r.players.filter(p=>p.socket||wall-p.disconnectedAt<graceMs);
         if(r.players.length!==old){migrate(r);announce(r);}

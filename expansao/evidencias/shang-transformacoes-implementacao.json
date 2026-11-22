@@ -1,0 +1,310 @@
+{
+  "date": "2026-11-20T02:27:09.526Z",
+  "originalFidelityValidated": false,
+  "results": [
+    {
+      "form": "Cyrax",
+      "side": 1,
+      "command": true,
+      "movement": true,
+      "attack": true,
+      "return": true
+    },
+    {
+      "form": "Ermac",
+      "side": 1,
+      "command": true,
+      "movement": true,
+      "attack": true,
+      "return": true
+    },
+    {
+      "form": "Jade",
+      "side": 1,
+      "command": true,
+      "movement": true,
+      "attack": true,
+      "return": true
+    },
+    {
+      "form": "Jax",
+      "side": 1,
+      "command": true,
+      "movement": true,
+      "attack": true,
+      "return": true
+    },
+    {
+      "form": "Kabal",
+      "side": 1,
+      "command": true,
+      "movement": true,
+      "attack": true,
+      "return": true
+    },
+    {
+      "form": "Kano",
+      "side": 1,
+      "command": true,
+      "movement": true,
+      "attack": true,
+      "return": true
+    },
+    {
+      "form": "Kitana",
+      "side": 1,
+      "command": true,
+      "movement": true,
+      "attack": true,
+      "return": true
+    },
+    {
+      "form": "Kung Lao",
+      "side": 1,
+      "command": true,
+      "movement": true,
+      "attack": true,
+      "return": true
+    },
+    {
+      "form": "Liu Kang",
+      "side": 1,
+      "command": true,
+      "movement": true,
+      "attack": true,
+      "return": true
+    },
+    {
+      "form": "Mileena",
+      "side": 1,
+      "command": true,
+      "movement": true,
+      "attack": true,
+      "return": true
+    },
+    {
+      "form": "Nightwolf",
+      "side": 1,
+      "command": true,
+      "movement": true,
+      "attack": true,
+      "return": true
+    },
+    {
+      "form": "Reptile",
+      "side": 1,
+      "command": true,
+      "movement": true,
+      "attack": true,
+      "return": true
+    },
+    {
+      "form": "Scorpion",
+      "side": 1,
+      "command": true,
+      "movement": true,
+      "attack": true,
+      "return": true
+    },
+    {
+      "form": "Sektor",
+      "side": 1,
+      "command": true,
+      "movement": true,
+      "attack": true,
+      "return": true
+    },
+    {
+      "form": "Sindel",
+      "side": 1,
+      "command": true,
+      "movement": true,
+      "attack": true,
+      "return": true
+    },
+    {
+      "form": "Sonya",
+      "side": 1,
+      "command": true,
+      "movement": true,
+      "attack": true,
+      "return": true
+    },
+    {
+      "form": "Stryker",
+      "side": 1,
+      "command": true,
+      "movement": true,
+      "attack": true,
+      "return": true
+    },
+    {
+      "form": "Sub-Zero",
+      "side": 1,
+      "command": true,
+      "movement": true,
+      "attack": true,
+      "return": true
+    },
+    {
+      "form": "Unmasked Sub-Zero",
+      "side": 1,
+      "command": true,
+      "movement": true,
+      "attack": true,
+      "return": true
+    },
+    {
+      "form": "Cyrax",
+      "side": -1,
+      "command": true,
+      "movement": true,
+      "attack": true,
+      "return": true
+    },
+    {
+      "form": "Ermac",
+      "side": -1,
+      "command": true,
+      "movement": true,
+      "attack": true,
+      "return": true
+    },
+    {
+      "form": "Jade",
+      "side": -1,
+      "command": true,
+      "movement": true,
+      "attack": true,
+      "return": true
+    },
+    {
+      "form": "Jax",
+      "side": -1,
+      "command": true,
+      "movement": true,
+      "attack": true,
+      "return": true
+    },
+    {
+      "form": "Kabal",
+      "side": -1,
+      "command": true,
+      "movement": true,
+      "attack": true,
+      "return": true
+    },
+    {
+      "form": "Kano",
+      "side": -1,
+      "command": true,
+      "movement": true,
+      "attack": true,
+      "return": true
+    },
+    {
+      "form": "Kitana",
+      "side": -1,
+      "command": true,
+      "movement": true,
+      "attack": true,
+      "return": true
+    },
+    {
+      "form": "Kung Lao",
+      "side": -1,
+      "command": true,
+      "movement": true,
+      "attack": true,
+      "return": true
+    },
+    {
+      "form": "Liu Kang",
+      "side": -1,
+      "command": true,
+      "movement": true,
+      "attack": true,
+      "return": true
+    },
+    {
+      "form": "Mileena",
+      "side": -1,
+      "command": true,
+      "movement": true,
+      "attack": true,
+      "return": true
+    },
+    {
+      "form": "Nightwolf",
+      "side": -1,
+      "command": true,
+      "movement": true,
+      "attack": true,
+      "return": true
+    },
+    {
+      "form": "Reptile",
+      "side": -1,
+      "command": true,
+      "movement": true,
+      "attack": true,
+      "return": true
+    },
+    {
+      "form": "Scorpion",
+      "side": -1,
+      "command": true,
+      "movement": true,
+      "attack": true,
+      "return": true
+    },
+    {
+      "form": "Sektor",
+      "side": -1,
+      "command": true,
+      "movement": true,
+      "attack": true,
+      "return": true
+    },
+    {
+      "form": "Sindel",
+      "side": -1,
+      "command": true,
+      "movement": true,
+      "attack": true,
+      "return": true
+    },
+    {
+      "form": "Sonya",
+      "side": -1,
+      "command": true,
+      "movement": true,
+      "attack": true,
+      "return": true
+    },
+    {
+      "form": "Stryker",
+      "side": -1,
+      "command": true,
+      "movement": true,
+      "attack": true,
+      "return": true
+    },
+    {
+      "form": "Sub-Zero",
+      "side": -1,
+      "command": true,
+      "movement": true,
+      "attack": true,
+      "return": true
+    },
+    {
+      "form": "Unmasked Sub-Zero",
+      "side": -1,
+      "command": true,
+      "movement": true,
+      "attack": true,
+      "return": true
+    }
+  ]
+}

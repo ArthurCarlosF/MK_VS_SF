@@ -1,8 +1,12 @@
 'use strict';
 (()=>{
   const $=s=>document.querySelector(s),params=new URLSearchParams(location.search);let current=null;
-  const fighters=window.FIGHTER_INDEX||[{id:'ryu',name:'Ryu'},{id:'scorpion',name:'Scorpion'}];
-  $('#character').replaceChildren(...fighters.map(c=>new Option(c.name+(c.status?' — '+c.status:''),c.id)));
+  const fighters=window.FIGHTER_INDEX||[{id:'ryu',name:'Ryu',side:'sf'},{id:'scorpion',name:'Scorpion',side:'mk'}];
+  $('#character').replaceChildren(...[['mk','Mortal Kombat'],['sf','Street Fighter']].map(([side,name])=>{
+    const group=document.createElement('optgroup');group.label=name;
+    group.append(...fighters.filter(c=>c.side===side&&!c.selectionOnly).map(c=>new Option(c.name+(c.status?' — '+c.status:''),c.id)));
+    return group;
+  }));
   $('#stage').add(new Option('Sala de treino','practice'));for(const s of window.NATIVE_STAGE_DATA?.stages||[])if(s.selectable)$('#stage').add(new Option(s.name,s.id));$('#stage').value='sf-ryu';
   const connection=new LanRoomConnection({onStatus:s=>$('#connection').textContent=s,onMessage:m=>{
     if(m.type==='error'){$('#message').textContent=m.message;return;}

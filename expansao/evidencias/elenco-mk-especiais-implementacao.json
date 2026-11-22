@@ -1,0 +1,345 @@
+{
+  "date": "2026-11-18T15:42:33.939Z",
+  "scope": "Especiais de combate; finalizações têm acompanhamento separado e permanecem parciais.",
+  "characters": [
+    {
+      "id": "scorpion",
+      "name": "Scorpion",
+      "available": true,
+      "commandedMoves": [
+        "teleport",
+        "spear",
+        "airThrow"
+      ],
+      "morphs": 0,
+      "originalFidelityValidated": false
+    },
+    {
+      "id": "mk-0",
+      "name": "Kano",
+      "available": true,
+      "commandedMoves": [
+        "knifeThrow",
+        "kanoUpcut",
+        "chargedCannonball",
+        "kanoUpBall",
+        "kanoChoke",
+        "kanoAirThrow"
+      ],
+      "morphs": 0,
+      "originalFidelityValidated": false
+    },
+    {
+      "id": "mk-1",
+      "name": "Sonya",
+      "available": true,
+      "commandedMoves": [
+        "energyRings",
+        "legGrab",
+        "squareWave",
+        "bicycleKick"
+      ],
+      "morphs": 0,
+      "originalFidelityValidated": false
+    },
+    {
+      "id": "mk-2",
+      "name": "Jax",
+      "available": true,
+      "commandedMoves": [
+        "dashPunch",
+        "singleMissile",
+        "doubleMissile",
+        "groundPound",
+        "gotchaGrab",
+        "quadThrow",
+        "jaxAirThrow"
+      ],
+      "morphs": 0,
+      "originalFidelityValidated": false
+    },
+    {
+      "id": "mk-3",
+      "name": "Nightwolf",
+      "available": true,
+      "commandedMoves": [
+        "shoulderDash",
+        "arrow",
+        "hatchetUppercut",
+        "nightwolfReflector"
+      ],
+      "morphs": 0,
+      "originalFidelityValidated": false
+    },
+    {
+      "id": "mk-4",
+      "name": "Sub-Zero",
+      "available": true,
+      "commandedMoves": [
+        "iceBall",
+        "iceClone",
+        "iceClose",
+        "iceFar",
+        "iceShower",
+        "iceSlide"
+      ],
+      "morphs": 0,
+      "originalFidelityValidated": false
+    },
+    {
+      "id": "mk-5",
+      "name": "Stryker",
+      "available": true,
+      "commandedMoves": [
+        "lowGrenade",
+        "highGrenade",
+        "nightstickToss",
+        "nightstickSweep",
+        "strykerPistol"
+      ],
+      "morphs": 0,
+      "originalFidelityValidated": false
+    },
+    {
+      "id": "mk-6",
+      "name": "Sindel",
+      "available": true,
+      "commandedMoves": [
+        "sindelFireball",
+        "sindelAirFireball",
+        "sindelScream",
+        "sindelFlight"
+      ],
+      "morphs": 0,
+      "originalFidelityValidated": false
+    },
+    {
+      "id": "mk-7",
+      "name": "Sektor",
+      "available": true,
+      "commandedMoves": [
+        "straightMissile",
+        "homingMissile",
+        "sektorUppercut"
+      ],
+      "morphs": 0,
+      "originalFidelityValidated": false
+    },
+    {
+      "id": "mk-8",
+      "name": "Cyrax",
+      "available": true,
+      "commandedMoves": [
+        "cyraxFarBomb",
+        "cyraxCloseBomb",
+        "cyraxJumpGrab",
+        "cyraxTeleport",
+        "cyraxNet"
+      ],
+      "morphs": 0,
+      "originalFidelityValidated": false
+    },
+    {
+      "id": "mk-9",
+      "name": "Kung Lao",
+      "available": true,
+      "commandedMoves": [
+        "hatThrow",
+        "diveKick",
+        "shieldSpin",
+        "kungLaoTeleport"
+      ],
+      "morphs": 0,
+      "originalFidelityValidated": false
+    },
+    {
+      "id": "mk-10",
+      "name": "Kabal",
+      "available": true,
+      "commandedMoves": [
+        "tornadoSpin",
+        "gasBlast",
+        "groundSaw"
+      ],
+      "morphs": 0,
+      "originalFidelityValidated": false
+    },
+    {
+      "id": "mk-11",
+      "name": "Sheeva",
+      "available": true,
+      "commandedMoves": [
+        "sheevaGroundStomp",
+        "sheevaFireball",
+        "sheevaTeleportStomp"
+      ],
+      "morphs": 0,
+      "originalFidelityValidated": false
+    },
+    {
+      "id": "mk-12",
+      "name": "Shang Tsung",
+      "available": true,
+      "commandedMoves": [
+        "flamingSkull",
+        "doubleSkull",
+        "tripleSkull",
+        "hellFire"
+      ],
+      "morphs": 19,
+      "originalFidelityValidated": false
+    },
+    {
+      "id": "mk-13",
+      "name": "Liu Kang",
+      "available": true,
+      "commandedMoves": [
+        "highFireball",
+        "lowFireball",
+        "flyingKick",
+        "chargedBicycle"
+      ],
+      "morphs": 0,
+      "originalFidelityValidated": false
+    },
+    {
+      "id": "mk-14",
+      "name": "Smoke",
+      "available": true,
+      "commandedMoves": [
+        "smokeSpear",
+        "smokeUppercut",
+        "smokeInvisibility",
+        "smokeAirThrow"
+      ],
+      "morphs": 0,
+      "originalFidelityValidated": false
+    },
+    {
+      "id": "mk-15",
+      "name": "Kitana",
+      "available": true,
+      "commandedMoves": [
+        "fanLift",
+        "fanToss",
+        "kitanaSquareWave"
+      ],
+      "morphs": 0,
+      "originalFidelityValidated": false
+    },
+    {
+      "id": "mk-16",
+      "name": "Jade",
+      "available": true,
+      "commandedMoves": [
+        "jadeUpBoomerang",
+        "jadeBoomerang",
+        "jadeDownBoomerang",
+        "jadeGlow",
+        "shadowKick",
+        "returningBoomerang"
+      ],
+      "morphs": 0,
+      "originalFidelityValidated": false
+    },
+    {
+      "id": "mk-17",
+      "name": "Mileena",
+      "available": true,
+      "commandedMoves": [
+        "mileenaTeleportKick",
+        "chargedSai",
+        "ballRoll"
+      ],
+      "morphs": 0,
+      "originalFidelityValidated": false
+    },
+    {
+      "id": "mk-19",
+      "name": "Reptile",
+      "available": true,
+      "commandedMoves": [
+        "acidSpit",
+        "fastForceball",
+        "slowForceball",
+        "reptileInvisibility",
+        "reptileDash",
+        "reptileSlide"
+      ],
+      "morphs": 0,
+      "originalFidelityValidated": false
+    },
+    {
+      "id": "mk-20",
+      "name": "Ermac",
+      "available": true,
+      "commandedMoves": [
+        "telekineticSlam",
+        "ermacFireball",
+        "ermacTeleport"
+      ],
+      "morphs": 0,
+      "originalFidelityValidated": false
+    },
+    {
+      "id": "mk-21",
+      "name": "Classic Sub-Zero",
+      "available": true,
+      "commandedMoves": [
+        "iceBall",
+        "iceGround",
+        "iceSlide"
+      ],
+      "morphs": 0,
+      "originalFidelityValidated": false
+    },
+    {
+      "id": "human-smoke",
+      "name": "Smoke Humano",
+      "available": true,
+      "commandedMoves": [
+        "humanSmokeSpear",
+        "humanSmokeTeleport",
+        "humanSmokeAirThrow"
+      ],
+      "morphs": 0,
+      "originalFidelityValidated": false
+    },
+    {
+      "id": "motaro",
+      "name": "Motaro",
+      "available": true,
+      "commandedMoves": [
+        "motaroZap",
+        "motaroTeleport",
+        "motaroGrab",
+        "motaroTail"
+      ],
+      "morphs": 0,
+      "originalFidelityValidated": false
+    },
+    {
+      "id": "shao-kahn",
+      "name": "Shao Kahn",
+      "available": true,
+      "commandedMoves": [
+        "kahnZap",
+        "kahnCharge",
+        "kahnAirCharge",
+        "kahnHammer"
+      ],
+      "morphs": 0,
+      "originalFidelityValidated": false
+    },
+    {
+      "id": "noob-saibot",
+      "name": "Noob Saibot",
+      "available": true,
+      "commandedMoves": [
+        "noobTeleportSlam"
+      ],
+      "morphs": 0,
+      "originalFidelityValidated": false
+    }
+  ]
+}

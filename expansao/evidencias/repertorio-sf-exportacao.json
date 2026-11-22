@@ -1,0 +1,1273 @@
+{
+  "ryu": {
+    "capture": "C:\\Users\\Pichau\\Documents\\ChatGPT\\ALL_FIGHT\\expansao-trabalho\\repertorio-sf-20261120-r2\\sf-0",
+    "captureSha256": "aba47cf775b15e86fc926422c20c3b62298537db577955939fe840a4ad52c4a6",
+    "throws": [],
+    "normals": [
+      {
+        "move": "sfNative_ground_6_mp",
+        "button": "punch2",
+        "direction": 6,
+        "air": false
+      },
+      {
+        "move": "sfNative_ground_6_hp",
+        "button": "punch3",
+        "direction": 6,
+        "air": false
+      }
+    ],
+    "assets": 21
+  },
+  "sf-1": {
+    "capture": "C:\\Users\\Pichau\\Documents\\ChatGPT\\ALL_FIGHT\\expansao-trabalho\\repertorio-sf-20261120-r2\\sf-1",
+    "captureSha256": "8996e40afbac8f54dbd81a035c5b3b80c7c84ddf4eea54e5669b38b8325e0f54",
+    "throws": [
+      {
+        "move": "sfNative_grab_6_mp",
+        "button": "punch2",
+        "direction": 6,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_grab_6_hp",
+        "button": "punch3",
+        "direction": 6,
+        "air": false,
+        "hold": true
+      },
+      {
+        "move": "sfNative_grab_6_hk",
+        "button": "kick3",
+        "direction": 6,
+        "air": false,
+        "hold": true
+      },
+      {
+        "move": "sfNative_grab_4_mp",
+        "button": "punch2",
+        "direction": 4,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_grab_4_hp",
+        "button": "punch3",
+        "direction": 4,
+        "air": false,
+        "hold": true
+      },
+      {
+        "move": "sfNative_grab_4_hk",
+        "button": "kick3",
+        "direction": 4,
+        "air": false,
+        "hold": true
+      }
+    ],
+    "normals": [
+      {
+        "move": "sfNative_ground_6_hk",
+        "button": "kick3",
+        "direction": 6,
+        "air": false
+      },
+      {
+        "move": "sfNative_ground_4_hk",
+        "button": "kick3",
+        "direction": 4,
+        "air": false
+      }
+    ],
+    "assets": 48
+  },
+  "sf-2": {
+    "capture": "C:\\Users\\Pichau\\Documents\\ChatGPT\\ALL_FIGHT\\expansao-trabalho\\repertorio-sf-20261120-r2\\sf-2",
+    "captureSha256": "6f3bdee4279546872339a8b88feebb5311043d7740d91442e63c4837e7d42394",
+    "throws": [
+      {
+        "move": "sfNative_grab_6_hp",
+        "button": "punch3",
+        "direction": 6,
+        "air": false,
+        "hold": true
+      },
+      {
+        "move": "sfNative_grab_4_hp",
+        "button": "punch3",
+        "direction": 4,
+        "air": false,
+        "hold": true
+      }
+    ],
+    "normals": [
+      {
+        "move": "sfNative_ground_3_hp",
+        "button": "punch3",
+        "direction": 3,
+        "air": false
+      }
+    ],
+    "assets": 24
+  },
+  "sf-3": {
+    "capture": "C:\\Users\\Pichau\\Documents\\ChatGPT\\ALL_FIGHT\\expansao-trabalho\\repertorio-sf-20261120-r2\\sf-3",
+    "captureSha256": "521032fab21025d5d76b55dd9b30d9ea0fbf0b05c20aefd18daf5a3d6662e5d2",
+    "throws": [
+      {
+        "move": "sfNative_grab_6_mp",
+        "button": "punch2",
+        "direction": 6,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_grab_6_hp",
+        "button": "punch3",
+        "direction": 6,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_grab_4_mp",
+        "button": "punch2",
+        "direction": 4,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_grab_4_hp",
+        "button": "punch3",
+        "direction": 4,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_airgrab_6_mp",
+        "button": "punch2",
+        "direction": 6,
+        "air": true,
+        "hold": false
+      },
+      {
+        "move": "sfNative_airgrab_6_hp",
+        "button": "punch3",
+        "direction": 6,
+        "air": true,
+        "hold": false
+      },
+      {
+        "move": "sfNative_airgrab_6_mk",
+        "button": "kick2",
+        "direction": 6,
+        "air": true,
+        "hold": false
+      },
+      {
+        "move": "sfNative_airgrab_6_hk",
+        "button": "kick3",
+        "direction": 6,
+        "air": true,
+        "hold": false
+      },
+      {
+        "move": "sfNative_airgrab_4_mp",
+        "button": "punch2",
+        "direction": 4,
+        "air": true,
+        "hold": false
+      },
+      {
+        "move": "sfNative_airgrab_4_hp",
+        "button": "punch3",
+        "direction": 4,
+        "air": true,
+        "hold": false
+      },
+      {
+        "move": "sfNative_airgrab_4_mk",
+        "button": "kick2",
+        "direction": 4,
+        "air": true,
+        "hold": false
+      },
+      {
+        "move": "sfNative_airgrab_4_hk",
+        "button": "kick3",
+        "direction": 4,
+        "air": true,
+        "hold": false
+      }
+    ],
+    "normals": [
+      {
+        "move": "sfNative_ground_6_hp",
+        "button": "punch3",
+        "direction": 6,
+        "air": false
+      },
+      {
+        "move": "sfNative_ground_6_lk",
+        "button": "kick",
+        "direction": 6,
+        "air": false
+      },
+      {
+        "move": "sfNative_ground_6_mk",
+        "button": "kick2",
+        "direction": 6,
+        "air": false
+      },
+      {
+        "move": "sfNative_ground_4_lk",
+        "button": "kick",
+        "direction": 4,
+        "air": false
+      },
+      {
+        "move": "sfNative_ground_4_mk",
+        "button": "kick2",
+        "direction": 4,
+        "air": false
+      }
+    ],
+    "assets": 99
+  },
+  "sf-4": {
+    "capture": "C:\\Users\\Pichau\\Documents\\ChatGPT\\ALL_FIGHT\\expansao-trabalho\\repertorio-sf-20261120-r2\\sf-4",
+    "captureSha256": "8f0f8a37c7c8d8ecc4df49de2c4be8c511936e82f09b7da90ee5add50d313e56",
+    "throws": [
+      {
+        "move": "sfNative_grab_6_mp",
+        "button": "punch2",
+        "direction": 6,
+        "air": false,
+        "hold": true
+      },
+      {
+        "move": "sfNative_grab_6_hp",
+        "button": "punch3",
+        "direction": 6,
+        "air": false,
+        "hold": true
+      },
+      {
+        "move": "sfNative_grab_6_hk",
+        "button": "kick3",
+        "direction": 6,
+        "air": false,
+        "hold": true
+      },
+      {
+        "move": "sfNative_grab_4_mp",
+        "button": "punch2",
+        "direction": 4,
+        "air": false,
+        "hold": true
+      },
+      {
+        "move": "sfNative_grab_4_hp",
+        "button": "punch3",
+        "direction": 4,
+        "air": false,
+        "hold": true
+      },
+      {
+        "move": "sfNative_grab_4_hk",
+        "button": "kick3",
+        "direction": 4,
+        "air": false,
+        "hold": true
+      }
+    ],
+    "normals": [
+      {
+        "move": "sfNative_ground_6_lp",
+        "button": "punch",
+        "direction": 6,
+        "air": false
+      },
+      {
+        "move": "sfNative_ground_4_lp",
+        "button": "punch",
+        "direction": 4,
+        "air": false
+      }
+    ],
+    "assets": 84
+  },
+  "sf-5": {
+    "capture": "C:\\Users\\Pichau\\Documents\\ChatGPT\\ALL_FIGHT\\expansao-trabalho\\repertorio-sf-20261120-r2\\sf-5",
+    "captureSha256": "594732d4802f473776f6503bf523c528e77bc4acf1f474708f9a9568ef6e6a1c",
+    "throws": [
+      {
+        "move": "sfNative_grab_6_mp",
+        "button": "punch2",
+        "direction": 6,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_grab_6_hp",
+        "button": "punch3",
+        "direction": 6,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_grab_6_mk",
+        "button": "kick2",
+        "direction": 6,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_grab_6_hk",
+        "button": "kick3",
+        "direction": 6,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_grab_4_mp",
+        "button": "punch2",
+        "direction": 4,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_grab_4_hp",
+        "button": "punch3",
+        "direction": 4,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_grab_4_mk",
+        "button": "kick2",
+        "direction": 4,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_grab_4_hk",
+        "button": "kick3",
+        "direction": 4,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_airgrab_6_mp",
+        "button": "punch2",
+        "direction": 6,
+        "air": true,
+        "hold": false
+      },
+      {
+        "move": "sfNative_airgrab_6_hp",
+        "button": "punch3",
+        "direction": 6,
+        "air": true,
+        "hold": false
+      },
+      {
+        "move": "sfNative_airgrab_4_mp",
+        "button": "punch2",
+        "direction": 4,
+        "air": true,
+        "hold": false
+      },
+      {
+        "move": "sfNative_airgrab_4_hp",
+        "button": "punch3",
+        "direction": 4,
+        "air": true,
+        "hold": false
+      }
+    ],
+    "normals": [
+      {
+        "move": "sfNative_ground_6_mk",
+        "button": "kick2",
+        "direction": 6,
+        "air": false
+      },
+      {
+        "move": "sfNative_ground_6_hk",
+        "button": "kick3",
+        "direction": 6,
+        "air": false
+      },
+      {
+        "move": "sfNative_ground_4_mk",
+        "button": "kick2",
+        "direction": 4,
+        "air": false
+      }
+    ],
+    "assets": 111
+  },
+  "sf-6": {
+    "capture": "C:\\Users\\Pichau\\Documents\\ChatGPT\\ALL_FIGHT\\expansao-trabalho\\repertorio-sf-20261120-r2\\sf-6",
+    "captureSha256": "e84d77c17741802d917fbd6348eec5e1cce7bf0715e025b9a182c535fd0b13ee",
+    "throws": [
+      {
+        "move": "sfNative_grab_6_mp",
+        "button": "punch2",
+        "direction": 6,
+        "air": false,
+        "hold": true
+      },
+      {
+        "move": "sfNative_grab_6_hp",
+        "button": "punch3",
+        "direction": 6,
+        "air": false,
+        "hold": true
+      },
+      {
+        "move": "sfNative_grab_4_mp",
+        "button": "punch2",
+        "direction": 4,
+        "air": false,
+        "hold": true
+      },
+      {
+        "move": "sfNative_grab_4_hp",
+        "button": "punch3",
+        "direction": 4,
+        "air": false,
+        "hold": true
+      }
+    ],
+    "normals": [],
+    "assets": 8
+  },
+  "sf-7": {
+    "capture": "C:\\Users\\Pichau\\Documents\\ChatGPT\\ALL_FIGHT\\expansao-trabalho\\repertorio-sf-20261120-r2\\sf-7",
+    "captureSha256": "766537b1dd1c862de0edf43f053bd996638b65992698c224dabf5e3533f5eaeb",
+    "throws": [
+      {
+        "move": "sfNative_grab_6_mp",
+        "button": "punch2",
+        "direction": 6,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_grab_6_hp",
+        "button": "punch3",
+        "direction": 6,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_grab_4_mp",
+        "button": "punch2",
+        "direction": 4,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_grab_4_hp",
+        "button": "punch3",
+        "direction": 4,
+        "air": false,
+        "hold": false
+      }
+    ],
+    "normals": [],
+    "assets": 32
+  },
+  "sf-8": {
+    "capture": "C:\\Users\\Pichau\\Documents\\ChatGPT\\ALL_FIGHT\\expansao-trabalho\\repertorio-sf-20261120-r2\\sf-8",
+    "captureSha256": "e6ab4ef9ed780094e54a425cdc6ad350591f8b9c92e8144fd3ae607849688d1a",
+    "throws": [
+      {
+        "move": "sfNative_grab_6_mp",
+        "button": "punch2",
+        "direction": 6,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_grab_6_hp",
+        "button": "punch3",
+        "direction": 6,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_grab_6_mk",
+        "button": "kick2",
+        "direction": 6,
+        "air": false,
+        "hold": true
+      },
+      {
+        "move": "sfNative_grab_6_hk",
+        "button": "kick3",
+        "direction": 6,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_grab_4_mp",
+        "button": "punch2",
+        "direction": 4,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_grab_4_hp",
+        "button": "punch3",
+        "direction": 4,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_grab_4_mk",
+        "button": "kick2",
+        "direction": 4,
+        "air": false,
+        "hold": true
+      },
+      {
+        "move": "sfNative_grab_4_hk",
+        "button": "kick3",
+        "direction": 4,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_airgrab_6_mk",
+        "button": "kick2",
+        "direction": 6,
+        "air": true,
+        "hold": false
+      },
+      {
+        "move": "sfNative_airgrab_6_hk",
+        "button": "kick3",
+        "direction": 6,
+        "air": true,
+        "hold": false
+      },
+      {
+        "move": "sfNative_airgrab_4_mk",
+        "button": "kick2",
+        "direction": 4,
+        "air": true,
+        "hold": false
+      },
+      {
+        "move": "sfNative_airgrab_4_hk",
+        "button": "kick3",
+        "direction": 4,
+        "air": true,
+        "hold": false
+      }
+    ],
+    "normals": [],
+    "assets": 92
+  },
+  "sf-9": {
+    "capture": "C:\\Users\\Pichau\\Documents\\ChatGPT\\ALL_FIGHT\\expansao-trabalho\\repertorio-sf-20261120-r2\\sf-9",
+    "captureSha256": "855bc18346acdb229e85bcca703fd09145af9767a9968bb453e058751521f566",
+    "throws": [
+      {
+        "move": "sfNative_grab_6_mp",
+        "button": "punch2",
+        "direction": 6,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_grab_6_hp",
+        "button": "punch3",
+        "direction": 6,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_grab_4_mp",
+        "button": "punch2",
+        "direction": 4,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_grab_4_hp",
+        "button": "punch3",
+        "direction": 4,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_airgrab_6_mp",
+        "button": "punch2",
+        "direction": 6,
+        "air": true,
+        "hold": false
+      },
+      {
+        "move": "sfNative_airgrab_6_hp",
+        "button": "punch3",
+        "direction": 6,
+        "air": true,
+        "hold": false
+      },
+      {
+        "move": "sfNative_airgrab_4_mp",
+        "button": "punch2",
+        "direction": 4,
+        "air": true,
+        "hold": false
+      },
+      {
+        "move": "sfNative_airgrab_4_hp",
+        "button": "punch3",
+        "direction": 4,
+        "air": true,
+        "hold": false
+      }
+    ],
+    "normals": [
+      {
+        "move": "sfNative_ground_3_mk",
+        "button": "kick2",
+        "direction": 3,
+        "air": false
+      },
+      {
+        "move": "sfNative_ground_3_hk",
+        "button": "kick3",
+        "direction": 3,
+        "air": false
+      },
+      {
+        "move": "sfNative_air_2_mk",
+        "button": "kick2",
+        "direction": 2,
+        "air": true
+      }
+    ],
+    "assets": 51
+  },
+  "sf-10": {
+    "capture": "C:\\Users\\Pichau\\Documents\\ChatGPT\\ALL_FIGHT\\expansao-trabalho\\repertorio-sf-20261120-r2\\sf-10",
+    "captureSha256": "2ad328c918c0353b4ff1d0f103d6b2d6b74f9f1b404f2f6dee690bfb61f34449",
+    "throws": [
+      {
+        "move": "sfNative_grab_6_mp",
+        "button": "punch2",
+        "direction": 6,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_grab_6_hp",
+        "button": "punch3",
+        "direction": 6,
+        "air": false,
+        "hold": true
+      },
+      {
+        "move": "sfNative_grab_6_mk",
+        "button": "kick2",
+        "direction": 6,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_grab_6_hk",
+        "button": "kick3",
+        "direction": 6,
+        "air": false,
+        "hold": true
+      },
+      {
+        "move": "sfNative_grab_4_mp",
+        "button": "punch2",
+        "direction": 4,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_grab_4_hp",
+        "button": "punch3",
+        "direction": 4,
+        "air": false,
+        "hold": true
+      },
+      {
+        "move": "sfNative_grab_4_mk",
+        "button": "kick2",
+        "direction": 4,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_grab_4_hk",
+        "button": "kick3",
+        "direction": 4,
+        "air": false,
+        "hold": true
+      },
+      {
+        "move": "sfNative_airgrab_6_mk",
+        "button": "kick2",
+        "direction": 6,
+        "air": true,
+        "hold": false
+      },
+      {
+        "move": "sfNative_airgrab_6_hk",
+        "button": "kick3",
+        "direction": 6,
+        "air": true,
+        "hold": false
+      },
+      {
+        "move": "sfNative_airgrab_4_mk",
+        "button": "kick2",
+        "direction": 4,
+        "air": true,
+        "hold": false
+      },
+      {
+        "move": "sfNative_airgrab_4_hk",
+        "button": "kick3",
+        "direction": 4,
+        "air": true,
+        "hold": false
+      }
+    ],
+    "normals": [
+      {
+        "move": "sfNative_ground_6_mp",
+        "button": "punch2",
+        "direction": 6,
+        "air": false
+      },
+      {
+        "move": "sfNative_ground_6_hp",
+        "button": "punch3",
+        "direction": 6,
+        "air": false
+      },
+      {
+        "move": "sfNative_ground_4_mp",
+        "button": "punch2",
+        "direction": 4,
+        "air": false
+      },
+      {
+        "move": "sfNative_ground_4_hp",
+        "button": "punch3",
+        "direction": 4,
+        "air": false
+      }
+    ],
+    "assets": 81
+  },
+  "sf-11": {
+    "capture": "C:\\Users\\Pichau\\Documents\\ChatGPT\\ALL_FIGHT\\expansao-trabalho\\repertorio-sf-20261120-r2\\sf-11",
+    "captureSha256": "cbd3da0fbbe688e14e179f2ffafa9a3c8037949250743313703c02686c543be0",
+    "throws": [
+      {
+        "move": "sfNative_grab_6_mp",
+        "button": "punch2",
+        "direction": 6,
+        "air": false,
+        "hold": true
+      },
+      {
+        "move": "sfNative_grab_6_hp",
+        "button": "punch3",
+        "direction": 6,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_grab_4_mp",
+        "button": "punch2",
+        "direction": 4,
+        "air": false,
+        "hold": true
+      },
+      {
+        "move": "sfNative_grab_4_hp",
+        "button": "punch3",
+        "direction": 4,
+        "air": false,
+        "hold": false
+      }
+    ],
+    "normals": [
+      {
+        "move": "sfNative_ground_6_lk",
+        "button": "kick",
+        "direction": 6,
+        "air": false
+      },
+      {
+        "move": "sfNative_ground_4_lp",
+        "button": "punch",
+        "direction": 4,
+        "air": false
+      },
+      {
+        "move": "sfNative_ground_4_mp",
+        "button": "punch2",
+        "direction": 4,
+        "air": false
+      },
+      {
+        "move": "sfNative_ground_4_hp",
+        "button": "punch3",
+        "direction": 4,
+        "air": false
+      },
+      {
+        "move": "sfNative_ground_4_mk",
+        "button": "kick2",
+        "direction": 4,
+        "air": false
+      },
+      {
+        "move": "sfNative_ground_4_hk",
+        "button": "kick3",
+        "direction": 4,
+        "air": false
+      },
+      {
+        "move": "sfNative_ground_1_lp",
+        "button": "punch",
+        "direction": 1,
+        "air": false
+      },
+      {
+        "move": "sfNative_ground_1_mp",
+        "button": "punch2",
+        "direction": 1,
+        "air": false
+      },
+      {
+        "move": "sfNative_ground_1_hp",
+        "button": "punch3",
+        "direction": 1,
+        "air": false
+      },
+      {
+        "move": "sfNative_ground_1_lk",
+        "button": "kick",
+        "direction": 1,
+        "air": false
+      },
+      {
+        "move": "sfNative_ground_1_mk",
+        "button": "kick2",
+        "direction": 1,
+        "air": false
+      },
+      {
+        "move": "sfNative_ground_1_hk",
+        "button": "kick3",
+        "direction": 1,
+        "air": false
+      },
+      {
+        "move": "sfNative_air_2_hp",
+        "button": "punch3",
+        "direction": 2,
+        "air": true
+      },
+      {
+        "move": "sfNative_air_2_lk",
+        "button": "kick",
+        "direction": 2,
+        "air": true
+      },
+      {
+        "move": "sfNative_air_2_mk",
+        "button": "kick2",
+        "direction": 2,
+        "air": true
+      },
+      {
+        "move": "sfNative_air_2_hk",
+        "button": "kick3",
+        "direction": 2,
+        "air": true
+      },
+      {
+        "move": "sfNative_air_3_hp",
+        "button": "punch3",
+        "direction": 3,
+        "air": true
+      },
+      {
+        "move": "sfNative_air_3_lk",
+        "button": "kick",
+        "direction": 3,
+        "air": true
+      },
+      {
+        "move": "sfNative_air_3_mk",
+        "button": "kick2",
+        "direction": 3,
+        "air": true
+      },
+      {
+        "move": "sfNative_air_3_hk",
+        "button": "kick3",
+        "direction": 3,
+        "air": true
+      },
+      {
+        "move": "sfNative_air_1_hp",
+        "button": "punch3",
+        "direction": 1,
+        "air": true
+      },
+      {
+        "move": "sfNative_air_1_lk",
+        "button": "kick",
+        "direction": 1,
+        "air": true
+      },
+      {
+        "move": "sfNative_air_1_mk",
+        "button": "kick2",
+        "direction": 1,
+        "air": true
+      },
+      {
+        "move": "sfNative_air_1_hk",
+        "button": "kick3",
+        "direction": 1,
+        "air": true
+      }
+    ],
+    "assets": 80
+  },
+  "sf-12": {
+    "capture": "C:\\Users\\Pichau\\Documents\\ChatGPT\\ALL_FIGHT\\expansao-trabalho\\repertorio-sf-20261120-r2\\sf-12",
+    "captureSha256": "f1c33534750afd65ede980e2eb5a70dd847eb0d77bfded80503fb9c888415930",
+    "throws": [
+      {
+        "move": "sfNative_grab_6_mp",
+        "button": "punch2",
+        "direction": 6,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_grab_6_hp",
+        "button": "punch3",
+        "direction": 6,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_grab_6_mk",
+        "button": "kick2",
+        "direction": 6,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_grab_6_hk",
+        "button": "kick3",
+        "direction": 6,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_grab_4_mp",
+        "button": "punch2",
+        "direction": 4,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_grab_4_hp",
+        "button": "punch3",
+        "direction": 4,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_grab_4_mk",
+        "button": "kick2",
+        "direction": 4,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_grab_4_hk",
+        "button": "kick3",
+        "direction": 4,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_airgrab_6_mk",
+        "button": "kick2",
+        "direction": 6,
+        "air": true,
+        "hold": false
+      },
+      {
+        "move": "sfNative_airgrab_6_hk",
+        "button": "kick3",
+        "direction": 6,
+        "air": true,
+        "hold": false
+      },
+      {
+        "move": "sfNative_airgrab_4_mk",
+        "button": "kick2",
+        "direction": 4,
+        "air": true,
+        "hold": false
+      },
+      {
+        "move": "sfNative_airgrab_4_hk",
+        "button": "kick3",
+        "direction": 4,
+        "air": true,
+        "hold": false
+      }
+    ],
+    "normals": [
+      {
+        "move": "sfNative_ground_6_lp",
+        "button": "punch",
+        "direction": 6,
+        "air": false
+      },
+      {
+        "move": "sfNative_ground_6_lk",
+        "button": "kick",
+        "direction": 6,
+        "air": false
+      },
+      {
+        "move": "sfNative_ground_4_lp",
+        "button": "punch",
+        "direction": 4,
+        "air": false
+      },
+      {
+        "move": "sfNative_ground_4_lk",
+        "button": "kick",
+        "direction": 4,
+        "air": false
+      }
+    ],
+    "assets": 112
+  },
+  "sf-13": {
+    "capture": "C:\\Users\\Pichau\\Documents\\ChatGPT\\ALL_FIGHT\\expansao-trabalho\\repertorio-sf-20261120-r2\\sf-13",
+    "captureSha256": "793c0de097dfe7e0cc9fb92bcb187435cf1007dfb5cd2852802caf1da659f27e",
+    "throws": [
+      {
+        "move": "sfNative_grab_6_mp",
+        "button": "punch2",
+        "direction": 6,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_grab_6_hp",
+        "button": "punch3",
+        "direction": 6,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_grab_6_mk",
+        "button": "kick2",
+        "direction": 6,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_grab_6_hk",
+        "button": "kick3",
+        "direction": 6,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_grab_4_mp",
+        "button": "punch2",
+        "direction": 4,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_grab_4_hp",
+        "button": "punch3",
+        "direction": 4,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_grab_4_mk",
+        "button": "kick2",
+        "direction": 4,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_grab_4_hk",
+        "button": "kick3",
+        "direction": 4,
+        "air": false,
+        "hold": false
+      }
+    ],
+    "normals": [],
+    "assets": 72
+  },
+  "sf-14": {
+    "capture": "C:\\Users\\Pichau\\Documents\\ChatGPT\\ALL_FIGHT\\expansao-trabalho\\repertorio-sf-20261120-r2\\sf-14",
+    "captureSha256": "42b4a6d84ecb3e49080f1e11628b871d3b5041c58714464cae66308438a9a098",
+    "throws": [
+      {
+        "move": "sfNative_grab_6_mp",
+        "button": "punch2",
+        "direction": 6,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_grab_6_hp",
+        "button": "punch3",
+        "direction": 6,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_grab_4_mp",
+        "button": "punch2",
+        "direction": 4,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_grab_4_hp",
+        "button": "punch3",
+        "direction": 4,
+        "air": false,
+        "hold": false
+      }
+    ],
+    "normals": [],
+    "assets": 29
+  },
+  "sf-15": {
+    "capture": "C:\\Users\\Pichau\\Documents\\ChatGPT\\ALL_FIGHT\\expansao-trabalho\\repertorio-sf-20261120-r2\\sf-15",
+    "captureSha256": "3b58b30581c9123f4019b8bc47f24b39aba56b003e7999c90c841f97ce61597f",
+    "throws": [
+      {
+        "move": "sfNative_grab_6_mp",
+        "button": "punch2",
+        "direction": 6,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_grab_6_hp",
+        "button": "punch3",
+        "direction": 6,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_grab_4_mp",
+        "button": "punch2",
+        "direction": 4,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_grab_4_hp",
+        "button": "punch3",
+        "direction": 4,
+        "air": false,
+        "hold": false
+      }
+    ],
+    "normals": [],
+    "assets": 40
+  },
+  "akuma": {
+    "capture": "C:\\Users\\Pichau\\Documents\\ChatGPT\\ALL_FIGHT\\expansao-trabalho\\repertorio-sf-20261120-r2\\akuma",
+    "captureSha256": "8ab9c6b45270dbfea6109728dfb8551d429974d1537bcfe8fabdb4aa97fd2ff3",
+    "throws": [
+      {
+        "move": "sfNative_grab_6_mp",
+        "button": "punch2",
+        "direction": 6,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_grab_6_hp",
+        "button": "punch3",
+        "direction": 6,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_grab_6_mk",
+        "button": "kick2",
+        "direction": 6,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_grab_6_hk",
+        "button": "kick3",
+        "direction": 6,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_grab_4_mp",
+        "button": "punch2",
+        "direction": 4,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_grab_4_hp",
+        "button": "punch3",
+        "direction": 4,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_grab_4_mk",
+        "button": "kick2",
+        "direction": 4,
+        "air": false,
+        "hold": false
+      },
+      {
+        "move": "sfNative_grab_4_hk",
+        "button": "kick3",
+        "direction": 4,
+        "air": false,
+        "hold": false
+      }
+    ],
+    "normals": [],
+    "assets": 60
+  }
+}

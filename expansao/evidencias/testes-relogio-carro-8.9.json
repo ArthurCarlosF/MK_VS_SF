@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "nativeFramesCompared": 182,
+  "videoFps": 59.633331298828125,
+  "units": 40,
+  "divider": 40,
+  "fullTimeoutSeconds": 27.501398366993932,
+  "fullTimeoutSource": "native routine at 0x00e03c–0x00e052 and matched video cadence",
+  "physicalClockGates": "Observed during uninterrupted native play. Crossover pauses use the shared simulation clock."
+}

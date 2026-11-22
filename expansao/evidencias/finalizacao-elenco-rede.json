@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "controlledKoFixture": true,
+  "keyboardCommand": [
+    "LP",
+    "Block",
+    "Block",
+    "HK"
+  ],
+  "sameTick": 412,
+  "authoritativeScene": {
+    "id": 4,
+    "profile": "umk3-r12-kano-fatality1-mirror-native-terminal",
+    "owner": 0,
+    "target": 1,
+    "time": 0.016666666666666666,
+    "frame": 0,
+    "facing": 1,
+    "originX": 440,
+    "originY": 0,
+    "victimFighter": "ryu",
+    "adaptVictim": true,
+    "ownerFighter": "mk-0",
+    "adaptOwner": false
+  },
+  "completedBothBrowsers": true,
+  "errors": []
+}

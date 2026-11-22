@@ -109,4 +109,17 @@
       for(const [name,patch] of Object.entries(pack.moves))def.moves[name]={...def.moves[name],...patch};
     }
   }
+  // The older Scorpion captures named core pad 8 HK and pad 9 LK. The
+  // arcade command queue confirms the opposite. Keep the captured move IDs
+  // and rebind their controls, including combo edges that came from pad 9.
+  const scorpionControls=mk.normalControls;
+  if(scorpionControls?.kick&&scorpionControls.kick2){
+    const high=scorpionControls.kick,low=scorpionControls.kick2;
+    scorpionControls.kick={...low,label:'HK'};
+    scorpionControls.kick2={...high,label:'LK'};
+    for(const move of Object.values(mk.moves)){
+      if(move.chainEdges)move.chainEdges=move.chainEdges.map(edge=>({...edge,
+        button:edge.button==='kick2'?'kick':edge.button==='kick'?'kick2':edge.button}));
+    }
+  }
 })(typeof window==='undefined'?globalThis:window);

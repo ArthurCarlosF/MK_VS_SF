@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "root": "D:/Projetos/Mortal Kombat vs Street Fighter/expansao",
+  "results": [
+    {
+      "network": {
+        "clients": 2,
+        "realKeyboard": true,
+        "jaxBlockCombo": true,
+        "sameTick": 264,
+        "noobThrow": true
+      }
+    }
+  ],
+  "errors": [],
+  "failed": []
+}

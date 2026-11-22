@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "sprites": 118,
+  "completeGame": false,
+  "local": {
+    "facing": 1,
+    "scenery": "mk-scorpions-lair",
+    "immune": true,
+    "othersCanFight": true,
+    "phase": "fight",
+    "visible": true
+  },
+  "lan": {
+    "matchingTick": 544,
+    "facing": -1,
+    "roundWinner": 0
+  }
+}

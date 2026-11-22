@@ -1,0 +1,217 @@
+{
+  "status": "RESTORED_MATCHING_ORIGINAL_RGBA",
+  "checkedSprites": 13659,
+  "restored": [
+    {
+      "file": "arena\\assets\\cinematics\\elenco-smoke-fatality1\\sprites\\sprite-0035.png",
+      "rgbaSha256": "c5c6e23632dc8d39c1f95ba64b1f8594b6f5e9d2105a33d804d24e84473a0b55",
+      "method": "identical captured RGBA sprite"
+    },
+    {
+      "file": "arena\\assets\\cinematics\\elenco-smoke-fatality1\\sprites\\sprite-0036.png",
+      "rgbaSha256": "190be06ad09feae34a39ddb5be9eb2d7acb1b631d58b057b87e305478d9248e1",
+      "method": "identical captured RGBA sprite"
+    },
+    {
+      "file": "arena\\assets\\cinematics\\elenco-smoke-fatality1\\sprites\\sprite-0037.png",
+      "rgbaSha256": "db7cad95af7eeb2c9d130488690bd47e89eee6cb47424fd681427bf1f83ca73f",
+      "method": "identical captured RGBA sprite"
+    },
+    {
+      "file": "arena\\assets\\cinematics\\elenco-smoke-fatality1\\sprites\\sprite-0038.png",
+      "rgbaSha256": "b392bc3a32a44461f14c674d63d03d6d92a55562eeedec0cb0c06d53d7429158",
+      "method": "identical captured RGBA sprite"
+    },
+    {
+      "file": "arena\\assets\\cinematics\\elenco-smoke-fatality1\\sprites\\sprite-0039.png",
+      "rgbaSha256": "21e0ab2c28e012693f9987facf2e4557df5099dcf3dd2aa9eb42546ec4d38f28",
+      "method": "identical captured RGBA sprite"
+    },
+    {
+      "file": "arena\\assets\\cinematics\\elenco-smoke-fatality1\\sprites\\sprite-0040.png",
+      "rgbaSha256": "9e6b0b34573ebffed4e00aa8100dda13bbe06ad83572dada208e98a2b709c8ae",
+      "method": "identical captured RGBA sprite"
+    },
+    {
+      "file": "arena\\assets\\cinematics\\elenco-smoke-fatality1\\sprites\\sprite-0043.png",
+      "rgbaSha256": "dd7d725663bcc7e0d506f518ddd46c0ac119fed6b9bbd3df49ef0da3a59d7776",
+      "method": "identical captured RGBA sprite"
+    },
+    {
+      "file": "arena\\assets\\cinematics\\elenco-smoke-fatality1\\sprites\\sprite-0046.png",
+      "rgbaSha256": "803787302d751389b29a5c98d5d4d8d8d23ed013e288a48a19bdfecf45fe3f5f",
+      "method": "identical captured RGBA sprite"
+    },
+    {
+      "file": "arena\\assets\\cinematics\\elenco-smoke-fatality1\\sprites\\sprite-0049.png",
+      "rgbaSha256": "262ccd2ee4de2ac6c1781dac8faadec47bc077995c921c15ed3bff7b547851a4",
+      "method": "identical captured RGBA sprite"
+    },
+    {
+      "file": "arena\\assets\\cinematics\\elenco-smoke-fatality1\\sprites\\sprite-0051.png",
+      "rgbaSha256": "83ef8a3b80fe74eb64ae8559a65054c568a63ba9bc4bb2273e708bed49e4cf71",
+      "method": "redecoded original ROM using captured object geometry and captured palette"
+    },
+    {
+      "file": "arena\\assets\\cinematics\\elenco-smoke-fatality1\\sprites\\sprite-0052.png",
+      "rgbaSha256": "d0730ba52cba4030b2aa56cf7a63643a8781e787a57a259a7e2a4aeb8aa6263e",
+      "method": "redecoded original ROM using captured object geometry and captured palette"
+    },
+    {
+      "file": "arena\\assets\\cinematics\\elenco-smoke-fatality1\\sprites\\sprite-0053.png",
+      "rgbaSha256": "2c60c6afd296d82cbca0ac28bf0d7fe2233b424b3456de329f9326561c0ffa6d",
+      "method": "identical captured RGBA sprite"
+    },
+    {
+      "file": "arena\\assets\\cinematics\\elenco-smoke-fatality1\\sprites\\sprite-0055.png",
+      "rgbaSha256": "32d4bde1e8bec1bb77caccf0d0e7a73ba81d62a5406e3d0c7dd9437eb1e7c3d0",
+      "method": "redecoded original ROM using captured object geometry and captured palette"
+    },
+    {
+      "file": "arena\\assets\\cinematics\\elenco-smoke-fatality1\\sprites\\sprite-0056.png",
+      "rgbaSha256": "15f60452a73a0675263bcd9492088a649627f5f97b1dd8f99e302acce422aaf4",
+      "method": "redecoded original ROM using captured object geometry and captured palette"
+    },
+    {
+      "file": "arena\\assets\\cinematics\\elenco-smoke-fatality1\\sprites\\sprite-0057.png",
+      "rgbaSha256": "176c1416eb2713ad1b4e79120f882bee7ee16a2196b66d27b80b942ab180d652",
+      "method": "identical captured RGBA sprite"
+    },
+    {
+      "file": "arena\\assets\\cinematics\\elenco-smoke-fatality1\\sprites\\sprite-0059.png",
+      "rgbaSha256": "b9f3419f2ec54355695f6ae856b2226b8bf46daab596e8136ab8dec5b1b7761a",
+      "method": "redecoded original ROM using captured object geometry and captured palette"
+    },
+    {
+      "file": "arena\\assets\\cinematics\\elenco-smoke-fatality1\\sprites\\sprite-0060.png",
+      "rgbaSha256": "1266429dfefbe9960d33faa10da08dc5c61de80a5e05e4349ad7462637b09dee",
+      "method": "redecoded original ROM using captured object geometry and captured palette"
+    },
+    {
+      "file": "arena\\assets\\cinematics\\elenco-smoke-fatality1\\sprites\\sprite-0063.png",
+      "rgbaSha256": "c5728b8e6e3704fb2b47f558041d477d6b9395f3eb086b2f746f07647545ec37",
+      "method": "redecoded original ROM using captured object geometry and captured palette"
+    },
+    {
+      "file": "arena\\assets\\cinematics\\elenco-smoke-fatality1\\sprites\\sprite-0064.png",
+      "rgbaSha256": "fd3759b1311591f5710037d49f7c86bd09b395cafb4999674c44d803e2ddee0a",
+      "method": "redecoded original ROM using captured object geometry and captured palette"
+    },
+    {
+      "file": "arena\\assets\\cinematics\\elenco-smoke-fatality1\\sprites\\sprite-0065.png",
+      "rgbaSha256": "a31a0eb5c01795891c87d0eaf1ccf826035668296a5781c9731e678a18957ef0",
+      "method": "identical captured RGBA sprite"
+    },
+    {
+      "file": "arena\\assets\\cinematics\\elenco-smoke-fatality1\\sprites\\sprite-0067.png",
+      "rgbaSha256": "61ea9b06467ace308ba3cfc5b0f1c3b241a721266acb81e4684f5d7c6aa88338",
+      "method": "redecoded original ROM using captured object geometry and captured palette"
+    },
+    {
+      "file": "arena\\assets\\cinematics\\elenco-smoke-fatality1\\sprites\\sprite-0068.png",
+      "rgbaSha256": "d33f7df9545e3679a01ca21cea3395d1cb41cf03e6193f1073dfbe1ad20f9d2a",
+      "method": "redecoded original ROM using captured object geometry and captured palette"
+    },
+    {
+      "file": "arena\\assets\\cinematics\\elenco-smoke-fatality1\\sprites\\sprite-0069.png",
+      "rgbaSha256": "8636eb564fe466ba1408f5d3a0421de13c1d4339afa132e81aef3c6af2f66062",
+      "method": "identical captured RGBA sprite"
+    },
+    {
+      "file": "arena\\assets\\cinematics\\elenco-smoke-fatality1\\sprites\\sprite-0071.png",
+      "rgbaSha256": "f04fa81975585602528944c49315a9d74fb68df3be25fb2f59ef88c430195dcb",
+      "method": "redecoded original ROM using captured object geometry and captured palette"
+    },
+    {
+      "file": "arena\\assets\\cinematics\\elenco-smoke-fatality1\\sprites\\sprite-0072.png",
+      "rgbaSha256": "d89ecc98a422de519ee698dcf1419b6d5b6152c056351151e2395c70e0ce99ad",
+      "method": "redecoded original ROM using captured object geometry and captured palette"
+    },
+    {
+      "file": "arena\\assets\\cinematics\\elenco-smoke-fatality1\\sprites\\sprite-0073.png",
+      "rgbaSha256": "8c7aee5c6b3e29827a0b544415c1203ad50d3ae8e48403025a474688b491b591",
+      "method": "identical captured RGBA sprite"
+    },
+    {
+      "file": "arena\\assets\\cinematics\\elenco-smoke-fatality1\\sprites\\sprite-0075.png",
+      "rgbaSha256": "7ec87b1ee5c5af55c9b9cb6306605cc9af328c9fcff772abdd600f481e523ad0",
+      "method": "redecoded original ROM using captured object geometry and captured palette"
+    },
+    {
+      "file": "arena\\assets\\cinematics\\elenco-smoke-fatality1\\sprites\\sprite-0076.png",
+      "rgbaSha256": "b2d59d064d6685422e2ef71968c1acd3545bea8e92b2331fa23b976ea35aafcb",
+      "method": "redecoded original ROM using captured object geometry and captured palette"
+    },
+    {
+      "file": "arena\\assets\\cinematics\\elenco-smoke-fatality1\\sprites\\sprite-0078.png",
+      "rgbaSha256": "07fb53296aa3257c551f48e0e22019256f4baa548c40a5c11f359216eaa1a49c",
+      "method": "redecoded original ROM using captured object geometry and captured palette"
+    },
+    {
+      "file": "arena\\assets\\cinematics\\elenco-smoke-fatality1\\sprites\\sprite-0079.png",
+      "rgbaSha256": "3f450e38018ddef6a7026e5985222ddf0d0f75bbc32769ac6757a401b7c8fbf3",
+      "method": "redecoded original ROM using captured object geometry and captured palette"
+    },
+    {
+      "file": "arena\\assets\\cinematics\\elenco-smoke-fatality1\\sprites\\sprite-0081.png",
+      "rgbaSha256": "931fca756940cabe091c68de6bae4fefeaa981c7ac73bae355c4d12e749ba48c",
+      "method": "redecoded original ROM using captured object geometry and captured palette"
+    },
+    {
+      "file": "arena\\assets\\cinematics\\elenco-smoke-fatality1\\sprites\\sprite-0082.png",
+      "rgbaSha256": "f8f7f753dd9c36902a6f366515d32150c5dc967c43f780b7ae1cf8e46b2e2b94",
+      "method": "redecoded original ROM using captured object geometry and captured palette"
+    },
+    {
+      "file": "arena\\assets\\cinematics\\elenco-smoke-fatality1\\sprites\\sprite-0085.png",
+      "rgbaSha256": "f22323dbb9d687eabd80946ab5b4312471c9faf8acaa604ecd57226bc42c464d",
+      "method": "redecoded original ROM using captured object geometry and captured palette"
+    },
+    {
+      "file": "arena\\assets\\cinematics\\elenco-smoke-fatality1\\sprites\\sprite-0086.png",
+      "rgbaSha256": "26598ea52f81f5a6dc7d0d1a4c0b1eff152f099c840f590e310397c16ae92a05",
+      "method": "redecoded original ROM using captured object geometry and captured palette"
+    },
+    {
+      "file": "arena\\assets\\cinematics\\elenco-smoke-fatality1\\sprites\\sprite-0088.png",
+      "rgbaSha256": "6009c8a615adfc65f966fd471da89d1734dd7818a6627cb468e5d4aa1772af51",
+      "method": "redecoded original ROM using captured object geometry and captured palette"
+    },
+    {
+      "file": "arena\\assets\\cinematics\\elenco-smoke-fatality1\\sprites\\sprite-0089.png",
+      "rgbaSha256": "50a50b4dfdf6889ecebbe30c21ffa1ff844b0251e5691b19f6cfa5dc0038badf",
+      "method": "redecoded original ROM using captured object geometry and captured palette"
+    },
+    {
+      "file": "arena\\assets\\cinematics\\elenco-smoke-fatality1\\sprites\\sprite-0092.png",
+      "rgbaSha256": "63f38d41eacf9e836e566acf69f9c9894977ac0721cfc4b3a6acf3509c276064",
+      "method": "redecoded original ROM using captured object geometry and captured palette"
+    },
+    {
+      "file": "arena\\assets\\cinematics\\elenco-smoke-fatality1\\sprites\\sprite-0093.png",
+      "rgbaSha256": "2364d8b4bff46cbba3dc9e025ccc51a8b258a441226a21a32719b03dfc35b37b",
+      "method": "redecoded original ROM using captured object geometry and captured palette"
+    },
+    {
+      "file": "arena\\assets\\cinematics\\elenco-smoke-fatality1\\sprites\\sprite-0094.png",
+      "rgbaSha256": "5381b1e4044e9cc4821a6d1b86dde3f5e3835e677611a97966dfbd4e835f651d",
+      "method": "redecoded original ROM using captured object geometry and captured palette"
+    },
+    {
+      "file": "arena\\assets\\cinematics\\elenco-smoke-fatality1\\sprites\\sprite-0095.png",
+      "rgbaSha256": "8c97ccccabbc00b66f1df1e5efb2c7acdf9688ce0bbafe9188cbf9eb83b932f9",
+      "method": "redecoded original ROM using captured object geometry and captured palette"
+    },
+    {
+      "file": "arena\\assets\\cinematics\\elenco-smoke-fatality1\\sprites\\sprite-0099.png",
+      "rgbaSha256": "b203038bec53c4f3d867f9691e626d039c5d091f970e58f68d12ec87c3eedf63",
+      "method": "redecoded original ROM using captured object geometry and captured palette"
+    },
+    {
+      "file": "arena\\assets\\cinematics\\elenco-smoke-fatality1\\sprites\\sprite-0100.png",
+      "rgbaSha256": "77d10d30e9a53781953dd15db72ce1a481f2aaf18ff710ab4d130dbbdc1d466a",
+      "method": "redecoded original ROM using captured object geometry and captured palette"
+    }
+  ],
+  "wavHeaders": "PASS"
+}

@@ -1,0 +1,95 @@
+{
+  "schema": 1,
+  "samples": [
+    {
+      "id": 111,
+      "file": "ssf2u-qs-111.wav",
+      "sampleRate": 24038,
+      "length": 11145,
+      "sha256": "3f45bf5f78bb1b57ef6bf236a734e83d3ade56d4dd269003ee5aaa0a504e107f"
+    },
+    {
+      "id": 98,
+      "file": "ssf2u-qs-098.wav",
+      "sampleRate": 24038,
+      "length": 17655,
+      "sha256": "c0da0f204ef7554a1b5e7e9c6a89aefb36ed57a364942985f6d378894a1bec24"
+    },
+    {
+      "id": 233,
+      "file": "ssf2u-qs-233.wav",
+      "sampleRate": 24038,
+      "length": 14955,
+      "sha256": "3b3f572024b72c771f818df34368335f9c164c88a4deadc1523306c637cf7692"
+    }
+  ],
+  "cues": {
+    "valid-hit": {
+      "groups": [
+        {
+          "variants": [
+            {
+              "sampleId": 111,
+              "gain": 0.78,
+              "playbackRate": 0.7491535384383408
+            }
+          ]
+        }
+      ],
+      "nativeCommand": "0x54"
+    },
+    "shell-completion": {
+      "groups": [
+        {
+          "variants": [
+            {
+              "sampleId": 98,
+              "gain": 0.78,
+              "playbackRate": 0.8408964152537145
+            }
+          ]
+        }
+      ],
+      "nativeCommand": "0x52"
+    },
+    "success": {
+      "groups": [
+        {
+          "variants": [
+            {
+              "sampleId": 233,
+              "gain": 0.78,
+              "playbackRate": 0.8408964152537145
+            }
+          ]
+        }
+      ],
+      "nativeCommand": "0xb1"
+    }
+  },
+  "bindings": [
+    {
+      "eventType": "carAudio",
+      "moves": [
+        "valid-hit"
+      ],
+      "cue": "valid-hit"
+    },
+    {
+      "eventType": "carAudio",
+      "moves": [
+        "shell-completion"
+      ],
+      "cue": "shell-completion"
+    },
+    {
+      "eventType": "carAudio",
+      "moves": [
+        "success"
+      ],
+      "cue": "success"
+    }
+  ],
+  "sourceGame": "ssf2u",
+  "scope": "Source PCM and note ratios, with crossover gain and mix."
+}

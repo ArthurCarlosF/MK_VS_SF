@@ -1,0 +1,13 @@
+{
+  "status": "NATIVE_FULL_MIX_WITNESS",
+  "file": "fatality1-verified-mix.wav",
+  "wavSha256": "be180bec7ddebf2601eeb8e3ee065122c59b1d61f0ac23b464df5a4f8b72d2af",
+  "referenceFilm": "umk3-r12-scorpion-fatality1-scorpion-victim-native-complete",
+  "filmSha256": "32c76fa697e37e99e8a2146eab6426f1a65aac8d5d080df30ba047bcf91e6f1c",
+  "comparedNativeFrames": 496,
+  "sampleRate": 48000,
+  "duration": 8.570625,
+  "firstCueFilmFrame": 2,
+  "firstCueOffsetSeconds": 0.03759048846383666,
+  "scope": "Full DCS mixer output from first observed cinematic command through terminal film boundary. Other cues and user integration are separate."
+}

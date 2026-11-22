@@ -14,7 +14,9 @@
         this.bonus={x:550,parts:[120,120,100],maximum:[120,120,100],score:0,scores:this.ids.map(()=>0),damage:0};
         if(scope.NativeCarRules){
           const b=this.bonus;b.nativeSeed=(this.options.bonusSeed??0x0bd11d)^this.round;b.nativeClock=0;b.nativeRuptures=0;
+          b.nativeDebris=[];b.nativeDebrisSeed=(b.nativeSeed^0x9e3779b9)>>>0;
           b.native=scope.NativeCarRules.create(()=>this.carNibble());
+          b.nativeTimer=scope.NativeCarRules.createClock();
           this.stageId='bonus-car';this.nativeStageId=16;
         }
         this.players.forEach((p,i)=>{const side=i%2?-1:1;p.x=550+side*Math.min(this.bonus.native?218:450,155+Math.floor(i/2)*52);p.facing=-side;});
@@ -30,6 +32,9 @@
     carNibble(){
       const b=this.bonus;let n=b.nativeSeed||1;n^=n<<13;n^=n>>>17;n^=n<<5;b.nativeSeed=n>>>0;return n&15;
     }
+    carDebrisWord(){
+      const b=this.bonus;let n=b.nativeDebrisSeed||1;n^=n<<13;n^=n>>>17;n^=n<<5;b.nativeDebrisSeed=n>>>0;return n&65535;
+    }
     carBoxes(){
       const b=this.bonus;
       if(!b.native)return [{left:b.x-94,right:b.x+94,bottom:8,top:100}];
@@ -41,6 +46,7 @@
       if(!this.bonus||this.phase!=='fight')return false;
       const b=this.bonus;
       if(b.native){
+        if(!scope.NativeCarRules.clockAllowsHit(b.nativeTimer))return false;
         // Use the native descriptor where one was recorded. Other attacks
         // enter through a deliberately shared crossover conversion.
         const exact=Number.isInteger(move.bonusAttackByte8);
@@ -48,6 +54,12 @@
         const result=scope.NativeCarRules.hit(b.native,contact.group,attackByte);
         if(!result.accepted)return false;
         if(result.underflow)b.nativeRuptures=Math.min(14,b.nativeRuptures+1);
+        if(scope.NativeCarDebris){
+          const recipe={ordinal:b.nativeRuptures,breakHit:result.underflow,hitGroup:contact.group,
+            contact:scope.NativeCarDebris.nativeContact(b.x,contact.x,contact.y),capacity:Math.max(0,64-b.nativeDebris.length)};
+          b.nativeDebris.push(...scope.NativeCarDebris.spawn(recipe,()=>this.carDebrisWord()).particles);
+        }
+        this.emit('carAudio',{player:p.index,move:'valid-hit'});
         const points=result.underflow?CAR_BREAK_POINTS[b.nativeRuptures]:100;b.scores[p.index]+=points;b.score+=points;b.damage+=Math.max(0,result.amount);
         if(p.action&&!move.detachedContact){p.action.connected=true;p.action.contactResult='hit';p.action.contactAge=p.action.time*this.bank[p.id].fps;p.action.contactWall=this.elapsed;}
         this.effects.push({x:contact.x,y:contact.y,age:0,guarded:false});
@@ -124,21 +136,31 @@
     step(dt,inputs){
       const bonus=this.mode==='bonus';
       super.step(dt,inputs);
-      if(bonus&&this.phase==='fight'){
+      if(bonus&&this.phase!=='intro'){
         const b=this.bonus;
         if(b.native){
           this.cameraY=0;
           b.nativeClock+=dt;
-          while(b.nativeClock+1e-9>=1/59.6333313){
-            b.nativeClock-=1/59.6333313;const frame=b.native.frame;
-            scope.NativeCarRules.tick(b.native,()=>this.carNibble());
+          const rules=scope.NativeCarRules,videoStep=1/rules.fps;
+          while(b.nativeClock+1e-9>=videoStep){
+            b.nativeClock-=videoStep;const frame=b.native.frame;
+            if(this.phase==='fight'){
+              rules.tickClock(b.nativeTimer);
+              const completed=b.native.completed;
+              scope.NativeCarRules.tick(b.native,()=>this.carNibble());
+              if(!completed&&b.native.completed)this.emit('carAudio',{move:'shell-completion'});
+            }
+            scope.NativeCarDebris?.step(b.nativeDebris);
             if(b.native.frame!==frame)this.emit('objectDamageStage',{object:'car',frame:b.native.frame});
           }
+          this.timer=b.nativeTimer.units;
         }
         const success=b.native?b.native.completed:b.parts.every(v=>v<=0);
-        if(success||this.timer<=0){
+        const expired=b.native?b.nativeTimer.expired:this.timer<=0;
+        if(this.phase==='fight'&&(success||expired)){
           this.phase='matchEnd';this.result=(success?'CARRO DESTRUÍDO':'TEMPO ESGOTADO')+' · '+this.bonus.score+' PONTOS';
           this.projectiles=[];this.tethers=[];this.grapples=[];
+          if(success)this.emit('carAudio',{move:'success'});
           this.emit('bonusEnd',{success,score:this.bonus.score,scores:[...this.bonus.scores]});
         }
       }
