@@ -1706,6 +1706,666 @@
       "canRun": false,
       "maximumStep": 7.96875,
       "errors": []
+    },
+    {
+      "id": "ryu",
+      "seen": [
+        {
+          "input": {
+            "x": 1
+          },
+          "moved": 90,
+          "state": "forward",
+          "frame": 24
+        },
+        {
+          "input": {
+            "x": -1
+          },
+          "moved": -43,
+          "state": "backward",
+          "frame": 24
+        },
+        {
+          "input": {
+            "down": true
+          },
+          "moved": 0,
+          "state": "crouch",
+          "frame": 5
+        },
+        {
+          "input": {
+            "x": 1
+          },
+          "moved": 90,
+          "state": "forward",
+          "frame": 24
+        },
+        {
+          "input": {
+            "x": 1,
+            "run": true
+          },
+          "moved": 90,
+          "state": "forward",
+          "frame": 24
+        },
+        {
+          "input": {},
+          "moved": 0,
+          "state": "idle",
+          "frame": 15
+        }
+      ],
+      "canRun": false,
+      "maximumStep": 7.5,
+      "errors": []
+    },
+    {
+      "id": "sf-1",
+      "seen": [
+        {
+          "input": {
+            "x": 1
+          },
+          "moved": 68.28125,
+          "state": "forward",
+          "frame": 23
+        },
+        {
+          "input": {
+            "x": -1
+          },
+          "moved": -22.375,
+          "state": "backward",
+          "frame": 23
+        },
+        {
+          "input": {
+            "down": true
+          },
+          "moved": 0,
+          "state": "crouch",
+          "frame": 4
+        },
+        {
+          "input": {
+            "x": 1
+          },
+          "moved": 68.28125,
+          "state": "forward",
+          "frame": 23
+        },
+        {
+          "input": {
+            "x": 1,
+            "run": true
+          },
+          "moved": 65.3125,
+          "state": "forward",
+          "frame": 22
+        },
+        {
+          "input": {},
+          "moved": 0,
+          "state": "idle",
+          "frame": 7
+        }
+      ],
+      "canRun": false,
+      "maximumStep": 5.9375,
+      "errors": []
+    },
+    {
+      "id": "sf-14",
+      "seen": [
+        {
+          "input": {
+            "x": 1
+          },
+          "moved": 123.75,
+          "state": "forward",
+          "frame": 24
+        },
+        {
+          "input": {
+            "x": -1
+          },
+          "moved": -42.375,
+          "state": "backward",
+          "frame": 24
+        },
+        {
+          "input": {
+            "down": true
+          },
+          "moved": 0,
+          "state": "crouch",
+          "frame": 5
+        },
+        {
+          "input": {
+            "x": 1
+          },
+          "moved": 123.75,
+          "state": "forward",
+          "frame": 24
+        },
+        {
+          "input": {
+            "x": 1,
+            "run": true
+          },
+          "moved": 123.75,
+          "state": "forward",
+          "frame": 24
+        },
+        {
+          "input": {},
+          "moved": 0,
+          "state": "idle",
+          "frame": 15
+        }
+      ],
+      "canRun": false,
+      "maximumStep": 10.3125,
+      "errors": []
+    },
+    {
+      "id": "sf-15",
+      "seen": [
+        {
+          "input": {
+            "x": 1
+          },
+          "moved": 115,
+          "state": "forward",
+          "frame": 23
+        },
+        {
+          "input": {
+            "x": -1
+          },
+          "moved": -42.375,
+          "state": "backward",
+          "frame": 23
+        },
+        {
+          "input": {
+            "down": true
+          },
+          "moved": 0,
+          "state": "crouch",
+          "frame": 8
+        },
+        {
+          "input": {
+            "x": 1
+          },
+          "moved": 115,
+          "state": "forward",
+          "frame": 23
+        },
+        {
+          "input": {
+            "x": 1,
+            "run": true
+          },
+          "moved": 115,
+          "state": "forward",
+          "frame": 23
+        },
+        {
+          "input": {},
+          "moved": 0,
+          "state": "idle",
+          "frame": 6
+        }
+      ],
+      "canRun": false,
+      "maximumStep": 10,
+      "errors": []
+    },
+    {
+      "id": "sf-2",
+      "seen": [
+        {
+          "input": {
+            "x": 1
+          },
+          "moved": 64.6875,
+          "state": "forward",
+          "frame": 23
+        },
+        {
+          "input": {
+            "x": -1
+          },
+          "moved": -26.125,
+          "state": "backward",
+          "frame": 23
+        },
+        {
+          "input": {
+            "down": true
+          },
+          "moved": 0,
+          "state": "crouch",
+          "frame": 4
+        },
+        {
+          "input": {
+            "x": 1
+          },
+          "moved": 64.6875,
+          "state": "forward",
+          "frame": 23
+        },
+        {
+          "input": {
+            "x": 1,
+            "run": true
+          },
+          "moved": 64.6875,
+          "state": "forward",
+          "frame": 23
+        },
+        {
+          "input": {},
+          "moved": 0,
+          "state": "idle",
+          "frame": 8
+        }
+      ],
+      "canRun": false,
+      "maximumStep": 5.625,
+      "errors": []
+    },
+    {
+      "id": "sf-5",
+      "seen": [
+        {
+          "input": {
+            "x": 1
+          },
+          "moved": 125,
+          "state": "forward",
+          "frame": 25
+        },
+        {
+          "input": {
+            "x": -1
+          },
+          "moved": -42.375,
+          "state": "backward",
+          "frame": 25
+        },
+        {
+          "input": {
+            "down": true
+          },
+          "moved": 0,
+          "state": "crouch",
+          "frame": 8
+        },
+        {
+          "input": {
+            "x": 1
+          },
+          "moved": 125,
+          "state": "forward",
+          "frame": 25
+        },
+        {
+          "input": {
+            "x": 1,
+            "run": true
+          },
+          "moved": 125,
+          "state": "forward",
+          "frame": 25
+        },
+        {
+          "input": {},
+          "moved": 0,
+          "state": "idle",
+          "frame": 42
+        }
+      ],
+      "canRun": false,
+      "maximumStep": 10,
+      "errors": []
+    },
+    {
+      "id": "sf-9",
+      "seen": [
+        {
+          "input": {
+            "x": 1
+          },
+          "moved": 120,
+          "state": "forward",
+          "frame": 24
+        },
+        {
+          "input": {
+            "x": -1
+          },
+          "moved": -47.375,
+          "state": "backward",
+          "frame": 24
+        },
+        {
+          "input": {
+            "down": true
+          },
+          "moved": 0,
+          "state": "crouch",
+          "frame": 4
+        },
+        {
+          "input": {
+            "x": 1
+          },
+          "moved": 120,
+          "state": "forward",
+          "frame": 24
+        },
+        {
+          "input": {
+            "x": 1,
+            "run": true
+          },
+          "moved": 120,
+          "state": "forward",
+          "frame": 24
+        },
+        {
+          "input": {},
+          "moved": 0,
+          "state": "idle",
+          "frame": 0
+        }
+      ],
+      "canRun": false,
+      "maximumStep": 10,
+      "errors": []
+    },
+    {
+      "id": "sf-13",
+      "seen": [
+        {
+          "input": {
+            "x": 1
+          },
+          "moved": 93.75,
+          "state": "forward",
+          "frame": 25
+        },
+        {
+          "input": {
+            "x": -1
+          },
+          "moved": -39.875,
+          "state": "backward",
+          "frame": 24
+        },
+        {
+          "input": {
+            "down": true
+          },
+          "moved": 0,
+          "state": "crouch",
+          "frame": 5
+        },
+        {
+          "input": {
+            "x": 1
+          },
+          "moved": 93.75,
+          "state": "forward",
+          "frame": 25
+        },
+        {
+          "input": {
+            "x": 1,
+            "run": true
+          },
+          "moved": 90,
+          "state": "forward",
+          "frame": 24
+        },
+        {
+          "input": {},
+          "moved": 0,
+          "state": "idle",
+          "frame": 39
+        }
+      ],
+      "canRun": false,
+      "maximumStep": 7.5,
+      "errors": []
+    },
+    {
+      "id": "akuma",
+      "seen": [
+        {
+          "input": {
+            "x": 1
+          },
+          "moved": 97.5,
+          "state": "forward",
+          "frame": 26
+        },
+        {
+          "input": {
+            "x": -1
+          },
+          "moved": -42.375,
+          "state": "backward",
+          "frame": 26
+        },
+        {
+          "input": {
+            "down": true
+          },
+          "moved": 0,
+          "state": "crouch",
+          "frame": 5
+        },
+        {
+          "input": {
+            "x": 1
+          },
+          "moved": 93.75,
+          "state": "forward",
+          "frame": 25
+        },
+        {
+          "input": {
+            "x": 1,
+            "run": true
+          },
+          "moved": 97.5,
+          "state": "forward",
+          "frame": 26
+        },
+        {
+          "input": {},
+          "moved": 0,
+          "state": "idle",
+          "frame": 18
+        }
+      ],
+      "canRun": false,
+      "maximumStep": 7.5,
+      "errors": []
+    },
+    {
+      "id": "sf-4",
+      "seen": [
+        {
+          "input": {
+            "x": 1
+          },
+          "moved": 90,
+          "state": "forward",
+          "frame": 24
+        },
+        {
+          "input": {
+            "x": -1
+          },
+          "moved": -34.875,
+          "state": "backward",
+          "frame": 25
+        },
+        {
+          "input": {
+            "down": true
+          },
+          "moved": 0,
+          "state": "crouch",
+          "frame": 7
+        },
+        {
+          "input": {
+            "x": 1
+          },
+          "moved": 93.75,
+          "state": "forward",
+          "frame": 25
+        },
+        {
+          "input": {
+            "x": 1,
+            "run": true
+          },
+          "moved": 90,
+          "state": "forward",
+          "frame": 24
+        },
+        {
+          "input": {},
+          "moved": 0,
+          "state": "idle",
+          "frame": 44
+        }
+      ],
+      "canRun": false,
+      "maximumStep": 7.5,
+      "errors": []
+    },
+    {
+      "id": "sf-3",
+      "seen": [
+        {
+          "input": {
+            "x": 1
+          },
+          "moved": 105.46875,
+          "state": "forward",
+          "frame": 25
+        },
+        {
+          "input": {
+            "x": -1
+          },
+          "moved": -42.375,
+          "state": "backward",
+          "frame": 25
+        },
+        {
+          "input": {
+            "down": true
+          },
+          "moved": 0,
+          "state": "crouch",
+          "frame": 4
+        },
+        {
+          "input": {
+            "x": 1
+          },
+          "moved": 105.46875,
+          "state": "forward",
+          "frame": 25
+        },
+        {
+          "input": {
+            "x": 1,
+            "run": true
+          },
+          "moved": 105.46875,
+          "state": "forward",
+          "frame": 25
+        },
+        {
+          "input": {},
+          "moved": 0,
+          "state": "idle",
+          "frame": 1
+        }
+      ],
+      "canRun": false,
+      "maximumStep": 8.4375,
+      "errors": []
+    },
+    {
+      "id": "sf-6",
+      "seen": [
+        {
+          "input": {
+            "x": 1
+          },
+          "moved": 109.375,
+          "state": "forward",
+          "frame": 0
+        },
+        {
+          "input": {
+            "x": -1
+          },
+          "moved": -42.375,
+          "state": "backward",
+          "frame": 24
+        },
+        {
+          "input": {
+            "down": true
+          },
+          "moved": 0,
+          "state": "crouch",
+          "frame": 4
+        },
+        {
+          "input": {
+            "x": 1
+          },
+          "moved": 109.375,
+          "state": "forward",
+          "frame": 0
+        },
+        {
+          "input": {
+            "x": 1,
+            "run": true
+          },
+          "moved": 105,
+          "state": "forward",
+          "frame": 24
+        },
+        {
+          "input": {},
+          "moved": 0,
+          "state": "idle",
+          "frame": 16
+        }
+      ],
+      "canRun": false,
+      "maximumStep": 8.75,
+      "errors": []
     }
   ],
   "errors": []

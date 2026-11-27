@@ -20,7 +20,7 @@ Para preparar uma partida no mesmo aparelho, abra <http://localhost:8765/expansa
 ## Estado atual
 
 - 43 personagens selecionáveis, separando os universos MK e SF, com repertórios implementados em revisão.
-- Caminhada aprovada para os 26 personagens MK e para Ken, Sagat, Zangief, Dhalsim e Cammy. Os outros 12 SF permanecem pendentes de correções na comparação nativa.
+- Caminhada para frente e para trás aprovada para os 43 personagens: 26 MK e 17 SF. Foram conferidas também as transições de direção, agachar/levantar e corrida onde existe no original.
 - Movimento, ataques básicos, defesa, agarrões, lança e teleporte, em calibração.
 - Especiais terrestres do Ryu, Tatsumaki aéreo e Shinku Hadouken em calibração.
 - Partidas simultâneas, câmera conforme sobreviventes e salas de rede local para 2 a 8 participantes; o motor aceita até 16.
@@ -28,7 +28,7 @@ Para preparar uma partida no mesmo aparelho, abra <http://localhost:8765/expansa
 - Desafio cooperativo do carro com cais, colisões, estados de dano e pontuação recuperados do SSF2. Relógio e efeitos ainda em revisão.
 - Capturas iniciais dos outros personagens, ferramentas de análise e relatórios de desenvolvimento.
 
-Implementação não significa validação integral: golpes, finalizações, cenários, áudio, colisões e controles em rede continuam exigindo comparação e correções. Esta publicação não certifica o jogo completo ou fidelidade integral aos arcades. Os dados experimentais de caminhada dos 12 SF pendentes não foram ativados.
+Implementação não significa validação integral: golpes, finalizações, cenários, áudio, colisões e controles em rede continuam exigindo comparação e correções. Esta publicação não certifica o jogo completo ou fidelidade integral aos arcades. Os 43 perfis de caminhada aprovados estão ativos; as demais validações do plano continuam separadas.
 
 As finalizações planejadas são as existentes no **UMK3 arcade**, sem Brutalities de console. Personagens SF preservam seu próprio repertório, sem finalizações inéditas.
 
@@ -40,7 +40,7 @@ Veja o [plano com as caixas atuais](Novo%20plano%20do%20projeto.txt), a [valida�
 npm test
 ```
 
-Executa os testes funcionais dos seis especiais do Ryu e os testes do protocolo de rede. Os testes abrem uma porta temporária e não encerram o servidor da instalação local. Outros testes e capturadores de pesquisa ainda dependem de caminhos, ferramentas e evidências da máquina de desenvolvimento; não fazem parte dessa rotina portátil. Aprovação funcional não comprova fidelidade integral aos arcades.
+Confere os recursos dos 43 perfis de caminhada, os testes funcionais dos seis especiais do Ryu e os testes do protocolo de rede. Os testes abrem uma porta temporária e não encerram o servidor da instalação local. Outros testes e capturadores de pesquisa ainda dependem de caminhos, ferramentas e evidências da máquina de desenvolvimento; não fazem parte dessa rotina portátil. Aprovação funcional não comprova fidelidade integral aos arcades.
 
 ## Organização e publicação
 

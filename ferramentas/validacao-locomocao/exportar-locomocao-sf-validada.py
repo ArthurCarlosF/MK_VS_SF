@@ -70,9 +70,21 @@ for folder in sorted((E/'original').iterdir()):
   family={f['native_pose_pointer'] for f in pack['clips'][name]['frames']}
   selected=[r for c in trace['cases'] for r in c['samples'] if r['after']['frame'] in family]
   pack['gait']['logicalRates'][name]=rate(selected)
- rising=[i for i,r in enumerate(rows) if r['after']['state'][1:3]==[2,2]]
- assert rising
- pack['gait']['logicalRates']['rise']=pack['gait']['standUpSamples']/len(rising)
+ rises=[]
+ for c in trace['cases']:
+  duration=0
+  for r in c['samples']:
+   if r['after']['state'][1:3]==[2,2]:duration+=1
+   elif duration:rises.append(duration);duration=0
+  if duration:rises.append(duration)
+ assert rises
+ pack['gait']['logicalRates']['rise']=pack['gait']['standUpSamples']*len(rises)/sum(rises)
+ for name in ['forward','backward']:
+  family={f['native_pose_pointer'] for f in pack['clips'][name]['frames']}
+  direction=1 if name=='forward' else -1;key=7 if direction==1 else 6
+  selected=[r for c in trace['cases'] for r in c['samples'] if key in r['keys'] and (r['after']['x']-r['before']['x'])*direction>0 and r['before']['frame'] in family and r['after']['frame'] in family and r['after']['p2_x']-r['after']['x']>=100]
+  distance=sum(abs(r['after']['x']-r['before']['x']) for r in selected)
+  pack['gait']['logicalRates'][name]=distance*pack['gait']['sourceScale']/(pack['gait'][name+'Speed']*len(selected))
  pack['gait']['clockEvidence']='All 14 calibration inputs, grouped by native animation family; rise uses observed native control state duration. Repeated validation captures are held separate.'
  if ident in frozen:pack=frozen[ident]
  packs[ident]=pack;audit.append({'id':ident,'gait':pack['gait'],'clips':{n:len(c['frames']) for n,c in pack['clips'].items()},'assets':len(pack['assets'])});print('EXPORT',ident,flush=True)

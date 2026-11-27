@@ -1,0 +1,278 @@
+[
+  {
+    "id": "akuma",
+    "before": {
+      "score": 36.00941953125,
+      "maximum": 0,
+      "visual": 18,
+      "squared": 0
+    },
+    "after": {
+      "score": 12.00909609375,
+      "maximum": 0,
+      "visual": 6,
+      "squared": 0
+    },
+    "rates": {
+      "idle": 1.4529390681003587,
+      "crouch": 1.2249999999999999,
+      "forward": 1.41066081871345,
+      "backward": 1.4366697247706421,
+      "rise": 1.3238030303030304
+    },
+    "evaluations": 846
+  },
+  {
+    "id": "ryu",
+    "before": {
+      "score": 608.0127375,
+      "maximum": 2.5,
+      "visual": 4,
+      "squared": 412.5
+    },
+    "after": {
+      "score": 0.0062578124999999995,
+      "maximum": 0,
+      "visual": 0,
+      "squared": 0
+    },
+    "rates": {
+      "idle": 1.295,
+      "crouch": 1.3649999999999998,
+      "forward": 1.3243333333333331,
+      "backward": 1.345373831775701,
+      "rise": 1.1558333333333333
+    },
+    "evaluations": 671
+  },
+  {
+    "id": "sf-1",
+    "before": {
+      "score": 0.00472578125,
+      "maximum": 0,
+      "visual": 0,
+      "squared": 0
+    },
+    "after": {
+      "score": 0.0028546875,
+      "maximum": 0,
+      "visual": 0,
+      "squared": 0
+    },
+    "rates": {
+      "idle": 1.320211267605634,
+      "crouch": 1.247,
+      "forward": 1.237157894736842,
+      "backward": 1.2586023222060956,
+      "rise": 1.1941666666666664
+    },
+    "evaluations": 741
+  },
+  {
+    "id": "sf-13",
+    "before": {
+      "score": 0.004909375,
+      "maximum": 0,
+      "visual": 0,
+      "squared": 0
+    },
+    "after": {
+      "score": 0.00249453125,
+      "maximum": 0,
+      "visual": 0,
+      "squared": 0
+    },
+    "rates": {
+      "idle": 1.2821398601398604,
+      "crouch": 1.4649999999999996,
+      "forward": 1.343170731707317,
+      "backward": 1.3451538461538464,
+      "rise": 1.156346153846154
+    },
+    "evaluations": 706
+  },
+  {
+    "id": "sf-14",
+    "before": {
+      "score": 0.0093296875,
+      "maximum": 0,
+      "visual": 0,
+      "squared": 0
+    },
+    "after": {
+      "score": 0.0090796875,
+      "maximum": 0,
+      "visual": 0,
+      "squared": 0
+    },
+    "rates": {
+      "idle": 1.325,
+      "crouch": 1.2750000000000001,
+      "forward": 1.3191068580542267,
+      "backward": 1.3205656909462218,
+      "rise": 1.1258333333333332
+    },
+    "evaluations": 566
+  },
+  {
+    "id": "sf-15",
+    "before": {
+      "score": 0.00622109375,
+      "maximum": 0,
+      "visual": 0,
+      "squared": 0
+    },
+    "after": {
+      "score": 0.00615390625,
+      "maximum": 0,
+      "visual": 0,
+      "squared": 0
+    },
+    "rates": {
+      "idle": 1.2560288808664257,
+      "crouch": 1.2650000000000001,
+      "forward": 1.270871794871795,
+      "backward": 1.293037037037037,
+      "rise": 1.2392972972972975
+    },
+    "evaluations": 496
+  },
+  {
+    "id": "sf-2",
+    "before": {
+      "score": 0.006045703124999999,
+      "maximum": 0,
+      "visual": 0,
+      "squared": 0
+    },
+    "after": {
+      "score": 0.0058800781249999995,
+      "maximum": 0,
+      "visual": 0,
+      "squared": 0
+    },
+    "rates": {
+      "idle": 1.302,
+      "crouch": 1.185,
+      "forward": 1.2806262626262626,
+      "backward": 1.2748501529051985,
+      "rise": 1.2783333333333335
+    },
+    "evaluations": 496
+  },
+  {
+    "id": "sf-3",
+    "before": {
+      "score": 0.00482265625,
+      "maximum": 0,
+      "visual": 0,
+      "squared": 0
+    },
+    "after": {
+      "score": 0.00423203125,
+      "maximum": 0,
+      "visual": 0,
+      "squared": 0
+    },
+    "rates": {
+      "idle": 1.349692307692308,
+      "crouch": 1.075,
+      "forward": 1.341459801264679,
+      "backward": 1.3234285714285714,
+      "rise": 1.1257333333333333
+    },
+    "evaluations": 426
+  },
+  {
+    "id": "sf-4",
+    "before": {
+      "score": 6.004812109375,
+      "maximum": 0,
+      "visual": 3,
+      "squared": 0
+    },
+    "after": {
+      "score": 0.004440234375,
+      "maximum": 0,
+      "visual": 0,
+      "squared": 0
+    },
+    "rates": {
+      "idle": 1.437877192982456,
+      "crouch": 1.525,
+      "forward": 1.3122499999999997,
+      "backward": 1.3396153846153847,
+      "rise": 1.29031746031746
+    },
+    "evaluations": 531
+  },
+  {
+    "id": "sf-5",
+    "before": {
+      "score": 8.00676015625,
+      "maximum": 0,
+      "visual": 4,
+      "squared": 0
+    },
+    "after": {
+      "score": 0.00705703125,
+      "maximum": 0,
+      "visual": 0,
+      "squared": 0
+    },
+    "rates": {
+      "idle": 1.385726618705036,
+      "crouch": 1.4049999999999998,
+      "forward": 1.3770886075949367,
+      "backward": 1.3845061728395063,
+      "rise": 1.43110101010101
+    },
+    "evaluations": 636
+  },
+  {
+    "id": "sf-6",
+    "before": {
+      "score": 0.0047796875,
+      "maximum": 0,
+      "visual": 0,
+      "squared": 0
+    },
+    "after": {
+      "score": 0.004653125,
+      "maximum": 0,
+      "visual": 0,
+      "squared": 0
+    },
+    "rates": {
+      "idle": 1.3354255319148938,
+      "crouch": 1.098,
+      "forward": 1.3330656610470273,
+      "backward": 1.3365339233038347,
+      "rise": 1.19
+    },
+    "evaluations": 496
+  },
+  {
+    "id": "sf-9",
+    "before": {
+      "score": 24.02058515625,
+      "maximum": 0,
+      "visual": 12,
+      "squared": 0
+    },
+    "after": {
+      "score": 0.0071867187499999995,
+      "maximum": 0,
+      "visual": 0,
+      "squared": 0
+    },
+    "rates": {
+      "idle": 1.4121799307958476,
+      "crouch": 1.329,
+      "forward": 1.303732484076433,
+      "backward": 1.2832456140350879,
+      "rise": 0.9056184210526316
+    },
+    "evaluations": 714
+  }
+]

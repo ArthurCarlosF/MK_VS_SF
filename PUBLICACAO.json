@@ -1,7 +1,7 @@
 {
-  "version": "validacao-locomocao-2026-11-22",
+  "version": "validacao-locomocao-2026-11-27",
   "completeGame": false,
-  "included": "Elenco atual implementado, recursos exportados, rede e resumos de validação; 31 caminhadas aprovadas e 12 SF pendentes.",
+  "included": "Elenco atual e recursos exportados; caminhada para frente e para trás dos 43 personagens aprovada, com registros de comparação e conferência na instalação.",
   "excludedDirectories": [
     ".git",
     "__pycache__",
@@ -28,6 +28,6 @@
     "files": 3061,
     "legacyFilesVerified": 677
   },
-  "approvedWalkingCharacters": 31,
-  "pendingSfWalkingCharacters": 12
+  "approvedWalkingCharacters": 43,
+  "pendingSfWalkingCharacters": 0
 }

@@ -14,7 +14,7 @@
   n.sfPhase+=data.logicalRates[rateName];const steps=Math.floor(n.sfPhase);n.sfPhase-=steps;
   for(let i=0;i<steps;i++){
    const input=n.sfPendingInput||{};n.sfPendingInput=latched;const down=!!input.down;
-   if(n.wasDown&&!down){n.rising=true;n.riseAge=0;n.walkDirection=0;}
+   if(n.wasDown&&!down){n.rising=true;n.riseAge=data.riseEntryIndex||0;n.walkDirection=0;}
    let state,index;
    if(n.rising){
     if(n.riseAge<data.standUpSamples){state='nativeGaitRise';index=n.riseAge++;}

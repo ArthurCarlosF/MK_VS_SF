@@ -343,8 +343,8 @@ SUBPASSOS — STREET FIGHTER
 
 [ ] 1.27 — Ryu
     [X] Disponível na seleção.
-    [ ] Caminhada para frente 
-    [ ] Caminhada para trás
+    [X] Caminhada para frente 
+    [X] Caminhada para trás
     [ ] Pulos
     [ ] golpes básicos
     [ ] golpes em sequencia
@@ -369,8 +369,8 @@ SUBPASSOS — STREET FIGHTER
 
 [ ] 1.29 — Chun-Li
     [X] Disponível na seleção.
-    [ ] Caminhada para frente 
-    [ ] Caminhada para trás
+    [X] Caminhada para frente 
+    [X] Caminhada para trás
     [ ] Pulos
     [ ] golpes básicos
     [ ] golpes em sequencia
@@ -382,8 +382,8 @@ SUBPASSOS — STREET FIGHTER
 
 [ ] 1.30 — Guile
     [X] Disponível na seleção.
-    [ ] Caminhada para frente 
-    [ ] Caminhada para trás
+    [X] Caminhada para frente 
+    [X] Caminhada para trás
     [ ] Pulos
     [ ] golpes básicos
     [ ] golpes em sequencia
@@ -395,8 +395,8 @@ SUBPASSOS — STREET FIGHTER
 
 [ ] 1.31 — E. Honda
     [X] Disponível na seleção.
-    [ ] Caminhada para frente 
-    [ ] Caminhada para trás
+    [X] Caminhada para frente 
+    [X] Caminhada para trás
     [ ] Pulos
     [ ] golpes básicos
     [ ] golpes em sequencia
@@ -408,8 +408,8 @@ SUBPASSOS — STREET FIGHTER
 
 [ ] 1.32 — Blanka
     [X] Disponível na seleção.
-    [ ] Caminhada para frente 
-    [ ] Caminhada para trás
+    [X] Caminhada para frente 
+    [X] Caminhada para trás
     [ ] Pulos
     [ ] golpes básicos
     [ ] golpes em sequencia
@@ -460,8 +460,8 @@ SUBPASSOS — STREET FIGHTER
 
 [ ] 1.36 — Fei Long
     [X] Disponível na seleção.
-    [ ] Caminhada para frente 
-    [ ] Caminhada para trás
+    [X] Caminhada para frente 
+    [X] Caminhada para trás
     [ ] Pulos
     [ ] golpes básicos
     [ ] golpes em sequencia
@@ -473,8 +473,8 @@ SUBPASSOS — STREET FIGHTER
 
 [ ] 1.37 — T. Hawk
     [X] Disponível na seleção.
-    [ ] Caminhada para frente 
-    [ ] Caminhada para trás
+    [X] Caminhada para frente 
+    [X] Caminhada para trás
     [ ] Pulos
     [ ] golpes básicos
     [ ] golpes em sequencia
@@ -486,8 +486,8 @@ SUBPASSOS — STREET FIGHTER
 
 [ ] 1.38 — Dee Jay
     [X] Disponível na seleção.
-    [ ] Caminhada para frente 
-    [ ] Caminhada para trás
+    [X] Caminhada para frente 
+    [X] Caminhada para trás
     [ ] Pulos
     [ ] golpes básicos
     [ ] golpes em sequencia
@@ -499,8 +499,8 @@ SUBPASSOS — STREET FIGHTER
 
 [ ] 1.39 — Balrog
     [X] Disponível na seleção.
-    [ ] Caminhada para frente 
-    [ ] Caminhada para trás
+    [X] Caminhada para frente 
+    [X] Caminhada para trás
     [ ] Pulos
     [ ] golpes básicos
     [ ] golpes em sequencia
@@ -512,8 +512,8 @@ SUBPASSOS — STREET FIGHTER
 
 [ ] 1.40 — Vega
     [X] Disponível na seleção.
-    [ ] Caminhada para frente 
-    [ ] Caminhada para trás
+    [X] Caminhada para frente 
+    [X] Caminhada para trás
     [ ] Pulos
     [ ] golpes básicos
     [ ] golpes em sequencia
@@ -538,8 +538,8 @@ SUBPASSOS — STREET FIGHTER
 
 [ ] 1.42 — M. Bison
     [X] Disponível na seleção.
-    [ ] Caminhada para frente 
-    [ ] Caminhada para trás
+    [X] Caminhada para frente 
+    [X] Caminhada para trás
     [ ] Pulos
     [ ] golpes básicos
     [ ] golpes em sequencia
@@ -551,8 +551,8 @@ SUBPASSOS — STREET FIGHTER
 
 [ ] 1.43 — Akuma
     [X] Disponível na seleção.
-    [ ] Caminhada para frente 
-    [ ] Caminhada para trás
+    [X] Caminhada para frente 
+    [X] Caminhada para trás
     [ ] Pulos
     [ ] golpes básicos
     [ ] golpes em sequencia

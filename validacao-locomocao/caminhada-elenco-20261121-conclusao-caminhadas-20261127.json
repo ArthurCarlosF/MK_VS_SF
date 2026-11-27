@@ -1,0 +1,239 @@
+{
+  "date": "2026-11-27",
+  "approvedWalkingCharacters": 43,
+  "sfComparedScenarios": 442,
+  "sfFailedScenarios": 0,
+  "sfMaximumPixelsOutsideNativeEnvelope": 1.0,
+  "sfVisualMismatches": 0,
+  "browserSource": 43,
+  "browserInstalled": 43,
+  "combatRegressionPassed": 3384,
+  "newWalkingCheckboxes": 24,
+  "walkingCheckboxes": 86,
+  "nativeWitnesses": [
+    {
+      "id": "akuma",
+      "files": [
+        {
+          "file": "variacao-turbo.json",
+          "sha256": "9b2fb6958557631d1897b779ac580f180b114ef825e98c42fa77a3ab3f952d93"
+        },
+        {
+          "file": "variacao-turbo-adicional-20261127.json",
+          "sha256": "3bc17b3e24320f03df5021a3a3476c059af61cb965a1c17a6fb5ae79dc01e87d"
+        },
+        {
+          "file": "variacao-turbo-final-akuma-20261127.json",
+          "sha256": "e7ffb99d9eaef15863f74c1232aacf5d21ac7ca59a116c228505be449300042d"
+        }
+      ],
+      "repeats": 24
+    },
+    {
+      "id": "ryu",
+      "files": [
+        {
+          "file": "variacao-turbo.json",
+          "sha256": "feebee09c16f97855a22b51c39648d9d51f747e3a6bdea07fa73d7a51c43b27c"
+        },
+        {
+          "file": "variacao-turbo-adicional-20261127.json",
+          "sha256": "c8dd82cc4919f271ab1412ca4369cf7490e24df3a2381a063fa1f3c94dae6a22"
+        }
+      ],
+      "repeats": 18
+    },
+    {
+      "id": "sf-1",
+      "files": [
+        {
+          "file": "variacao-turbo.json",
+          "sha256": "ce97c8fb16b6fce7e949c8bf76934b14495f8064cdb7d81bd5945197ec48328d"
+        },
+        {
+          "file": "variacao-turbo-adicional-20261127.json",
+          "sha256": "930507a4190103f206c95dab00964eb0d94508b59d1fe0fd8abd6db1bfe85324"
+        }
+      ],
+      "repeats": 18
+    },
+    {
+      "id": "sf-10",
+      "files": [
+        {
+          "file": "variacao-turbo.json",
+          "sha256": "ee60be51a8f03220126eb73b3ad58c6bbf69ee9a2432352f84b3ed9b87bcacee"
+        }
+      ],
+      "repeats": 6
+    },
+    {
+      "id": "sf-11",
+      "files": [
+        {
+          "file": "variacao-turbo.json",
+          "sha256": "9df76f9205a3cde47a0063a603b0e726814fddcb9c18194c0979d74976bd1e43"
+        }
+      ],
+      "repeats": 6
+    },
+    {
+      "id": "sf-12",
+      "files": [
+        {
+          "file": "variacao-turbo.json",
+          "sha256": "2305c81ab4be5806a9824a8bdef7ae4ae5488ced85991023fc3e2a180d47a759"
+        }
+      ],
+      "repeats": 6
+    },
+    {
+      "id": "sf-13",
+      "files": [
+        {
+          "file": "variacao-turbo.json",
+          "sha256": "190c8e1f147f3a5179244bc843b994f97a40de3d0b41fea39ef23d878905e592"
+        },
+        {
+          "file": "variacao-turbo-adicional-20261127.json",
+          "sha256": "318626244941d4cbc0bfab747f63aded8a191fbfa35113f05673e037f27edbc0"
+        }
+      ],
+      "repeats": 18
+    },
+    {
+      "id": "sf-14",
+      "files": [
+        {
+          "file": "variacao-turbo.json",
+          "sha256": "77f2ad9697f925831bdbf278cb590f36549117728b7487f728df71475f59ea2f"
+        },
+        {
+          "file": "variacao-turbo-adicional-20261127.json",
+          "sha256": "208e3e656fd34fada45a93f759f4740e79e5dce733d7f8234747fde1e892ce84"
+        }
+      ],
+      "repeats": 18
+    },
+    {
+      "id": "sf-15",
+      "files": [
+        {
+          "file": "variacao-turbo.json",
+          "sha256": "d17a6cdd8a056c5893c645f76eeafcbd2fef84d40cdfe67d9b7df6ed7c3366c8"
+        },
+        {
+          "file": "variacao-turbo-adicional-20261127.json",
+          "sha256": "d245942fa62fb0a85ca7732e65584af36ae87afd4ae4e4105bc67d7a1c5f215b"
+        }
+      ],
+      "repeats": 18
+    },
+    {
+      "id": "sf-2",
+      "files": [
+        {
+          "file": "variacao-turbo.json",
+          "sha256": "99b36965d7bddf929c158fc5e7b434fac9307b98d1229fe5a9f893ba5203c727"
+        },
+        {
+          "file": "variacao-turbo-adicional-20261127.json",
+          "sha256": "bfc8bec9812fad7ba4d94821ca4dae7615078891095f91ede0b15471fa71e52e"
+        }
+      ],
+      "repeats": 18
+    },
+    {
+      "id": "sf-3",
+      "files": [
+        {
+          "file": "variacao-turbo.json",
+          "sha256": "eb5761a68a79d39b6c6adcfe515a54fd152ecfe3d09cfe355d9910a929c77d95"
+        },
+        {
+          "file": "variacao-turbo-adicional-20261127.json",
+          "sha256": "fdf63cb04d43fa4ccef7f59e2df75dfd1d0db7e08ca9026bced33f9ed04f9753"
+        }
+      ],
+      "repeats": 18
+    },
+    {
+      "id": "sf-4",
+      "files": [
+        {
+          "file": "variacao-turbo.json",
+          "sha256": "4a414d2fbd292f355bf4fa1998ed1543cf2f810e3449520fae59af709db5ab56"
+        },
+        {
+          "file": "variacao-turbo-adicional-20261127.json",
+          "sha256": "bc3742a25d477f04e587704bd5619a7b37761b8bbadd885245f32eefc45cbf66"
+        }
+      ],
+      "repeats": 18
+    },
+    {
+      "id": "sf-5",
+      "files": [
+        {
+          "file": "variacao-turbo.json",
+          "sha256": "eee837c61da8b8afcf7fe947bddc8823ca5dfeb3111f04fe6b9dc920547a85db"
+        },
+        {
+          "file": "variacao-turbo-adicional-20261127.json",
+          "sha256": "a68a5316f28cdd650fa60464226b3c65e5ff96f20f3b3ba530810e7aacfd805e"
+        }
+      ],
+      "repeats": 18
+    },
+    {
+      "id": "sf-6",
+      "files": [
+        {
+          "file": "variacao-turbo.json",
+          "sha256": "be170d25da87b68b24c28d80d73c694fe8854604bb703bc2d38bebd263208ce7"
+        },
+        {
+          "file": "variacao-turbo-adicional-20261127.json",
+          "sha256": "d1fa4dd2355202a0cf9d7452df63779ac0bed0a24ee9d1a7b2dd679a9264fb36"
+        }
+      ],
+      "repeats": 18
+    },
+    {
+      "id": "sf-7",
+      "files": [
+        {
+          "file": "variacao-turbo.json",
+          "sha256": "4ad65aeefcbd72b0e35feac9d7b714e2538fe9ee8deb76fab3288f0c2a858c77"
+        }
+      ],
+      "repeats": 6
+    },
+    {
+      "id": "sf-8",
+      "files": [
+        {
+          "file": "variacao-turbo.json",
+          "sha256": "62b918dee3d4ea2a08b86bd48d71d618944adc76c4b4230a62e4e2c3c7ad9923"
+        }
+      ],
+      "repeats": 6
+    },
+    {
+      "id": "sf-9",
+      "files": [
+        {
+          "file": "variacao-turbo.json",
+          "sha256": "e2bcb0cb08a3ef0265917c198fef5d7b431a84f60deb0232714b3dc8f2b70f76"
+        },
+        {
+          "file": "variacao-turbo-adicional-20261127.json",
+          "sha256": "ba793a53c8127aee8c98312838195c2abd1716c2ad2c2e8a8108ee6daa17902a"
+        }
+      ],
+      "repeats": 18
+    }
+  ],
+  "installedFileCount": 1136,
+  "scope": "Forward/backward walks, directional transitions, duck/rise and run/no-run behavior. This does not certify every move, finisher, body collision or complete character."
+}

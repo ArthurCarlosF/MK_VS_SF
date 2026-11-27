@@ -8,12 +8,12 @@ source=W/'arena/locomocao-validada-data.js';packs=json.JSONDecoder().raw_decode(
 boss=json.loads((W/'evidencias/caminhada-chefes-20261122/comparacao.json').read_text())['results'];assert len(boss)==6 and all(r['pass'] for r in boss)
 sf=json.loads((E/'promocao-sf.json').read_text())['approvedCharacters']
 approved={r['id'] for r in mk}|{r['id'] for r in boss}|set(sf)
-assert set(packs)==approved and len(packs)==31
+assert set(packs)==approved and len(packs)==43 and len(sf)==17
 browser=json.loads((E/'interface.json').read_text());assert browser['status']=='PASS' and {r['id'] for r in browser['results']}==approved
-html=W/'arena/index.html';s=html.read_text('utf8');s=re.sub(r'(src="(?:locomocao-validada(?:-data)?|arena)\.js\?v=)[^"]*',r'\g<1>caminhada-20261122-1',s);html.write_text(s,encoding='utf8')
+html=W/'arena/index.html';s=html.read_text('utf8');s=re.sub(r'(src="(?:locomocao-validada(?:-data)?|arena)\.js\?v=)[^"]*',r'\g<1>caminhada-20261127-1',s);html.write_text(s,encoding='utf8')
 files=['arena/index.html','arena/arena.js','rede/server.cjs','arena/locomocao-validada.js','arena/locomocao-validada-data.js']
 files+=sorted({'arena/'+a['file'] for p in packs.values() for a in p['assets'].values()})
-backup=E/'backup-instalacao-20261122';audit=[]
+backup=E/'backup-instalacao-20261127';audit=[]
 for relative in files:
  src=W/relative;dst=I/relative;previous=backup/relative
  if dst.exists() and not previous.exists():previous.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(dst,previous)

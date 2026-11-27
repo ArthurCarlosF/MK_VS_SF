@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "node expansao/rede/server.cjs",
-    "test": "node expansao/testar-especiais-ryu.cjs && node expansao/rede/testar-rede.cjs"
+    "test": "node validacao-locomocao/verificar-recursos.cjs && node expansao/testar-especiais-ryu.cjs && node expansao/rede/testar-rede.cjs"
   },
   "dependencies": {
     "faye-websocket": "0.11.4"

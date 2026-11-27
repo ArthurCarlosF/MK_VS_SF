@@ -1,14 +1,19 @@
-VALIDAÇÃO DAS CAMINHADAS — 22/11/2026
+VALIDAÇÃO DAS CAMINHADAS — 27/11/2026
 
-31 personagens aprovados: os 26 de MK, Ken, Sagat, Zangief, Dhalsim e Cammy.
-As caixas de caminhada para frente e para trás destes personagens foram marcadas.
-Permanecem pendentes: Ryu, Akuma, E. Honda, Blanka, Guile, T. Hawk, Fei Long, Balrog, Chun-Li, Dee Jay, Vega e M. Bison.
+Concluída a rodada de caminhada dos 43 personagens: 26 MK e 17 SF.
+Os 12 SF que estavam pendentes foram aprovados: Ryu, Chun-Li, Guile, E. Honda, Blanka, Fei Long, T. Hawk, Dee Jay, Balrog, Vega, M. Bison e Akuma.
+As 86 caixas de caminhada para frente e para trás estão marcadas. Nesta rodada, somente os espaços das 24 caixas restantes foram trocados por X; o restante do plano foi preservado.
 
-Comparação com capturas dos jogos originais: 644 casos dos 23 personagens comuns de MK; seis grupos de caminhada dos três chefes, espelhados para ambos os lados; cinco personagens SF aprovados nos 26 percursos e lados, com seis repetições nativas para verificar a variação de Turbo.
-Tolerância: um quadro nativo e um pixel nativo. Foram comparadas posições, poses, entrada e saída da caminhada, inversão, abaixar e levantar. Corrida somente onde existe no original.
-Chefes usam caminhadas observadas na inteligência artificial original. Seus controles humanos são uma adaptação do crossover. Motaro e Shao Kahn não recebem agachamento ou corrida inventados. Noob usa a tabela nativa compartilhada de animação ninja e sua própria paleta; não houve captura de agachamento comandado por jogador no arcade.
+Street Fighter: 442 comparações aprovadas, sem divergências de poses fora da janela aceita. São 13 percursos nos dois lados para os 17 personagens: avanço, recuo, soltura, inversão, agachamento, levantar, diagonais e botão de corrida sem criar corrida inexistente no SF.
+Os 12 pendentes têm 18 repetições nativas por percurso; Akuma recebeu ainda seis repetições independentes após sua correção final, totalizando 24. Os cinco SF anteriormente aprovados mantêm suas seis referências.
+O critério continua sendo posição dentro da faixa de variação medida no original, com tolerância de um pixel nativo e um quadro nativo; poses usam a mesma janela temporal. Isto não significa trajetórias idênticas quadro a quadro em todas as fases de Turbo.
+Uma contraprova original contra original demonstrou que a antiga amostra de seis repetições não cobria outras fases do próprio arcade: 95 de 156 casos ficaram fora, sendo 52 com diferença de posição. A amostra foi ampliada sem modificar ROM, rotinas, frequência de CPU ou tolerância. Os parâmetros foram mantidos fixos durante a captura ampliada; a correção posterior do temporizador de Akuma foi conferida com seis novas repetições.
+O deslocamento por atualização lógica e as sequências de sprites vêm das fontes nativas. O temporizador de Akuma foi medido diretamente em 611 intervalos de animação parada, evitando confundir o contador geral do jogo com o contador do personagem.
 
-Verificação visual no navegador: 31 personagens; instalação: mais oito verificações dos recém-promovidos. Regressão do combate: 3384 verificações aprovadas.
-O escopo aprovado é locomoção livre. Colisão entre corpos, cantos, combate completo, todos os golpes e finalizações não são certificados por este relatório.
-915 arquivos instalados, com cópia de segurança e comparação de hashes. Os dados experimentais dos 12 SF pendentes não foram ativados no jogo instalado.
-O plano recebeu apenas alterações nas caixas de seleção. Nenhum outro item foi marcado por consequência desta caminhada.
+MK: preservadas as 644 comparações dos 23 personagens comuns e os seis grupos de caminhada dos três chefes, para ambos os lados.
+Chefes usam caminhadas observadas na inteligência artificial original; seus controles humanos são uma adaptação do crossover. Motaro e Shao Kahn não recebem agachamento ou corrida inventados. Noob usa a tabela ninja compartilhada da ROM com sua paleta; não houve captura de agachamento comandado por jogador no arcade.
+
+Verificação no navegador: 43 personagens na bancada e 43 na instalação, sem erros de recursos. Regressão de combate: 3384 verificações aprovadas.
+A instalação tem cópia de segurança em expansao-trabalho/evidencias/caminhada-elenco-20261121/backup-instalacao-20261127, com hashes conferidos. A referência a expansao-trabalho corresponde à bancada em C:/Users/Pichau/Documents/ChatGPT/ALL_FIGHT.
+
+Escopo: locomoção livre e suas transições. Esta rodada não certifica todos os golpes, finalizações, colisões entre corpos ou a validação completa dos personagens. As outras caixas permaneceram como estavam.
